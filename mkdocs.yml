@@ -8,6 +8,8 @@ site_author: RS Christopher
 repo_url: https://github.com/rschristopher/rschristopher.github.io
 repo_name: rschristopher/rschristopher.github.io
 edit_uri: ""
+docs_dir: src
+site_dir: docs
 
 theme:
     name: material
