@@ -6,12 +6,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/self-custody/</loc>
+         <loc>https://rschristopher.github.io/custody/</loc>
          <lastmod>2022-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/store-of-value/</loc>
+         <loc>https://rschristopher.github.io/custody/self-custody/</loc>
+         <lastmod>2022-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/what-is-bitcoin/</loc>
+         <lastmod>2022-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/what-is-bitcoin/store-of-value/</loc>
          <lastmod>2022-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>

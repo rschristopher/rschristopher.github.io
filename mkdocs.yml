@@ -13,6 +13,8 @@ site_dir: docs
 
 theme:
     name: material
+    features:
+        - navigation.indexes
     palette:
         primary: black
     custom_dir: mkdocs-overrides
@@ -21,9 +23,11 @@ theme:
 
 nav:
     - What is Bitcoin?:
-        - Store of Value: store-of-value.md
+        - what-is-bitcoin/index.md
+        - Store of Value: what-is-bitcoin/store-of-value.md
     - Custody:
-        - Self Custody: self-custody.md
+        - custody/index.md
+        - Self Custody: custody/self-custody.md
 
 markdown_extensions:
   - admonition
