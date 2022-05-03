@@ -4,10 +4,6 @@ site_name: "Is Bitcoin True?"
 site_url: https://rschristopher.github.io/
 site_description: "Is Bitcoin True?"
 site_author: RS Christopher
-
-repo_url: https://github.com/rschristopher/rschristopher.github.io
-repo_name: rschristopher/rschristopher.github.io
-edit_uri: ""
 docs_dir: src
 site_dir: docs
 
@@ -16,7 +12,16 @@ theme:
     features:
         - navigation.indexes
     palette:
-        primary: black
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
     custom_dir: mkdocs-overrides
     logo: images/logo.png
     favicon: images/favicon.png
