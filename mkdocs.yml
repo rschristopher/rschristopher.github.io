@@ -1,8 +1,8 @@
 # -*- mode: yaml -*-
 # vim: set filetype=yaml tabstop=4 shiftwidth=4 autoindent smartindent:
-site_name: "Is Bitcoin True"
+site_name: "Is Bitcoin True?"
 site_url: https://rschristopher.github.io/
-site_description: "Is Bitcoin True"
+site_description: "Is Bitcoin True?"
 site_author: RS Christopher
 
 repo_url: https://github.com/rschristopher/rschristopher.github.io
@@ -21,9 +21,9 @@ theme:
 
 nav:
     - What is Bitcoin?:
-        - Conventional Commits: foo.md
+        - Store of Value: store-of-value.md
     - Custody:
-        - Self Custody: foo.md
+        - Self Custody: self-custody.md
 
 markdown_extensions:
   - admonition

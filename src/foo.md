@@ -1,2 +1,0 @@
-# Is Bitcoin True?
-foo

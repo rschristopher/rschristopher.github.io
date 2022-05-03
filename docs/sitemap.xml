@@ -6,7 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/foo/</loc>
+         <loc>https://rschristopher.github.io/self-custody/</loc>
+         <lastmod>2022-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/store-of-value/</loc>
          <lastmod>2022-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
