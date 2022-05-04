@@ -26,12 +26,12 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install Python dependencies
+      - name: Poetry
         run: |
           pip install poetry
           poetry install
 
-      - name: build 
+      - name: Build Site and Push
         run: |
           make build
           git config --global user.name 'rschristopher'
