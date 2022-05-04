@@ -1,7 +1,10 @@
 .PHONY: build run
 
 build:
+	git checkout docs
+	git pull
 	mkdocs build
 
-run:
+run: build
 	mkdocs serve
+

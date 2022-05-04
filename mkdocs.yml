@@ -6,53 +6,64 @@ site_description: "Is Bitcoin True?"
 site_author: RS Christopher
 docs_dir: src
 site_dir: docs
-
+extra_css:
+    - css/extra.css
 theme:
     name: material
     features:
         - navigation.indexes
+        - navigation.sections
+        - navigation.tabs
+        - navigation.top
     palette:
-    - scheme: default
-      primary: black
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: orange
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
-      primary: black
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to light mode
     custom_dir: mkdocs-overrides
-    logo: images/logo.png
+    logo: images/bitcoin-logo-bw.png
     favicon: images/favicon.png
 
 nav:
-    - What is Bitcoin?:
-        - what-is-bitcoin/index.md
-        - Unit of Account: what-is-bitcoin/unit-of-account.md
-        - Medium of Exchange: what-is-bitcoin/medium-of-exchange.md
-        - Store of Value: what-is-bitcoin/store-of-value.md
-    - Is Bitcoin True:
+    - Is Bitcoin True?:
         - 'is-bitcoin-true/index.md'
         - Is Sound Money Important?: 'is-bitcoin-true/is-sound-money-important.md'
         - Is Fixed Supply Important?: 'is-bitcoin-true/is-fixed-supply-important.md'
         - Is Fixed Supply Feasible?: 'is-bitcoin-true/is-fixed-supply-feasible.md'
         - Is it Possible to Separate Money and State?: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
         - Why is it not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
+    - What is Bitcoin?:
+        - what-is-bitcoin/index.md
+        - Unit of Account: what-is-bitcoin/unit-of-account.md
+        - Medium of Exchange: what-is-bitcoin/medium-of-exchange.md
+        - Store of Value: what-is-bitcoin/store-of-value.md
     - Custody:
-        - custody/index.md
-        - Generate Keys: custody/self-custody.md
-        - True Multisig: custody/self-custody.md
+        - Generate Keys: custody/generate-keys.md
         - Secure Your Keys: custody/self-custody.md
+        - True Multisig: custody/self-custody.md
+        - Custom Protocol: custody/self-custody.md
+        - Proof of Control: custody/self-custody.md
         - Keyless Vault and Covenant: custody/self-custody.md
         - Network Security: custody/self-custody.md
         - Run a Full Node: custody/self-custody.md
         - Physical Security: custody/self-custody.md
     - Execution:
-        - execution/index.md
-        - Exchanges: execution/index.md
+        - Exchanges: execution/exchanges.md
         - AML/KYC: execution/index.md
         - P2P: execution/index.md
+    - Financing:
+        - financing/index.md
+        - Loans and Loan Service: financing/index.md
+        - Derivatives and Options: financing/index.md
     - Payments:
         - payments/index.md
         - Base Layer (on-chain): payments/index.md
@@ -62,10 +73,6 @@ nav:
         - mining/index.md
         - Coinbase: mining/index.md
         - PoW and Energy Money: mining/index.md
-    - Financing:
-        - financing/index.md
-        - Loans and Loan Service: financing/index.md
-        - Derivatives and Options: financing/index.md
     - Criticisms:
         - criticisms/index.md
         - Environment: criticisms/index.md
