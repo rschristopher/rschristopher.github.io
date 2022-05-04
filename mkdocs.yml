@@ -29,12 +29,55 @@ theme:
 nav:
     - What is Bitcoin?:
         - what-is-bitcoin/index.md
+        - Unit of Account: what-is-bitcoin/unit-of-account.md
+        - Medium of Exchange: what-is-bitcoin/medium-of-exchange.md
         - Store of Value: what-is-bitcoin/store-of-value.md
+    - Is Bitcoin True:
+        - 'is-bitcoin-true/index.md'
+        - Is Sound Money Important?: 'is-bitcoin-true/is-sound-money-important.md'
+        - Is Fixed Supply Important?: 'is-bitcoin-true/is-fixed-supply-important.md'
+        - Is Fixed Supply Feasible?: 'is-bitcoin-true/is-fixed-supply-feasible.md'
+        - Is it Possible to Separate Money and State?: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
+        - Why is it not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
     - Custody:
         - custody/index.md
-        - Self Custody: custody/self-custody.md
+        - Generate Keys: custody/self-custody.md
+        - True Multisig: custody/self-custody.md
+        - Secure Your Keys: custody/self-custody.md
+        - Keyless Vault and Covenant: custody/self-custody.md
+        - Network Security: custody/self-custody.md
+        - Run a Full Node: custody/self-custody.md
+        - Physical Security: custody/self-custody.md
+    - Execution:
+        - execution/index.md
+        - Exchanges: execution/index.md
+        - AML/KYC: execution/index.md
+        - P2P: execution/index.md
+    - Payments:
+        - payments/index.md
+        - Base Layer (on-chain): payments/index.md
+        - Second Layer (lightning): payments/index.md
+        - Localism: payments/index.md
+    - Mining:
+        - mining/index.md
+        - Coinbase: mining/index.md
+        - PoW and Energy Money: mining/index.md
+    - Financing:
+        - financing/index.md
+        - Loans and Loan Service: financing/index.md
+        - Derivatives and Options: financing/index.md
+    - Criticisms:
+        - criticisms/index.md
+        - Environment: criticisms/index.md
+        - Scalability: criticisms/index.md
+        - Turing Completion and Shitcoin Casinos: criticisms/index.md
+        - Quantum Computing and Bounty of all Bounties: criticisms/index.md
+        - Cantillon Bubbles: criticisms/index.md
+        - Whitelisting and the Surveilance State: criticisms/index.md
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: True
+
+

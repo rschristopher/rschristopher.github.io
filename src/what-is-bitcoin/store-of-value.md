@@ -1,4 +1,4 @@
-# Store of Value
+# Bitcoin is a Store of Value
 btc
 
 ```json
