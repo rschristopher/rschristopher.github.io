@@ -1,9 +1,11 @@
 .PHONY: build run
 
-build:
-	git checkout docs
-	git pull
+build: clean
+	mkdir docs
 	mkdocs build
+
+clean:
+	rm -rf docs
 
 run: build
 	mkdocs serve
