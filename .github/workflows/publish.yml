@@ -1,0 +1,42 @@
+name: publish
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "mkdocs.yml"
+
+env:
+  PYTHON_VERSION: 3.8
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    name: Publish Website
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies
+        run: |
+          pip install poetry
+          poetry install
+
+      - name: build 
+        run: |
+          poetry run mkdocs build
+          git config --global user.name 'rschristopher'
+          git config --global user.email 'rschristopher@users.noreply.github.com'
+          git add docs
+          git commit -m "updated site"
+          git push
+
