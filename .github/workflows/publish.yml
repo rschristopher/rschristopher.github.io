@@ -33,7 +33,7 @@ jobs:
 
       - name: build 
         run: |
-          poetry run mkdocs build
+          make build
           git config --global user.name 'rschristopher'
           git config --global user.email 'rschristopher@users.noreply.github.com'
           git add docs

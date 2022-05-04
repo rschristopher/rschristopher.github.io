@@ -1,12 +1,13 @@
-.PHONY: build run
+.PHONY: build clean run
 
 build: clean
 	mkdir docs
-	mkdocs build
+	poetry run mkdocs build
+	echo -n 'isbitcointrue.com' > docs/CNAME
 
 clean:
 	rm -rf docs
 
 run: build
-	mkdocs serve
+	poetry run mkdocs serve
 
