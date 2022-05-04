@@ -11,7 +11,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/custody/</loc>
+         <loc>https://rschristopher.github.io/custody/generate-keys/</loc>
          <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -22,6 +22,11 @@
     </url>
     <url>
          <loc>https://rschristopher.github.io/execution/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/execution/exchanges/</loc>
          <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
