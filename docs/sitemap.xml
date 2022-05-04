@@ -2,27 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://rschristopher.github.io/</loc>
-         <lastmod>2022-05-03</lastmod>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/criticisms/</loc>
+         <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rschristopher.github.io/custody/</loc>
-         <lastmod>2022-05-03</lastmod>
+         <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rschristopher.github.io/custody/self-custody/</loc>
-         <lastmod>2022-05-03</lastmod>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/execution/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/financing/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/is-bitcoin-true/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/is-bitcoin-true/is-fixed-supply-feasible/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/is-bitcoin-true/is-fixed-supply-important/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/is-bitcoin-true/is-it-possible-to-separate-money-and-state/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/is-bitcoin-true/is-sound-money-important/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/is-bitcoin-true/why-is-it-not-worth-more/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/mining/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/payments/</loc>
+         <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rschristopher.github.io/what-is-bitcoin/</loc>
-         <lastmod>2022-05-03</lastmod>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/what-is-bitcoin/medium-of-exchange/</loc>
+         <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rschristopher.github.io/what-is-bitcoin/store-of-value/</loc>
-         <lastmod>2022-05-03</lastmod>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/what-is-bitcoin/unit-of-account/</loc>
+         <lastmod>2022-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
