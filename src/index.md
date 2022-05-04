@@ -1,4 +1,5 @@
 # Is Bitcoin True?
 
-todo
+by R.S. Christopher
+
 
