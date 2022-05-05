@@ -26,7 +26,6 @@ by R.S. Christopher
     + Whitelisting and the Surveillance State
 + Custody - Sovereign of your own Savings
   + Wallets, Cold and Hot
-  + Blockchain Analytics
   + Creating Keys
     + Command Line
     + Dice-rolled
@@ -43,6 +42,9 @@ by R.S. Christopher
     + Glacier Protocol
     + Proof of Control
     + Self Custody Protocol
+  + Advanced
+    + Blockchain Analytics
+    + Keyless Vaults and Covenants
 + Execution
   + Exchanges
     + Peer-to-Peer
@@ -57,7 +59,8 @@ by R.S. Christopher
   + Run a Node
     + Bitcoin Full Node
     + Lightning Node
-  + Security
+  + Advanced
+    + Bitcoin Script
     + Network Security
     + Physical Security
 + Financing
