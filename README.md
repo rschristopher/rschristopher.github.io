@@ -18,12 +18,13 @@ by R.S. Christopher
   + Fixed Supply
   + Separation of Money and State
   + Criticisms
-    + Why is not Worth More?
     + Environmental
     + Scalability
     + Turing Incomplete
+    + Quantum Computing
     + Cantillion Bubbles
     + Whitelisting and the Surveillance State
+    + Why is it not Worth More?
 + Custody - Sovereign of your own Savings
   + Wallets, Cold and Hot
   + Creating Keys
