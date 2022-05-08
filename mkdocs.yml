@@ -57,7 +57,7 @@ nav:
     - Custody:
         - Wallets, Cold and Hot: custody/self-custody.md
         - Creating Keys: 
-          - custody/generate-keys.md
+          - custody/creating-keys/index.md
           - Command Line: custody/self-custody.md
           - Dice-rolled: custody/self-custody.md
           - Multisig: custody/self-custody.md
