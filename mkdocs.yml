@@ -53,17 +53,31 @@ nav:
           - Quantum Computing and Bounty of all Bounties: criticisms/index.md
           - Cantillon Bubbles: criticisms/index.md
           - Whitelisting and the Surveilance State: criticisms/index.md
-          - Why is not Worth More: 'is-bitcoin-true/why-is-it-not-worth-more.md'
+          - Why is not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
     - Custody:
         - Wallets, Cold and Hot: custody/self-custody.md
-        - Creating Keys: custody/generate-keys.md
-        - Using Keys: custody/self-custody.md
-        - Securing Keys: custody/self-custody.md
-        - Protocols: custody/self-custody.md
+        - Creating Keys: 
+          - custody/generate-keys.md
+          - Command Line: custody/self-custody.md
+          - Dice-rolled: custody/self-custody.md
+          - Multisig: custody/self-custody.md
+        - Using Keys: 
+          - Generating Addresses: custody/self-custody.md
+          - Signing Transactions: custody/self-custody.md
+          - Understanding UTXOs: custody/self-custody.md
+        - Securing Keys: 
+          - Bare Metal: custody/self-custody.md
+          - Hardware Wallets: custody/self-custody.md
+          - Mnemonic Memorization: custody/self-custody.md
+        - Protocols: 
+          - Glacier Protocol: custody/self-custody.md
+          - Proof-of-Control: custody/self-custody.md
+          - Custom Self-Custody Protocol: custody/self-custody.md
         - Advanced:
           - Blockchain Analytics: custody/self-custody.md
           - Keyless Vault and Covenant: custody/self-custody.md
     - Execution:
+        - execution/index.md
         - Exchanges: execution/exchanges.md
         - AML/KYC: execution/index.md
         - P2P: execution/index.md
