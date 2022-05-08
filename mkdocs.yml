@@ -44,18 +44,25 @@ nav:
         - Bitcoin's Monetary Policy: 'is-bitcoin-true/is-sound-money-important.md'
         - Easy Money vs Hard Money: 'is-bitcoin-true/is-fixed-supply-important.md'
         - Fixed Supply: 'is-bitcoin-true/is-fixed-supply-feasible.md'
-        - Separation of Money andState: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
-        - Criticisms: 'is-bitcoin-true/why-is-it-not-worth-more.md'
+        - Separation of Money and State: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
+        - Criticisms:
+          - criticisms/index.md
+          - Environment: criticisms/index.md
+          - Scalability: criticisms/index.md
+          - Turing Completion and Shitcoin Casinos: criticisms/index.md
+          - Quantum Computing and Bounty of all Bounties: criticisms/index.md
+          - Cantillon Bubbles: criticisms/index.md
+          - Whitelisting and the Surveilance State: criticisms/index.md
+          - Why is not Worth More: 'is-bitcoin-true/why-is-it-not-worth-more.md'
     - Custody:
-        - Generate Keys: custody/generate-keys.md
-        - Secure Your Keys: custody/self-custody.md
-        - True Multisig: custody/self-custody.md
-        - Custom Protocol: custody/self-custody.md
-        - Proof of Control: custody/self-custody.md
-        - Keyless Vault and Covenant: custody/self-custody.md
-        - Network Security: custody/self-custody.md
-        - Run a Full Node: custody/self-custody.md
-        - Physical Security: custody/self-custody.md
+        - Wallets, Cold and Hot: custody/self-custody.md
+        - Creating Keys: custody/generate-keys.md
+        - Using Keys: custody/self-custody.md
+        - Securing Keys: custody/self-custody.md
+        - Protocols: custody/self-custody.md
+        - Advanced:
+          - Blockchain Analytics: custody/self-custody.md
+          - Keyless Vault and Covenant: custody/self-custody.md
     - Execution:
         - Exchanges: execution/exchanges.md
         - AML/KYC: execution/index.md
@@ -73,14 +80,6 @@ nav:
         - mining/index.md
         - Coinbase: mining/index.md
         - PoW and Energy Money: mining/index.md
-    - Criticisms:
-        - criticisms/index.md
-        - Environment: criticisms/index.md
-        - Scalability: criticisms/index.md
-        - Turing Completion and Shitcoin Casinos: criticisms/index.md
-        - Quantum Computing and Bounty of all Bounties: criticisms/index.md
-        - Cantillon Bubbles: criticisms/index.md
-        - Whitelisting and the Surveilance State: criticisms/index.md
 
 markdown_extensions:
   - admonition
