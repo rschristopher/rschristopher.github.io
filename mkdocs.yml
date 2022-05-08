@@ -34,18 +34,18 @@ theme:
     favicon: images/favicon.png
 
 nav:
-    - Is Bitcoin True?:
-        - 'is-bitcoin-true/index.md'
-        - Is Sound Money Important?: 'is-bitcoin-true/is-sound-money-important.md'
-        - Is Fixed Supply Important?: 'is-bitcoin-true/is-fixed-supply-important.md'
-        - Is Fixed Supply Feasible?: 'is-bitcoin-true/is-fixed-supply-feasible.md'
-        - Is it Possible to Separate Money and State?: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
-        - Why is it not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
-    - What is Bitcoin?:
-        - what-is-bitcoin/index.md
-        - Unit of Account: what-is-bitcoin/unit-of-account.md
-        - Medium of Exchange: what-is-bitcoin/medium-of-exchange.md
-        - Store of Value: what-is-bitcoin/store-of-value.md
+    - Home: 'is-bitcoin-true/index.md'
+    - Bitcoin is Money:
+        - What is Money: 
+          - what-is-bitcoin/index.md
+          - Unit of Account: what-is-bitcoin/unit-of-account.md
+          - Medium of Exchange: what-is-bitcoin/medium-of-exchange.md
+          - Store of Value: what-is-bitcoin/store-of-value.md
+        - Bitcoin's Monetary Policy: 'is-bitcoin-true/is-sound-money-important.md'
+        - Easy Money vs Hard Money: 'is-bitcoin-true/is-fixed-supply-important.md'
+        - Fixed Supply: 'is-bitcoin-true/is-fixed-supply-feasible.md'
+        - Separation of Money andState: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
+        - Criticisms: 'is-bitcoin-true/why-is-it-not-worth-more.md'
     - Custody:
         - Generate Keys: custody/generate-keys.md
         - Secure Your Keys: custody/self-custody.md
