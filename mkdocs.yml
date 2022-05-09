@@ -35,7 +35,7 @@ theme:
 
 nav:
     - Home: 'is-bitcoin-true/index.md'
-    - Bitcoin is Money:
+    - Bitcoin the Money:
         - What is Money: 
           - what-is-bitcoin/index.md
           - Unit of Account: what-is-bitcoin/unit-of-account.md
@@ -55,6 +55,7 @@ nav:
           - Whitelisting and the Surveilance State: criticisms/index.md
           - Why is it not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
     - Custody:
+        - custody/index.md
         - Wallets, Cold and Hot: custody/self-custody.md
         - Creating Keys: 
           - custody/creating-keys/index.md
