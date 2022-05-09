@@ -64,7 +64,7 @@ by R.S. Christopher
     + Bitcoin Script
     + Network Security
     + Physical Security
-+ Financing
++ Finance
   + Modern Investing
   + Bitcoin-backed Loans
   + Derivatives
