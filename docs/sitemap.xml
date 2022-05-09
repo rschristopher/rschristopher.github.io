@@ -41,7 +41,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/financing/</loc>
+         <loc>https://rschristopher.github.io/finance/</loc>
+         <lastmod>2022-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/finance/bitcoin-backed-loans/</loc>
+         <lastmod>2022-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/finance/derivatives/</loc>
+         <lastmod>2022-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/finance/modern-investing/</loc>
          <lastmod>2022-05-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
