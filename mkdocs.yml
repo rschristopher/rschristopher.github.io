@@ -80,7 +80,7 @@ nav:
         - execution/index.md
         - Exchanges: 
           - execution/exchanges.md
-          - P2P: execution/index.md
+          - Peer-to-Peer: execution/exchanges.md
         - Payments:
           - payments/index.md
           - Base Layer (on-chain): payments/index.md
