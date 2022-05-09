@@ -1,2 +1,0 @@
-# Exchanges
-Buy/Sell Bitcoin
