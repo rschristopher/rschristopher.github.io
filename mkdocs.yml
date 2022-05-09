@@ -91,11 +91,11 @@ nav:
           - AML/KYC: execution/index.md
         - Run a Node: execution/index.md
         - Advanced: execution/index.md
-    - Financing:
-        - financing/index.md
-        - Modern Investing: financing/index.md
-        - Bitcoin-backed Loans: financing/index.md
-        - Derivatives and Options: financing/index.md
+    - Finance:
+        - finance/index.md
+        - Modern Investing: finance/modern-investing.md
+        - Bitcoin-backed Loans: finance/bitcoin-backed-loans.md
+        - Derivatives and Options: finance/derivatives.md
     - Mining:
         - mining/index.md
         - How it Works: mining/index.md
