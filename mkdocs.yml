@@ -79,8 +79,8 @@ nav:
     - Execution:
         - execution/index.md
         - Exchanges: 
-          - execution/exchanges.md
-          - Peer-to-Peer: execution/exchanges.md
+          - execution/exchanges/index.md
+          - Peer-to-Peer: execution/exchanges/peer-to-peer.md
         - Payments:
           - payments/index.md
           - Base Layer (on-chain): payments/index.md
