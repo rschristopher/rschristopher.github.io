@@ -49,11 +49,11 @@ nav:
           - criticisms/index.md
           - Environment: criticisms/index.md
           - Scalability: criticisms/index.md
-          - Turing Completion and Shitcoin Casinos: criticisms/index.md
-          - Quantum Computing and Bounty of all Bounties: criticisms/index.md
+          - Turing Completion and the Shitcoin Casinos: criticisms/index.md
+          - Quantum Computing and the Bounty of all Bounties: criticisms/index.md
           - Cantillon Bubbles: criticisms/index.md
           - Whitelisting and the Surveilance State: criticisms/index.md
-          - Why is not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
+          - Why is it not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
     - Custody:
         - Wallets, Cold and Hot: custody/self-custody.md
         - Creating Keys: 
