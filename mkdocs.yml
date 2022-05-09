@@ -78,22 +78,30 @@ nav:
           - Keyless Vault and Covenant: custody/self-custody.md
     - Execution:
         - execution/index.md
-        - Exchanges: execution/exchanges.md
-        - AML/KYC: execution/index.md
-        - P2P: execution/index.md
+        - Exchanges: 
+          - execution/exchanges.md
+          - P2P: execution/index.md
+        - Payments:
+          - payments/index.md
+          - Base Layer (on-chain): payments/index.md
+          - Second Layer (lightning): payments/index.md
+        - Localism: payments/index.md
+        - Privacy: 
+          - payments/index.md
+          - AML/KYC: execution/index.md
+        - Run a Node: execution/index.md
+        - Advanced: execution/index.md
     - Financing:
         - financing/index.md
-        - Loans and Loan Service: financing/index.md
+        - Mondern Investing: financing/index.md
+        - Bitcoin-backed Loans: financing/index.md
         - Derivatives and Options: financing/index.md
-    - Payments:
-        - payments/index.md
-        - Base Layer (on-chain): payments/index.md
-        - Second Layer (lightning): payments/index.md
-        - Localism: payments/index.md
     - Mining:
         - mining/index.md
-        - Coinbase: mining/index.md
+        - How it Works: mining/index.md
+        - Home Mining: mining/index.md
         - PoW and Energy Money: mining/index.md
+    - References: references/index.md
 
 markdown_extensions:
   - admonition
