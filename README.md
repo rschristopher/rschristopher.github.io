@@ -55,7 +55,7 @@ by R.S. Christopher
   + Localism
   + Privacy
     + AML/KYC
-    + Conjoin
+    + Coinjoin
     + Lightning
   + Run a Node
     + Bitcoin Full Node
