@@ -34,62 +34,65 @@ theme:
     favicon: images/favicon.png
 
 nav:
-    - Home: 'is-bitcoin-true/index.md'
-    - Bitcoin the Money:
-        - What is Money: 
-          - what-is-bitcoin/index.md
-          - Unit of Account: what-is-bitcoin/unit-of-account.md
-          - Medium of Exchange: what-is-bitcoin/medium-of-exchange.md
-          - Store of Value: what-is-bitcoin/store-of-value.md
-        - Bitcoin's Monetary Policy: 'is-bitcoin-true/is-sound-money-important.md'
-        - Easy Money vs Hard Money: 'is-bitcoin-true/is-fixed-supply-important.md'
-        - Fixed Supply: 'is-bitcoin-true/is-fixed-supply-feasible.md'
-        - Separation of Money and State: 'is-bitcoin-true/is-it-possible-to-separate-money-and-state.md'
+    - Is Bitcoin True?: 
+        - index.md
+        - The Essay: is-bitcoin-true.md
+        - Bitcoin as Money: 
+          - bitcoin-as-money/index.md
+          - Unit of Account: bitcoin-as-money/unit-of-account.md
+          - Medium of Exchange: bitcoin-as-money/medium-of-exchange.md
+          - Store of Value: bitcoin-as-money/store-of-value.md
+          - Monetary Policy: bitcoin-as-money/monetary-policy.md
+          - Fixed Supply: bitcoin-as-money/fixed-supply.md
+          - Easy Money vs Hard Money: bitcoin-as-money/easy-vs-hard.md
+          - Separation of Money and State: bitcoin-as-money/separation-money-and-state.md
         - Criticisms:
           - criticisms/index.md
-          - Environment: criticisms/index.md
-          - Scalability: criticisms/index.md
-          - Turing Completion and the Shitcoin Casinos: criticisms/index.md
-          - Quantum Computing and the Bounty of all Bounties: criticisms/index.md
-          - Cantillon Bubbles: criticisms/index.md
-          - Whitelisting and the Surveilance State: criticisms/index.md
-          - Why is it not Worth More?: 'is-bitcoin-true/why-is-it-not-worth-more.md'
+          - Environment: criticisms/environment.md
+          - Scalability: criticisms/scalability.md
+          - Turing Complete: criticisms/turing-complete.md
+          - Quantum Computing: criticisms/quantum-computing.md
+          - Cantillon Bubbles: criticisms/cantillon.md
+          - Whitelisting: criticisms/whitelisting.md
+          - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
     - Custody:
         - custody/index.md
-        - Wallets, Cold and Hot: custody/self-custody.md
+        - Wallets and Keys and UTXOs: custody/wallets-and-keys.md
         - Creating Keys: 
           - custody/creating-keys/index.md
-          - Command Line: custody/self-custody.md
-          - Dice-rolled: custody/self-custody.md
-          - Multisig: custody/self-custody.md
-        - Using Keys: 
-          - Generating Addresses: custody/self-custody.md
-          - Signing Transactions: custody/self-custody.md
-          - Understanding UTXOs: custody/self-custody.md
-        - Securing Keys: 
-          - Bare Metal: custody/self-custody.md
-          - Hardware Wallets: custody/self-custody.md
-          - Mnemonic Memorization: custody/self-custody.md
-        - Protocols: 
-          - Glacier Protocol: custody/self-custody.md
-          - Proof-of-Control: custody/self-custody.md
-          - Custom Self-Custody Protocol: custody/self-custody.md
+          - Command Line: custody/creating-keys/cli.md
+          - Dice-rolled: custody/creating-keys/dice.md
+          - Multisig: custody/creating-keys/multisig.md
+        - Using Keys:
+          - custody/using-keys/index.md
+          - Generating Addresses: custody/using-keys/generating-addresses.md
+          - Signing Transactions: custody/using-keys/signing-transactions.md
+        - Securing Keys:
+          - custody/securing-keys/index.md
+          - Bare Metal: custody/securing-keys/bare-metal.md
+          - Hardware Wallets: custody/securing-keys/hardware-wallets.md
+          - Mnemonic Memorization: custody/securing-keys/memorization.md
+        - Protocols:
+          - custody/protocols/index.md
+          - Glacier: custody/protocols/glacier.md
+          - Proof-of-Control: custody/protocols/proof-of-control.md
+          - Custom Self-Custody: custody/protocols/custom.md
         - Advanced:
-          - Blockchain Analytics: custody/self-custody.md
-          - Keyless Vault and Covenant: custody/self-custody.md
+          - Blockchain Analytics: custody/advanced/blockchain-analytics.md
+          - Keyless Vault and Covenant: custody/advanced/keyless-vaults.md
     - Execution:
         - execution/index.md
         - Exchanges: 
           - execution/exchanges/index.md
           - Peer-to-Peer: execution/exchanges/peer-to-peer.md
         - Payments:
-          - payments/index.md
-          - Base Layer (on-chain): payments/index.md
-          - Second Layer (lightning): payments/index.md
-        - Localism: payments/index.md
+          - execution/payments/index.md
+          - Base Layer (on-chain): execution/payments/index.md
+          - Second Layer (lightning): execution/payments/index.md
+        - Localism: execution/localism.md
         - Privacy: 
-          - payments/index.md
-          - AML/KYC: execution/index.md
+          - execution/privacy/index.md
+          - AML/KYC: execution/privacy/index.md
         - Run a Node: execution/index.md
         - Advanced: execution/index.md
     - Finance:
