@@ -1,3 +1,3 @@
-# Why is it Not Worth More?
+# Why is it not Worth More?
 
 ...
