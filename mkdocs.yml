@@ -89,12 +89,23 @@ nav:
           - execution/payments/index.md
           - Base Layer (on-chain): execution/payments/index.md
           - Second Layer (lightning): execution/payments/index.md
-        - Localism: execution/localism.md
         - Privacy: 
           - execution/privacy/index.md
           - AML/KYC: execution/privacy/index.md
-        - Run a Node: execution/index.md
-        - Advanced: execution/index.md
+          - Coinjoin: execution/privacy/index.md
+          - Lightning: execution/privacy/index.md
+        - Run a Node: 
+          - execution/index.md
+          - Bitcoin Full Node: execution/index.md
+          - Lightning Node: execution/index.md
+        - Localism: 
+          - execution/localism/index.md
+          - Local-Area-Network: execution/localism/lan.md
+        - Advanced: 
+          - execution/index.md
+          - Bitcoin Script: execution/index.md
+          - Network Security: execution/index.md
+          - Physical Security: execution/index.md
     - Finance:
         - finance/index.md
         - Modern Investing: finance/modern-investing.md
