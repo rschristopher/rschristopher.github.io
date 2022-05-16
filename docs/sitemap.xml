@@ -191,17 +191,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/execution/localism/</loc>
-         <lastmod>2022-05-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://rschristopher.github.io/execution/exchanges/</loc>
          <lastmod>2022-05-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rschristopher.github.io/execution/exchanges/peer-to-peer/</loc>
+         <lastmod>2022-05-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/execution/localism/</loc>
+         <lastmod>2022-05-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/execution/localism/lan/</loc>
          <lastmod>2022-05-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
