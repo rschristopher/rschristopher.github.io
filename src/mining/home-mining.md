@@ -1,0 +1,4 @@
+# Bitcoin Mining at Home
+
+...
+

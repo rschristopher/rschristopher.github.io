@@ -1,0 +1,4 @@
+# How Bitcoin Mining Works
+
+...
+

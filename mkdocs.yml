@@ -87,25 +87,25 @@ nav:
           - Peer-to-Peer: execution/exchanges/peer-to-peer.md
         - Payments:
           - execution/payments/index.md
-          - Base Layer (on-chain): execution/payments/index.md
-          - Second Layer (lightning): execution/payments/index.md
+          - Base Layer (on-chain): execution/payments/base-layer.md
+          - Layer 2 (lightning): execution/payments/lightning.md
         - Privacy: 
           - execution/privacy/index.md
-          - AML/KYC: execution/privacy/index.md
-          - Coinjoin: execution/privacy/index.md
-          - Lightning: execution/privacy/index.md
+          - AML/KYC: execution/privacy/kyc.md
+          - Coinjoin: execution/privacy/coinjoin.md
+          - Lightning: execution/privacy/lightning.md
         - Run a Node: 
-          - execution/index.md
-          - Bitcoin Full Node: execution/index.md
-          - Lightning Node: execution/index.md
+          - execution/run-a-node/index.md
+          - Bitcoin Full Node: execution/run-a-node/bitcoin-full.md
+          - Lightning Node: execution/run-a-node/lightning.md
         - Localism: 
           - execution/localism/index.md
-          - Local-Area-Network: execution/localism/lan.md
+          - Local Area Networks: execution/localism/lan.md
+          - Local Lightning: execution/localism/lightning.md
         - Advanced: 
-          - execution/index.md
-          - Bitcoin Script: execution/index.md
-          - Network Security: execution/index.md
-          - Physical Security: execution/index.md
+          - Bitcoin Script: execution/advanced/bitcoin-script.md
+          - Network Security: execution/advanced/network-security.md
+          - Physical Security: execution/advanced/physical-security.md
     - Finance:
         - finance/index.md
         - Modern Investing: finance/modern-investing.md
@@ -113,9 +113,9 @@ nav:
         - Derivatives and Options: finance/derivatives.md
     - Mining:
         - mining/index.md
-        - How it Works: mining/index.md
-        - Home Mining: mining/index.md
-        - PoW and Energy Money: mining/index.md
+        - How it Works: mining/how-it-works.md
+        - Home Mining: mining/home-mining.md
+        - PoW and Energy Money: mining/pow-energy-money.md
     - References: references/index.md
 
 markdown_extensions:
