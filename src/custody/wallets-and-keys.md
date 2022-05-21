@@ -2,9 +2,9 @@
 
 ## Wallets
 
-A Bitcoin "wallet" is a misnomer. 
+Bitcoin "wallet" is a misnomer. 
 
-The term "wallet" in Bitcoin is used in a variety of contexts.
+The term "wallet" in Bitcoin can mean different things.
  It can refer to a collection of private keys, 
  or receive addresses,
  or UTXO sets,
@@ -13,8 +13,8 @@ But what a Bitcoin wallet is NOT
  is a collection of your Bitcoin.
 
 The most common understanding of the word "wallet" simply doesn't apply to Bitcoin.
- The word "wallet" is still used in Bitcoin because the original Bitcoin core client would store private keys in a `wallet.dat` file.
- And "wallet" was simply the file where your private keys were stored.
+ The word "wallet" is used in Bitcoin because the original Bitcoin core client would store private keys in a file named`wallet.dat`.
+ This "wallet" was simply the file where your private keys were stored.
 
 ### Hot Wallet
 
