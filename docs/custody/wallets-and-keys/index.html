@@ -2157,8 +2157,8 @@
 
 <h1 id="wallets-and-keys-and-utxos">Wallets and Keys and UTXOs<a class="headerlink" href="#wallets-and-keys-and-utxos" title="Permanent link">&para;</a></h1>
 <h2 id="wallets">Wallets<a class="headerlink" href="#wallets" title="Permanent link">&para;</a></h2>
-<p>A Bitcoin wallet is a misnomer. 
-The term "wallet" is used in a variety of contexts.
+<p>A Bitcoin wallet is a misnomer. </p>
+<p>The term "wallet" is used in a variety of contexts.
  It can refer to a collection of private keys, 
  or receive addresses,
  or UTXO sets,
@@ -2179,15 +2179,19 @@ The important part is the private key. </p>
 <p>There are obvious security benefits to cold storage.
  And "cold storage" is the recommended approach for long-term storage of your Bitcoin.</p>
 <p>There are many cold storage practices, 
- but most follow a standard pattern,
-1. private keys are stored in an air gapped device.
-1. private keys generate a "Master Public Key" which is stored in an Internet connected device.
-1. the "Master Public Key" can generate receive addresses and verify transactions, but it cannot send Bitcoin.
-1. for sending Bitcoin,
-    1. the "Master Public Key" can generate an unsigned transaction.
-    1. the unsigned transaction is transfered to the air-gapped device.
-    1. the transaction is signed on the air-gapped device.
-    1. the signed transaction is transfered to the Internet connected device and then broadcast to the network.</p>
+ but most follow a standard pattern,</p>
+<ol>
+<li>private keys are stored in an air gapped device.</li>
+<li>private keys generate a "Master Public Key" which is stored in an Internet connected device.</li>
+<li>the "Master Public Key" can generate receive addresses and verify transactions, but it cannot send Bitcoin.</li>
+<li>for sending Bitcoin,<ol>
+<li>the "Master Public Key" can generate an unsigned transaction.</li>
+<li>the unsigned transaction is transfered to the air-gapped device.</li>
+<li>the transaction is signed on the air-gapped device.</li>
+<li>the signed transaction is transfered to the Internet connected device and then broadcast to the network.</li>
+</ol>
+</li>
+</ol>
 <p>There are many variations of the above, but all follow a similar pattern, 
  e.g., using a seed signers, the private key is never stored in any electronic device, air-gapped or otherwise (the key is generated from the seed phrase and used on a signing device only when needed). </p>
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
