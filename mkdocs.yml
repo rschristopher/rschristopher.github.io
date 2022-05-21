@@ -119,8 +119,10 @@ nav:
     - References: references/index.md
 
 markdown_extensions:
-  - admonition
   - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
   - toc:
       permalink: True
 
