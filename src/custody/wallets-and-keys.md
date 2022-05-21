@@ -14,7 +14,7 @@ But what a Bitcoin wallet is NOT
  is a collection of your Bitcoin.
 
 The most common understanding of the word "wallet" simply doesn't apply to Bitcoin.
- The word "wallet" is used in Bitcoin because the original Bitcoin core client would store private keys in a `wallet.dat` file.
+ The word "wallet" is still used in Bitcoin because the original Bitcoin core client would store private keys in a `wallet.dat` file.
  And "wallet" was simply the file where your private keys were stored.
 
 ### Hot Wallet
