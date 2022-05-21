@@ -8,8 +8,7 @@ The term "wallet" in Bitcoin is used in a variety of contexts.
  It can refer to a collection of private keys, 
  or receive addresses,
  or UTXO sets,
- or as the software to manage any of the above,
- or as the hardware to manage any of the above.
+ or as the hardware or software to manage any of the above.
 
 But what a Bitcoin wallet is NOT 
  is a collection of your Bitcoin.
