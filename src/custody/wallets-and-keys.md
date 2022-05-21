@@ -1,7 +1,9 @@
 # Wallets and Keys and UTXOs
 
 ## Wallets
+
 A Bitcoin wallet is a misnomer. 
+
 The term "wallet" is used in a variety of contexts.
  It can refer to a collection of private keys, 
  or receive addresses,
@@ -33,6 +35,7 @@ There are obvious security benefits to cold storage.
 
 There are many cold storage practices, 
  but most follow a standard pattern,
+
 1. private keys are stored in an air gapped device.
 1. private keys generate a "Master Public Key" which is stored in an Internet connected device.
 1. the "Master Public Key" can generate receive addresses and verify transactions, but it cannot send Bitcoin.
