@@ -120,6 +120,7 @@ nav:
 
 markdown_extensions:
   - admonition
+  - def_list
   - toc:
       permalink: True
 
