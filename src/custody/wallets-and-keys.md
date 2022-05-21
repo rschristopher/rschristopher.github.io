@@ -19,9 +19,9 @@ The most common understanding of the word "wallet" simply doesn't apply to Bitco
 ### Hot Wallet
 
 A "hot wallet" refers to any software or hardware that stores your private keys in a device connected to the Internet, allowing you to send and receive Bitcoin.
-The important part is the private key. 
+The important part is that the private key is accessible to the online device, this makes it "hot".
 
-E.g., if you have a Bitcoin wallet app on your phone that can send and receive Bitcoin, this is referred "hot wallet".
+E.g., if you have a Bitcoin wallet app on your phone that can send and receive Bitcoin, this is referred to as a "hot wallet".
 
 ### Cold Storage Wallet
 
