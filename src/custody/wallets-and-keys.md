@@ -37,10 +37,10 @@ There are many cold storage practices,
 1. private keys generate a "Master Public Key" which is stored in an Internet connected device.
 1. the "Master Public Key" can generate receive addresses and verify transactions, but it cannot send Bitcoin.
 1. for sending Bitcoin,
- 1. the "Master Public Key" can generate an unsigned transaction.
- 1. the unsigned transaction is transfered to the air gapped device.
- 1. the transaction is signed.
- 1. the signed transaction is transfered to the Internet connected device and broadcast to the network.
+    1. the "Master Public Key" can generate an unsigned transaction.
+    1. the unsigned transaction is transfered to the air-gapped device.
+    1. the transaction is signed on the air-gapped device.
+    1. the signed transaction is transfered to the Internet connected device and then broadcast to the network.
 
 There are many variations of the above, but all follow a similar pattern, 
  e.g., seed signers where a private key is never permanently stored electronically (and only stored temporarily in a signing device when needed). 
