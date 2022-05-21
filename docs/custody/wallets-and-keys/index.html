@@ -768,9 +768,88 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Wallets and Keys and UTXOs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Wallets and Keys and UTXOs
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wallets" class="md-nav__link">
+    Wallets
+  </a>
+  
+    <nav class="md-nav" aria-label="Wallets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hot-wallet" class="md-nav__link">
+    Hot Wallet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cold-storage-wallet" class="md-nav__link">
+    Cold Storage Wallet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keys" class="md-nav__link">
+    Keys
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#addresses" class="md-nav__link">
+    Addresses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transactions" class="md-nav__link">
+    Transactions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utxos" class="md-nav__link">
+    UTXOs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2001,6 +2080,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wallets" class="md-nav__link">
+    Wallets
+  </a>
+  
+    <nav class="md-nav" aria-label="Wallets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hot-wallet" class="md-nav__link">
+    Hot Wallet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cold-storage-wallet" class="md-nav__link">
+    Cold Storage Wallet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keys" class="md-nav__link">
+    Keys
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#addresses" class="md-nav__link">
+    Addresses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transactions" class="md-nav__link">
+    Transactions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utxos" class="md-nav__link">
+    UTXOs
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2014,8 +2156,51 @@
 
 
 <h1 id="wallets-and-keys-and-utxos">Wallets and Keys and UTXOs<a class="headerlink" href="#wallets-and-keys-and-utxos" title="Permanent link">&para;</a></h1>
-<p>...
-cold vs hot</p>
+<h2 id="wallets">Wallets<a class="headerlink" href="#wallets" title="Permanent link">&para;</a></h2>
+<p>A Bitcoin wallet is a misnomer. 
+The term "wallet" is used in a variety of contexts.
+ It can refer to a collection of private keys, 
+ or receive addresses,
+ or UTXO sets,
+ or the software to manage any of the above,
+ or the hardware to manage any of the above.</p>
+<p>But what a Bitcoin wallet is NOT 
+ is a collection of your Bitcoin.</p>
+<p>The most common and colloquial understanding of the word "wallet" simply doesn't apply to Bitcoin.
+ The word "wallet" is used because the original Bitcoin core client would store private keys in a <code>wallet.dat</code> file.
+ And in this context referred to the file where your private keys were stored.</p>
+<h3 id="hot-wallet">Hot Wallet<a class="headerlink" href="#hot-wallet" title="Permanent link">&para;</a></h3>
+<p>A "hot wallet" refers to any software or hardware that stores your keys in an device connected to the Internet, allowing you to send and receive Bitcoin.
+The important part is the private key. </p>
+<p>E.g., if you have a Bitcoin wallet app on your phone that can send and receive Bitcoin, this is referred "hot wallet".</p>
+<h3 id="cold-storage-wallet">Cold Storage Wallet<a class="headerlink" href="#cold-storage-wallet" title="Permanent link">&para;</a></h3>
+<p>If you don't store a private key in a device connected to the Internet, 
+ this is referred to as "cold storage".</p>
+<p>There are obvious security benefits to cold storage.
+ And "cold storage" is the recommended approach for long-term storage of your Bitcoin.</p>
+<p>There are many cold storage practices, 
+ but most follow a standard pattern,
+1. private keys are stored in an air gapped device.
+1. private keys generate a "Master Public Key" which is stored in an Internet connected device.
+1. the "Master Public Key" can generate receive addresses and verify transactions, but it cannot send Bitcoin.
+1. for sending Bitcoin,
+ 1. the "Master Public Key" can generate an unsigned transaction.
+ 1. the unsigned transaction is transfered to the air gapped device.
+ 1. the transaction is signed.
+ 1. the signed transaction is transfered to the Internet connected device and broadcast to the network.</p>
+<p>There are many variations of the above, but all follow a similar pattern, 
+ e.g., seed signers where a private key is never permanently stored electronically (and only stored temporarily in a signing device when needed). </p>
+<h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
+<p>This is the most important part of Bitcoin custody. 
+ The "key" refers to a private key that can sign transactions.</p>
+<p>A private key is merely a very large number. A 256-bit number.</p>
+<p>...</p>
+<h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
+<p>...</p>
+<h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
+<p>...</p>
+<h2 id="utxos">UTXOs<a class="headerlink" href="#utxos" title="Permanent link">&para;</a></h2>
+<p>...</p>
 
               
             </article>
