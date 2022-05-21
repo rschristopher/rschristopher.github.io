@@ -2,32 +2,32 @@
 
 ## Wallets
 
-A Bitcoin wallet is a misnomer. 
+A Bitcoin "wallet" is a misnomer. 
 
-The term "wallet" is used in a variety of contexts.
+The term "wallet" in Bitcoin is used in a variety of contexts.
  It can refer to a collection of private keys, 
  or receive addresses,
  or UTXO sets,
- or the software to manage any of the above,
- or the hardware to manage any of the above.
+ or as the software to manage any of the above,
+ or as the hardware to manage any of the above.
 
 But what a Bitcoin wallet is NOT 
  is a collection of your Bitcoin.
 
-The most common and colloquial understanding of the word "wallet" simply doesn't apply to Bitcoin.
- The word "wallet" is used because the original Bitcoin core client would store private keys in a `wallet.dat` file.
- And in this context referred to the file where your private keys were stored.
+The most common understanding of the word "wallet" simply doesn't apply to Bitcoin.
+ The word "wallet" is used in Bitcoin because the original Bitcoin core client would store private keys in a `wallet.dat` file.
+ And "wallet" was simply the file where your private keys were stored.
 
 ### Hot Wallet
 
-A "hot wallet" refers to any software or hardware that stores your keys in an device connected to the Internet, allowing you to send and receive Bitcoin.
+A "hot wallet" refers to any software or hardware that stores your private keys in a device connected to the Internet, allowing you to send and receive Bitcoin.
 The important part is the private key. 
 
 E.g., if you have a Bitcoin wallet app on your phone that can send and receive Bitcoin, this is referred "hot wallet".
 
 ### Cold Storage Wallet
 
-If you don't store a private key in a device connected to the Internet, 
+If you don't store your private key in a device connected to the Internet, 
  this is referred to as "cold storage".
 
 There are obvious security benefits to cold storage.
