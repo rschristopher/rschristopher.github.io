@@ -43,7 +43,7 @@ There are many cold storage practices,
     1. the signed transaction is transfered to the Internet connected device and then broadcast to the network.
 
 There are many variations of the above, but all follow a similar pattern, 
- e.g., seed signers where a private key is never permanently stored electronically (and only stored temporarily in a signing device when needed). 
+ e.g., using a seed signers, the private key is never stored in any electronic device, air-gapped or otherwise (the key is generated from the seed phrase and used on a signing device only when needed). 
 
 ## Keys
 
