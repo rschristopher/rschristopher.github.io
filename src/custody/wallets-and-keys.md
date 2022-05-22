@@ -123,11 +123,14 @@ An invoice address, or receive address,
 
 ---
 
+
+## Imperfect Metaphors
+
 The words "wallet" and "address" are at best imperfect metaphors,
  and at worst confusing anachronisms, 
  like trying to define the Internet in terms of typewriters and postage stamps.
 
-However, if you learn how keys and UTXOs work,
+However, if you learn how Keys and UTXOs work,
  then you will understand what people mean
  when they talk about their wallet and addresses.
 
@@ -149,7 +152,8 @@ It is your keys that you custody.
 This is the most important aspect of Bitcoin custody. 
  In fact, your Bitcoin is only truly yours 
  to the extent that you have secured your keys in a proper self custody system.
- Not your keys, not your Bitcoin.
+
+> Not your keys, not your Bitcoin.
 
 A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
