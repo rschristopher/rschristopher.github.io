@@ -2251,7 +2251,8 @@ If a private key is directly accessible to an online device, this makes it "hot"
 <p>"Address", like "wallet", is a misnomer,
  and when not understood can lead to dangerous outcomes, including lost Bitcoin.</p>
 <p>In practice, a private key can generate 
- unlimited receive addresses.</p>
+ unlimited receive addresses.
+ A given receive address should never be used more than once.</p>
 <p>The word "address" implies your Bitcoin is located at this address.
  However, there is no "address" that maintains a balance of your Bitcoin.
  There is only transactions, which have inputs and outputs.
@@ -2273,12 +2274,12 @@ If a private key is directly accessible to an online device, this makes it "hot"
  and someone else has the private key to access the output with 0.1 Bitcoin.
  The original transaction output of 0.5 Bitcoin is already spent,
  and that Bitcoin is only available in the <em>unspent transaction outputs</em>.
- These ouputs are known as UTXOs (see below).</p>
+ These unspent ouputs are known as UTXOs (see below).</p>
 <p>An invoice address, or receive address, 
- is an encoded single use number that will produce a transaction output 
+ is a number that will produce a transaction output 
  that can only be spent by the corresponding private key.
  An address is not a location where Bitcoin is stored, 
- but rather was used to generate a transaction output (see UTXOs below).</p>
+ but rather is used to generate a transaction output (see UTXOs below).</p>
 <hr />
 <p>The words "wallet" and "address" are at best imperfect metaphors,
  and at worst confusing anachronisms, 
