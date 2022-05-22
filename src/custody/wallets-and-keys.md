@@ -87,16 +87,23 @@ There are many variations of cold storage but they all adhere to the above patte
 "Address", like "wallet", is a misnomer,
  and when not understood can lead to dangerous outcomes, including lost Bitcoin.
 
-There is no "address" that maintains a balance of your Bitcoin.
+The word "address" refers to an invoice addres,
+ also known as a request address. 
+ This implies your Bitcoin is located at an address.
+ However, there is no "address" that maintains a balance of your Bitcoin.
  There is only transactions, which have inputs and outputs.
+ And the ouputs, if they are unspent, could be spent by the private key 
+ that corresponds to the request address
+ that was used to generate that unspent transaction output (UTXO).
 
 Imagine if you receive 0.5 Bitcoin to an address in your wallet.
  You then send 0.1 Bitcoin to someone else.
  It is tempting to think your original address now has 0.4 Bitcoin, 
- but in reality your original address has nothing.
- There is no "from address" in Bitcoin.
+ but in reality your original address has nothing. 
+ The original transaction has nothing.
+ And there is no "from address" in Bitcoin.
  When you sent 0.1 Bitcoin,
-  this created a transaction with two outputs:
+  this created a new transaction with two outputs:
   one for 0.1 Bitcoin, and another 0.4 Bitcoin.
  Your private key can access the output with 0.4 Bitcoin,
  and someone else has the private key to access the output with 0.1 Bitcoin.
@@ -105,11 +112,17 @@ Imagine if you receive 0.5 Bitcoin to an address in your wallet.
 An invoice address, or receive address, 
  is an encoded single use number that will produce a transaction output that can only be spent by the corresponding private key.
  An address is not a location where Bitcoin is stored, 
- but rather is part of a transaction output (see UTXOs below).
+ but rather was used to generate a transaction output (see UTXOs below).
 
-...
+---
+
 The words "wallet" and "address" are at best imperfect metaphors,
- and at worst confusing anachronisms, like trying to define the Internet in terms of typewriters and postage stamps.
+ and at worst confusing anachronisms, 
+ like trying to define the Internet in terms of typewriters and postage stamps.
+
+However, if you understand how keys and UTXOs work,
+ then you will understand what people mean
+ when they talk about their wallet addresses.
 
 ...
 Seed Phrase -> Private Keys -> Public Keys -> Addresses
@@ -122,19 +135,16 @@ https://en.bitcoin.it/wiki/Invoice_address
 
 ## Keys
 
-To truly understand Bitcoin,
- you must understand "keys", 
- which is the most apt and important metaphor for understanding Bitcoin.
- It is your keys that you custody.
+It is your keys that you custody.
  Specifically, you custody your private keys,
- or rather, the seed phrases used to generate
- your private keys.
+ possibly by storing the seed phrases 
+ that can be used to generate your private keys.
 
 This is the most important aspect of Bitcoin custody. 
  A "key" refers to a private key that can sign transactions.
- That is, the means to spend your Bitcoin.
  In fact, your Bitcoin is only truly yours 
  to the extent that you have secured your keys in a proper self custody system.
+ Not your keys, not your Bitcoin.
 
 A private key is nothing more than a very large number. A 256-bit number.
 
