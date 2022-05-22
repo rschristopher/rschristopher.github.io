@@ -89,6 +89,7 @@ There are many variations of cold storage but they all adhere to the above patte
 
 In practice, a private key can generate 
  unlimited receive addresses.
+ A given receive address should never be used more than once.
 
 The word "address" implies your Bitcoin is located at this address.
  However, there is no "address" that maintains a balance of your Bitcoin.
@@ -112,13 +113,13 @@ Imagine if you receive 0.5 Bitcoin to an address in your wallet.
  and someone else has the private key to access the output with 0.1 Bitcoin.
  The original transaction output of 0.5 Bitcoin is already spent,
  and that Bitcoin is only available in the *unspent transaction outputs*.
- These ouputs are known as UTXOs (see below).
+ These unspent ouputs are known as UTXOs (see below).
 
 An invoice address, or receive address, 
- is an encoded single use number that will produce a transaction output 
+ is a number that will produce a transaction output 
  that can only be spent by the corresponding private key.
  An address is not a location where Bitcoin is stored, 
- but rather was used to generate a transaction output (see UTXOs below).
+ but rather is used to generate a transaction output (see UTXOs below).
 
 ---
 
