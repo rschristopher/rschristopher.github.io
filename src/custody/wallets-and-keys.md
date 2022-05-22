@@ -50,6 +50,29 @@ There are many variations of cold storage,
  e.g., using a seed signer, the private key is never stored in any electronic device, air-gapped or otherwise.
  Instead the key is generated from the seed phrase and used on a signing device only when needed. 
 
+
+## Addresses
+
+Addresses, like "wallet" is also a misnomer.
+
+There is no address that maintains a balance of Bitcoin.
+
+An invoice address, or receive address, 
+ is an encoded single use number that can be spent by the corresponding private key.
+ An address is not a location where Bitcoin is stored, 
+ but rather is part of a transaction that if included in the timechain will result in unspent transaction outputs (UTXOs).
+
+...
+Wallets and Addresses are at best imperfect metaphors
+...
+Seed Phrase -> Private Keys -> Public Keys -> Addresses
+https://en.bitcoin.it/wiki/Invoice_address
+
+
+---
+
+
+
 ## Keys
 
 This is the most important aspect of Bitcoin custody. 
@@ -68,22 +91,6 @@ https://en.bitcoin.it/wiki/Seed_phrase
 ...
 BIP 39
 Electrum
-
-## Addresses
-
-Seed Phrase -> Private Keys -> Public Keys -> Addresses
-https://en.bitcoin.it/wiki/Invoice_address
-
-Addresses, like "wallet" is also a misnomer.
-
-There is no address that maintains a balance of Bitcoin.
-
-An invoice address, or receive address, 
- is an encoded single use number that can be spent by the corresponding private key.
- An address is not a location where Bitcoin is stored, 
- but rather is part of a transaction that if included in the timechain will result in unspent transaction outputs (UTXOs).
-
-...
 
 
 ## Transactions
