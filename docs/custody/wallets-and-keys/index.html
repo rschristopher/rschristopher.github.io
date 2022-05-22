@@ -848,6 +848,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#samples" class="md-nav__link">
+    Samples
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2162,6 +2169,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#samples" class="md-nav__link">
+    Samples
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2308,7 +2322,7 @@ https://en.bitcoin.it/wiki/Invoice_address</p>
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
 <p>It is your keys that you custody.
  Specifically, you custody your private keys,
- possibly by storing the seed phrases 
+ usually by storing the seed phrases 
  that can be used to generate your private keys.</p>
 <p>This is the most important aspect of Bitcoin custody. 
  In fact, your Bitcoin is only truly yours 
@@ -2318,7 +2332,7 @@ https://en.bitcoin.it/wiki/Invoice_address</p>
 </blockquote>
 <p>A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
-A private key is typically generated from a seed phrase.
+A private key can be generated from a seed phrase.
 A seed phrase can generate public and private key pairs.</p>
 <p>This process is defined in BIP 32, 
  known as
@@ -2330,18 +2344,27 @@ BIP 32</p>
 <p>seed is the entropy used to generate some other desired result. It could be used for generating a private key, a master private key, or mnemonic.</p>
 </blockquote>
 <ol>
-<li>Seed Phrase, or Mnemonic</li>
-<li>Master Extended Key Pair<ol>
-<li>xprv</li>
-<li>xpub</li>
-</ol>
-</li>
+<li>Seed Phrase (Mnemonic)</li>
+<li>Master Extended Key Pair</li>
 <li>Receive Addresses</li>
 </ol>
 <p>https://en.bitcoin.it/wiki/Seed_phrase
 ...
 BIP 39
 Electrum</p>
+<h3 id="samples">Samples<a class="headerlink" href="#samples" title="Permanent link">&para;</a></h3>
+<p>Seed Phrase</p>
+<pre><code>holiday crew machine fatigue welcome start axis cancel field slim rifle hero
+</code></pre>
+<p>Private Key</p>
+<pre><code>p2wpkh:L1mi9qLEUT1e7nzrGfkcrszBNpuoewaBidEN4oJEBjtFmzEdTHsg
+</code></pre>
+<p>Master Public Key</p>
+<pre><code>zpub6mtgHMNdJfXqhsQcjyUgvKBDcFfSVpmYsUVUTvFfd8zMep9RnTPZroxrDnnWcxCfyPt5Kq7Vktd5urh6XFW26spz6uroYEGUB5s2FVQ14b9
+</code></pre>
+<p>Generated Address</p>
+<pre><code>bc1q2ajcelxfjt0e97gmka0yppfxs4haj8cmdvw7rk
+</code></pre>
 <p>https://bitcointalk.org/index.php?topic=5213741.0</p>
 <h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
 <p>https://developer.bitcoin.org/reference/transactions.html
