@@ -104,7 +104,7 @@ Imagine if you receive 0.5 Bitcoin to an address in your wallet.
  You then send 0.1 Bitcoin to someone else.
  It is tempting to think your original address now has 0.4 Bitcoin, 
  but in reality your original address has nothing. 
- The original transaction has nothing.
+ The original transaction is spent.
  And there is no "from address" in Bitcoin.
  When you sent 0.1 Bitcoin,
   this created a new transaction with two outputs:
