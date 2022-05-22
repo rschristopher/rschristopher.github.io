@@ -1,47 +1,53 @@
 # Wallets and Keys and UTXOs
 
 Bitcoin is unlike any money that has ever existed.
- It is also unlike any technology or network.
+ It is unlike any technology or network.
  There's really nothing in history like it.
 
 Bitcoin is unlike *anything* that has *ever* existed.
 
 This means that any attempt at explaining Bitcoin
- will either rely on sloppy metaphors, or technical terms.
- Yet proper custody requires a true understanding of Bitcoin, 
- how it works, and the novel ways you can custody your own Bitcoin.
+ will rely either on sloppy metaphors, or novel technical terms.
+ Even the term "custody" is a bit of a misnomer,
+ an anachronism from a simpler time when banks would "custody" your wealth (for a fee).
 
 In reality, there are no actual coins to custody.
  Bitcoin is pure information. Information copied publicly in an immutable ledger.
  Everyone can have a copy of the ledger,
- and everyone can validate that their copy is correct.
+ and everyone can validate that the ledger is correct.
+ And similar to how the Internet empowered individuals to share ideas with the world (for better or worse),
+ Bitcoin empowers individuals to custody their wealth in ways far more secure than any bank ever could.
 
 And because Bitcoin is money, 
  there are many traditional metaphors
  (such as wallets, coins, and addresses),
  that can be useful 
- but at the same time may still lead to a great deal of confusion.
+ but at the same time may lead to a great deal of confusion.
+ Bitcoin is so different that it is a category all to its own
+ -- the physical limitations of "custody", "wallets", "coins", and "addresses", simply don't apply to Bitcoin.
+ And thus to "custody" your Bitcoin, means something very different than anything you've thought about before Bitcoin.
 
-We will describe these metaphors
+We will describe these imperfect metaphors
  and attempt to demystify them, and then
  discuss the more accurate technical concepts
  necessary for understanding the truth of Bitcoin
- and what it really means to custody.
+ and what it really means to *custody your Bitcoin*.
 
 
 ## Wallets
 
 In Bitcoin, the word "wallet" is a misnomer,
- and possibly the biggest source of confusion.
+ possibly the most confusing concept in Bitcoin if you're thinking in terms of a physical wallet.
 
 The term "wallet" in Bitcoin can mean different things.
  It can refer to a collection of private keys, 
- or receive addresses,
+ or invoice addresses,
  or UTXO sets,
  or as the hardware or software to manage any of the above.
 But a Bitcoin wallet is most certainly NOT 
- a collection of your Bitcoin. 
-There is no Bitcoin stored in a Bitcoin wallet.
+ a collection of your Bitcoin.
+
+> There is no Bitcoin stored in a Bitcoin wallet.
 
 The traditional meaning of the word "wallet" simply doesn't apply to Bitcoin.
  The word "wallet" was used in Bitcoin because the original Bitcoin core client would store private keys in a file named `wallet.dat`.
@@ -65,60 +71,74 @@ There are obvious security benefits to cold storage.
  And "cold storage" is the recommended approach for safe custody of your Bitcoin.
 
 There are many cold storage practices, 
- but they follow this standard pattern,
+ and they follow this standard pattern,
 
-1. private keys are stored in an air-gapped device.
-1. private keys generate a "Master Public Key" which is stored in an Internet-connected device.
-1. the "Master Public Key" can generate receive addresses and verify transactions, but it cannot send Bitcoin.
+1. private keys are stored offline (e.g., in an air-gapped device).
+1. public keys (e.g., a Master Public Key) are stored in an Internet-connected device.
+1. for receiving Bitcoin,
+    1. the "Master Public Key" can generate receive addresses, and 
+    1. verify transactions.
 1. for sending Bitcoin,
-    1. the "Master Public Key" can generate an unsigned transaction.
-    1. the *unsigned* transaction is transfered to the air-gapped device.
-    1. the transaction is signed on the air-gapped device.
-    1. the *signed* transaction is transfered to the Internet-connected device, and then broadcast to the network.
+    1. the "Master Public Key" can generate an *unsigned transaction*, then
+    1. the *unsigned transaction* is transfered to the air-gapped device, then
+    1. the transaction is **signed** on the air-gapped device, then
+    1. the *signed transaction* is transfered to an Internet-connected device, and then broadcast to the network.
 
 There are many variations of cold storage but they all adhere to the above pattern;
- sometimes with additional steps meant to increase security,  
- e.g., using a seed signer, the private key is never stored in any electronic device, air-gapped or otherwise.
- Instead the key is generated from the seed phrase and used on a signing device only when needed. 
+ sometimes with additional steps meant to increase security.  
+> E.g., using a seed signer, a private key is never stored in any electronic device, air-gapped or otherwise.
+> Instead the key is generated from the seed phrase and used on a signing device only when needed (and discarded immediately afterwards). 
 
 
 ## Addresses
 
-"Address", like "wallet", is a misnomer,
- and when not understood can lead to dangerous outcomes, including lost Bitcoin.
+A Bitcoin "address", like a "wallet", is a misnomer,
+ and when not understood properly can lead to bad outcomes, including lost Bitcoin.
 
-In practice, a private key can generate 
+In practice, a Bitcoin key can generate 
  unlimited receive addresses.
- A given receive address should never be used more than once.
+ And a given receive address should never be used more than once.
+ A private key is needed to spend any Bitcoin received at these addresses,
+ and a public key can generate receive addresses but not spend.
 
-The word "address" implies your Bitcoin is located at this address.
- However, there is no "address" that maintains a balance of your Bitcoin.
- There is only transactions, which have inputs and outputs.
- The inputs are created from outputs of previous transactions.
+This seems simple enough, however, the word "address" implies your Bitcoin is located at this address.
+ In reality, there is no "address" where your Bitcoin is located.
+ There is only transactions, which have inputs and outputs, and the outputs can be spent only once.
+
+Transaction inputs are created from the unspent outputs of a previous transaction.
  And the ouputs are created using an address, 
- which is just a number generated by a key. 
- This makes a given output spendable only by 
- the corresponding private key that generated that address.
+ which is just a number generated by a key.
+ This makes the unspent transaction outputs spendable only by 
+ the corresponding private key associated with the address.
 
-Imagine if you receive 0.5 Bitcoin to an address in your wallet.
- You then send 0.1 Bitcoin to someone else.
- It is tempting to think your original address now has 0.4 Bitcoin, 
+### A Simple Example
+> Imagine you receive 0.5 Bitcoin to an address in your wallet.
+
+> Then you send 0.1 Bitcoin to someone else (to an invoice address they sent you).
+
+It is tempting to think your original address now has 0.4 Bitcoin, 
  but in reality your original address has nothing. 
  The original transaction is spent.
- And there is no "from address" in Bitcoin.
- When you sent 0.1 Bitcoin,
-  this created a new transaction with two outputs:
-  one for 0.1 Bitcoin, and another 0.4 Bitcoin.
- Your private key can access the output with 0.4 Bitcoin,
- and someone else has the private key to access the output with 0.1 Bitcoin.
- The original transaction output of 0.5 Bitcoin is already spent,
- and that Bitcoin is only available in the *unspent transaction outputs*.
- These unspent ouputs are known as UTXOs (see below).
 
-An invoice address, or receive address, 
- is a number that will produce a transaction output 
- that can only be spent by the corresponding private key.
- An address is not a location where Bitcoin is stored, 
+>  When you send the 0.1 Bitcoin,
+>   this will create a new transaction with **two** outputs:
+
+>   one for 0.1 Bitcoin, and another 0.4 Bitcoin.
+
+>  Your private key can access the output with 0.4 Bitcoin,
+>  and someone else has the private key to access the output with 0.1 Bitcoin.
+>  The original transaction output of 0.5 Bitcoin is already spent,
+>  and that Bitcoin is only available in the new  *unspent transaction outputs*.
+
+>  These *unspent transaction ouputs* are known as UTXOs (see below).
+
+### Addresses Demystified
+
+An invoice address (aka *receive address*), 
+ is a number generated by your key that will produce a transaction output 
+ that can only be spent by the associated private key.
+
+An address is not a location where Bitcoin is stored, 
  but rather is used to generate a transaction output (see UTXOs below).
 
 ---
@@ -130,12 +150,18 @@ The words "wallet" and "address" are at best imperfect metaphors,
  and at worst confusing anachronisms, 
  like trying to define the Internet in terms of typewriters and postage stamps.
 
-However, if you learn how Keys and UTXOs work,
+However, if you learn how Bitcoin Keys and UTXOs work,
  then you will understand what people mean
- when they talk about their wallet and addresses.
+ when they talk about their Bitcoin wallet and addresses.
+ In fact, by understanding these concepts, you can discover novel ways to custody your own Bitcoin
+ -- and secure your own Bitcoin in ways no bank or custody service could ever match.
 
 ...
 https://en.bitcoin.it/wiki/Invoice_address
+
+
+Yet proper custody requires a true understanding of Bitcoin, 
+ how it works, and the novel ways you can custody your own Bitcoin.
 
 
 ---
@@ -144,7 +170,7 @@ https://en.bitcoin.it/wiki/Invoice_address
 
 ## Keys
 
-It is your keys that you custody.
+It is your Bitcoin keys that you custody.
  Specifically, you custody your private keys,
  usually by storing the seed phrases 
  that can be used to generate your private keys.
