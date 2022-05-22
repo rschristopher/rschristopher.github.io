@@ -129,10 +129,9 @@ The words "wallet" and "address" are at best imperfect metaphors,
 
 However, if you learn how keys and UTXOs work,
  then you will understand what people mean
- when they talk about their wallelt and addresses.
+ when they talk about their wallet and addresses.
 
 ...
-Seed Phrase -> Private Keys -> Public Keys -> Addresses
 https://en.bitcoin.it/wiki/Invoice_address
 
 
@@ -148,24 +147,40 @@ It is your keys that you custody.
  that can be used to generate your private keys.
 
 This is the most important aspect of Bitcoin custody. 
- A "key" refers to a private key that can sign transactions.
  In fact, your Bitcoin is only truly yours 
  to the extent that you have secured your keys in a proper self custody system.
  Not your keys, not your Bitcoin.
 
-A private key is nothing more than a very large number. A 256-bit number.
+A private key is nothing more than a very large number, 
+ i.e., a 256-bit number.
+A private key is typically generated from a seed phrase.
+A seed phrase can generate public and private key pairs.
 
-### Seed Phrase
+This process is defined in BIP 32, 
+ known as
+ Hierarchical Deterministic Wallets
+
+
+### Deterministic Wallet
 
 https://en.bitcoin.it/wiki/Deterministic_wallet
 BIP 32
 
-Hierarchical Deterministic Wallet
+> seed is the entropy used to generate some other desired result. It could be used for generating a private key, a master private key, or mnemonic.
+
+1. Seed Phrase, or Mnemonic
+1. Master Extended Key Pair
+    1. xprv
+    1. xpub
+1. Receive Addresses
+
 
 https://en.bitcoin.it/wiki/Seed_phrase
 ...
 BIP 39
 Electrum
+
+https://bitcointalk.org/index.php?topic=5213741.0
 
 
 ## Transactions
