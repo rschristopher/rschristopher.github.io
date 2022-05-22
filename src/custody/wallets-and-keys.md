@@ -146,7 +146,7 @@ https://en.bitcoin.it/wiki/Invoice_address
 
 It is your keys that you custody.
  Specifically, you custody your private keys,
- possibly by storing the seed phrases 
+ usually by storing the seed phrases 
  that can be used to generate your private keys.
 
 This is the most important aspect of Bitcoin custody. 
@@ -157,7 +157,7 @@ This is the most important aspect of Bitcoin custody.
 
 A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
-A private key is typically generated from a seed phrase.
+A private key can be generated from a seed phrase.
 A seed phrase can generate public and private key pairs.
 
 This process is defined in BIP 32, 
@@ -172,10 +172,8 @@ BIP 32
 
 > seed is the entropy used to generate some other desired result. It could be used for generating a private key, a master private key, or mnemonic.
 
-1. Seed Phrase, or Mnemonic
+1. Seed Phrase (Mnemonic)
 1. Master Extended Key Pair
-    1. xprv
-    1. xpub
 1. Receive Addresses
 
 
@@ -183,6 +181,29 @@ https://en.bitcoin.it/wiki/Seed_phrase
 ...
 BIP 39
 Electrum
+
+### Samples
+
+Seed Phrase
+```
+holiday crew machine fatigue welcome start axis cancel field slim rifle hero
+```
+
+Private Key
+```
+p2wpkh:L1mi9qLEUT1e7nzrGfkcrszBNpuoewaBidEN4oJEBjtFmzEdTHsg
+```
+
+Master Public Key
+```
+zpub6mtgHMNdJfXqhsQcjyUgvKBDcFfSVpmYsUVUTvFfd8zMep9RnTPZroxrDnnWcxCfyPt5Kq7Vktd5urh6XFW26spz6uroYEGUB5s2FVQ14b9
+```
+
+Generated Address
+```
+bc1q2ajcelxfjt0e97gmka0yppfxs4haj8cmdvw7rk
+```
+
 
 https://bitcointalk.org/index.php?topic=5213741.0
 
