@@ -124,9 +124,9 @@ https://en.bitcoin.it/wiki/Invoice_address
 
 To truly understand Bitcoin,
  you must understand "keys", 
- which is the most apt and important metaphor.
- It is the keys that you custody.
- Specifically, safe guarding your private keys,
+ which is the most apt and important metaphor for understanding Bitcoin.
+ It is your keys that you custody.
+ Specifically, you custody your private keys,
  or rather, the seed phrases used to generate
  your private keys.
 
@@ -134,7 +134,7 @@ This is the most important aspect of Bitcoin custody.
  A "key" refers to a private key that can sign transactions.
  That is, the means to spend your Bitcoin.
  In fact, your Bitcoin is only truly yours 
- to the extend that you have secured your keys in a proper self custody system.
+ to the extent that you have secured your keys in a proper self custody system.
 
 A private key is nothing more than a very large number. A 256-bit number.
 
