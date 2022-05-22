@@ -2248,17 +2248,28 @@ If a private key is directly accessible to an online device, this makes it "hot"
  e.g., using a seed signer, the private key is never stored in any electronic device, air-gapped or otherwise.
  Instead the key is generated from the seed phrase and used on a signing device only when needed. </p>
 <h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
-<p>Address, like "wallet", is a misnomer,
+<p>"Address", like "wallet", is a misnomer,
  and when not understood correctly can lead to dangerous outcomes, including lost Bitcoin.</p>
 <p>There is no "address" that maintains a balance of your Bitcoin.
  There is only transactions, which have inputs and outputs.</p>
+<p>In practical terms, imagine if you receive 0.5 Bitcoin to an address in your wallet.
+ You then send 0.1 Bitcoin to someone else.
+ It is tempting to think the original address now has 0.4 Bitcoin, 
+ but in reality your original address has nothing.
+ There is no "from address" in Bitcoin.
+ When you sent 0.1 Bitcoin,
+  this created a transaction with two outputs:
+  one for 0.1 Bitcoin, and another 0.4 Bitcoin.
+ Your private key can access the output with 0.4 Bitcoin,
+ and someone else has the private key to access the output with 0.1 Bitcoin.
+ These ouputs are known as UTXOs (see below).</p>
 <p>An invoice address, or receive address, 
  is an encoded single use number that will produce a transaction output that can only be spent by the corresponding private key.
  An address is not a location where Bitcoin is stored, 
- but rather is part of a transaction that if included in the timechain will result in one or more unspent transaction outputs (UTXOs).</p>
+ but rather is part of a transaction that will include one or more UTXOs.</p>
 <p>...
 The words "wallet" and "address" are at best imperfect metaphors,
- and at worst confusing anachronisms, like trying to define the Internet in terms of books.</p>
+ and at worst confusing anachronisms, like trying to define the Internet in terms of typewriters and postage stamps.</p>
 <p>...
 Seed Phrase -&gt; Private Keys -&gt; Public Keys -&gt; Addresses
 https://en.bitcoin.it/wiki/Invoice_address</p>
