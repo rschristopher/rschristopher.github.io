@@ -90,7 +90,6 @@ There are many variations of cold storage but they all adhere to the above patte
 There is no "address" that maintains a balance of your Bitcoin.
  There is only transactions, which have inputs and outputs.
 
-In practical terms, 
 Imagine if you receive 0.5 Bitcoin to an address in your wallet.
  You then send 0.1 Bitcoin to someone else.
  It is tempting to think your original address now has 0.4 Bitcoin, 
