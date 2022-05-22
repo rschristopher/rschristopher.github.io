@@ -2182,8 +2182,26 @@
 
 
 <h1 id="wallets-and-keys-and-utxos">Wallets and Keys and UTXOs<a class="headerlink" href="#wallets-and-keys-and-utxos" title="Permanent link">&para;</a></h1>
+<p>Bitcoin is unlike any money that has ever existed.
+ It is also unlike any technology that has ever existed.</p>
+<p>Bitcoin is unlike <em>anything</em> that has ever existed.</p>
+<p>This means that any attempt at explaining Bitcoin
+ will either rely on sloppy metaphors, or technical terms.</p>
+<p>In reality, there are no actual coins.
+ Bitcoin is pure information. Information copied over and over.
+ Everyone can have a copy of the ledger,
+ and everyone can validate that their copy is correct.</p>
+<p>But because Bitcoin is money, 
+ there are many traditional metaphors
+ (such as wallets, coins, and addresses),
+ that can be useful and at the same time will lead to a great deal of confusion.</p>
+<p>We will describe these metaphors
+ and attempt to demystify them, and then
+ discuss the more accurate technical concepts
+ necessary for understanding the truth of Bitcoin.</p>
 <h2 id="wallets">Wallets<a class="headerlink" href="#wallets" title="Permanent link">&para;</a></h2>
-<p>In Bitcoin, the word "wallet" is a misnomer. A common expression that often leads to confusion.</p>
+<p>In Bitcoin, the word "wallet" is a misnomer,
+ and possibly the biggest source of confusion.</p>
 <p>The term "wallet" in Bitcoin can mean different things.
  It can refer to a collection of private keys, 
  or receive addresses,
@@ -2192,13 +2210,13 @@
 But a Bitcoin wallet is most certainly NOT 
  a collection of your Bitcoin. 
 There is no Bitcoin stored in a Bitcoin wallet.</p>
-<p>The most common understanding of the word "wallet" simply doesn't apply to Bitcoin.
- The word "wallet" was used in Bitcoin because the original Bitcoin core client would store private keys in a file named<code>wallet.dat</code>.
+<p>The meaning of the word "wallet" simply doesn't apply to Bitcoin.
+ The word "wallet" was used in Bitcoin because the original Bitcoin core client would store private keys in a file named <code>wallet.dat</code>.
  This "wallet" was simply the file where your private keys were stored.</p>
 <h3 id="hot-wallet">Hot Wallet<a class="headerlink" href="#hot-wallet" title="Permanent link">&para;</a></h3>
 <p>A "hot wallet" refers to any software or hardware that stores your private keys in a device connected to the Internet, 
  allowing you to send and receive Bitcoin.
-The important part is that the private key is accessible to the online device, this makes it "hot".</p>
+If a private key is directly accessible to an online device, this makes it "hot".</p>
 <p>E.g., if you have a Bitcoin wallet app on your phone that can send and receive Bitcoin, 
  this is referred to as a "hot wallet".</p>
 <h3 id="cold-storage-wallet">Cold Storage Wallet<a class="headerlink" href="#cold-storage-wallet" title="Permanent link">&para;</a></h3>
@@ -2207,7 +2225,7 @@ The important part is that the private key is accessible to the online device, t
 <p>There are obvious security benefits to cold storage.
  And "cold storage" is the recommended approach for safe custody of your Bitcoin.</p>
 <p>There are many cold storage practices, 
- but most follow this standard pattern,</p>
+ but they follow this standard pattern,</p>
 <ol>
 <li>private keys are stored in an air gapped device.</li>
 <li>private keys generate a "Master Public Key" which is stored in an Internet connected device.</li>
@@ -2220,26 +2238,33 @@ The important part is that the private key is accessible to the online device, t
 </ol>
 </li>
 </ol>
-<p>There are many variations of cold storage,<br />
+<p>There are many variations of cold storage but they all tend to adhere to the above pattern;
+ sometimes with additional steps meant to increase security,<br />
  e.g., using a seed signer, the private key is never stored in any electronic device, air-gapped or otherwise.
  Instead the key is generated from the seed phrase and used on a signing device only when needed. </p>
 <h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
-<p>Addresses, like "wallet" is also a misnomer.</p>
-<p>There is no address that maintains a balance of Bitcoin.</p>
+<p>Address, like "wallet" is also a misnomer,
+ and when not understood correctly can lead to dangerous outcomes, including lost Bitcoin.</p>
+<p>There is no "address" that maintains a balance of Bitcoin.
+ There is only transactions, which have inputs and outputs.</p>
 <p>An invoice address, or receive address, 
- is an encoded single use number that can be spent by the corresponding private key.
+ is an encoded single use number that will produce a transaction output that can only be spent by the corresponding private key.
  An address is not a location where Bitcoin is stored, 
- but rather is part of a transaction that if included in the timechain will result in unspent transaction outputs (UTXOs).</p>
+ but rather is part of a transaction that if included in the timechain will result in one or more unspent transaction outputs (UTXOs).</p>
 <p>...
-Wallets and Addresses are at best imperfect metaphors
-...
+Wallets and Addresses are at best imperfect metaphors,
+ and at worst are confusing anachronistic expressions, like trying to define the Internet in terms of books.</p>
+<p>...
 Seed Phrase -&gt; Private Keys -&gt; Public Keys -&gt; Addresses
 https://en.bitcoin.it/wiki/Invoice_address</p>
 <hr />
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
+<p>To truly understand Bitcoin,
+ you must understand "keys", 
+ which is the most apt and important metaphor.</p>
 <p>This is the most important aspect of Bitcoin custody. 
  A "key" refers to a private key that can sign transactions.</p>
-<p>A private key is merely a very large number. A 256-bit number.</p>
+<p>A private key is nothing more than a very large number. A 256-bit number.</p>
 <h3 id="seed-phrase">Seed Phrase<a class="headerlink" href="#seed-phrase" title="Permanent link">&para;</a></h3>
 <p>https://en.bitcoin.it/wiki/Deterministic_wallet
 BIP 32</p>
