@@ -84,7 +84,7 @@ There are many variations of cold storage but they all adhere to the above patte
 
 ## Addresses
 
-Address, like "wallet" is a misnomer,
+Address, like "wallet", is a misnomer,
  and when not understood correctly can lead to dangerous outcomes, including lost Bitcoin.
 
 There is no "address" that maintains a balance of your Bitcoin.
