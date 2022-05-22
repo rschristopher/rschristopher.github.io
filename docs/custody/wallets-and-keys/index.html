@@ -835,8 +835,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#seed-phrase" class="md-nav__link">
-    Seed Phrase
+  <a href="#deterministic-wallet" class="md-nav__link">
+    Deterministic Wallet
   </a>
   
 </li>
@@ -2142,8 +2142,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#seed-phrase" class="md-nav__link">
-    Seed Phrase
+  <a href="#deterministic-wallet" class="md-nav__link">
+    Deterministic Wallet
   </a>
   
 </li>
@@ -2286,9 +2286,8 @@ If a private key is directly accessible to an online device, this makes it "hot"
  like trying to define the Internet in terms of typewriters and postage stamps.</p>
 <p>However, if you learn how keys and UTXOs work,
  then you will understand what people mean
- when they talk about their wallelt and addresses.</p>
+ when they talk about their wallet and addresses.</p>
 <p>...
-Seed Phrase -&gt; Private Keys -&gt; Public Keys -&gt; Addresses
 https://en.bitcoin.it/wiki/Invoice_address</p>
 <hr />
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
@@ -2297,19 +2296,36 @@ https://en.bitcoin.it/wiki/Invoice_address</p>
  possibly by storing the seed phrases 
  that can be used to generate your private keys.</p>
 <p>This is the most important aspect of Bitcoin custody. 
- A "key" refers to a private key that can sign transactions.
  In fact, your Bitcoin is only truly yours 
  to the extent that you have secured your keys in a proper self custody system.
  Not your keys, not your Bitcoin.</p>
-<p>A private key is nothing more than a very large number. A 256-bit number.</p>
-<h3 id="seed-phrase">Seed Phrase<a class="headerlink" href="#seed-phrase" title="Permanent link">&para;</a></h3>
+<p>A private key is nothing more than a very large number, 
+ i.e., a 256-bit number.
+A private key is typically generated from a seed phrase.
+A seed phrase can generate public and private key pairs.</p>
+<p>This process is defined in BIP 32, 
+ known as
+ Hierarchical Deterministic Wallets</p>
+<h3 id="deterministic-wallet">Deterministic Wallet<a class="headerlink" href="#deterministic-wallet" title="Permanent link">&para;</a></h3>
 <p>https://en.bitcoin.it/wiki/Deterministic_wallet
 BIP 32</p>
-<p>Hierarchical Deterministic Wallet</p>
+<blockquote>
+<p>seed is the entropy used to generate some other desired result. It could be used for generating a private key, a master private key, or mnemonic.</p>
+</blockquote>
+<ol>
+<li>Seed Phrase, or Mnemonic</li>
+<li>Master Extended Key Pair<ol>
+<li>xprv</li>
+<li>xpub</li>
+</ol>
+</li>
+<li>Receive Addresses</li>
+</ol>
 <p>https://en.bitcoin.it/wiki/Seed_phrase
 ...
 BIP 39
 Electrum</p>
+<p>https://bitcointalk.org/index.php?topic=5213741.0</p>
 <h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
 <p>https://developer.bitcoin.org/reference/transactions.html
 https://en.bitcoin.it/wiki/Transaction</p>
