@@ -820,6 +820,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addresses" class="md-nav__link">
+    Addresses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#keys" class="md-nav__link">
     Keys
   </a>
@@ -836,13 +843,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addresses" class="md-nav__link">
-    Addresses
-  </a>
   
 </li>
       
@@ -2127,6 +2127,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addresses" class="md-nav__link">
+    Addresses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#keys" class="md-nav__link">
     Keys
   </a>
@@ -2143,13 +2150,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addresses" class="md-nav__link">
-    Addresses
-  </a>
   
 </li>
       
@@ -2223,6 +2223,19 @@ The important part is that the private key is accessible to the online device, t
 <p>There are many variations of cold storage,<br />
  e.g., using a seed signer, the private key is never stored in any electronic device, air-gapped or otherwise.
  Instead the key is generated from the seed phrase and used on a signing device only when needed. </p>
+<h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
+<p>Addresses, like "wallet" is also a misnomer.</p>
+<p>There is no address that maintains a balance of Bitcoin.</p>
+<p>An invoice address, or receive address, 
+ is an encoded single use number that can be spent by the corresponding private key.
+ An address is not a location where Bitcoin is stored, 
+ but rather is part of a transaction that if included in the timechain will result in unspent transaction outputs (UTXOs).</p>
+<p>...
+Wallets and Addresses are at best imperfect metaphors
+...
+Seed Phrase -&gt; Private Keys -&gt; Public Keys -&gt; Addresses
+https://en.bitcoin.it/wiki/Invoice_address</p>
+<hr />
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
 <p>This is the most important aspect of Bitcoin custody. 
  A "key" refers to a private key that can sign transactions.</p>
@@ -2235,16 +2248,6 @@ BIP 32</p>
 ...
 BIP 39
 Electrum</p>
-<h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
-<p>Seed Phrase -&gt; Private Keys -&gt; Public Keys -&gt; Addresses
-https://en.bitcoin.it/wiki/Invoice_address</p>
-<p>Addresses, like "wallet" is also a misnomer.</p>
-<p>There is no address that maintains a balance of Bitcoin.</p>
-<p>An invoice address, or receive address, 
- is an encoded single use number that can be spent by the corresponding private key.
- An address is not a location where Bitcoin is stored, 
- but rather is part of a transaction that if included in the timechain will result in unspent transaction outputs (UTXOs).</p>
-<p>...</p>
 <h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
 <p>https://developer.bitcoin.org/reference/transactions.html
 https://en.bitcoin.it/wiki/Transaction</p>
