@@ -111,7 +111,7 @@ Imagine if you receive 0.5 Bitcoin to an address in your wallet.
  Your private key can access the output with 0.4 Bitcoin,
  and someone else has the private key to access the output with 0.1 Bitcoin.
  The original transaction output of 0.5 Bitcoin is already spent,
- and is only available in the unspent transaction outputs.
+ and that Bitcoin is only available in the *unspent transaction outputs*.
  These ouputs are known as UTXOs (see below).
 
 An invoice address, or receive address, 
