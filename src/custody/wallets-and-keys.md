@@ -2,6 +2,7 @@
 
 Bitcoin is unlike any money that has ever existed.
  It is also unlike any technology or network.
+ There's really nothing in history like it.
 
 Bitcoin is unlike *anything* that has *ever* existed.
 
