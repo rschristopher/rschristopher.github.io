@@ -85,14 +85,15 @@ There are many variations of cold storage but they all adhere to the above patte
 ## Addresses
 
 "Address", like "wallet", is a misnomer,
- and when not understood correctly can lead to dangerous outcomes, including lost Bitcoin.
+ and when not understood can lead to dangerous outcomes, including lost Bitcoin.
 
 There is no "address" that maintains a balance of your Bitcoin.
  There is only transactions, which have inputs and outputs.
 
-In practical terms, imagine if you receive 0.5 Bitcoin to an address in your wallet.
+In practical terms, 
+Imagine if you receive 0.5 Bitcoin to an address in your wallet.
  You then send 0.1 Bitcoin to someone else.
- It is tempting to think the original address now has 0.4 Bitcoin, 
+ It is tempting to think your original address now has 0.4 Bitcoin, 
  but in reality your original address has nothing.
  There is no "from address" in Bitcoin.
  When you sent 0.1 Bitcoin,
@@ -105,7 +106,7 @@ In practical terms, imagine if you receive 0.5 Bitcoin to an address in your wal
 An invoice address, or receive address, 
  is an encoded single use number that will produce a transaction output that can only be spent by the corresponding private key.
  An address is not a location where Bitcoin is stored, 
- but rather is part of a transaction that will include one or more UTXOs.
+ but rather is part of a transaction output (see UTXOs below).
 
 ...
 The words "wallet" and "address" are at best imperfect metaphors,
