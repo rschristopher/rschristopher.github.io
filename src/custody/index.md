@@ -1,5 +1,26 @@
 # Custody
 
+To hold or custody Bitcoin means 
+ securing the private keys that would be needed
+ to spend your Bitcoin.
+
+Unlike physical custody, custody of Bitcoin 
+ means to store a key or seed phrase,
+ and to store it in such a way that no one 
+ would be able to read it.
+
+!!! example "example"
+    If I see a video of gold bullion in a vault,
+    I cannot take that gold just by looking at it.
+    Yet with Bitcoin, a single photo of a
+     seed phrase is all that's needed to take 
+     control of that Bitcoin.
+
+And by this very nature of Bitcoin, 
+ money can be transferred easily across the world.
+
+
+
 Why self-custody?
 
 > So that you can be a sovereign of your own savings.
