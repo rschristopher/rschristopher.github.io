@@ -9,7 +9,15 @@ Unlike physical custody, custody of Bitcoin
  and to store it in such a way that no one 
  would be able to read it.
 
-!!! example "example"
+
+!!! info "Example Seed Phrase"
+
+    ```
+    holiday crew machine fatigue welcome start axis cancel field slim rifle hero
+    ```
+
+
+!!! warning ""
     If I see a video of gold bullion in a vault,
     I cannot take that gold just by looking at it.
     Yet with Bitcoin, a single photo of a

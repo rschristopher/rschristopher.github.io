@@ -2,9 +2,9 @@
 
 Bitcoin is unlike any money that has ever existed.
  It is unlike any technology or network.
- There's really nothing in history like it.
+ There's really nothing in history quite like it.
 
-Bitcoin is unlike *anything* that has *ever* existed.
+!!! info "Bitcoin is unlike *anything* that has *ever* existed."
 
 This means that any attempt at explaining Bitcoin
  will rely either on sloppy metaphors, or novel technical terms.
@@ -23,8 +23,8 @@ And because Bitcoin is money,
  (such as wallets, coins, and addresses),
  that can be useful 
  but at the same time may lead to a great deal of confusion.
- Bitcoin is so different that it is a category all to its own
- -- the physical limitations of "custody", "wallets", "coins", and "addresses", simply don't apply to Bitcoin.
+ Bitcoin is in a category all to its own
+ -- the physical limitations of "custody", "wallets", "coins", and "addresses" simply don't apply to Bitcoin.
  And thus to "custody" your Bitcoin, means something very different than anything you've thought about before Bitcoin.
 
 We will describe these imperfect metaphors
@@ -47,10 +47,10 @@ The term "wallet" in Bitcoin can mean different things.
 But a Bitcoin wallet is most certainly NOT 
  a collection of your Bitcoin.
 
-> There is no Bitcoin stored in a Bitcoin wallet.
+!!! warning "There is no Bitcoin stored in a Bitcoin wallet."
 
 The traditional meaning of the word "wallet" simply doesn't apply to Bitcoin.
- The word "wallet" was used in Bitcoin because the original Bitcoin core client would store private keys in a file named `wallet.dat`.
+ The word "wallet" was used in Bitcoin because the original Bitcoin core client app would store private keys in a file named `wallet.dat`.
  This "wallet" was simply the file where your private keys were stored.
 
 ### Hot Wallet
@@ -89,6 +89,11 @@ There are many variations of cold storage but they all adhere to the above patte
 > E.g., using a seed signer, a private key is never stored in any electronic device, air-gapped or otherwise.
 > Instead the key is generated from the seed phrase and used on a signing device only when needed (and discarded immediately afterwards). 
 
+### Wallets Demystified
+
+...
+
+
 
 ## Addresses
 
@@ -112,25 +117,77 @@ Transaction inputs are created from the unspent outputs of a previous transactio
  the corresponding private key associated with the address.
 
 ### A Simple Example
-> Imagine you receive 0.5 Bitcoin to an address in your wallet.
 
-> Then you send 0.1 Bitcoin to someone else (to an invoice address they sent you).
+Imagine you receive `0.5 Bitcoin` to an address in your wallet.
+ This will create a transaction that looks something like,
+
+``` mermaid
+flowchart LR
+  subgraph TX-1
+    direction LR
+    subgraph in-1[in]
+        direction LR
+        a[0.5 BTC]
+    end
+    subgraph out-1[out]
+        direction LR
+        b[0.5 BTC]
+    end
+  end
+  a --> b
+```
+
+Then you send `0.1 Bitcoin` to someone else (to an invoice address they sent you).
 
 It is tempting to think your original address now has 0.4 Bitcoin, 
  but in reality your original address has nothing. 
- The original transaction is spent.
+ The original transaction is *spent*.
 
->  When you send the 0.1 Bitcoin,
->   this will create a new transaction with **two** outputs:
+When you send the 0.1 Bitcoin,
+ this will create a *new* transaction with **two** outputs:
 
->   one for 0.1 Bitcoin, and another 0.4 Bitcoin.
+``` mermaid
+flowchart LR
+  subgraph TX-1
+    direction RL
+    subgraph in-1[in]
+        direction RL
+        a[0.5 BTC]
+    end
+    subgraph out-1[out]
+        direction RL
+        b[0.5 BTC]
+    end
+  end
+  subgraph TX-2
+    direction TB
+    subgraph in-2[in]
+        direction RL
+        c[0.5 BTC]
+    end
+    subgraph out-2[out]
+        direction BT
+        d[0.1 BTC]
+    end
+    subgraph out-2a[out]
+        direction BT
+        e[0.4 BTC]
+    end
+  end
+  a --> b
+  in-2 --> out-2
+  in-2 --> out-2a
+  b --> in-2
+```
 
->  Your private key can access the output with 0.4 Bitcoin,
->  and someone else has the private key to access the output with 0.1 Bitcoin.
->  The original transaction output of 0.5 Bitcoin is already spent,
->  and that Bitcoin is only available in the new  *unspent transaction outputs*.
+One output has `0.1 Bitcoin`, and another with `0.4 Bitcoin`.
 
->  These *unspent transaction ouputs* are known as UTXOs (see below).
+Your private key can access the output with `0.4 Bitcoin`,
+ and someone else has the private key to access the output with `0.1 Bitcoin`.
+ The original transaction output of 0.5 Bitcoin is already spent,
+ and the Bitcoin is only available in the new *unspent transaction outputs*.
+
+!!! warning "These *unspent transaction ouputs* are known as UTXOs (see below)."
 
 ### Addresses Demystified
 
@@ -179,7 +236,7 @@ This is the most important aspect of Bitcoin custody.
  In fact, your Bitcoin is only truly yours 
  to the extent that you have secured your keys in a proper self custody system.
 
-> Not your keys, not your Bitcoin.
+!!! danger "Not your keys, not your Bitcoin!"
 
 A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
@@ -191,7 +248,7 @@ This process is defined in BIP 32,
  Hierarchical Deterministic Wallets
 
 
-### Deterministic Wallet
+### Deterministic Wallets
 
 https://en.bitcoin.it/wiki/Deterministic_wallet
 BIP 32
@@ -208,33 +265,80 @@ https://en.bitcoin.it/wiki/Seed_phrase
 BIP 39
 Electrum
 
-### Samples
+### Sample Keys
 
-Seed Phrase
-```
-holiday crew machine fatigue welcome start axis cancel field slim rifle hero
-```
+!!! info "Example Seed Phrase"
 
-Private Key
-```
-p2wpkh:L1mi9qLEUT1e7nzrGfkcrszBNpuoewaBidEN4oJEBjtFmzEdTHsg
-```
+    ```
+    holiday crew machine fatigue welcome start axis cancel field slim rifle hero
+    ```
 
-Master Public Key
-```
-zpub6mtgHMNdJfXqhsQcjyUgvKBDcFfSVpmYsUVUTvFfd8zMep9RnTPZroxrDnnWcxCfyPt5Kq7Vktd5urh6XFW26spz6uroYEGUB5s2FVQ14b9
-```
+!!! info "Private Key"
 
-Generated Address
-```
-bc1q2ajcelxfjt0e97gmka0yppfxs4haj8cmdvw7rk
-```
+    ```
+    p2wpkh:L1mi9qLEUT1e7nzrGfkcrszBNpuoewaBidEN4oJEBjtFmzEdTHsg
+    ```
+https://learnmeabitcoin.com/beginners/private_keys
+
+!!! info "Master Public Key"
+
+    ```
+    zpub6mtgHMNdJfXqhsQcjyUgvKBDcFfSVpmYsUVUTvFfd8zMep9RnTPZroxrDnnWcxCfyPt5Kq7Vktd5urh6XFW26spz6uroYEGUB5s2FVQ14b9
+    ```
+
+https://river.com/learn/terms/z/zpub-extended-public-key/
+https://river.com/learn/terms/x/xpub-extended-public-key/
+
+!!! info "Generated Address"
+
+    ```
+    bc1q2ajcelxfjt0e97gmka0yppfxs4haj8cmdvw7rk
+    ```
 
 
 https://bitcointalk.org/index.php?topic=5213741.0
 
 
 ## Transactions
+
+``` mermaid
+flowchart LR
+  subgraph TX-1
+    direction TB
+    subgraph in-1[in]
+        direction TB
+        a[0.25 BTC]
+    end
+    subgraph in-1a[in]
+        direction TB
+        a1[0.25 BTC]
+    end
+    subgraph out-1[out]
+        direction BT
+        b[0.5 BTC]
+    end
+  end
+  subgraph TX-2
+    direction TB
+    subgraph in-2[in]
+        direction RL
+        c[0.5 BTC]
+    end
+    subgraph out-2[out]
+        direction BT
+        d[0.1 BTC]
+    end
+    subgraph out-2a[out]
+        direction BT
+        e[0.4 BTC]
+    end
+  end
+  in-1 --> out-1
+  in-1a --> out-1
+  in-2 --> out-2
+  in-2 --> out-2a
+  out-1 --> in-2
+```
 
 https://developer.bitcoin.org/reference/transactions.html
 https://en.bitcoin.it/wiki/Transaction
