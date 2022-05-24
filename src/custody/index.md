@@ -1,14 +1,16 @@
 # Custody
 
-To hold or custody Bitcoin means 
+To hold or *custody* Bitcoin means 
  securing the private keys that would be needed
  to spend your Bitcoin.
 
-Unlike physical custody, custody of Bitcoin 
+Unlike physical custody of assets, 
+ custody of Bitcoin 
  means to store a key or seed phrase,
- and to store it in such a way that no one 
+ and to store it in such a way that no one else
  would be able to read it.
 
+For example, consider the following seed phrase,
 
 !!! info "Example Seed Phrase"
 
@@ -16,13 +18,33 @@ Unlike physical custody, custody of Bitcoin
     holiday crew machine fatigue welcome start axis cancel field slim rifle hero
     ```
 
+This is a valid seed phrase, 
+ and it can be used to generate keys
+ as well as invoice addresses to custody Bitcoin.
 
-!!! warning ""
-    If I see a video of gold bullion in a vault,
-    I cannot take that gold just by looking at it.
-    Yet with Bitcoin, a single photo of a
-     seed phrase is all that's needed to take 
-     control of that Bitcoin.
+Because this seed phrase has been revealed,
+ anyone can generate private keys from this seed.
+ But what if you had to secure this seed phrase?
+
+In other words, how would you secure this phrase such that,
+1. No one would ever know what the seed phrase is, and
+1. The seed phrase *is* knowable only to yourself
+ and others you trust (family members and the like)?
+
+Answering both these questions is Bitcoin custody.
+
+## Why Self Custody
+
+*Self Custody* just means that custody Bitcoin yourself.
+ That is, you personally secure the seed phrase.
+
+!!! info "Be a Sovereign of your own Savings"
+
+
+
+
+
+
 
 And by this very nature of Bitcoin, 
  money can be transferred easily across the world.
