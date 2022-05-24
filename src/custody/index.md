@@ -56,27 +56,27 @@ If you trust an institution to custody your Bitcoin,
  it will never be as secure or as easy as Self Custody.
 
 !!! danger "Not your Bitcoin"
-  An institution with "your" Bitcoin can
-  use this Bitcoin as collateral for a loan.
-  If they're particularly clever they can buy
-  more Bitcoin with that loan, and devise
-  fractional reserve schemes. If they go
-  bankrupt do you get "your" Bitcoin back?
+    An institution with "your" Bitcoin can
+    use this Bitcoin as collateral for a loan.
+    If they're particularly clever they can buy
+    more Bitcoin with that loan, and devise
+    fractional reserve schemes. If they go
+    bankrupt do you get "your" Bitcoin back?
+    
+    An institution with "your" Bitcoin can 
+    lock you out of your account. The governments
+    in whichever countries they reside can lock
+    you out or seize your funds. Perhaps your name
+    was too similar to someone on a sanctions list,
+    or perhaps your government is in a dispute
+    with another government and they 
+    suspend your account.
 
-  An institution with "your" Bitcoin can 
-  lock you out of your account. The governments
-  in whichever countries they reside in can lock
-  you out or seize your funds. Perhaps your name
-  was too similar to someone on a sanctions list,
-  or perhaps your government is in a dispute
-  with another government and they 
-  suspend your account.
-
-  A hacker who learned your mother's maiden name
-  may be able to withdraw "your" Bitcoin. 
-  Perhaps one of the many data breaches resulted
-  in your personal information leaking out,
-  putting "your" Bitcoin at risk.
+    A hacker who learned your mother's maiden name
+    may be able to withdraw "your" Bitcoin. 
+    Perhaps one of the many data breaches resulted
+    in your personal information leaking out,
+    putting "your" Bitcoin at risk.
 
 
 
@@ -101,25 +101,24 @@ Why be a Sovereign of your own Savings?
 
 
 !!! question "Why would I want to be a bank?"
-
-  Because the banks aren't competent. 
-  And Bitcoin allows superior custody services 
-  that no bank or institution will be able 
-  to match.
-
-  *Proper self-custody is no more 
-  complicated than changing a light-bulb.*
-
-  But imagine asking a person in the 
-  middle ages to change a light bulb. 
-  They'd be confused and 
-  without explicit instructions
-  they would probably
-  electrocute themselves.
-  Bitcoin is no different. 
-  Future generations will laugh at you
-  for being so hopeless ignorant of
-  what will seem obvious and intuitive to them.
+    Because the banks aren't competent. 
+    And Bitcoin allows superior custody services 
+    Bthat no bank or institution will be able 
+    to match.
+    
+    *Proper self-custody is no more 
+    complicated than changing a light-bulb.*
+    
+    But imagine asking a person in the 
+    middle ages to change a light bulb. 
+    They'd be confused and 
+    without explicit instructions
+    they would probably
+    electrocute themselves.
+    Bitcoin is no different. 
+    Future generations will laugh at you
+    for being so hopeless ignorant of
+    what will seem obvious and intuitive to them.
 
 
 
@@ -135,4 +134,4 @@ I heard it requires 'persistent competence', is that true?
 > Securing your assets in the traditional system requires complex ever-changning passwords, multi-factor authentication, and a Rube-goldberg machine of security-theater where telling a call-center operator in the Philipines what your mother's maiden name is, somehow constitutes security.
 > The risk of losing your funds in traditional banking is far higher than any reasonable self-custody solution.
 
-
+A redneck with a gun and a coldcard.
