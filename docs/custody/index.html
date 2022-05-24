@@ -1991,6 +1991,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-self-custody" class="md-nav__link">
+    Why Self Custody
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2004,24 +2019,36 @@
 
 
 <h1 id="custody">Custody<a class="headerlink" href="#custody" title="Permanent link">&para;</a></h1>
-<p>To hold or custody Bitcoin means 
+<p>To hold or <em>custody</em> Bitcoin means 
  securing the private keys that would be needed
  to spend your Bitcoin.</p>
-<p>Unlike physical custody, custody of Bitcoin 
+<p>Unlike physical custody of assets, 
+ custody of Bitcoin 
  means to store a key or seed phrase,
- and to store it in such a way that no one 
+ and to store it in such a way that no one else
  would be able to read it.</p>
+<p>For example, consider the following seed phrase,</p>
 <div class="admonition info">
 <p class="admonition-title">Example Seed Phrase</p>
 <div class="highlight"><pre><span></span><code>holiday crew machine fatigue welcome start axis cancel field slim rifle hero
 </code></pre></div>
 </div>
-<div class="admonition warning">
-<p>If I see a video of gold bullion in a vault,
-I cannot take that gold just by looking at it.
-Yet with Bitcoin, a single photo of a
- seed phrase is all that's needed to take 
- control of that Bitcoin.</p>
+<p>This is a valid seed phrase, 
+ and it can be used to generate keys
+ as well as invoice addresses to custody Bitcoin.</p>
+<p>Because this seed phrase has been revealed,
+ anyone can generate private keys from this seed.
+ But what if you had to secure this seed phrase?</p>
+<p>In other words, how would you secure this phrase such that,
+1. No one would ever know what the seed phrase is, and
+1. The seed phrase <em>is</em> knowable only to yourself
+ and others you trust (family members and the like)?</p>
+<p>Answering both these questions is Bitcoin custody.</p>
+<h2 id="why-self-custody">Why Self Custody<a class="headerlink" href="#why-self-custody" title="Permanent link">&para;</a></h2>
+<p><em>Self Custody</em> just means that custody Bitcoin yourself.
+ That is, you personally secure the seed phrase.</p>
+<div class="admonition info">
+<p class="admonition-title">Be a Sovereign of your own Savings</p>
 </div>
 <p>And by this very nature of Bitcoin, 
  money can be transferred easily across the world.</p>
