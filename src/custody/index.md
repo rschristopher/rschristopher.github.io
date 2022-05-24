@@ -56,6 +56,7 @@ If you trust an institution to custody your Bitcoin,
  it will never be as secure or as easy as Self Custody.
 
 !!! danger "Not your Bitcoin"
+    
     An institution with "your" Bitcoin can
     use this Bitcoin as collateral for a loan.
     If they're particularly clever they can buy
@@ -101,6 +102,7 @@ Why be a Sovereign of your own Savings?
 
 
 !!! question "Why would I want to be a bank?"
+    
     Because the banks aren't competent. 
     And Bitcoin allows superior custody services 
     Bthat no bank or institution will be able 
