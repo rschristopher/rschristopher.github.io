@@ -105,18 +105,18 @@ Why be a Sovereign of your own Savings?
     
     Because the banks aren't competent. 
     And Bitcoin allows superior custody services 
-    Bthat no bank or institution will be able 
+    that no bank or institution will be able 
     to match.
+
+!!! question "It's as complicated as changing a light-bulb."
     
-    *Proper self-custody is no more 
-    complicated than changing a light-bulb.*
-    
-    But imagine asking a person in the 
+    Imagine asking a person in the 
     middle ages to change a light bulb. 
     They'd be confused and 
     without explicit instructions
     they would probably
     electrocute themselves.
+    
     Bitcoin is no different. 
     Future generations will laugh at you
     for being so hopeless ignorant of
