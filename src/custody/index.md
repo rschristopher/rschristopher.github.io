@@ -8,7 +8,7 @@ Unlike physical custody of assets,
  custody of Bitcoin 
  means to store a key or seed phrase,
  and to store it in such a way that no one else
- would be able to read it.
+ would be able to know it.
 
 For example, consider the following seed phrase,
 
@@ -26,20 +26,57 @@ Because this seed phrase has been revealed,
  anyone can generate private keys from this seed.
  But what if you had to secure this seed phrase?
 
-In other words, how would you secure this phrase such that,
-1. No one would ever know what the seed phrase is, and
-1. The seed phrase *is* knowable only to yourself
- and others you trust (family members and the like)?
+In other words, how would you secure this phrase 
+ such that it meets the following,
 
-Answering both these questions is Bitcoin custody.
+1. The seed phrase is accessible only to yourself
+ and others you trust (family members and the like), and
+1. No one else could ever know the seed phrase
 
-## Why Self Custody
+Knowing how to fulfil the above 
+ is at the heart of how to custody Bitcoin.
 
-*Self Custody* just means that custody Bitcoin yourself.
- That is, you personally secure the seed phrase.
+## Self Custody
 
-!!! info "Be a Sovereign of your own Savings"
+Self Custody means you personally 
+ secure your seed phrase and manage your keys.
+ This not only is the recommended approach but
+ is the **only** way to properly secure your
+ Bitcoin.
 
+!!! quote "Be a Sovereign of your own Savings"
+
+... advantages to diy
+
+## The Problem with Institutional Custody
+
+If you trust an institution to custody your Bitcoin,
+ then it's not your Bitcoin, it's their Bitcoin.
+ And no matter how secure their custody system,
+ it will never be as secure or as easy as Self Custody.
+
+!!! danger "Not your Bitcoin"
+  An institution with "your" Bitcoin can
+  use this Bitcoin as collateral for a loan.
+  If they're particularly clever they can buy
+  more Bitcoin with that loan, and devise
+  fractional reserve schemes. If they go
+  bankrupt do you get "your" Bitcoin back?
+
+  An institution with "your" Bitcoin can 
+  lock you out of your account. The governments
+  in whichever countries they reside in can lock
+  you out or seize your funds. Perhaps your name
+  was too similar to someone on a sanctions list,
+  or perhaps your government is in a dispute
+  with another government and they 
+  suspend your account.
+
+  A hacker who learned your mother's maiden name
+  may be able to withdraw "your" Bitcoin. 
+  Perhaps one of the many data breaches resulted
+  in your personal information leaking out,
+  putting "your" Bitcoin at risk.
 
 
 
@@ -63,13 +100,26 @@ Why be a Sovereign of your own Savings?
 > If the bank loses your money, or accidentally leaks your identity in a data breach resulting in your accounts being liquidated, there's nothing you could have done (other than not use the bank).
 
 
-Why would I want to be a bank?
+!!! question "Why would I want to be a bank?"
 
-> Because the banks aren't competent. And Bitcoin allows superior custody services that no bank or institution will be able to match.
-> Proper self-custody is no more complicated than changing a light-bulb. 
+  Because the banks aren't competent. 
+  And Bitcoin allows superior custody services 
+  that no bank or institution will be able 
+  to match.
 
-> But imagine asking a person in the middle ages to change a light bulb. They'd be confused and possibly would electrocute themselves.
-> Bitcoin is no different. Future generations will laugh at you for being so hopeless ignorant of what will seem obvious and intuitive to them.
+  *Proper self-custody is no more 
+  complicated than changing a light-bulb.*
+
+  But imagine asking a person in the 
+  middle ages to change a light bulb. 
+  They'd be confused and 
+  without explicit instructions
+  they would probably
+  electrocute themselves.
+  Bitcoin is no different. 
+  Future generations will laugh at you
+  for being so hopeless ignorant of
+  what will seem obvious and intuitive to them.
 
 
 
