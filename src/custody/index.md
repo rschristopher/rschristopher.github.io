@@ -108,7 +108,7 @@ Why be a Sovereign of your own Savings?
     that no bank or institution will be able 
     to match.
 
-!!! question "It's as complicated as changing a light-bulb."
+!!! question "It's as easy as changing a light-bulb?"
     
     Imagine asking a person in the 
     middle ages to change a light bulb. 
