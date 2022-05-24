@@ -814,6 +814,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#wallets-demystified" class="md-nav__link">
+    Wallets Demystified
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -862,15 +869,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#deterministic-wallet" class="md-nav__link">
-    Deterministic Wallet
+  <a href="#deterministic-wallets" class="md-nav__link">
+    Deterministic Wallets
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#samples" class="md-nav__link">
-    Samples
+  <a href="#sample-keys" class="md-nav__link">
+    Sample Keys
   </a>
   
 </li>
@@ -2155,6 +2162,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#wallets-demystified" class="md-nav__link">
+    Wallets Demystified
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2203,15 +2217,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#deterministic-wallet" class="md-nav__link">
-    Deterministic Wallet
+  <a href="#deterministic-wallets" class="md-nav__link">
+    Deterministic Wallets
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#samples" class="md-nav__link">
-    Samples
+  <a href="#sample-keys" class="md-nav__link">
+    Sample Keys
   </a>
   
 </li>
@@ -2252,8 +2266,10 @@
 <h1 id="wallets-and-keys-and-utxos">Wallets and Keys and UTXOs<a class="headerlink" href="#wallets-and-keys-and-utxos" title="Permanent link">&para;</a></h1>
 <p>Bitcoin is unlike any money that has ever existed.
  It is unlike any technology or network.
- There's really nothing in history like it.</p>
-<p>Bitcoin is unlike <em>anything</em> that has <em>ever</em> existed.</p>
+ There's really nothing in history quite like it.</p>
+<div class="admonition info">
+<p class="admonition-title">Bitcoin is unlike <em>anything</em> that has <em>ever</em> existed.</p>
+</div>
 <p>This means that any attempt at explaining Bitcoin
  will rely either on sloppy metaphors, or novel technical terms.
  Even the term "custody" is a bit of a misnomer,
@@ -2269,8 +2285,8 @@
  (such as wallets, coins, and addresses),
  that can be useful 
  but at the same time may lead to a great deal of confusion.
- Bitcoin is so different that it is a category all to its own
- -- the physical limitations of "custody", "wallets", "coins", and "addresses", simply don't apply to Bitcoin.
+ Bitcoin is in a category all to its own
+ -- the physical limitations of "custody", "wallets", "coins", and "addresses" simply don't apply to Bitcoin.
  And thus to "custody" your Bitcoin, means something very different than anything you've thought about before Bitcoin.</p>
 <p>We will describe these imperfect metaphors
  and attempt to demystify them, and then
@@ -2287,11 +2303,11 @@
  or as the hardware or software to manage any of the above.
 But a Bitcoin wallet is most certainly NOT 
  a collection of your Bitcoin.</p>
-<blockquote>
-<p>There is no Bitcoin stored in a Bitcoin wallet.</p>
-</blockquote>
+<div class="admonition warning">
+<p class="admonition-title">There is no Bitcoin stored in a Bitcoin wallet.</p>
+</div>
 <p>The traditional meaning of the word "wallet" simply doesn't apply to Bitcoin.
- The word "wallet" was used in Bitcoin because the original Bitcoin core client would store private keys in a file named <code>wallet.dat</code>.
+ The word "wallet" was used in Bitcoin because the original Bitcoin core client app would store private keys in a file named <code>wallet.dat</code>.
  This "wallet" was simply the file where your private keys were stored.</p>
 <h3 id="hot-wallet">Hot Wallet<a class="headerlink" href="#hot-wallet" title="Permanent link">&para;</a></h3>
 <p>A "hot wallet" refers to any software or hardware that stores your private keys in a device connected to the Internet, 
@@ -2328,6 +2344,8 @@ If a private key is directly accessible to an online device, this makes it "hot"
 <p>E.g., using a seed signer, a private key is never stored in any electronic device, air-gapped or otherwise.
 Instead the key is generated from the seed phrase and used on a signing device only when needed (and discarded immediately afterwards). </p>
 </blockquote>
+<h3 id="wallets-demystified">Wallets Demystified<a class="headerlink" href="#wallets-demystified" title="Permanent link">&para;</a></h3>
+<p>...</p>
 <h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
 <p>A Bitcoin "address", like a "wallet", is a misnomer,
  and when not understood properly can lead to bad outcomes, including lost Bitcoin.</p>
@@ -2345,23 +2363,66 @@ Instead the key is generated from the seed phrase and used on a signing device o
  This makes the unspent transaction outputs spendable only by 
  the corresponding private key associated with the address.</p>
 <h3 id="a-simple-example">A Simple Example<a class="headerlink" href="#a-simple-example" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Imagine you receive 0.5 Bitcoin to an address in your wallet.</p>
-<p>Then you send 0.1 Bitcoin to someone else (to an invoice address they sent you).</p>
-</blockquote>
+<p>Imagine you receive <code>0.5 Bitcoin</code> to an address in your wallet.
+ This will create a transaction that looks something like,</p>
+<pre class="mermaid"><code>flowchart LR
+  subgraph TX-1
+    direction LR
+    subgraph in-1[in]
+        direction LR
+        a[0.5 BTC]
+    end
+    subgraph out-1[out]
+        direction LR
+        b[0.5 BTC]
+    end
+  end
+  a --&gt; b</code></pre>
+<p>Then you send <code>0.1 Bitcoin</code> to someone else (to an invoice address they sent you).</p>
 <p>It is tempting to think your original address now has 0.4 Bitcoin, 
  but in reality your original address has nothing. 
- The original transaction is spent.</p>
-<blockquote>
+ The original transaction is <em>spent</em>.</p>
 <p>When you send the 0.1 Bitcoin,
-  this will create a new transaction with <strong>two</strong> outputs:</p>
-<p>one for 0.1 Bitcoin, and another 0.4 Bitcoin.</p>
-<p>Your private key can access the output with 0.4 Bitcoin,
- and someone else has the private key to access the output with 0.1 Bitcoin.
+ this will create a <em>new</em> transaction with <strong>two</strong> outputs:</p>
+<pre class="mermaid"><code>flowchart LR
+  subgraph TX-1
+    direction RL
+    subgraph in-1[in]
+        direction RL
+        a[0.5 BTC]
+    end
+    subgraph out-1[out]
+        direction RL
+        b[0.5 BTC]
+    end
+  end
+  subgraph TX-2
+    direction TB
+    subgraph in-2[in]
+        direction RL
+        c[0.5 BTC]
+    end
+    subgraph out-2[out]
+        direction BT
+        d[0.1 BTC]
+    end
+    subgraph out-2a[out]
+        direction BT
+        e[0.4 BTC]
+    end
+  end
+  a --&gt; b
+  in-2 --&gt; out-2
+  in-2 --&gt; out-2a
+  b --&gt; in-2</code></pre>
+<p>One output has <code>0.1 Bitcoin</code>, and another with <code>0.4 Bitcoin</code>.</p>
+<p>Your private key can access the output with <code>0.4 Bitcoin</code>,
+ and someone else has the private key to access the output with <code>0.1 Bitcoin</code>.
  The original transaction output of 0.5 Bitcoin is already spent,
- and that Bitcoin is only available in the new  <em>unspent transaction outputs</em>.</p>
-<p>These <em>unspent transaction ouputs</em> are known as UTXOs (see below).</p>
-</blockquote>
+ and the Bitcoin is only available in the new <em>unspent transaction outputs</em>.</p>
+<div class="admonition warning">
+<p class="admonition-title">These <em>unspent transaction ouputs</em> are known as UTXOs (see below).</p>
+</div>
 <h3 id="addresses-demystified">Addresses Demystified<a class="headerlink" href="#addresses-demystified" title="Permanent link">&para;</a></h3>
 <p>An invoice address (aka <em>receive address</em>), 
  is a number generated by your key that will produce a transaction output 
@@ -2391,9 +2452,9 @@ https://en.bitcoin.it/wiki/Invoice_address</p>
 <p>This is the most important aspect of Bitcoin custody. 
  In fact, your Bitcoin is only truly yours 
  to the extent that you have secured your keys in a proper self custody system.</p>
-<blockquote>
-<p>Not your keys, not your Bitcoin.</p>
-</blockquote>
+<div class="admonition danger">
+<p class="admonition-title">Not your keys, not your Bitcoin!</p>
+</div>
 <p>A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
 A private key can be generated from a seed phrase.
@@ -2401,7 +2462,7 @@ A seed phrase can generate public and private key pairs.</p>
 <p>This process is defined in BIP 32, 
  known as
  Hierarchical Deterministic Wallets</p>
-<h3 id="deterministic-wallet">Deterministic Wallet<a class="headerlink" href="#deterministic-wallet" title="Permanent link">&para;</a></h3>
+<h3 id="deterministic-wallets">Deterministic Wallets<a class="headerlink" href="#deterministic-wallets" title="Permanent link">&para;</a></h3>
 <p>https://en.bitcoin.it/wiki/Deterministic_wallet
 BIP 32</p>
 <blockquote>
@@ -2416,21 +2477,68 @@ BIP 32</p>
 ...
 BIP 39
 Electrum</p>
-<h3 id="samples">Samples<a class="headerlink" href="#samples" title="Permanent link">&para;</a></h3>
-<p>Seed Phrase</p>
-<pre><code>holiday crew machine fatigue welcome start axis cancel field slim rifle hero
-</code></pre>
-<p>Private Key</p>
-<pre><code>p2wpkh:L1mi9qLEUT1e7nzrGfkcrszBNpuoewaBidEN4oJEBjtFmzEdTHsg
-</code></pre>
-<p>Master Public Key</p>
-<pre><code>zpub6mtgHMNdJfXqhsQcjyUgvKBDcFfSVpmYsUVUTvFfd8zMep9RnTPZroxrDnnWcxCfyPt5Kq7Vktd5urh6XFW26spz6uroYEGUB5s2FVQ14b9
-</code></pre>
-<p>Generated Address</p>
-<pre><code>bc1q2ajcelxfjt0e97gmka0yppfxs4haj8cmdvw7rk
-</code></pre>
+<h3 id="sample-keys">Sample Keys<a class="headerlink" href="#sample-keys" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Example Seed Phrase</p>
+<div class="highlight"><pre><span></span><code>holiday crew machine fatigue welcome start axis cancel field slim rifle hero
+</code></pre></div>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Private Key</p>
+<div class="highlight"><pre><span></span><code>p2wpkh:L1mi9qLEUT1e7nzrGfkcrszBNpuoewaBidEN4oJEBjtFmzEdTHsg
+</code></pre></div>
+</div>
+<p>https://learnmeabitcoin.com/beginners/private_keys</p>
+<div class="admonition info">
+<p class="admonition-title">Master Public Key</p>
+<div class="highlight"><pre><span></span><code>zpub6mtgHMNdJfXqhsQcjyUgvKBDcFfSVpmYsUVUTvFfd8zMep9RnTPZroxrDnnWcxCfyPt5Kq7Vktd5urh6XFW26spz6uroYEGUB5s2FVQ14b9
+</code></pre></div>
+</div>
+<p>https://river.com/learn/terms/z/zpub-extended-public-key/
+https://river.com/learn/terms/x/xpub-extended-public-key/</p>
+<div class="admonition info">
+<p class="admonition-title">Generated Address</p>
+<div class="highlight"><pre><span></span><code>bc1q2ajcelxfjt0e97gmka0yppfxs4haj8cmdvw7rk
+</code></pre></div>
+</div>
 <p>https://bitcointalk.org/index.php?topic=5213741.0</p>
 <h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>flowchart LR
+  subgraph TX-1
+    direction TB
+    subgraph in-1[in]
+        direction TB
+        a[0.25 BTC]
+    end
+    subgraph in-1a[in]
+        direction TB
+        a1[0.25 BTC]
+    end
+    subgraph out-1[out]
+        direction BT
+        b[0.5 BTC]
+    end
+  end
+  subgraph TX-2
+    direction TB
+    subgraph in-2[in]
+        direction RL
+        c[0.5 BTC]
+    end
+    subgraph out-2[out]
+        direction BT
+        d[0.1 BTC]
+    end
+    subgraph out-2a[out]
+        direction BT
+        e[0.4 BTC]
+    end
+  end
+  in-1 --&gt; out-1
+  in-1a --&gt; out-1
+  in-2 --&gt; out-2
+  in-2 --&gt; out-2a
+  out-1 --&gt; in-2</code></pre>
 <p>https://developer.bitcoin.org/reference/transactions.html
 https://en.bitcoin.it/wiki/Transaction</p>
 <p>https://developer.bitcoin.org/devguide/block_chain.html
