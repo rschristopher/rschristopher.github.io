@@ -123,6 +123,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - admonition
+  - pymdownx.details
   - toc:
       permalink: True
   - pymdownx.superfences:

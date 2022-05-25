@@ -119,8 +119,8 @@ Let's look at a typical security setup for
  accessing a typical online banking service,
  and determine how easy and secure things really are.
 
-!!! danger "Typical Online Banking"
-
+???+ danger "Typical Online Banking"
+    
     The bank requires a "strong password",
     the kind recommended by security experts.
 
@@ -168,7 +168,7 @@ We could keep going with this all-too-common tale of security theater
  but let's pause here
  and analyze how easy and how secure this system really is --
 
-!!! danger "Security Review"
+???+ danger "Security Review"
 
     In practice, your personal information has certainly been leaked out
     to the dark web
