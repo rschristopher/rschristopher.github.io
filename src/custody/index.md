@@ -261,6 +261,6 @@ Bitcoin Self Custody is exactly as hard
     That's online banking you're thinking about.
 
     A redneck with a gun and a coldcard can custody Bitcoin
-    with more security than any bank.
+    with more security than your bank.
 
 
