@@ -238,12 +238,14 @@ Securing your assets in the traditional fiat banking system requires
  somehow constitutes security.
 
 Bitcoin Self Custody offers real security. 
- And the risk of losing your funds in traditional banking
+ And thus the risk of losing your funds in traditional banking
  is far higher than any reasonable Self Custody solution.
 
 !!! question "Why would I want to be a bank?"
     
-    Because Bitcoin allows superior custody services 
+    You don't, and that's the point.
+
+    Bitcoin allows superior custody services 
     that no bank or institution will ever be able 
     to match.
 
