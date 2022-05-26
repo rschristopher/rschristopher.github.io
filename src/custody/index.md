@@ -240,7 +240,7 @@ Bitcoin Self Custody offers real security.
  And thus the risk of losing your funds in traditional banking
  is far higher than any reasonable Self Custody solution.
 
-!!! question "Why would I want to be a bank?"
+!!! question "Sounds like banking. Why would I want to be a bank?"
     
     You don't, and that's the point.
 
