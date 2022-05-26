@@ -41,7 +41,7 @@ To *Self Custody* means you personally
  it is also the **only** way to properly secure your
  Bitcoin.
 
-With Self Custody could decide that you'd rather die than give up your Bitcoin;
+With Self Custody you could decide that you'd rather die than give up your Bitcoin;
  that it will go to your children or else to no one.
  This sounds silly and rather extreme, but Bitcoin is the only asset
  in the history of the world where you can meaningfully accomplish this level of ownership.
