@@ -3,6 +3,7 @@
 To *custody* Bitcoin means 
  securing the private keys that would be needed
  to spend your Bitcoin.
+
 Unlike physical custody of assets, 
  custody of Bitcoin 
  means storing information, a key or seed phrase,
