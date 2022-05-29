@@ -210,9 +210,33 @@ Basically, each number on the dice is
 
 ![8-sided Dice](/images/d8_dice.jpg)
 
-...
+### Record all Dice Rolls
+
+Each word in the seed phrase is exactly
+ 11-bits of entropy (2048 possibilities).
+ And each dice roll will provide 3-bits.
+
+You'll want to keep rolling until you fill-out
+ 23 11-bit words and 3-bits of the 24th word.
+ The remaining 8 bits are calculated through a
+ checksum which will require a secured
+ air-gapped computer.
 
 ![Paper Dice Rolls](/images/paper_dice_rolls.jpg)
+
+You could also do 12 seed words, 
+ which will give you 128-bits of entropy.
+ You'll fill out 11 of the 11-bit words
+ and 7-bits of the 12th word.
+
+In either case, you'll need to compute the
+ checksum to arrive at a valid final word. 
+ This simple check is to ensure that you've
+ got a valid seed phrase (which is far
+ more likely to have high entropy
+ than selecting your own words from 
+ the list).
+
 
 ## Airgapped Computer
 
