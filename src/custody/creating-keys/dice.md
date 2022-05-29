@@ -214,7 +214,7 @@ I recommend using 8-sided dice
 Basically, each number on the dice is 
  its binary representation, except 8, which
  in binary is "1000" and so this is just the
- lowest 3 bits of 8 in binary.
+ lower 3-bits of 8 in binary.
 Because this maps so easily into 3-bits,
  it is very easy to roll and record
  the entropy directly in binary.
@@ -231,7 +231,8 @@ And each dice roll will provide 3-bits.
 
 You'll want to keep rolling until you fill out
  23 11-bit words and 3-bits of the 24th word.
- The remaining 8 bits are calculated through a
+ The remaining 8-bits of the final word are
+ calculated through a
  checksum which we'll discuss next.
 
 ![Paper Dice Rolls](/images/paper_dice_rolls.jpg)
@@ -247,12 +248,9 @@ You'll want to keep rolling until you fill out
 	In either case, you'll need to compute the
 	checksum to arrive at a valid final word. 
 	This simple check is to ensure that you've
-	got a valid seed phrase (which is far
-	more likely to have high entropy
-	than selecting your own words from 
-	the list).
+	got a valid seed phrase.
 
-	A common approach is to add an additional passphrase
+    A common approach is to add an additional passphrase
     to the seed words, like a 13th or 25th word.
     This can provide additional bits of entropy,
     and using a strong passphrase can easily add
@@ -262,10 +260,13 @@ You'll want to keep rolling until you fill out
 
 ### Complete the Checksum
 
-Completing the final work requires a checksum, in this
+Completing the final word requires a checksum, 
+ in this
  case a sha256 sum
- on the 256-bits of entropy (to fill out the remaining
- 8-bits of the 24th word).
+ on the 256-bits of entropy. 
+ The 24th word has 8-bits for
+ the checksum, which is just the
+ first 8-bits of the shasum.
 
 This may sound complicated, but you can use the
  same secure air-gapped computer you plan on using
@@ -276,7 +277,7 @@ This may sound complicated, but you can use the
  feel free to use any computer.
 
 You will need to type the binary number *exactly*.
- For brevity, I will show `010...001` to represent the full
+ For brevity, I will use `010...001` to represent the full
  binary number seen in the worksheet above.
 
 ```shell
@@ -303,10 +304,16 @@ If you are not sure how to convert hexidecimal digits to binary,
 
 ```shell
 python3 -c 'print(bin(int("bb", 16))[2:])'
+```
+
+This will return
+```
 10111011
 ```
 
-Once you have binary digits, simply add those to complete
+Once you have binary digits 
+ of the checksum, simply add those
+ to the the worksheet to complete
  the 11-digits of the 24th word.
 
 
