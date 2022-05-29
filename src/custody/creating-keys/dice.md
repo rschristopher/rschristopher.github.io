@@ -97,9 +97,56 @@ Alternatively, and my recommendation, is to use an 8-sided dice,
 
 ## How to Ensure Fair Dice
 
-Salt water test...
+There's a strange phenomenon in the Bitcoin
+ community where they insist on 
+ *casino-grade* dice. They often list
+ all kinds of justification due to poorly
+ balanced dice.
+
+!!! quote "Don't trust, verify"
+
+If you're concerned
+ with the fairness of dice, then 
+ you can verify you dice with a 
+ saltwater test.
+Whether using *AAA casino-grade razor edge 
+ precision dice* or using the dice you got
+ from a board game, a saltwater test can verify
+ if the dice is balanced or not. Just saying
+ "Casino-grade" is magical thinking.
+
+In most cases, even a slightly unbalanced dice
+ will still roll fairly, but it's recommended 
+ to verify that a given set of dice is 
+ sufficiently balanced to generate the 
+ desired level of entropy.
 
 ![8-sided Dice](/images/d8_dice.jpg)
+
+### Saltwater Balance Test
+
+You'll find many 
+ [examples online](https://thecriticaldice.com/blogs/news/how-to-salt-water-test-your-dice), 
+ mostly from
+ dedicated communities around board games, RPGs,
+ and gambling aficionados.
+
+In practice, you simply need a cup of water of
+ *supersaturated saltwater*. This just means
+ the water cannot absorb any more salt and
+ that your dice will become buoyant. As long
+ as the dice is floating towards the surface
+ you'll be able to test if it's
+ balanced or not.
+
+![balanced dice]()
+
+An unbalanced dice will float upward favoring
+ one side. It will be obvious. In practice
+ this could be due to air-bubbles or
+ inconsistent materials.
+
+![unbalanced dice]()
 
 
 ## Paper and Pencil
