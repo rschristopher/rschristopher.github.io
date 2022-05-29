@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#creating-keys-with-dice" class="md-skip">
+        <a href="#creating-seeds-with-dice" class="md-skip">
           Skip to content
         </a>
       
@@ -846,9 +846,74 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Dice-rolled
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Dice-rolled
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#numeric-base-of-dice" class="md-nav__link">
+    Numeric Base of Dice
+  </a>
+  
+    <nav class="md-nav" aria-label="Numeric Base of Dice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#256-bits-in-other-bases" class="md-nav__link">
+    256-bits in other Bases
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-ensure-fair-dice" class="md-nav__link">
+    How to Ensure Fair Dice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paper-and-pencil" class="md-nav__link">
+    Paper and Pencil
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#airgapped-computer" class="md-nav__link">
+    Airgapped Computer
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2003,6 +2068,55 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#numeric-base-of-dice" class="md-nav__link">
+    Numeric Base of Dice
+  </a>
+  
+    <nav class="md-nav" aria-label="Numeric Base of Dice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#256-bits-in-other-bases" class="md-nav__link">
+    256-bits in other Bases
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-ensure-fair-dice" class="md-nav__link">
+    How to Ensure Fair Dice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paper-and-pencil" class="md-nav__link">
+    Paper and Pencil
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#airgapped-computer" class="md-nav__link">
+    Airgapped Computer
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2015,8 +2129,133 @@
                 
 
 
-<h1 id="creating-keys-with-dice">Creating Keys with Dice<a class="headerlink" href="#creating-keys-with-dice" title="Permanent link">&para;</a></h1>
+<h1 id="creating-seeds-with-dice">Creating Seeds with Dice<a class="headerlink" href="#creating-seeds-with-dice" title="Permanent link">&para;</a></h1>
+<p>You can (and should) generate seed phrase by hand.</p>
+<p>This is because true randomness is surprisingly difficult 
+ to achieve on a computer.
+This is referred to as the <em>Entropy</em>,
+ that is, the measure of true randomness. The goal
+ is to achieve the maximimum amount of randomness.</p>
+<details class="danger" open="open">
+<summary>Beware of Low Entropy</summary>
+<p>A 24-word seed phrase is nothing more than an encoding
+of a 256-bit number (with a checksum at the end).
+If all 256-bits were the same, that is, all zeros except the checksum,
+then this would have very low entropy.</p>
+<p>The seed phrase would simply be,
+<div class="highlight"><pre><span></span><code>abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon art
+</code></pre></div></p>
+<p>That's 23 <em>abandon</em>'s and 1 <em>art</em></p>
+<p>Turns out this ridiculous 1-bit of entropy phrase
+was actually used before.
+You can recover this wallet and view the
+transaction history for yourself.
+For 2-hours in 2016 there was 346.9341 Bitcoin stored with this key.</p>
+<p><img alt="Electrum Screen" src="/images/electrum_abandon_art.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>How to get High Entropy?</summary>
+<p>In the above example, it took less than
+a second to discover a seed phrase protected only by <em>1-bit</em> of entropy.</p>
+<p><em>How long would it take for 256-bits of entropy?</em></p>
+<p>256-bits of entropy is difficult to fathom.
+You might hear "centuries" or "millions of years",
+but it's more like, "beyond the age of the universe
+even with planet-sized super-computers powered by 
+Dyson-spheres around every star."</p>
+<p>It's the same as flipping a coin 256 times.
+Not exactly a difficult task, but assuming it was a fair coin
+then this would get you 256-bits of entropy, and the odds
+of anyone guessing or deriving that exact 256-bit number is
+impossible (unless they watched you flipping the coin).</p>
+<p>It's like finding a needle in a haystack -- if the 
+haystack was the entire universe,
+and also the needle was invisible.</p>
+</details>
+<h2 id="numeric-base-of-dice">Numeric Base of Dice<a class="headerlink" href="#numeric-base-of-dice" title="Permanent link">&para;</a></h2>
+<p>We usually deal with Base-10 (decimal) and Base-2 (binary).
+ In fact, anytime we say "bits" when referring to a number
+ we're referring to the length of a binary number.</p>
+<p>But we can represent numbers in any arbitrary base.
+ And this is important because one of the best
+ sources of true random numbers is <em>fair</em> dice rolls.</p>
+<p>A common 6-sided dice can be used to generate a 256-bit
+ number, but doing so can be somewhat confusing.
+ You may try to map the numbers to binary but you'll find
+ it's not so easy (1 dice gives you roughly 2.5-bits of entropy).
+ To be safe you could just map odd and even rolls to binary 1 and 0,
+ but this requires 256 dice rolls and isn't very efficient.</p>
+<p>A better aproach is to use a <em>Base-6</em> representation of a 256-bit
+ number, which would require 99 dice rolls.
+ This is the minimum number of <em>fair</em> dice rolls necessary
+ to achieve 256-bits of entropy.</p>
+<p>Alternatively, and my recommendation, is to use an 8-sided dice,
+ the kind commonly found in role-playing games.
+ A <em>fair</em> 8-sided dice roll has exactly 3-bits
+ of entropy (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
+ With this approach 
+ you'll need 85 rolls to generate sufficient
+ entropy for a seed phrase.</p>
+<h3 id="256-bits-in-other-bases">256-bits in other Bases<a class="headerlink" href="#256-bits-in-other-bases" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Numeric Base</th>
+<th align="right"><em>length</em></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base-2 (binary)</td>
+<td align="right">256</td>
+<td>coin tosses</td>
+</tr>
+<tr>
+<td>Base-6</td>
+<td align="right">99</td>
+<td>dice rolls</td>
+</tr>
+<tr>
+<td>Base-8 (octal)</td>
+<td align="right">85</td>
+<td>8-sided dice rolls</td>
+</tr>
+<tr>
+<td>Base-10 (decimal)</td>
+<td align="right">77</td>
+<td><em>770-Quattuorvigintillion</em></td>
+</tr>
+<tr>
+<td>Base-20</td>
+<td align="right">59</td>
+<td>20-sided dice rolls</td>
+</tr>
+<tr>
+<td>Base-64</td>
+<td align="right">43</td>
+<td>I-Ching Hexagrams</td>
+</tr>
+<tr>
+<td>Base-2048</td>
+<td align="right">24</td>
+<td>seed words</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-to-ensure-fair-dice">How to Ensure Fair Dice<a class="headerlink" href="#how-to-ensure-fair-dice" title="Permanent link">&para;</a></h2>
+<p>Salt water test...</p>
+<p><img alt="8-sided Dice" src="/images/d8_dice.jpg" /></p>
+<h2 id="paper-and-pencil">Paper and Pencil<a class="headerlink" href="#paper-and-pencil" title="Permanent link">&para;</a></h2>
 <p>...</p>
+<p><img alt="Paper Dice Rolls" src="/images/paper_dice_rolls.jpg" /></p>
+<h2 id="airgapped-computer">Airgapped Computer<a class="headerlink" href="#airgapped-computer" title="Permanent link">&para;</a></h2>
+<p>...
+Even if you use the Paper and Pencil method,
+ you will need to type that large number into a computer.
+ And this computer must be airgapped and well secured 
+ (even if that means destroying everything after you're done).
+ This 256-bit number is literally the key to your wealth.</p>
 
               
             </article>
