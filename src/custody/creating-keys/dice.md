@@ -4,9 +4,18 @@ You can (and should) generate seed phrase by hand.
 
 This is because true randomness is surprisingly difficult 
  to achieve on a computer.
-This is referred to as the *Entropy*,
- that is, the measure of true randomness. The goal
- is to achieve the maximimum amount of randomness.
+This is referred to as *Entropy*,
+ that is, the measure of randomness. 
+ For example, a fair coin flip is 1-bit of entropy,
+ flipping two coins can offer 2-bits of entropy (4 possible outcomes).
+ If one of the coins is unfair and *always* lands
+ on heads, then we're back to only 1-bit of entropy
+ from the first coin.
+
+The goal of a seed phrase 
+ is to achieve the maximimum amount of randomness
+ that would prevent anyone from deriving or guessing
+ your seed phrase.
 
 ???+ danger "Beware of Low Entropy"
 	A 24-word seed phrase is nothing more than an encoding
