@@ -239,7 +239,7 @@ You'll want to keep rolling until you fill out
 
 ??? question "What about 12-Word Seeds?"
 
-	You could also do 12 seed words, 
+	You could also do 12-word seeds, 
 	which will give you 128-bits of entropy.
 
 	You'll fill out 11 of the 11-bit words
