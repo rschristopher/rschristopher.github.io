@@ -237,7 +237,7 @@ You'll want to keep rolling until you fill out
 
 ![Paper Dice Rolls](/images/paper_dice_rolls.jpg)
 
-??? question "What about 12 Seed Words?"
+??? question "What about 12-Word Seeds?"
 
 	You could also do 12 seed words, 
 	which will give you 128-bits of entropy.
