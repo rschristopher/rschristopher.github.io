@@ -919,8 +919,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#record-all-dice-rolls" class="md-nav__link">
-    Record all Dice Rolls
+  <a href="#record-dice-rolls-as-binary" class="md-nav__link">
+    Record Dice Rolls as Binary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complete-the-checksum" class="md-nav__link">
+    Complete the Checksum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seed-word-lookup" class="md-nav__link">
+    Seed Word Lookup
   </a>
   
 </li>
@@ -2149,8 +2163,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#record-all-dice-rolls" class="md-nav__link">
-    Record all Dice Rolls
+  <a href="#record-dice-rolls-as-binary" class="md-nav__link">
+    Record Dice Rolls as Binary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complete-the-checksum" class="md-nav__link">
+    Complete the Checksum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seed-word-lookup" class="md-nav__link">
+    Seed Word Lookup
   </a>
   
 </li>
@@ -2182,7 +2210,7 @@
 
 
 <h1 id="creating-seeds-with-dice">Creating Seeds with Dice<a class="headerlink" href="#creating-seeds-with-dice" title="Permanent link">&para;</a></h1>
-<p>You can (and should) generate seed phrases by hand.</p>
+<p>You can (and should) generate seed phrases with dice.</p>
 <p>This is because true randomness is surprisingly difficult 
  to achieve on a computer.
 This is referred to as <em>Entropy</em>,
@@ -2210,7 +2238,12 @@ then this would have very low entropy.</p>
 was actually used before.
 You can recover this wallet and view the
 transaction history for yourself.
-For 2-hours in 2016 there was 346.9341 Bitcoin stored with this key.</p>
+For 2-hours in 2016 there was 346.9341 Bitcoin stored with this key.
+Perhaps it's part of a 
+<a href="https://en.wikipedia.org/wiki/Steganography">Steganographic</a>
+puzzle, and this is the an entry into finding a hidden fortune.
+Or perhaps someone didn't know what they were doing and lost
+all their Bitcoin.</p>
 <p><img alt="Electrum Screen" src="/images/electrum_abandon_art.png" /></p>
 </details>
 <details class="question" open="open">
@@ -2236,7 +2269,7 @@ and also the needle was invisible.</p>
 <p>We usually deal with Base-10 (decimal) and Base-2 (binary).
  In fact, when we say "bits"
  we're referring to the length of a binary number.</p>
-<p>But we can represent numbers in any arbitrary base.
+<p>But we can represent a number in any arbitrary base.
  And this is important because one of the best
  sources of true random numbers is <em>fair</em> dice rolls.</p>
 <p>A common 6-sided dice can be used to generate a 256-bit
@@ -2254,7 +2287,7 @@ and also the needle was invisible.</p>
  the kind commonly found in role-playing games.
  A <em>fair</em> 8-sided dice roll has exactly 3-bits
  of entropy 
- (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
+ (meaning every 8-sided dice roll gives you exactly 3 of the desired 256-bits).
  With this approach 
  you'll need 85 rolls to generate sufficient
  entropy for a seed phrase.</p>
@@ -2319,16 +2352,17 @@ and also the needle was invisible.</p>
 <p>If you're concerned
  with the fairness of dice, then 
  you should verify your dice with a 
- saltwater test.
-Whether using <em>AAA casino-grade razor edge 
+ <a href="#saltwater-balance-test">saltwater balance test</a>.
+Whether using <em>AAA casino-grade razor-edge 
  precision dice</em> or using the dice you got
  from a board game, a saltwater test can verify
- if the dice is balanced or not. Just saying
+ if the dice is balanced or not. </p>
+<p>Just saying
  "Casino-grade" is not a verification.</p>
 <p>In most cases, even a slightly unbalanced dice
  will still roll fairly, but it's recommended 
  to <em>verify</em> that a given set of dice is 
- sufficiently balanced to generate the 
+ balanced so you'll know it can generate the 
  desired level of entropy.</p>
 <h3 id="saltwater-balance-test">Saltwater Balance Test<a class="headerlink" href="#saltwater-balance-test" title="Permanent link">&para;</a></h3>
 <p>You'll find many 
@@ -2378,7 +2412,8 @@ Whether using <em>AAA casino-grade razor edge
  that have been verified through a 
  <a href="#saltwater-balance-test">saltwater balance test</a>.
  This will make the mapping much easier
- because each 8-sided corresponds to exactly
+ because an 8-sided dice 
+ corresponds to exactly
  3-bits of entropy.</p>
 <table>
 <thead>
@@ -2425,29 +2460,77 @@ Whether using <em>AAA casino-grade razor edge
 <p>Basically, each number on the dice is 
  its binary representation, except 8, which
  in binary is "1000" and so this is just the
- lowest 3 bits of 8 in binary.</p>
+ lowest 3 bits of 8 in binary.
+Because this maps so easily into 3-bits,
+ it is very easy to roll and record
+ the entropy directly in binary.</p>
 <p><img alt="8-sided Dice" src="/images/d8_dice.jpg" /></p>
-<h3 id="record-all-dice-rolls">Record all Dice Rolls<a class="headerlink" href="#record-all-dice-rolls" title="Permanent link">&para;</a></h3>
+<h3 id="record-dice-rolls-as-binary">Record Dice Rolls as Binary<a class="headerlink" href="#record-dice-rolls-as-binary" title="Permanent link">&para;</a></h3>
 <p>Each word in the seed phrase is exactly
- 11-bits of entropy (2048 possibilities).
- And each dice roll will provide 3-bits.</p>
-<p>You'll want to keep rolling until you fill-out
+ 11-bits of entropy (2048 possibilities).</p>
+<p>And each dice roll will provide 3-bits.</p>
+<p>You'll want to keep rolling until you fill out
  23 11-bit words and 3-bits of the 24th word.
  The remaining 8 bits are calculated through a
- checksum which will require a secured
- air-gapped computer.</p>
+ checksum which we'll discuss next.</p>
 <p><img alt="Paper Dice Rolls" src="/images/paper_dice_rolls.jpg" /></p>
+<details class="question">
+<summary>What about 12 Seed Words?</summary>
 <p>You could also do 12 seed words, 
- which will give you 128-bits of entropy.
- You'll fill out 11 of the 11-bit words
- and 7-bits of the 12th word.</p>
+which will give you 128-bits of entropy.</p>
+<p>You'll fill out 11 of the 11-bit words
+and 7-bits of the 12th word.</p>
 <p>In either case, you'll need to compute the
- checksum to arrive at a valid final word. 
- This simple check is to ensure that you've
- got a valid seed phrase (which is far
- more likely to have high entropy
- than selecting your own words from 
- the list).</p>
+checksum to arrive at a valid final word. 
+This simple check is to ensure that you've
+got a valid seed phrase (which is far
+more likely to have high entropy
+than selecting your own words from 
+the list).</p>
+<p>A common approach is to add an additional passphrase
+to the seed words, like a 13th or 25th word.
+This can provide additional bits of entropy,
+and using a strong passphrase can easily add
+enough entropy to make a <em>12-word plus passphrase</em>
+seed as strong as a <em>24-word</em> seed.</p>
+</details>
+<h3 id="complete-the-checksum">Complete the Checksum<a class="headerlink" href="#complete-the-checksum" title="Permanent link">&para;</a></h3>
+<p>Completing the final work requires a checksum, in this
+ case a sha256 sum
+ on the 256-bits of entropy (to fill out the remaining
+ 8-bits of the 24th word).</p>
+<p>This may sound complicated, but you can use the
+ same secure air-gapped computer you plan on using
+ to sign transactions and
+ <a href="../../">Self Custody</a>
+ your Bitcoin.
+ If you're just testing this approach
+ feel free to use any computer.</p>
+<p>You will need to type the binary number <em>exactly</em>.
+ For brevity, I will show <code>010...001</code> to represent the full
+ binary number seen in the worksheet above.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">echo</span> <span class="m">010</span>...001 <span class="p">|</span> shasum -a <span class="m">256</span> -0
+</code></pre></div>
+<p>This will generate the following output,
+<div class="highlight"><pre><span></span><code>bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
+</code></pre></div></p>
+<p>This is a Base-16 (hexidecimal) number, representing the
+ <a href="https://en.wikipedia.org/wiki/SHA-2">256-bit shasum</a>
+ of the entropy bits.</p>
+<p>You will take the first two hexidecimal digits, in this case <code>bb</code>,
+ and convert this to binary. Each hexidecimal digit is exactly 4-bits,
+ and <code>b</code> is <code>1011</code>,
+ so <code>bb</code> is <code>10111011</code></p>
+<p>If you are not sure how to convert hexidecimal digits to binary,
+ or you want to verify you did it correctly,
+ you can use the following shell command,</p>
+<div class="highlight"><pre><span></span><code>python3 -c <span class="s1">&#39;print(bin(int(&quot;bb&quot;, 16))[2:])&#39;</span>
+<span class="m">10111011</span>
+</code></pre></div>
+<p>Once you have binary digits, simply add those to complete
+ the 11-digits of the 24th word.</p>
+<h3 id="seed-word-lookup">Seed Word Lookup<a class="headerlink" href="#seed-word-lookup" title="Permanent link">&para;</a></h3>
+<p>...</p>
 <h2 id="airgapped-computer">Airgapped Computer<a class="headerlink" href="#airgapped-computer" title="Permanent link">&para;</a></h2>
 <p>...
 Even if you use the Paper and Pencil method,
