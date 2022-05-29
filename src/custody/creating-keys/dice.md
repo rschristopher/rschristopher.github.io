@@ -13,7 +13,7 @@ This is referred to as *Entropy*,
  from the first coin.
 
 The goal of a seed phrase 
- is to achieve the maximimum amount of randomness
+ is to achieve the maximimum amount of entropy
  that would prevent anyone from deriving or guessing
  your seed phrase.
 
