@@ -2460,7 +2460,7 @@ Whether using <em>AAA casino-grade razor-edge
 <p>Basically, each number on the dice is 
  its binary representation, except 8, which
  in binary is "1000" and so this is just the
- lowest 3 bits of 8 in binary.
+ lower 3-bits of 8 in binary.
 Because this maps so easily into 3-bits,
  it is very easy to roll and record
  the entropy directly in binary.</p>
@@ -2471,7 +2471,8 @@ Because this maps so easily into 3-bits,
 <p>And each dice roll will provide 3-bits.</p>
 <p>You'll want to keep rolling until you fill out
  23 11-bit words and 3-bits of the 24th word.
- The remaining 8 bits are calculated through a
+ The remaining 8-bits of the final word are
+ calculated through a
  checksum which we'll discuss next.</p>
 <p><img alt="Paper Dice Rolls" src="/images/paper_dice_rolls.jpg" /></p>
 <details class="question">
@@ -2483,10 +2484,7 @@ and 7-bits of the 12th word.</p>
 <p>In either case, you'll need to compute the
 checksum to arrive at a valid final word. 
 This simple check is to ensure that you've
-got a valid seed phrase (which is far
-more likely to have high entropy
-than selecting your own words from 
-the list).</p>
+got a valid seed phrase.</p>
 <p>A common approach is to add an additional passphrase
 to the seed words, like a 13th or 25th word.
 This can provide additional bits of entropy,
@@ -2495,10 +2493,13 @@ enough entropy to make a <em>12-word plus passphrase</em>
 seed as strong as a <em>24-word</em> seed.</p>
 </details>
 <h3 id="complete-the-checksum">Complete the Checksum<a class="headerlink" href="#complete-the-checksum" title="Permanent link">&para;</a></h3>
-<p>Completing the final work requires a checksum, in this
+<p>Completing the final word requires a checksum, 
+ in this
  case a sha256 sum
- on the 256-bits of entropy (to fill out the remaining
- 8-bits of the 24th word).</p>
+ on the 256-bits of entropy. 
+ The 24th word has 8-bits for
+ the checksum, which is just the
+ first 8-bits of the shasum.</p>
 <p>This may sound complicated, but you can use the
  same secure air-gapped computer you plan on using
  to sign transactions and
@@ -2507,7 +2508,7 @@ seed as strong as a <em>24-word</em> seed.</p>
  If you're just testing this approach
  feel free to use any computer.</p>
 <p>You will need to type the binary number <em>exactly</em>.
- For brevity, I will show <code>010...001</code> to represent the full
+ For brevity, I will use <code>010...001</code> to represent the full
  binary number seen in the worksheet above.</p>
 <div class="highlight"><pre><span></span><code><span class="nb">echo</span> <span class="m">010</span>...001 <span class="p">|</span> shasum -a <span class="m">256</span> -0
 </code></pre></div>
@@ -2525,9 +2526,13 @@ seed as strong as a <em>24-word</em> seed.</p>
  or you want to verify you did it correctly,
  you can use the following shell command,</p>
 <div class="highlight"><pre><span></span><code>python3 -c <span class="s1">&#39;print(bin(int(&quot;bb&quot;, 16))[2:])&#39;</span>
-<span class="m">10111011</span>
 </code></pre></div>
-<p>Once you have binary digits, simply add those to complete
+<p>This will return
+<div class="highlight"><pre><span></span><code>10111011
+</code></pre></div></p>
+<p>Once you have binary digits 
+ of the checksum, simply add those
+ to the the worksheet to complete
  the 11-digits of the 24th word.</p>
 <h3 id="seed-word-lookup">Seed Word Lookup<a class="headerlink" href="#seed-word-lookup" title="Permanent link">&para;</a></h3>
 <p>...</p>
