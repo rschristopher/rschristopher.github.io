@@ -64,7 +64,7 @@ The goal of a seed phrase
 ## Numeric Base of Dice
 
 We usually deal with Base-10 (decimal) and Base-2 (binary).
- In fact, anytime we say "bits" when referring to a number
+ In fact, when we say "bits"
  we're referring to the length of a binary number.
 
 But we can represent numbers in any arbitrary base.
