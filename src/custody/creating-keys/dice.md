@@ -322,6 +322,7 @@ Once you have binary digits
 ...
 
 
+
 ## Airgapped Computer
 
 ...
