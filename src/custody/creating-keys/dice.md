@@ -123,7 +123,6 @@ In most cases, even a slightly unbalanced dice
  sufficiently balanced to generate the 
  desired level of entropy.
 
-![8-sided Dice](/images/d8_dice.jpg)
 
 ### Saltwater Balance Test
 
@@ -150,18 +149,28 @@ Once the dice is floating towards the surface
  balanced or not. Simply push the dice
  with a pencil or chopstick.
 
-![balanced dice]()
+???+ info "Balanced Dice"
+    ![balanced dice](/images/d20_balanced_saltwater.gif)
+
+    [src](https://thecriticaldice.com/blogs/news/how-to-salt-water-test-your-dice)
 
 An unbalanced dice will float upward favoring
  one side. It will be obvious. In practice
  this could be due to air-bubbles or
  inconsistent materials.
 
-![unbalanced dice]()
+???+ info "Unbalanced Dice"
+    ![unbalanced dice](/images/d20_unbalanced_saltwater.gif)
+
+    [src](https://thecriticaldice.com/blogs/news/how-to-salt-water-test-your-dice)
 
 
-## Paper and Pencil
+## Paper and Pencil and Dice
 
+I recommend using 8-sided dice that have been verified through a 
+ [saltwater balance test](#saltwater-balance-test)
+
+![8-sided Dice](/images/d8_dice.jpg)
 ...
 
 ![Paper Dice Rolls](/images/paper_dice_rolls.jpg)
