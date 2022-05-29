@@ -2223,10 +2223,12 @@ and also the needle was invisible.</p>
  number, which would require 99 dice rolls.
  This is the minimum number of <em>fair</em> dice rolls necessary
  to achieve 256-bits of entropy.</p>
-<p>Alternatively, and my recommendation, is to use an 8-sided dice,
+<p>Alternatively, and my recommendation, 
+ is to use an 8-sided dice,
  the kind commonly found in role-playing games.
  A <em>fair</em> 8-sided dice roll has exactly 3-bits
- of entropy (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
+ of entropy 
+ (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
  With this approach 
  you'll need 85 rolls to generate sufficient
  entropy for a seed phrase.</p>
@@ -2346,10 +2348,60 @@ Whether using <em>AAA casino-grade razor edge
  and most importantly you'll have verified
  your dice. No trust required!</p>
 <h2 id="paper-and-pencil-and-dice">Paper and Pencil and Dice<a class="headerlink" href="#paper-and-pencil-and-dice" title="Permanent link">&para;</a></h2>
-<p>I recommend using 8-sided dice that have been verified through a 
- <a href="#saltwater-balance-test">saltwater balance test</a></p>
-<p><img alt="8-sided Dice" src="/images/d8_dice.jpg" />
-...</p>
+<p>I recommend using 8-sided dice 
+ that have been verified through a 
+ <a href="#saltwater-balance-test">saltwater balance test</a>.
+ This will make the mapping much easier
+ because each 8-sided corresponds to exactly
+ 3-bits of entropy.</p>
+<table>
+<thead>
+<tr>
+<th align="center">8D dice roll</th>
+<th>3-bits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>001</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>010</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>011</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>100</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>101</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>110</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>111</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>000</td>
+</tr>
+</tbody>
+</table>
+<p>Basically, each number on the dice is 
+ its binary representation, except 8, which
+ in binary is "1000" and so this is just the
+ lowest 3 bits of 8 in binary.</p>
+<p><img alt="8-sided Dice" src="/images/d8_dice.jpg" /></p>
+<p>...</p>
 <p><img alt="Paper Dice Rolls" src="/images/paper_dice_rolls.jpg" /></p>
 <h2 id="airgapped-computer">Airgapped Computer<a class="headerlink" href="#airgapped-computer" title="Permanent link">&para;</a></h2>
 <p>...
