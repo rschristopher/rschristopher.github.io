@@ -1,6 +1,6 @@
 # Creating Seeds with Dice
 
-You can (and should) generate seed phrases by hand.
+You can (and should) generate seed phrases with dice.
 
 This is because true randomness is surprisingly difficult 
  to achieve on a computer.
@@ -35,6 +35,11 @@ The goal of a seed phrase
     You can recover this wallet and view the
     transaction history for yourself.
     For 2-hours in 2016 there was 346.9341 Bitcoin stored with this key.
+	Perhaps it's part of a 
+	[Steganographic](https://en.wikipedia.org/wiki/Steganography)
+    puzzle, and this is the an entry into finding a hidden fortune.
+    Or perhaps someone didn't know what they were doing and lost
+    all their Bitcoin.
 
     ![Electrum Screen](/images/electrum_abandon_art.png)
 
@@ -67,7 +72,7 @@ We usually deal with Base-10 (decimal) and Base-2 (binary).
  In fact, when we say "bits"
  we're referring to the length of a binary number.
 
-But we can represent numbers in any arbitrary base.
+But we can represent a number in any arbitrary base.
  And this is important because one of the best
  sources of true random numbers is *fair* dice rolls.
 
@@ -88,7 +93,7 @@ Alternatively, and my recommendation,
  the kind commonly found in role-playing games.
  A *fair* 8-sided dice roll has exactly 3-bits
  of entropy 
- (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
+ (meaning every 8-sided dice roll gives you exactly 3 of the desired 256-bits).
  With this approach 
  you'll need 85 rolls to generate sufficient
  entropy for a seed phrase.
@@ -121,17 +126,19 @@ There's a strange phenomenon in the Bitcoin
 If you're concerned
  with the fairness of dice, then 
  you should verify your dice with a 
- saltwater test.
-Whether using *AAA casino-grade razor edge 
+ [saltwater balance test](#saltwater-balance-test).
+Whether using *AAA casino-grade razor-edge 
  precision dice* or using the dice you got
  from a board game, a saltwater test can verify
- if the dice is balanced or not. Just saying
+ if the dice is balanced or not. 
+
+Just saying
  "Casino-grade" is not a verification.
 
 In most cases, even a slightly unbalanced dice
  will still roll fairly, but it's recommended 
  to *verify* that a given set of dice is 
- sufficiently balanced to generate the 
+ balanced so you'll know it can generate the 
  desired level of entropy.
 
 
@@ -189,7 +196,8 @@ I recommend using 8-sided dice
  that have been verified through a 
  [saltwater balance test](#saltwater-balance-test).
  This will make the mapping much easier
- because each 8-sided corresponds to exactly
+ because an 8-sided dice 
+ corresponds to exactly
  3-bits of entropy.
 
 | 8D dice roll | 3-bits |
@@ -207,35 +215,104 @@ Basically, each number on the dice is
  its binary representation, except 8, which
  in binary is "1000" and so this is just the
  lowest 3 bits of 8 in binary.
+Because this maps so easily into 3-bits,
+ it is very easy to roll and record
+ the entropy directly in binary.
+
 
 ![8-sided Dice](/images/d8_dice.jpg)
 
-### Record all Dice Rolls
+### Record Dice Rolls as Binary
 
 Each word in the seed phrase is exactly
  11-bits of entropy (2048 possibilities).
- And each dice roll will provide 3-bits.
 
-You'll want to keep rolling until you fill-out
+And each dice roll will provide 3-bits.
+
+You'll want to keep rolling until you fill out
  23 11-bit words and 3-bits of the 24th word.
  The remaining 8 bits are calculated through a
- checksum which will require a secured
- air-gapped computer.
+ checksum which we'll discuss next.
 
 ![Paper Dice Rolls](/images/paper_dice_rolls.jpg)
 
-You could also do 12 seed words, 
- which will give you 128-bits of entropy.
- You'll fill out 11 of the 11-bit words
- and 7-bits of the 12th word.
+??? question "What about 12 Seed Words?"
 
-In either case, you'll need to compute the
- checksum to arrive at a valid final word. 
- This simple check is to ensure that you've
- got a valid seed phrase (which is far
- more likely to have high entropy
- than selecting your own words from 
- the list).
+	You could also do 12 seed words, 
+	which will give you 128-bits of entropy.
+
+	You'll fill out 11 of the 11-bit words
+	and 7-bits of the 12th word.
+
+	In either case, you'll need to compute the
+	checksum to arrive at a valid final word. 
+	This simple check is to ensure that you've
+	got a valid seed phrase (which is far
+	more likely to have high entropy
+	than selecting your own words from 
+	the list).
+
+	A common approach is to add an additional passphrase
+    to the seed words, like a 13th or 25th word.
+    This can provide additional bits of entropy,
+    and using a strong passphrase can easily add
+    enough entropy to make a *12-word plus passphrase*
+    seed as strong as a *24-word* seed.
+
+
+### Complete the Checksum
+
+Completing the final work requires a checksum, in this
+ case a sha256 sum
+ on the 256-bits of entropy (to fill out the remaining
+ 8-bits of the 24th word).
+
+This may sound complicated, but you can use the
+ same secure air-gapped computer you plan on using
+ to sign transactions and
+ [Self Custody](../index.md)
+ your Bitcoin.
+ If you're just testing this approach
+ feel free to use any computer.
+
+You will need to type the binary number *exactly*.
+ For brevity, I will show `010...001` to represent the full
+ binary number seen in the worksheet above.
+
+```shell
+echo 010...001 | shasum -a 256 -0
+```
+
+This will generate the following output,
+```
+bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
+```
+
+This is a Base-16 (hexidecimal) number, representing the
+ [256-bit shasum](https://en.wikipedia.org/wiki/SHA-2)
+ of the entropy bits.
+
+You will take the first two hexidecimal digits, in this case `bb`,
+ and convert this to binary. Each hexidecimal digit is exactly 4-bits,
+ and `b` is `1011`,
+ so `bb` is `10111011`
+
+If you are not sure how to convert hexidecimal digits to binary,
+ or you want to verify you did it correctly,
+ you can use the following shell command,
+
+```shell
+python3 -c 'print(bin(int("bb", 16))[2:])'
+10111011
+```
+
+Once you have binary digits, simply add those to complete
+ the 11-digits of the 24th word.
+
+
+### Seed Word Lookup
+
+...
 
 
 ## Airgapped Computer
