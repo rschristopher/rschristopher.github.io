@@ -1,6 +1,6 @@
 # Creating Seeds with Dice
 
-You can (and should) generate seed phrase by hand.
+You can (and should) generate seed phrases by hand.
 
 This is because true randomness is surprisingly difficult 
  to achieve on a computer.
