@@ -915,6 +915,19 @@
     Paper and Pencil and Dice
   </a>
   
+    <nav class="md-nav" aria-label="Paper and Pencil and Dice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#record-all-dice-rolls" class="md-nav__link">
+    Record all Dice Rolls
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2132,6 +2145,19 @@
     Paper and Pencil and Dice
   </a>
   
+    <nav class="md-nav" aria-label="Paper and Pencil and Dice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#record-all-dice-rolls" class="md-nav__link">
+    Record all Dice Rolls
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2401,8 +2427,27 @@ Whether using <em>AAA casino-grade razor edge
  in binary is "1000" and so this is just the
  lowest 3 bits of 8 in binary.</p>
 <p><img alt="8-sided Dice" src="/images/d8_dice.jpg" /></p>
-<p>...</p>
+<h3 id="record-all-dice-rolls">Record all Dice Rolls<a class="headerlink" href="#record-all-dice-rolls" title="Permanent link">&para;</a></h3>
+<p>Each word in the seed phrase is exactly
+ 11-bits of entropy (2048 possibilities).
+ And each dice roll will provide 3-bits.</p>
+<p>You'll want to keep rolling until you fill-out
+ 23 11-bit words and 3-bits of the 24th word.
+ The remaining 8 bits are calculated through a
+ checksum which will require a secured
+ air-gapped computer.</p>
 <p><img alt="Paper Dice Rolls" src="/images/paper_dice_rolls.jpg" /></p>
+<p>You could also do 12 seed words, 
+ which will give you 128-bits of entropy.
+ You'll fill out 11 of the 11-bit words
+ and 7-bits of the 12th word.</p>
+<p>In either case, you'll need to compute the
+ checksum to arrive at a valid final word. 
+ This simple check is to ensure that you've
+ got a valid seed phrase (which is far
+ more likely to have high entropy
+ than selecting your own words from 
+ the list).</p>
 <h2 id="airgapped-computer">Airgapped Computer<a class="headerlink" href="#airgapped-computer" title="Permanent link">&para;</a></h2>
 <p>...
 Even if you use the Paper and Pencil method,
