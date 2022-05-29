@@ -83,10 +83,12 @@ A better aproach is to use a *Base-6* representation of a 256-bit
  This is the minimum number of *fair* dice rolls necessary
  to achieve 256-bits of entropy.
 
-Alternatively, and my recommendation, is to use an 8-sided dice,
+Alternatively, and my recommendation, 
+ is to use an 8-sided dice,
  the kind commonly found in role-playing games.
  A *fair* 8-sided dice roll has exactly 3-bits
- of entropy (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
+ of entropy 
+ (meaning every 8-sided dice roll gives you exactly 3 of the 256 bits).
  With this approach 
  you'll need 85 rolls to generate sufficient
  entropy for a seed phrase.
@@ -183,10 +185,31 @@ Using this very simply technique you can
 
 ## Paper and Pencil and Dice
 
-I recommend using 8-sided dice that have been verified through a 
- [saltwater balance test](#saltwater-balance-test)
+I recommend using 8-sided dice 
+ that have been verified through a 
+ [saltwater balance test](#saltwater-balance-test).
+ This will make the mapping much easier
+ because each 8-sided corresponds to exactly
+ 3-bits of entropy.
+
+| 8D dice roll | 3-bits |
+| :----------: | ------ |
+| 1            |  001   |
+| 2            |  010   |
+| 3            |  011   |
+| 4            |  100   |
+| 5            |  101   |
+| 6            |  110   |
+| 7            |  111   |
+| 8            |  000   |
+
+Basically, each number on the dice is 
+ its binary representation, except 8, which
+ in binary is "1000" and so this is just the
+ lowest 3 bits of 8 in binary.
 
 ![8-sided Dice](/images/d8_dice.jpg)
+
 ...
 
 ![Paper Dice Rolls](/images/paper_dice_rolls.jpg)
