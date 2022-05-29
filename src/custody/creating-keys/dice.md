@@ -173,6 +173,13 @@ An unbalanced dice will float upward favoring
 
     [src](https://thecriticaldice.com/blogs/news/how-to-salt-water-test-your-dice)
 
+Using this very simply technique you can
+ verify your dice are balanced and can 
+ safely be used to generate high levels
+ of entropy. You'll find the "casino-grade" 
+ dice offer no benefit over board game dice,
+ and most importantly you'll have verified
+ your dice. No trust required!
 
 ## Paper and Pencil and Dice
 
