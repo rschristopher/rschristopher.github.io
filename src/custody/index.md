@@ -1,7 +1,7 @@
 # Custody
 
 To *custody* Bitcoin means 
- securing the private keys that would be needed
+ securing your private keys that would be needed
  to spend your Bitcoin.
 
 Unlike physical custody of assets, 
@@ -14,11 +14,7 @@ For example, consider the following seed phrase,
 
 > holiday crew machine fatigue welcome start axis cancel field slim rifle hero
 
-!!! info "Example Seed Phrase"
-
-    ```
-    holiday crew machine fatigue welcome start axis cancel field slim rifle hero
-    ```
+!!! quote "holiday crew machine fatigue welcome start axis cancel field slim rifle hero"
 
 Because this seed phrase has been revealed,
  anyone can generate private keys from this seed,
