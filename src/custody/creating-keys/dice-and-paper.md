@@ -155,14 +155,6 @@ If you are not sure how to convert hexidecimal digits to binary,
 >>> 
 ```
 
-Or you can call the above from the shell,
-
-```shell
-$ python3 -c 'print(bin(int("bb", 16))[2:])'
-10111011
-$
-```
-
 Once you have the first 8 binary digits 
  of the shasum, simply add those 8-bits
  to the worksheet to complete
