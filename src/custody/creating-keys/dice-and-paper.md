@@ -43,7 +43,7 @@ Because an 8-sided dice maps perfectly into 3-bits,
 ### Write Dice Rolls in Binary
 
 Each word in the seed phrase is exactly
- 11-bits of entropy (2048 possibilities).
+ 11-bits (2048 possibilities).
 
 And each dice roll will provide 3-bits.
 
