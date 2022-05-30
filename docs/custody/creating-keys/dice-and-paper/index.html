@@ -2276,17 +2276,21 @@ bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
 $ 
 </code></pre></div>
 <p>To compute the same using python is a little more involved, 
- but helpful if you want to verify.
+ but helpful if you want to verify.</p>
+<details class="info">
+<summary>python sha256sum</summary>
 <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">hashlib</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">binascii</span>
 <span class="o">&gt;&gt;&gt;</span> 
 <span class="o">&gt;&gt;&gt;</span> <span class="n">bin_str</span> <span class="o">=</span> <span class="s1">&#39;010...001&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> 
 <span class="o">&gt;&gt;&gt;</span> <span class="n">hexstr</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{0:0&gt;4X}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">bin_str</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">data</span> <span class="o">=</span> <span class="n">binascii</span><span class="o">.</span><span class="n">a2b_hex</span><span class="p">(</span><span class="n">hexstr</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
 <span class="s1">&#39;bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a&#39;</span>
 <span class="o">&gt;&gt;&gt;</span> 
-</code></pre></div></p>
+</code></pre></div>
+</details>
 <p>This is a Base-16 (hexidecimal) number, representing the
  <a href="https://en.wikipedia.org/wiki/SHA-2">256-bit shasum</a>
  of the entropy bits we got from the dice rolls.</p>
