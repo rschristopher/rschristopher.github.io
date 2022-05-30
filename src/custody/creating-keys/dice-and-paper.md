@@ -229,7 +229,7 @@ Alternatively, you can do this in python very easily
 ```
 
 This almost feels like cheating,
- but it's a nice reminder to include the BIP-39 words
+ but it's a nice reminder to include the BIP-39 word list
  on your secure airgapped computer.
  However you do it, manually or using the airgapped computer,
  you should now have all 24 words of your seed phrase.
