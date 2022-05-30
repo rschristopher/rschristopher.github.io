@@ -114,16 +114,19 @@ $
 
 To compute the same using python is a little more involved, 
  but helpful if you want to verify.
-```python
->>> import hashlib
->>> import binascii
->>> 
->>> bin_str = '010...001'
->>> hexstr = "{0:0>4X}".format(int(bin_str,2))
->>> data = binascii.a2b_hex(hexstr)
->>> hashlib.sha256(data).hexdigest()
-'bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a'
->>> 
+
+??? info "python sha256sum"
+    ```python
+    >>> import hashlib
+    >>> import binascii
+    >>> 
+    >>> bin_str = '010...001'
+    >>> 
+    >>> hexstr = "{0:0>4X}".format(int(bin_str,2))
+    >>> data = binascii.a2b_hex(hexstr)
+    >>> hashlib.sha256(data).hexdigest()
+    'bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a'
+    >>> 
 ```
 
 This is a Base-16 (hexidecimal) number, representing the
