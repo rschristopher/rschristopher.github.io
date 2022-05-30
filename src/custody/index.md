@@ -12,6 +12,8 @@ Unlike physical custody of assets,
 
 For example, consider the following seed phrase,
 
+> holiday crew machine fatigue welcome start axis cancel field slim rifle hero
+
 !!! info "Example Seed Phrase"
 
     ```
