@@ -2,9 +2,16 @@
 
 ...
 
-We can use python to enter Base-6 numbers and output a seed phrase
+We can use our airgapped computer 
+ to convert dice rolls
+ into a seed phrase. 
+This will give us the verified entropy
+ of dice rolls, and when done correctly
+ can be more secure than dice and paper.
 
-Rather than write a simple function to do this for you,
- we will go through step-by-step in python so that you
- can see what is actually happening.
+This technique is also applicable to other
+ methods of creating 256-bits of entropy,
+ from I-Ching Hexagrams to Tarot cards.
+ All that is required is a list of unique
+ characters to represent the set.
 
