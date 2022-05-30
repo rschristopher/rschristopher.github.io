@@ -1,6 +1,12 @@
 # Creating Keys
 
 ...
+Command Line
+Dice Entropy
+Dice and Computer
+Dice and Paper
+Multisig
+...
 
 BIP-39 Seed Words
 https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
