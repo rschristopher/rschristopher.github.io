@@ -234,6 +234,8 @@ This almost feels like cheating,
  However you do it, manually or using the airgapped computer,
  you should now have all 24 words of your seed phrase.
 
+!!! info "forum option evil nerve firm auction night account siege half spread half canyon make tragic proof fly theory clutch seed drink champion split danger"
+
 
 ## Verify Seed Phrase
 
@@ -241,13 +243,6 @@ Now that you have all 24 words, you can use them
  in the wallet software  of your choice.
  If you made a mistake anywhere the checksum
  will very likely fail.
-
-For reference, here is the example seed phrase from above,
-
-!!! info "Example Seed Phrase"
-    ```
-    forum option evil nerve firm auction night account siege half spread half canyon make tragic proof fly theory clutch seed drink champion split danger
-    ```
 
 You can copy these into wallet software,
 
