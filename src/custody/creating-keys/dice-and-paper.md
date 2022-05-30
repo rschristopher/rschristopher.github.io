@@ -3,8 +3,9 @@
 To really understand the security and ownership
  of your private keys, you ought to generate
  seed phrases by hand, with dice and paper.
-You will need to transfer them to a secure 
- computer and generate a checksum,
+You will need to transfer the seed phrase 
+ to a secure airgapped computer 
+ and generate a checksum,
  however everything before that
  can be done by hand.
 
@@ -244,18 +245,22 @@ Now that you have all 24 words, you can use them
  If you made a mistake anywhere the checksum
  will very likely fail.
 
-You can copy these into wallet software,
+E.g., I was able to verify this seed phrase in
+[electrum](https://electrum.org/#home) --
 
 ![electrum verify seed](/images/electrum_verify_seed.png)
 
-...
+And can view the master public key 
+ (go to "wallet" -> "information" in electrum) --
 
 ![electrum sample zpub](/images/electrum_sample_zpub.png)
 
+---
 
-You can also verify your seed phrase using the
+Additionally, I was able to verify
+ the seed phrase and the entropy bits using the
  [Mnemonic Code Converter](https://iancoleman.io/bip39)
-
+ --
 
 ![iancolement sample zpub](/images/iancoleman_sample_zpub.png)
 
