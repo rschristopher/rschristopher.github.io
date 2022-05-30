@@ -112,7 +112,7 @@ In practice, Self Custody is as easy as changing a light-bulb,
 
 > Bitcoin is hard? Compared to what?!
 
-Let's look at a typical security setup for
+Let's look at the security setup for
  accessing a typical online banking service,
  and determine how easy and secure things really are.
 
@@ -248,7 +248,8 @@ Bitcoin Self Custody offers real security.
 
 Bitcoin Self Custody is exactly as hard 
  as learning about the Internet in the 1990s.
- It's new, it's different,
+
+It's new, it's different,
  and it confuses those who haven't realized
  just how disruptive this kind of technology can be.
 

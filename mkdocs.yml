@@ -61,7 +61,10 @@ nav:
         - Creating Keys: 
           - custody/creating-keys/index.md
           - Command Line: custody/creating-keys/cli.md
-          - Dice-rolled: custody/creating-keys/dice.md
+          - Airgapped Computer: custody/creating-keys/airgapped-computer.md
+          - Using Dice: custody/creating-keys/dice.md
+          - Dice and Paper: custody/creating-keys/dice-and-paper.md
+          - Dice and Computer: custody/creating-keys/dice-and-computer.md
           - Multisig: custody/creating-keys/multisig.md
         - Using Keys:
           - custody/using-keys/index.md
