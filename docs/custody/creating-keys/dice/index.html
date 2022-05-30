@@ -919,8 +919,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#record-dice-rolls-as-binary" class="md-nav__link">
-    Record Dice Rolls as Binary
+  <a href="#write-dice-rolls-in-binary" class="md-nav__link">
+    Write Dice Rolls in Binary
   </a>
   
 </li>
@@ -2163,8 +2163,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#record-dice-rolls-as-binary" class="md-nav__link">
-    Record Dice Rolls as Binary
+  <a href="#write-dice-rolls-in-binary" class="md-nav__link">
+    Write Dice Rolls in Binary
   </a>
   
 </li>
@@ -2465,12 +2465,15 @@ Because this maps so easily into 3-bits,
  it is very easy to roll and record
  the entropy directly in binary.</p>
 <p><img alt="8-sided Dice" src="/images/d8_dice.jpg" /></p>
-<h3 id="record-dice-rolls-as-binary">Record Dice Rolls as Binary<a class="headerlink" href="#record-dice-rolls-as-binary" title="Permanent link">&para;</a></h3>
+<h3 id="write-dice-rolls-in-binary">Write Dice Rolls in Binary<a class="headerlink" href="#write-dice-rolls-in-binary" title="Permanent link">&para;</a></h3>
 <p>Each word in the seed phrase is exactly
  11-bits of entropy (2048 possibilities).</p>
 <p>And each dice roll will provide 3-bits.</p>
 <p>You'll want to keep rolling until you fill out
  23 11-bit words and 3-bits of the 24th word.
+ As you fill out 3-bits at a time, you can go
+ left-to-right and top-down, and stop after
+ writing 3-bits into the 24th word.
  The remaining 8-bits of the final word are
  calculated through a
  checksum which we'll discuss next.</p>
@@ -2480,25 +2483,28 @@ Because this maps so easily into 3-bits,
 <p>You could also do 12-word seeds, 
 which will give you 128-bits of entropy.</p>
 <p>You'll fill out 11 of the 11-bit words
-and 7-bits of the 12th word.</p>
+and 7-bits of the 12th word. The
+remaining 4-bits will be the checksum.</p>
 <p>In either case, you'll need to compute the
 checksum to arrive at a valid final word. 
-This simple check is to ensure that you've
+This simple checksum is to ensure that you've
 got a valid seed phrase.</p>
 <p>A common approach is to add an additional passphrase
-to the seed words, like a 13th or 25th word.
-This can provide additional bits of entropy,
+to the seed words, like a 13th or 25th word,
+but not constrained to the BIP-39 word list.
+This passphrase 
+can provide additional bits of entropy,
 and using a strong passphrase can easily add
 enough entropy to make a <em>12-word plus passphrase</em>
 seed as strong as a <em>24-word</em> seed.</p>
 </details>
 <h3 id="complete-the-checksum">Complete the Checksum<a class="headerlink" href="#complete-the-checksum" title="Permanent link">&para;</a></h3>
-<p>Completing the final word requires a checksum, 
- in this
- case a sha256 sum
- on the 256-bits of entropy. 
- The 24th word has 8-bits for
- the checksum, which is just the
+<p>Completing the final word requires a checksum 
+ In this
+ case a <code>sha256sum</code>
+ of the 256-bits of entropy. 
+ Remember the 24th word has 8-bits for
+ the checksum, which should be the
  first 8-bits of the shasum.</p>
 <p>This may sound complicated, but you can use the
  same secure air-gapped computer you plan on using
@@ -2506,10 +2512,12 @@ seed as strong as a <em>24-word</em> seed.</p>
  <a href="../../">Self Custody</a>
  your Bitcoin.
  If you're just testing this approach
- feel free to use any computer.</p>
-<p>You will need to type the binary number <em>exactly</em>.
+ feel free to use any computer
+ to calculate the checksum bits.</p>
+<p>You will run the following shell command, and
+ you'll need to type your exact binary number.
  For brevity, I will use <code>010...001</code> to represent the full
- binary number seen in the worksheet above.</p>
+ 256-bit binary number seen in the worksheet above.</p>
 <div class="highlight"><pre><span></span><code><span class="nb">echo</span> <span class="m">010</span>...001 <span class="p">|</span> shasum -a <span class="m">256</span> -0
 </code></pre></div>
 <p>This will generate the following output,
@@ -2517,9 +2525,9 @@ seed as strong as a <em>24-word</em> seed.</p>
 </code></pre></div></p>
 <p>This is a Base-16 (hexidecimal) number, representing the
  <a href="https://en.wikipedia.org/wiki/SHA-2">256-bit shasum</a>
- of the entropy bits.</p>
+ of the entropy bits we got from the dice rolls.</p>
 <p>You will take the first two hexidecimal digits, in this case <code>bb</code>,
- and convert this to binary. Each hexidecimal digit is exactly 4-bits,
+ and convert them to binary. Each hexidecimal digit is exactly 4-bits,
  and <code>b</code> is <code>1011</code>,
  so <code>bb</code> is <code>10111011</code></p>
 <p>If you are not sure how to convert hexidecimal digits to binary,
@@ -2530,10 +2538,11 @@ seed as strong as a <em>24-word</em> seed.</p>
 <p>This will return
 <div class="highlight"><pre><span></span><code>10111011
 </code></pre></div></p>
-<p>Once you have binary digits 
+<p>Once you have the first 8 binary digits 
  of the checksum, simply add those
- to the the worksheet to complete
- the 11-digits of the 24th word.</p>
+ to the worksheet to complete
+ your 24th word (which should now have
+ all 11-bits).</p>
 <h3 id="seed-word-lookup">Seed Word Lookup<a class="headerlink" href="#seed-word-lookup" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h2 id="airgapped-computer">Airgapped Computer<a class="headerlink" href="#airgapped-computer" title="Permanent link">&para;</a></h2>
