@@ -129,13 +129,19 @@ To compute the same using python is a little more involved,
     >>> 
     ```
 
-This is a Base-16 (hexidecimal) number, representing the
+The shasum is a Base-16 (hexidecimal) number, representing the
  [256-bit shasum](https://en.wikipedia.org/wiki/SHA-2)
  of the entropy bits we got from the dice rolls.
 
-To get the checksum, take the first two hexidecimal digits of the shasum,
+```
+bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
+```
+
+To get the checksum needed for our 24th word,
+ take the first two hexidecimal digits of the shasum,
  in this case `bb`,
- and convert them to binary. Each hexidecimal digit is exactly 4-bits,
+ and convert to binary. 
+ Each hexidecimal digit is exactly 4-bits,
  and `b` is `1011`,
  so `bb` is `10111011`
 
@@ -158,11 +164,11 @@ $
 ```
 
 Once you have the first 8 binary digits 
- of the checksum, simply add those
+ of the shasum, simply add those 8-bits
  to the worksheet to complete
  your 24th word.
  The 3-bits from dice plus the 8-bits 
- from the sha256sum will complete all 11-bits off the word.
+ from the shasum will complete all 11-bits of the final word.
 
 
 ### Seed Word Lookup
