@@ -45,7 +45,8 @@ With Self Custody you could decide that you'd rather die than give up your Bitco
  This sounds silly and rather extreme, but Bitcoin is the only asset
  in the history of the world where you can meaningfully accomplish this level of ownership.
  And you can accomplish this without lawyers or politicians.
- In fact, you can accomplish this even in opposition to lawyers and churches and nation states.
+ In fact, you can accomplish this even in opposition to lawyers and politicians
+ (as well as churches or nation states).
 
 Can you say the same about stocks, bonds, real-estate, or any modern financial instrument?
 
