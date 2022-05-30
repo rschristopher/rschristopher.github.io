@@ -197,7 +197,7 @@ We could keep going with this all-too-common tale of security theater
 
 
 In case it's not obvious, online banking is vastly more complicated
- than anything you'll encounter with Bitcoin Self Custody.
+ than anything you'll encounter with Bitcoin.
  And you'll find all the same cryptographic concepts,
  such as *private keys* and *recovery seeds*, but the bank and apps will
  apply them in comically useless ways that add no real security
