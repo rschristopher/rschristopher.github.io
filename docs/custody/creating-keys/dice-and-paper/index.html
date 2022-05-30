@@ -2291,12 +2291,16 @@ $
 <span class="o">&gt;&gt;&gt;</span> 
 </code></pre></div>
 </details>
-<p>This is a Base-16 (hexidecimal) number, representing the
+<p>The shasum is a Base-16 (hexidecimal) number, representing the
  <a href="https://en.wikipedia.org/wiki/SHA-2">256-bit shasum</a>
  of the entropy bits we got from the dice rolls.</p>
-<p>To get the checksum, take the first two hexidecimal digits of the shasum,
+<div class="highlight"><pre><span></span><code>bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
+</code></pre></div>
+<p>To get the checksum needed for our 24th word,
+ take the first two hexidecimal digits of the shasum,
  in this case <code>bb</code>,
- and convert them to binary. Each hexidecimal digit is exactly 4-bits,
+ and convert to binary. 
+ Each hexidecimal digit is exactly 4-bits,
  and <code>b</code> is <code>1011</code>,
  so <code>bb</code> is <code>10111011</code></p>
 <p>If you are not sure how to convert hexidecimal digits to binary,
@@ -2312,11 +2316,11 @@ $
 $
 </code></pre></div>
 <p>Once you have the first 8 binary digits 
- of the checksum, simply add those
+ of the shasum, simply add those 8-bits
  to the worksheet to complete
  your 24th word.
  The 3-bits from dice plus the 8-bits 
- from the sha256sum will complete all 11-bits off the word.</p>
+ from the shasum will complete all 11-bits of the final word.</p>
 <h3 id="seed-word-lookup">Seed Word Lookup<a class="headerlink" href="#seed-word-lookup" title="Permanent link">&para;</a></h3>
 <p>Now that you have all the binary values, 
  you can resolve each of the 24 values to its corresponding
