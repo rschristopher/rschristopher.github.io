@@ -12,8 +12,6 @@ Unlike physical custody of assets,
 
 For example, consider the following seed phrase,
 
-> holiday crew machine fatigue welcome start axis cancel field slim rifle hero
-
 !!! quote "holiday crew machine fatigue welcome start axis cancel field slim rifle hero"
 
 Because this seed phrase has been revealed,
@@ -52,7 +50,7 @@ Can you say the same about stocks, bonds, real-estate, or any modern financial i
 
 The closest you might get is a physical possession, a bearer asset such as gold bullion.
 
-But here is the difference:
+But there is an important difference:
  with the use of force anyone can take possession of gold bullion
  (as has happened over-and-over throughout history),
  incentivizing the use of force to seize wealth.
@@ -60,7 +58,7 @@ But here is the difference:
  You can transfer your Bitcoin anywhere in the world.
  And in the extreme, you can take your Bitcoin to the grave.
 
-This difference shifts the balance of power,
+This subtle difference shifts the balance of power,
  aligning incentives with voluntary cooperation
  and not with force or fiat.
 
@@ -106,7 +104,7 @@ If you trust an institution to custody your Bitcoin,
 
 There's a common misconception that Bitcoin Self Custody is hard.
 
-In practice, Bitcoin Self Custody is as easy as changing a light-bulb,
+In practice, Self Custody is as easy as changing a light-bulb,
  and it is vastly easier than online banking, not to mention far more secure.
  Bitcoin is as secure as you want it to be, from *trivial* to *nuclear-launch-code*
  level of security.
@@ -209,7 +207,7 @@ No reasonable person would conclude that the current state
  And worse, it is getting harder and harder by the day.
 
 
-!!! question "But is Bitcoin Self Custody really as easy as changing a light-bulb?"
+!!! question "But is Self Custody really as easy as changing a light-bulb?"
     
     Yes, and definitely easier than 
     the security theater of online banking.
@@ -260,6 +258,6 @@ Bitcoin Self Custody is exactly as hard
     That's online banking you're thinking about.
 
     A redneck with a gun and a coldcard can custody Bitcoin
-    with more security than your bank.
+    with more security than any bank.
 
 
