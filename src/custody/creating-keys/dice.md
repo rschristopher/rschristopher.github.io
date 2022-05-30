@@ -222,7 +222,7 @@ Because this maps so easily into 3-bits,
 
 ![8-sided Dice](/images/d8_dice.jpg)
 
-### Record Dice Rolls as Binary
+### Write Dice Rolls in Binary
 
 Each word in the seed phrase is exactly
  11-bits of entropy (2048 possibilities).
@@ -231,6 +231,9 @@ And each dice roll will provide 3-bits.
 
 You'll want to keep rolling until you fill out
  23 11-bit words and 3-bits of the 24th word.
+ As you fill out 3-bits at a time, you can go
+ left-to-right and top-down, and stop after
+ writing 3-bits into the 24th word.
  The remaining 8-bits of the final word are
  calculated through a
  checksum which we'll discuss next.
@@ -239,20 +242,23 @@ You'll want to keep rolling until you fill out
 
 ??? question "What about 12-Word Seeds?"
 
-	You could also do 12-word seeds, 
-	which will give you 128-bits of entropy.
+    You could also do 12-word seeds, 
+    which will give you 128-bits of entropy.
 
-	You'll fill out 11 of the 11-bit words
-	and 7-bits of the 12th word.
+    You'll fill out 11 of the 11-bit words
+    and 7-bits of the 12th word. The
+    remaining 4-bits will be the checksum.
 
-	In either case, you'll need to compute the
-	checksum to arrive at a valid final word. 
-	This simple check is to ensure that you've
-	got a valid seed phrase.
+    In either case, you'll need to compute the
+    checksum to arrive at a valid final word. 
+    This simple checksum is to ensure that you've
+    got a valid seed phrase.
 
     A common approach is to add an additional passphrase
-    to the seed words, like a 13th or 25th word.
-    This can provide additional bits of entropy,
+    to the seed words, like a 13th or 25th word,
+    but not constrained to the BIP-39 word list.
+    This passphrase 
+    can provide additional bits of entropy,
     and using a strong passphrase can easily add
     enough entropy to make a *12-word plus passphrase*
     seed as strong as a *24-word* seed.
@@ -260,12 +266,12 @@ You'll want to keep rolling until you fill out
 
 ### Complete the Checksum
 
-Completing the final word requires a checksum, 
- in this
- case a sha256 sum
- on the 256-bits of entropy. 
- The 24th word has 8-bits for
- the checksum, which is just the
+Completing the final word requires a checksum 
+ In this
+ case a `sha256sum`
+ of the 256-bits of entropy. 
+ Remember the 24th word has 8-bits for
+ the checksum, which should be the
  first 8-bits of the shasum.
 
 This may sound complicated, but you can use the
@@ -274,11 +280,13 @@ This may sound complicated, but you can use the
  [Self Custody](../index.md)
  your Bitcoin.
  If you're just testing this approach
- feel free to use any computer.
+ feel free to use any computer
+ to calculate the checksum bits.
 
-You will need to type the binary number *exactly*.
+You will run the following shell command, and
+ you'll need to type your exact binary number.
  For brevity, I will use `010...001` to represent the full
- binary number seen in the worksheet above.
+ 256-bit binary number seen in the worksheet above.
 
 ```shell
 echo 010...001 | shasum -a 256 -0
@@ -291,10 +299,10 @@ bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
 
 This is a Base-16 (hexidecimal) number, representing the
  [256-bit shasum](https://en.wikipedia.org/wiki/SHA-2)
- of the entropy bits.
+ of the entropy bits we got from the dice rolls.
 
 You will take the first two hexidecimal digits, in this case `bb`,
- and convert this to binary. Each hexidecimal digit is exactly 4-bits,
+ and convert them to binary. Each hexidecimal digit is exactly 4-bits,
  and `b` is `1011`,
  so `bb` is `10111011`
 
@@ -311,10 +319,11 @@ This will return
 10111011
 ```
 
-Once you have binary digits 
+Once you have the first 8 binary digits 
  of the checksum, simply add those
- to the the worksheet to complete
- the 11-digits of the 24th word.
+ to the worksheet to complete
+ your 24th word (which should now have
+ all 11-bits).
 
 
 ### Seed Word Lookup
