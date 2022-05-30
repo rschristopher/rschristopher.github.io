@@ -33,7 +33,7 @@ Each number on the dice corresponds directly to
  its binary representation, except 8, which
  in binary is "1000" and so this is just the
  lower 3-bits of 8 in binary.
-Because this maps perfectly into 3-bits,
+Because an 8-sided dice maps perfectly into 3-bits,
  it is very easy to roll and record
  the entropy bits directly in binary.
 
