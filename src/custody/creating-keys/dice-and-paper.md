@@ -127,7 +127,7 @@ To compute the same using python is a little more involved,
     >>> hashlib.sha256(data).hexdigest()
     'bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a'
     >>> 
-```
+    ```
 
 This is a Base-16 (hexidecimal) number, representing the
  [256-bit shasum](https://en.wikipedia.org/wiki/SHA-2)
