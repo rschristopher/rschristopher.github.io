@@ -1,11 +1,39 @@
 # Is Bitcoin True?
 
-One of my earliest reactions to a deep dive into Bitcoin, was the thought,
-It also fixes modern art? This is too good to be true.
-Politics and War
-Food and Health
-Education and Research
-Science and Innovation
+One of my earliest reactions to a deep dive 
+ into Bitcoin, was the thought,
+
+!!! quote "It also fixes modern art?"
+
+The implications of fiat money reach deep
+ into our society --
+ Politics and War,
+ Food and Health,
+ Education and Research,
+ Science and Innovation --
+and even modern art.
+
+!!! quote "Bitcoin fixes this"
+
+This oft-repeated quote strikes me as
+ too good to be true, the wishful thinking
+ of youthful idealists who are all theory
+ and no experience,
+ those unprepared for the chaotic 
+ realpolitik of life.
+
+And yet, if what is claimed about Bitcoin is
+ true, then absolutely it would fix all of
+ the damaging effects of inflationary money.
+ But like I said, this seems to be too good true.
+ Like trying to contemplate what life would
+ be like if people were always honest and 
+ forthright, if everyone was kind, humble,
+ and forgiving. People aren't that way, so it's 
+ not helpful to pretend otherwise.
+
+
+
 All of this has become broken, deeply broken, by fiat money, specifically monetary inflation. Bitcoin aims to fix this; to do what gold failed to do.
 Can it?
 
