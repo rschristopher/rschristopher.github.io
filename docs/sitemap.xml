@@ -116,7 +116,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rschristopher.github.io/custody/creating-keys/airgapped-computer/</loc>
+         <lastmod>2022-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rschristopher.github.io/custody/creating-keys/cli/</loc>
+         <lastmod>2022-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/custody/creating-keys/dice-and-computer/</loc>
+         <lastmod>2022-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/custody/creating-keys/dice-and-paper/</loc>
          <lastmod>2022-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -19,7 +19,7 @@
     
     
       
-        <title>Dice-rolled - Is Bitcoin True?</title>
+        <title>Using Dice - Is Bitcoin True?</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#creating-seeds-with-dice" class="md-skip">
+        <a href="#using-dice" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dice-rolled
+              Using Dice
             
           </span>
         </div>
@@ -795,6 +795,12 @@
         
           
         
+          
+        
+          
+        
+          
+        
       
       
         
@@ -835,6 +841,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../airgapped-computer/" class="md-nav__link">
+        Airgapped Computer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -847,12 +867,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Dice-rolled
+          Using Dice
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Dice-rolled
+        Using Dice
       </a>
       
         
@@ -910,51 +930,38 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#paper-and-pencil-and-dice" class="md-nav__link">
-    Paper and Pencil and Dice
-  </a>
-  
-    <nav class="md-nav" aria-label="Paper and Pencil and Dice">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#write-dice-rolls-in-binary" class="md-nav__link">
-    Write Dice Rolls in Binary
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#complete-the-checksum" class="md-nav__link">
-    Complete the Checksum
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#seed-word-lookup" class="md-nav__link">
-    Seed Word Lookup
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#airgapped-computer" class="md-nav__link">
-    Airgapped Computer
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dice-and-paper/" class="md-nav__link">
+        Dice and Paper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dice-and-computer/" class="md-nav__link">
+        Dice and Computer
+      </a>
     </li>
   
 
@@ -2154,47 +2161,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#paper-and-pencil-and-dice" class="md-nav__link">
-    Paper and Pencil and Dice
-  </a>
-  
-    <nav class="md-nav" aria-label="Paper and Pencil and Dice">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#write-dice-rolls-in-binary" class="md-nav__link">
-    Write Dice Rolls in Binary
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#complete-the-checksum" class="md-nav__link">
-    Complete the Checksum
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#seed-word-lookup" class="md-nav__link">
-    Seed Word Lookup
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#airgapped-computer" class="md-nav__link">
-    Airgapped Computer
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2209,15 +2175,15 @@
                 
 
 
-<h1 id="creating-seeds-with-dice">Creating Seeds with Dice<a class="headerlink" href="#creating-seeds-with-dice" title="Permanent link">&para;</a></h1>
-<p>You can (and should) generate seed phrases with dice.</p>
+<h1 id="using-dice">Using Dice<a class="headerlink" href="#using-dice" title="Permanent link">&para;</a></h1>
+<p><em>You can (and should) generate seed phrases with dice.</em></p>
 <p>This is because true randomness is surprisingly difficult 
  to achieve on a computer.
 This is referred to as <em>Entropy</em>,
- that is, the measure of randomness. 
- For example, a fair coin flip is 1-bit of entropy,
+ that is, a measure of randomness.</p>
+<p>For example, a <em>fair</em> coin flip is 1-bit of entropy;
  flipping two coins can offer 2-bits of entropy (4 possible outcomes).
- If one of the coins is unfair and <em>always</em> lands
+ But if one of the coins is unfair and <em>always</em> lands
  on heads, then we're back to only 1-bit of entropy
  from the first coin.</p>
 <p>The goal of a seed phrase 
@@ -2353,23 +2319,25 @@ and also the needle was invisible.</p>
  with the fairness of dice, then 
  you should verify your dice with a 
  <a href="#saltwater-balance-test">saltwater balance test</a>.
-Whether using <em>AAA casino-grade razor-edge 
- precision dice</em> or using the dice you got
+Whether using <em>"AAA casino-grade razor-edge 
+ precision dice"</em> or using the dice you got
  from a board game, a saltwater test can verify
  if the dice is balanced or not. </p>
 <p>Just saying
  "Casino-grade" is not a verification.</p>
 <p>In most cases, even a slightly unbalanced dice
  will still roll fairly, but it's recommended 
- to <em>verify</em> that a given set of dice is 
- balanced so you'll know it can generate the 
+ to <em>verify</em> that a given set of dice
+ (casino-grade or otherwise)
+ is balanced so you'll know it can generate the 
  desired level of entropy.</p>
 <h3 id="saltwater-balance-test">Saltwater Balance Test<a class="headerlink" href="#saltwater-balance-test" title="Permanent link">&para;</a></h3>
 <p>You'll find many 
  <a href="https://thecriticaldice.com/blogs/news/how-to-salt-water-test-your-dice">examples online</a>, 
  mostly from
  dedicated communities around board games, RPGs,
- and gambling aficionados.</p>
+ and gambling aficionados.
+ God bless our fellow nerds.</p>
 <p>In practice, you simply need a cup of
  <em>supersaturated saltwater</em>. This just means
  the water cannot absorb any more salt and
@@ -2377,7 +2345,7 @@ Whether using <em>AAA casino-grade razor-edge
 <ol>
 <li>In a clean cup, fill with clean filtered
  water</li>
-<li>Add salt, a lot of salt, and stir till 
+<li>Add salt, <em>a lot of salt</em>, and stir till 
  the salt is fully absorbed in the water</li>
 <li>Keep adding salt and stirring until
  your dice becomes buoyant</li>
@@ -2404,154 +2372,10 @@ Whether using <em>AAA casino-grade razor-edge
  verify your dice are balanced and can 
  safely be used to generate high levels
  of entropy. You'll find the "casino-grade" 
- dice offer no benefit over board game dice,
+ dice offer no benefit over standard board game dice,
  and most importantly you'll have verified
- your dice. No trust required!</p>
-<h2 id="paper-and-pencil-and-dice">Paper and Pencil and Dice<a class="headerlink" href="#paper-and-pencil-and-dice" title="Permanent link">&para;</a></h2>
-<p>I recommend using 8-sided dice 
- that have been verified through a 
- <a href="#saltwater-balance-test">saltwater balance test</a>.
- This will make the mapping much easier
- because an 8-sided dice 
- corresponds to exactly
- 3-bits of entropy.</p>
-<table>
-<thead>
-<tr>
-<th align="center">8D dice roll</th>
-<th>3-bits</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">1</td>
-<td>001</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td>010</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td>011</td>
-</tr>
-<tr>
-<td align="center">4</td>
-<td>100</td>
-</tr>
-<tr>
-<td align="center">5</td>
-<td>101</td>
-</tr>
-<tr>
-<td align="center">6</td>
-<td>110</td>
-</tr>
-<tr>
-<td align="center">7</td>
-<td>111</td>
-</tr>
-<tr>
-<td align="center">8</td>
-<td>000</td>
-</tr>
-</tbody>
-</table>
-<p>Basically, each number on the dice is 
- its binary representation, except 8, which
- in binary is "1000" and so this is just the
- lower 3-bits of 8 in binary.
-Because this maps so easily into 3-bits,
- it is very easy to roll and record
- the entropy directly in binary.</p>
-<p><img alt="8-sided Dice" src="/images/d8_dice.jpg" /></p>
-<h3 id="write-dice-rolls-in-binary">Write Dice Rolls in Binary<a class="headerlink" href="#write-dice-rolls-in-binary" title="Permanent link">&para;</a></h3>
-<p>Each word in the seed phrase is exactly
- 11-bits of entropy (2048 possibilities).</p>
-<p>And each dice roll will provide 3-bits.</p>
-<p>You'll want to keep rolling until you fill out
- 23 11-bit words and 3-bits of the 24th word.
- As you fill out 3-bits at a time, you can go
- left-to-right and top-down, and stop after
- writing 3-bits into the 24th word.
- The remaining 8-bits of the final word are
- calculated through a
- checksum which we'll discuss next.</p>
-<p><img alt="Paper Dice Rolls" src="/images/paper_dice_rolls.jpg" /></p>
-<details class="question">
-<summary>What about 12-Word Seeds?</summary>
-<p>You could also do 12-word seeds, 
-which will give you 128-bits of entropy.</p>
-<p>You'll fill out 11 of the 11-bit words
-and 7-bits of the 12th word. The
-remaining 4-bits will be the checksum.</p>
-<p>In either case, you'll need to compute the
-checksum to arrive at a valid final word. 
-This simple checksum is to ensure that you've
-got a valid seed phrase.</p>
-<p>A common approach is to add an additional passphrase
-to the seed words, like a 13th or 25th word,
-but not constrained to the BIP-39 word list.
-This passphrase 
-can provide additional bits of entropy,
-and using a strong passphrase can easily add
-enough entropy to make a <em>12-word plus passphrase</em>
-seed as strong as a <em>24-word</em> seed.</p>
-</details>
-<h3 id="complete-the-checksum">Complete the Checksum<a class="headerlink" href="#complete-the-checksum" title="Permanent link">&para;</a></h3>
-<p>Completing the final word requires a checksum 
- In this
- case a <code>sha256sum</code>
- of the 256-bits of entropy. 
- Remember the 24th word has 8-bits for
- the checksum, which should be the
- first 8-bits of the shasum.</p>
-<p>This may sound complicated, but you can use the
- same secure air-gapped computer you plan on using
- to sign transactions and
- <a href="../../">Self Custody</a>
- your Bitcoin.
- If you're just testing this approach
- feel free to use any computer
- to calculate the checksum bits.</p>
-<p>You will run the following shell command, and
- you'll need to type your exact binary number.
- For brevity, I will use <code>010...001</code> to represent the full
- 256-bit binary number seen in the worksheet above.</p>
-<div class="highlight"><pre><span></span><code><span class="nb">echo</span> <span class="m">010</span>...001 <span class="p">|</span> shasum -a <span class="m">256</span> -0
-</code></pre></div>
-<p>This will generate the following output,
-<div class="highlight"><pre><span></span><code>bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a
-</code></pre></div></p>
-<p>This is a Base-16 (hexidecimal) number, representing the
- <a href="https://en.wikipedia.org/wiki/SHA-2">256-bit shasum</a>
- of the entropy bits we got from the dice rolls.</p>
-<p>You will take the first two hexidecimal digits, in this case <code>bb</code>,
- and convert them to binary. Each hexidecimal digit is exactly 4-bits,
- and <code>b</code> is <code>1011</code>,
- so <code>bb</code> is <code>10111011</code></p>
-<p>If you are not sure how to convert hexidecimal digits to binary,
- or you want to verify you did it correctly,
- you can use the following shell command,</p>
-<div class="highlight"><pre><span></span><code>python3 -c <span class="s1">&#39;print(bin(int(&quot;bb&quot;, 16))[2:])&#39;</span>
-</code></pre></div>
-<p>This will return
-<div class="highlight"><pre><span></span><code>10111011
-</code></pre></div></p>
-<p>Once you have the first 8 binary digits 
- of the checksum, simply add those
- to the worksheet to complete
- your 24th word (which should now have
- all 11-bits).</p>
-<h3 id="seed-word-lookup">Seed Word Lookup<a class="headerlink" href="#seed-word-lookup" title="Permanent link">&para;</a></h3>
-<p>...</p>
-<h2 id="airgapped-computer">Airgapped Computer<a class="headerlink" href="#airgapped-computer" title="Permanent link">&para;</a></h2>
-<p>...
-Even if you use the Paper and Pencil method,
- you will need to type that large number into a computer.
- And this computer must be airgapped and well secured 
- (even if that means destroying everything after you're done).
- This 256-bit number is literally the key to your wealth.</p>
+ your dice. </p>
+<p>No trust required!</p>
 
               
             </article>
