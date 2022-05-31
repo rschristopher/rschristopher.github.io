@@ -3,35 +3,113 @@
 One of my earliest reactions to a deep dive 
  into Bitcoin, was the thought,
 
-!!! quote "It also fixes modern art?"
+ > It also fixes modern art?!
 
-The implications of fiat money reach deep
- into our society --
+The implications of fiat money run deep
+ into our society, beyond the ever-increasing
+ price of meat and potatoes --
  Politics and War,
  Food and Health,
  Education and Research,
  Science and Innovation --
-and even modern art.
+and yes, even *modern art*.
 
-!!! quote "Bitcoin fixes this"
+Money operates as a measure of value.
+Money also stores value,
+ value to be used in the future. 
+ The time
+ between earning and spending is known
+ as "saving". Inflationary money
+ disprupts this cycle, leading to credit
+ and debt, a system of constant spending,
+ because money that constantly loses value
+ is simply worth more now than it will be 
+ in the future.
 
-This oft-repeated quote strikes me as
+If you ever wonder why modern societies are
+ struggling with consumerism, environmental 
+ catastrophes, health epidemics where supposedly
+ "wealthy" populations are malnourished and
+ dying younger, and fighting endless wars over
+ control of oil -- look no further than
+ the source of all this misery -- fiat money,
+ where unaccountable bureaucrats control
+ the supply of money at the expense
+ of civilization.
+
+While the current round of non-sustainable
+ monetary parasitism began in 1971, this 
+ problem is as old as time. Whether it's 
+ causal or not can be debated, but societies
+ fall when their money is not sound.
+ No reasonable person can believe otherwise.
+
+## Bitcoin fixes this
+
+This oft-repeated quote struck me as
  too good to be true, the wishful thinking
  of youthful idealists who are all theory
- and no experience,
+ with no real-world experience,
  those unprepared for the chaotic 
  realpolitik of life.
 
 And yet, if what is claimed about Bitcoin is
- true, then absolutely it would fix all of
+ true, then it *should* fix
  the damaging effects of inflationary money.
- But like I said, this seems to be too good true.
+ If the supply is truly scarce, now and in the future; 
+ and the network is truly decentralized, such that no
+ system of authority can control or kill it,
+ then yes, logically, it would *fix* the problems
+ of fiat money.
+
+But like I said, this seems to be too good true.
  Like trying to contemplate what life would
  be like if people were always honest and 
- forthright, if everyone was kind, humble,
- and forgiving. People aren't that way, so it's 
- not helpful to pretend otherwise.
+ forthright; if everyone was kind, humble,
+ and forgiving. People aren't always that way, 
+ and it's not helpful to pretend otherwise.
 
+But even so, I could never shake this question. Is Bitcoin true? How would we even know?
+
+
+
+
+## Why not other Cryptocurrencies?
+
+Altcoins are not even attempting to solve 
+ the problem Bitcoin solves.
+ They offer no scarcity.
+ They are free market monies that operate as securities.
+ They offer interesting features because they're digital money,
+ but without scarcity over time. 
+
+Bitcoin is scarce over time, now and in the future.
+ It will always be scarce, always.
+ This is why the value will always increase
+ with true economic output,
+ savings will always be rewarded without
+ the need of interest rates.
+ Just a fixed savings whose value will increase in purchasing power.
+ Meaning the quality of consumer goods will increase
+ sufficiently to meet demand.
+
+> What would it have to look like to be true?
+
+..Supporting Bitcoin means you are supporting a better future, where prosperity and human flourishing increase.
+
+..The only way to devalue Bitcoin amongst Bitcoin holders
+ is to reduce human flourishing,
+ which by itself is non-sustainable,
+ obviously because then we're talking about
+ the elimination of human civilization.
+ If civilization is to not only persist but to flourish,
+ then Bitcoin wins.
+
+If Bitcoin is true, then it wins in the end,
+ redeeming civilization in the process.
+
+
+---
 
 
 All of this has become broken, deeply broken, by fiat money, specifically monetary inflation. Bitcoin aims to fix this; to do what gold failed to do.
@@ -64,26 +142,7 @@ The consequences of fiat money run through the entirety of civilization, leaving
 
 Bitcoin redeems, taking our sinful nature that inevitably leads to fiat, and turning into a force of good, defending the network. Miners are gargoyles, and their greed is protecting the sacred, the immutable ledger of a finite money supply.
 
-## Altcoins?
-Shitcoins are not even attempting to solve the problem Bitcoin solves. They offer no scarcity. They are free market monies that operate as securities. They offer features because they're digital money, but without scarcity over time. 
 
-Bitcoin is scarce over time, now and in the future. It will always be scarce, always. This is why the value will always increase with true economic output, savings will thus always be rewarded without the need of interest rates. Just a fixed savings whose value will increase in purchasing power. Meaning the quality of consumer goods will increase sufficiently to meet the demand.
-
-What would it have to look like to be true?
-
-Supporting Bitcoin means you are supporting a better future, where prosperity and human flourishing increase.
-
-The only way to devalue Bitcoin amongst Bitcoin holders is to reduce human flourishing, which by itself is non-sustainable, obviously because then we're talking about the elimination of human civilization. If civilization is to not only persist but to flourish, then Bitcoin wins. If Bitcoin is true, then it wins in the end, redeeming civilization in the process.
-
-## Inflation
-Could an ideal money be inflationary?
-That is, if inflation is truly healthy, let's say, by whatever percent is an ideal annual growth rate of a given economy, then yes, one could increase the block reward such that miners get paid more and not less, incentivizing future investments into mining. But why save? Because your purchasing power will, on average, never change. Prices may still decrease over time due to efficiency improvements as the larger economy grows, but nothing as dramatic as deflationary money like Bitcoin. Relatively stable prices over time would be an obvious advantage, and are the basis of much of MMT. Although in practice, prices increase under fiat, a decentralized alternative currency could potentially avoid those pitfalls. Ironically, the biggest threat to such inflationary money is Bitcoin itself.
-Why hold an inflationary asset when a scarce one exists? Bitcoin supply is fixed, meaning there is zero possible inflation, ever. The smart money will find its way to the hardest asset. The only way to do better is deflationary currency, money whose supply can shrink and never be recovered. So rather than 21.million, something that slowly decreases, say, to 18.million, and so on. But it can't be random or a source of centralization, no one would store wealth in something that might disappear for reasons that could never have been adequately prevented. And the total supply can't disappear, but the total supply could be reduced without end, so long as the remaining supply is infinitely divisible. That is, if only 1 Bitcoin still existed. Or only 1 Satoshi...
-If, in this hypothetical 1.sat economy, someone discovers keys to an entire Bitcoin. Well, that is now an inflationary event. Increasing the money supply, and at the benefit of those nearest to the new supply.
-The biggest threat to Bitcoin is not lost keys but rather found keys that were once believed to have been lost. The damages of such an inflationary event are the very damages of fiat itself. The only better version of Bitcoin is one where "lost" coins are in fact known to be lost. Such a system would be truly deflationary in a provable way. Perhaps a future BIP will provide means to do so, but such a feat is beyond this author's current understanding. Perhaps a voluntary system where one can prove ownership but also that if keys are ever found, the funds are redistributed evenly across the network. Or a null account that destroys any Bitcoin sent to it? Such ideas have maddeningly difficult consequences and would not altogether solve the lost Bitcoin problem. How do I know it's truly lost? In a trustless system, I don't, not without verifiable proof. This means I will act as if Satoshi's coins are active, that they're part of the active supply, and that at any minute they will be used. In the 1.sat world, it is still operating under the assumption of a fixed 21.million, but only a tiny fraction of the supply is active in the market. The market in such a scenario must safeguard against the introduction of new sats, up to the max. The max is still known. So even in that situation it's better than infinite fiat. But, for this reason, Bitcoin can act as a truly deflationary money, but at a risk of inflationary events anytime "lost" coins are "found".
-
-A hypothetical zero inflation money, always 21.million and nothing ever lost, this would be weaker than Bitcoin, which is guaranteed to be deflationary as coins are lost or even deliberately destroyed. Yet this guarantee comes with a risk of "found" keys, that is, sudden increases in the effective money supply, cantillon bubbles that could be destabilizing.
-Bitcoin's cantillon risk.
 
 ## USD
 What is the ultimate fate of the USD?
@@ -107,14 +166,6 @@ Bitcoin's price in USD means very little. How about the relative percentage of t
 
 The timescale that shitcoiners operate on seems to be quite small. Such as claims that Bitcoin is not correlated with inflation. This seems absurd especially when you zoom out and see that Bitcoin is resistant to monetary inflation with the price benefitting the larger USD supply, as the additional money eventually finds its way into Bitcoin.
 And yet, it's so small compared to other assets. The price ultimately affects the demand curve, that's about it. It's benefiting from cantillon insiders buying Bitcoin, but until it finds stronger hands the true benefit may not be achieved. Another 10 years? Maybe!
-
-## clean this up
-Year is not over. But it's almost over. Price is 49k, which is less than the 220k or whatever the fuck Max Keiser predicted. And now?
-What will 2022 have in store for us?
-There's a definite move towards totalitarian control, towards fear and slavery.
-Interest rates are up, inflation is soaring, and the price of BTCUSD is 40k... It seems the price is a reflection of the good, the people wishing to see a better future, a future of human flourishing.
-
-The getonzero idea is promising, although it's still fiat payment rails. Arguably cash is a better solution for purchases.
 
 ## Read the Code
 Is Bitcoin True and how can you tell? How can you verify that it is true?
