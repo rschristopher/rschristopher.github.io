@@ -121,11 +121,10 @@ To compute the same using python is a little more involved,
     >>> import hashlib
     >>> import binascii
     >>> 
-    >>> bin_str = '010...001'
+    >>> bin_str = '0101101110110011011101010011011111001010001101010111010000011101111001010110000000001100110010000000110100001111010011000011010000110010000111010000110100111001101111010110001001011001111111000000100010110010011000010111010000110000010011000011010010001001'
     >>> 
-    >>> hexstr = "{0:0>4X}".format(int(bin_str,2))
-    >>> data = binascii.a2b_hex(hexstr)
-    >>> hashlib.sha256(data).hexdigest()
+    >>> hex_bytes = binascii.a2b_hex( hex(int(bin_str, 2))[2:] )
+    >>> hashlib.sha256(hex_bytes).hexdigest()
     'bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a'
     >>> 
     ```
@@ -206,16 +205,16 @@ Python makes a wonderful calculator,
 >>> 
 ```
 
-You can then reference the [official list](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
+You can then reference the [official BIP-39 words](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
  and see that 733 corresponds to "forum"
 
 !!! warning "Seed words start at 0"
     Be careful to avoid 
     [fencepost errors](https://en.wikipedia.org/wiki/Off-by-one_error)
-    as the line-numbers start at 1 and not 0.
+    as the line-numbers start at 1 but the seed words start at 0
 
 Alternatively, you can do this in python very easily
- if you already have the [official list](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
+ if you already have the [official BIP-39 words](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
  on your airgapped computer, e.g.,
 
 ```python
@@ -264,7 +263,19 @@ Additionally, I was able to verify
 
 ![iancolement sample zpub](/images/iancoleman_sample_zpub.png)
 
+---
 
+And that's it! 
+
+What started with dice and paper is now a 
+ valid and secure Bitcoin private key.
+ Next you'll want to secure your keys 
+ (including metal backups),
+ and learn how to use your keys for
+ sending and receiving Bitcoin.
+
+* [Securing Keys](../securing-keys/index.md)
+* [Using Keys](../using-keys/index.md)
 
 
 
