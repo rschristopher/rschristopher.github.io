@@ -2283,11 +2283,10 @@ $
 <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">hashlib</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">binascii</span>
 <span class="o">&gt;&gt;&gt;</span> 
-<span class="o">&gt;&gt;&gt;</span> <span class="n">bin_str</span> <span class="o">=</span> <span class="s1">&#39;010...001&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">bin_str</span> <span class="o">=</span> <span class="s1">&#39;0101101110110011011101010011011111001010001101010111010000011101111001010110000000001100110010000000110100001111010011000011010000110010000111010000110100111001101111010110001001011001111111000000100010110010011000010111010000110000010011000011010010001001&#39;</span>
 <span class="o">&gt;&gt;&gt;</span> 
-<span class="o">&gt;&gt;&gt;</span> <span class="n">hexstr</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{0:0&gt;4X}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">bin_str</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">data</span> <span class="o">=</span> <span class="n">binascii</span><span class="o">.</span><span class="n">a2b_hex</span><span class="p">(</span><span class="n">hexstr</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">hex_bytes</span> <span class="o">=</span> <span class="n">binascii</span><span class="o">.</span><span class="n">a2b_hex</span><span class="p">(</span> <span class="nb">hex</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">bin_str</span><span class="p">,</span> <span class="mi">2</span><span class="p">))[</span><span class="mi">2</span><span class="p">:]</span> <span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">hex_bytes</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
 <span class="s1">&#39;bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a&#39;</span>
 <span class="o">&gt;&gt;&gt;</span> 
 </code></pre></div>
@@ -2348,16 +2347,16 @@ $
 <span class="mi">733</span>
 <span class="o">&gt;&gt;&gt;</span> 
 </code></pre></div>
-<p>You can then reference the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">official list</a>
+<p>You can then reference the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">official BIP-39 words</a>
  and see that 733 corresponds to "forum"</p>
 <div class="admonition warning">
 <p class="admonition-title">Seed words start at 0</p>
 <p>Be careful to avoid 
 <a href="https://en.wikipedia.org/wiki/Off-by-one_error">fencepost errors</a>
-as the line-numbers start at 1 and not 0.</p>
+as the line-numbers start at 1 but the seed words start at 0</p>
 </div>
 <p>Alternatively, you can do this in python very easily
- if you already have the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">official list</a>
+ if you already have the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">official BIP-39 words</a>
  on your airgapped computer, e.g.,</p>
 <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;english.txt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
 <span class="o">...</span>   <span class="n">seed_words</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
@@ -2393,6 +2392,18 @@ as the line-numbers start at 1 and not 0.</p>
  <a href="https://iancoleman.io/bip39">Mnemonic Code Converter</a>
  --</p>
 <p><img alt="iancolement sample zpub" src="/images/iancoleman_sample_zpub.png" /></p>
+<hr />
+<p>And that's it! </p>
+<p>What started with dice and paper is now a 
+ valid and secure Bitcoin private key.
+ Next you'll want to secure your keys 
+ (including metal backups),
+ and learn how to use your keys for
+ sending and receiving Bitcoin.</p>
+<ul>
+<li><a href="../../securing-keys/">Securing Keys</a></li>
+<li><a href="../../using-keys/">Using Keys</a></li>
+</ul>
 
               
             </article>
