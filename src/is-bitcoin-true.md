@@ -20,7 +20,8 @@ Money also stores value,
  The time
  between earning and spending is known
  as "saving". Inflationary money
- disprupts this cycle, leading to credit
+ disprupts this cycle of saving,
+ replacing it with a cycle of credit
  and debt, a system of constant spending,
  because money that constantly loses value
  is simply worth more now than it will be 
