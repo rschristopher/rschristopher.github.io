@@ -2076,6 +2076,243 @@ This will give us the verified entropy
  from I-Ching Hexagrams to Tarot cards.
  All that is required is a list of unique
  characters to represent the set.</p>
+<details open="open">
+<summary>dice-rolls to number</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">dice2n</span><span class="p">(</span><span class="n">n_str</span><span class="p">,</span> <span class="n">digits</span><span class="p">):</span>
+    <span class="n">basem</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">n_str</span><span class="p">):</span>
+        <span class="n">n</span> <span class="o">+=</span> <span class="p">(</span><span class="n">digits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="o">*</span> <span class="n">basem</span>
+        <span class="n">basem</span> <span class="o">=</span> <span class="n">basem</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">n</span>
+</code></pre></div></td></tr></table></div>
+</details>
+<details open="open">
+<summary>number to dice-rolls</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">n2dice</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">digits</span><span class="p">):</span>
+    <span class="n">chars</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">while</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">n</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="nb">divmod</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">))</span>
+        <span class="n">chars</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">digits</span><span class="p">[</span><span class="n">d</span><span class="p">])</span>
+    <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">chars</span><span class="p">))</span>
+</code></pre></div></td></tr></table></div>
+</details>
+<p>If you already have the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">official BIP-39 words</a>
+ on your airgapped computer, e.g.,</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;english.txt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="o">...</span>   <span class="n">seed_words</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">seed_words</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="s1">&#39;abandon&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">seed_words</span><span class="p">[</span><span class="mi">2047</span><span class="p">]</span>
+<span class="s1">&#39;zoo&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div>
+<p>Roll the dice and record them into a variable, e.g., <code>d6_rolls</code></p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d6_rolls</span> <span class="o">=</span> <span class="s1">&#39;325251343253343214251563241321214344521641246163226332132423346231453554151345112124463226413335644&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div>
+<p>Next you'll want to verify the length,</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">d6_rolls</span><span class="p">)</span>
+<span class="mi">99</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div>
+<p>Let's convert this to a number,</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_number</span> <span class="o">=</span> <span class="n">dice2n</span><span class="p">(</span><span class="n">d6_rolls</span><span class="p">,</span> <span class="s1">&#39;123456&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_number</span>
+<span class="mi">41477543854087285771122632882271155796101921343012082862722996391061926720649</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div>
+<p>You've got the number, now we format it as a binary string,</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_bin</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="n">entropy_number</span><span class="p">,</span> <span class="s1">&#39;0256b&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_bin</span>
+<span class="s1">&#39;0101101110110011011101010011011111001010001101010111010000011101111001010110000000001100110010000000110100001111010011000011010000110010000111010000110100111001101111010110001001011001111111000000100010110010011000010111010000110000010011000011010010001001&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div>
+<p>Compute the checksum</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">binascii</span>
+<span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_hex</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="n">entropy_number</span><span class="p">,</span> <span class="s1">&#39;064x&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">hex_bytes</span> <span class="o">=</span> <span class="n">binascii</span><span class="o">.</span><span class="n">a2b_hex</span><span class="p">(</span><span class="n">entropy_hex</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_sha</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">hex_bytes</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entropy_sha</span>
+<span class="s1">&#39;bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div>
+<p>Add first 8-bits of the checksum, to produce the 264-bit string
+ (that is, 24 words, each with 11-bits)</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">seed_bin</span> <span class="o">=</span> <span class="n">entropy_bin</span> <span class="o">+</span> <span class="nb">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">entropy_sha</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">],</span> <span class="mi">16</span><span class="p">),</span> <span class="s1">&#39;08b&#39;</span><span class="p">)</span>       
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">seed_bin</span><span class="p">)</span>
+<span class="mi">264</span>
+</code></pre></div>
+<p>You can now lookup seed words using 11-bit slices,</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; 
+&gt;&gt;&gt; seed_words[ int(seed_bin[0:11], 2) ]
+&#39;forum&#39;
+&gt;&gt;&gt; 
+</code></pre></div>
+<p>Using the above approach, you can loop through all slices,</p>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; 
+&gt;&gt;&gt; [seed_words[int(seed_bin[x:x+11],2)] for x in range(0,264,11)]
+[&#39;forum&#39;, &#39;option&#39;, &#39;evil&#39;, &#39;nerve&#39;, &#39;firm&#39;, &#39;auction&#39;, &#39;night&#39;, &#39;account&#39;, &#39;siege&#39;, &#39;half&#39;, &#39;spread&#39;, &#39;half&#39;, &#39;canyon&#39;, &#39;make&#39;, &#39;tragic&#39;, &#39;proof&#39;, &#39;fly&#39;, &#39;theory&#39;, &#39;clutch&#39;, &#39;seed&#39;, &#39;drink&#39;, &#39;champion&#39;, &#39;split&#39;, &#39;danger&#39;]
+&gt;&gt;&gt; 
+</code></pre></div>
+<hr />
+<details open="open">
+<summary>dice to seed phrase</summary>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="kn">import</span> <span class="nn">binascii</span>
+
+<span class="k">def</span> <span class="nf">dice_to_seed_phrase</span><span class="p">(</span><span class="n">n_str</span><span class="p">,</span> <span class="n">digits</span><span class="p">,</span> <span class="n">seed_words</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; generate seed phrase from dice rolls</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">dice2n</span><span class="p">(</span><span class="n">n_str</span><span class="p">,</span> <span class="n">digits</span><span class="p">):</span>
+        <span class="n">basem</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">n_str</span><span class="p">):</span>
+            <span class="n">n</span> <span class="o">+=</span> <span class="p">(</span><span class="n">digits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="o">*</span> <span class="n">basem</span>
+            <span class="n">basem</span> <span class="o">=</span> <span class="n">basem</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">n</span>
+    <span class="n">entropy_number</span> <span class="o">=</span> <span class="n">dice2n</span><span class="p">(</span><span class="n">n_str</span><span class="p">,</span> <span class="n">digits</span><span class="p">)</span>
+    <span class="n">entropy_bin</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="n">entropy_number</span><span class="p">,</span> <span class="s1">&#39;0256b&#39;</span><span class="p">)</span>
+    <span class="n">entropy_hex</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="n">entropy_number</span><span class="p">,</span> <span class="s1">&#39;064x&#39;</span><span class="p">)</span>
+    <span class="n">hex_bytes</span> <span class="o">=</span> <span class="n">binascii</span><span class="o">.</span><span class="n">a2b_hex</span><span class="p">(</span><span class="n">entropy_hex</span><span class="p">)</span>
+    <span class="n">entropy_sha</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">hex_bytes</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+    <span class="n">seed_bin</span> <span class="o">=</span> <span class="n">entropy_bin</span> <span class="o">+</span> <span class="nb">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">entropy_sha</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">],</span> <span class="mi">16</span><span class="p">),</span> <span class="s1">&#39;08b&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">seed_words</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">seed_bin</span><span class="p">[</span><span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="o">+</span><span class="mi">11</span><span class="p">],</span><span class="mi">2</span><span class="p">)]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">264</span><span class="p">,</span><span class="mi">11</span><span class="p">)]</span>
+</code></pre></div></td></tr></table></div>
+</details>
+<p>You can use the above to generate a seed phrase from your dice roll string,</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">my_seed_phrase</span> <span class="o">=</span> <span class="n">dice_to_seed_phrase</span><span class="p">(</span><span class="n">d6_rolls</span><span class="p">,</span> <span class="s1">&#39;123456&#39;</span><span class="p">,</span> <span class="n">seed_words</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">my_seed_phrase</span><span class="p">:</span>
+<span class="o">...</span>  <span class="nb">print</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+<span class="o">...</span> 
+<span class="n">forum</span>
+<span class="n">option</span>
+<span class="n">evil</span>
+<span class="n">nerve</span>
+<span class="n">firm</span>
+<span class="n">auction</span>
+<span class="n">night</span>
+<span class="n">account</span>
+<span class="n">siege</span>
+<span class="n">half</span>
+<span class="n">spread</span>
+<span class="n">half</span>
+<span class="n">canyon</span>
+<span class="n">make</span>
+<span class="n">tragic</span>
+<span class="n">proof</span>
+<span class="n">fly</span>
+<span class="n">theory</span>
+<span class="n">clutch</span>
+<span class="n">seed</span>
+<span class="n">drink</span>
+<span class="n">champion</span>
+<span class="n">split</span>
+<span class="n">danger</span>
+<span class="o">&gt;&gt;&gt;</span>
+</code></pre></div>
+<hr />
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span> <span class="nn">curses</span>
+
+<span class="k">def</span> <span class="nf">dice_prompt</span><span class="p">(</span><span class="n">seed_words</span><span class="p">,</span> <span class="n">digits</span><span class="o">=</span><span class="s1">&#39;123456&#39;</span><span class="p">):</span>
+    <span class="n">stdscr</span> <span class="o">=</span> <span class="n">curses</span><span class="o">.</span><span class="n">initscr</span><span class="p">()</span>
+    <span class="n">rolls_needed</span> <span class="o">=</span> <span class="mi">100</span> <span class="c1"># TODO compute max</span>
+    <span class="n">rolls</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">_seeds</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;abandon&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">24</span>
+    <span class="n">_ent</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">rolls</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">rolls_needed</span><span class="p">:</span>
+        <span class="n">stdscr</span><span class="o">.</span><span class="n">erase</span><span class="p">()</span>
+        <span class="n">stdscr</span><span class="o">.</span><span class="n">addstr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Entering </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">rolls</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">rolls_needed</span><span class="si">}</span><span class="s2"> dice roll: &quot;</span><span class="p">)</span>
+        <span class="n">_y</span><span class="p">,</span> <span class="n">_x</span> <span class="o">=</span> <span class="n">stdscr</span><span class="o">.</span><span class="n">getyx</span><span class="p">()</span>
+        <span class="n">stdscr</span><span class="o">.</span><span class="n">addstr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;-&gt; </span><span class="si">{</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">rolls</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">_seeds</span> <span class="o">=</span> <span class="n">dice_to_seed_phrase</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">rolls</span><span class="p">),</span> <span class="n">digits</span><span class="p">,</span> <span class="n">seed_words</span><span class="p">)</span>
+            <span class="n">_ent</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">rolls</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span> <span class="p">))[</span><span class="mi">2</span><span class="p">:])</span>
+            <span class="n">stdscr</span><span class="o">.</span><span class="n">addstr</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;estimated entropy &lt;</span><span class="si">{</span><span class="n">_ent</span><span class="si">}</span><span class="s2">-bits&quot;</span><span class="p">)</span>
+            <span class="n">_seed_phrase</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_seeds</span><span class="p">)</span>
+            <span class="n">stdscr</span><span class="o">.</span><span class="n">addstr</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_seed_phrase</span><span class="p">)</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="n">stdscr</span><span class="o">.</span><span class="n">addstr</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;estimated entropy &lt;</span><span class="si">{</span><span class="n">_ent</span><span class="si">}</span><span class="s2">-bits&quot;</span><span class="p">)</span>
+            <span class="n">_seed_phrase</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_seeds</span><span class="p">)</span>
+            <span class="n">stdscr</span><span class="o">.</span><span class="n">addstr</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_seed_phrase</span><span class="p">)</span>
+        <span class="n">stdscr</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">_y</span><span class="p">,</span> <span class="n">_x</span><span class="p">)</span>
+        <span class="n">stdscr</span><span class="o">.</span><span class="n">refresh</span><span class="p">()</span>
+        <span class="n">_raw</span> <span class="o">=</span> <span class="n">stdscr</span><span class="o">.</span><span class="n">getch</span><span class="p">()</span>
+        <span class="k">if</span> <span class="nb">chr</span><span class="p">(</span><span class="n">_raw</span><span class="p">)</span> <span class="ow">in</span> <span class="n">digits</span><span class="p">:</span>
+            <span class="n">rolls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="n">_raw</span><span class="p">))</span>
+    <span class="n">curses</span><span class="o">.</span><span class="n">endwin</span><span class="p">()</span>
+    <span class="n">final_seeds</span> <span class="o">=</span> <span class="n">dice_to_seed_phrase</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">rolls</span><span class="p">),</span> <span class="n">digits</span><span class="p">,</span> <span class="n">seed_words</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">final_seeds</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
 
               
             </article>
