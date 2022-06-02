@@ -233,7 +233,7 @@ danger
 
 ---
 
-![dice_prompt() screen](/images/dice_prompt_screen.png)
+![dice_prompt() screen](/images/dice_prompt_d8_animated.gif)
 
 
 
