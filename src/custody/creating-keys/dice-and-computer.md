@@ -57,7 +57,7 @@ Roll the dice and record them into a variable, e.g., `d6_rolls`
 
 ```python
 >>> 
->>> d6_rolls = '325251343253343214251563241321214344521641246163226332132423346231453554151345112124463226413335644'
+>>> d6_rolls = '1325251343253343214251563241321214344521641246163226332132423346231453554151345112124463226413335644'
 >>> 
 ```
 
@@ -65,7 +65,7 @@ Next you'll want to verify the length,
 
 ```python
 >>> len(d6_rolls)
-99
+100
 >>> 
 ```
 
@@ -153,8 +153,8 @@ Using the above approach, you can loop through all slices,
                 basem = basem*len(digits)
             return n
         entropy_number = dice2n(n_str, digits)
-        entropy_bin = format(entropy_number, '0256b')
-        entropy_hex = format(entropy_number, '064x')
+        entropy_bin = format(entropy_number, '0256b')[:256]
+        entropy_hex = format(entropy_number, '064x')[:64]
         hex_bytes = binascii.a2b_hex(entropy_hex)
         entropy_sha = hashlib.sha256(hex_bytes).hexdigest()
         seed_bin = entropy_bin + format(int(entropy_sha[0:2], 16), '08b')
@@ -202,8 +202,10 @@ danger
 import curses
 
 def dice_prompt(seed_words, digits='123456'):
+    if len(set(digits)) != len(digits):
+        return "digits need to be unique"
     stdscr = curses.initscr()
-    rolls_needed = 100 # TODO compute max
+    rolls_needed = len(n2dice(2**256-1, digits))
     rolls = []
     _seeds = ['abandon'] * 24
     _ent = 1
@@ -212,16 +214,11 @@ def dice_prompt(seed_words, digits='123456'):
         stdscr.addstr(0, 0, f"Entering {len(rolls)+1}/{rolls_needed} dice roll: ")
         _y, _x = stdscr.getyx()
         stdscr.addstr(1, 0, f"-> {''.join(rolls)}")
-        try:
-            _seeds = dice_to_seed_phrase(''.join(rolls), digits, seed_words)
-            _ent = len(bin(int(str(len(digits)-1)*len(rolls), len(digits) ))[2:])
-            stdscr.addstr(3, 0, f"estimated entropy <{_ent}-bits")
-            _seed_phrase = '\n'.join(_seeds)
-            stdscr.addstr(5, 0, _seed_phrase)
-        except:
-            stdscr.addstr(3, 0, f"estimated entropy <{_ent}-bits")
-            _seed_phrase = '\n'.join(_seeds)
-            stdscr.addstr(5, 0, _seed_phrase)
+        _seeds = dice_to_seed_phrase(''.join(rolls), digits, seed_words)
+        _ent = len(bin( dice2n(digits[-1]*len(rolls), digits) )[2:])
+        stdscr.addstr(3, 0, f"estimated entropy <{_ent}-bits")
+        _seed_phrase = '\n'.join(_seeds)
+        stdscr.addstr(5, 0, _seed_phrase)
         stdscr.move(_y, _x)
         stdscr.refresh()
         _raw = stdscr.getch()
@@ -232,3 +229,11 @@ def dice_prompt(seed_words, digits='123456'):
     return ' '.join(final_seeds)
             
 ```
+
+---
+
+![dice_prompt() screen](/images/dice_prompt_screen.png)
+
+
+
+

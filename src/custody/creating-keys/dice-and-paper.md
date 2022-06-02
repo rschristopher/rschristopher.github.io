@@ -150,8 +150,8 @@ If you are not sure how to convert hexidecimal digits to binary,
  you can verify in python,
 
 ```python
->>> bin(int("bb", 16))
-'0b10111011'
+>>> format(int("bb", 16), "08b")
+'10111011'
 >>> 
 ```
 

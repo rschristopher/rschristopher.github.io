@@ -34,9 +34,9 @@ theme:
     favicon: images/favicon.png
 
 nav:
-    - Is Bitcoin True?: 
+    - Home: 
         - index.md
-        - The Essay: is-bitcoin-true.md
+        - Is Bitcoin True?: is-bitcoin-true.md
         - Bitcoin as Money: 
           - bitcoin-as-money/index.md
           - Unit of Account: bitcoin-as-money/unit-of-account.md

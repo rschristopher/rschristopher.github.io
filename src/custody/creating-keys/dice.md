@@ -4,7 +4,7 @@
 
 This is because true randomness is surprisingly difficult 
  to achieve on a computer.
-This is referred to as *Entropy*,
+This is referred to as *entropy*,
  that is, a measure of randomness.
 
 For example, a *fair* coin flip is 1-bit of entropy;
@@ -80,13 +80,13 @@ But we can represent a number in any arbitrary base.
 A common 6-sided dice can be used to generate a 256-bit
  number, but doing so can be somewhat confusing.
  You may try to map the numbers to binary but you'll find
- it's not so easy (1 dice gives you roughly 2.5-bits of entropy).
+ it's not so easy (1 dice gives you 2.5-bits of entropy).
  To be safe you could just map odd and even rolls to binary 1 and 0,
  but this requires 256 dice rolls and isn't very efficient.
 
 A better aproach is to use a *Base-6* representation of a 256-bit
- number, which would require 99 dice rolls.
- This is the minimum number of *fair* dice rolls necessary
+ number, which would require 100 dice rolls.
+ This is the number of *fair* dice rolls necessary
  to achieve 256-bits of entropy.
 
 Alternatively, and my recommendation, 
@@ -96,7 +96,7 @@ Alternatively, and my recommendation,
  of entropy 
  (meaning every 8-sided dice roll gives you exactly 3 of the desired 256-bits).
  With this approach 
- you'll need 85 rolls to generate sufficient
+ you'll need 86 rolls to generate sufficient
  entropy for a seed phrase.
 
 
@@ -105,10 +105,10 @@ Alternatively, and my recommendation,
 | Numeric Base          | *length* | Description                |
 | --------------------- | -------: |--------------------------- |
 | Base-2 (binary)       | 256      | coin tosses                |
-| Base-6                |  99      | dice rolls                 |
-| Base-8 (octal)        |  85      | 8-sided dice rolls         |
-| Base-10 (decimal)     |  77      | *770-Quattuorvigintillion* |
-| Base-20               |  59      | 20-sided dice rolls        |
+| Base-6                | 100      | dice rolls                 |
+| Base-8 (octal)        |  86      | 8-sided dice rolls         |
+| Base-10 (decimal)     |  78      | *770-Quattuorvigintillion* |
+| Base-20               |  60      | 20-sided dice rolls        |
 | Base-64               |  43      | I-Ching Hexagrams          |
 | Base-2048             |  24      | seed words                 |
 
