@@ -122,8 +122,8 @@ To compute the same using python is a little more involved,
     >>> import binascii
     >>> 
     >>> bin_str = '0101101110110011011101010011011111001010001101010111010000011101111001010110000000001100110010000000110100001111010011000011010000110010000111010000110100111001101111010110001001011001111111000000100010110010011000010111010000110000010011000011010010001001'
-    >>> 
-    >>> hex_bytes = binascii.a2b_hex( hex(int(bin_str, 2))[2:] )
+    >>> entropy_hex = format(int(bin_str, 2), '064x')
+    >>> hex_bytes = binascii.a2b_hex(entropy_hex)
     >>> hashlib.sha256(hex_bytes).hexdigest()
     'bbcb5d63c87ee0b833f656ae55db8e4ba0f0d4f8cab91be038b5c32de106696a'
     >>> 

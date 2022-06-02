@@ -16,7 +16,7 @@ This technique is also applicable to other
  characters to represent the set.
 
 
-???+ "dice-rolls to number"
+???+ tldr "dice-rolls to number"
     ``` py linenums="1"
     def dice2n(n_str, digits):
         basem = 1
@@ -28,7 +28,7 @@ This technique is also applicable to other
     ```
 
 
-???+ "number to dice-rolls"
+???+ tldr "number to dice-rolls"
     ``` py linenums="1"
     def n2dice(n, digits):
         chars = []
@@ -137,7 +137,7 @@ Using the above approach, you can loop through all slices,
 
 ---
 
-???+ "dice to seed phrase"
+???+ tldr "dice to seed phrase"
     ``` py linenums="1"
     import hashlib
     import binascii
@@ -198,37 +198,38 @@ danger
 
 --- 
 
-``` py linenums="1"
-import curses
-
-def dice_prompt(seed_words, digits='123456'):
-    if len(set(digits)) != len(digits):
-        return "digits need to be unique"
-    stdscr = curses.initscr()
-    rolls_needed = len(n2dice(2**256-1, digits))
-    rolls = []
-    _seeds = ['abandon'] * 24
-    _ent = 1
-    while len(rolls) < rolls_needed:
-        stdscr.erase()
-        stdscr.addstr(0, 0, f"Entering {len(rolls)+1}/{rolls_needed} dice roll: ")
-        _y, _x = stdscr.getyx()
-        stdscr.addstr(1, 0, f"-> {''.join(rolls)}")
-        _seeds = dice_to_seed_phrase(''.join(rolls), digits, seed_words)
-        _ent = len(bin( dice2n(digits[-1]*len(rolls), digits) )[2:])
-        stdscr.addstr(3, 0, f"estimated entropy <{_ent}-bits")
-        _seed_phrase = '\n'.join(_seeds)
-        stdscr.addstr(5, 0, _seed_phrase)
-        stdscr.move(_y, _x)
-        stdscr.refresh()
-        _raw = stdscr.getch()
-        if chr(_raw) in digits:
-            rolls.append(chr(_raw))
-    curses.endwin()
-    final_seeds = dice_to_seed_phrase(''.join(rolls), digits, seed_words)
-    return ' '.join(final_seeds)
-            
-```
+???+ tldr "dice prompt mini app"
+    ``` py linenums="1"
+    import curses
+    
+    def dice_prompt(seed_words, digits='123456'):
+        if len(set(digits)) != len(digits):
+            return "digits need to be unique"
+        stdscr = curses.initscr()
+        rolls_needed = len(n2dice(2**256-1, digits))
+        rolls = []
+        _seeds = ['abandon'] * 24
+        _ent = 1
+        while len(rolls) < rolls_needed:
+            stdscr.erase()
+            stdscr.addstr(0, 0, f"Entering {len(rolls)+1}/{rolls_needed} dice roll: ")
+            _y, _x = stdscr.getyx()
+            stdscr.addstr(1, 0, f"-> {''.join(rolls)}")
+            _seeds = dice_to_seed_phrase(''.join(rolls), digits, seed_words)
+            _ent = len(bin( dice2n(digits[-1]*len(rolls), digits) )[2:])
+            stdscr.addstr(3, 0, f"estimated entropy <{_ent}-bits")
+            _seed_phrase = '\n'.join(_seeds)
+            stdscr.addstr(5, 0, _seed_phrase)
+            stdscr.move(_y, _x)
+            stdscr.refresh()
+            _raw = stdscr.getch()
+            if chr(_raw) in digits:
+                rolls.append(chr(_raw))
+        curses.endwin()
+        final_seeds = dice_to_seed_phrase(''.join(rolls), digits, seed_words)
+        return ' '.join(final_seeds)
+                
+    ```
 
 ---
 
