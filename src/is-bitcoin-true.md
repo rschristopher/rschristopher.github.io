@@ -70,7 +70,11 @@ But like I said, this seems to be too good true.
  and forgiving. People aren't always that way, 
  and it's not helpful to pretend otherwise.
 
-But even so, I could never shake this question. Is Bitcoin true? How would we even know?
+But even so, I could never shake this question.
+
+*Is Bitcoin true?*
+
+How would we even know?
 
 
 
