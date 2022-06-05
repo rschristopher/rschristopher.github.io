@@ -17,7 +17,7 @@ This can suggest that Bitcoin is *true*, and
  something as important as money, and the 
  separation of money and state, poses a serious
  risk. For if you discovered that Bitcoin is 
- going to bring about a catastrophy, 
+ going to bring about a catastrophe, 
  how would you even stop it?
  Could you stop it?
  
