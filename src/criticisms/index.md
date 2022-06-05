@@ -7,7 +7,7 @@ There is no end of criticism to Bitcoin, and
  yet throughout all the noise, it's nearly
  impossible to find a criticism that understands
  Bitcoin and can demonstrate that understanding
- in their criticism.
+ in the criticism.
 
 This can suggest that Bitcoin is *true*, and
  that the critics are plainly stupid,
