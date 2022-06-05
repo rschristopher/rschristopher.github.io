@@ -1,8 +1,9 @@
 # Criticisms
 
-The biggest risk to Bitcoin is its lack of
- competent crítics.
- There is no end of criticism to Bitcoin, and
+*The biggest risk to Bitcoin is its lack of
+ competent crítics.*
+
+There is no end of criticism to Bitcoin, and
  yet throughout all the noise, it's nearly
  impossible to find a criticism that understands
  Bitcoin and can demonstrate that understanding
