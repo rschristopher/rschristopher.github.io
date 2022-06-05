@@ -8,3 +8,4 @@ by R.S. Christopher
     - minimum 3-5 days each for research and testing
     - 216 days of work, or ~700 hours
         - this is equivalent to acquiring fluency in French
++ Localism
