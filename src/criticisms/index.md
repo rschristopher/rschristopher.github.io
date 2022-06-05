@@ -23,7 +23,7 @@ This can suggest that Bitcoin is *true*, and
  
 And interestingly, for Bitcoin to succeed
  it needs to be unstoppable. The powers
- against are great. So the question 
+ against it are great. So the question 
 
 > *"is Bitcoin true?"*
 
