@@ -5,6 +5,11 @@ One of my earliest reactions to a deep dive
 
  > It also fixes modern art?!
 
+Bitcoin was designed to fix the problem of fiat
+ money, the problem of the state and money, 
+ the social and economic problems that have 
+ burdened human civilization throughout
+ history.
 The implications of fiat money run deep
  into our society, beyond the ever-increasing
  price of meat and potatoes --
@@ -17,8 +22,7 @@ and yes, even *modern art*.
 Money operates as a measure of value.
 Money also stores value,
  value to be used in the future. 
- The time
- between earning and spending is known
+ The time between earning and spending is known
  as "saving". Inflationary money
  disprupts this cycle of saving,
  replacing it with a cycle of credit
