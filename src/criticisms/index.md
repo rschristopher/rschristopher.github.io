@@ -15,8 +15,9 @@ This can suggest that Bitcoin is *true*, and
  Bitcoin. Lack of competent criticism for 
  something as important as money, and the 
  separation of money and state, poses a serious
- risk. For if I discovered that Bitcoin is going
- to bring about the end of the world, how would
- you stop it?
+ risk. For if you discovered that Bitcoin is 
+ going to bring about a catastrophy, 
+ how would you even stop it?
+ Could you stop it?
  
 
