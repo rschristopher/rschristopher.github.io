@@ -27,6 +27,6 @@ And interestingly, for Bitcoin to succeed
 
 > *"is Bitcoin true?"*
 
-Can be re-articulated as, *is Bitcoin 
+This question can be re-articulated as, *is Bitcoin 
  sufficiently true that its eventual
  dominance is inevitable?*
