@@ -10,6 +10,7 @@ Bitcoin was designed to fix the problem of fiat
  the social and economic problems that have 
  burdened human civilizations throughout
  history.
+
 The implications of fiat money run deep
  into our society, beyond the ever-increasing
  price of meat and potatoes --
