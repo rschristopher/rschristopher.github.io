@@ -213,6 +213,20 @@ But they're not competing over the code itself,
  the fiat game where they make the rules and the money,
  you merely work at their pleasure.
 
+## What if it turns out to be false?
+
+... What then?
+
+You'll understand money. 
+The chaos of the moderm world will make sense.
+
+You'll realize we need Bitcoin to be true 
+ because there is no sustainable alternative.
+
+.. this is the great filter, 
+ and we may or may not make it.
+
+
 
 ## Why not other Cryptocurrencies?
 
