@@ -20,7 +20,38 @@ The implications of fiat money run deep
  Science and Innovation --
 and yes, even *modern art*.
 
-https://news.artnet.com/art-world/the-8-worst-works-of-art-we-saw-2019-1710969
+???+ warning "modern art"
+    ![banana taped to wall](/images/banana.jpg)
+
+    This is an actual piece of art -- 
+    [that sold](https://news.artnet.com/art-world/maurizio-cattelan-banana-explained-1732773).
+
+    There are many such examples, along with 
+    eye-roll inducing apologetics to explain
+    that the banana represents a critique of the
+    very problems of modern art that everyone
+    is criticizing.
+    Janitors [protested](https://news.artnet.com/art-world/cattelans-banana-ignited-protests-among-miami-based-janitors-1731435)
+    the banana,
+    another artist ate the banana,
+    and still another wrote "Epstein didn't kill himself" on the wall in red lipstick.
+
+    ![banana in gallery](/images/banana_photos.jpg)
+
+    Truth is, even the artists and the art
+    dealers know that modern art is vapid nonsense,
+    and so they perform self-referential pieces
+    of art criticising themselves, being
+    cynical about cynicism --
+    and someone will call the self-referential
+    cynicism "genius" -- but why stop
+    if the money keeps rolling in?
+    
+    Rather than ask *what is* and *what is not* art,
+    instead ask how people have money for this.
+
+    Find out where that money came from.
+    
 
 
 Money operates as a measure of value.
@@ -37,6 +68,16 @@ Money also stores value,
  is simply worth more now than it will be 
  in the future.
 
+Worst still, fiat money is inflationary by the whims
+ of those who control the money supply. There is a
+ reason janitors have less purchasing power than 
+ ever before. If you are janitor, you can work harder
+ and harder, but you will earn less and less value over time. 
+ And that amount less will be gained by those known as cantilion 
+ insiders, those close to the money supply, those
+ who benefit from increases in the money supply,
+ including art collectors.
+
 If you ever wonder why modern societies are
  struggling with consumerism, environmental 
  catastrophes, health epidemics where supposedly
@@ -46,7 +87,7 @@ If you ever wonder why modern societies are
  the source of all this misery -- fiat money,
  where unaccountable bureaucrats control
  the supply of money at the expense
- of civilization.
+ of civilization itself.
 
 While the current round of non-sustainable
  monetary parasitism began in 1971, this 
@@ -92,6 +133,53 @@ But even so, I could never shake this question.
 
 How would we even know?
 
+
+## Read the Code
+Many self-proclaimed Bitcoiners will scoff
+ and tell you to *read the code*.
+
+Well, okay, I can competently read code, and read it far
+ better than those who repeat this line.
+
+Yes, the code will at the moment fix the supply at 21 million.
+
+But  this doesn't answer the question.
+ How can I know that this fixed supply won't change in the future? 
+How do I know we're not one pull request away from inflationary money?
+
+Such a change would be a hard fork,
+ which would break consensus rules,
+ leading to a non-compatible blockchain.
+
+You can't on one hand claim this isn't possible due to game
+ theory while on the other saying that the masses don't matter.
+ Let's not forget that the vast majority of the 
+ world's population fell into covid hysteria. 
+ Inalienable rights seemed to be easily discarded given
+ mass hysteria, why would monetary policy be different?
+
+As with covid, it's clear there exists
+  bad actors that will always be trying to subvert and take power.
+ Bitcoin will be under attack, forever.
+ And they'll naturally play a long game,
+ as with gold or really anything.
+ This force of constant evil is a fact of life.
+
+Whether we like it or not,
+ the so-called Bitcoin remnant,
+ the Bitcoiners themselves,
+ are playing a game (game theory after all)
+ to make sure that Bitcoin's fixed supply remains fixed.
+ That there will never be more than 21 million.
+ They are competing with the central banks
+ and the politicians and all those who want power over money.
+But they're not competing over the code itself,
+ they're competing over you, over whether you choose
+ to play this game with 21 million fixed coins
+ and no central control, 
+ or whether you play their game,
+ the fiat game where they make the rules and the money,
+ you merely work at their pleasure.
 
 
 
@@ -188,15 +276,6 @@ Bitcoin's price in USD means very little. How about the relative percentage of t
 
 The timescale that shitcoiners operate on seems to be quite small. Such as claims that Bitcoin is not correlated with inflation. This seems absurd especially when you zoom out and see that Bitcoin is resistant to monetary inflation with the price benefitting the larger USD supply, as the additional money eventually finds its way into Bitcoin.
 And yet, it's so small compared to other assets. The price ultimately affects the demand curve, that's about it. It's benefiting from cantillon insiders buying Bitcoin, but until it finds stronger hands the true benefit may not be achieved. Another 10 years? Maybe!
-
-## Read the Code
-Is Bitcoin True and how can you tell? How can you verify that it is true?
-The answers are usually to scoff and tell you to read the code. Well, okay, I can competently read code. But that doesn't mean shit. Yes, the code will at the moment be capped at 21.million. But how can I prove that this won't change in the future? One pull request away from a different max? Such a change would be a hard fork, which would break consensus rules, requiring a majority of mining power to agree on the larger supply. And the moment such a thing is possible, then it's now an inflationary money supply that might as well be fiat.
-You can't on one hand claim this isn't possible due to game theory while on the other saying that the masses don't matter. Let's not forget that the vast majority of the world's population fell into covid hysteria. Inalienable rights seemed to be easily discarded given this mass hysteria, why would monetary policy be different?
-
-As with covid, it's clear there exists bad actors that will always be trying to subvert and take power. Bitcoin will be under attack, forever. And they'll naturally play a long game, as with gold or really anything. This force of constant evil is a fact of life.
-
-Whether we like it or not, the so-called Bitcoin remnant, the Bitcoiners themselves, are playing a game (game theory after all) to influence and control the masses, to make sure that Bitcoin's fixed supply remains fixed. That there will never be more than 21.million. They are competing with the central bankers and the politicians and all those who pull the strings.
 
 ## Enemies
 And what if Bitcoin becomes controlled through whitelists? That only approved transactions on approved addresses become allowed, agreements with all major exchanges and miners. It would create a soft fork, and potentially a hard fork. Or rather, liquidity could be so severely impaired that it loses value. But unless this leads to updated consensus rules, the scarcity remains. Without Bitcoin as dark money, this creates a risk of a growing surveillance state, the beast.

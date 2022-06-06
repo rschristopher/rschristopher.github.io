@@ -6,27 +6,33 @@
 There is no end of criticism to Bitcoin, and
  yet throughout all the noise, it's nearly
  impossible to find a criticism that understands
- Bitcoin, let alone demonstrate that understanding
- in the criticism.
+ Bitcoin, let alone demonstrate that understanding.
 
-This can suggest that Bitcoin is *true*, and
+This suggests that Bitcoin is actually *true*, and
  that the critics are plainly stupid,
  lazy, and intellectually dishonest. However,
  this also presents a significant weakness of
  Bitcoin. Lack of competent criticism for 
  something as important as money, and the 
  separation of money and state, poses a serious
- risk. For if you discovered that Bitcoin is 
+ risk. E.g., if you discovered that Bitcoin is 
  going to bring about a catastrophe, 
- how would you even stop it?
+ how would you stop it?
  Could you stop it?
  
 And interestingly, for Bitcoin to succeed
  it needs to be unstoppable. The powers
- against it are great. So the question 
+ against it are great. So the question, 
 
 > *"is Bitcoin true?"*
 
-This question can be re-articulated as, *is Bitcoin 
- sufficiently true that its eventual
+This question can better be asked,
+
+> *is Bitcoin 
+ sufficiently true that its
  dominance is inevitable?*
+
+We will explore the
+ common criticisms as well as the
+ more reasonable and valid criticisms.
+

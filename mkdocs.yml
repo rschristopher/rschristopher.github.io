@@ -50,7 +50,7 @@ nav:
           - criticisms/index.md
           - Environment: criticisms/environment.md
           - Scalability: criticisms/scalability.md
-          - Turing Complete: criticisms/turing-complete.md
+          - Turing Incomplete: criticisms/turing-complete.md
           - Quantum Computing: criticisms/quantum-computing.md
           - Cantillon Bubbles: criticisms/cantillon.md
           - Whitelisting: criticisms/whitelisting.md
@@ -122,11 +122,13 @@ nav:
     - References: references/index.md
 
 markdown_extensions:
+  - admonition
+  - attr_list
   - def_list
+  - md_in_html
+  - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
-  - admonition
-  - pymdownx.details
   - tables
   - toc:
       permalink: True
