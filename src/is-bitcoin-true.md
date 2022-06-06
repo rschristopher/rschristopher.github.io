@@ -13,7 +13,7 @@ Bitcoin was designed to fix the problem of fiat
 
 The implications of fiat money run deep
  into our society, beyond the ever-increasing
- price of meat and potatoes --
+ price of meat and potatoes -- shaping
  Politics and War,
  Food and Health,
  Education and Research,
