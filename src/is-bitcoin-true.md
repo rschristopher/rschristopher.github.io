@@ -41,10 +41,10 @@ and yes, even *modern art*.
     Truth is, even the artists and the art
     dealers know that modern art is vapid nonsense,
     and so they perform self-referential pieces
-    of art criticising themselves, being
+    of art, criticising themselves, being
     cynical about cynicism --
-    and someone will call the self-referential
-    cynicism "genius" -- but why stop
+    someone will then call the self-referential
+    cynicism "genius" -- and why stop
     if the money keeps rolling in?
     
     Rather than ask *what is* and *what is not* art,
@@ -68,7 +68,7 @@ Money also stores value,
  is simply worth more now than it will be 
  in the future.
 
-Worst still, fiat money is inflationary by the whims
+Worse still, fiat money is inflationary by the whims
  of those who control the money supply. There is a
  reason janitors have less purchasing power than 
  ever before. If you are janitor, you can work harder
@@ -78,7 +78,27 @@ Worst still, fiat money is inflationary by the whims
  who benefit from increases in the money supply,
  including art collectors.
 
-If you ever wonder why modern societies are
+Ironically, if an art collector earns a salary
+ then their salary will also lose value over time,
+ just like the janitor.
+ However, their assets, such as real-estate and
+ *art* will increase. Inflating the money supply
+ doesn't just drive up prices of consumer goods,
+ it inflates the value of hard assets, transfering
+ wealth from those who work and save, to those
+ who own hard assets.
+
+Political solultions make the problems worse,
+ and over time those controlling the money
+ supply use their ill-gotten gains
+ to control the politics (regardless of the system),
+ so it inevitably becomes rigged game
+ (be it a democracy or theocracy or otherwise).
+
+!!! warning "There is no political solution."
+
+If you ever wonder why seemingly diverse modern societies 
+ are all
  struggling with consumerism, environmental 
  catastrophes, health epidemics where supposedly
  "wealthy" populations are malnourished and
@@ -93,11 +113,23 @@ While the current round of non-sustainable
  monetary parasitism began in 1971, this 
  problem is as old as time. Whether it's 
  causal or not can be debated, but societies
- fall when their money is not sound.
+ fall when their money is debased
+ (just ask the Romans).
  No reasonable person can believe otherwise.
 
 The real question becomes, 
  what can be done about this problem of fiat money?
+
+
+
+## The Terrifying Truth
+
+If Bitcoin is true, it is almost too terrifying to contemplate.
+ It would mean that all these problems of fiat money are 
+ not only real
+ but irreconciliable.
+
+
 
 ## Bitcoin fixes this
 
@@ -180,7 +212,6 @@ But they're not competing over the code itself,
  or whether you play their game,
  the fiat game where they make the rules and the money,
  you merely work at their pleasure.
-
 
 
 ## Why not other Cryptocurrencies?
