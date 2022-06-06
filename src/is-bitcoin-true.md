@@ -11,8 +11,8 @@ Bitcoin was designed to fix the problem of fiat
  burdened human civilizations throughout
  history.
 
-The implications of fiat money run deep
- into our society, beyond the ever-increasing
+The implications of fiat money run deep, 
+ beyond the ever-increasing
  price of meat and potatoes -- shaping
  Politics and War,
  Food and Health,
@@ -55,7 +55,7 @@ and yes, even *modern art*.
 
 
 Money operates as a measure of value.
-Money also stores value,
+ Money also stores value,
  value to be used in the future. 
  And the time between earning money 
  and spending money
@@ -212,6 +212,9 @@ But they're not competing over the code itself,
  or whether you play their game,
  the fiat game where they make the rules and the money,
  you merely work at their pleasure.
+
+
+
 
 ## What if it turns out to be false?
 
