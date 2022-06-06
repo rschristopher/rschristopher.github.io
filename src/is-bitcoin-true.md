@@ -20,6 +20,9 @@ The implications of fiat money run deep
  Science and Innovation --
 and yes, even *modern art*.
 
+https://news.artnet.com/art-world/the-8-worst-works-of-art-we-saw-2019-1710969
+
+
 Money operates as a measure of value.
 Money also stores value,
  value to be used in the future. 
