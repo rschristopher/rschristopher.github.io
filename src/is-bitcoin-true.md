@@ -8,7 +8,7 @@ One of my earliest reactions to a deep dive
 Bitcoin was designed to fix the problem of fiat
  money, the problem of the state and money, 
  the social and economic problems that have 
- burdened human civilization throughout
+ burdened human civilizations throughout
  history.
 The implications of fiat money run deep
  into our society, beyond the ever-increasing
