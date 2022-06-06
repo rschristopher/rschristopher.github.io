@@ -6,7 +6,7 @@ One of my earliest reactions to a deep dive
  > It also fixes modern art?!
 
 Bitcoin was designed to fix the problem of fiat
- money, the problem of the state and money, 
+ money, the problem of state and money, 
  the social and economic problems that have 
  burdened human civilizations throughout
  history.
@@ -23,7 +23,9 @@ and yes, even *modern art*.
 Money operates as a measure of value.
 Money also stores value,
  value to be used in the future. 
- The time between earning and spending is known
+ And the time between earning money 
+ and spending money
+ is known
  as "saving". Inflationary money
  disprupts this cycle of saving,
  replacing it with a cycle of credit
@@ -50,6 +52,9 @@ While the current round of non-sustainable
  fall when their money is not sound.
  No reasonable person can believe otherwise.
 
+The real question becomes, 
+ what can be done about this problem of fiat money?
+
 ## Bitcoin fixes this
 
 This oft-repeated quote struck me as
@@ -62,10 +67,13 @@ This oft-repeated quote struck me as
 And yet, if what is claimed about Bitcoin is
  true, then it *should* fix
  the damaging effects of inflationary money.
- If the supply is truly scarce, now and in the future; 
- and the network is truly decentralized, such that no
+ If the supply is truly scarce, 
+ now and in the future; 
+ and the network is truly decentralized, 
+ such that no
  system of authority can control or kill it,
- then yes, logically, it would *fix* the problems
+ then yes, logically, it would
+ *fix* the problems
  of fiat money.
 
 But like I said, this seems to be too good true.
@@ -89,7 +97,7 @@ How would we even know?
 Altcoins are not even attempting to solve 
  the problem Bitcoin solves.
  They offer no scarcity.
- They are free market monies that operate as securities.
+ Most are free market monies that operate as securities.
  They offer interesting features because they're digital money,
  but without scarcity over time. 
 
@@ -105,7 +113,8 @@ Bitcoin is scarce over time, now and in the future.
 
 > What would it have to look like to be true?
 
-..Supporting Bitcoin means you are supporting a better future, where prosperity and human flourishing increase.
+..Supporting Bitcoin means you are supporting a better future,
+ where prosperity and human flourishing increase.
 
 ..The only way to devalue Bitcoin amongst Bitcoin holders
  is to reduce human flourishing,
