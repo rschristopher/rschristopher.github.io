@@ -135,18 +135,23 @@ It means our entire system is built on lies, and
 For Americans it means Nixon was worse than 
  liberals believe, and that
  FDR was even worse than Nixon.
- It means our media is nothing but propaganda,
+ It means our media is pure propaganda,
  and that our political parties are nothing
  but the coordinators of this propaganda,
  anything that
  keeps you from ever asking, *what is money?*
 
 This is a lot to take in for the average person.
- You've been lied to about money, told that
- *money doesn't grow on trees* and yet
+ You've been lied to about money,
+ by people who aren't particularly competent,
+ told that
+ *money doesn't grow on trees* and then
  to look the other way when money is created
  from nothing by the whims of
- parasitic sociopaths.
+ parasitic sociopaths that know
+ not what they do. For any that
+ understood this power and its
+
 
 
 
