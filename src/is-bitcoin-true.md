@@ -128,6 +128,27 @@ If Bitcoin is true, it is almost too terrifying to contemplate.
  It would mean that all these problems of fiat money are 
  not only real
  but irreconciliable.
+It means our entire system is built on lies, and
+ our leaders are parasitic sociopaths unknowingly
+ destroying civilization from the inside out.
+
+For Americans it means Nixon was worse than 
+ liberals believe, and that
+ FDR was even worse than Nixon.
+ It means our media is nothing but propaganda,
+ and that our political parties are nothing
+ but the coordinators of this propaganda,
+ anything that
+ keeps you from ever asking, *what is money?*
+
+This is a lot to take in for the average person.
+ You've been lied to about money, told that
+ *money doesn't grow on trees* and yet
+ to look the other way when money is created
+ from nothing by the whims of
+ parasitic sociopaths.
+
+
 
 
 
