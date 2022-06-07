@@ -92,7 +92,7 @@ Political solultions make the problems worse,
  and over time those controlling the money
  supply use their ill-gotten gains
  to control the politics (regardless of the system),
- so it inevitably becomes rigged game
+ so it inevitably becomes a rigged game
  (be it a democracy or theocracy or otherwise).
 
 !!! warning "There is no political solution."
