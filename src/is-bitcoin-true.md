@@ -3,12 +3,18 @@
 One of my earliest reactions to a deep dive 
  into Bitcoin, was the thought,
 
- > It also fixes modern art?!
+> It also fixes modern art?!
+
+More generally, Bitcoin
+ -- *if it's true* --
+ fixes the problem of fiat money.
+
+## The problem of fiat money
 
 Bitcoin was designed to fix the problem of fiat
- money, the problem of state and money, 
- the social and economic problems that have 
- burdened human civilizations throughout
+ money, the problem of politics and money, 
+ the deepest social and economic problem
+ burdening human civilizations throughout
  history.
 
 The implications of fiat money run deep, 
@@ -20,7 +26,9 @@ The implications of fiat money run deep,
  Science and Innovation --
 and yes, even *modern art*.
 
-???+ warning "modern art"
+## Even modern art?
+
+???+ warning "modern art under fiat"
     ![banana taped to wall](/images/banana.jpg)
 
     This is an actual piece of art -- 
@@ -32,7 +40,7 @@ and yes, even *modern art*.
     very problems of modern art that everyone
     is criticizing.
     Janitors [protested](https://news.artnet.com/art-world/cattelans-banana-ignited-protests-among-miami-based-janitors-1731435)
-    the banana,
+    the banana for pay inequality,
     another artist ate the banana,
     and still another wrote "Epstein didn't kill himself" on the wall in red lipstick.
 
@@ -48,22 +56,38 @@ and yes, even *modern art*.
     if the money keeps rolling in?
     
     Rather than ask *what is* and *what is not* art,
-    instead ask how people have money for this.
-
-    Find out where that money came from.
+    instead ask how art collectors have money for this kind of art,
+    and why they see value in it.
+    And most importantly, 
+    find out where that money came from.
     
 
+## Where does money come from?
 
-Money operates as a measure of value.
+Money operates as a measure of value,
+ subjective value based on the perceptions of
+ those buying and selling.
  Money also stores value,
  value to be used in the future. 
- And the time between earning money 
+ The time between earning money 
  and spending money
  is known
- as "saving". Inflationary money
- disprupts this cycle of saving,
- replacing it with a cycle of credit
- and debt, a system of constant spending,
+ as "saving". 
+This simple and subjective sense of value
+ is all that money is and ever will be.
+It can be thought of as a technology,
+ such that good money will be more efficient
+ than bad money. 
+It can be strong money with
+ a fixed supply, or it can be easy money
+ with an inflationary supply.
+ 
+Inflationary money
+ disprupts the natural cycle of saving,
+ replacing the age old *"saving for the future"*
+ with consumerism, 
+ with credit and debt, 
+ with a system of constant spending --
  because money that constantly loses value
  is simply worth more now than it will be 
  in the future.
@@ -71,29 +95,41 @@ Money operates as a measure of value.
 Worse still, fiat money is inflationary by the whims
  of those who control the money supply. There is a
  reason janitors have less purchasing power than 
- ever before. If you are janitor, you can work harder
+ ever before. And it's not because a wealthy
+ person controlled this outcome.
+If you are janitor earning fiat money, you will work harder
  and harder, but you will earn less and less value over time. 
- And that amount less will be gained by those known as cantilion 
+ And that amount of value will be gained by those known as cantilion 
  insiders, those close to the money supply, those
  who benefit from increases in the money supply,
  including art collectors.
 
-Ironically, if an art collector earns a salary
- then their salary will also lose value over time,
+Ironically, an art collector's salary
+ will also lose value over time,
  just like the janitor.
- However, their assets, such as real-estate and
- *art* will increase. Inflating the money supply
+ However, assets, such as real-estate
+ *and art* will increase in value. 
+Inflating the money supply
  doesn't just drive up prices of consumer goods,
- it inflates the value of hard assets, transfering
+ it first inflates the value of hard assets, transfering
  wealth from those who work and save, to those
  who own hard assets.
+And if you dig deep enough, you'll find
+ that most art collectors don't actually
+ earn a salary,
+ never have earned a salary,
+ and that their wealth is not
+ stored in cash.
 
 Political solultions make the problems worse,
  and over time those controlling the money
- supply use their ill-gotten gains
+ supply use their ill-gotten gains (known as *seigniorage*)
  to control the politics (regardless of the system),
  so it inevitably becomes a rigged game
- (be it a democracy or theocracy or otherwise).
+ (be it a democracy or theocracy or socialist dictatorship or otherwise).
+Revolutions just change the faces of the problem,
+ but like the word implies, a *revolution* is
+ to move in a circle.
 
 !!! warning "There is no political solution."
 
@@ -122,15 +158,16 @@ The real question becomes,
 
 
 
-## The Terrifying Truth
+## The terrifying truth
 
-If Bitcoin is true, it is almost too terrifying to contemplate.
- It would mean that all these problems of fiat money are 
+*If Bitcoin is true*, it is almost too terrifying to contemplate.
+ This would mean that all the problems of fiat money are 
  not only real
  but irreconciliable.
-It means our entire system is built on lies, and
- our leaders are parasitic sociopaths unknowingly
- destroying civilization from the inside out.
+It would mean our entire system is built on lies, and that
+ our leaders are parasitic sociopaths,
+ unknowingly
+ destroying civilization.
 
 For Americans it means Nixon was worse than 
  liberals believe, and that
@@ -139,19 +176,52 @@ For Americans it means Nixon was worse than
  and that our political parties are nothing
  but the coordinators of this propaganda,
  anything that
- keeps you from ever asking, *what is money?*
+ keeps you from ever asking,
+> *where does money come from?*
 
-This is a lot to take in for the average person.
+This is a lot to take in for even a cynical person.
  You've been lied to about money,
  by people who aren't particularly competent,
  told that
  *money doesn't grow on trees* and then
  to look the other way when money is created
- from nothing by the whims of
+ from nothing;
+ all by the whims of
  parasitic sociopaths that know
- not what they do. For any that
- understood this power and its
+ not what they do.
 
+It's tempting to believe their lies, either that
+ *they* don't exist (it's all just a conspiracy theory)
+ or to believe they're competent enough to
+ actually control money.
+But the terrifying truth is that *they* do exist,
+ but are completely incompetent, so incompetent that they don't
+ understand that one cannot actually control money,
+ *no one can control money*, because
+ money relies on the ever-changing perspectives of value of
+ every person on earth.
+
+!!! info "Money is technology"
+    Money is the technology that allows for the ever-changing
+    perspectives of value of every human on earth to be made
+    known and measurable,
+    that is, to have what are known as *prices*
+    and *markets*.
+
+    Money requires freedom, freedom to change your mind
+    on a whim, to change your perception of value
+    based on the ever-changing demands in your life.
+
+One cannot control money without controlling the
+ subjective values of every person on 
+ earth, controlling not just their thoughts, but 
+ their innate sense of value, and
+ all the externalities that might cause them to react,
+ rendering them less than cattle, 
+ less than rats, 
+ something more akin to cogs in a machine,
+ a machine that is 
+ controlled by -- *who exactly?*
 
 
 
@@ -175,7 +245,7 @@ And yet, if what is claimed about Bitcoin is
  such that no
  system of authority can control or kill it,
  then yes, logically, it would
- *fix* the problems
+ *fix* the terrifying problems
  of fiat money.
 
 But like I said, this seems to be too good true.
@@ -192,18 +262,17 @@ But even so, I could never shake this question.
 How would we even know?
 
 
-## Read the Code
+## Read the code
 Many self-proclaimed Bitcoiners will scoff
  and tell you to *read the code*.
 
-Well, okay, I can competently read code, and read it far
- better than those who repeat this line.
-
 Yes, the code will at the moment fix the supply at 21 million.
 
-But  this doesn't answer the question.
+But this doesn't answer the question.
  How can I know that this fixed supply won't change in the future? 
 How do I know we're not one pull request away from inflationary money?
+How do I know that the future supply won't 
+ be controlled by incompetent bureaucrats?
 
 Such a change would be a hard fork,
  which would break consensus rules,
@@ -306,31 +375,10 @@ But is it truly scarce?
 A centralized currency could be scarce. The USD technically *could be* scarce, but in practice it's not. For a centralized currency to be truly scarce it would need an incorruptible administration, something everyone could trust.
 One could imagine a sufficiently advanced intelligence, superhuman aliens, that create a secure centralized ledger that every human being can access, and that it's all based on a known finite amount.
 
-## So many Questions
-* Why scarcity? Why not inflation?
-* Why 21 million?
-* Why a ledger? Why NOT a token?
-* Why mining?
-* Why proof of work?
-* Why every ten minutes?
-* Why every four years? Why not longer? Why not shorter?
-* Why sha256?
-* Why not a larger block size?
-* Why lightning?
-* Why not "crypto"? Why not NFTs?
-
-## Bitcoin Maximalism
-Bitcoin maximalism is the consequence of Bitcoin being true. Of understanding that it does in fact solve the economic problem of fiat money. But does it really? Is Bitcoin True?
-
-The consequences of fiat money run through the entirety of civilization, leaving almost nothing untouched, so are the effects of fiat money. The power offered by fiat is truly great, yet at a horrible cost. It benefits your present self while simultaneously hurting everyone else, including your own future. It does nothing to increase capital, but to redirect it outside of a free market, an illusion of control, that is, an illusion of power. It is a destabilizing parasitic evil that provides a temporary illusion of power. It prays on the weak and sinful. It gives them the ability to tax without the strength to impose such a tax.
-
-Bitcoin redeems, taking our sinful nature that inevitably leads to fiat, and turning into a force of good, defending the network. Miners are gargoyles, and their greed is protecting the sacred, the immutable ledger of a finite money supply.
-
-
 
 ## USD
 What is the ultimate fate of the USD?
-The USD used to be backed by gold. Roughly $20/ounce, then $35/ounce, then pure fiat backed by the US empire's agreement with Saudi Arabia. These are, by any measure, distinct monies, but all were known as USD.
+The USD was originally backed by gold. Roughly $20/ounce, then $35/ounce, then pure fiat backed by the US empire's agreement with Saudi Arabia. These are, by any measure, distinct monies, but all were known as USD.
 The fate of the existing post 1971 fiat USD seems obvious, as non-sustainable systems tend to.. well.. not sustain. And we're way past the point of no return. 80% of all circulating money was created in the last two years. True inflation, monetary inflation, is already in hyperinflation, despite a massive cover up and claiming it's all transient and that price inflation is unrelated to the massive monetary inflation. The willful stupidity of modern economists is startling.
 
 What is the effect of Bitcoin on USD?

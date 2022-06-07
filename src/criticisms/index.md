@@ -1,11 +1,10 @@
 # Criticisms
 
-*The biggest risk to Bitcoin is its lack of
- competent crítics.*
+!!! warning "*The biggest risk to Bitcoin is its lack of competent crítics.*"
 
 There is no end of criticism to Bitcoin, and
  yet throughout all the noise, it's nearly
- impossible to find a criticism that understands
+ impossible to find a critic that understands
  Bitcoin, let alone demonstrate that understanding.
 
 This suggests that Bitcoin is actually *true*, and
