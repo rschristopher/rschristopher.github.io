@@ -38,7 +38,7 @@ The goal of a seed phrase
     For 2-hours in 2016 there was 346.9341 Bitcoin stored with this key.
 	Perhaps it's part of a 
 	[Steganographic](https://en.wikipedia.org/wiki/Steganography)
-    puzzle, and this is the an entry into finding a hidden fortune.
+    puzzle, and this is the first entry into finding a hidden fortune.
     Or perhaps someone didn't know what they were doing and lost
     all their Bitcoin.
 
