@@ -359,10 +359,9 @@ The idea that, "it works", is a strange lie when looking at the historical conte
 Why repeat the lie?
 Because it promises power and the elevation of the systems of man as God. Creating ourselves a God. What we create operates within rules, natural laws.
 
-Bitcoin fixes this when adoption increases, not when it's USD price increases. Increase adoption of Bitcoin as money. Store of wealth, unit of account, system of exchange, ...
-
-Bitcoin's price in USD means very little. How about the relative percentage of total supply? Although by that measure it's a great example of a true inflation hedge.
-
-The timescale that shitcoiners operate on seems to be quite small. Such as claims that Bitcoin is not correlated with inflation. This seems absurd especially when you zoom out and see that Bitcoin is resistant to monetary inflation with the price benefitting the larger USD supply, as the additional money eventually finds its way into Bitcoin.
-And yet, it's so small compared to other assets. The price ultimately affects the demand curve, that's about it. It's benefiting from cantillon insiders buying Bitcoin, but until it finds stronger hands the true benefit may not be achieved. Another 10 years? Maybe!
+Bitcoin fixes this when adoption increases,
+ not when it's USD price increases. 
+Increase adoption of Bitcoin as money. 
+Store of wealth, unit of account, 
+ system of exchange, ...
 
