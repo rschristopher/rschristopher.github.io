@@ -278,37 +278,6 @@ Such a change would be a hard fork,
  which would break consensus rules,
  leading to a non-compatible blockchain.
 
-You can't on one hand claim this isn't possible due to game
- theory while on the other saying that the masses don't matter.
- Let's not forget that the vast majority of the 
- world's population fell into covid hysteria. 
- Inalienable rights seemed to be easily discarded given
- mass hysteria, why would monetary policy be different?
-
-As with covid, it's clear there exists
-  bad actors that will always be trying to subvert and take power.
- Bitcoin will be under attack, forever.
- And they'll naturally play a long game,
- as with gold or really anything.
- This force of constant evil is a fact of life.
-
-Whether we like it or not,
- the so-called Bitcoin remnant,
- the Bitcoiners themselves,
- are playing a game (game theory after all)
- to make sure that Bitcoin's fixed supply remains fixed.
- That there will never be more than 21 million.
- They are competing with the central banks
- and the politicians and all those who want power over money.
-But they're not competing over the code itself,
- they're competing over you, over whether you choose
- to play this game with 21 million fixed coins
- and no central control, 
- or whether you play their game,
- the fiat game where they make the rules and the money,
- you merely work at their pleasure.
-
-
 
 
 ## What if it turns out to be false?
@@ -365,8 +334,6 @@ If Bitcoin is true, then it wins in the end,
 ---
 
 
-All of this has become broken, deeply broken, by fiat money, specifically monetary inflation. Bitcoin aims to fix this; to do what gold failed to do.
-Can it?
 
 All it would have to do is work. A truly scarce and yet infinitely divisible money. If it worked, then by its very nature it would obsolete fiat money and forever end monetary inflation, thereby "fixing" the intractable problems caused by fiat.
 For this to be true, it needs to be scarce, transmittable in any divisible amount. The latter is trivial, the ability of any digital money.
@@ -398,9 +365,4 @@ Bitcoin's price in USD means very little. How about the relative percentage of t
 
 The timescale that shitcoiners operate on seems to be quite small. Such as claims that Bitcoin is not correlated with inflation. This seems absurd especially when you zoom out and see that Bitcoin is resistant to monetary inflation with the price benefitting the larger USD supply, as the additional money eventually finds its way into Bitcoin.
 And yet, it's so small compared to other assets. The price ultimately affects the demand curve, that's about it. It's benefiting from cantillon insiders buying Bitcoin, but until it finds stronger hands the true benefit may not be achieved. Another 10 years? Maybe!
-
-## Enemies
-And what if Bitcoin becomes controlled through whitelists? That only approved transactions on approved addresses become allowed, agreements with all major exchanges and miners. It would create a soft fork, and potentially a hard fork. Or rather, liquidity could be so severely impaired that it loses value. But unless this leads to updated consensus rules, the scarcity remains. Without Bitcoin as dark money, this creates a risk of a growing surveillance state, the beast.
-Store of value holders will carry the value into the future. Liquidity need only be roughly as good or better than the alternative value stores, perhaps real estate.
-This alone will prop up the value for generations.
 
