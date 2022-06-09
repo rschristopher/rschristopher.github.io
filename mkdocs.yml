@@ -48,6 +48,7 @@ nav:
           - Separation of Money and State: bitcoin-as-money/separation-money-and-state.md
         - Criticisms:
           - criticisms/index.md
+          - Deflation: criticisms/deflation.md
           - Environment: criticisms/environment.md
           - Scalability: criticisms/scalability.md
           - Turing Incomplete: criticisms/turing-complete.md
