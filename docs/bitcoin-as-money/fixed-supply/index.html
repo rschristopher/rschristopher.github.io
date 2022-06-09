@@ -475,20 +475,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../monetary-policy/" class="md-nav__link">
-        Monetary Policy
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -538,10 +524,31 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#read-the-code" class="md-nav__link">
+    Read the code
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monetary-policy/" class="md-nav__link">
+        Monetary Policy
+      </a>
     </li>
   
 
@@ -2109,6 +2116,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#read-the-code" class="md-nav__link">
+    Read the code
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2129,6 +2143,73 @@
 <p>..</p>
 <h2 id="is-fixed-supply-feasible">Is Fixed Supply Feasible?<a class="headerlink" href="#is-fixed-supply-feasible" title="Permanent link">&para;</a></h2>
 <p>...</p>
+<h2 id="read-the-code">Read the code<a class="headerlink" href="#read-the-code" title="Permanent link">&para;</a></h2>
+<p>Many Bitcoiners will tell you to <em><a href="https://github.com/bitcoin/bitcoin">read the code</a></em>.</p>
+<p>And yes, the code at the moment will
+ <a href="https://github.com/bitcoin/bitcoin/blob/v22.0/src/validation.cpp#L1186-L1197">fix the supply</a>
+ at 21 million.</p>
+<details class="info" open="open">
+<summary>GetBlockSubsidy</summary>
+<p>Every 210,000 blocks (roughly every 4 years)
+ the block subsidy (new Bitcoin mined) is reduced in half,
+ and it started at 50.
+You can calculate 50 times 210,000 to arrive at 10.5 million,
+ exactly half of 21 million.
+Afterwards, the block subsidy
+ was "halved" to 25. Then to 12.5, and we are now in the
+ era of a 6.25 block subsidy.</p>
+<p>This "halving" process will contiue until
+ the year 2140 when the final fraction of a Bitcoin is mined,
+ at which point mining will operate only on transaction fees.</p>
+<p><div class="highlight"><pre><span></span><code><span class="n">CAmount</span><span class="w"> </span><span class="nf">GetBlockSubsidy</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">nHeight</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Consensus</span><span class="o">::</span><span class="n">Params</span><span class="o">&amp;</span><span class="w"> </span><span class="n">consensusParams</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">halvings</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nHeight</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">consensusParams</span><span class="p">.</span><span class="n">nSubsidyHalvingInterval</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// Force block reward to zero when right shift is undefined.</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">halvings</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">64</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">    </span><span class="n">CAmount</span><span class="w"> </span><span class="n">nSubsidy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">COIN</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.</span>
+<span class="w">    </span><span class="n">nSubsidy</span><span class="w"> </span><span class="o">&gt;&gt;=</span><span class="w"> </span><span class="n">halvings</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">nSubsidy</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</code></pre></div>
+The <code>&gt;&gt;=</code> operator in the code is a bit shift right,
+ which has the effect of halving a number</p>
+<div class="highlight"><pre><span></span><code>50 -&gt; 25 -&gt; 12.5 -&gt; 6.25 -&gt; 3.125 -&gt; 1.5625 -&gt; ...
+</code></pre></div>
+</details>
+<p>But this doesn't answer the question.</p>
+<p>How can I know that this fixed supply won't change in the future? 
+How do I know we're not one pull request away from inflationary money?
+How do I know that the future supply won't 
+ be controlled by incompetent bureaucrats?</p>
+<p>Well, it's open-source code, 
+ <a href="https://bitcoin.org/en/development">try it</a>
+ and see what happens.
+ Create your own pull-request to change this function.</p>
+<p>Now, obviously such a change won't be approved,
+ but what if it was? Let's say the supply cap was
+ changed -- would that be the end of Bitcoin?</p>
+<p>Such a change would break consensus rules,
+ and would be considered a hard fork,
+ that is, the original software would reject 
+ all new blocks on this new version,
+ and it would require all the miners and nodes
+ to upgrade. 
+ A conscious choice needs to be made.</p>
+<p>Those that refused would just continue as they were,
+ running nodes and mining blocks.
+The developers that refused would continue
+ developing the original version and would enjoy
+ the support of everyone who wished to stay
+ on the original fixed supply version.</p>
+<p>This is, it turns out, exactly what has happened 
+ many <em>many</em> times before. The so called <em>altcoins</em>
+ (or <em>shitcoins</em>) are the result of exactly these
+ kind of hard forks.
+Their adherents chose the 
+ hard fork, and the market reacts accordingly.</p>
 
               
             </article>
