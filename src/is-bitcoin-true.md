@@ -46,7 +46,7 @@ and yes, even *modern art*.
 
     ![banana in gallery](/images/banana_photos.jpg)
 
-    Truth is, even the artists and the art
+    Even the artists and the art
     dealers know that modern art is vapid nonsense,
     and so they perform self-referential pieces
     of art, criticising themselves, being
@@ -154,7 +154,7 @@ While the current round of non-sustainable
  No reasonable person can believe otherwise.
 
 The real question becomes, 
- what can be done about this problem of fiat money?
+ what can be done about the problem of fiat money?
 
 
 
@@ -227,7 +227,7 @@ One cannot control money without controlling the
 
 
 
-## Bitcoin fixes this
+## "Bitcoin fixes this"
 
 This oft-repeated quote struck me as
  too good to be true, the wishful thinking
@@ -241,57 +241,31 @@ And yet, if what is claimed about Bitcoin is
  the damaging effects of inflationary money.
  If the supply is truly scarce, 
  now and in the future; 
- and the network is truly decentralized, 
+ and if the network is truly decentralized, 
  such that no
  system of authority can control or kill it,
- then yes, logically, it would
+ then yes, logically, Bitcoin would
  *fix* the terrifying problems
  of fiat money.
 
-But like I said, this seems to be too good true.
- Like trying to contemplate what life would
+But like I said, that all seems to be too good true.
+Like trying to contemplate what life would
  be like if people were always honest and 
  forthright; if everyone was kind, humble,
  and forgiving. People aren't always that way, 
  and it's not helpful to pretend otherwise.
 
-But even so, I could never shake this question.
+And yet Bitcoin assumes the opposite, that no one 
+ can be trusted.
 
-*Is Bitcoin true?*
+!!! quote "don't trust, verify"
 
-How would we even know?
-
-
-## Read the code
-Many self-proclaimed Bitcoiners will scoff
- and tell you to *read the code*.
-
-Yes, the code will at the moment fix the supply at 21 million.
-
-But this doesn't answer the question.
- How can I know that this fixed supply won't change in the future? 
-How do I know we're not one pull request away from inflationary money?
-How do I know that the future supply won't 
- be controlled by incompetent bureaucrats?
-
-Such a change would be a hard fork,
- which would break consensus rules,
- leading to a non-compatible blockchain.
-
-
-
-## What if it turns out to be false?
-
-... What then?
-
-You'll understand money. 
-The chaos of the moderm world will make sense.
-
-You'll realize we need Bitcoin to be true 
- because there is no sustainable alternative.
-
-.. this is the great filter, 
- and we may or may not make it.
+The entire design of Bitcoin is a trustless system
+ that assumes no one is honest. No one.
+You verify everything.
+If there's something we can't verify, then our trust
+ is required, in which case we're back to fiat,
+ back to the very problem that Bitcoin is trying to solve.
 
 
 
@@ -331,37 +305,44 @@ If Bitcoin is true, then it wins in the end,
  redeeming civilization in the process.
 
 
+
+## What if Bitcoin is false?
+
+What if in our journey to verify *everything*
+ we miss something,
+ and then years later we realize that there
+ was a flaw, something we didn't see at the time,
+ but becomes obvious once it's exploited.
+That's all it would take to prove Bitcoin false.
+ One small counterexample where trust was required,
+ which could then be exploited, and those who
+ most effectively violate that trust would
+ be the de-facto controllers of Bitcoin.
+
+What then?
+
+You'll understand money. 
+The chaos of the moderm world will make sense.
+
+You'll realize we need Bitcoin to be true 
+ because there is no sustainable alternative.
+
+.. this is the great filter, 
+ and we may or may not make it.
+
+
 ---
 
 
-
-All it would have to do is work. A truly scarce and yet infinitely divisible money. If it worked, then by its very nature it would obsolete fiat money and forever end monetary inflation, thereby "fixing" the intractable problems caused by fiat.
-For this to be true, it needs to be scarce, transmittable in any divisible amount. The latter is trivial, the ability of any digital money.
+All it would have to do is work. 
+ A truly scarce and yet infinitely divisible money. 
+If it worked,
+ then by its very nature it would obsolete fiat money
+ and forever end monetary inflation,
+ thereby "fixing" the intractable problems caused by fiat.
+For this to be true, Bitcoin needs to be scarce,
+ and transmittable in any divisible amount.
+ The latter is trivial, the ability of any digital money.
 But is it truly scarce?
 
-A centralized currency could be scarce. The USD technically *could be* scarce, but in practice it's not. For a centralized currency to be truly scarce it would need an incorruptible administration, something everyone could trust.
-One could imagine a sufficiently advanced intelligence, superhuman aliens, that create a secure centralized ledger that every human being can access, and that it's all based on a known finite amount.
-
-
-## USD
-What is the ultimate fate of the USD?
-The USD was originally backed by gold. Roughly $20/ounce, then $35/ounce, then pure fiat backed by the US empire's agreement with Saudi Arabia. These are, by any measure, distinct monies, but all were known as USD.
-The fate of the existing post 1971 fiat USD seems obvious, as non-sustainable systems tend to.. well.. not sustain. And we're way past the point of no return. 80% of all circulating money was created in the last two years. True inflation, monetary inflation, is already in hyperinflation, despite a massive cover up and claiming it's all transient and that price inflation is unrelated to the massive monetary inflation. The willful stupidity of modern economists is startling.
-
-What is the effect of Bitcoin on USD?
-Unsure. Let's assume that the existing powers are failing, which seems to be the most likely scenario for their increasingly hysterical and incompetent behavior. Will they take the system down with them? Yes, if they could. Will Bitcoin adoption buoy the supply chains and free market remnants? Yes, it definitely could.
-The existing hysterical incompetence will try to take the system down with them, demanding unlimited power with no accountability for what any reasonable analysis would conclude as crimes against humanity. But they don't, and never had, real power. They are spokespeople for the masses, voices of the delusions.
-In the end, people want to eat, feed their families, be healthy, live productive lives that offer a future that is worth their present suffering, oh and of course not needlessly die in a gulag or concentration camp. Freedom is a necessity, and without it systems fail. 
-This includes the current leaders. They can't but live in the world too, and act out their human desire for freedom and flourishing.  
-What made civilization possible was not the systems of control, but freedom to live good lives, freedom and opportunity to build your own life, a life that is worth living. 
-The idea that, "it works", is a strange lie when looking at the historical context. CCP? USSR? The best successful examples of controlled systems. They offered no innovation other than to parasitically feed from free market civilizations. An accomplishment that other controlled systems failed to replicate. Yet they repeat this lie. Why?
-
-Why repeat the lie?
-Because it promises power and the elevation of the systems of man as God. Creating ourselves a God. What we create operates within rules, natural laws.
-
-Bitcoin fixes this when adoption increases,
- not when it's USD price increases. 
-Increase adoption of Bitcoin as money. 
-Store of wealth, unit of account, 
- system of exchange, ...
 
