@@ -7,6 +7,7 @@ One of my earliest reactions to a deep dive
 
 More generally, Bitcoin
  -- *if it's true* --
+ fixes not just modern art, but
  fixes the problem of fiat money.
 
 ## The problem of fiat money
