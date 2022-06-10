@@ -91,5 +91,22 @@ Lightning network is merely keeping track
 In practice, the Bitcoin in the Lightning
  network, that is, the amount of Bitcoin
  in all Lightning channels, represents the
- circulating supply of Bitcoin as currency,
+ circulating supply of Bitcoin as a currency,
  as a medium of exchange.
+
+And importantly, despite the limitations
+ on the base-layer, Lightning transactions
+ are infinitely scalable, easily handling
+ millions or even billions of transactions
+ per second.
+
+Lightning demonstrates the importance of
+ a layered architecture as well as
+ the importance of Bitcoin's continuous
+ development.
+Before there was Lightning, Bitcoin
+ was simply not a viable medium
+ of exchange. Now it offers the
+ most advanced and scalable 
+ payment network that the world
+ has ever seen. 
