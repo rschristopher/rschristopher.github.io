@@ -29,5 +29,5 @@ Simply put, fiat cannot function as
 
 Bitcoin as a store of value is plainly superior.
  Over time it will gain value, and it can be 
- transferred across every nation on earth
+ transferred through every nation on earth
  unmolested.
