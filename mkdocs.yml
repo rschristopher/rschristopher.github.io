@@ -6,6 +6,9 @@ site_description: "Is Bitcoin True?"
 site_author: RS Christopher
 docs_dir: src
 site_dir: docs
+copyright: Copyright &copy; 2022 R.S. Christopher
+extra:
+    generator: false
 extra_css:
     - css/extra.css
 theme:
@@ -29,7 +32,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-    custom_dir: overrides
     logo: images/bitcoin-logo-bw.png
     favicon: images/favicon.png
 

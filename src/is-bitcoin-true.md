@@ -5,7 +5,7 @@ One of my earliest reactions to a deep dive
 
 > It also fixes modern art?!
 
-More generally, Bitcoin
+Bitcoin
  -- *if it's true* --
  fixes not just modern art, but
  fixes the problem of fiat money.
@@ -309,41 +309,45 @@ If Bitcoin is true, then it wins in the end,
 
 ## What if Bitcoin is false?
 
-What if in our journey to verify *everything*
+*What if* in our journey to verify *everything*
  we miss something,
- and then years later we realize that there
+ and years later we realize that there
  was a flaw, something we didn't see at the time,
- but becomes obvious once it's exploited.
-That's all it would take to prove Bitcoin false.
- One small counterexample where trust was required,
- which could then be exploited, and those who
+ but it becomes obvious once it's exploited.
+
+That's all it would take to prove Bitcoin false
+ -- one small counterexample 
+ that couldn't be fixed in a soft fork.
+ If trust was required,
+ then that trust could be exploited
+ -- those who
  most effectively violate that trust would
- be the de-facto controllers of Bitcoin.
+ become the de-facto controllers of Bitcoin,
+ making it no better than fiat.
 
-What then?
+> *What then?*
 
-You'll understand money. 
-The chaos of the moderm world will make sense.
-
-You'll realize we need Bitcoin to be true 
- because there is no sustainable alternative.
-
-.. this is the great filter, 
- and we may or may not make it.
+Nothing will have been fixed.
+However, you'll understand money. 
+The chaos of the moderm world will 
+ make sense.
+And you'll realize we needed Bitcoin to be true 
+ because there was no sustainable alternative.
 
 
 ---
 
 
-All it would have to do is work. 
- A truly scarce and yet infinitely divisible money. 
-If it worked,
- then by its very nature it would obsolete fiat money
- and forever end monetary inflation,
- thereby "fixing" the intractable problems caused by fiat.
-For this to be true, Bitcoin needs to be scarce,
- and transmittable in any divisible amount.
- The latter is trivial, the ability of any digital money.
-But is it truly scarce?
+Whether we like it or not, this is the
+ *great filter* -- energy money --
+ and the survival of our civilization 
+ depends on overcoming this problem.
+Civilization cannot advance when
+ parasitic bureaucrats attempt to
+ play God through vain attempts
+ at controlling money.
 
+All Bitcoin would have to do is work. 
+ Every day that it works is a day that it has
+ not been proven false.
 
