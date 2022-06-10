@@ -2,7 +2,7 @@
 
 *Medium of Exchange* is simply the currency
  of money, that is, the movement of money in
- exchange of goods and services.
+ exchange for goods and services.
 
 Buying a pizza, buying a coffee, selling
  a car, all are examples of using money as
