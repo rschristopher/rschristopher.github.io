@@ -274,33 +274,20 @@ If there's something we can't verify, then our trust
 
 Altcoins are not even attempting to solve 
  the problem Bitcoin solves.
- They offer no scarcity.
- Most are free market monies that operate as securities.
- They offer interesting features because they're digital money,
- but without scarcity over time. 
+ They offer no scarcity, and no true
+ decentralization.
+ Most are free market monies that
+ operate as securities.
+ They sometimes offer interesting features
+ because 
+ they're digital money,
+ but without scarcity over time.
 
-Bitcoin is scarce over time, now and in the future.
- It will always be scarce, always.
- This is why the value will always increase
- with true economic output,
- savings will always be rewarded without
- the need of interest rates.
- Just a fixed savings whose value will increase in purchasing power.
- Meaning the quality of consumer goods will increase
- sufficiently to meet demand.
-
-> What would it have to look like to be true?
-
-..Supporting Bitcoin means you are supporting a better future,
- where prosperity and human flourishing increase.
-
-..The only way to devalue Bitcoin amongst Bitcoin holders
- is to reduce human flourishing,
- which by itself is non-sustainable,
- obviously because then we're talking about
- the elimination of human civilization.
- If civilization is to not only persist but to flourish,
- then Bitcoin wins.
+Altcoins/shitcoins cannot solve the problem
+ of fiat money. They don't even try.
+ In all cases they are attempting to become
+ fiat money, granting seigniorage to
+ their own founders.
 
 If Bitcoin is true, then it wins in the end,
  redeeming civilization in the process.
@@ -310,8 +297,8 @@ If Bitcoin is true, then it wins in the end,
 ## What if Bitcoin is false?
 
 *What if* in our journey to verify *everything*
- we miss something,
- and years later we realize that there
+ we miss something?
+ And years later we realize that there
  was a flaw, something we didn't see at the time,
  but it becomes obvious once it's exploited.
 
@@ -332,7 +319,7 @@ However, you'll understand money.
 The chaos of the moderm world will 
  make sense.
 And you'll realize we needed Bitcoin to be true 
- because there was no sustainable alternative.
+ because there was no alternative.
 
 
 ---
