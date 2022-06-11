@@ -328,7 +328,7 @@ And you'll realize we needed Bitcoin to be true
 Whether we like it or not, this is the
  *great filter* -- energy money --
  and the survival of our civilization 
- depends on overcoming this problem.
+ depends on overcoming the problem of fiat money.
 Civilization cannot advance when
  parasitic bureaucrats attempt to
  play God through vain attempts
