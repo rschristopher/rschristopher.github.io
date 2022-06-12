@@ -73,7 +73,8 @@ Money operates as a measure of value,
  The time between earning money 
  and spending money
  is known
- as "saving". 
+ as "saving".
+
 This simple and subjective sense of value
  is all that money is and ever will be.
 It can be thought of as a technology,
