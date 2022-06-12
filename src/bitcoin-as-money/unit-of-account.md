@@ -5,7 +5,7 @@ This is the most important quality of money.
  fool you.
 A unit of account is *the* measure of value,
  the measure of value that all human beings
- can agree upon such that the subjective
+ can agree upon such that our subjective
  and continuously changing perception of
  *value* can be rendered knowable.
 
