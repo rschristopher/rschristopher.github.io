@@ -106,6 +106,8 @@ If you are janitor earning fiat money, you will work harder
  who benefit from increases in the money supply,
  including art collectors.
 
+https://wtfhappenedin1971.com/
+
 Ironically, an art collector's salary
  will also lose value over time,
  just like the janitor.
