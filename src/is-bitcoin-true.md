@@ -14,7 +14,7 @@ Bitcoin
 
 Bitcoin was designed to fix the problem of fiat
  money, the problem of politics and money, 
- the deepest social and economic problem
+ the single biggest social and economic problem
  burdening human civilizations throughout
  history.
 
