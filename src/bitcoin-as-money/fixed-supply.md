@@ -22,9 +22,13 @@ We can find the raw
 Additionally, we can track things like the  *all time high* (ATH)
  and changes to that ATH.
 For example,
+
 ![Weimar Inflation](/images/weimar_inflation.png)
 
-There are two stories here. We know the story of the *gold price*.
+---
+
+There are two stories here. 
+We know the story of the *gold price*.
  Inflationary paper money will inevitably end this way.
 However, there's another story that is often overlooked.
 
