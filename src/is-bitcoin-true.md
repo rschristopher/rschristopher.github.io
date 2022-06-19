@@ -131,14 +131,14 @@ Political solultions make the problems worse,
  to control the politics (regardless of the system),
  so it inevitably becomes a rigged game
  (be it a democracy or theocracy or socialist dictatorship or otherwise).
-Revolutions just change the faces of the problem,
+Revolutions change the faces of the problem,
  but like the word implies, a *revolution* is
  to move in a circle.
 
 !!! warning "There is no political solution."
 
-If you ever wonder why seemingly diverse modern societies 
- are all
+If you ever wonder why seemingly diverse 
+ modern societies are 
  struggling with consumerism, environmental 
  catastrophes, health epidemics where supposedly
  "wealthy" populations are malnourished and
@@ -168,10 +168,14 @@ The real question becomes,
  This would mean that all the problems of fiat money are 
  not only real
  but irreconciliable.
-It would mean our entire system is built on lies, and that
+It would mean our entire system is built on lies, 
+ and that
  our leaders are parasitic sociopaths,
+ selected by inverted incentives that
+ benefit short-term gains at the expense
+ of the future,
  unknowingly
- destroying civilization.
+ destroying civilization in the process.
 
 For Americans it means Nixon was worse than 
  liberals believe, and that
@@ -196,7 +200,7 @@ This is a lot to take in for even a cynical person.
 
 It's tempting to believe their lies, either that
  *they* don't exist (it's all just a conspiracy theory)
- or to believe they're competent enough to
+ or to believe *they* are competent enough to
  actually control money.
 But the terrifying truth is that *they* do exist,
  but are completely incompetent, so incompetent that they don't
@@ -249,7 +253,7 @@ And yet, if what is claimed about Bitcoin is
  such that no
  system of authority can control or kill it,
  then yes, logically, Bitcoin would
- *fix* the terrifying problems
+ *fix* many of the problems
  of fiat money.
 
 But like I said, that all seems to be too good true.
@@ -275,7 +279,7 @@ If there's something we can't verify, then our trust
 
 ## Why not other Cryptocurrencies?
 
-Altcoins are not even attempting to solve 
+Altcoins are not attempting to solve 
  the problem Bitcoin solves.
  They offer no scarcity, and no true
  decentralization.
@@ -287,12 +291,13 @@ Altcoins are not even attempting to solve
  but without scarcity over time.
 
 Altcoins/shitcoins cannot solve the problem
- of fiat money. They don't even try.
+ of fiat money. And they don't try.
  In all cases they are attempting to become
  fiat money, granting seigniorage to
  their own founders.
 
 If Bitcoin is true, then it wins in the end,
+ outcompeting other money,
  redeeming civilization in the process.
 
 
