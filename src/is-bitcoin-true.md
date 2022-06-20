@@ -203,15 +203,18 @@ It's tempting to believe their lies, either that
  or to believe *they* are competent enough to
  actually control money.
 But the terrifying truth is that *they* do exist,
- but are completely incompetent, so incompetent that they don't
- understand that one cannot actually control money,
+ but are completely incompetent.
+They don't
+ understand that one cannot actually control money.
  *no one can control money*, because
  money relies on the ever-changing perspectives of value of
  every person on earth.
 
 !!! info "Money is technology"
     Money is the technology that allows for the ever-changing
-    perspectives of value of every human on earth to be made
+    perspectives of value 
+    (of every human on earth) 
+    to be made
     known and measurable,
     that is, to have what are known as *prices*
     and *markets*.
