@@ -166,8 +166,24 @@ The real question becomes,
 
 ## The terrifying truth
 
-*If Bitcoin is true*, it is almost too terrifying to contemplate.
- This would mean that all the problems of fiat money are 
+*If* Bitcoin is true, it is almost too terrifying to contemplate.
+Bitcoin simply could not succeed in an honest system.
+It is 
+ merely a set of protocols around
+ a cryptographic ledger
+ designed to prevent any and all
+ centralized control of money;
+ it is designed
+ such that no one can or will control the
+ [monetary policy](bitcoin-as-money/monetary-policy.md).
+As a consequence of its design,
+ it is slow and less efficient than
+ what a non-corrupt centralized system could
+ achieve. It is only superior to corrupt
+ dishonest systems.
+
+If Bitcoin is true it would mean that
+ the problems of fiat money are 
  not only real
  but irreconciliable.
 It would mean our entire system is built on lies, 
@@ -179,14 +195,18 @@ It would mean our entire system is built on lies,
  unknowingly
  destroying civilization in the process.
 
+And it means that we are part of this lie.
+
 For Americans it means Nixon was worse than 
  liberals believe, and that
  FDR was even worse than Nixon.
- It means our media is pure propaganda,
+ It means our media is corrupt propaganda,
  and that our political parties are nothing
- but the coordinators of this propaganda,
- anything that
- keeps you from ever asking,
+ but the coordinators of this propaganda.
+And not by design but as consequences
+ of the fiat system itself.
+ Such a system will do anything to
+ discourage you from ever discovering,
 > *where does money come from?*
 
 This is a lot to take in for even a cynical person.
@@ -257,8 +277,8 @@ And yet, if what is claimed about Bitcoin is
  and if the network is truly decentralized, 
  such that no
  system of authority can control or kill it,
- then yes, logically, Bitcoin would
- *fix* many of the problems
+ then yes, logically, Bitcoin could
+ fix many of the problems
  of fiat money.
 
 But like I said, that all seems to be too good true.
@@ -268,7 +288,7 @@ Like trying to contemplate what life would
  and forgiving. People aren't always that way, 
  and it's not helpful to pretend otherwise.
 
-And yet Bitcoin assumes the opposite, that no one 
+And yet, Bitcoin assumes the opposite, that no one 
  can be trusted.
 
 !!! quote "don't trust, verify"
@@ -276,9 +296,11 @@ And yet Bitcoin assumes the opposite, that no one
 The entire design of Bitcoin is a trustless system
  that assumes no one is honest. No one.
 You verify everything.
-If there's something we can't verify, then our trust
+If there's something we can't verify, then trust
  is required, in which case we're back to fiat,
  back to the very problem that Bitcoin is trying to solve.
+
+For Bitcoin to be true, *everything* must be verifiable.
 
 
 
@@ -295,9 +317,15 @@ Altcoins are not attempting to solve
  they're digital money,
  but without scarcity over time.
 
-Altcoins/shitcoins cannot solve the problem
+Most are merely copies of Bitcoin but 
+ with a centralized source of control,
+ completely defeating the point,
+ which is why you will hear them referred
+ to as "shitcoins".
+
+Shitcoins cannot solve the problem
  of fiat money. And they don't try.
- In all cases they are attempting to become
+In all cases they are attempting to become
  fiat money, granting seigniorage to
  their own founders.
 Bitcoin is in a category all its own,
@@ -305,8 +333,11 @@ Bitcoin is in a category all its own,
  a superior money.
 
 If Bitcoin is true, then it wins in the end,
- outcompeting other money,
+ outcompeting all other money,
+ potentially
  redeeming civilization in the process.
+Anything less than that would prove
+ Bitcoin false.
 
 
 
@@ -331,7 +362,8 @@ That's all it would take to prove Bitcoin false
 > *What then?*
 
 Nothing will have been fixed.
-However, you'll understand money. 
+However, by learning about Bitcoin
+ you'll understand money. 
 The chaos of the moderm world will 
  make sense.
 And you'll realize we needed Bitcoin to be true 
@@ -341,16 +373,36 @@ And you'll realize we needed Bitcoin to be true
 ---
 
 
-Whether we like it or not, this is the
- *great filter* -- energy money --
- and the survival of our civilization 
+Whether we like it or not, the
+ survival of our civilization 
  depends on overcoming the problem of fiat money.
-Civilization cannot advance when
+This is the challenge of our generation, 
+ for there
+ is not a single existential problem
+ of our civilization
+ that does
+ not point back to fiat money.
+
+Bitcoin has been referred to as *energy money*,
+ one of the 
+ *great filters* to the advancement
+ of civilization.
+This is a polite way of saying
+ that civilization cannot advance when
  parasitic bureaucrats attempt to
  play God through vain attempts
  at controlling money.
+ But this also means, for Bitcoin to be true,
+ it must succed as *energy money*,
+ the catalyst to advance civilization.
 
 All Bitcoin would have to do is work. 
  Every day that it works is a day that it has
  not been proven false.
+We can dare to hope;
+ we can look for faults and
+ [criticisms](/criticisms); or
+ we can support its ascent as a true
+ form of energy money that redeems
+ civilization.
 
