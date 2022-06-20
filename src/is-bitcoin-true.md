@@ -6,7 +6,7 @@ One of my earliest reactions to a deep dive
 > It also fixes modern art?!
 
 Bitcoin
- -- *if it's true* --
+ -- *if it is true* --
  fixes not just modern art, but
  fixes the problem of fiat money.
 
