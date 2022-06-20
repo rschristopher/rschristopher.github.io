@@ -100,13 +100,13 @@ Worse still, fiat money is inflationary by the whims
  ever before. And it's not because a wealthy
  person controlled this outcome.
 If you are janitor earning fiat money, you will work harder
- and harder, but you will earn less and less value over time. 
- And that amount of value will be gained by those known as cantilion 
- insiders, those close to the money supply, those
+ and harder, but you will earn 
+ [less and less value over time](https://wtfhappenedin1971.com/).
+ And that amount of value will be gained by those known as 
+ cantilion insiders, 
+ those close to the money supply, those
  who benefit from increases in the money supply,
  including art collectors.
-
-https://wtfhappenedin1971.com/
 
 Ironically, an art collector's salary
  will also lose value over time,
@@ -150,7 +150,9 @@ If you ever wonder why seemingly diverse
  of civilization itself.
 
 While the current round of non-sustainable
- monetary parasitism began in 1971, this 
+ monetary parasitism began in 
+ [1971](https://wtfhappenedin1971.com/), 
+ this 
  problem is as old as time. Whether it's 
  causal or not can be debated, but societies
  fall when their money is debased
@@ -206,7 +208,7 @@ But the terrifying truth is that *they* do exist,
  but are completely incompetent.
 They don't
  understand that one cannot actually control money.
- *no one can control money*, because
+ *No one can control money*, because
  money relies on the ever-changing perspectives of value of
  every person on earth.
 
@@ -298,6 +300,9 @@ Altcoins/shitcoins cannot solve the problem
  In all cases they are attempting to become
  fiat money, granting seigniorage to
  their own founders.
+Bitcoin is in a category all its own,
+ a digital and scarce resource,
+ a superior money.
 
 If Bitcoin is true, then it wins in the end,
  outcompeting other money,
@@ -315,7 +320,7 @@ If Bitcoin is true, then it wins in the end,
 
 That's all it would take to prove Bitcoin false
  -- one small counterexample 
- that couldn't be fixed in a soft fork.
+ that could not be fixed in a soft fork.
  If trust was required,
  then that trust could be exploited
  -- those who
