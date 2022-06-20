@@ -47,7 +47,7 @@ And everything is relative with no absolute
 It is all fiat all the time.
 
 Fiat unit of account is like a ruler that arbitrarily changes length.
-Like the historic unit of a length, a "foot",
+Like the historic unit of length, a "foot",
  based literally on the length of each person's foot.
 Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
@@ -111,7 +111,7 @@ However, there is a pesky *unit bias*,
 There are exactly 100 million Satoshis *or Sats* in a Bitcoin.
 This is the smallest unit on the timechain.
 This isn't the smallest possible unit;
- one could describe
+ one could use
  millisats or picosats. 
 There is no end to the divisibility
  of Bitcoin.
@@ -122,24 +122,29 @@ That said -- if Bitcoin is true -- then Sats is the standard.
 
 ---
 
-Imagine a "100 Sat Store" or 99-Sat Store where
+Imagine a "100-Sat Shoppe" or "99-Sat Store" where
  everything is 99 Sats.
-This may start as the equivalent of a dollar store,
- or 99 yen store
- in Japan, but rather than raise prices over time
- due to inflation, or lower the quality of their
- merchandise, the opposite happens under Bitcoin.
+This could start as the equivalent of a dollar store,
+ or a 100-yen store in Japan.
 
-When the BTCUSD price reaches a million, then a
- 100 Sat Store would resemble a dollar store.
- But as the global economy grows, the 100 Sat Store
+![100-yen store](/images/100yen.jpg)
+
+Now imagine rather than prices raising over time
+ due to inflation, or lowering the quality of
+ merchandise at the dollar store,
+ the opposite happens under Bitcoin.
+
+When the BTCUSD price reaches a million, then the
+ 100-Sat Shoppe would resemble a dollar store.
+ But as the global economy grows, the 100-Sat Shoppe
  would offer higher end goods, or bulk quantities
  of lower end goods, all to justify 100 Sats;
- eventually Sat Stores may appear where everything is
- 1 Sat and 1 Sat only.
+ eventually the Sat Shoppe opens where everything is
+ 1 Sat *and 1 Sat only*.
+
 And even then, as the economy
  continued to grow,
- the quality of goods at a 1 Sat Stores
+ the quality of goods at the Sat Shoppe
  would increase to justify the hefty price tag 
  of a full Satoshi.
 
