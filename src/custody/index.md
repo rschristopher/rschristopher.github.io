@@ -1,7 +1,7 @@
 # Custody
 
 To *custody* Bitcoin means 
- securing your private keys that would be needed
+ securing the private keys that would be needed
  to spend your Bitcoin.
 
 Unlike physical custody of assets, 
@@ -27,7 +27,7 @@ In other words, how would you secure this phrase
 1. The seed phrase is accessible to those you trust (family members and the like), and
 1. No one else could ever know the seed phrase
 
-Knowing how to fulfil the above 
+Knowing how to fulfill the above 
  is at the heart of how to custody Bitcoin.
 
 ## Self Custody
@@ -245,6 +245,14 @@ Bitcoin Self Custody offers real security.
     Bitcoin allows superior custody services 
     that no bank or institution will ever be able 
     to match.
+    You secure your own wealth by securing
+    a seed phrase. There's no bullion
+    to protect, only information.
+    A custody service must protect that 
+    same information while also allowing
+    you access to it, which simply shifts the
+    burden back onto you, adding unecessary complexity
+    and vulnerability.
 
 Bitcoin Self Custody is exactly as hard 
  as learning about the Internet in the 1990s.
@@ -261,4 +269,9 @@ It's new, it's different,
     A redneck with a gun and a coldcard can custody Bitcoin
     with more security than any bank.
 
+---
+
+https://ssd.eff.org/
+
+https://securityinabox.org/en/
 

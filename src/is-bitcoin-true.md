@@ -16,7 +16,7 @@ Bitcoin was specifically designed to
  fix the problem of fiat money, 
  the problem of politics and money, 
  the single biggest social and economic problem
- burdening human civilizations throughout
+ burdening human civilization throughout
  history.
 
 The implications of fiat money run deep, 
@@ -174,6 +174,7 @@ It is
  a cryptographic ledger
  designed to prevent any and all
  centralized control of money;
+ it requires voluntary participation;
  it is designed
  such that no one can or will control the
  [monetary policy](bitcoin-as-money/monetary-policy.md).
@@ -181,7 +182,8 @@ As a consequence of its design,
  it is slow and less efficient than
  what a non-corrupt centralized system could
  achieve. It is only superior to corrupt
- dishonest systems.
+ dishonest systems
+ (because it fixes the bad-actor problem).
 
 If Bitcoin is true it would mean that
  the problems of fiat money are 
@@ -196,7 +198,7 @@ It would mean our entire system is built on lies,
  unknowingly
  destroying civilization in the process.
 
-And it means that we are part of this lie.
+And it means that we are participants of this lie.
 
 For Americans it means Nixon was worse than 
  liberals believe, and that
@@ -271,7 +273,7 @@ This oft-repeated quote struck me as
  realpolitik of life.
 
 And yet, if what is claimed about Bitcoin is
- true, then it *should* fix
+ true, then it *could* fix
  the damaging effects of inflationary money.
  If the supply is truly scarce, 
  now and in the future; 
@@ -296,7 +298,7 @@ And yet, Bitcoin assumes the opposite, that no one
 
 The entire design of Bitcoin is a trustless system
  that assumes no one is honest. No one.
-You verify everything.
+You must verify everything.
 If there's something we can't verify, then trust
  is required, in which case we're back to fiat,
  back to the very problem that Bitcoin is trying to solve.
@@ -330,7 +332,7 @@ In all cases they are attempting to become
  fiat money, granting seigniorage to
  their own founders.
 Bitcoin is in a category all its own,
- a digital and scarce resource,
+ a scarce digital resource,
  a superior money.
 
 If Bitcoin is true, then it wins in the end,
@@ -394,8 +396,8 @@ This is a polite way of saying
  play God through vain attempts
  at controlling money.
  But this also means, for Bitcoin to be true,
- it must succed as *energy money*,
- the catalyst to advance civilization.
+ it must succeed as *energy money*,
+ the catalyst to advance our civilization.
 
 All Bitcoin would have to do is work. 
  Every day that it works is a day that it has

@@ -10,10 +10,10 @@ Money stores value through time,
 We will examine Bitcoin as money, that is,
  *how does Bitcoin perform as money?*
 
-For if Bitcoin is true, it must be a superior
+For if Bitcoin is true, it must be a de-facto superior
  money to fiat, as well as to all the systems
  of control that Bitcoin aims to replace.
 It must be so superior that it's ascent is
  only a matter of when and not if, that is
- the only way Bitcoin can be considered *true*.
+ the only way Bitcoin could be considered *true*.
 
