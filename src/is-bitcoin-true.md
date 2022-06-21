@@ -78,7 +78,7 @@ Money operates as a measure of value,
 
 This simple and subjective sense of value
  is all that money is and ever will be.
-It can be thought of as a technology,
+It is best understood as a technology,
  such that good money will be more efficient
  than bad money. 
 It can be strong money with
@@ -95,15 +95,16 @@ Inflationary money
  is simply worth more now than it will be 
  in the future.
 
-Worse still, fiat money is inflationary by the whims
+Worse, fiat money is inflationary at the whims
  of those who control the money supply. There is a
  reason janitors have less purchasing power than 
  ever before. And it's not because a wealthy
  person controlled this outcome.
-If you are janitor earning fiat money, you will work harder
+If you are janitor earning fiat money,
+ you will work harder
  and harder, but you will earn 
  [less and less value over time](https://wtfhappenedin1971.com/).
- And that amount of value will be gained by those known as 
+ And that amount of lost value will be gained by those known as 
  cantilion insiders, 
  those close to the money supply, those
  who benefit from increases in the money supply,
@@ -112,7 +113,7 @@ If you are janitor earning fiat money, you will work harder
 Ironically, an art collector's salary
  will also lose value over time,
  just like the janitor.
- However, assets, such as real-estate
+However, assets, such as real-estate
  *and art* will increase in value. 
 Inflating the money supply
  doesn't just drive up prices of consumer goods,
@@ -122,7 +123,7 @@ Inflating the money supply
 And if you dig deep enough, you'll find
  that most art collectors don't actually
  earn a salary,
- never have earned a salary,
+ have never earned a salary,
  and that their wealth is not
  stored in cash.
 
@@ -198,7 +199,7 @@ It would mean our entire system is built on lies,
  unknowingly
  destroying civilization in the process.
 
-And it means that we are participants of this lie.
+And it means that we are participants in this lie.
 
 For Americans it means Nixon was worse than 
  liberals believe, and that
@@ -207,7 +208,8 @@ For Americans it means Nixon was worse than
  and that our political parties are nothing
  but the coordinators of this propaganda.
 And not by design but as consequences
- of the fiat system itself.
+ of the fiat system itself;
+ the broken incentives and their consequences.
  Such a system will do anything to
  discourage you from ever discovering,
 > *where does money come from?*
@@ -223,7 +225,7 @@ This is a lot to take in for even a cynical person.
  parasitic sociopaths that know
  not what they do.
 
-It's tempting to believe their lies, either that
+It's tempting to believe the lies, either that
  *they* don't exist (it's all just a conspiracy theory)
  or to believe *they* are competent enough to
  actually control money.
@@ -284,7 +286,8 @@ And yet, if what is claimed about Bitcoin is
  fix many of the problems
  of fiat money.
 
-But like I said, that all seems to be too good true.
+But like I said, that all seems
+ too good to be true.
 Like trying to contemplate what life would
  be like if people were always honest and 
  forthright; if everyone was kind, humble,
@@ -385,6 +388,11 @@ This is the challenge of our generation,
  of our civilization
  that does
  not point back to fiat money.
+We cannot solve environmental crises,
+ health crises, or any of the problems
+ in education or politics,
+ without fist fixing the broken incentives
+ that caused those problems to begin with.
 
 Bitcoin has been referred to as *energy money*,
  one of the 
@@ -392,7 +400,7 @@ Bitcoin has been referred to as *energy money*,
  of civilization.
 This is a polite way of saying
  that civilization cannot advance when
- parasitic bureaucrats attempt to
+ parasitic bureaucrats
  play God through vain attempts
  at controlling money.
  But this also means, for Bitcoin to be true,
@@ -409,3 +417,6 @@ We can dare to hope;
  form of energy money that redeems
  civilization.
 
+The stakes are higher than we can imagine, 
+ and what happens is up to us.
+This is our moment.
