@@ -22,11 +22,12 @@ Bitcoin was designed to
 You may have gotten into Bitcoin as
  an investment;
  a high-risk and volatile investment;
- an investment in the best performing asset of all time.
- And yet, Bitcoin was
+ an investment into the best performing
+ asset of all time.
+And yet, Bitcoin was
  not designed to be an investment.
 Bitcoin was designed to be money,
- sound money that can fix the problem
+ sound money that can fix the problems
  of fiat money -- it is in this regard
  that we ask: *is Bitcoin true?*
 
