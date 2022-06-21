@@ -12,10 +12,10 @@ Bitcoin
 
 ## The problem of fiat money
 
-Bitcoin was specifically designed to
+Bitcoin was designed to
  fix the problem of fiat money, 
  which is the problem of politics and money, 
- the incessant problem that has
+ an incessant problem that has
  burdened human civilization throughout
  history.
 
