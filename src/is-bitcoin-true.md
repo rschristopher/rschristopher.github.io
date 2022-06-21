@@ -404,7 +404,7 @@ This is the challenge of our generation,
 We cannot solve environmental crises,
  health crises, or any of the problems
  in education or politics,
- without fist fixing the broken incentives
+ without fixing the broken incentives
  that caused those problems to begin with.
 
 Bitcoin has been referred to as *energy money*,
