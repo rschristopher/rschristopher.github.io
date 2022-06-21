@@ -21,11 +21,11 @@ Bitcoin was designed to
 
 You may have gotten into Bitcoin as
  an investment;
- a high-risk volatile investment;
+ a high-risk and volatile investment;
  an investment in the best performing asset of all time.
- And yet, Bitcoin is
+ And yet, Bitcoin was
  not designed to be an investment.
-Bitcoin is designed to be money,
+Bitcoin was designed to be money,
  sound money that can fix the problem
  of fiat money -- it is in this regard
  that we ask: *is Bitcoin true?*
