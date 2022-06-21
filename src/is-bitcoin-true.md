@@ -7,16 +7,16 @@ One of my earliest reactions to a deep dive
 
 Bitcoin
  -- *if it is true* --
- fixes not just modern art, but
- fixes the problem of fiat money.
+ fixes modern art, and all of
+ the problems of fiat money.
 
 ## The problem of fiat money
 
 Bitcoin was specifically designed to
  fix the problem of fiat money, 
  the problem of politics and money, 
- the biggest problem
- burdening human civilization throughout
+ the incessant problem that has
+ burdened human civilization throughout
  history.
 
 You may have gotten into Bitcoin as
@@ -134,7 +134,7 @@ And if you dig deep enough, you'll find
  and that their wealth is not
  stored in cash.
 
-Political solultions make the problems worse,
+Political solultions make the problem worse,
  and over time those controlling the money
  supply use their ill-gotten gains (known as *seigniorage*)
  to control the politics (regardless of the system),
