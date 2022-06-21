@@ -1,5 +1,17 @@
 # Bitcoin as Money
 
+Let's examine Bitcoin as money, that is,
+ *how does Bitcoin perform as money?*
+
+If Bitcoin is true, it must be a de-facto superior
+ money to the USD, as well as to all the fiat money
+ that Bitcoin aims to replace.
+It must be so superior that it's ascent is
+ only a matter of when and not if, that is
+ the only way Bitcoin could be considered *true*.
+
+---
+
 Money is the technology that makes known the
  ever-changing perspectives of value of every
  human being on earth.
@@ -20,13 +32,14 @@ Wars were fought over gold,
  gold over time, it would hold its value.
 Nations rose and fell,
  civilization rose and fell,
- while gold held its value.
+ and gold held its value.
 
 Today, the world operates on a quasi-global
  currency known as the USD, or more aptly,
  the *petrodollar*.
 It began in 
  [1971](https://wtfhappenedin1971.com/),
+ supplanted all remnants of the gold standard,
  and is the most advanced monetary technology
  to have ever existed, up until Bitcoin.
 
@@ -37,9 +50,9 @@ For all its faults,
 Almost anywhere on earth you go,
  you can probably find an ATM that will 
  allow you to withdraw the local currency
- at an exchange rate that benefits both banks.
+ (at an exchange rate that benefits both banks).
 
-Despite the problems of fiat money,
+Despite the many problems of fiat money,
  this technology was itself revolutionary,
  allowing decades of economic growth
  on a global scale.
@@ -63,22 +76,9 @@ Likewise, if the US government was to collapse,
  so too would the petrodollar.
 This is what it means to be the *global reserve currency*.
 
-Unlike gold and silver, the current global money
+Unlike gold and silver, the petrodollar
  depends entirely on the US government, the US Treasury,
  the Federal Reserve, the US military, the Saudi government,
- and the stable relationship between the US and the Saudis.
+ and a stable relationship between the US and the Saudis.
 
-
----
-
-
-We will examine Bitcoin as money, that is,
- *how does Bitcoin perform as money?*
-
-For if Bitcoin is true, it must be a de-facto superior
- money to the petrodollar, as well as to all the fiat systems
- of control that Bitcoin aims to replace.
-It must be so superior that it's ascent is
- only a matter of when and not if, that is
- the only way Bitcoin could be considered *true*.
 

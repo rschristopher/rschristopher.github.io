@@ -53,7 +53,7 @@ Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
  (inflationary fiat currency can make no such claim).
 
-!!! info "e.g., this was $100, which is $107 adjusted by CPI, but right now it's $315 because of *actual* inflation."
+!!! info "this was $1, which is $1.07 adjusted by CPI, but right now it's $3.15 because of *actual* inflation."
 
 ---
 
@@ -71,7 +71,7 @@ On one hand this presents similar
  that we see with inflationary
  money,
 
-!!! info "e.g., my house was 12 Bitcoin in 2019, which is now the price of the entire neighborhood."
+!!! info "my house was 12 Bitcoin in 2019, which is now the price of the entire neighborhood."
 
 The key difference is that any amount of Bitcoin
  is an exact fraction of all the Bitcoin that
@@ -79,7 +79,8 @@ The key difference is that any amount of Bitcoin
  1 out of 21-million, always.
 
 It's like using real-estate as a unit of account,
- except it's fungible and the value won't go down
+ except it's fungible, infinitely divisible,
+ and the value won't go down
  because of bad schools in your neighborhood.
 
 As Bitcoin adoption increases, 
@@ -94,13 +95,13 @@ Price signals in fiat are very messy, but they
  is difficult for Bitcoiners, as it should be
  with money that operates well.
 
-However, there is a pesky *unit bias*,
- in addition to having
+However, there is a pesky *unit bias*.
+In addition to having
  trouble understanding "billions of dollars",
  we have a similar difficulty understanding
  fractions,
 
-!!! info "e.g., this costs 0.00000190 Bitcoin"
+!!! info "this costs 0.00000190 Bitcoin"
 
 
 ---
@@ -108,17 +109,17 @@ However, there is a pesky *unit bias*,
 
 ## Sats as the Standard
 
-There are exactly 100 million Satoshis *or Sats* in a Bitcoin.
+There are exactly 100 million Satoshis, *or Sats*, in a Bitcoin.
 This is the smallest unit on the timechain.
-This isn't the smallest possible unit;
+This is not the smallest possible unit;
  one could use
  millisats or picosats. 
-There is no end to the divisibility
+In fact, there is no end to the divisibility
  of Bitcoin.
 
 That said -- if Bitcoin is true -- then Sats is the standard.
 
-!!! info "e.g., this costs 190 Sats"
+!!! info "this costs 190 Sats"
 
 ---
 
@@ -139,8 +140,8 @@ When the BTCUSD price reaches a million, then the
  But as the global economy grows, the 100-Sat Shoppe
  would offer higher end goods, or bulk quantities
  of lower end goods, all to justify 100 Sats;
- eventually the Sat Shoppe opens where everything is
- 1 Sat *and 1 Sat only*.
+ eventually a Sat Shoppe opens where everything is
+ only 1 Sat.
 
 And even then, as the economy
  continued to grow,

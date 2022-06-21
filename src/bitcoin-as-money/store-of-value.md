@@ -24,10 +24,13 @@ Simply put, fiat cannot function as
  People under fiat money cannot store
  wealth in their money, so they seek
  to preserve wealth through other
- means, typically investing.
+ means, typically mal-investing
+ (investing in index funds not as a priced risk,
+ but as a way to store value).
 
 
 Bitcoin as a store of value is plainly superior.
  Over time it will gain value, and it can be 
  transferred through every nation on earth
  unmolested.
+
