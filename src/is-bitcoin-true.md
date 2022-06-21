@@ -200,7 +200,7 @@ If Bitcoin is true it would mean that
 It would mean our entire system is built on lies, 
  and that
  our leaders are parasitic sociopaths,
- selected by inverted incentives that
+ selected by broken incentives that
  benefit short-term gains at the expense
  of the future,
  unknowingly
