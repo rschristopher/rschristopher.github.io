@@ -15,11 +15,18 @@ Bitcoin
 Bitcoin was specifically designed to
  fix the problem of fiat money, 
  the problem of politics and money, 
- the single biggest social and economic problem
+ the biggest problem
  burdening human civilization throughout
  history.
 
-The implications of fiat money run deep, 
+You may have gotten into Bitcoin as
+ an investment. And yet, Bitcoin is
+ not designed to be an investment.
+Bitcoin is designed to fix the problem
+ of fiat money -- it is in this regard
+ that we ask: *is Bitcoin true?*
+
+The problems of fiat money run deep, 
  beyond the ever-increasing
  price of meat and potatoes -- shaping
  Politics and War,
