@@ -3,26 +3,30 @@
 One of my earliest reactions to a deep dive 
  into Bitcoin, was the thought,
 
-> It also fixes modern art?!
+> Bitcoin fixes modern art?!
 
 Bitcoin
  -- *if it is true* --
- fixes modern art, and all of
- the problems of fiat money.
+ fixes modern art
+ and all of the problems of fiat money.
 
 ## The problem of fiat money
 
 Bitcoin was specifically designed to
  fix the problem of fiat money, 
- the problem of politics and money, 
+ which is the problem of politics and money, 
  the incessant problem that has
  burdened human civilization throughout
  history.
 
 You may have gotten into Bitcoin as
- an investment. And yet, Bitcoin is
+ an investment;
+ a high-risk volatile investment;
+ an investment in the best performing asset of all time.
+ And yet, Bitcoin is
  not designed to be an investment.
-Bitcoin is designed to fix the problem
+Bitcoin is designed to be money,
+ sound money that can fix the problem
  of fiat money -- it is in this regard
  that we ask: *is Bitcoin true?*
 
@@ -44,7 +48,7 @@ and yes, even *modern art*.
     [that sold](https://news.artnet.com/art-world/maurizio-cattelan-banana-explained-1732773).
 
     There are many such examples, along with 
-    eye-roll inducing apologetics to explain
+    eye-roll inducing apologetics, such
     that the banana represents a critique of the
     very problems of modern art that everyone
     is criticizing.
@@ -120,7 +124,7 @@ If you are janitor earning fiat money,
 Ironically, an art collector's salary
  will also lose value over time,
  just like the janitor.
-However, assets, such as real-estate
+However, assets such as real-estate
  *and art* will increase in value. 
 Inflating the money supply
  doesn't just drive up prices of consumer goods,
@@ -214,10 +218,11 @@ For Americans it means Nixon was worse than
  It means our media is corrupt propaganda,
  and that our political parties are nothing
  but the coordinators of this propaganda.
-And not by design but as consequences
+And none of this is by design but as a consequence
  of the fiat system itself;
- the broken incentives and their consequences.
- Such a system will do anything to
+ of the broken incentives that reward
+ short-term gains at the expense of civilization.
+Such a system will
  discourage you from ever discovering,
 > *where does money come from?*
 
@@ -234,7 +239,7 @@ This is a lot to take in for even a cynical person.
 
 It's tempting to believe the lies, either that
  *they* don't exist (it's all just a conspiracy theory)
- or to believe *they* are competent enough to
+ or to believe *they* exist and are competent enough to
  actually control money.
 But the terrifying truth is that *they* do exist,
  but are completely incompetent.
@@ -392,7 +397,7 @@ Whether we like it or not, the
 This is the challenge of our generation, 
  for there
  is not a single existential problem
- of our civilization
+ facing our civilization
  that does
  not point back to fiat money.
 We cannot solve environmental crises,
@@ -411,14 +416,14 @@ This is a polite way of saying
  play God through vain attempts
  at controlling money.
  But this also means, for Bitcoin to be true,
- it must succeed as *energy money*,
- the catalyst to advance our civilization.
+ it must succeed as *energy money*;
+ it must be the catalyst to advance our civilization.
 
 All Bitcoin would have to do is work. 
  Every day that it works is a day that it has
  not been proven false.
 We can dare to hope;
- we can look for faults and
+ we can look for
  [criticisms](/criticisms); or
  we can support its ascent as a true
  form of energy money that redeems
