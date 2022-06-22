@@ -364,14 +364,14 @@ Anything less than that would prove
 
 *What if* in our journey to verify *everything*
  we miss something?
- And years later we realize that there
+And years later we realize that there
  was a flaw, something we didn't see at the time,
- but it becomes obvious once it's exploited.
+ but it becomes obvious once exploited.
 
 That's all it would take to prove Bitcoin false
  -- one small counterexample, 
  a flaw that could not be fixed in a soft fork.
- If trust was required,
+If trust was required,
  then that trust could be exploited
  -- and those who
  most effectively violate that trust would
@@ -381,6 +381,8 @@ That's all it would take to prove Bitcoin false
 > *What then?*
 
 Nothing will have been fixed.
+The unsustainable problems of fiat
+ continue in crisis after crisis.
 However, by learning about Bitcoin
  you'll understand money. 
 The chaos of the moderm world will 
@@ -388,24 +390,18 @@ The chaos of the moderm world will
 And you'll realize we needed Bitcoin to be true 
  because there was no alternative.
 
-
----
-
-
 Whether we like it or not, the
  survival of our civilization 
  depends on overcoming the problem of fiat money.
-This is the challenge of our generation, 
- for there
- is not a single existential problem
+This is the challenge of our generation.
+The top existential threats
  facing our civilization
- that does
- not point back to fiat money.
+ all point back to fiat money.
 We cannot solve environmental crises,
  health crises, or any of the problems
- in education or politics,
+ in education or politics, not
  without fixing the broken incentives
- that caused those problems to begin with.
+ that created those problems to begin with.
 
 Bitcoin has been referred to as *energy money*,
  one of the 
@@ -416,20 +412,24 @@ This is a polite way of saying
  parasitic bureaucrats
  play God through vain attempts
  at controlling money.
- But this also means, for Bitcoin to be true,
+But this also means, for Bitcoin to be true,
  it must succeed as *energy money*;
  it must be the catalyst to advance our civilization.
 
 All Bitcoin would have to do is work. 
- Every day that it works is a day that it has
+ Every day that it works is another day 
+ that it has
  not been proven false.
 We can dare to hope;
  we can look for
  [criticisms](/criticisms); or
- we can support its ascent as a true
+ we can support Bitcoin's ascent as a true
  form of energy money that redeems
  civilization.
 
 The stakes are higher than we can imagine, 
- and what happens is up to us.
-This is our moment.
+ and what happens next,
+ for better or worse, is up to us.
+
+
+
