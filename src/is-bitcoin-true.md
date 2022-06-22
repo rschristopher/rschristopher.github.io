@@ -382,8 +382,8 @@ If trust was required,
 
 Nothing will have been fixed.
 The unsustainable problems of fiat
- continue in crisis after crisis.
-However, by learning about Bitcoin
+ would continue in crisis after crisis.
+However, having learned about Bitcoin
  you'll understand money. 
 The chaos of the moderm world will 
  make sense.
