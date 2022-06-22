@@ -365,7 +365,7 @@ Anything less than that would prove
 *What if* in our journey to verify *everything*
  we miss something?
 And years later we realize that there
- was a flaw, something we didn't see at the time,
+ was a flaw, something we didn't see,
  but it becomes obvious once exploited.
 
 That's all it would take to prove Bitcoin false
