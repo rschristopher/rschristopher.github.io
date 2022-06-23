@@ -122,7 +122,7 @@ If you are janitor earning fiat money,
  who benefit from increases in the money supply,
  including art collectors.
 
-Ironically, an art collector's salary
+An art collector's salary
  will also lose value over time,
  just like the janitor.
 However, assets such as real-estate
@@ -394,11 +394,12 @@ Whether we like it or not, the
  survival of our civilization 
  depends on overcoming the problem of fiat money.
 This is the challenge of our generation.
-The top existential threats
+The existential threats
  facing our civilization
  all point back to fiat money.
 We cannot solve environmental crises,
- health crises, or any of the problems
+ health crises, meaning crises,
+ or any of the problems
  in education or politics, not
  without fixing the broken incentives
  that created those problems to begin with.
@@ -426,7 +427,6 @@ We can dare to hope;
  we can support Bitcoin's ascent as a true
  form of energy money that redeems
  civilization.
-
 The stakes are higher than we can imagine, 
  and what happens next,
  for better or worse, is up to us.
