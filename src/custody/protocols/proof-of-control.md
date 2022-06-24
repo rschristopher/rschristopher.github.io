@@ -47,6 +47,7 @@ DMZ, Node-1 and Node-2 are on this network,
 ### Create Keys
 
 Create 5+ high-entropy seed phrases
+
 Create metal backups
 
 Transfer master public keys to DMZ
