@@ -1185,9 +1185,108 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Proof-of-Control
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Proof-of-Control
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-keys" class="md-nav__link">
+    Create Keys
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initialize" class="md-nav__link">
+    Initialize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deposit" class="md-nav__link">
+    Deposit
+  </a>
+  
+    <nav class="md-nav" aria-label="Deposit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verify-addresses" class="md-nav__link">
+    Verify addresses
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verify-balance" class="md-nav__link">
+    Verify balance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#withdrawal" class="md-nav__link">
+    Withdrawal
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2067,6 +2166,89 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-keys" class="md-nav__link">
+    Create Keys
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initialize" class="md-nav__link">
+    Initialize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deposit" class="md-nav__link">
+    Deposit
+  </a>
+  
+    <nav class="md-nav" aria-label="Deposit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verify-addresses" class="md-nav__link">
+    Verify addresses
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verify-balance" class="md-nav__link">
+    Verify balance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#withdrawal" class="md-nav__link">
+    Withdrawal
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2080,7 +2262,71 @@
 
 
 <h1 id="proof-of-control-protocol">Proof-of-Control Protocol<a class="headerlink" href="#proof-of-control-protocol" title="Permanent link">&para;</a></h1>
-<p>...</p>
+<p>This is a high-level overview of a Bitcoin
+ cold-storage protocol that can be setup
+ at home.</p>
+<details open="open">
+<summary>Who is this good for?</summary>
+<p>Advanced users looking for a
+robust self custody solution that
+maximizes security.</p>
+</details>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<p>2+ distinct air-gapped devices</p>
+<p>1+ full-node, mynode, umbrel</p>
+<p>1 DMZ computer, no Internet access</p>
+<p>1 secure Internet computer </p>
+<p>1 secure Ethernet router</p>
+<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
+<p>Signer-1
+Signer-2</p>
+<p>Node-1
+Node-2</p>
+<p>DMZ</p>
+<p>PC</p>
+<p>Wired Ethernet router with no Internet,
+ private network access only.</p>
+<p>DMZ, Node-1 and Node-2 are on this network,
+ Node-1 and Node-2 have limited access over Tor</p>
+<h3 id="create-keys">Create Keys<a class="headerlink" href="#create-keys" title="Permanent link">&para;</a></h3>
+<p>Create 5+ high-entropy seed phrases
+Create metal backups</p>
+<p>Transfer master public keys to DMZ</p>
+<p>Generate 2/3, 3/5, etc, multisig
+ ... using Signer-1 and Signer-2</p>
+<p>Transfer multisig master public keys to DMZ</p>
+<h3 id="initialize">Initialize<a class="headerlink" href="#initialize" title="Permanent link">&para;</a></h3>
+<p>Deposit small amount on each singl-sig.</p>
+<p>Withdraw to multisig, for each single-sig </p>
+<p>Withdraw back to single-sig, for each multi-sig</p>
+<p>All wallets have received and sent.</p>
+<p>Single-sig stores the small amounts, 
+ and can be used under duress </p>
+<p>Large deposits will go to multi-sig,
+ and can only be accessed by using
+ both signing devices and the DMZ</p>
+<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
+<p>Master Public Key is available on the DMZ,
+ where verified receive addresses can be 
+ transmitted to the Internet connected device.</p>
+<h3 id="verify-addresses">Verify addresses<a class="headerlink" href="#verify-addresses" title="Permanent link">&para;</a></h3>
+<p>Only verified receive addresses should be used.</p>
+<p>Check first, middle, and final characters.
+Compare Signer-1 and Signer-2 addresses, then
+ compare to DMZ addresses.</p>
+<p>Transfer batch of verified receive addresses
+ to PC, and remember to only use once.</p>
+<h3 id="verify-balance">Verify balance<a class="headerlink" href="#verify-balance" title="Permanent link">&para;</a></h3>
+<p>Check the balance on the DMZ to Node-1</p>
+<h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
+<p>Use DMZ to generate transaction, 
+ copy unsigned transaction to Signer-1</p>
+<p>Sign transaction with relevant wallets,
+ then copy partially signed transaction
+ to Signer-2 </p>
+<p>Sign transaction with relevant wallets,
+ then copy signed transaction to DMZ</p>
 
               
             </article>
