@@ -1,4 +1,4 @@
-# Simple Protocol
+# Level-1 Secure Protocol
 
 This is a high-level overview of a Bitcoin
  cold-storage protocol that can be setup
@@ -8,6 +8,11 @@ This is a high-level overview of a Bitcoin
     Anyone looking for an easy
     self custody solution that
     is more secure than any bank.
+
+    This protocol offers a balanced
+    approach that is easy to use
+    without compromising security.
+
 
 
 ## Setup
