@@ -80,9 +80,10 @@ nav:
           - Mnemonic Memorization: custody/securing-keys/memorization.md
         - Protocols:
           - custody/protocols/index.md
-          - Glacier: custody/protocols/glacier.md
+          - Simple: custody/protocols/simple.md
           - Proof-of-Control: custody/protocols/proof-of-control.md
-          - Custom Self-Custody: custody/protocols/custom.md
+          - Glacier: custody/protocols/glacier.md
+          - Custom Protocol: custody/protocols/custom.md
         - Advanced:
           - Blockchain Analytics: custody/advanced/blockchain-analytics.md
           - Keyless Vault and Covenant: custody/advanced/keyless-vaults.md
