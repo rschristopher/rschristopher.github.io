@@ -1134,6 +1134,8 @@
         
           
         
+          
+        
       
       
         
@@ -1162,8 +1164,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../glacier/" class="md-nav__link">
-        Glacier
+      <a href="../simple.md" class="md-nav__link">
+        Simple
       </a>
     </li>
   
@@ -1218,29 +1220,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    Prerequisites
+  <a href="#seed-creation" class="md-nav__link">
+    Seed Creation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#create-keys" class="md-nav__link">
-    Create Keys
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#initialize" class="md-nav__link">
-    Initialize
+  <a href="#address-verification" class="md-nav__link">
+    Address Verification
   </a>
   
 </li>
@@ -1257,13 +1245,6 @@
   
     <nav class="md-nav" aria-label="Deposit">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#verify-addresses" class="md-nav__link">
-    Verify addresses
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#verify-balance" class="md-nav__link">
@@ -1299,8 +1280,22 @@
   
   
     <li class="md-nav__item">
+      <a href="../glacier/" class="md-nav__link">
+        Glacier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../custom/" class="md-nav__link">
-        Custom Self-Custody
+        Custom Protocol
       </a>
     </li>
   
@@ -2181,29 +2176,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    Prerequisites
+  <a href="#seed-creation" class="md-nav__link">
+    Seed Creation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#create-keys" class="md-nav__link">
-    Create Keys
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#initialize" class="md-nav__link">
-    Initialize
+  <a href="#address-verification" class="md-nav__link">
+    Address Verification
   </a>
   
 </li>
@@ -2220,13 +2201,6 @@
   
     <nav class="md-nav" aria-label="Deposit">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#verify-addresses" class="md-nav__link">
-    Verify addresses
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#verify-balance" class="md-nav__link">
@@ -2265,20 +2239,23 @@
 <p>This is a high-level overview of a Bitcoin
  cold-storage protocol that can be setup
  at home.</p>
-<details open="open">
+<details class="info" open="open">
 <summary>Who is this good for?</summary>
 <p>Advanced users looking for a
 robust self custody solution that
 maximizes security.</p>
 </details>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<details class="check" open="open">
+<summary>Prerequisites</summary>
 <p>2+ distinct air-gapped devices</p>
 <p>1+ full-node, mynode, umbrel</p>
 <p>1 DMZ computer, no Internet access</p>
 <p>1 secure Internet computer </p>
 <p>1 secure Ethernet router</p>
-<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
+</details>
+<details class="check" open="open">
+<summary>Installation</summary>
 <p>Signer-1
 Signer-2</p>
 <p>Node-1
@@ -2286,17 +2263,22 @@ Node-2</p>
 <p>DMZ</p>
 <p>PC</p>
 <p>Wired Ethernet router with no Internet,
- private network access only.</p>
+private network access only.</p>
 <p>DMZ, Node-1 and Node-2 are on this network,
  Node-1 and Node-2 have limited access over Tor</p>
-<h3 id="create-keys">Create Keys<a class="headerlink" href="#create-keys" title="Permanent link">&para;</a></h3>
+</details>
+<h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
+<details class="danger" open="open">
+<summary>Create Keys</summary>
 <p>Create 5+ high-entropy seed phrases</p>
 <p>Create metal backups</p>
 <p>Transfer master public keys to DMZ</p>
 <p>Generate 2/3, 3/5, etc, multisig
  ... using Signer-1 and Signer-2</p>
 <p>Transfer multisig master public keys to DMZ</p>
-<h3 id="initialize">Initialize<a class="headerlink" href="#initialize" title="Permanent link">&para;</a></h3>
+</details>
+<details class="danger" open="open">
+<summary>Proof of Control</summary>
 <p>Deposit small amount on each singl-sig.</p>
 <p>Withdraw to multisig, for each single-sig </p>
 <p>Withdraw back to single-sig, for each multi-sig</p>
@@ -2306,17 +2288,19 @@ Node-2</p>
 <p>Large deposits will go to multi-sig,
  and can only be accessed by using
  both signing devices and the DMZ</p>
-<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
-<p>Master Public Key is available on the DMZ,
- where verified receive addresses can be 
- transmitted to the Internet connected device.</p>
-<h3 id="verify-addresses">Verify addresses<a class="headerlink" href="#verify-addresses" title="Permanent link">&para;</a></h3>
+</details>
+<h3 id="address-verification">Address Verification<a class="headerlink" href="#address-verification" title="Permanent link">&para;</a></h3>
 <p>Only verified receive addresses should be used.</p>
 <p>Check first, middle, and final characters.
 Compare Signer-1 and Signer-2 addresses, then
  compare to DMZ addresses.</p>
 <p>Transfer batch of verified receive addresses
- to PC, and remember to only use once.</p>
+ to PC.
+Each address can be used only once!</p>
+<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
+<p>Master Public Key is available on the DMZ,
+ where verified receive addresses can be 
+ transmitted to the Internet connected device.</p>
 <h3 id="verify-balance">Verify balance<a class="headerlink" href="#verify-balance" title="Permanent link">&para;</a></h3>
 <p>Check the balance on the DMZ to Node-1</p>
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
@@ -2345,7 +2329,7 @@ Compare Signer-1 and Signer-2 addresses, then
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../glacier/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Glacier" rel="prev">
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Protocols" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -2354,20 +2338,20 @@ Compare Signer-1 and Signer-2 addresses, then
               <span class="md-footer__direction">
                 Previous
               </span>
-              Glacier
+              Protocols
             </div>
           </div>
         </a>
       
       
         
-        <a href="../custom/" class="md-footer__link md-footer__link--next" aria-label="Next: Custom Self-Custody" rel="next">
+        <a href="../glacier/" class="md-footer__link md-footer__link--next" aria-label="Next: Glacier" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Custom Self-Custody
+              Glacier
             </div>
           </div>
           <div class="md-footer__button md-icon">
