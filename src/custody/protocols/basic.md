@@ -1,49 +1,57 @@
-# Custom Security Protocol
+# Basic Security Protocol
 
 
 ???+ info "Who is this good for?"
-    Anyone wanting a custom
+    Anyone looking for a basic
     self custody solution that
-    maximizes security based
-    on their own personal needs.
+    offers more security than any bank.
+
+    This protocol offers a balanced
+    approach that is easy to use
+    without compromising security or privacy (unlike your bank).
+
 
 
 ## Setup
 
 ???+ check "Prerequisites"
-    1 coldcard
-
-    1 air-gapped device with camera
+    1 coldcard (or air-gapped device)
 
     1 micro SD card
 
     1 USB card loaded with Tails OS (Electrum persisted)
     
-    1 laptop with wifi (that can be booted with Tails OS)
+    1 laptop (that can be booted with Tails OS)
 
-    
+
 ???+ check "Setup Coldcard"
     ...
 
-???+ check "Setup air-gapped device"
-    ...
 
 ???+ check "Setup Tails"
-    ...
+    Electrum persisted
 
+    Create "hot-wallet"
 
+    
 
 ### Seed Creation
 
 ???+ danger "Create Keys"
-    ...
+    Dice rolls to ensure 256-bits of entropy
 
 
 
 ### Proof of Control
 
 ???+ danger "Proof of Control"
-    ...
+    Deposit to coldcard
+
+    Withdrawal from coldcard to hot-wallet
+
+    Deposit back to coldcard
+
+    Hot and cold wallets have now received and sent.
 
 
 
@@ -84,7 +92,7 @@ Boot Tails, open Electrum,
 Insert secure micro SD card into your computer running Tails,
  write unsigned transaction (PSBT) to card
 
-Insert secure micro SD card into Coldcard
+Insert secure micro SD card into Coldcard,
  sign transaction
 
 Insert secure micro SD card into your computer running Tails,

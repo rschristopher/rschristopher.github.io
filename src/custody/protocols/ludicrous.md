@@ -1,27 +1,24 @@
-# Proof-of-Control Protocol
-
-This is a high-level overview of a Bitcoin
- cold-storage protocol that can be setup
- at home.
+# Ludicrous Security Protocol
 
 ???+ info "Who is this good for?"
-    Advanced users looking for a
-    robust self custody solution that
-    maximizes security.
+    Advanced users looking for the most
+    robust self custody solution possible.
 
 
 ## Setup
 
 ???+ check "Prerequisites"
     2+ distinct air-gapped devices
+
+    1 USB card loaded with Tails OS
     
     1+ full-node, mynode, umbrel
     
-    1 DMZ computer, no Internet access
+    1+ DMZ computer, no Internet access
     
-    1 secure Internet computer 
+    1+ secure Internet computer 
     
-    1 secure Ethernet router
+    1+ secure Ethernet router
 
 
 ???+ check "Installation"
@@ -32,9 +29,9 @@ This is a high-level overview of a Bitcoin
     Node-1
     Node-2
     
-    DMZ
+    DMZ-1
     
-    PC
+    PC-1
     
     Wired Ethernet router with no Internet,
     private network access only.
@@ -50,13 +47,17 @@ This is a high-level overview of a Bitcoin
     
     Create metal backups
     
-    Transfer master public keys to DMZ
+    Transfer master public keys to DMZ-1
     
-    Generate 2/3, 3/5, etc, multisig
+    Generate 3/5, etc, multisig
      ... using Signer-1 and Signer-2
+     ... verify entropy bits on Signer-1 and Signer-2
     
-    Transfer multisig master public keys to DMZ
+    Transfer multisig master public keys to DMZ-1
 
+
+
+### Proof of Control
 
 ???+ danger "Proof of Control"
     Deposit small amount on each singl-sig.
@@ -73,6 +74,10 @@ This is a high-level overview of a Bitcoin
     Large deposits will go to multi-sig,
      and can only be accessed by using
      both signing devices and the DMZ
+
+
+
+
 
 
 ### Address Verification
@@ -95,14 +100,14 @@ Master Public Key is available on the DMZ,
  transmitted to the Internet connected device.
 
 
-### Verify balance
+## Verify balance
 
-Check the balance on the DMZ to Node-1
+Check the balance on DMZ-1 to Node-1
 
 
 ## Withdrawal 
 
-Use DMZ to generate transaction, 
+Use DMZ-1 to generate transaction, 
  copy unsigned transaction to Signer-1
 
 Sign transaction with relevant wallets,
@@ -110,7 +115,7 @@ Sign transaction with relevant wallets,
  to Signer-2 
 
 Sign transaction with relevant wallets,
- then copy signed transaction to DMZ
+ then copy signed transaction back to DMZ-1
 
 
 

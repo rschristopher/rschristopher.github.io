@@ -63,8 +63,6 @@ nav:
         - Wallets and Keys and UTXOs: custody/wallets-and-keys.md
         - Creating Keys: 
           - custody/creating-keys/index.md
-          - Command Line: custody/creating-keys/cli.md
-          - Airgapped Computer: custody/creating-keys/airgapped-computer.md
           - Using Dice: custody/creating-keys/dice.md
           - Dice and Paper: custody/creating-keys/dice-and-paper.md
           - Dice and Computer: custody/creating-keys/dice-and-computer.md
@@ -75,15 +73,17 @@ nav:
           - Signing Transactions: custody/using-keys/signing-transactions.md
         - Securing Keys:
           - custody/securing-keys/index.md
+          - Airgapped Computer: custody/securing-keys/airgapped-computer.md
           - Bare Metal: custody/securing-keys/bare-metal.md
           - Hardware Wallets: custody/securing-keys/hardware-wallets.md
           - Mnemonic Memorization: custody/securing-keys/memorization.md
         - Protocols:
           - custody/protocols/index.md
-          - Simple: custody/protocols/simple.md
-          - Proof-of-Control: custody/protocols/proof-of-control.md
-          - Glacier: custody/protocols/glacier.md
-          - Custom Protocol: custody/protocols/custom.md
+          - Glacier Overview: custody/protocols/glacier.md
+          - Basic: custody/protocols/basic.md
+          - Ridiculous: custody/protocols/ridiculous.md
+          - Ludicrous: custody/protocols/ludicrous.md
+          - Custom: custody/protocols/custom.md
         - Advanced:
           - Blockchain Analytics: custody/advanced/blockchain-analytics.md
           - Keyless Vault and Covenant: custody/advanced/keyless-vaults.md
