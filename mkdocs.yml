@@ -79,7 +79,6 @@ nav:
           - Mnemonic Memorization: custody/securing-keys/memorization.md
         - Protocols:
           - custody/protocols/index.md
-          - Glacier Overview: custody/protocols/glacier.md
           - Basic: custody/protocols/basic.md
           - Ridiculous: custody/protocols/ridiculous.md
           - Ludicrous: custody/protocols/ludicrous.md
