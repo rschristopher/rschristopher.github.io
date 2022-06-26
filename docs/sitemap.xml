@@ -121,16 +121,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/custody/creating-keys/airgapped-computer/</loc>
-         <lastmod>2022-06-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/custody/creating-keys/cli/</loc>
-         <lastmod>2022-06-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://rschristopher.github.io/custody/creating-keys/dice-and-computer/</loc>
          <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
@@ -156,6 +146,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rschristopher.github.io/custody/protocols/basic/</loc>
+         <lastmod>2022-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rschristopher.github.io/custody/protocols/custom/</loc>
          <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
@@ -166,17 +161,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/custody/protocols/proof-of-control/</loc>
+         <loc>https://rschristopher.github.io/custody/protocols/ludicrous/</loc>
          <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/custody/protocols/simple/</loc>
+         <loc>https://rschristopher.github.io/custody/protocols/ridiculous/</loc>
          <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rschristopher.github.io/custody/securing-keys/</loc>
+         <lastmod>2022-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/custody/securing-keys/airgapped-computer/</loc>
          <lastmod>2022-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
