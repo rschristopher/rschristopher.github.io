@@ -4,20 +4,19 @@ Let's examine Bitcoin as money, that is,
  *how does Bitcoin perform as money?*
 
 If Bitcoin is true, it must be a de-facto superior
- money to the USD, as well as to all the fiat money
- that Bitcoin aims to replace.
+ money to USD, as well as to all fiat money.
 It must be so superior that it's ascent is
- only a matter of when and not if, that is
+ only a matter of when and not if -- this is
  the only way Bitcoin could be considered *true*.
 
----
+## Technology of Global Money 
 
 Money is the technology that makes known the
  ever-changing perspectives of value of every
  human being on earth.
-Money stores value through time,
- and can be transported wherever
- humans wish to transact.
+Additionally, money stores value through time,
+ and must be transmissible over large distances,
+ anywhere that humans wish to transact.
 
 There has never been a global money,
  that is, a money that everyone on the
@@ -28,18 +27,20 @@ The closest was gold and silver.
  in most places, provided it was not seized
  or stolen.
 Wars were fought over gold,
- and if you managed to hold your
+ and if you managed to hold onto your
  gold over time, it would hold its value.
 Nations rose and fell,
  civilization rose and fell,
  and gold held its value.
+
+## Petrodollar
 
 Today, the world operates on a quasi-global
  currency known as the USD, or more aptly,
  the *petrodollar*.
 It began in 
  [1971](https://wtfhappenedin1971.com/),
- supplanted all remnants of the gold standard,
+ supplanting all remnants of the gold standard,
  and is the most advanced monetary technology
  to have ever existed, up until Bitcoin.
 
