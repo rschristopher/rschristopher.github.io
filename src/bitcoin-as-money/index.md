@@ -3,35 +3,73 @@
 Let's examine Bitcoin as money, that is,
  *how does Bitcoin perform as money?*
 
-If Bitcoin is true, it must be a de-facto superior
+If Bitcoin is true,
+ it must be a de-facto superior
  money to USD, as well as to all fiat money.
 It must be so superior that it's ascent is
  only a matter of when and not if -- this is
  the only way Bitcoin could be considered *true*.
 
-## Technology of Global Money 
+!!! info "Bitcoin must be so superior as to provide a de-facto global money technology."
+
+## Global Money Technology 
 
 Money is the technology that makes known the
  ever-changing perspectives of value of every
  human being on earth.
-Additionally, money stores value through time,
+Additionally, money must store value over time,
  and must be transmissible over large distances,
  anywhere that humans wish to transact.
 
-There has never been a global money,
+There has never been a true global money,
  that is, a money that everyone on the
  globe agrees on as their 
- [unit of account](unit-of-account.md).
-The closest was gold and silver.
+ [unit of account](unit-of-account.md),
+ [medium of exchange](medium-of-exchange.md), and
+ [store of value](store-of-value.md).
+
+Such a technology has never existed,
+ especially because a global money
+ must be properly 
+ decentralized and uncensorable. 
+Importantly, whoever controls monetary technology,
+ would have power over everyone wishing to
+ transact with that money.
+A global money could only be possible if 
+ no one controlled it.
+
+As such, Bitcoin can only be true if
+ *no one* can control it.
+This means attempts to ban it must fail,
+ as well as attempts to subvert or control
+ its monetary policy.
+
+
+
+## Gold and Silver
+
+The closest to a global money was gold and silver.
  One could travel with gold, and use it
  in most places, provided it was not seized
  or stolen.
+
+A kingdom would fall, but if their coins were in
+ gold, the monetary value of that gold was
+ transmittable elsewhere.
 Wars were fought over gold,
  and if you managed to hold onto your
  gold over time, it would hold its value.
 Nations rose and fell,
  civilization rose and fell,
  and gold held its value.
+
+Unfortunately, gold cannot be transmitted
+ quickly or cheaply over large distances.
+This limitation gives rise to an inevitable
+ system of credits and ledgers,
+ promisory notes, leading to the system
+ we have today.
+
 
 ## Petrodollar
 
