@@ -10,7 +10,6 @@ It must be so superior that it's ascent is
  only a matter of when and not if -- this is
  the only way Bitcoin could be considered *true*.
 
-!!! info "Bitcoin must be so superior as to provide a de-facto global money technology."
 
 ## Global Money Technology 
 
