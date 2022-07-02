@@ -32,14 +32,15 @@ Such a technology has never existed,
  especially because a global money
  must be properly 
  decentralized and uncensorable. 
-Importantly, whoever controls monetary technology,
+Importantly, whoever controls monetary technology
  would have power over everyone wishing to
  transact with that money.
 A global money could only be possible if 
  no one controlled it.
 
 As such, Bitcoin can only be true if
- *no one* can control it.
+ *no one* can control it,
+ or limit who can use it.
 This means attempts to ban it must fail,
  as well as attempts to subvert or control
  its monetary policy.
