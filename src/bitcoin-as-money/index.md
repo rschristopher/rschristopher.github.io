@@ -1,5 +1,11 @@
 # Bitcoin as Money
 
+<!--
+Lord Jesus Christ
+Son of God
+Have mercy on me, a sinner
+-->
+
 Let's examine Bitcoin as money, that is,
  *how does Bitcoin perform as money?*
 
