@@ -61,7 +61,7 @@
 
 ### Proof of Control
 
-???+ danger "Proof of Control"
+???+ warning "Proof of Control"
     Deposit to coldcard
 
     Withdrawal from coldcard to hot-wallet
@@ -74,48 +74,52 @@
 
 ### Address Verification
 
-Boot Tails, open Electrum, view addresses
+???+ warning "Verify Receive Addresses"
+    Boot Tails, open Electrum, view addresses
 
-Turn on Coldcard, Address Explorer
+    Turn on Coldcard, Address Explorer
 
-Compare addresses, they should be identical
+    Compare addresses, they should be identical
 
 
 
 
 ## Deposit 
 
-Boot Tails, open Electrum, receive address
+???+ warning "Deposit Bitcoin"
+    Boot Tails, open Electrum, receive address
 
-Transfer the receive address via QR code,
- even to non-private device (e.g., smartphone)
- if depositing KYC coins from an exchange.
+    Transfer the receive address via QR code,
+    even to non-private device (e.g., smartphone)
+    if depositing KYC coins from an exchange.
 
 
 
 
 ## Verify Balance
 
-Boot Tails, open Electrum, balances
+???+ warning "Verify Balance"
+    Boot Tails, open Electrum, view balances
 
 
 
 
 ## Withdrawal 
 
-Boot Tails, open Electrum,
- create transaction
+???+ warning "Withdraw Bitcoin"
+    Boot Tails, open Electrum,
+    create transaction
 
-Insert secure micro SD card into your computer running Tails,
- write unsigned transaction (PSBT) to card
+    Insert secure micro SD card into your computer running Tails,
+    write unsigned transaction (PSBT) to card
 
-Insert secure micro SD card into Coldcard,
- sign transaction
+    Insert secure micro SD card into Coldcard,
+    sign transaction
 
-Insert secure micro SD card into your computer running Tails,
- load the signed transaction and broadcast.
+    Insert secure micro SD card into your computer running Tails,
+    load the signed transaction and broadcast.
 
-Wait for confirmation.
+    Wait for confirmation.
 
 
 ## Additional Security Concerns
