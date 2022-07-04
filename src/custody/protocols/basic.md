@@ -16,7 +16,7 @@
 ## Setup
 
 
-???+ check "Prerequisites"
+???+ check "Device list"
     1 coldcard (or air-gapped device)
 
     1 micro SD card
@@ -51,16 +51,6 @@
     including smartphones, elsewhere.
 
 
-
-???+ check "Setup Coldcard"
-    ...
-
-
-???+ check "Setup Tails"
-    Electrum persisted
-
-    Create hot wallets
-
     
 
 ### Seed Creation
@@ -94,10 +84,18 @@
 
 
 
-???+ danger "Create Seed Backups"
+???+ warning "Hot-wallets"
+
     *optional*
+
     This step is not strictly required
     but is recommended.
+
+    When you boot Tails OS you can create
+    additional wallets, and while these will
+    be "hot" wallets, these will be far more
+    secure than any wallets you create on
+    your smartphone.
 
 
 
@@ -163,6 +161,7 @@
     load the signed transaction and broadcast.
 
     Wait for confirmation.
+
 
 
 ## Additional Security Concerns
