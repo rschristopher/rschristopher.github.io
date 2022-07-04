@@ -2,13 +2,14 @@
 
 
 ???+ info "Who is this good for?"
-    Anyone looking for a basic
-    self custody solution that
-    offers more security than any bank.
+    Anyone wanting simple 
+    self custody
+    with more security than any bank, ever.
 
-    This protocol offers a balanced
-    approach that is easy to use
-    without compromising security or privacy (unlike your bank).
+    This protocol
+    is easy to use
+    without compromising 
+    security or privacy (unlike your bank).
 
 
 
@@ -39,6 +40,15 @@
 
 ???+ danger "Create Keys"
     Dice rolls to ensure 256-bits of entropy
+
+
+### Seed Backup
+
+???+ danger "Create Metal Backups"
+    *optional*
+    This step is not strictly required
+    but is recommended.
+
 
 
 
