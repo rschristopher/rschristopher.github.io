@@ -2256,7 +2256,7 @@ with more security than any bank, ever.</p>
 <p>1 laptop (that can be booted with Tails OS)</p>
 </details>
 <p><em>Most importantly</em>, you will need
- one private place; a place with no surveillance,
+ a private place; a place with no surveillance,
  no smartphones nor computers;
  a place where no one can see
  what you're doing.</p>
@@ -2267,6 +2267,9 @@ and must be done in complete privacy.
 This means no phones, no Internet,
 and no electronics other than what 
 is specified (e.g., a coldcard).</p>
+<p>This can be as simple as a bathroom
+or a basement, just ensure that you have
+privacy.</p>
 </details>
 <details class="warning" open="open">
 <summary>Be careful</summary>
@@ -2274,7 +2277,7 @@ is specified (e.g., a coldcard).</p>
 access to your Bitcoin wallet 
 and should be handled with caution.</p>
 <p>It is advisable to use the same private
-room as above
+place as above
 and only bring with you the listed devices
 (which may involve Internet access).
 Please leave all other devices,
@@ -2343,13 +2346,19 @@ if depositing KYC coins from an exchange.</p>
 </details>
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
 <details class="warning" open="open">
-<summary>Withdraw Bitcoin</summary>
+<summary>Create Unsigned Transaction</summary>
 <p>Boot Tails, open Electrum,
 create transaction</p>
 <p>Insert secure micro SD card into your computer running Tails,
 write unsigned transaction (PSBT) to card</p>
+</details>
+<details class="danger" open="open">
+<summary>Sign Transaction</summary>
 <p>Insert secure micro SD card into Coldcard,
 sign transaction</p>
+</details>
+<details class="warning" open="open">
+<summary>Broadcast Signed Transaction</summary>
 <p>Insert secure micro SD card into your computer running Tails,
 load the signed transaction and broadcast.</p>
 <p>Wait for confirmation.</p>
