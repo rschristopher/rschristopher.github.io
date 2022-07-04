@@ -26,7 +26,7 @@
     1 laptop (that can be booted with Tails OS)
 
 *Most importantly*, you will need
- one private place; a place with no surveillance,
+ a private place; a place with no surveillance,
  no smartphones nor computers;
  a place where no one can see
  what you're doing.
@@ -38,13 +38,18 @@
     and no electronics other than what 
     is specified (e.g., a coldcard).
 
+    This can be as simple as a bathroom
+    or a basement, just ensure that you have
+    privacy.
+
+
 ???+ warning "Be careful"
     These steps (in orange) involve
     access to your Bitcoin wallet 
     and should be handled with caution.
 
     It is advisable to use the same private
-    room as above
+    place as above
     and only bring with you the listed devices
     (which may involve Internet access).
     Please leave all other devices,
@@ -147,16 +152,20 @@
 
 ## Withdrawal 
 
-???+ warning "Withdraw Bitcoin"
+???+ warning "Create Unsigned Transaction"
     Boot Tails, open Electrum,
     create transaction
 
     Insert secure micro SD card into your computer running Tails,
     write unsigned transaction (PSBT) to card
 
+
+???+ danger "Sign Transaction"
     Insert secure micro SD card into Coldcard,
     sign transaction
 
+
+???+ warning "Broadcast Signed Transaction"
     Insert secure micro SD card into your computer running Tails,
     load the signed transaction and broadcast.
 
