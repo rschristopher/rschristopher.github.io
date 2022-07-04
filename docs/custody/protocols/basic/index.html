@@ -2254,11 +2254,31 @@ with more security than any bank, ever.</p>
 <p>1 micro SD card</p>
 <p>1 USB card loaded with Tails OS (Electrum persisted)</p>
 <p>1 laptop (that can be booted with Tails OS)</p>
-<p><em>Most importantly, you will need
-one private place without any surveillance,
-including mobile phones or computers;
-a place where no one can see
-what you're doing.</em></p>
+</details>
+<p><em>Most importantly</em>, you will need
+ one private place; a place with no surveillance,
+ including mobile phones or computers;
+ a place where no one can see
+ what you're doing.</p>
+<details class="danger" open="open">
+<summary>Must be done in private</summary>
+<p>These steps (in red) involve private keys
+and must be done in complete privacy.
+This means no phones, no Internet,
+and no electronics other than what 
+is specified (e.g., a coldcard).</p>
+</details>
+<details class="warning" open="open">
+<summary>Be careful</summary>
+<p>These steps (in orange) involve
+access to your Bitcoin wallet 
+and should be handled with caution.</p>
+<p>It is advisable to use the same private
+room as above
+and only bring with you the listed devices
+(which will involve Internet access).
+Please leave all other devices,
+including smartphones, elsewhere.</p>
 </details>
 <details class="check" open="open">
 <summary>Setup Coldcard</summary>
@@ -2267,15 +2287,32 @@ what you're doing.</em></p>
 <details class="check" open="open">
 <summary>Setup Tails</summary>
 <p>Electrum persisted</p>
-<p>Create "hot-wallet"</p>
+<p>Create hot wallets</p>
 </details>
 <h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
 <details class="danger" open="open">
-<summary>Create Keys</summary>
-<p>Dice rolls to ensure 256-bits of entropy</p>
+<summary>Create Seed</summary>
+<p>Ensure your smartphone is in another room.</p>
+<p>Ensure there is no Internet connected devices
+in the room with you.</p>
+<p>You will need only the coldcard, and dice.</p>
+<p>... Dice rolls to ensure 256-bits of entropy</p>
+</details>
+<details class="warning" open="open">
+<summary>Master Public Key</summary>
+<p>Ensure your smartphone is in another room.</p>
+<p>Ensure there is no Internet connected devices
+in the room with you, except the laptop.
+Ensure that the laptop is powered off.</p>
+<p>You will need the laptop, coldcard, Micro SD,
+and Tails OS USB</p>
+<p>Power on the coldcard,
+ ... Transfer master public key to Micro SD</p>
+<p>Boot Tails OS,
+... Transfer master public key to Tails</p>
 </details>
 <details class="danger" open="open">
-<summary>Create Metal Backups</summary>
+<summary>Create Seed Backups</summary>
 <p><em>optional</em>
 This step is not strictly required
 but is recommended.</p>
@@ -2284,7 +2321,7 @@ but is recommended.</p>
 <details class="warning" open="open">
 <summary>Proof of Control</summary>
 <p>Deposit to coldcard</p>
-<p>Withdrawal from coldcard to hot-wallet</p>
+<p>Withdrawal from coldcard to a hot-wallet</p>
 <p>Deposit back to coldcard</p>
 <p>Hot and cold wallets have now received and sent.</p>
 </details>
@@ -2328,6 +2365,7 @@ load the signed transaction and broadcast.</p>
 <li>Metal seed backup</li>
 <li>Run a full node</li>
 <li>Coinjoin and other privacy techniques</li>
+<li>Multi-sig </li>
 </ul>
 
               
