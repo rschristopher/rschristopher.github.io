@@ -27,7 +27,7 @@
 
 *Most importantly*, you will need
  one private place; a place with no surveillance,
- including mobile phones or computers;
+ no smartphones nor computers;
  a place where no one can see
  what you're doing.
 
@@ -46,7 +46,7 @@
     It is advisable to use the same private
     room as above
     and only bring with you the listed devices
-    (which will involve Internet access).
+    (which may involve Internet access).
     Please leave all other devices,
     including smartphones, elsewhere.
 
