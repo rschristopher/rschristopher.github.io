@@ -2,18 +2,19 @@
 
 
 ???+ info "Who is this good for?"
-    Anyone wanting simple 
-    self custody
-    with more security than any bank, ever.
-
     This protocol
     is easy to use
     without compromising 
     security or privacy (unlike your bank).
+    It is ideal for
+    anyone wanting simple 
+    self custody
+    with more security than any bank, ever.
 
 
 
 ## Setup
+
 
 ???+ check "Prerequisites"
     1 coldcard (or air-gapped device)
@@ -23,6 +24,11 @@
     1 USB card loaded with Tails OS (Electrum persisted)
     
     1 laptop (that can be booted with Tails OS)
+
+    *Most importantly, you will need
+    one room without any surveillance,
+    including mobile phones or computers.*
+
 
 
 ???+ check "Setup Coldcard"
@@ -42,7 +48,6 @@
     Dice rolls to ensure 256-bits of entropy
 
 
-### Seed Backup
 
 ???+ danger "Create Metal Backups"
     *optional*
@@ -111,3 +116,11 @@ Insert secure micro SD card into your computer running Tails,
 Wait for confirmation.
 
 
+## Additional Security Concerns
+
+You may want to consider enhancing this basic
+ protocol with more advanced techniques.
+
++ Metal seed backup
++ Run a full node
++ 
