@@ -25,11 +25,30 @@
     
     1 laptop (that can be booted with Tails OS)
 
-    *Most importantly, you will need
-    one private place without any surveillance,
-    including mobile phones or computers;
-    a place where no one can see
-    what you're doing.*
+*Most importantly*, you will need
+ one private place; a place with no surveillance,
+ including mobile phones or computers;
+ a place where no one can see
+ what you're doing.
+
+???+ danger "Must be done in private"
+    These steps (in red) involve private keys
+    and must be done in complete privacy.
+    This means no phones, no Internet,
+    and no electronics other than what 
+    is specified (e.g., a coldcard).
+
+???+ warning "Be careful"
+    These steps (in orange) involve
+    access to your Bitcoin wallet 
+    and should be handled with caution.
+
+    It is advisable to use the same private
+    room as above
+    and only bring with you the listed devices
+    (which will involve Internet access).
+    Please leave all other devices,
+    including smartphones, elsewhere.
 
 
 
@@ -40,18 +59,42 @@
 ???+ check "Setup Tails"
     Electrum persisted
 
-    Create "hot-wallet"
+    Create hot wallets
 
     
 
 ### Seed Creation
 
-???+ danger "Create Keys"
-    Dice rolls to ensure 256-bits of entropy
+???+ danger "Create Seed"
+    Ensure your smartphone is in another room.
+
+    Ensure there is no Internet connected devices
+    in the room with you.
+
+    You will need only the coldcard, and dice.
+
+    ... Dice rolls to ensure 256-bits of entropy
+
+
+???+ warning "Master Public Key"
+    Ensure your smartphone is in another room.
+
+    Ensure there is no Internet connected devices
+    in the room with you, except the laptop.
+    Ensure that the laptop is powered off.
+
+    You will need the laptop, coldcard, Micro SD,
+    and Tails OS USB
+
+    Power on the coldcard,
+     ... Transfer master public key to Micro SD
+
+    Boot Tails OS,
+    ... Transfer master public key to Tails
 
 
 
-???+ danger "Create Metal Backups"
+???+ danger "Create Seed Backups"
     *optional*
     This step is not strictly required
     but is recommended.
@@ -64,7 +107,7 @@
 ???+ warning "Proof of Control"
     Deposit to coldcard
 
-    Withdrawal from coldcard to hot-wallet
+    Withdrawal from coldcard to a hot-wallet
 
     Deposit back to coldcard
 
@@ -130,4 +173,5 @@ You may want to consider enhancing this basic
 + Metal seed backup
 + Run a full node
 + Coinjoin and other privacy techniques
++ Multi-sig 
 
