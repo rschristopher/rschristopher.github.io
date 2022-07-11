@@ -35,6 +35,7 @@ There has never been a true global money,
  that is, a money that everyone on the
  globe agrees on as their 
  [unit of account](unit-of-account.md),
+ their
  [medium of exchange](medium-of-exchange.md),
  and as their 
  [store of value](store-of-value.md).
