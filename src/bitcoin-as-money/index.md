@@ -10,10 +10,11 @@ Let's examine Bitcoin as money, that is,
  *how does Bitcoin perform as money?*
 
 > “I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something they can’t stop.”
-> Friedrich Hayek 
+> 
+> ~ Friedrich Hayek 
 
 If Bitcoin is true,
- it must be the *something* they can't stop.
+ it must be the *something* government can't stop.
 It must be a de-facto superior
  money to USD, as well as to all fiat money.
 It must be so superior that it's ascent is
