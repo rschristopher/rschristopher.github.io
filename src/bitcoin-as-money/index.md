@@ -16,7 +16,8 @@ Let's examine Bitcoin as money, that is,
 > ~ Friedrich Hayek 
 
 If Bitcoin is true,
- it must be Hayek's *something* government can't stop.
+ it must be Hayek's *"something"* 
+ that government can't stop.
 It must be a de-facto superior
  money to USD, as well as to all fiat money.
 It must be so superior that it's ascent is
