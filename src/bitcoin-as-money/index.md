@@ -190,9 +190,9 @@ Bitcoin doesn't make them obsolete,
 
 
 Under the gold standard, it wasn't the king
- that gave value to the money, 
+ that gave value to money, 
  it was the gold.
- The monetary value of the gold was 
+ The monetary value of gold was 
  all that mattered.
 Similarly, under a Bitcoin standard,
  Bitcoin is all that will matter,
