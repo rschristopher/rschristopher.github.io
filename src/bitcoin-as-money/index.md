@@ -32,8 +32,8 @@ Additionally, money must store value over time,
  anywhere that humans wish to transact.
 
 There has never been a true global money,
- that is, a money that everyone on the
- globe agrees on as their 
+ that is, a money that everyone
+ agrees on as their 
  [unit of account](unit-of-account.md),
  their
  [medium of exchange](medium-of-exchange.md),
@@ -51,7 +51,7 @@ A global money could only be possible if
  no one controlled it.
 
 As such, Bitcoin can only be true if
- *no one* can control it,
+ *no one* can control
  or limit who can use it.
 This means attempts to ban it must fail,
  as well as attempts to subvert or control
@@ -88,7 +88,8 @@ This limitation gives rise to an inevitable
 
 Today, the world operates on a quasi-global
  currency known as the USD, or more aptly,
- the *petrodollar*.
+ the 
+ [*petrodollar*](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar).
 It began in 
  [1971](https://wtfhappenedin1971.com/),
  supplanting all remnants of the gold standard,
@@ -96,7 +97,9 @@ It began in
  to have ever existed, up until Bitcoin.
 
 For all its faults,
- the *petrodollar* is why you can freely exchange
+ the 
+ [*petrodollar*](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar)
+ is why you can freely exchange
  your USD to Canadian dollars or Euros or Yen
  or Yuan. 
 Almost anywhere on earth you go,
@@ -125,7 +128,7 @@ In other words, if Saudi Arabia should fall,
 Similarly, if the US military was not the de-facto
  dominant power on earth, then the USD would collapse.
 Likewise, if the US government was to collapse, 
- so too would the petrodollar.
+ so too would the petrodollarssystem.
 This is what it means to be the *global reserve currency*.
 
 Unlike gold and silver, the petrodollar
