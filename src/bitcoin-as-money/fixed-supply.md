@@ -27,7 +27,7 @@ For example,
 
 ---
 
-There are two stories here. 
+There gives us two distinct stories. 
 We know the story of the *gold price*.
  Inflationary paper money will inevitably end this way.
 However, there's another story that is often overlooked.
