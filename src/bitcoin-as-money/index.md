@@ -203,14 +203,15 @@ Similarly, under a Bitcoin standard,
 
 In the long arch of history, the fiat system
  was birthed in 1971 although didn't really
- prove itself till years later,
- by the 1980s it was clearly working, 
+ prove itself till years later.
+By the 1980s it was clearly working, 
  and it was uncontested until 2009, 
  until Bitcoin. 
 And in a sly roundabout
  way, Bitcoin has risen into prominence as
  an open source money, poised to supplant
- the USD petrodollar, and with every
+ the USD petrodollar.
+And with every
  decade of it working, it inches
  closer to becoming the money of
  international settlements,
