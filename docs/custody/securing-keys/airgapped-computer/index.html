@@ -550,6 +550,8 @@
         
           
         
+          
+        
       
       
         
@@ -594,6 +596,20 @@
     <li class="md-nav__item">
       <a href="../../../criticisms/environment/" class="md-nav__link">
         Environment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../criticisms/inequality/" class="md-nav__link">
+        Inequality
       </a>
     </li>
   
@@ -1028,9 +1044,107 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Airgapped Computer
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Airgapped Computer
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#diy" class="md-nav__link">
+    DIY
+  </a>
+  
+    <nav class="md-nav" aria-label="DIY">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-psbt" class="md-nav__link">
+    Input: PSBT
+  </a>
+  
+    <nav class="md-nav" aria-label="Input: PSBT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qr-code" class="md-nav__link">
+    QR Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#micro-sd" class="md-nav__link">
+    Micro SD
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-signed-bitcoin-transaction" class="md-nav__link">
+    Output: Signed Bitcoin Transaction
+  </a>
+  
+    <nav class="md-nav" aria-label="Output: Signed Bitcoin Transaction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qr-code_1" class="md-nav__link">
+    QR Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printed-qr-code" class="md-nav__link">
+    Printed QR Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-hand" class="md-nav__link">
+    By Hand
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2165,88 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#diy" class="md-nav__link">
+    DIY
+  </a>
+  
+    <nav class="md-nav" aria-label="DIY">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-psbt" class="md-nav__link">
+    Input: PSBT
+  </a>
+  
+    <nav class="md-nav" aria-label="Input: PSBT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qr-code" class="md-nav__link">
+    QR Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#micro-sd" class="md-nav__link">
+    Micro SD
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-signed-bitcoin-transaction" class="md-nav__link">
+    Output: Signed Bitcoin Transaction
+  </a>
+  
+    <nav class="md-nav" aria-label="Output: Signed Bitcoin Transaction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qr-code_1" class="md-nav__link">
+    QR Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printed-qr-code" class="md-nav__link">
+    Printed QR Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-hand" class="md-nav__link">
+    By Hand
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2070,6 +2266,69 @@
  And this computer must be airgapped and well secured 
  (even if that means destroying everything after you're done).
  This 256-bit number is literally the key to your wealth.</p>
+<h2 id="diy">DIY<a class="headerlink" href="#diy" title="Permanent link">&para;</a></h2>
+<p>You need a computer with no wireless, no bluetooth,
+ no network connectivity of any kind.</p>
+<p>The moment keys are stored on this device 
+ it must never touch any other devices,
+ not even a USB thumb-drive.</p>
+<p>Or rather, the hardware itself should
+ be considered compromised, and any
+ device that touches this or is even
+ in close proximity to this device
+ should be considered a threat.
+Afterall, it doesn't take much to
+ steal a private key or seed phrase.
+It is a small amount of information
+ and our goal is to ensure that
+ this information will never
+ be revealed to anyone other
+ than those we trust to 
+ access our wealth.</p>
+<h3 id="input-psbt">Input: PSBT<a class="headerlink" href="#input-psbt" title="Permanent link">&para;</a></h3>
+<p>https://river.com/learn/terms/p/partially-signed-bitcoin-transaction-psbt/</p>
+<p>BIP-174</p>
+<p>This is the only data that ever needs to 
+ input into our airgapped device.
+And once signed, this is the only output
+ from our device.
+This means we must securely read in a PBST,
+ and securely output a signed transaction.</p>
+<h4 id="qr-code">QR Code<a class="headerlink" href="#qr-code" title="Permanent link">&para;</a></h4>
+<p>You will need a camera to read the QA Code of the PSBT</p>
+<h4 id="micro-sd">Micro SD<a class="headerlink" href="#micro-sd" title="Permanent link">&para;</a></h4>
+<p>Alternatively, and this method is tricky to ensure an airgap,
+ you can copy the PSBT from a MicroSD card or USB thumb drive.</p>
+<p>Importantly, the same device should NOT be used to transfer
+ the signed transaction back to a networked device -- doing
+ so will violate the quarantine.</p>
+<h3 id="output-signed-bitcoin-transaction">Output: Signed Bitcoin Transaction<a class="headerlink" href="#output-signed-bitcoin-transaction" title="Permanent link">&para;</a></h3>
+<p>This is the most sensitive and high-risk part
+ of a Bitcoin transaction, as you must take
+ data from the quarantined device and
+ broadcast it to the Bitcoin network.
+The risk of breaking the airgap quanrantine
+ is highest here.</p>
+<h4 id="qr-code_1">QR Code<a class="headerlink" href="#qr-code_1" title="Permanent link">&para;</a></h4>
+<p>You will need a device with a camera to be in proximity
+ of the airgapped device, this is itself risky, so 
+ precautions must be taken (see protocols)</p>
+<h4 id="printed-qr-code">Printed QR Code<a class="headerlink" href="#printed-qr-code" title="Permanent link">&para;</a></h4>
+<p>If you have a secure printer, one
+ that you know cannot be remotely exploited
+ then you can simply print the QR code 
+ of the signed transaction, and then scan
+ that printed QR code later on
+ any trusted Internet connected device.</p>
+<h4 id="by-hand">By Hand<a class="headerlink" href="#by-hand" title="Permanent link">&para;</a></h4>
+<p>You could opt to physically write down
+ the signed transaction and then read it into
+ an Internet-connected device later.
+This is obviously error prone, and while you 
+ would have minimized the risk of breaking
+ the airgap quarantine,
+ you will have maximized risk of error
+ (including sending your Bitcoin to an unrecoverable address).</p>
 
               
             </article>
