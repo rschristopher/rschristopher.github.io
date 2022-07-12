@@ -107,7 +107,7 @@ Alternatively, and my recommendation,
 | Base-2 (binary)       | 256      | coin tosses                |
 | Base-6                | 100      | dice rolls                 |
 | Base-8 (octal)        |  86      | 8-sided dice rolls         |
-| Base-10 (decimal)     |  78      | *770-Quattuorvigintillion* |
+| Base-10 (decimal)     |  78      | *780-Quattuorvigintillion* |
 | Base-20               |  60      | 20-sided dice rolls        |
 | Base-64               |  43      | I-Ching Hexagrams          |
 | Base-2048             |  24      | seed words                 |

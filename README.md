@@ -9,3 +9,8 @@ by R.S. Christopher
     - 216 days of work, or ~700 hours
         - this is equivalent to acquiring fluency in French
 + Localism
++ air-gapped computer (USB? tails wo/wifi?)
+    - electrum
+    - iancoleman.io/bip39
+    - seed_words
+    - dice roll curses app

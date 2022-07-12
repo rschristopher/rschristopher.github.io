@@ -195,7 +195,7 @@ In practice, I find trying to match the binary extremely difficult.
 If you're like me you can use an old pocket calculator,
  or even better,
  use the secure airgapped computer that you plan to use for
- [Self Custody](../../index.md).
+ [Self Custody](../index.md).
 
 Python makes a wonderful calculator,
 
