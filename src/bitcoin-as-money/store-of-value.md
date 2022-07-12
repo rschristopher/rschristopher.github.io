@@ -9,7 +9,8 @@ This is not because
  than it is as a unit of account,
  no, we first encounter Bitcoin as a
  store of value
- because fiat is simply a terrible
+ because we live under fiat
+ and fiat is simply the worst possible
  store of value (literally losing value over time).
 
 Of all attributes of money, fiat fails
@@ -20,6 +21,11 @@ If you
 If you need to move large amounts of fiat
  from one country to another, it will
  likely be confiscated or unjustly taxed.
+This is because there are many competing
+ fiat currencies and fiat voices (so-to-speak).
+Fiat money is inextricably bound to politics
+ and cultural norms, it is an expression
+ of those who speak it into power.
 
 Simply put, fiat cannot function as 
  a store of value. This is why fine art

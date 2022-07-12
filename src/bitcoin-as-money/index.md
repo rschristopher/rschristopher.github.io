@@ -201,15 +201,18 @@ Similarly, under a Bitcoin standard,
  Bitcoin is all that will matter,
  not its adoption by bureaucrats.
 
-In the long arch of history, the fiat system
- was birthed in 1971 although didn't really
- prove itself till years later.
-By the 1980s it was clearly working, 
+In the long arch of history, the modern fiat system
+ is a mere blip as we transition from gold
+ to true global money.
+This blip of modern fiat was birthed in 1971 
+ although didn't really
+ prove itself till a few years later.
+By the 1980s it was ostensibly working, 
  and it was uncontested until 2009, 
  until Bitcoin. 
 And in a sly roundabout
  way, Bitcoin has risen into prominence as
- an open source money, poised to supplant
+ an open source global money, poised to supplant
  the USD petrodollar.
 And with every
  decade of it working, it inches

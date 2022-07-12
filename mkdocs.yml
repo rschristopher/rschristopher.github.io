@@ -51,6 +51,7 @@ nav:
           - criticisms/index.md
           - Deflation: criticisms/deflation.md
           - Environment: criticisms/environment.md
+          - Inequality: criticisms/inequality.md
           - Scalability: criticisms/scalability.md
           - Turing Incomplete: criticisms/turing-complete.md
           - Quantum Computing: criticisms/quantum-computing.md
