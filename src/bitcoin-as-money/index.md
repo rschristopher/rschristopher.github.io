@@ -81,8 +81,9 @@ An unskilled worker might earn only 25-cents per hour --
  2-ounces of gold per month.
 At today's gold price this works
  out to $22.50/hour.
-Gold-backed money provided a living wage
- to even the lowest paid workers.
+
+*Gold-backed money provided a living wage
+ to even the lowest paid workers.*
 
 ![gold-certificate](/images/1906-gold-certificate.jpg)
 
@@ -162,7 +163,7 @@ Unlike gold and silver, the petrodollar
 
 The design of Bitcoin is to solve the problems
  of fiat money.
-As such, if Bitcoin is truth then
+As such, if Bitcoin is true then
 it will inevitably become the money of international
  settlement, ending the era of fiat money.
 
@@ -209,8 +210,8 @@ In the long arch of history, the fiat system
 And in a sly roundabout
  way, Bitcoin has risen into prominence as
  an open source money, poised to supplant
- the USD petrodollar, and with every year
- and decade of it working, it inches
+ the USD petrodollar, and with every
+ decade of it working, it inches
  closer to becoming the money of
  international settlements,
  the base layer to back all money.
