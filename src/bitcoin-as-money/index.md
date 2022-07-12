@@ -6,11 +6,6 @@ Son of God
 Have mercy on me, a sinner
 -->
 
-Let's examine Bitcoin as money, that is,
- *how does Bitcoin perform as money?*
- Is it sufficiently good as 
- to supplant fiat?
-
 > “I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something they can’t stop.”
 > 
 > ~ Friedrich Hayek 
@@ -32,11 +27,11 @@ Money is the technology that makes known the
  ever-changing perspectives of value of every
  human being on earth.
 Additionally, money must store value over time,
- and it must be transmissible over large distances,
+ and it must be transmittable over large distances,
  anywhere that humans wish to transact.
 
 There has never been a true *global money*,
- that is, a money that everyone
+ that is, a money that everyone on earth
  agrees on as their 
  [unit of account](unit-of-account.md),
  their
@@ -45,11 +40,11 @@ There has never been a true *global money*,
  [store of value](store-of-value.md).
 
 Such a technology has never existed,
- especially because such a global money
+ least of all because such a global money
  must be properly 
  decentralized and uncensorable. 
-Importantly, whoever controls monetary technology
- would have power over everyone wishing to
+Importantly, anyone who controls monetary technology
+ would have power over everyone else wishing to
  transact with that money.
 A global money could only be possible if 
  no one controlled it.
@@ -70,23 +65,36 @@ The closest to a global money was gold and silver.
  in most places, provided it was not seized
  or stolen.
 
-A kingdom would fall, but if their coins were in
+Kingdoms and empires fell,
+ but if their coins were in
  gold, the monetary value of that gold was
- transmittable elsewhere.
+ preserved and spendable elsewhere.
 Wars were fought over gold,
  and if you managed to hold onto your
- gold over time, it would hold its value.
-Nations rose and fell,
- civilization rose and fell,
- and gold held its value.
+ gold, not a paper note but the gold itself,
+ that gold would hold its value over time.
+
+For example,
+ under the gold standard $20-USD was an ounce of gold.
+An unskilled worker might earn only 25-cents per hour --
+ *a mere $40 per month* --
+ 2-ounces of gold per month.
+At today's gold price this works
+ out to $22.50/hour.
+Gold-backed money provided a living wage
+ to even the lowest paid workers.
+
+![gold-certificate](/images/1906-gold-certificate.jpg)
+
 
 Unfortunately, gold cannot be transmitted
  quickly or cheaply over large distances.
 This limitation gives rise to an inevitable
- system of credits and ledgers,
- promisory notes, and fractional reserve,
- leading to the system
- we have today.
+ system of credits and ledgers.
+And then to promisory notes,
+ which will lead to fractional reserve,
+ and stey-by-step to pure fiat;
+ money that is backed by-- *what exactly?*
 
 
 
@@ -97,34 +105,34 @@ Today, the world operates on a quasi-global
  currency known as the USD, or more aptly,
  the 
  [*petrodollar*](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar).
-It began in 
+It began after 
  [1971](https://wtfhappenedin1971.com/),
- supplanting the dying remains of the gold standard,
- and is the most advanced monetary technology
- to have ever existed, up until Bitcoin.
-
+ after a sovereign debt default which
+ ended what was left of the gold standard.
+ 
 For all its faults,
  the 
  [*petrodollar*](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar)
  system is why you can freely exchange
  your USD to Canadian dollars or Euros or Yen
- or Yuan without worrying about gold.
+ or Yuan.
 Almost anywhere on earth you go,
  you can probably find an ATM that will 
  allow you to withdraw the local currency
- (at an exchange rate that benefits both banks).
+ (at a relatively stable exchange rate).
 
 Despite the many problems of fiat money,
  this technology was itself revolutionary,
  allowing decades of economic growth
  on a global scale.
-The dirty secret was that this growth
+The dirty secret was that this economic growth
  hid the seigniorage of central bankers
  that has inadvertantly bankrupted
  every country on earth,
- [strip mining its capital](https://allenfarrington.medium.com/the-capital-strip-mine-ec627e9fe40a),
+ [strip mining capital](https://allenfarrington.medium.com/the-capital-strip-mine-ec627e9fe40a),
  transforming stockpiles of wealth into an unsustainable
- mountain of debt that cannot be contained.
+ mountain of debt that can never be paid back
+ (it is money backed by debt afterall).
 
 This system depends on two critical elements,
 
@@ -134,7 +142,8 @@ This system depends on two critical elements,
 In other words, if Saudi Arabia should fall,
  the USD petrodollar would collapse overnight.
 Similarly, if the US military was not the de-facto
- dominant power on earth, then the USD would collapse.
+ dominant power on earth, then the USD would collapse
+ (hyperinflating against stronger money).
 Likewise, if the US government was to collapse, 
  so too would the USD petrodollar system.
 This bizarre web of dependencies
@@ -151,33 +160,26 @@ Unlike gold and silver, the petrodollar
 
 ## Fiat Interregnum 
 
-The design of Bitcoin is to solve the problem 
+The design of Bitcoin is to solve the problems
  of fiat money.
-As such, Bitcoin must supplant the USD petrodollar
- as the global reserve currency.
-Bitcoin must become the money of international
- settlement, ending the grotesque
- systems that attempt central control, which
- in practice do not control money but instead 
- parasitically feed on wealth.
+As such, if Bitcoin is truth then
+it will inevitably become the money of international
+ settlement, ending the era of fiat money.
 
-Bitcoin need not be adopted by these
- parasitic bureaucrats that imagine themselves
- as in control; for they could or could not
- adopt Bitcoin and it will have
- no effect on the truth of Bitcoin.
+Bitcoin need not be adopted nor even accepted by the
+ fiat bureaucrats;
+ the truth of Bitcoin is not determined by fiat.
 For Bitcoin to be true, it need only to work.
 International settlements must work using 
- Bitcoin. By doing so it will reveal the
- impotence of these parasitic bureaucrats
+ Bitcoin. And doing so will reveal the
+ impotence of the parasitic bureaucrats
  that imagine themselves as in control.
-Ironically, the bureaucrats openly supporting
- Bitcoin would obscure and delay its adoption.
 Bitcoin is true because it works,
- and by working it will reveal the truth
- of this morally bankrupt class of parasites.
+ and the consequences of that may not be
+ agreeable to most 
+ (least of all to the beneficiaries of the fiat system itself).
 
-The fiat system produces this bureaucratic
+The fiat system produces bureaucratic
  cruft, delusions of power that arise
  from the noise of the system, obscuring
  price signals and creating a class of 
@@ -211,24 +213,7 @@ And in a sly roundabout
  and decade of it working, it inches
  closer to becoming the money of
  international settlements,
- the base layer to back all currency.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ the base layer to back all money.
 
 
 
