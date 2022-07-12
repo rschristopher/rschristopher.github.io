@@ -214,7 +214,7 @@ And in a sly roundabout
  decade of it working, it inches
  closer to becoming the money of
  international settlements,
- the base layer to back all money.
+ the base layer behind all money.
 
 
 

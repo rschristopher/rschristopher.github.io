@@ -112,7 +112,7 @@ Worse, fiat money is inflationary at the whims
  reason janitors have less purchasing power than 
  ever before. And it's not because a wealthy
  person controlled this outcome.
-If you are janitor earning fiat money,
+If you are a janitor earning fiat money,
  you will work harder
  and harder, but you will earn 
  [less and less value over time](https://wtfhappenedin1971.com/).
