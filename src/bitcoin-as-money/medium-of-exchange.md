@@ -95,7 +95,8 @@ In practice, the Bitcoin in the Lightning
  as a medium of exchange.
 
 And importantly, despite the limitations
- on the base-layer, Lightning transactions
+ of settlement on the base-layer,
+ Lightning transactions
  are infinitely scalable, easily handling
  millions or even billions of transactions
  per second.

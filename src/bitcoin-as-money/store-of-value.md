@@ -1,12 +1,16 @@
 # Bitcoin as a Store of Value
 
-Of all the attributes of money, it is as a
+Of all the attributes of money, 
+ it is as a
  store of value that most people first 
- encounter Bitcoin. This is not because
+ encounter Bitcoin. 
+This is not because
  Bitcoin is stronger as a store of value
- than as a unit of account, no, this is
- because fiat is simply weakest as a 
- store of value.
+ than it is as a unit of account,
+ no, we first encounter Bitcoin as a
+ store of value
+ because fiat is simply a terrible
+ store of value (literally losing value over time).
 
 Of all attributes of money, fiat fails
  completely as a store of value. 
@@ -21,8 +25,8 @@ Simply put, fiat cannot function as
  a store of value. This is why fine art
  has become so corrupted, why real estate
  and equities are over inflated.
- People under fiat money cannot store
- wealth in their money, so they seek
+ People cannot store
+ wealth using fiat money, so they seek
  to preserve wealth through other
  means, typically mal-investing
  (investing in index funds not as a priced risk,
@@ -31,6 +35,6 @@ Simply put, fiat cannot function as
 
 Bitcoin as a store of value is plainly superior.
  Over time it will gain value, and it can be 
- transferred through every nation on earth
+ transferred anywhere on earth
  unmolested.
 

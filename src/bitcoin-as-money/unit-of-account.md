@@ -1,5 +1,11 @@
 # Bitcoin as a Unit of Account
 
+<!--
+Lord Jesus Christ
+Son of God
+Have mercy on me a sinner
+-->
+
 This is the most important quality of money.
  Don't let the benign name, *unit of account*, 
  fool you.
@@ -8,6 +14,7 @@ A unit of account is *-the-* measure of value,
  can agree upon such that our subjective
  and continuously changing perception of
  *value* can be rendered knowable.
+In other words, this is the *price* in a market.
 
 ???+ info "Bentleys and Cristals"
     There is a peculiar practice amongst Wall Street types
@@ -32,7 +39,6 @@ A unit of account is *-the-* measure of value,
 
 
 
----
 
 ## Fiat as Unit of Account
 
@@ -47,15 +53,15 @@ And everything is relative with no absolute
 It is all fiat all the time.
 
 Fiat unit of account is like a ruler that arbitrarily changes length.
-Like the historic unit of length, a "foot",
- based literally on the length of each person's foot.
+Like the imperial unit of length, the "foot" --
+ it was historically based on the length of a person's foot.
 Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
  (inflationary fiat currency can make no such claim).
 
-!!! info "this was $1, which is $1.07 adjusted by CPI, but right now it's $3.15 because of *actual* inflation."
+!!! info "this was $1 last year, which is $1.07 adjusted by CPI, but right now it's $3.15 because of *actual* inflation."
 
----
+
 
 ## Bitcoin as Unit of Account
 
@@ -104,24 +110,22 @@ In addition to having
 !!! info "this costs 0.00000190 Bitcoin"
 
 
----
 
 
 ## Sats as the Standard
 
 There are exactly 100 million Satoshis, *or Sats*, in a Bitcoin.
 This is the smallest unit on the timechain.
-This is not the smallest possible unit;
+This is not the smallest possible unit of Bitcoin;
  one could use
  millisats or picosats. 
 In fact, there is no end to the divisibility
  of Bitcoin.
 
-That said -- if Bitcoin is true -- then Sats is the standard.
+That said -- if Bitcoin is true -- then Sats are the standard.
 
 !!! info "this costs 190 Sats"
 
----
 
 Imagine a "100-Sat Shoppe" or "99-Sat Store" where
  everything is 99 Sats.
