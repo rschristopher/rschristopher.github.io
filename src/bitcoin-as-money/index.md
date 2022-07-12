@@ -199,7 +199,7 @@ Under the gold standard, it wasn't the king
  all that mattered.
 Similarly, under a Bitcoin standard,
  Bitcoin is all that will matter,
- not it's adoption by bureaucrats.
+ not its adoption by bureaucrats.
 
 In the long arch of history, the fiat system
  was birthed in 1971 although didn't really
