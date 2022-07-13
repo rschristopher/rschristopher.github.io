@@ -1,19 +1,19 @@
 # Bitcoin as a Store of Value
 
-Of all the attributes of money, 
+Of all attributes of money, 
  it is as a
- store of value that most people first 
- encounter Bitcoin. 
+ store of value that most people today
+ first encounter Bitcoin. 
 This is not because
- Bitcoin is stronger as a store of value
- than it is as a unit of account,
+ Bitcoin is strongest as a store of value,
  no, we first encounter Bitcoin as a
  store of value
  because we live under fiat
  and fiat is simply the worst possible
- store of value (literally losing value over time).
+ store of value
+ (continuously losing value over time).
 
-Of all attributes of money, fiat fails
+Fiat fails
  completely as a store of value. 
 If you
  need to store fiat over time, it will
