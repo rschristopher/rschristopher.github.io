@@ -7,8 +7,11 @@ Have mercy on me a sinner
 -->
 
 This is the most important quality of money.
- Don't let the benign name, *unit of account*, 
+Don't let the benign name, *unit of account*, 
  fool you.
+This will be most people's first encounter
+ with Bitcoin, as a unit of account.
+
 A unit of account is *-the-* measure of value,
  the measure of value that all human beings
  can agree upon such that our subjective
