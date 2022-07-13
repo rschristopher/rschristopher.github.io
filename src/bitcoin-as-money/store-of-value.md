@@ -1,14 +1,15 @@
 # Bitcoin as a Store of Value
 
-Of all attributes of money, 
- it is as a
- store of value that most people today
- first encounter Bitcoin. 
-This is not because
- Bitcoin is strongest as a store of value,
+Today, most people first encounter Bitcoin
+ as a speculative gamble, more than a potential
+ store of value, but as future wealth.
+
+We don't first encounter Bitcoin
+ as a store of value because
+ it is strongest as a store of value,
  no, we first encounter Bitcoin as a
  store of value
- because we live under fiat
+ because we live under fiat,
  and fiat is simply the worst possible
  store of value
  (continuously losing value over time).
@@ -31,7 +32,7 @@ Simply put, fiat cannot function as
  a store of value. This is why fine art
  has become so corrupted, why real estate
  and equities are over inflated.
- People cannot store
+People cannot store
  wealth using fiat money, so they seek
  to preserve wealth through other
  means, typically mal-investing
