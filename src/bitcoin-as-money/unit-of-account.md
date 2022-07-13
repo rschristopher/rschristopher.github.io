@@ -59,7 +59,7 @@ Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
  (inflationary fiat currency can make no such claim).
 
-!!! info "this was $1 last year, which is $1.07 adjusted by CPI, but right now it's $3.15 because of *actual* inflation."
+!!! example "this was $1 last year, which is $1.07 adjusted by CPI, but right now it's $3.15 because of *actual* inflation."
 
 
 
@@ -77,7 +77,7 @@ On one hand this presents similar
  that we see with inflationary
  money,
 
-!!! info "my house was 12 Bitcoin in 2019, which is now the price of the entire neighborhood."
+!!! example "my house was 12 Bitcoin in 2019, which is now the price of the entire neighborhood."
 
 The key difference is that any amount of Bitcoin
  is an exact fraction of all the Bitcoin that
@@ -107,7 +107,7 @@ In addition to having
  we have a similar difficulty understanding
  fractions,
 
-!!! info "this costs 0.00000190 Bitcoin"
+!!! example "this costs 0.00000190 Bitcoin"
 
 
 
@@ -124,7 +124,7 @@ In fact, there is no end to the divisibility
 
 That said -- if Bitcoin is true -- then Sats are the standard.
 
-!!! info "this costs 190 Sats"
+!!! example "this costs 190 Sats"
 
 
 Imagine a "100-Sat Shoppe" or "99-Sat Store" where
