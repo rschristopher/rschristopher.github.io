@@ -1,9 +1,5 @@
 # Custody
 
-To *custody* Bitcoin means 
- securing the private keys that would be needed
- to spend your Bitcoin.
-
 Unlike physical custody of assets, 
  custody of Bitcoin 
  means storing information, a key or seed phrase,
@@ -32,13 +28,13 @@ Knowing how to fulfill the above
 
 ## Self Custody
 
-To *Self Custody* means you personally 
+To *self custody* means you personally 
  secure your seed phrase and manage your own keys.
  This is the recommended approach but
  it is also the **only** way to properly secure your
  Bitcoin.
 
-With Self Custody you could decide that you'd rather die than give up your Bitcoin;
+With self custody you could decide that you'd rather die than give up your Bitcoin;
  that it will go to your children or else to no one.
  This sounds silly and rather extreme, but Bitcoin is the only asset
  in the history of the world where you can meaningfully accomplish this level of ownership.
@@ -61,6 +57,8 @@ But there is an important difference:
 This subtle difference shifts the balance of power,
  aligning incentives with voluntary cooperation
  and not with force or fiat.
+With Bitcoin, you truly can be
+ a sovereign of your own savings.
 
 !!! quote "A Sovereign of your own Savings"
 
@@ -69,7 +67,7 @@ This subtle difference shifts the balance of power,
 If you trust an institution to custody your Bitcoin,
  then it's not your Bitcoin, it's their Bitcoin.
  And no matter how secure their custody system,
- it will never be as secure as your own Self Custody.
+ it will never be as secure as your own self custody.
 
 !!! danger "Not your Bitcoin"
     
@@ -102,9 +100,9 @@ If you trust an institution to custody your Bitcoin,
 
 ## It's Easy
 
-There's a common misconception that Bitcoin Self Custody is hard.
+There's a common misconception that Bitcoin self custody is hard.
 
-In practice, Self Custody is as easy as changing a light-bulb,
+In practice, self custody is as easy as changing a light-bulb,
  and it is vastly easier than online banking, not to mention far more secure.
  Bitcoin is as secure as you want it to be, from *trivial* to *nuclear-launch-code*
  level of security.
@@ -207,7 +205,7 @@ No reasonable person would conclude that the current state
  And worse, it is getting harder and harder by the day.
 
 
-!!! question "But is Self Custody really as easy as changing a light-bulb?"
+!!! question "But is self custody really as easy as changing a light-bulb?"
     
     Yes, and definitely easier than 
     the security theater of online banking.
@@ -234,9 +232,9 @@ Securing your assets in the traditional fiat banking system requires
  what your mother's maiden name is
  somehow constitutes security.
 
-Bitcoin Self Custody offers real security. 
+Bitcoin self custody offers real security. 
  And thus the risk of losing your funds in traditional banking
- is far higher than any reasonable Self Custody solution.
+ is far higher than any reasonable self custody solution.
 
 !!! question "Sounds like banking. Why would I want to be a bank?"
     
@@ -254,7 +252,7 @@ Bitcoin Self Custody offers real security.
     burden back onto you, adding unecessary complexity
     and vulnerability.
 
-Bitcoin Self Custody is exactly as hard 
+Bitcoin self custody is exactly as hard 
  as learning about the Internet in the 1990s.
 
 It's new, it's different,
