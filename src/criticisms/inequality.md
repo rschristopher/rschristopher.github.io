@@ -1,31 +1,43 @@
 # Inequality and Bitcoin
 
-...
-
 > Under a Bitcoin Standard, won't the rich continue to get richer?
 
 While there is a lot of bad faith criticisms
  about inequality and Bitcoin,
  this is an area that deserves
  nuanced exploration.
-There are 
- moral claims behind inequality
- arguments, and it might be helpful
+Inequality presents a moral claim,
+ and it might be helpful
  to suss out the moral claims
  and understand them as such
  (rather than as technical claims).
+It is not useful to employ moral arguments
+ when pursuing truth
+ -- *if Bitcoin is true*,
+ it's not because it's good or bad,
+ it's because it's true.
 
-In other words, what if Bitcoin
+In other words, if Bitcoin
  turned out to be morally reprehensible,
- resulting in a catastrophic end for civilization?
-Would that make it false?
+ resulting in a catastrophic end for civilization,
+ would that make it false?
 No, no it wouldn't.
 Importantly, knowledge of such immorality 
  would do nothing to stop it, much like
  knowledge of the problems of fiat don't fix
  the problems of fiat.
 
-But let's first address the technical claims.
+
+
+## Moral Claims
+
+
+### Inequality beyond a natural distribution is bad
+
+In which case fiat is morally evil and should be condemned as such.
+
+
+
 
 
 ## Technical Claims
@@ -74,15 +86,6 @@ What are the ramifications
 
 
 
-
-
-
-
-Moral Assumptions
-
-Inequality beyond a natural distribution is bad.
-
-We should not support bad systems.
 
 
 

@@ -75,12 +75,12 @@ Wars were fought over gold,
  that gold would hold its value over time.
 
 For example,
- under the gold standard $20-USD was an ounce of gold.
+ under the gold standard $20-USD was *roughly* an ounce of gold.
 An unskilled worker might earn only 25-cents per hour --
  *a mere $40 per month* --
  2-ounces of gold per month.
 At today's gold price this works
- out to $22.50/hour.
+ out to approximately $22.50/hour.
 
 *Gold-backed money provided a living wage
  to even the lowest paid workers.*
@@ -191,6 +191,7 @@ Bitcoin doesn't make them obsolete,
  it proves they have been impotent all along,
  like court astrologers.
 
+[![fed-exponential-liabilities](/images/fed-exponential-liabilities.jpg)](https://www.myrmikan.com/port/)
 
 Under the gold standard, it wasn't the king
  that gave value to money, 

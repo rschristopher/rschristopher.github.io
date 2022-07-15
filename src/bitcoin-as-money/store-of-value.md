@@ -19,9 +19,10 @@ In the future,
 And if they participate in the market
  they will experience Bitcoin as a
  [medium of exchange](medium-of-exchange.md).
-And then finally they would experience
- Bitcoin as a *store of value*
- if they seek to save for the future.
+And then lastly,
+ when they seek to save for the future,
+ they will experience
+ Bitcoin as a *store of value*.
 This may seem odd and overly simplistic,
  but it is the inevitable
  conseuqence of Bitcoin being true.

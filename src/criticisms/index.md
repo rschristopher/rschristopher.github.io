@@ -2,7 +2,7 @@
 
 There is a lot of criticism of Bitcoin,
  a lot,
- especially from media and so-called experts,
+ especially from journalists and so-called experts,
  and yet despite the constant criticism, 
  it's nearly impossible 
  to find critics that understand
@@ -10,29 +10,31 @@ There is a lot of criticism of Bitcoin,
  that understanding.
 In practice if these critics were right,
  Bitcoin should have been dead years ago.
-And yet the quality of the criticisms haven't
- seemed to improve.
-It is noise that seems to just get louder.
+And yet despite this, the quality of the criticisms
+ haven't improved as Bitcoin has succeeded.
+The criticism has become incessant noise with very little signal.
 
 
 
 !!! warning "*The biggest risk to Bitcoin is its lack of competent crítics.*"
 
-This suggests that Bitcoin is actually *true*,
- and that the critics are plainly stupid,
- lazy, and intellectually dishonest. 
-Most are propagandists defending the status quo,
+This suggests
+ that the critics are stupid,
+ lazy, and intellectually dishonest
+ (being so unabashedly uninterested in the pursuit of truth). 
+In fact, most of the media today seems to function as
+ propaganda defending the status quo, and
  accepting without question the dictates of power.
 
 However,
  this also presents a significant weakness of
- Bitcoin. Lack of competent criticism for 
- something as important as money, and the 
- separation of money and state, poses a serious
- risk. 
+ Bitcoin. Lack of competent criticism 
+ poses a serious risk. 
+Especially for something as important as money
+ and the separation of money and state.
 
-E.g., if you discovered that Bitcoin is 
- going to bring about a catastrophe, 
+E.g., if the critics were right
+ and Bitcoin proves to be dangerous,
  how would you stop it?
  Could you stop it?
  
