@@ -216,10 +216,10 @@ And it means that we are participants in this lie.
 For Americans it means Nixon was worse than 
  liberals believe, and that
  FDR was even worse than Nixon.
- It means our media is corrupt propaganda,
+It means our media is corrupt propaganda,
  and that our political parties are nothing
  but the coordinators of this propaganda.
-And none of this is by design but as a consequence
+And none of this is by design but is a consequence
  of the fiat system itself;
  of the broken incentives that reward
  short-term gains at the expense of civilization.
@@ -228,7 +228,7 @@ Such a system will
 > *where does money come from?*
 
 This is a lot to take in for even a cynical person.
- You've been lied to about money,
+You've been lied to about money,
  by people who aren't particularly competent,
  told that
  *money doesn't grow on trees* and then
