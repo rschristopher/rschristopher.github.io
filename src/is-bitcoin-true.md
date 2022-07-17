@@ -1,9 +1,9 @@
 # Is Bitcoin True?
 
-One of my earliest reactions to a deep dive 
- into Bitcoin, was the thought,
-
-> Bitcoin fixes modern art?!
+> One of my earliest reactions to a deep dive 
+> into Bitcoin, was the thought,
+> 
+> *Bitcoin fixes modern art?!*
 
 Bitcoin
  -- *if it is true* --
