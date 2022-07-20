@@ -66,7 +66,7 @@ Although in fairness at least the length of a foot
 
 
 
-## Bitcoin as Unit of Account
+## Bitcoin as the Standard 
 
 Due to it's fixed supply Bitcoin is a superior
  unit of account.
