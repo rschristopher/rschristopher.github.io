@@ -142,9 +142,9 @@ This could start as the equivalent of a dollar store,
 
 ![100-yen store](/images/100yen.jpg)
 
-Now imagine rather than prices raising over time
+Now imagine rather than prices rising over time
  due to inflation, or lowering the quality of
- merchandise at the dollar store,
+ merchandise like at the dollar store,
  the opposite happens under Bitcoin.
 
 When the BTCUSD price reaches a million, then the
