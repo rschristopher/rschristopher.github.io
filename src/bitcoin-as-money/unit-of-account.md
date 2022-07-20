@@ -9,7 +9,7 @@ Have mercy on me a sinner
 This is the most important quality of money.
 Don't let the benign name, *unit of account*, 
  fool you.
-In the future this will be most people's first encounter
+In the future this will be people's first encounter
  with Bitcoin, as a unit of account.
 
 A unit of account is *-the-* measure of value,
@@ -68,9 +68,11 @@ Although in fairness at least the length of a foot
 
 ## Bitcoin as Unit of Account
 
-Due to it's fixed supply Bitcoin operates as
+Due to it's fixed supply Bitcoin is a superior
+ unit of account.
+Interestingly, it operates as
  a potentially deflationary unit of account.
- That is, goods and services
+That is, goods and services
  could get cheaper over time as measured in
  Bitcoin. But only as a result of actual
  economic growth.
@@ -84,7 +86,8 @@ On one hand this presents similar
 
 The key difference is that any amount of Bitcoin
  is an exact fraction of all the Bitcoin that
- will ever exist. 1 Bitcoin is
+ will ever exist. 
+1 Bitcoin is
  1 out of 21-million, always.
 
 It's like using real-estate as a unit of account,
@@ -100,7 +103,8 @@ The price of goods and services in Bitcoin
  to pay based on a truly scarce resource.
 
 Price signals in fiat are very messy, but they
- become very clear in Bitcoin. Spending Bitcoin
+ become very clear in Bitcoin. 
+Spending Bitcoin
  is difficult for Bitcoiners, as it should be
  with money that operates well.
 
@@ -118,7 +122,8 @@ In addition to having
 ## Sats as the Standard
 
 There are exactly 100 million Satoshis, *or Sats*, in a Bitcoin.
-This is the smallest unit on the timechain.
+This is the smallest unit on the 
+ [timechain](https://dergigi.com/2021/01/14/bitcoin-is-time/).
 This is not the smallest possible unit of Bitcoin;
  one could use
  millisats or picosats. 
