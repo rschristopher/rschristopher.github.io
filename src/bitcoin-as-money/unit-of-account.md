@@ -62,7 +62,7 @@ Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
  (inflationary fiat currency can make no such claim).
 
-!!! example "this was $1 last year, which is $1.07 adjusted by CPI, but right now it's $3.15 because of *actual* inflation."
+!!! example "this $20 gold coin cost $1500 last year, which should be $300 if adjusted by CPI, but right now it's $1900 because of *actual* inflation."
 
 
 
