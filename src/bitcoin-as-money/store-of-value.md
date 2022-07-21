@@ -1,29 +1,58 @@
 # Bitcoin as a Store of Value
 
+<!--
+Lord Jesus Christ
+Son of God
+Have mercy on me, a sinner
+-->
+
 Most people first encounter Bitcoin
  as a potential *store of value*,
  a speculative gamble on future wealth.
 They buy Bitcoin hoping to get rich.
 And they rarely experience Bitcoin as a 
- [unit of account](unit-of-account.md).
+ *unit of account* (potential or otherwise).
 This is not because Bitcoin
  is necessarily any stronger as a *store of value*
  than it is as a 
- [unit of account](unit-of-account.md),
+ *unit of account*,
  quite the contrary.
+As powerful of a *store of value* as Bitcoin
+ might be, it is at its strongest as a 
+ [unit of account](unit-of-account.md).
 
-In the future,
+Digital scarcity in a trustless and 
+ completely transparent network provides
+ a global unit of account, and the
+ clearest most uncorruptible signal
+ possible for price discovery.
+It is a delightful side effect
+ that it also becomes a superior
+ store of value.
+
+
+
+## Encountering Bitcoin
+
+In the future -- *if Bitcoin is true* --
  people will first encounter
- Bitcoin as a [unit of account](unit-of-account.md),
+ it as a [unit of account](unit-of-account.md),
  that is, as *prices* in the market.
 And if they participate in the market
  they will experience Bitcoin as a
  [medium of exchange](medium-of-exchange.md).
 And then lastly,
  when they seek to save for the future,
- they will experience
+ then and only then
+ will they experience
  Bitcoin as a *store of value*.
-This may seem odd and overly simplistic,
+Speculative gambles will still exist,
+ including as priced risks known as "investments",
+ but money itself is not a speculation,
+ it is a *unit of account*,
+ a *medium of exchange*,
+ and a *store of value*.
+This may all seem odd and overly simplistic,
  but it is the inevitable
  conseuqence of Bitcoin being true.
 
@@ -54,6 +83,10 @@ The only way to store value in
 A process that is as morally corrupt
  as it is unsustainable.
 
+
+
+## Overcoming Fiat
+
 If you naively attempt to store value in fiat,
  it will lose its value over time.
 If you need to move large amounts of fiat
@@ -81,7 +114,7 @@ The only successful store of value under
  access to the money printer
  (to cheap debt).
 
-Bitcoin, if it is true, is a superior store of value
+Bitcoin -- *if it is true* -- is a superior store of value
  to fiat and even to gold
  (the most effective store of value the world has ever known).
 Over time Bitcoin will gain adoption and value, 

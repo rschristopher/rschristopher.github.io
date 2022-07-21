@@ -43,7 +43,7 @@ In other words, this is the *price* in a market.
 
 
 
-## Fiat as Unit of Account
+## Fiat Unit of Account
 
 Fiat money makes for a terrible
  unit of account.

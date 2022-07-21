@@ -27,9 +27,22 @@ Importantly, knowledge of such immorality
  knowledge of the problems of fiat don't fix
  the problems of fiat.
 
+However, knowledge of the morality
+ of Bitcoin can help guide us as
+ individual seeking truth in order to 
+ live moral lives.
+
 
 
 ## Moral Claims
+
+### Inequality is bad
+
+Is it even possible not to have inequality? What would that even mean?
+
+We live in a universe of unequal distributions, specifically
+ [Pareto distributions](https://en.wikipedia.org/wiki/Pareto_distribution)
+
 
 
 ### Inequality beyond a natural distribution is bad

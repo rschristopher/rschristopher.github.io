@@ -14,9 +14,8 @@ And yet despite this, the quality of the criticisms
  haven't improved as Bitcoin has succeeded.
 The criticism has become incessant noise with very little signal.
 
+!!! info "*The more one learns about Bitcoin, the more of a supporter one becomes.*"
 
-
-!!! warning "*The biggest risk to Bitcoin is its lack of competent crítics.*"
 
 This suggests
  that the critics are stupid,
@@ -32,6 +31,8 @@ However,
  poses a serious risk. 
 Especially for something as important as money
  and the separation of money and state.
+
+!!! warning "*The biggest risk to Bitcoin is its lack of competent crítics.*"
 
 E.g., if the critics were right
  and Bitcoin proves to be dangerous,
