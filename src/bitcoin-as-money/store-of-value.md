@@ -6,10 +6,14 @@ Son of God
 Have mercy on me, a sinner
 -->
 
-Most people first encounter Bitcoin
- as a potential *store of value*,
+Most people first learn about Bitcoin
+ as an investment,
  a speculative gamble on future wealth.
-They buy Bitcoin hoping to get rich.
+They buy Bitcoin hoping to get rich,
+ thinking in terms of fiat money.
+Later they might realize that Bitcoin's
+ [fixed supply](fixed-supply.md)
+ is a potential *store of wealth*.
 And they rarely experience Bitcoin as a 
  *unit of account* (potential or otherwise).
 This is not because Bitcoin
@@ -18,7 +22,7 @@ This is not because Bitcoin
  *unit of account*,
  quite the contrary.
 As powerful of a *store of value* as Bitcoin
- might be, it is at its strongest as a 
+ might be, it is fundamentally a
  [unit of account](unit-of-account.md).
 
 Digital scarcity in a trustless and 
@@ -27,8 +31,10 @@ Digital scarcity in a trustless and
  clearest most uncorruptible signal
  possible for price discovery.
 It is a delightful side effect
- that it also becomes a superior
+ that Bitcoin is also a superior
  store of value.
+In fact, Bitcoin's early adoption is
+ driven as a store of value.
 
 
 
@@ -42,7 +48,7 @@ And if they participate in the market
  they will experience Bitcoin as a
  [medium of exchange](medium-of-exchange.md).
 And then lastly,
- when they seek to save for the future,
+ when they save for the future,
  then and only then
  will they experience
  Bitcoin as a *store of value*.
@@ -73,6 +79,11 @@ In other words, they're trying to store
  value in fiat by buying and selling Bitcoin,
  trying to time the market,
  which does not *and can not* work.
+Similar things happened with gold price
+ in the dying days of the Weimar Republic,
+ the volatility of the gold price was
+ not a reflection of gold, but of the
+ hyperinflating money.
 
 The only way to store value in
  a fiat system is by rent seeking
