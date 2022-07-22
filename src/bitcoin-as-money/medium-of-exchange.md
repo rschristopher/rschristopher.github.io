@@ -28,7 +28,7 @@ Importantly, this perceived advantage of
  and painfully inefficient
  system of final settlement.
 
-## Currency vs Final Settlement
+## Final Settlement
 
 Money as a *medium of exchange* 
  for small payments is very different
