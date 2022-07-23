@@ -50,7 +50,7 @@ The ability to attain final settlement
  why Bitcoin -- *if it is true* -- is
  the most superior form of money 
  to ever exist.
-This is also why Bitcoin may ineventiably
+This is also why Bitcoin may inevitably
  become the money of international settlement.
 
 However, because Bitcoin is fully decentralized and
@@ -101,15 +101,15 @@ There is no known completely trustless
 ## Lightning Network
 
 Bitcoin, like the Internet itself,
- offers a layered
- architecture where final settlement
+ offers a layered architecture.
+Final settlement
  is guaranteed on the base layer, and
  payment networks such as the
  Lightning network
  are built on top of the base layer.
-
-You put your Bitcoin into a
- lightning channel, and can use that
+You can put some Bitcoin into a
+ lightning channel through a base layer
+ transaction, and you can use that
  to buy your coffee in a fast
  and highly scalable payment network.
 Think of this as petty cash, like 
@@ -123,18 +123,17 @@ Meanwhile the base layer is used only
  it is built on the Bitcoin network
  as a 2nd layer, gaining the security
  and stability of the base layer.
-
-Every Bitcoin on the Lightning network
+All Bitcoin on the Lightning network
  is backed by transactions on the base layer.
  The movement of Bitcoin on the 
  Lightning network
- simply shifts the balance between owners.
+ simply shifts the balances between owners.
 
 E.g., if you start with 0.5 Bitcoin
  on the Lightning network
  and spend 0.1, and separately
  someone pays you 0.05, then your balance
- of 0.45 Bitcoin can be closed out onto
+ of 0.45 Bitcoin can be settled on
  the base layer. Closing a Lightning
  channel requires a base layer transaction.
  In fact, if you have an open Lightning
@@ -143,8 +142,8 @@ E.g., if you start with 0.5 Bitcoin
  close that channel.
  That guaranteed base-layer transaction is
  why lightning payments can settle instantly.
- You start with a guaranteed 0.5 Bitcoin,
- and when you spend 0.1, your original
+If you start with a guaranteed 0.5 Bitcoin,
+ and you spend 0.1, your original
  "guaranteed 0.5 Bitcoin" transaction
  is replaced by one with 0.4 Bitcoin.
 
@@ -160,27 +159,35 @@ Lightning network is merely a protocol keeping track
 
 ## Bitcoin as Currency
 
-In practice, all the Bitcoin in the Lightning
+In practice, the *capacity* of the Lightning
  network, that is, the total amount of Bitcoin
  in all Lightning channels, represents the
  circulating supply of Bitcoin as a currency,
  as a medium of exchange.
+Because of the decentralized nature of
+ the Lightning network, it is impossible
+ to know how much Bitcoin is being used in
+ private Lightning channels.
+However, the public (discoverable) channels
+ have seen steadily growing adoption and
+ [capacity](https://1ml.com/statistics).
 
 And importantly, despite the scaling limitations
  of settlement on the base-layer,
  Lightning transactions
  are infinitely scalable, easily handling
- millions or even billions of transactions
- per second.
+ millions or theoretically even billions 
+ of transactions per second.
 
 Lightning demonstrates the importance of
  a layered architecture as well as
  the importance of Bitcoin's continuous
  development.
 Before there was Lightning, Bitcoin
- was simply not a viable medium
- of exchange. Now it offers the
+ was simply not a viable 
+*medium of exchange*.
+Now it offers the
  most advanced and scalable 
- medium of exchange that the world
+ *medium of exchange* that the world
  has ever seen.
 

@@ -14,7 +14,7 @@ They buy Bitcoin hoping to get rich,
 Later they might realize that Bitcoin's
  [fixed supply](fixed-supply.md)
  is a potential *store of wealth*.
-And rarely do people experience Bitcoin as a 
+But rarely do people experience Bitcoin as a 
  *unit of account* (potential or otherwise).
 This is not because Bitcoin
  is necessarily any stronger as a *store of value*
@@ -27,14 +27,15 @@ As powerful of a *store of value* as Bitcoin
 
 Digital scarcity in a trustless and 
  completely transparent network provides
- a global unit of account, and the
- clearest most uncorruptible signal
+ a global *unit of account*, and the
+ clearest signal
  possible for price discovery.
 It is a delightful side effect
- that Bitcoin is also a superior
- store of value.
+ that Bitcoin is *also* a superior
+ *store of value*.
+
 In fact, Bitcoin's early adoption is being
- driven as a store of value.
+ driven as a *store of value*.
 
 
 
@@ -60,7 +61,7 @@ Speculative gambles will still exist,
  and a *store of value*.
 This may all seem odd and overly simplistic,
  but it is the inevitable
- conseuqence of Bitcoin being true.
+ consequence of Bitcoin being true.
 
 Today, we approach Bitcoin somewhat
  backwards, starting with a
@@ -133,17 +134,18 @@ People cannot store
  to preserve wealth through other
  means, typically malinvesting
  (investing in index funds not as a priced risk,
- but as a malinvested store of value).
-The only successful store of value under
+ but as a malinvested *store of value*).
+The only successful *store of value* under
  fiat is rent-seeking with privileged
  access to the money printer
  (to cheap debt).
 
-Bitcoin -- *if it is true* -- is a superior store of value
+Bitcoin -- *if it is true* -- is a superior *store of value*
  to fiat and even to gold
- (the most effective store of value the world has ever known).
+ (the most effective *store of value* the world has ever known).
 Over time Bitcoin will gain adoption and value, 
- and it can be transferred anywhere on earth, unmolested.
+ and it can do this while being 
+ transferable anywhere on earth, unmolested.
 Neither gold nor fiat nor real-estate nor even fine-art
  can function as a better store of value than Bitcoin.
 

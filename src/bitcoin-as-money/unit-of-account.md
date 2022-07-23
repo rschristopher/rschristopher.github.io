@@ -10,13 +10,13 @@ This is the most important quality of money.
 Don't let the benign name, *unit of account*, 
  fool you.
 In the future this will be people's first encounter
- with Bitcoin, as a unit of account.
+ with Bitcoin, as a *unit of account*.
 
-A unit of account is *-the-* measure of value,
+A *unit of account* is *-the-* measure of value,
  the measure of value that all human beings
  can agree upon such that our subjective
  and continuously changing perception of
- *value* can be rendered knowable.
+ value can be rendered knowable.
 In other words, this is the *price* in a market.
 
 ???+ info "Bentleys and Cristals"
@@ -45,9 +45,8 @@ In other words, this is the *price* in a market.
 
 ## Fiat Unit of Account
 
-Fiat money makes for a terrible
+Fiat money is a terrible
  unit of account.
-
 This is because you must
  "adjust for inflation", or append the date, 
  or both.
@@ -98,7 +97,7 @@ It's like using real-estate as a unit of account,
 
 As Bitcoin adoption increases, 
  the perceived value of Bitcoin will increase.
-The price of goods and services in Bitcoin
+And yet even now the price of goods and services in Bitcoin
  send a clear signal of what people are willing
  to pay based on a truly scarce resource.
 
@@ -130,7 +129,7 @@ This is not the smallest possible unit of Bitcoin;
 In fact, there is no end to the divisibility
  of Bitcoin.
 
-That said -- if Bitcoin is true -- then Sats are the standard.
+That said -- *if Bitcoin is true* -- then Sats are the standard.
 
 !!! example "this costs 190 Sats"
 
