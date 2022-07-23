@@ -1,10 +1,10 @@
 # Wallets and Keys and UTXOs
 
-Bitcoin is unlike any money that has ever existed.
- It is unlike any technology or network.
- There's really nothing in history quite like it.
-
 !!! info "Bitcoin is unlike *anything* that has *ever* existed."
+
+Bitcoin is unlike any money that has ever existed.
+ It is unlike any technology or network that came before it.
+ There's really nothing in history quite like it.
 
 This means that any attempt at explaining Bitcoin
  will rely either on sloppy metaphors, or novel technical terms.
@@ -12,10 +12,11 @@ This means that any attempt at explaining Bitcoin
  an anachronism from a simpler time when banks would "custody" your wealth (for a fee).
 
 In reality, there are no actual coins to custody.
- Bitcoin is pure information. Information copied publicly in an immutable ledger.
- Everyone can have a copy of the ledger,
+Bitcoin is pure information; 
+ information copied publicly in an immutable ledger.
+Everyone can have a copy of the ledger,
  and everyone can validate that the ledger is correct.
- And similar to how the Internet empowered individuals to share ideas with the world (for better or worse),
+And similar to how the Internet empowered individuals to share ideas with the world (for better or worse),
  Bitcoin empowers individuals to custody their wealth in ways far more secure than any bank ever could.
 
 And because Bitcoin is money, 
@@ -23,9 +24,9 @@ And because Bitcoin is money,
  (such as wallets, coins, and addresses),
  that can be useful 
  but at the same time may lead to a great deal of confusion.
- Bitcoin is in a category all to its own
+Bitcoin is in a category all to its own
  -- the physical limitations of "custody", "wallets", "coins", and "addresses" simply don't apply to Bitcoin.
- And thus to "custody" your Bitcoin, means something very different than anything you've thought about before Bitcoin.
+And thus to "custody" your Bitcoin, means something very different than anything you've thought about before Bitcoin.
 
 We will describe these imperfect metaphors
  and attempt to demystify them, and then
