@@ -79,20 +79,20 @@ For example,
 An unskilled worker might earn only 25-cents per hour --
  *a mere $40 per month* --
  2-ounces of gold per month.
-At today's gold price this works
- out to approximately $22.50/hour.
+At today's gold price this is
+ well over $20/hour.
 
 *Gold-backed money provided a living wage
  to even the lowest paid workers.*
 
-![gold-certificate](/images/1906-gold-certificate.jpg)
+![gold-certificate](/images/1905-gold-certificate.jpg)
 
 
 Unfortunately, gold cannot be transmitted
  quickly or cheaply over large distances.
 This limitation gives rise to an inevitable
- system of credits and ledgers.
-And then to promisory notes,
+ system of credits and ledgers,
+ and then to promisory notes
  which will lead to fractional reserve,
  and stey-by-step to pure fiat;
  money that is backed by-- *what exactly?*
@@ -121,21 +121,27 @@ Almost anywhere on earth you go,
  you can probably find an ATM that will 
  allow you to withdraw the local currency
  (at a relatively stable exchange rate).
-
 Despite the many problems of fiat money,
  this technology was itself revolutionary,
  allowing decades of economic growth
  on a global scale.
+
 The dirty secret was that this economic growth
  hid the seigniorage of central bankers
  that has inadvertantly bankrupted
  every country on earth,
- [strip mining capital](https://allenfarrington.medium.com/the-capital-strip-mine-ec627e9fe40a),
- transforming stockpiles of wealth into an unsustainable
+ [strip mined capital](https://allenfarrington.medium.com/the-capital-strip-mine-ec627e9fe40a),
+ transformed stockpiles of wealth into an unsustainable
  mountain of debt that can never be paid back
  (it is money backed by debt afterall).
 
-This system depends on two critical elements,
+And of course, the not so secret secret,
+ this system requires
+ continuous war over oil.
+
+![petrodollar](/images/petrodollar.jpg)
+
+The petrodollar system depends on two critical elements,
 
 1. US military dominance
 2. US relations with Saudi Arabia

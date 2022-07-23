@@ -62,7 +62,7 @@ Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
  (inflationary fiat currency can make no such claim).
 
-!!! example "this old $20 gold coin cost $1500 last year, which should be $455 if adjusted by CPI, but right now it's $1900 because of *actual* inflation."
+!!! example "this old $20 gold coin cost $1500 last year, which should be $455 if adjusted by CPI, but right now it's $2200 because of *actual* inflation."
 
 
 
@@ -80,7 +80,8 @@ That is, goods and services
 On one hand this presents similar
  math problems
  that we see with inflationary
- money,
+ money, but only with respect to 
+ Bitcoin's early adoption,
 
 !!! example "my house was 12 Bitcoin in 2019, which is now the price of the entire neighborhood."
 
@@ -96,8 +97,7 @@ It's like using real-estate as a unit of account,
  because of bad schools in your neighborhood.
 
 As Bitcoin adoption increases, 
- the perceived value of Bitcoin will increase,
- which is the unit of account increasing.
+ the perceived value of Bitcoin will increase.
 The price of goods and services in Bitcoin
  send a clear signal of what people are willing
  to pay based on a truly scarce resource.

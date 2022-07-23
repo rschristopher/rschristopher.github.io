@@ -14,7 +14,7 @@ They buy Bitcoin hoping to get rich,
 Later they might realize that Bitcoin's
  [fixed supply](fixed-supply.md)
  is a potential *store of wealth*.
-And they rarely experience Bitcoin as a 
+And rarely do people experience Bitcoin as a 
  *unit of account* (potential or otherwise).
 This is not because Bitcoin
  is necessarily any stronger as a *store of value*
@@ -33,7 +33,7 @@ Digital scarcity in a trustless and
 It is a delightful side effect
  that Bitcoin is also a superior
  store of value.
-In fact, Bitcoin's early adoption is
+In fact, Bitcoin's early adoption is being
  driven as a store of value.
 
 
@@ -84,6 +84,20 @@ Similar things happened with gold price
  the volatility of the gold price was
  not a reflection of gold, but of the
  hyperinflating money.
+
+![weimar inflation](/images/weimar_inflation.png)
+
+During the final years of the Weimar Republic
+ the price of gold was extremely volatile.
+Was this a reflection of the volatility of
+ gold? Was gold failing as a store of value?
+Clearly no, the currency hyperinflated 
+ until it collapsed, leaving gold as the only
+ store of value.
+And only afterwards can markets emerge
+ with proper price discovery.
+The effects of fiat all tend to follow this
+ same pattern, even USD.
 
 The only way to store value in
  a fiat system is by rent seeking

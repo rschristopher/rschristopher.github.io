@@ -15,7 +15,7 @@ This is an important area where Bitcoin has
  such as gold and silver coins.
 This is also an area where fiat,
  for all its faults,
- has proven superior to gold and silver.
+ has proven superior to gold.
 Simply put, using
  fiat payment rails for small purchases
  is often more usable
@@ -160,13 +160,13 @@ Lightning network is merely a protocol keeping track
 
 ## Bitcoin as Currency
 
-In practice, the Bitcoin in the Lightning
+In practice, all the Bitcoin in the Lightning
  network, that is, the total amount of Bitcoin
  in all Lightning channels, represents the
  circulating supply of Bitcoin as a currency,
  as a medium of exchange.
 
-And importantly, despite the limitations
+And importantly, despite the scaling limitations
  of settlement on the base-layer,
  Lightning transactions
  are infinitely scalable, easily handling
