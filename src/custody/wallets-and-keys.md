@@ -1,14 +1,19 @@
+<!--
+Lord Jesus Christ
+Son of God
+Have mercy on me, a sinner
+-->
+
 # Wallets and Keys and UTXOs
 
-!!! info "Bitcoin is unlike *anything* that has *ever* existed."
+> Bitcoin is unlike *anything* that has *ever* existed.
 
 Bitcoin is unlike any money that has ever existed.
- It is unlike any technology or network that came before it.
- There's really nothing in history quite like it.
-
-This means that any attempt at explaining Bitcoin
+ It is unlike any technology or network --
+ there's really nothing in history quite like it.
+Any attempt at explaining Bitcoin
  will rely either on sloppy metaphors, or novel technical terms.
- Even the term "custody" is a bit of a misnomer,
+ Even the word "custody" is a bit of a misnomer,
  an anachronism from a simpler time when banks would "custody" your wealth (for a fee).
 
 In reality, there are no actual coins to custody.
