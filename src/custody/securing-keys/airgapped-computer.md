@@ -86,13 +86,18 @@ While any device can be used,
 
     If it did, it would have the following attributes,
 
-    1. smartphone-like device (but industrial)
+    1. smartphone-like device, or mini-laptop
+    1. no built-in storage, MicroSD only (for the OS and software)
     1. open source hardware (with firmware verification and supply chain safeguards)
     1. completely air-gapped (no fan, no speaker, no mirophone, QR-code reader only)
+    1. read-only filesystem by default (option for persisting an encrypted volume)
+    1. should run Linux
+    1. should run electrum, python, and a terminal
     1. isolated electronic and physical counter-measures (to surveillance)
-    1. read-only filesystem by default (option for a persisted volume like Tails OS provides)
-    1. can run Linux
-    1. can run electrum, python, and a terminal
+
+    All software and configuration should be on the MicroSD (like a Raspberry Pi)
+    but with an optional tamper-proof seal such that seed phrases could only be
+    generated *after* sealing the MicroSD in place.
 
     
     
