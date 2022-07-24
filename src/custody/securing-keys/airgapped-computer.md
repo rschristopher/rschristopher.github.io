@@ -80,6 +80,26 @@ While any device can be used,
     Simpler is better.
 
 
+???+ info "Ideal Seed-signer"
+    The ideal cold-storage computer
+    simply doesn't exist.
+
+    If it did, it would have the following attributes,
+
+    1. smartphone-like device (but industrial)
+    1. open source hardware (with firmware verification and supply chain safeguards)
+    1. completely air-gapped (no fan, no speaker, no mirophone, QR-code reader only)
+    1. isolated electronic and physical counter-measures (to surveillance)
+    1. read-only filesystem by default (option for a persisted volume like Tails OS provides)
+    1. can run Linux
+    1. can run electrum, python, and a terminal
+
+    
+    
+
+
+
+
 ## Software
 
 A minimal Debian install is recommended,

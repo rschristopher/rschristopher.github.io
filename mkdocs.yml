@@ -60,7 +60,7 @@ nav:
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
     - Custody:
         - custody/index.md
-        - Wallets and Keys and UTXOs: custody/wallets-and-keys.md
+        - Imperfect Metaphors: custody/imperfect-metaphors.md
         - Creating Keys: 
           - custody/creating-keys/index.md
           - Using Dice: custody/creating-keys/dice.md
