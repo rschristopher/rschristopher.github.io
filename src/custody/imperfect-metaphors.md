@@ -13,7 +13,7 @@ Bitcoin is unlike any money that has ever existed.
  there's really nothing like it in history.
 As a result, any attempt at explaining Bitcoin
  will rely either on imperfect metaphors, or novel technical terms.
-For example, the word *custody* is a bit of a misnomer,
+For example, the word *custody* is a misnomer,
  an anachronism from a simpler time when banks would *custody* your money.
 
 In reality, there are no actual coins to custody.
@@ -21,8 +21,9 @@ Bitcoin is pure information;
  information copied publicly in an immutable ledger.
 Everyone can have a copy of the ledger,
  and everyone can validate that the ledger is correct.
-And similar to how the Internet empowered individuals to share ideas with the world (for better or worse),
- Bitcoin empowers individuals to custody their wealth in ways far more secure than any bank ever could.
+And similar to how the Internet empowered individuals to share ideas with the world,
+ Bitcoin empowers individuals to custody their wealth,
+ and to do so in ways far more secure than any bank ever could.
 
 And because Bitcoin is money, 
  there are many traditional metaphors
@@ -46,9 +47,9 @@ We will describe these imperfect metaphors
 ## Wallets
 
 In Bitcoin, the word *wallet* is a misnomer,
- possibly the most egregious of confusing metaphor in Bitcoin.
+ possibly the most confusing metaphor in Bitcoin.
 The term *wallet* in Bitcoin can mean different things.
- It can refer to a collection of private keys, 
+It can refer to a collection of private keys, 
  or invoice addresses,
  or UTXO sets,
  or as the hardware or software to manage any of the above.
@@ -59,7 +60,7 @@ But a Bitcoin wallet is most certainly NOT
 
 The traditional meaning of the word *wallet* simply doesn't apply to Bitcoin.
  The word *wallet* was used in Bitcoin because the original Bitcoin core client app would store private keys in a file named `wallet.dat`.
- This *wallet* was simply the file where your private keys were stored.
+ This `wallet.dat` was simply the file where your private keys were stored.
 
 ### Hot Wallet
 
@@ -72,13 +73,15 @@ E.g., if you have a Bitcoin wallet app on your phone that can send and receive B
 
 ### Cold Storage Wallet
 
-If you store private keys offline, never connected to the Internet, 
+If you store private keys offline, 
+ in a device never connected to the Internet, 
  this is referred to as *cold storage*.
 There are obvious security benefits,
- and *cold storage* is the recommended approach for safe custody of your Bitcoin.
+ and *cold storage* is the recommended approach 
+ for safe custody of your Bitcoin.
 
 There are many cold storage practices, 
- and they follow this standard pattern,
+ and they follow a standard pattern,
 
 1. private keys are stored offline (e.g., in an air-gapped device).
 1. public keys can be stored in an Internet-connected device.
@@ -118,14 +121,9 @@ This includes
 ## Keys
 
 It is your Bitcoin keys that you custody.
- Specifically, you custody your private keys,
+Specifically, you custody your private keys,
  usually by storing the seed phrases 
  that can be used to generate your private keys.
-
-This is the most important aspect of Bitcoin custody. 
- In fact, your Bitcoin is only truly yours 
- to the extent that you have secured your keys in a proper self custody system.
-
 A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
 A private key can be generated from a seed phrase.
