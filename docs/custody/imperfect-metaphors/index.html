@@ -2422,15 +2422,16 @@ Have mercy on me, a sinner
  there's really nothing like it in history.
 As a result, any attempt at explaining Bitcoin
  will rely either on imperfect metaphors, or novel technical terms.
-For example, the word <em>custody</em> is a bit of a misnomer,
+For example, the word <em>custody</em> is a misnomer,
  an anachronism from a simpler time when banks would <em>custody</em> your money.</p>
 <p>In reality, there are no actual coins to custody.
 Bitcoin is pure information; 
  information copied publicly in an immutable ledger.
 Everyone can have a copy of the ledger,
  and everyone can validate that the ledger is correct.
-And similar to how the Internet empowered individuals to share ideas with the world (for better or worse),
- Bitcoin empowers individuals to custody their wealth in ways far more secure than any bank ever could.</p>
+And similar to how the Internet empowered individuals to share ideas with the world,
+ Bitcoin empowers individuals to custody their wealth,
+ and to do so in ways far more secure than any bank ever could.</p>
 <p>And because Bitcoin is money, 
  there are many traditional metaphors
  (such as <em>wallets</em>, <em>coins</em>, and <em>addresses</em>)
@@ -2446,9 +2447,9 @@ And thus to <em>custody</em> your Bitcoin, means something very different than a
  and what it really means to <em>custody your Bitcoin</em>.</p>
 <h2 id="wallets">Wallets<a class="headerlink" href="#wallets" title="Permanent link">&para;</a></h2>
 <p>In Bitcoin, the word <em>wallet</em> is a misnomer,
- possibly the most egregious of confusing metaphor in Bitcoin.
+ possibly the most confusing metaphor in Bitcoin.
 The term <em>wallet</em> in Bitcoin can mean different things.
- It can refer to a collection of private keys, 
+It can refer to a collection of private keys, 
  or invoice addresses,
  or UTXO sets,
  or as the hardware or software to manage any of the above.
@@ -2459,7 +2460,7 @@ But a Bitcoin wallet is most certainly NOT
 </div>
 <p>The traditional meaning of the word <em>wallet</em> simply doesn't apply to Bitcoin.
  The word <em>wallet</em> was used in Bitcoin because the original Bitcoin core client app would store private keys in a file named <code>wallet.dat</code>.
- This <em>wallet</em> was simply the file where your private keys were stored.</p>
+ This <code>wallet.dat</code> was simply the file where your private keys were stored.</p>
 <h3 id="hot-wallet">Hot Wallet<a class="headerlink" href="#hot-wallet" title="Permanent link">&para;</a></h3>
 <p>A <em>hot wallet</em> refers to any software or hardware that stores your private keys in a device connected to the Internet, 
  allowing you to send and receive Bitcoin.
@@ -2467,12 +2468,14 @@ If a private key is directly accessible to an online device, this makes it <em>h
 <p>E.g., if you have a Bitcoin wallet app on your phone that can send and receive Bitcoin, 
  this is referred to as a <em>hot wallet</em>.</p>
 <h3 id="cold-storage-wallet">Cold Storage Wallet<a class="headerlink" href="#cold-storage-wallet" title="Permanent link">&para;</a></h3>
-<p>If you store private keys offline, never connected to the Internet, 
+<p>If you store private keys offline, 
+ in a device never connected to the Internet, 
  this is referred to as <em>cold storage</em>.
 There are obvious security benefits,
- and <em>cold storage</em> is the recommended approach for safe custody of your Bitcoin.</p>
+ and <em>cold storage</em> is the recommended approach 
+ for safe custody of your Bitcoin.</p>
 <p>There are many cold storage practices, 
- and they follow this standard pattern,</p>
+ and they follow a standard pattern,</p>
 <ol>
 <li>private keys are stored offline (e.g., in an air-gapped device).</li>
 <li>public keys can be stored in an Internet-connected device.</li>
@@ -2510,13 +2513,10 @@ This includes
 </div>
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
 <p>It is your Bitcoin keys that you custody.
- Specifically, you custody your private keys,
+Specifically, you custody your private keys,
  usually by storing the seed phrases 
- that can be used to generate your private keys.</p>
-<p>This is the most important aspect of Bitcoin custody. 
- In fact, your Bitcoin is only truly yours 
- to the extent that you have secured your keys in a proper self custody system.</p>
-<p>A private key is nothing more than a very large number, 
+ that can be used to generate your private keys.
+A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
 A private key can be generated from a seed phrase.
 A seed phrase can generate public and private key pairs.</p>
