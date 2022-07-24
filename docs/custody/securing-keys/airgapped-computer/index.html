@@ -2350,14 +2350,18 @@ Simpler is better.</p>
 simply doesn't exist.</p>
 <p>If it did, it would have the following attributes,</p>
 <ol>
-<li>smartphone-like device (but industrial)</li>
+<li>smartphone-like device, or mini-laptop</li>
+<li>no built-in storage, MicroSD only (for the OS and software)</li>
 <li>open source hardware (with firmware verification and supply chain safeguards)</li>
 <li>completely air-gapped (no fan, no speaker, no mirophone, QR-code reader only)</li>
+<li>read-only filesystem by default (option for persisting an encrypted volume)</li>
+<li>should run Linux</li>
+<li>should run electrum, python, and a terminal</li>
 <li>isolated electronic and physical counter-measures (to surveillance)</li>
-<li>read-only filesystem by default (option for a persisted volume like Tails OS provides)</li>
-<li>can run Linux</li>
-<li>can run electrum, python, and a terminal</li>
 </ol>
+<p>All software and configuration should be on the MicroSD (like a Raspberry Pi)
+but with an optional tamper-proof seal such that seed phrases could only be
+generated <em>after</em> sealing the MicroSD in place.</p>
 </details>
 <h2 id="software">Software<a class="headerlink" href="#software" title="Permanent link">&para;</a></h2>
 <p>A minimal Debian install is recommended,
