@@ -30,13 +30,13 @@ Knowing how to fulfill the above
 
 To *self custody* means you personally 
  secure your seed phrase and manage your own keys.
- This is the recommended approach but
+ This is the recommended approach and
  it is also the **only** way to properly secure your
  Bitcoin.
 
 With self custody you could decide that you'd rather die than give up your Bitcoin;
  that it will go to your children or else to no one.
- This sounds silly and rather extreme, but Bitcoin is the only asset
+This may sound silly and rather extreme, but Bitcoin is the only asset
  in the history of the world where you can meaningfully accomplish this level of ownership.
  And you can accomplish this without lawyers or politicians.
  In fact, you can accomplish this even in opposition to lawyers and politicians
@@ -169,14 +169,16 @@ We could keep going with this all-too-common tale of security theater
     to the dark web
     multiple times (through any one of the high-profile data breaches
     that you read about in the news).
+    Tying your wealth to personal information is generally a bad idea,
+    but impossible to avoid with institutional custody.
 
-	The fire-proof lockbox would not preserve a piece of paper
+	A fire-proof lockbox would not preserve a piece of paper
     through a house fire.
 
     Regardless, there's a much bigger problem --
     a barely competent hacker could call your bank and impersonate you.
     With a quick glance at your social media,
-    they can answer the security questions (*Cherokees, Rex, Hoboken*),
+    they could answer the security questions (*Cherokees, Rex, Hoboken*),
     then they
     reset the password, change the security questions,
     liquidate the account,
