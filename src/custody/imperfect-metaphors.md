@@ -123,14 +123,15 @@ This includes
 It is your Bitcoin keys that you custody.
 Specifically, you custody your private keys,
  usually by storing the seed phrases 
- that can be used to generate your private keys.
+ that can generate your private keys and
+ the corresponding public keys.
 A private key is nothing more than a very large number, 
  i.e., a 256-bit number.
-A private key can be generated from a seed phrase.
-A seed phrase can generate public and private key pairs.
+Every private key has a corresponding public key.
 
-
-https://en.wikipedia.org/wiki/Public-key_cryptography
+This relies on 
+ [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography),
+ 
 
 https://en.wikipedia.org/wiki/Alice_and_Bob
 
