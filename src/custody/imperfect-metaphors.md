@@ -123,21 +123,21 @@ This includes
 It is your Bitcoin keys that you custody.
 Specifically, you custody your private keys,
  usually by storing the seed phrases 
- that can generate your private keys and
- the corresponding public keys.
-A private key is nothing more than a very large number, 
- i.e., a 256-bit number.
-Every private key has a corresponding public key.
+ that can generate the private keys and
+ their corresponding public keys.
+
 
 This relies on 
- [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography),
+
+ [elliptic-curve cryptography](https://en.m.wikipedia.org/wiki/Elliptic-curve_cryptography)
+
+ [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
  
-
-https://en.wikipedia.org/wiki/Alice_and_Bob
-
+ [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
 
 
-This process is defined in BIP 32, 
+
+Seed phrases are defined in BIP 32, 
  known as
  Hierarchical Deterministic Wallets
 
@@ -158,6 +158,8 @@ https://en.bitcoin.it/wiki/Seed_phrase
 ...
 BIP 39
 Electrum
+
+
 
 ### Sample Keys
 
