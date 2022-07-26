@@ -35,12 +35,11 @@ The goal of a seed phrase
     was actually used before.
     You can recover this wallet and view the
     transaction history for yourself.
-    For 2-hours in 2016 there was 346.9341 Bitcoin stored with this key.
-	Perhaps it's part of a 
+    For 2-hours in 2016 there was 0.3469341 Bitcoin stored with this key.
+	Perhaps these transactions are part of a 
 	[Steganographic](https://en.wikipedia.org/wiki/Steganography)
     puzzle, and this is the first entry into finding a hidden fortune.
-    Or perhaps someone didn't know what they were doing and lost
-    all their Bitcoin.
+    Or perhaps someone lost their Bitcoin because of low entropy.
 
     ![Electrum Screen](/images/electrum_abandon_art.png)
 

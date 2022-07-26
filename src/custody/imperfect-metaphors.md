@@ -111,7 +111,6 @@ This includes
  [protocols](protocols/index.md)
  to manage private keys.
 
-!!! danger "Not your keys, not your Bitcoin."
 
 
 
@@ -119,6 +118,8 @@ This includes
 
 
 ## Keys
+
+!!! danger "Not your keys, not your Bitcoin."
 
 It is your Bitcoin keys that you custody.
 Specifically, you custody your private keys,
@@ -131,7 +132,7 @@ This is afterall based on
  [elliptic-curve cryptography](https://en.m.wikipedia.org/wiki/Elliptic-curve_cryptography).
 
 If you're unfamiliar with these concepts,
- their purpose is that *public keys*
+ the purpose is that *public keys*
  can create encrypted information that can
  only be decrypted by the corresponding
  *private keys*.
@@ -145,15 +146,11 @@ In other words, you can receive Bitcoin
  and you can spend Bitcoin by using
  your *private keys*.
 
-<!--
- [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
--->
-
 A *seed phrase* is a list of words
  that encode a 256-bit number
  that can derive
  private keys and their corresponding public keys,
- which can in turn generate addresses that can
+ as well as the addresses that can
  be used in transactions.
 In other words, it is a phrase (typically 24 words)
  that can be used to recover your Bitcoin.
@@ -162,7 +159,7 @@ This process of deriving keys and addresses from a seed phrase
  *Hierarchical Deterministic (HD) Wallets*.
 
 
-### Deterministic Wallets
+### Hierarchical Determinism
 
 In practice,
  *Hierarchical Deterministic (HD) Wallets*
@@ -184,144 +181,39 @@ This could be as simple as a single account with a single key
     accounts, keys, and addresses can be derived from a single seed phrase.
 
 
-The best way to understand this is through examples,
- so let's start with an example seed phrase.
-
-!!! example "Example Seed Phrase"
-
-    ```
-    primary fetch primary prefer primary fetch primary fiber fish cause adult fee
-    ```
-
-This seed phrase can generate a root key, which can generate
- multiple accounts, each account with an unlimited number of
- addresses and key pairs (public and private).
-The accounts and keys can be referenced by a
- [derivation path ](https://river.com/learn/terms/d/derivation-path/).
-
-???+ example "m/0'/0'"
-    This is the
-    [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
-    path to the first account, which will give us the extended private key.
-    This key can be used to generate any of the child keys and addresses for this account.
-
-    ```
-    xprv9xYcGh8prgvDkcydvSeV6xEZVZ4t47xy46VzdsJGVFN8YvwKPF51u9azfREPrQyLyV8HdjDDAzaMkKcRsdfAGQ2diobuW1ZkBrGXXqze5CQ
-    ```
-
-    Additionally, we can derive the extended public key, also known as a Master Public Key (MPK).
-
-    ```
-    xpub6BXxgCfih4UX1BnqD5bhJVMD3nnTUYWwC9kuFgUH11bmqAPhjhxFJWrvBnmh5QexRFkCxqFTS1AHiPhGeEp7HKoW1d85wTyEHSeJdZouJQJ
-    ```
-
-If you wanted to derive the next two accounts, you would use `m/0'/1'` and `m/0'/2'`.
-Importantly, only the root key from the seed phrase can generate these accounts.
-If all you had was one of the extended private keys, you could only use that within
- that account. 
-And likewise, if all you had was the extended public key,
- you could only use that to generate addresses and public keys within
- that account.
-
-Additionally, you can retrieve specific addresses and key pairs for any of these accounts.
-For example, here is the first address and key pair for account number 2.
-
-???+ example "m/0'/2'/0'"
-    Receive Address
-    ```
-    1N1QRK5Ru3gJ7ue3Xv277cMUMdWePbehsc
-    ```
-
-    Public Key
-    ```
-    02279dd8f9c77ac86499fc05cebb3c81763e20f46ad3f9731e87992b512fe2e628
-    ```
-
-    Private Key
-    ```
-    L1yPKTZ6Rw2ge7utKVJrf8fgx7pm6kBAFEJAUmw63hFz1uWPaEeR
-    ```
-
-
-The format of the receive addresses can vary, e.g.,
- a native 
- [Segwit](https://river.com/learn/terms/p/p2wpkh/)
- address and derivation path look like the following,
-
-???+ example "m/84'/0'/3'/0/0"
-    Receive Address
-    ```
-    bc1q3ctchdrxdt4ydljcfp4y0s0a3w8ut07j22f8ty
-    ```
-
-
-
-
-???+ info "Bitcoin Improvement Proposals"
-    In addition to
-     [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
-     there are other related BIPs, e.g.,
-    
-     * [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), derivation paths for 
-    [P2PKH](https://river.com/learn/terms/p/p2pkh/), e.g., `m/44'/0'/0'/0`
-     * [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki), derivation paths for 
-    [P2SH-P2WPKH](https://river.com/learn/terms/b/bip-49-derivation-paths-for-wrapped-segwit/), e.g., `m/49'/0'/0'/0`
-     * [BIP-84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki), derivation paths for
-    [P2WPKH](https://river.com/learn/terms/b/bip-84-derivation-paths-for-native-segwit/), e.g., `m/84'/0'/0'/0`
-    
-    And also
-     [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
-     which standardized the word list used in seed phrases.
-
-
-
-Electrum ...
-
-https://learnmeabitcoin.com/beginners/private_keys
-
-
-https://river.com/learn/terms/z/zpub-extended-public-key/
-
-https://river.com/learn/terms/x/xpub-extended-public-key/
-
-
-https://bitcointalk.org/index.php?topic=5213741.0
-
 
 ### Keys Demystified
 
-Keys come in pairs of public and private
- in order to receive and spend Bitcoin.
-Managing keys is handled through *HD wallets*
- which allows a single seed phrase
- to derive as many addresses and keys
- as you could possibly need.
+Public keys are use to receive Bitcoin, and private keys
+ are used to spend Bitcoin (by signing a transaction).
+A seed phrase can be backed up and is used to generate
+ public and private keys in a predictable (deterministic) way,
+ such that your seed phrase is the most critical piece
+ of information to secure.
+
 
 
 ## Addresses
 
-A Bitcoin *address*, like a *wallet*, is a misnomer,
- and when not understood properly can lead to bad outcomes.
-In practice, a public key can generate 
- unlimited receive addresses such that
- a given receive address should never be used more than once.
-The corresponding private key is needed to spend any Bitcoin received at these addresses,
- and the public key can generate receive addresses but not spend.
-
-This seems simple enough, however, the word *address* implies your Bitcoin is located at this address.
+A Bitcoin *address* is a misnomer,
+ and when not understood properly can lead to a great deal of confusion.
+The word *address* implies your Bitcoin is located at this address.
 In reality, there is no *address* where your Bitcoin is located.
-There are only transactions, which have inputs and outputs, and the outputs can be spent only once.
+There are only transactions, which have inputs and outputs, and the outputs are either spent or unspent.
 
 Transaction inputs are created from the unspent outputs of a previous transaction.
-And these ouputs are created using an address, 
- which is just a number generated by a key.
- This makes the unspent transaction outputs spendable only by 
+And these ouputs are created using an address.
+This makes the unspent transaction outputs spendable only by 
  the corresponding private key associated with the address.
 
-### A Simple Example
+There are two types of addresses, receive addresses
+ (also known as invoice addresses) and change addresses.
 
-Imagine you receive `0.5 Bitcoin` to an address in your wallet.
- This will create a transaction that looks something like,
+
+### Invoice Addresses
+
+Imagine you receive `0.006 Bitcoin` to an address in your wallet.
+ This will create a transaction with an output using your address.
 
 ``` mermaid
 flowchart LR
@@ -329,23 +221,23 @@ flowchart LR
     direction LR
     subgraph in-1[in]
         direction LR
-        a[0.5 BTC]
+        a[0.006 BTC]
     end
     subgraph out-1[out]
         direction LR
-        b[0.5 BTC]
+        b[0.006 BTC]
     end
   end
   a --> b
 ```
 
-Then you send `0.1 Bitcoin` to someone else (to an invoice address they sent you).
+Then you send `0.001 Bitcoin` to someone else (to an invoice address they sent you).
 
-It is tempting to think your original address now has 0.4 Bitcoin, 
+It is tempting to think your original address now has 0.005 Bitcoin, 
  but in reality your original address has nothing. 
- The original transaction is *spent*.
+ The original transaction output is *spent*.
 
-When you send the 0.1 Bitcoin,
+When you send the 0.001 Bitcoin,
  this will create a *new* transaction with **two** outputs:
 
 ``` mermaid
@@ -354,26 +246,26 @@ flowchart LR
     direction RL
     subgraph in-1[in]
         direction RL
-        a[0.5 BTC]
+        a[0.006 BTC]
     end
     subgraph out-1[out]
         direction RL
-        b[0.5 BTC]
+        b[0.006 BTC]
     end
   end
   subgraph TX-2
     direction TB
     subgraph in-2[in]
         direction RL
-        c[0.5 BTC]
+        c[0.006 BTC]
     end
     subgraph out-2[out]
         direction BT
-        d[0.1 BTC]
+        d[0.001 BTC]
     end
     subgraph out-2a[out]
         direction BT
-        e[0.4 BTC]
+        e[0.005 BTC]
     end
   end
   a --> b
@@ -382,25 +274,39 @@ flowchart LR
   b --> in-2
 ```
 
-One output has `0.1 Bitcoin`, and another with `0.4 Bitcoin`.
+One output has `0.001 Bitcoin`, and another with `0.005 Bitcoin`.
 
-Your private key can access the output with `0.4 Bitcoin`,
- and someone else has the private key to access the output with `0.1 Bitcoin`.
- The original transaction output of 0.5 Bitcoin is already spent,
+Your private key can access the output with `0.005 Bitcoin`,
+ and someone else has the private key to access the output with `0.001 Bitcoin`.
+The output at `0.005 Bitcoin` has an address known as a *change address*.
+The original transaction output of 0.006 Bitcoin is already spent,
  and your Bitcoin is only available in the new *unspent transaction outputs*.
 
 !!! warning "These *unspent transaction ouputs* are known as UTXOs (see below)."
+
+
+### Change Addresses
+
+Here is a
+ [real transaction](https://blockstream.info/tx/7778ab22eab23c9c9770bdfeec4988dc52034c01e68053cecc3e54af6b9d9186)
+ where someone spent `0.001 Bitcoin` from a previous
+ UTXO address that contained `0.006 Bitcoin`.
+In addition to a transaction fee of `0.00007718 Bitcoin`,
+ there was `0.00492282 Bitcoin` sent to a change address.
+
+Every invoice address has a corresponding *change address*,
+ which as the name implies, is the change of the spent
+ transaction output.
+
 
 ### Addresses Demystified
 
 An address is not a location where Bitcoin is stored, 
  but rather is used to generate a transaction output (see UTXOs below).
-
-An invoice address (aka *receive address*), 
- is a number generated by your key that will produce a transaction output 
- that can only be spent by the associated private key.
-
-A change address...
+An *invoice address* (aka *receive address*), 
+ is what you would use to receive Bitcoin.
+And when you spend Bitcoin (from an unspent transaction), any remainder
+ will be sent to a *change address*.
 
 
 
@@ -466,19 +372,56 @@ https://developer.bitcoin.org/devguide/block_chain.html?highlight=utxo
 
 
 
+
+
 ## Blockchain
 
+The word *blockchain* is perhaps the most misunderstood and overhyped word related to Bitcoin.
+If you ever read an article on "*blockchain technology*" replace the word
+ *"blockchain"* with *"magic"* and you won't have changed the meaning.
+
+
+???+ example "blockchain or magic?"
+    All the data in {--blockchain--}{++magic++} technology is immutable
+    and can be adapted for use in a variety of industries,
+    including healthcare, supply chain management, and voting.
+
 A *blockchain*, like the name implies,
- is a chain of blocks.
-A block is a collection of transactions.
-This is also an imperfect metaphor
- for what is more aptly known the
+ is simply a chain of blocks.
+And a block is a collection of transactions.
+*That's it.*
+It's an implementation detail as interesting as a
+ [linked list](https://en.wikipedia.org/wiki/Linked_list).
+And if you consider it a distributed database,
+ it is simply the slowest and most inefficient database
+ ever created.
+
+This is an imperfect metaphor
+ for what is more aptly known as the
  Bitcoin *timechain*.
 
 
 ### Timechain
 
-...
+The blockchain is better known as a *timechain* because it 'creates its own time'.
+
+From Satoshi's whitepaper, 
+ "peer-to-peer distributed timestamp server would generate mathematical proof of the chronological order of transactions." 
+
+In practice, what this means is that there is a guaranteed chronological *order* that lays itself out over time;
+  that is, we know the future supply of Bitcoin and we will always be able to view how that supply is ordered
+  (it's an immutable ledger). 
+Using Bitcoin requires *keys* to unlock access (to make a transaction into that immutable ledger). 
+
+Symbolically, Bitcoin is bringing order out of monetary chaos.
+For example, with USD, I have no idea what the future supply will be (it is pure chaos).
+With gold, it proved to be the least chaotic (and symbolically as a redeemed state of matter). 
+And historically, we needed to trust some authority, a coin from the king should do. In God we trust.
+
+With Bitcoin, we know the future supply (specifically, we know the asymptotic limit of the Bitcoin supply and how it will emerge over time). 
+What was once chaotic and unknowable (how much gold is there and how is it distributed), 
+ is now knowable with Bitcoin in a true sense of the word  *order* (out of the chaos of time). 
+
 
 
 
