@@ -2664,6 +2664,22 @@ An <em>invoice address</em> (aka <em>receive address</em>),
 And when you spend Bitcoin (from an unspent transaction), any remainder
  will be sent to a <em>change address</em>.</p>
 <h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
+<p>Bitcoin is a protocol managing an immutable public ledger,
+ and this ledger is made up of ordered <em>transactions</em>.
+Transactions are ordered through <em>blocks</em>,
+ such that a block is merely a collection of transactions
+ (which come after all previous blocks).</p>
+<p>A <em>transaction</em> has an input and an output.
+The input must come from one or more unspent outputs
+ of a prior transaction.
+The only exception is the special
+ <a href="https://river.com/learn/terms/c/coinbase/">coinbase</a>
+ transaction, which is the reward given to
+ whoever successfully mined a new block
+ (thus it has no input from a prior transaction,
+ and is rewarded a new block subsidy).
+Otherwise, all transactions are composed of
+ inputs from previously unspent transaction outputs.</p>
 <pre class="mermaid"><code>flowchart LR
   subgraph TX-1
     direction TB
@@ -2705,8 +2721,11 @@ https://en.bitcoin.it/wiki/Transaction</p>
 <p>https://developer.bitcoin.org/devguide/block_chain.html
 ...</p>
 <h3 id="utxos">UTXOs<a class="headerlink" href="#utxos" title="Permanent link">&para;</a></h3>
-<p>https://developer.bitcoin.org/devguide/block_chain.html?highlight=utxo
-...</p>
+<p>https://developer.bitcoin.org/devguide/block_chain.html?highlight=utxo</p>
+<p>An <em>Unspent Transaction Output</em> (UTXO), like the name implies,
+ is the total amount of spendable Bitcoin.
+Every UTXO contains an address and can only be spent
+ by the <em>private key</em> associated with that address.</p>
 <h3 id="transactions-demystified">Transactions Demystified<a class="headerlink" href="#transactions-demystified" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h2 id="blockchain">Blockchain<a class="headerlink" href="#blockchain" title="Permanent link">&para;</a></h2>
