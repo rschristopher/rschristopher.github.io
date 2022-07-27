@@ -193,6 +193,11 @@ A seed phrase can be backed up and is used to generate
 
 
 
+
+
+
+
+
 ## Addresses
 
 A Bitcoin *address* is a misnomer,
@@ -310,7 +315,32 @@ And when you spend Bitcoin (from an unspent transaction), any remainder
 
 
 
+
+
+
+
+
+
+
 ## Transactions
+
+Bitcoin is a protocol managing an immutable public ledger,
+ and this ledger is made up of ordered *transactions*.
+Transactions are ordered through *blocks*,
+ such that a block is merely a collection of transactions
+ (which come after all previous blocks).
+
+A *transaction* has an input and an output.
+The input must come from one or more unspent outputs
+ of a prior transaction.
+The only exception is the special
+ [coinbase](https://river.com/learn/terms/c/coinbase/)
+ transaction, which is the reward given to
+ whoever successfully mined a new block
+ (thus it has no input from a prior transaction,
+ and is rewarded a new block subsidy).
+Otherwise, all transactions are composed of
+ inputs from previously unspent transaction outputs.
 
 ``` mermaid
 flowchart LR
@@ -361,7 +391,13 @@ https://developer.bitcoin.org/devguide/block_chain.html
 ### UTXOs
 
 https://developer.bitcoin.org/devguide/block_chain.html?highlight=utxo
-...
+
+An *Unspent Transaction Output* (UTXO), like the name implies,
+ is the total amount of spendable Bitcoin.
+Every UTXO contains an address and can only be spent
+ by the *private key* associated with that address.
+
+
 
 
 ### Transactions Demystified
