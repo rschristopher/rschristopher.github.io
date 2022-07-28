@@ -184,7 +184,7 @@ This could be as simple as a single account with a single key
 
 ### Keys Demystified
 
-Public keys are use to receive Bitcoin, and private keys
+Public keys are used to receive Bitcoin, and private keys
  are used to spend Bitcoin (by signing a transaction).
 A seed phrase can be backed up and is used to generate
  public and private keys in a predictable (deterministic) way,
@@ -432,12 +432,12 @@ And a block is a collection of transactions.
 It's an implementation detail as interesting as a
  [linked list](https://en.wikipedia.org/wiki/Linked_list).
 And if you consider it a distributed database,
- it is simply the slowest and most inefficient database
+ it is the slowest and most inefficient database
  ever created.
 By itself it is not secure, completely mutable, and has
- none of the magic that is often associated
- with it by those easily confused by technology 
- (and the subtle differences between technology and magic).
+ none of the magic often associated
+ with it (by those easily confused by technology
+ and the subtle differences between technology and magic).
 
 Ultimately, this is an imperfect metaphor
  for what is more aptly known as the
