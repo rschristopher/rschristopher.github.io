@@ -410,6 +410,9 @@ Every UTXO contains an address and can only be spent
 
 
 
+
+
+
 ## Blockchain
 
 The word *blockchain* is perhaps the most misunderstood and overhyped word related to Bitcoin.
@@ -431,32 +434,45 @@ It's an implementation detail as interesting as a
 And if you consider it a distributed database,
  it is simply the slowest and most inefficient database
  ever created.
+By itself it is not secure, completely mutable, and has
+ none of the magic that is often associated
+ with it by those easily confused by technology 
+ (and the subtle differences between technology and magic).
 
-This is an imperfect metaphor
+Ultimately, this is an imperfect metaphor
  for what is more aptly known as the
  Bitcoin *timechain*.
 
 
 ### Timechain
 
-The blockchain is better known as a *timechain* because it 'creates its own time'.
+The blockchain is better known as a *timechain* because it provides
+ an order to all transactions, creating its own *time* in the process.
 
-From Satoshi's whitepaper, 
- "peer-to-peer distributed timestamp server would generate mathematical proof of the chronological order of transactions." 
+From the [whitepaper](/images/bitcoin.pdf), Bitcoin provides
 
-In practice, what this means is that there is a guaranteed chronological *order* that lays itself out over time;
-  that is, we know the future supply of Bitcoin and we will always be able to view how that supply is ordered
-  (it's an immutable ledger). 
-Using Bitcoin requires *keys* to unlock access (to make a transaction into that immutable ledger). 
+!!! quote "a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions"
+
+Bitcoin provides a chronological of transactions, *order* that lays itself out over time;
+  that is, we know the precise order of transactions,
+  as well as the future supply of Bitcoin,
+  and we will always be able to view how the supply is ordered
+  (it's an immutable ledger).
+We can predict with surprising accuracy what the Bitcoin supply will be at any point in the future.
+
+It does not repeat.
+There are no circular paths in Bitcoin time.
+It is linear, keeping a pulse, a new block, every 10-minutes on average.
 
 Symbolically, Bitcoin is bringing order out of monetary chaos.
 For example, with USD, I have no idea what the future supply will be (it is pure chaos).
-With gold, it proved to be the least chaotic (and symbolically as a redeemed state of matter). 
-And historically, we needed to trust some authority, a coin from the king should do. In God we trust.
+With gold, it proved to be the least chaotic,
+ but historically we needed to trust some authority with gold,
+ a coin from the king should do. In God we trust.
 
-With Bitcoin, we know the future supply (specifically, we know the asymptotic limit of the Bitcoin supply and how it will emerge over time). 
-What was once chaotic and unknowable (how much gold is there and how is it distributed), 
- is now knowable with Bitcoin in a true sense of the word  *order* (out of the chaos of time). 
+With Bitcoin, we know the future supply.
+What was once chaotic and unknowable (how much money is there and how is it distributed), 
+ is now knowable with Bitcoin in a true sense of the word  *order* (order out of chaos).
 
 
 
@@ -464,7 +480,6 @@ What was once chaotic and unknowable (how much gold is there and how is it distr
 ### Blockchain Demystified
 
 ...
-
 
 
 
