@@ -465,7 +465,7 @@ Each block has a hash.
 A block hash is a 
  [sha256](https://en.wikipedia.org/wiki/SHA-2)
  of the entire block itself
- (including the previous block hash).
+ (which includes the previous block hash).
 This is a cryptographic function that
  takes any input (in this case a block) and 
  generates a 256-bit number as output.
