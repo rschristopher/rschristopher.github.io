@@ -269,9 +269,13 @@ It's new, it's different,
     A redneck with a gun and a coldcard can custody Bitcoin
     with more security than any bank.
 
----
+<!-- 
 
 https://ssd.eff.org/
 
 https://securityinabox.org/en/
+
+-->
+
+
 
