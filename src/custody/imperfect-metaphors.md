@@ -452,7 +452,7 @@ A blockchain offers absolutely no value to
 
 Ultimately, a blockchain only makes sense in the context of
  a *proof of work (PoW)* consenus mechanism whose security
- comes from the considerable cost of work in the PoW.
+ comes from the considerable cost of *work* in the PoW.
 
 
 ### Proof of Work
