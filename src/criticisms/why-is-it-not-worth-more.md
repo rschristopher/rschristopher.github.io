@@ -92,11 +92,11 @@ Even gold has industrial uses,
 Bitcoin, unlike gold, silver or real-estate,
  is pure monetary premium.
 
-Fiat money also has a pure monetary premium,
+Fiat money is also a pure monetary premium,
  except its supply is theoretically infinite,
  and through the 
  Cantillon effect
- has obscured if not broken price signals
+ Fiat has obscured if not broken price signals
  in every market.
 Bitcoin *--if it is true--* will send a clear price signal,
  allowing markets to function properly,
