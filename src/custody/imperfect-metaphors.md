@@ -562,7 +562,7 @@ What changed the world was not the invention of a blockchain
  [1990s](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)).
 What changed the world was the invention of Bitcoin,
  a distributed timestamp server
- with a PoW consensus mechanism and difficult adjustment,
+ with a PoW consensus mechanism and difficulty adjustment,
  giving us the most sound money to ever exist.
 
 Focusing on a blockchain as innovation is like focusing on how the 
