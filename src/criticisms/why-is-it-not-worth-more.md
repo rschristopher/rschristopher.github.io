@@ -3,7 +3,7 @@
 > If Bitcoin is true, then
 > its value should be far higher,
 > equal to the total amount of
-> all money on earth.
+> wealth on earth.
 
 To any such criticism, one must ask,
  *what should the price of Bitcoin be?*
