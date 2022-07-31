@@ -122,15 +122,14 @@ This includes
 
 It is your Bitcoin keys that you custody.
 Specifically, you custody your private keys,
- usually by storing the seed phrase 
+ usually by storing the *seed phrase* 
  that can generate your private keys and
  their corresponding public keys.
-This is afterall based on
- [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography),
- specifically
- [elliptic-curve cryptography](https://en.m.wikipedia.org/wiki/Elliptic-curve_cryptography).
 
-If you're unfamiliar with these concepts,
+If you're unfamiliar with these concepts
+ ([public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography),
+ and
+ [elliptic-curve cryptography](https://en.m.wikipedia.org/wiki/Elliptic-curve_cryptography)),
  the purpose is that *public keys*
  can create encrypted information that can
  only be decrypted by the corresponding
