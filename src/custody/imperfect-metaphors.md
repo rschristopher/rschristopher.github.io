@@ -127,7 +127,7 @@ Specifically, you custody your private keys,
  their corresponding public keys.
 
 If you're unfamiliar with these concepts
- ([public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography),
+ ([public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
  and
  [elliptic-curve cryptography](https://en.m.wikipedia.org/wiki/Elliptic-curve_cryptography)),
  the purpose is that *public keys*
