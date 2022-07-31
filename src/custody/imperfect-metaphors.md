@@ -60,8 +60,7 @@ But a Bitcoin wallet is most certainly NOT
 
 The traditional meaning of the word *wallet* simply doesn't apply to Bitcoin.
  The word *wallet* was used in Bitcoin because the original Bitcoin core client app would store private keys in a file named `wallet.dat`.
- This `wallet.dat` was simply the file where your private keys were stored.
-
+ 
 ### Hot Wallet
 
 A *hot wallet* refers to any software or hardware that stores your private keys in a device connected to the Internet, 
