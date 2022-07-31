@@ -59,7 +59,7 @@ It's certainly possible to theorize on
  a price, a number of Satoshis per sqft,
  such that Bitcoin would be more valuable
  than real estate.
-But this isn't exactly useful not practical.
+But this isn't exactly useful nor practical.
 
 Not all land is for sale, not in fiat nor gold
  nor Bitcoin. 
