@@ -392,7 +392,9 @@ https://developer.bitcoin.org/devguide/block_chain.html
 
 As the name implies,
  an *Unspent Transaction Output* (UTXO)
- is the total amount of addressable Bitcoin at
+ is Bitcoin that has not been spent.
+The Bitcoin you custody will be in UTXOs.
+UTXOs represent the total amount of addressable Bitcoin at
  any given time.
 Every UTXO contains an address such that the UTXO can only be spent
  by the *private key (or keys)* associated with that address.
