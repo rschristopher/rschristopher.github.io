@@ -4,12 +4,15 @@
 > its value should be far higher,
 > equal to the total amount of
 > wealth on earth.
+> The price should be far higher.
 
 To any such criticism, one must ask,
  *what should the price of Bitcoin be?*
 And with what unit of account?
 That is, if Bitcoin should be worth more,
- *more of what?*
+ then we can only ask:
+
+> *more of what?*
 
 ## More silver?
 
@@ -19,7 +22,7 @@ In fact it has exceeded silver's market cap
  more than once.
 That is, if a Bitcoin could buy more than
  83 kilograms of silver, then the value of
- Bitcoin is greater than silver.
+ Bitcoin will be greater than silver.
 
 ## More gold?
 
@@ -38,7 +41,7 @@ We're at the mercy of every central bank and
 And because of this, it's impossible to
  calculate the value of Bitcoin
  needed for it to exceed fiat.
-For if it did, the fiat would likely hyperinflates
+For if it did, the fiat currency would likely hyperinflate
  towards infinity, leading to a true value of zero
  (currency collapse).
 
@@ -70,11 +73,14 @@ And the estimated market cap for real estate
  (under $100 trillion).
 That is, all the money on earth (including
  Bitcoin) falls short of the value of land.
+Even during the gold standard this was true,
+ there is not (and never was) enough gold
+ to buy all the land on earth.
 
 Even more confounding, the total value of
- derivatives is measured in quadrillions,
- significantly higher than all the money
- on earth.
+ derivatives is measured in quadrillions of dollars,
+ significantly higher than all the land
+ and all the money on earth combined.
 
 
 
@@ -95,20 +101,20 @@ Bitcoin, unlike gold, silver, or real-estate,
 Fiat money is also a pure monetary premium,
  except its supply is theoretically infinite,
  and through the 
- Cantillon effect
+ [Cantillon effect](https://fee.org/articles/the-cantillon-effect-because-of-inflation-we-re-financing-the-financiers/)
  fiat has obscured if not broken price signals
  in every market.
 
-Bitcoin *-- if it is true --* will send a clear
- price signal into every market,
+Bitcoin *-- if it is true --* will send clear
+ price signals into every market,
  allowing those markets to function properly.
-And we will discover the true value of
+And only then will we discover the true value of
  fine art,
  real estate,
  food futures,
  derivatives,
  government bonds,
- and so on, until we know
+ and so on, until finally we know
  the true value of money itself.
 Perhaps it will be far lower than the quadrillions
  of dollars we see in unfunded liabilities

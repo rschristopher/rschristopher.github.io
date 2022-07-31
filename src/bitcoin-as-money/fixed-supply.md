@@ -1,6 +1,18 @@
 # Fixed Supply
 ...
 
+<!--
+
+Lord Jesus Christ
+Son of God
+have mercy on me, a sinner
+
+
+... Who controls Bitcoin?
+
+-->
+
+
 ## Is a Fixed Supply Important?
 
 Let's consider this classic chart that you may have seen
@@ -117,10 +129,10 @@ And yes, the code at the moment will
     }
     ```
     The `>>=` operator in the code is a bit shift right,
-     which has the effect of halving a number
+     which has the effect of halving a number, e.g.,
 
     ```
-    50 -> 25 -> 12.5 -> 6.25 -> 3.125 -> 1.5625 -> ...
+    50, 25, 12.5, 6.25, 3.125, 1.5625, ...
     ```
     
 

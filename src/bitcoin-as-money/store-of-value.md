@@ -68,7 +68,7 @@ Today, we approach Bitcoin somewhat
  *store of value*.
 We do this
  because we live under fiat,
- and fiat is a terrible
+ and fiat is a broken
  store of value.
 The price of Bitcoin in fiat
  is extremely volatile,
@@ -85,6 +85,7 @@ Similar things happened with gold price
  the volatility of the gold price was
  not a reflection of gold, but of the
  hyperinflating money.
+The inevitable death throws of fiat money.
 
 ![weimar inflation](/images/weimar_inflation.png)
 
