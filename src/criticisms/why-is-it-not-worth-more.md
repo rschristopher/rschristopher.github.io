@@ -96,7 +96,7 @@ Fiat money is also a pure monetary premium,
  except its supply is theoretically infinite,
  and through the 
  Cantillon effect
- Fiat has obscured if not broken price signals
+ fiat has obscured if not broken price signals
  in every market.
 
 Bitcoin *-- if it is true --* will send a clear
