@@ -18,7 +18,7 @@ For example, the word *custody* is a misnomer,
 
 In reality, there are no actual coins to custody.
 Bitcoin is pure information; 
- information copied publicly in an immutable ledger.
+ information copied publicly in a cryptographic ledger.
 Everyone can have a copy of the ledger,
  and everyone can validate that the ledger is correct.
 And similar to how the Internet empowered individuals to share ideas with the world,
@@ -279,11 +279,12 @@ flowchart LR
   b --> in-2
 ```
 
-One output has `0.001 Bitcoin`, and another with `0.005 Bitcoin`.
+One output has `0.001 Bitcoin`, and another with `0.005 Bitcoin` 
+ (for simplicity, this is ignoring transaction fees).
 
 Your private key can access the output with `0.005 Bitcoin`,
  and someone else has the private key to access the output with `0.001 Bitcoin`.
-The output at `0.005 Bitcoin` has an address known as a *change address*.
+The output at `0.005 Bitcoin` uses a *change address*.
 The original transaction output of 0.006 Bitcoin is already spent,
  and your Bitcoin is only available in the new *unspent transaction outputs*.
 
@@ -297,17 +298,17 @@ Here is a
  where someone spent `0.001 Bitcoin` from a previous
  UTXO address that contained `0.006 Bitcoin`.
 In addition to a transaction fee of `0.00007718 Bitcoin`,
- there was `0.00492282 Bitcoin` sent to a change address.
+ there was `0.00492282 Bitcoin` sent to a *change address*.
 
 Every invoice address has a corresponding *change address*,
- which as the name implies, is the change of the spent
+ which as the name implies, is the *change* of the spent
  transaction output.
 
 
 ### Addresses Demystified
 
 An address is not a location where Bitcoin is stored, 
- but rather is used to generate a transaction output (see UTXOs below).
+ but is a number used to generate a transaction output (see UTXOs below).
 An *invoice address* (aka *receive address*), 
  is what you would use to receive Bitcoin.
 And when you spend Bitcoin (from an unspent transaction), any remainder
@@ -324,23 +325,21 @@ And when you spend Bitcoin (from an unspent transaction), any remainder
 
 ## Transactions
 
-Bitcoin is a protocol managing an immutable public ledger,
+Bitcoin is a protocol managing a cryptographic ledger,
  and this ledger is made up of ordered *transactions*.
 Transactions are ordered through *blocks*,
- such that a block is merely a collection of transactions
- (which come after all previous blocks).
+ such that a block is merely a collection of transactions.
 
-A *transaction* has an input and an output.
-The input must come from one or more unspent outputs
- of a prior transaction.
+A *transaction* has inputs and an outputs.
+The inputs must come from one or more unspent outputs
+ of prior transactions.
 The only exception is the special
  [coinbase](https://river.com/learn/terms/c/coinbase/)
  transaction, which is the reward given to
  whoever successfully mined a new block
- (thus it has no input from a prior transaction,
- and is rewarded a new block subsidy).
+ (thus it has no input from a prior transaction).
 Otherwise, all transactions are composed of
- inputs from previously unspent transaction outputs.
+ inputs from previously unspent transaction outputs (UTXOs).
 
 ``` mermaid
 flowchart LR
@@ -381,28 +380,37 @@ flowchart LR
   out-1 --> in-2
 ```
 
+<!--
 https://developer.bitcoin.org/reference/transactions.html
+
 https://en.bitcoin.it/wiki/Transaction
 
 https://developer.bitcoin.org/devguide/block_chain.html
-...
+
+-->
 
 
 ### UTXOs
 
-https://developer.bitcoin.org/devguide/block_chain.html?highlight=utxo
-
-An *Unspent Transaction Output* (UTXO), like the name implies,
- is the total amount of spendable Bitcoin.
-Every UTXO contains an address and can only be spent
- by the *private key* associated with that address.
+As the name implies,
+ an *Unspent Transaction Output* (UTXO)
+ is the total amount of addressable Bitcoin at
+ any given time.
+Every UTXO contains an address such that the UTXO can only be spent
+ by the *private key (or keys)* associated with that address.
 
 
 
 
 ### Transactions Demystified
 
-...
+Transactions are simply the movement of Bitcoin
+ on the ledger, such that the entire supply of all
+ Bitcoin can be accounted for.
+A transaction is simply inputs and outputs which
+ move the balance of Bitcoin to different
+ cryptographic addresses (accessible only
+ by private keys).
 
 
 
@@ -415,9 +423,9 @@ Every UTXO contains an address and can only be spent
 
 ## Blockchain
 
-The word *blockchain* is perhaps the most misunderstood and overhyped word related to Bitcoin.
-If you ever read an article on "*blockchain technology*" replace the word
- *"blockchain"* with *"magic"* and you won't have changed the meaning.
+The word *"blockchain"* is perhaps the most misunderstood and overhyped word related to Bitcoin.
+Next time you read an article on *"blockchain technology"* replace the word
+ *"blockchain"* with *"magic"* and you won't have changed the article's meaning.
 
 
 ???+ example "blockchain or magic?"
@@ -432,45 +440,114 @@ And a block is a collection of transactions.
 It's an implementation detail as interesting as a
  [linked list](https://en.wikipedia.org/wiki/Linked_list).
 And if you consider it a distributed database,
- it is the slowest and most inefficient database
- ever created.
-By itself it is not secure, completely mutable, and has
+ it is a slow and inefficient database.
+
+By itself a blockchain is not secure;
+ it is as mutable as any other data;
+ and it has
  none of the magic often associated
  with it (by those easily confused by technology
  and the subtle differences between technology and magic).
+A blockchain offers absolutely no value to
+ healthcare, supply chain management, or voting.
 
-Ultimately, this is an imperfect metaphor
- for what is more aptly known as the
+Ultimately, a blockchain only makes sense in the context of
+ a *proof of work (PoW)* consenus mechanism whose security
+ comes from the considerable cost of work in the PoW.
+
+
+### Proof of Work
+
+A typical blockchain diagram will look something like this,
+
+![block chain](/images/blockchain-chart.jpg)
+
+Each block has a hash.
+A block hash is a 
+ [sha256](https://en.wikipedia.org/wiki/SHA-2)
+ of the entire block itself
+ (including the previous block hash).
+This is a cryptographic function that
+ takes any input (in this case a block) and 
+ generates a 256-bit number as output.
+A block can be referenced by its hash
+ as well as by block height (starting at 1).
+Here are some examples of actual block hashes:
+
+ * Genesis -> [`00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048`](https://blockstream.info/block/00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048)
+ * 100100 -> [`0000000000020ee4806021c0b6e7b97d31df0c2fdbd0f6c3a7cb5883c7bc151f`](https://blockstream.info/block/0000000000020ee4806021c0b6e7b97d31df0c2fdbd0f6c3a7cb5883c7bc151f)
+ * 200201 -> [`00000000000000e510b96fcf03e27ad30f8d50e4cd4cb7cf4c06cf7ffb9add3e`](https://blockstream.info/block/00000000000000e510b96fcf03e27ad30f8d50e4cd4cb7cf4c06cf7ffb9add3e)
+ * 300301 -> [`00000000000000002887537d323675f79cc5eddce91b3c0dd433739cbfe9c823`](https://blockstream.info/block/00000000000000002887537d323675f79cc5eddce91b3c0dd433739cbfe9c823)
+ * 700700 -> [`00000000000000000000e55da58b378880e797f9f3e96811d3e64a2f801eed9a`](https://blockstream.info/block/00000000000000000000e55da58b378880e797f9f3e96811d3e64a2f801eed9a)
+
+These hashes have a lot of leading zeroes,
+ and as time goes on, the number of leading zeroes seems to increase.
+This is due to *proof of work* (and network difficulty
+ increasing over time).
+
+There is a common misnomer that PoW involves
+ solving a difficult
+ mathematical problem.
+In fact, all PoW does is provide a verifiable
+ block hash that is smaller than the current
+ network difficulty.
+In other words, the hash is simply a number
+ (a 256-bit number) that is smaller than
+ the network difficulty number.
+This is why you see leading zeroes.
+
+The reason this is a *proof* of work
+ is because generating a valid block
+ requires massive amounts of work.
+A Bitcoin miner constantly
+ adjusts a proposed block 
+ (see the `nonce` in the header)
+ and generates a sha256 hash,
+ essentially a guess.
+Every miner repeats this, over and over,
+ until finally *-- and by dumb luck --*
+ the hash is smaller than the network difficulty.
+If the hash is valid (adhering to consensus rules)
+ then the rest of the network will accept the
+ proposed block.
+
+There is also a `timestamp` field in each block,
+ meaning the Bitcoin network is also a distributed
+ timestamp server.
+This allows the PoW blockchain to keep track of time.
+And due to what is known as the
+ [difficulty adjustment](https://river.com/learn/terms/d/difficulty/),
+ the network will adjust its 
+ difficulty in order to maintain a 10-minute average block time.
+The difficulty will adjust
+ every 2016 blocks (which reversed is 6102,
+ a subtle reference to 
+ [executive order 6102](https://en.wikipedia.org/wiki/Executive_Order_6102)).
+This is why the PoW blockchain
+ is more aptly known as the
  Bitcoin *timechain*.
 
 
 ### Timechain
 
-The blockchain is better known as a *timechain* because it provides
- an order to all transactions, creating its own *time* in the process.
-
+The PoW blockchain is better known as a *timechain* because it provides
+ a chronological order to all transactions, creating its own *time* in the process.
 From the [whitepaper](/images/bitcoin.pdf), Bitcoin provides
+*"a solution to the double-spending problem using a peer-to-peer
+ distributed timestamp server to generate computational proof
+ of the chronological order of transactions"*.
 
-!!! quote "a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions"
-
-Bitcoin provides a chronological of transactions, *order* that lays itself out over time;
+In other words, Bitcoin provides *order* that lays itself out over time;
   that is, we know the precise order of transactions,
-  as well as the future supply of Bitcoin,
-  and we will always be able to view how the supply is ordered
-  (it's an immutable ledger).
-We can predict with surprising accuracy what the Bitcoin supply will be at any point in the future.
+  as well as the future supply of Bitcoin.
+We can predict with high accuracy what the Bitcoin supply will be at any point in the future
+ (something you cannot do with gold or fiat).
 
-It does not repeat.
+The timechain does not repeat.
 There are no circular paths in Bitcoin time.
 It is linear, keeping a pulse, a new block, every 10-minutes on average.
 
 Symbolically, Bitcoin is bringing order out of monetary chaos.
-For example, with USD, I have no idea what the future supply will be (it is pure chaos).
-With gold, it proved to be the least chaotic,
- but historically we needed to trust some authority with gold,
- a coin from the king should do. In God we trust.
-
-With Bitcoin, we know the future supply.
 What was once chaotic and unknowable (how much money is there and how is it distributed), 
  is now knowable with Bitcoin in a true sense of the word  *order* (order out of chaos).
 
@@ -479,7 +556,16 @@ What was once chaotic and unknowable (how much money is there and how is it dist
 
 ### Blockchain Demystified
 
-...
+A blockchain is a chain of blocks, nothing fancy nor magic.
+What changed the world was not the invention of blockchain,
+ but the invention of Bitcoin,
+ a distributed timestamp server
+ with a PoW consensus mechanism and difficult adjustment.
+
+Focusing on a blockchain is like focusing on how the 
+ *Wright brothers* invented wings rather than manned flight,
+ all while claiming wings would revolutionize trains.
+ 
 
 
 
