@@ -83,13 +83,13 @@ Even more confounding, the total value of
 ## True value of Bitcoin 
 
 If Bitcoin is true,
- the total value is the true value of money itself.
+ its total value is the true value of money itself.
 That is, Bitcoin has no utility other than 
  as money. 
 Even gold has industrial uses, 
  meaning part of its value is separate 
  from its monetary premium.
-Bitcoin, unlike gold, silver or real-estate,
+Bitcoin, unlike gold, silver, or real-estate,
  is pure monetary premium.
 
 Fiat money is also a pure monetary premium,
@@ -98,14 +98,25 @@ Fiat money is also a pure monetary premium,
  Cantillon effect
  Fiat has obscured if not broken price signals
  in every market.
-Bitcoin *--if it is true--* will send a clear price signal,
- allowing markets to function properly,
- and we will discover the true value of money itself.
+
+Bitcoin *-- if it is true --* will send a clear
+ price signal into every market,
+ allowing those markets to function properly.
+And we will discover the true value of
+ fine art,
+ real estate,
+ food futures,
+ derivatives,
+ government bonds,
+ and so on, until we know
+ the true value of money itself.
 Perhaps it will be far lower than the quadrillions
  of dollars we see in unfunded liabilities
  and derivatives.
-Whatever it will be, will be the cold hard
- economic truth of civilization itself.
+Whatever it will be, will be, and it will be 
+ a cold hard truth revealing the value of
+ our civilization as it is, not as central 
+ planners and politicians pretend it to be.
 
 
 
