@@ -231,7 +231,7 @@ No reasonable person would conclude that the current state
 Securing your assets in the traditional fiat banking system requires
  a Rube-Goldberg-Machine of security-theater
  where telling a call-center operator in the Philipines
- what your mother's maiden name is
+ your mother's maiden name
  somehow constitutes security.
 
 Bitcoin self custody offers real security. 
