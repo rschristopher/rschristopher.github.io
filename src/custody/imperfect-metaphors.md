@@ -516,10 +516,10 @@ There is also a `timestamp` field in each block,
 This allows the PoW blockchain to keep track of time.
 And due to what is known as the
  [difficulty adjustment](https://river.com/learn/terms/d/difficulty/),
- the network will adjust its 
- difficulty in order to maintain a 10-minute average block time.
+ the network will adjust the 
+ difficulty number in order to maintain a 10-minute average block time.
 The difficulty will adjust
- every 2016 blocks (which reversed is 6102,
+ every 2016 blocks (roughly every 2-weeks; and 2016 reversed is 6102,
  a subtle reference to 
  [executive order 6102](https://en.wikipedia.org/wiki/Executive_Order_6102)).
 This is why the PoW blockchain
