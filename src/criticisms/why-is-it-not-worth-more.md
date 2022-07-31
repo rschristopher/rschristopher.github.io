@@ -1,3 +1,81 @@
 # Why is it not Worth More?
 
-...
+> If Bitcoin is true, then
+> its value should be far higher,
+> equal to the total amount of
+> all money on earth.
+
+To any such criticism, one must ask,
+ *what should the price of Bitcoin be?*
+And with what unit of account?
+That is, if Bitcoin should be worth more,
+ *more of what?*
+
+## More silver?
+
+Early on, Bitcoin was quick to challenge
+ the value of silver.
+In fact it has exceeded silver's market cap
+ more than once.
+That is, if a Bitcoin could buy more than
+ 83 kilograms of silver, then the value of
+ Bitcoin would be greater than silver.
+
+## More gold?
+
+Estimates for the total supply of gold vary wildly,
+ but based on the most accepted estimates,
+ if a single Bitcoin could buy more than
+ 321 ounces of gold, then the value of
+ Bitcoin will be greater than gold.
+
+## More fiat?
+
+Total estimates of all fiat money also vary wildly.
+We're at the mercy of every central bank and
+ nation state -- any one of which could inflate 
+ their money supply overnight.
+And because of this, it's impossible to
+ calculate the value of Bitcoin
+ needed for it to exceed fiat.
+For if it did, the fiat would likely hyperinflates
+ towards infinity, leading to a true value of zero
+ (currency collapse).
+
+Perhaps the real question then is
+ *-- if Bitcoin is true --*
+ why has fiat not yet collapsed?
+
+
+
+
+## More real-estate?
+
+> Buy land, they're not making it anymore
+
+Will the total value of Bitcoin ever exceed
+ the total value of all land on earth?
+It's certainly possible to theorize on
+ a price, a number of Satoshis per sqft,
+ such that Bitcoin would be more valuable
+ than real estate.
+But this isn't exactly useful not practical.
+
+Not all land is for sale, not in fiat nor gold
+ nor Bitcoin. 
+And the estimated market cap for real estate
+ (over $300 trillion) 
+ is higher than the combined GDP of all
+ all nations and people on earth
+ (under $100 trillion).
+That is, all the money on earth (including
+ Bitcoin) falls short of the value of land.
+
+Even more confounding, the total value of
+ derivatives is measured in quadrillions,
+ significantly higher than all the money
+ on earth.
+
+
+
+## True value of Bitcoin 
