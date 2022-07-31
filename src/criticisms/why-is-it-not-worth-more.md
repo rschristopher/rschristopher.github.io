@@ -19,7 +19,7 @@ In fact it has exceeded silver's market cap
  more than once.
 That is, if a Bitcoin could buy more than
  83 kilograms of silver, then the value of
- Bitcoin would be greater than silver.
+ Bitcoin is greater than silver.
 
 ## More gold?
 
