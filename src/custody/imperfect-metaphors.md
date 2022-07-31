@@ -558,10 +558,11 @@ What was once chaotic and unknowable (how much money is there and how is it dist
 A blockchain is a chain of blocks, nothing fancy nor magic.
 What changed the world was not the invention of a blockchain
  (something that already existed as far back as 
- [1995](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)),
- but the invention of Bitcoin,
+ [1995](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)).
+What changed the world was the invention of Bitcoin,
  a distributed timestamp server
- with a PoW consensus mechanism and difficult adjustment.
+ with a PoW consensus mechanism and difficult adjustment,
+ giving us the most sound money to ever exist.
 
 Focusing on a blockchain as innovation is like focusing on how the 
  *Wright brothers* invented a wing rather than manned flight,
