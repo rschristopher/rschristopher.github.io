@@ -8,7 +8,7 @@ Have mercy on me, a sinner
 
 > Bitcoin is unlike *anything* that has *ever* existed.
 
-Bitcoin is unlike any money or monetary system.
+Bitcoin is unlike any money the world has seen.
  It is unlike any technology or network --
  there's really nothing like it in history.
 As a result, any attempt at explaining Bitcoin
