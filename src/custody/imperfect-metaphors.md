@@ -310,7 +310,7 @@ An address is not a location where Bitcoin is stored,
 An *invoice address* (aka *receive address*), 
  is what you would use to receive Bitcoin.
 And when you spend Bitcoin (from an unspent transaction), any remainder
- will be sent to a *change address*.
+ will use a *change address*.
 
 
 
