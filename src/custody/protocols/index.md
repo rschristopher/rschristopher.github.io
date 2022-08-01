@@ -59,8 +59,8 @@ And still others may find that
  it is not enough (such as wanting full privacy and verifying every transaction through secured full nodes).
 
 In these cases it is recommended to have a custom protocol.
-That is, step-by-step instructions that you print,
- and can be followed by you and your loved ones.
+That is, step-by-step instructions that you print;
+ instructions that can be followed by you and your loved ones.
 
 
 
