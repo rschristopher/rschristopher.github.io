@@ -19,7 +19,7 @@
     
     
       
-        <title>Basic - Is Bitcoin True?</title>
+        <title>Basic+ - Is Bitcoin True?</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#basic-security-protocol" class="md-skip">
+        <a href="#bitcoin-security-protocol-basic" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Basic
+              Basic+
             
           </span>
         </div>
@@ -1158,12 +1158,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Basic
+          Basic+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Basic
+        Basic+
       </a>
       
         
@@ -1197,15 +1197,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#proof-of-control" class="md-nav__link">
-    Proof of Control
+  <a href="#address-verification" class="md-nav__link">
+    Address Verification
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#address-verification" class="md-nav__link">
-    Address Verification
+  <a href="#proof-of-control" class="md-nav__link">
+    Proof of Control
   </a>
   
 </li>
@@ -2175,15 +2175,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#proof-of-control" class="md-nav__link">
-    Proof of Control
+  <a href="#address-verification" class="md-nav__link">
+    Address Verification
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#address-verification" class="md-nav__link">
-    Address Verification
+  <a href="#proof-of-control" class="md-nav__link">
+    Proof of Control
   </a>
   
 </li>
@@ -2235,18 +2235,22 @@
                 
 
 
-<h1 id="basic-security-protocol">Basic Security Protocol<a class="headerlink" href="#basic-security-protocol" title="Permanent link">&para;</a></h1>
+<h1 id="bitcoin-security-protocol-basic">Bitcoin Security Protocol: Basic+<a class="headerlink" href="#bitcoin-security-protocol-basic" title="Permanent link">&para;</a></h1>
 <details class="info" open="open">
 <summary>Who is this good for?</summary>
 <p>This protocol
 is easy to use
 without compromising 
-security or privacy (unlike your bank).
-It is ideal for
+security or privacy (unlike your bank).</p>
+<p>It is ideal for
 anyone wanting to
 self custody their Bitcoin 
 with more security than any bank, ever.</p>
 </details>
+<p>High-entropy (256-bit) seed phrase</p>
+<p>Complete cold-storage,
+ private keys will never touch an Internet-connected device.</p>
+<p>PDF ?</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <details class="check" open="open">
 <summary>Device list</summary>
@@ -2274,7 +2278,7 @@ privacy.</p>
 <details class="warning" open="open">
 <summary>Be careful</summary>
 <p>These steps (in orange) involve
-access to your Bitcoin wallet 
+access to your Bitcoin addresses 
 and should be handled with caution.</p>
 <p>It is advisable to use the same private
 place as above
@@ -2284,8 +2288,9 @@ Please leave all other devices,
 including smartphones, elsewhere.</p>
 </details>
 <h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
+<p>This is a 3-step process ...</p>
 <details class="danger" open="open">
-<summary>Create Seed</summary>
+<summary>Seed Creation (step 1/3): Generate Seed</summary>
 <p>Ensure your smartphone is in another room.</p>
 <p>Ensure there is no Internet connected devices
 in the room with you.</p>
@@ -2293,7 +2298,7 @@ in the room with you.</p>
 <p>... Dice rolls to ensure 256-bits of entropy</p>
 </details>
 <details class="warning" open="open">
-<summary>Master Public Key</summary>
+<summary>Seed Creation (step 2/3): Master Public Key</summary>
 <p>Ensure your smartphone is in another room.</p>
 <p>Ensure there is no Internet connected devices
 in the room with you, except the laptop.
@@ -2306,8 +2311,7 @@ and Tails OS USB</p>
 ... Transfer master public key to Tails</p>
 </details>
 <details class="warning" open="open">
-<summary>Hot-wallets</summary>
-<p><em>optional</em></p>
+<summary>Seed Creation (step 3/3): Hot-wallet Decoys</summary>
 <p>This step is not strictly required
 but is recommended.</p>
 <p>When you boot Tails OS you can create
@@ -2316,25 +2320,27 @@ be "hot" wallets, these will be far more
 secure than any wallets you create on
 your smartphone.</p>
 </details>
-<h3 id="proof-of-control">Proof of Control<a class="headerlink" href="#proof-of-control" title="Permanent link">&para;</a></h3>
-<details class="warning" open="open">
-<summary>Proof of Control</summary>
-<p>Deposit to coldcard</p>
-<p>Withdrawal from coldcard to a hot-wallet</p>
-<p>Deposit back to coldcard</p>
-<p>Hot and cold wallets have now received and sent.</p>
-</details>
 <h3 id="address-verification">Address Verification<a class="headerlink" href="#address-verification" title="Permanent link">&para;</a></h3>
 <details class="warning" open="open">
 <summary>Verify Receive Addresses</summary>
 <p>Boot Tails, open Electrum, view addresses</p>
 <p>Turn on Coldcard, Address Explorer</p>
 <p>Compare addresses, they should be identical</p>
+<p><em>optional</em> --
+Write down partial addresses (including change addresses)
+to make this step faster in the future by not needing both devices to perform address verification.</p>
 </details>
+<h3 id="proof-of-control">Proof of Control<a class="headerlink" href="#proof-of-control" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Deposit to coldcard</li>
+<li>Withdrawal from coldcard to a hot-wallet</li>
+<li>Deposit back to coldcard</li>
+<li>verify hot and cold wallets have now received and sent.</li>
+</ol>
 <h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
 <details class="warning" open="open">
 <summary>Deposit Bitcoin</summary>
-<p>Boot Tails, open Electrum, receive address</p>
+<p>Boot Tails, open Electrum, receive address (verify as needed)</p>
 <p>Transfer the receive address via QR code,
 even to non-private device (e.g., smartphone)
 if depositing KYC coins from an exchange.</p>
@@ -2345,26 +2351,27 @@ if depositing KYC coins from an exchange.</p>
 <p>Boot Tails, open Electrum, view balances</p>
 </details>
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
+<p>This is a 3-step process ...</p>
 <details class="warning" open="open">
-<summary>Create Unsigned Transaction</summary>
+<summary>Withdrawal (step 1/3): Create Unsigned Transaction</summary>
 <p>Boot Tails, open Electrum,
 create transaction</p>
 <p>Insert secure micro SD card into your computer running Tails,
 write unsigned transaction (PSBT) to card</p>
 </details>
 <details class="danger" open="open">
-<summary>Sign Transaction</summary>
+<summary>Withdrawal (step 2/3): Sign Transaction</summary>
 <p>Insert secure micro SD card into Coldcard,
 sign transaction</p>
 </details>
 <details class="warning" open="open">
-<summary>Broadcast Signed Transaction</summary>
+<summary>Withdrawal (step 3/3): Broadcast Signed Transaction</summary>
 <p>Insert secure micro SD card into your computer running Tails,
 load the signed transaction and broadcast.</p>
 <p>Wait for confirmation.</p>
 </details>
 <h2 id="additional-security-concerns">Additional Security Concerns<a class="headerlink" href="#additional-security-concerns" title="Permanent link">&para;</a></h2>
-<p>You may want to consider enhancing this basic
+<p>You may want to consider enhancing this
  protocol with more advanced techniques.</p>
 <ul>
 <li>Metal seed backup</li>
