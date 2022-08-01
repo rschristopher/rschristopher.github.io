@@ -58,9 +58,9 @@ This subtle difference shifts the balance of power,
  aligning incentives with voluntary cooperation
  and not with force or fiat.
 With Bitcoin, you truly can be
- a sovereign of your own savings.
+ a sovereign over your own savings.
 
-!!! quote "A Sovereign of your own Savings"
+!!! quote "A Sovereign over your own Savings"
 
 ## Only Self Custody
 
@@ -268,14 +268,6 @@ It's new, it's different,
 
     A redneck with a gun and a coldcard can custody Bitcoin
     with more security than any bank.
-
-<!-- 
-
-https://ssd.eff.org/
-
-https://securityinabox.org/en/
-
--->
 
 
 

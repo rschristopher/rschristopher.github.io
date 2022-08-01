@@ -79,7 +79,7 @@ nav:
           - Mnemonic Memorization: custody/securing-keys/memorization.md
         - Protocols:
           - custody/protocols/index.md
-          - Basic: custody/protocols/basic.md
+          - Basic+: custody/protocols/basic.md
           - Ridiculous: custody/protocols/ridiculous.md
           - Ludicrous: custody/protocols/ludicrous.md
           - Custom: custody/protocols/custom.md

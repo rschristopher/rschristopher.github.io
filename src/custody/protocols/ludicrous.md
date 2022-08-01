@@ -1,8 +1,16 @@
-# Ludicrous Security Protocol
+# Bitcoin Security Protocol: Ludicrous
 
 ???+ info "Who is this good for?"
     Advanced users looking for the most
     robust self custody solution possible.
+
+
+Full node on a protected network.
+
+Master public keys will never touch an Internet-connected device.
+
+No persistance of private keys or seed phrases on any electronic device.
+ Air-gapped seed-signing devices only.
 
 
 ## Setup

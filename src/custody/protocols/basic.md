@@ -1,4 +1,4 @@
-# Basic Security Protocol
+# Bitcoin Security Protocol: Basic+
 
 
 ???+ info "Who is this good for?"
@@ -6,10 +6,20 @@
     is easy to use
     without compromising 
     security or privacy (unlike your bank).
+
     It is ideal for
     anyone wanting to
     self custody their Bitcoin 
     with more security than any bank, ever.
+
+
+High-entropy (256-bit) seed phrase
+
+Complete cold-storage,
+ private keys will never touch an Internet-connected device.
+
+
+PDF ?
 
 
 
@@ -45,7 +55,7 @@
 
 ???+ warning "Be careful"
     These steps (in orange) involve
-    access to your Bitcoin wallet 
+    access to your Bitcoin addresses 
     and should be handled with caution.
 
     It is advisable to use the same private
@@ -60,7 +70,10 @@
 
 ### Seed Creation
 
-???+ danger "Create Seed"
+This is a 3-step process ...
+
+
+???+ danger "Seed Creation (step 1/3): Generate Seed"
     Ensure your smartphone is in another room.
 
     Ensure there is no Internet connected devices
@@ -71,7 +84,7 @@
     ... Dice rolls to ensure 256-bits of entropy
 
 
-???+ warning "Master Public Key"
+???+ warning "Seed Creation (step 2/3): Master Public Key"
     Ensure your smartphone is in another room.
 
     Ensure there is no Internet connected devices
@@ -89,9 +102,7 @@
 
 
 
-???+ warning "Hot-wallets"
-
-    *optional*
+???+ warning "Seed Creation (step 3/3): Hot-wallet Decoys"
 
     This step is not strictly required
     but is recommended.
@@ -105,18 +116,6 @@
 
 
 
-### Proof of Control
-
-???+ warning "Proof of Control"
-    Deposit to coldcard
-
-    Withdrawal from coldcard to a hot-wallet
-
-    Deposit back to coldcard
-
-    Hot and cold wallets have now received and sent.
-
-
 
 ### Address Verification
 
@@ -127,13 +126,28 @@
 
     Compare addresses, they should be identical
 
+    *optional* --
+    Write down partial addresses (including change addresses)
+    to make this step faster in the future by not needing both devices to perform address verification.
+
+
+
+
+
+### Proof of Control
+
+1. Deposit to coldcard
+1. Withdrawal from coldcard to a hot-wallet
+1. Deposit back to coldcard
+1. verify hot and cold wallets have now received and sent.
+
 
 
 
 ## Deposit 
 
 ???+ warning "Deposit Bitcoin"
-    Boot Tails, open Electrum, receive address
+    Boot Tails, open Electrum, receive address (verify as needed)
 
     Transfer the receive address via QR code,
     even to non-private device (e.g., smartphone)
@@ -150,9 +164,13 @@
 
 
 
+
+
 ## Withdrawal 
 
-???+ warning "Create Unsigned Transaction"
+This is a 3-step process ...
+
+???+ warning "Withdrawal (step 1/3): Create Unsigned Transaction"
     Boot Tails, open Electrum,
     create transaction
 
@@ -160,12 +178,14 @@
     write unsigned transaction (PSBT) to card
 
 
-???+ danger "Sign Transaction"
+
+???+ danger "Withdrawal (step 2/3): Sign Transaction"
     Insert secure micro SD card into Coldcard,
     sign transaction
 
 
-???+ warning "Broadcast Signed Transaction"
+
+???+ warning "Withdrawal (step 3/3): Broadcast Signed Transaction"
     Insert secure micro SD card into your computer running Tails,
     load the signed transaction and broadcast.
 
@@ -175,7 +195,7 @@
 
 ## Additional Security Concerns
 
-You may want to consider enhancing this basic
+You may want to consider enhancing this
  protocol with more advanced techniques.
 
 + Metal seed backup

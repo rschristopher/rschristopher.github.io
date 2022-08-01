@@ -1,9 +1,12 @@
-# Ridiculous Security Protocol
+# Bitcoin Security Protocol: Ridiculous
 
 ???+ info "Who is this good for?"
     Advanced users looking for a
     robust self custody solution
     without any single-point of compromise.
+
+No single-point to compromise.
+Multi-sig split across different air-gapped devices.
 
 
 ## Setup

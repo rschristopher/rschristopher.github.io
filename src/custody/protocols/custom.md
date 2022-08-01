@@ -1,4 +1,4 @@
-# Custom Security Protocol
+# Bitcoin Security Protocol: Custom
 
 
 ???+ info "Who is this good for?"
