@@ -44,7 +44,7 @@ One of the reasons I recommend the
  (setup, deposit, withdrawal) each with
  step-by-step instructions.
 All individual steps are easy, and yet if
- you follow these steps you will have
+ you follow all steps you will have
  one of the most secure self custody solutions
  on the planet.
 
