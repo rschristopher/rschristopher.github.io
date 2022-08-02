@@ -11,7 +11,9 @@ Have mercy on me, a sinner
 If you're going to self custody your Bitcoin
  (because it's yours and you should)
  then it is  *highly recommended* to adopt
- a step-by-step protocol for managing your Bitcoin.
+ a protocol for managing your Bitcoin.
+That is, step-by-step instructions that you print;
+ instructions that can be followed by you and your loved ones.
 This can be as simple as using a 
  [coldcard](https://coldcard.com/)
  or
@@ -22,17 +24,17 @@ This can be as simple as using a
  steps.
 
 You may also want a more holistic view of 
- self custody security, such as the
- [10x Security Bitcoin Guide](https://btcguide.github.io/),
- and the 
- [Glacier Protocol](https://glacierprotocol.org/)
- (recommended).
-Additionally, 
- [surveillance self-defense](https://ssd.eff.org/)
- and 
- [security-in-a-box](https://securityinabox.org/en/)
- are excellent resources to learn about
- security and online privacy.
+ self custody security, such as,
+ 
+* [10x Security Bitcoin Guide](https://btcguide.github.io/),
+* [Glacier Protocol](https://glacierprotocol.org/) (recommended).
+
+Additionally, you can find excellent resources
+ to learn about security and online privacy,
+
+* [surveillance self-defense](https://ssd.eff.org/)
+* [security-in-a-box](https://securityinabox.org/en/)
+
 
 
 
@@ -59,8 +61,7 @@ And still others may find that
  it is not enough (such as wanting full privacy and verifying every transaction through secured full nodes).
 
 In these cases it is recommended to have a custom protocol.
-That is, step-by-step instructions that you print;
- instructions that can be followed by you and your loved ones.
+
 
 
 
