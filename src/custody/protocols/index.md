@@ -70,7 +70,7 @@ In these cases it is recommended to have a custom protocol.
 ## How much security do you want?
 
 The security of your Bitcoin custody can range from trivial
- to *nuclear launch code* level of security.
+ to *nuclear-launch-code* level of security.
 On the trivial side, a mobile app hot wallet may be perfectly
  reasonable for someone who isn't too concerned 
  with losing their funds.
