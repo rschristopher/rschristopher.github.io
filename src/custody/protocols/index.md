@@ -11,7 +11,7 @@ Have mercy on me, a sinner
 If you're going to self custody your Bitcoin
  (because it's yours and you should)
  then it is  *highly recommended* to adopt
- a protocol for managing your Bitcoin.
+ a *protocol* for managing your Bitcoin.
 That is, step-by-step instructions that you print;
  instructions that can be followed by you and your loved ones.
 This can be as simple as using a 
