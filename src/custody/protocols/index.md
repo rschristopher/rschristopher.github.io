@@ -31,6 +31,7 @@ You may also want a more holistic view of
 
 Additionally, you can find excellent resources
  to learn about security and online privacy,
+ such as,
 
 * [surveillance self-defense](https://ssd.eff.org/)
 * [security-in-a-box](https://securityinabox.org/en/)
