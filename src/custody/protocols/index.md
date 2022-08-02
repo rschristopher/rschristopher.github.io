@@ -26,8 +26,8 @@ This can be as simple as using a
 You may also want a more holistic view of 
  self custody security, such as,
  
-* [10x Security Bitcoin Guide](https://btcguide.github.io/),
-* [Glacier Protocol](https://glacierprotocol.org/) (recommended).
+* [10x Security Bitcoin Guide](https://btcguide.github.io/)
+* [Glacier Protocol](https://glacierprotocol.org/) (recommended)
 
 Additionally, you can find excellent resources
  to learn about security and online privacy,
