@@ -81,7 +81,7 @@ On the paranoid side you may wish to secure your Bitcoin
 
 If you start with the basics, such as following the excellent
  [coldcard](https://coldcard.com/) docs,
- you'll have secured your wealth far more
+ you'll have secured your wealth far better 
  than any bank ever could.
 This is the baseline for a secure self custody protocol.
 We will not discuss anything less secure than this.
