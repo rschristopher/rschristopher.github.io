@@ -446,8 +446,8 @@ By itself a blockchain is not secure;
  it is as mutable as any other data;
  and it has
  none of the magic often associated
- with it (by those easily confused by technology
- and the subtle differences between technology and magic).
+ with it (by those easily confused by
+ the subtle differences between technology and magic).
 A blockchain offers absolutely no value to
  healthcare, supply chain management, or voting.
 
