@@ -566,8 +566,10 @@ What changed the world was the invention of Bitcoin,
  giving us the most sound money to ever exist.
 
 Focusing on a blockchain as innovation is like focusing on how the 
- *Wright brothers* invented a wing rather than manned flight,
- all while claiming wings would revolutionize trains.
+ *Wright brothers* invented a wing rather than manned flight;
+ meanwhile 
+ Bitcoin is the invention
+ of digital scarcity and a new form of money.
  
 
 
