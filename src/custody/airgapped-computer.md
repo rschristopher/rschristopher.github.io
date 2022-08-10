@@ -199,18 +199,3 @@ This is obviously error prone, and while you
 
 
 
-## Hardware Wallets
-
-[Hardware Wallets](hardware-wallets.md) 
- can be a great self custody solution.
-
-However, with the exception of devices like the
- [Coldcard](https://coldcard.com/),
- hardware wallets offer
- very different approaches to self-custody,
- are rarely Bitcoin-only,
- and they often
- involve proprietary software or hardware,
- with limited ability to verify entropy.
-
-

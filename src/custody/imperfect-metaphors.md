@@ -105,7 +105,7 @@ Rather, a Bitcoin wallet is any device or procedure used
  to manage your private keys (necessary to send
  and receive Bitcoin).
 This includes
- [hardware wallets](securing-keys/hardware-wallets.md),
+ [hardware wallets](hardware-wallets.md),
  as well as 
  [protocols](protocols/index.md)
  to manage private keys.

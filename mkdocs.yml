@@ -61,6 +61,8 @@ nav:
     - Custody:
         - custody/index.md
         - Imperfect Metaphors: custody/imperfect-metaphors.md
+        - Airgapped Computer: custody/airgapped-computer.md
+        - Hardware Wallets: custody/hardware-wallets.md
         - Creating Keys: 
           - custody/creating-keys/index.md
           - Using Dice: custody/creating-keys/dice.md
@@ -73,9 +75,7 @@ nav:
           - Signing Transactions: custody/using-keys/signing-transactions.md
         - Securing Keys:
           - custody/securing-keys/index.md
-          - Airgapped Computer: custody/securing-keys/airgapped-computer.md
           - Bare Metal: custody/securing-keys/bare-metal.md
-          - Hardware Wallets: custody/securing-keys/hardware-wallets.md
           - Mnemonic Memorization: custody/securing-keys/memorization.md
         - Protocols:
           - custody/protocols/index.md
