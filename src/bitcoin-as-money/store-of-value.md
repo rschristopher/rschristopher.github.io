@@ -81,11 +81,11 @@ In other words, they're trying to store
  trying to time the market,
  which does not *and can not* work.
 Similar things happened with gold price
- in the dying days of the Weimar Republic,
- the volatility of the gold price was
+ in the dying days of the Weimar Republic.
+The volatility of the gold price was
  not a reflection of gold, but of the
- hyperinflating money.
-The inevitable death throws of fiat money.
+ hyperinflating money,
+ the inevitable death throws of fiat money.
 
 ![weimar inflation](/images/weimar_inflation.png)
 
