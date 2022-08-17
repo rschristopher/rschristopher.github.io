@@ -13,8 +13,8 @@ They buy Bitcoin hoping to get rich,
  thinking in terms of fiat money.
 Later they might realize that Bitcoin's
  [fixed supply](fixed-supply.md)
- is a potential *store of wealth*.
-But rarely do people experience Bitcoin as a 
+ is a potential *store of value*.
+But rarely do people first encounter Bitcoin as a 
  *unit of account* (potential or otherwise).
 This is not because Bitcoin
  is necessarily any stronger as a *store of value*
