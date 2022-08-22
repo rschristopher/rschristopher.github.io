@@ -89,11 +89,11 @@ At today's gold price this is
 
 
 Unfortunately, gold cannot be transmitted
- quickly or cheaply over large distances.
+ quickly nor cheaply over large distances.
 This limitation gives rise to an inevitable
- system of credits and ledgers,
+ system of credit,
  and then to promisory notes
- which will lead to fractional reserve,
+ which then lead to fractional reserve,
  and stey-by-step to pure fiat;
  money that is backed by-- *what exactly?*
 
