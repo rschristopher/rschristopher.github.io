@@ -95,7 +95,7 @@ That is, Bitcoin has no utility other than
 Even gold has industrial uses, 
  meaning part of its value is separate 
  from its monetary premium.
-Bitcoin, unlike gold, silver, or real-estate,
+Bitcoin -- unlike gold, silver, and real-estate --
  is pure monetary premium.
 
 Fiat money is also a pure monetary premium,
