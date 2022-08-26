@@ -122,9 +122,18 @@ Perhaps it will be far lower than the quadrillions
 Whatever it will be, will be, and it will be 
  a cold hard truth revealing the value of
  our civilization as it is, not as central 
- planners and politicians pretend it to be.
+ planners and politicians proclaim it to be.
 
 
-
+Whatever the value, Bitcoin is the most ethical
+ money to ever exist.
+Saving in Bitcoin is a way to opt-out --
+ opt-out of the fiat systems of control
+ and coercion,
+ opt-out of supporting endless wars,
+ opt-out of central planning, and yes, even
+ opt-out of the madness of modern art.
+Bitcoin is the money one can save without
+ losing one's soul.
 
 
