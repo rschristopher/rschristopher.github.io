@@ -49,14 +49,14 @@ nav:
           - Separation of Money and State: bitcoin-as-money/separation-money-and-state.md
         - Criticisms:
           - criticisms/index.md
+          - Cantillon Bubbles: criticisms/cantillon.md
           - Deflation: criticisms/deflation.md
           - Environment: criticisms/environment.md
           - Inequality: criticisms/inequality.md
-          - Scalability: criticisms/scalability.md
-          - Turing Incomplete: criticisms/turing-complete.md
           - Quantum Computing: criticisms/quantum-computing.md
-          - Cantillon Bubbles: criticisms/cantillon.md
-          - Whitelisting: criticisms/whitelisting.md
+          - Scalability: criticisms/scalability.md
+          - Surveillance: criticisms/surveillance.md
+          - Turing Incomplete: criticisms/turing-complete.md
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
     - Custody:
         - custody/index.md

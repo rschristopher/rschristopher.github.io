@@ -23,7 +23,7 @@ Early on, Bitcoin was quick to challenge
  the value of silver.
 In fact it has exceeded silver's market cap
  more than once.
-That is, if a Bitcoin could buy more than
+That is, if a single Bitcoin could buy more than
  83 kilograms of silver, then the value of
  Bitcoin will be greater than silver.
 
