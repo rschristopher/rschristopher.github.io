@@ -14,6 +14,9 @@ That is, if Bitcoin should be worth more,
 
 > *more of what?*
 
+
+
+
 ## More silver?
 
 Early on, Bitcoin was quick to challenge
@@ -24,6 +27,9 @@ That is, if a Bitcoin could buy more than
  83 kilograms of silver, then the value of
  Bitcoin will be greater than silver.
 
+
+
+
 ## More gold?
 
 Estimates for the total supply of gold vary wildly,
@@ -31,23 +37,6 @@ Estimates for the total supply of gold vary wildly,
  if a single Bitcoin could buy more than
  321 ounces of gold, then the value of
  Bitcoin will be greater than gold.
-
-## More fiat?
-
-Total estimates of all fiat money also vary wildly.
-And we're at the mercy of every central bank and
- nation state -- any one of which could inflate 
- their money supply overnight.
-And because of this, it's impossible to
- calculate the value of Bitcoin
- needed for it to exceed fiat.
-For if it did, the fiat currency would likely hyperinflate
- towards infinity, leading to a true value of zero
- (currency collapse).
-
-Perhaps the real question then is
- *-- if Bitcoin is true --*
- why has fiat not yet collapsed?
 
 
 
@@ -81,6 +70,61 @@ Even more confounding, the total value of
  derivatives is measured in quadrillions of dollars,
  significantly higher than all the land
  and all the money on earth combined.
+
+
+
+
+## More fiat?
+
+Total estimates of all fiat money also vary wildly.
+And we're at the mercy of every central bank and
+ nation state -- any one of which could inflate 
+ their money supply overnight.
+And because of this, it's impossible to
+ calculate the value of Bitcoin
+ needed for it to exceed fiat.
+For if it did, the fiat currency would likely hyperinflate
+ towards infinity, leading to a true value of zero
+ (currency collapse).
+
+Perhaps the real question then is
+ *-- if Bitcoin is true --*
+ why has fiat not yet collapsed?
+
+
+
+## Why has fiat not yet collapsed?
+
+Every day that Bitcoin survives is another
+ day of it working,
+ that is, another day that no one has shown a single
+ counterexample and proven Bitcoin as false.
+And likewise, every day that fiat USD survives
+ is another day that the de-facto truth of Bitcoin 
+ has not been sufficient for Bitcoin to become 
+ the world reserve currency and true global
+ money.
+In other words, the adoption of Bitcoin may
+ have reached the point where it is de-facto
+ true, and practically unstoppable,
+ least of all by the usual political
+ machinations of central planners and their
+ delusions of power;
+ and yet while there is still a will and want
+ for fiat currency, someone willing to take a
+ job in exchange for fiat, it persists.
+
+Perhaps it may take centuries for fiat USD to
+ collapse.
+Or perhaps fiat USD hyperinflates tomorrow.
+Should anyone think such a hyperinflation of
+ fiat USD is impossible, look at the history of
+ fiat money and hyperinflation events.
+While not as predictable as the tides, it is as
+ inevitable as a tsunami.
+
+
+
 
 
 
@@ -135,5 +179,11 @@ Saving in Bitcoin is a way to opt-out --
  opt-out of the madness of modern art.
 Bitcoin is the money one can save without
  losing one's soul.
+It is not a hedge, it's value can only
+ increase along with civilization itself.
+As such, storing money in Bitcoin is choosing
+ civilization and humanity over idolatry 
+ and serfdom.
+
 
 
