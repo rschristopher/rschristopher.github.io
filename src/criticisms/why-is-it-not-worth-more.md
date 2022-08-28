@@ -35,7 +35,7 @@ Estimates for the total supply of gold vary wildly,
 ## More fiat?
 
 Total estimates of all fiat money also vary wildly.
-We're at the mercy of every central bank and
+And we're at the mercy of every central bank and
  nation state -- any one of which could inflate 
  their money supply overnight.
 And because of this, it's impossible to
