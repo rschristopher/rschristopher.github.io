@@ -199,7 +199,6 @@ It is not a hedge, it's value can only
  increase along with civilization itself.
 As such, using Bitcoin is choice,
  a choice in favor of 
- civilization and a better future.
-
+ a better future.
 
 
