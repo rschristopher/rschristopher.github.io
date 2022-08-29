@@ -154,7 +154,7 @@ Similarly, if the US military was not the de-facto
 Likewise, if the US government was to collapse, 
  so too would the USD petrodollar system.
 This bizarre web of dependencies
- is what it means to be
+ is what it means today to be
  the *global reserve currency*.
 
 Unlike gold and silver, the petrodollar
