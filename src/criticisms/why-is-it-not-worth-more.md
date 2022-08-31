@@ -1,10 +1,10 @@
 # Why is it not Worth More?
 
 > If Bitcoin is true, then
-> its value should be far greater,
+> it should be worth more.
+> Its value should be far greater,
 > equal to the total amount of
 > wealth on earth.
-> The price of Bitcoin should be far higher.
 
 To any such criticism, one must ask,
  *what should the price of Bitcoin be?*
