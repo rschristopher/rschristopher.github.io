@@ -60,7 +60,7 @@ And the estimated market cap for real estate
  is higher than the combined GDP of all
  all nations on earth
  (under $100 trillion).
-While we could price this as a BTCUSD of
+While we could price this at
  $14.3-million, it's difficult to think
  that there would still be a USD if Bitcoin
  became so valuable.
@@ -71,7 +71,8 @@ Even during the gold standard this was true.
 There is not (and never was) enough gold
  to buy all the land on earth.
 This is necessarily true because there has never
- been a single global unit of account, a money
+ been a single global unit of account
+ (not even gold), a money
  that all people across all nations and
  ideologies agree on as their store of wealth.
 
@@ -79,7 +80,8 @@ Even more confounding, the total value of all
  derivatives is measured in quadrillions of dollars,
  significantly higher than all the land
  and all the money on earth combined.
-And this is a unique phenomena that can only exist in fiat money.
+Importantly, this is a unique phenomena
+ that can only exist in fiat money.
 
 
 
