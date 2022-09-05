@@ -83,7 +83,7 @@ On one hand this presents similar
  money, but only with respect to 
  Bitcoin's early adoption,
 
-!!! example "my house was 12 Bitcoin in 2019, which is now the price of the entire neighborhood."
+!!! example "my house was 12 Bitcoin in 2022, which is now the price of the entire neighborhood."
 
 The key difference is that any amount of Bitcoin
  is an exact fraction of all the Bitcoin that
