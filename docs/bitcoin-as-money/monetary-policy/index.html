@@ -2080,8 +2080,42 @@
 
 
 <h1 id="bitcoins-monetary-policy">Bitcoin's Monetary Policy<a class="headerlink" href="#bitcoins-monetary-policy" title="Permanent link">&para;</a></h1>
-<p>...</p>
+<p>The following equation contains the 
+ entirety of Bitcoin's monetary policy:</p>
 <p><img alt="Bitcoin Monetary Policy" src="/images/bitcoin-monetary-policy.png" /></p>
+<p>If you calculate the above summation, it is
+ approximately 21-million.
+Technically, just shy of 21-million,
+ that is,
+ <a href="https://bitcoin.stackexchange.com/questions/38994/will-there-be-21-million-bitcoins-eventually/38998#38998">20,999,999.9769</a>.
+This is because there are only 32 halvings until 
+ the block subsidy will be zero.</p>
+<details class="info" open="open">
+<summary>asymptotic limit</summary>
+<p>If you were to replace the 32 with <em>infinity</em>
+the above equation would equal 21-million 
+as an asymptotic limit.</p>
+</details>
+<p><img alt="Bitcoin Supply" src="/images/Bitcoin-supply.png" /></p>
+<p>The equation (Bitcoin's monetary policy)
+ breaks down as follows:</p>
+<p>There are 33 block-subsidy eras (0 to 32),
+ each lasting
+ exactly 210,000 blocks.
+This means each era is roughly 4-years,
+ for a total of 132 years till the final
+ Satoshi is mined.</p>
+<p>Each era halves the block-subsidy, and
+ after 32 halvings the subsidy would result
+ in a number too small represent in Satoshis,
+ hence the subsidy will be zero.</p>
+<p>At that point (block 6,930,000 in the year 2140), there
+ will have been 20,999,999.9769
+ block rewards, and from that point
+ on Bitcoin mining will operate only
+ on fees (which in practice would have
+ already happened as the subsidy
+ was already a single Satoshi).</p>
 
               
             </article>
