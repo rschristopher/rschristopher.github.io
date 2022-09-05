@@ -55,9 +55,11 @@ At that point (block 6,930,000 in the year 2140), there
 
 
 
-## Equation over Time
+## Supply over Time
 
-... Timechain
+... 
+
+Timechain
 
 
 ### Difficulty Adjustment
@@ -66,6 +68,27 @@ At that point (block 6,930,000 in the year 2140), there
 
 Satoshi's greatest invention 
 
+The higher the price, the more lucrative it is
+ to mine Bitcoin.
+
+Imagine gold jumped to $1,000,000 per ounce.
+What would happen to the gold supply?
+Would there be more mining?
+Would the increased mining activity increase
+ the supply and lower demand?
+
+This is why Bitcoin is not and never was
+ tulip mania.
+Increase price of tulips led to a commensurate
+ increase in tulip farming. 
+Within six months the tulip price crashed,
+ because tulips are not a scarce asset.
+
+Increases in the valuation of Bitcoin do
+ lead to more mining, yet those increases
+ lead to a difficulty adjustment such that
+ the increased mining does not change
+ the supply schedule.
 
 
 
