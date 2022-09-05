@@ -16,7 +16,7 @@ If you calculate the above summation, it is
     [20,999,999.9769](https://bitcoin.stackexchange.com/questions/38994/will-there-be-21-million-bitcoins-eventually/38998#38998).
     This is because there are only 32 halvings until 
      the block subsidy will be zero.
-
+    
     If you were to replace the 32 with *infinity*
     the above equation would equal 21-million 
     as an asymptotic limit.
