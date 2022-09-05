@@ -136,7 +136,8 @@ Or perhaps the EUR and USD hyperinflate tomorrow.
 Should anyone think such a hyperinflation of
  USD or EUR is impossible, look at the history of
  fiat money and hyperinflation events.
-While not as predictable as the tides, it is as
+While not as predictable as the tides, 
+ hyperinflation of fiat is as
  inevitable as a tsunami.
 
 
