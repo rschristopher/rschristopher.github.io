@@ -1,5 +1,4 @@
 # Fixed Supply
-...
 
 <!--
 
@@ -13,36 +12,32 @@ have mercy on me, a sinner
 -->
 
 
-## Is a Fixed Supply Important?
-
 Let's consider this classic chart that you may have seen
  in various corners of the Internet.
 
 ![Weimar Gold Price](/images/weimar_inflation_orig.jpg)
 
----
-
 I've seen many versions of this chart, 
  and always felt there was a lot overlooked.
-Yes, it's a textbook example of currency hyperinflation,
+Yes, it's a textbook example of fiat currency hyperinflation,
  but let's dig a little deeper.
 
 We can find the raw 
  [Weimar Inflation Data](https://github.com/jessems/WeimarInflationData)
  online, and using this we can plot the classic
- hyperbolic price of gold.
+ hyperbolic price of gold shown above.
 Additionally, we can track things like the  *all time high* (ATH)
  and changes to that ATH.
+We can scale this out to get
+ a better look at the volatility in the gold price over time.
 For example,
 
 ![Weimar Inflation](/images/weimar_inflation.png)
 
----
-
 This gives us two distinct stories. 
 We know the story of the *gold price*.
  Inflationary paper money will inevitably end this way.
-However, there's another story that is often overlooked.
+However, the volatility is an often overlooked story.
 
 There was extreme volatility in the price of gold,
  as well as in real estate and other hard assets.
@@ -55,7 +50,7 @@ And then the process would repeat.
 The frequency of these painful cycles increased,
  as did the volatility.
 
-The people of German in 1921 lacked the benefit
+The people of Germany in 1921 lacked the benefit
  of hindsight that we have looking at this classic
  story of a currency collapse.
 Instead, they lived through massive uncertainty,
@@ -65,8 +60,6 @@ Instead, they lived through massive uncertainty,
  only to crash once again -- until finally,
  the mark itself crashed, hyperinflated
  into oblivion.
-
----
 
 A fixed supply is not only important, but critical.
  And as all fiat currencies have demonstrated,
@@ -80,7 +73,7 @@ A fixed supply is not only important, but critical.
 ## Is a Fixed Supply Feasible?
 
 A fixed supply is not possible through wishful thinking
- or central planning. These attempts have all failed,
+ nor central planning. These attempts have all failed,
  and continue to fail.
 
 Gold and silver were more successful as money than other
@@ -91,6 +84,11 @@ Gold and silver were more successful as money than other
 That means every year there is 2% more gold than
  the previous year.
  A gold standard means 2% annual inflation.
+
+At present, Bitcoin's inflation rate is equal to gold,
+ and after the next halving (likely in May 2024), Bitcoin
+ will become the least inflationary monetary asset
+ the world has ever known.
 
 
 ## How is it Possible?
@@ -139,15 +137,15 @@ And yes, the code at the moment will
 But this doesn't answer the question.
 
 How can I know that this fixed supply won't change in the future? 
-How do I know we're not one pull request away from inflationary money?
+How do I know we're not one pull-request away from inflationary money?
 How do I know that the future supply of Bitcoin won't 
  be controlled by incompetent bureaucrats?
 
-Well, it's open-source code. 
- [Try modifying it](https://bitcoin.org/en/development)
+Well, it's open-source code.
+
+[Try modifying it](https://bitcoin.org/en/development)
  and see what happens.
  Create your own pull-request to change this function.
-
 Now, obviously such a change won't be approved,
  but what if it was? Let's say the supply cap was
  changed -- would that be the end of Bitcoin?
@@ -176,4 +174,6 @@ This is, it turns out, exactly what has happened
 Their adherents chose the 
  hard fork, and the market reacted accordingly.
 
+So far, against many challenges, Bitcoin's
+ fixed supply has proven true.
 

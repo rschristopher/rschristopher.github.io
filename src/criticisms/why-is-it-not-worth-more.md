@@ -12,7 +12,7 @@ And with what unit of account?
 That is, if Bitcoin should be worth more,
  then we can only ask:
 
-> *more of what?*
+!!! question "*more of what?*"
 
 
 
@@ -132,7 +132,7 @@ In other words, the adoption of Bitcoin may
 
 Perhaps it will take centuries for all
  fiat money to collapse.
-Or perhaps the EUR and USD hyperinflate tomorrow.
+Or perhaps the EUR and USD will hyperinflate tomorrow.
 Should anyone think such a hyperinflation of
  USD or EUR is impossible, look at the history of
  fiat money and hyperinflation events.

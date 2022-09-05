@@ -7,17 +7,20 @@ Have mercy on me, a sinner
 -->
 
 Most people first learn about Bitcoin
- as an investment,
+ as a risky investment,
  a speculative gamble on future wealth.
 They buy Bitcoin hoping to get rich,
  thinking in terms of fiat money.
 Later they might realize that Bitcoin's
  [fixed supply](fixed-supply.md)
- is a potential *store of value*.
-But rarely do people first encounter Bitcoin as a 
- *unit of account* (potential or otherwise).
-This is not because Bitcoin
- is necessarily any stronger as a *store of value*
+ is itself a *store of value*, a superior
+ store of value.
+In fact, Bitcoin's early adoption is due to its
+ role as a long-term store of value.
+And yet rarely do people think of Bitcoin as a 
+ *unit of account*.
+Bitcoin
+ is not necessarily any stronger as a *store of value*
  than it is as a 
  *unit of account*,
  quite the contrary.
@@ -30,12 +33,11 @@ Digital scarcity in a trustless and
  a global *unit of account*, and the
  clearest signal
  possible for price discovery.
-It is a delightful side effect
+It is a delightful 
+ (and arguably necessary) side effect
  that Bitcoin is *also* a superior
  *store of value*.
 
-In fact, Bitcoin's early adoption is being
- driven as a *store of value*.
 
 
 
@@ -58,7 +60,7 @@ Speculative gambles will still exist,
  but money itself is not a speculation,
  it is a *unit of account*,
  a *medium of exchange*,
- and a *store of value*.
+ and lastly a *store of value*.
 This may all seem odd and overly simplistic,
  but it is the inevitable
  consequence of Bitcoin being true.
