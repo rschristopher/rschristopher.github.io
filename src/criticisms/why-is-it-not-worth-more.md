@@ -80,8 +80,9 @@ Even more confounding, the total value of all
  derivatives is measured in quadrillions of dollars,
  significantly higher than all the land
  and all the money on earth combined.
-Importantly, this is a unique phenomena
- that can only exist in fiat money.
+Importantly, these kind of outlandish valuations
+ are a unique phenomena
+ that can only exist in fiat debt money.
 
 
 
