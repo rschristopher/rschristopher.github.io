@@ -152,12 +152,14 @@ When the BTCUSD price reaches a million, then the
  But as the global economy grows, the 100-Sat Shoppe
  would offer higher end goods, or bulk quantities
  of lower end goods, all to justify 100 Sats;
- eventually a Sat Shoppe opens where everything is
+ eventually, perhaps a Sat Shoppe opens where everything is
  only 1 Sat.
+
+> a Sat earned is a Sat saved
 
 And even then, as the economy
  continued to grow,
- the quality of goods at the Sat Shoppe
+ the quality of goods at a Sat Shoppe
  would increase to justify the hefty price tag 
  of a full Satoshi.
 
