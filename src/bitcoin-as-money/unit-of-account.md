@@ -51,7 +51,7 @@ Fiat money is a terrible
 This is because you must
  "adjust for inflation", or append the date, 
  or both.
-And everything is relative with no absolute
+And everything in fiat is relative with no absolute
  unit to measure against (not even bottles of Cristal).
 It is all fiat all the time.
 
