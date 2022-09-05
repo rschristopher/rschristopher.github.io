@@ -20,10 +20,10 @@ A *unit of account* is *-the-* measure of value,
 In other words, this is the *price* in a market.
 
 ???+ info "Bentleys and Cristals"
-    There is a peculiar practice amongst Wall Street types
+    There is a peculiar practice amongst some Wall Street types
      when dealing with large sums of money.
     
-    This is because it's difficult to intuitively
+    It is difficult to intuitively
      understand
      a "billion dollars", or hundreds of millions
      of dollars, let alone the quadrillions of
@@ -31,8 +31,9 @@ In other words, this is the *price* in a market.
      unfunded liabilities tied up in derivative
      schemes.
     
-    An investor may refer to
-     Bentleys, or bottles of Cristal, as more
+    As a result, an investor may refer to
+     Bentleys, or bottles of Cristal,
+     or other high value items, as more
      convenient units than dollars.
     
     > I'm not going to sweat over this 50 Cristal client when there's 5 Bentleys on the other line.
