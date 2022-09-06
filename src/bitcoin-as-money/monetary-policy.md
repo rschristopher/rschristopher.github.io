@@ -17,8 +17,8 @@ If you calculate the above summation, it is
     This is because there are only 32 halvings until 
      the block subsidy will be zero.
     
-    If you were to replace the 32 with *infinity*
-    the above equation would equal 21-million 
+    If you were to replace the 32 with *infinity*,
+    then the above equation would equal 21-million 
     as an asymptotic limit. That is, it would
     take infinite time and infinite decimal places 
     to get to 21-million.
