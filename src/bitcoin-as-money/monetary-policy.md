@@ -60,15 +60,13 @@ At that point (block 6,930,000 in the year 2140), there
 
 ## Supply over Time
 
-One of the reasons the ledger can be
+One of the reasons Bitcoin's ledger can be
  referred to as a 
  timechain
  is because we know the future supply schedule,
- just like we know the final Satoshi will be
- issued around the year 2140.
-This is an often overlooked point about Bitcoin
- and it is what sets Bitcoin apart from all
- other monetary technology.
+ e.g., we know the final Satoshi will be
+ issued in the year 2140.
+This is an often overlooked point.
 The issuance of Bitcoin is not dependent on
  its value.
 Let's repeat that:
@@ -77,9 +75,10 @@ Let's repeat that:
 
 Imagine if the spot-price of gold or silver jumped
  up to over $1-million. 
-That is, an ounce of silver would fetch
+That is, an ounce of silver would fetch more than
  $1-million.
-How do you think this would effect silver mining?
+You might go looking for old silver dollars.
+And how do you think this would effect silver mining?
 
 This is so fundamental as to be a law of nature.
 Increased demand will result in more production,
@@ -94,27 +93,19 @@ Let's repeat that:
 
 Let's examine what would happen if, tomorrow,
  the price of Bitcoin went up to $1-million.
-Initially, mining will be very profitable.
-The hashrate would skyrocket as even
- the most expensive sources of electricity
- would be profitability used to power
- Bitcoin miners.
-Even older less efficient miners would be
- profitable.
-At least, at first.
+Mining will be very profitable.
+The hashrate would skyrocket.
+And yet, issuance of new Bitcoin would stay on schedule.
 
-What would happen in that situation with
- increases hashrate is a difficulty adjustment.
 Every 2016 blocks there will be a difficulty
- adjustment to keep the average time per block
- to 10-minutes.
-If the average within those 2016 blocks
+ adjustment to maintain a 10-minute average block time.
+That is, if the average within those 2016 blocks
  is less than 10-minutes, 
  the difficulty will increase.
 If the average is more than 10-minutes,
  the difficulty will decrease.
 For this reason, while the time between blocks
- can seem to vary from block-to-block,
+ can vary,
  the average is (and always will be) 10-minutes.
 
 
