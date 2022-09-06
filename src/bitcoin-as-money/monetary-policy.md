@@ -90,13 +90,13 @@ Let's repeat that:
 
 !!! info "Issuance of Bitcoin depends on time."
 
-Let's examine what would happen if, tomorrow,
- the price of Bitcoin went up to $1-million.
-Mining will be very profitable.
+What would happen if, tomorrow,
+ the price of Bitcoin went up to $1-million?
+Mining would be very profitable.
 The hashrate would skyrocket.
 And yet, issuance of new Bitcoin would stay on schedule.
 
-Every 2016 blocks there will be a difficulty
+Every 2016 blocks there is a difficulty
  adjustment to maintain a 10-minute average block time.
 That is, if the average within those 2016 blocks
  is less than 10-minutes, 
