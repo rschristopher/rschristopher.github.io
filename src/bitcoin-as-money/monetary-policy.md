@@ -37,7 +37,7 @@ There are 33 block-subsidy eras (0 to 32),
  exactly 210,000 blocks.
 This means each era is roughly 4-years,
  for a total of 132 years till the final
- Satoshi is mined.
+ Satoshi is issued.
 
 Each era halves the block-subsidy, and
  after 32 halvings the subsidy would result
@@ -60,9 +60,64 @@ At that point (block 6,930,000 in the year 2140), there
 
 ## Supply over Time
 
-... 
+One of the reasons the ledger can be
+ referred to as a 
+ timechain
+ is because we know the future supply schedule,
+ just like we know the final Satoshi will be
+ issued around the year 2140.
+This is an often overlooked point about Bitcoin
+ and it is what sets Bitcoin apart from all
+ other monetary technology.
+The issuance of Bitcoin is not dependent on
+ its value.
+Let's repeat that:
 
-Timechain
+!!! info "Issuance of Bitcoin is not dependent on its value."
+
+Imagine if the spot-price of gold or silver jumped
+ up to over $1-million. 
+That is, an ounce of silver would fetch
+ $1-million.
+How do you think this would effect silver mining?
+
+This is so fundamental as to be a law of nature.
+Increased demand will result in more production,
+ in this case more mining.
+And yet if Bitcoin price goes to $1-million
+ or more, the issuance of new Bitcoin will
+ remain on schedule.
+Issuance of Bitcoin depends on time.
+Let's repeat that:
+
+!!! info "Issuance of Bitcoin depends on time."
+
+Let's examine what would happen if, tomorrow,
+ the price of Bitcoin went up to $1-million.
+Initially, mining will be very profitable.
+The hashrate would skyrocket as even
+ the most expensive sources of electricity
+ would be profitability used to power
+ Bitcoin miners.
+Even older less efficient miners would be
+ profitable.
+At least, at first.
+
+What would happen in that situation with
+ increases hashrate is a difficulty adjustment.
+Every 2016 blocks there will be a difficulty
+ adjustment to keep the average time per block
+ to 10-minutes.
+If the average within those 2016 blocks
+ is less than 10-minutes, 
+ the difficulty will increase.
+If the average is more than 10-minutes,
+ the difficulty will decrease.
+For this reason, while the time between blocks
+ can seem to vary from block-to-block,
+ the average is (and always will be) 10-minutes.
+
+
 
 
 ### Difficulty Adjustment
