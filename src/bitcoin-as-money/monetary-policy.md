@@ -19,7 +19,10 @@ If you calculate the above summation, it is
     
     If you were to replace the 32 with *infinity*
     the above equation would equal 21-million 
-    as an asymptotic limit.
+    as an asymptotic limit. That is, it would
+    take infinite time and infinite decimal places 
+    to get to 21-million.
+
 
 
 
