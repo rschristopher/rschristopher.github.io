@@ -1,3 +1,8 @@
+<!--
+Lord Jesus Christ 
+Son of the living God
+Have mercy on me, a sinner
+-->
 # Bitcoin's Monetary Policy
 
 
