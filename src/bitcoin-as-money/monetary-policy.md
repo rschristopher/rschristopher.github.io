@@ -99,51 +99,52 @@ What would happen if, tomorrow,
  the price of Bitcoin went up to $1-million?
 Mining would be very profitable.
 The hashrate would skyrocket.
-And yet, issuance of new Bitcoin would stay on schedule.
+And yet, issuance of new Bitcoin would
+ stay on schedule.
+This is due to the difficulty adjustment.
+
+
+### Difficulty Adjustment
 
 Every 2016 blocks there is a difficulty
  adjustment to maintain a 10-minute average block time.
-That is, if the average within those 2016 blocks
+That is, if the average time between each
+ of those 2016 blocks
  is less than 10-minutes, 
  the difficulty will increase.
 If the average is more than 10-minutes,
  the difficulty will decrease.
 For this reason, while the time between blocks
  can vary,
- the average is (and always will be) 10-minutes.
+ the average remains 10-minutes.
 
-
-
-
-### Difficulty Adjustment
-
-...
-
-Satoshi's greatest invention 
-
-The higher the price, the more lucrative it is
- to mine Bitcoin.
-
-Imagine gold jumped to $1,000,000 per ounce.
-What would happen to the gold supply?
-Would there be more mining?
-Would the increased mining activity increase
- the supply and lower demand?
-
+Without a doubt, this is 
+ [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/)'s 
+ greatest invention.
 This is why Bitcoin is not and never was
- tulip mania.
-Increase price of tulips led to a commensurate
- increase in tulip farming. 
-Within six months the tulip price crashed,
+ [tulip mania](https://en.m.wikipedia.org/wiki/Tulip_mania).
+If tulip prices increase, so too will tulip farming,
  because tulips are not a scarce asset.
 
-Increases in the valuation of Bitcoin do
- lead to more mining, yet those increases
+Increases in the valuation of Bitcoin will
+ lead to more mining 
+ as it becomes more profitable, 
+ yet those increases will in turn
  lead to a difficulty adjustment such that
  the increased mining does not change
  the supply schedule.
 
-
+This seemingly benign *difficulty adjustment*
+ is what makes Bitcoin the scarcest asset the
+ world has ever known.
+Or rather, the coalescence 
+ of a decentralized ledger,
+ proof-of-work issuance with a
+ difficulty adjustment, and
+ enforced through a consensus protocol --
+ all of this in harmony
+ is what make Bitcoin the scarcest
+ asset that has ever existed. 
 
 
 
