@@ -131,8 +131,11 @@ Increases in the valuation of Bitcoin will
  as it becomes more profitable, 
  yet those increases will in turn
  lead to a difficulty adjustment such that
- the increased mining does not change
+ the increased mining does not alter
  the supply schedule.
+The difficulty adjustment is why
+ Bitcoin's monetary policy will follow a
+ rather predictable future supply schedule.
 
 This seemingly benign *difficulty adjustment*
  is what makes Bitcoin the scarcest asset the
@@ -144,6 +147,7 @@ Or rather, the coalescence
  enforced through a consensus protocol --
  all of this in harmony
  is what make Bitcoin the scarcest
+ and most uncorruptible 
  asset that has ever existed. 
 
 
