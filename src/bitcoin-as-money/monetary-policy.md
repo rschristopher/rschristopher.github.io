@@ -120,7 +120,10 @@ For this reason, while the time between blocks
 
 Without a doubt, this is 
  [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/)'s 
- greatest invention.
+ greatest innovation.
+Unlike all prior attempts at digital currency,
+ this is why Bitcoin worked,
+ and continues to work.
 This is why Bitcoin is not and never was
  [tulip mania](https://en.m.wikipedia.org/wiki/Tulip_mania).
 If tulip prices increase, so too will tulip farming,
@@ -134,7 +137,7 @@ Increases in the valuation of Bitcoin will
  the increased mining does not alter
  the supply schedule.
 The difficulty adjustment is why
- Bitcoin's monetary policy will follow a
+ Bitcoin's monetary policy will always follow a
  rather predictable future supply schedule.
 
 This seemingly benign *difficulty adjustment*
