@@ -121,7 +121,7 @@ For this reason, while the time between blocks
 Without a doubt, this is 
  [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/)'s 
  greatest innovation.
-Unlike all prior attempts at digital currency,
+Unlike all prior attempts at digital money,
  this is why Bitcoin worked,
  and continues to work.
 This is why Bitcoin is not and never was
