@@ -7,8 +7,8 @@ is it possible?
 
 An often overlooked consequence
  of the establishment clause of the
- first amendment
- is that rather than free politics from
+ first amendment of the United States 
+ is that rather than liberating politics from
  the corrupting influence of churches,
  rather the opposite was true.
 Churches, not politics, were set free.
@@ -32,8 +32,8 @@ There is much to be criticized when looking
  inquisition
  they are not.
 
-To the degree church has been separated from
- state, the church has been free of the
+To the degree a church has been separated from
+ state, that church has been freed of the
  corrupting influence of the state.
 
 The same, it would seem, is true of money.
@@ -51,7 +51,7 @@ There have been religions and money
 The concepts of a store of wealth, of
  scarce and beautiful artifacts and talismans,
  what we can call
- proto money 
+ proto-money 
  have existed in every ancient culture.
 Primitive forms of money are as universal as
  animistic
