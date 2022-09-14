@@ -13,7 +13,7 @@ They buy Bitcoin hoping to get rich,
  thinking in terms of fiat money.
 Later they might realize that Bitcoin's
  [fixed supply](fixed-supply.md)
- is itself a *store of value*, a superior
+ makes Bitcoin a *store of value*, a superior
  store of value.
 In fact, Bitcoin's early adoption is due to its
  role as a long-term store of value.
