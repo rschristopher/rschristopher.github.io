@@ -10,17 +10,24 @@ Most people first learn about Bitcoin
  as a risky investment,
  a speculative gamble on future wealth.
 They buy Bitcoin hoping to get rich,
- thinking in terms of fiat money.
+ or diversify,
+ thinking in terms of fiat money
+ (such as a USD unit of account).
 Later they might realize that Bitcoin's
  [fixed supply](fixed-supply.md)
- makes Bitcoin a *store of value*, a superior
- store of value.
-In fact, Bitcoin's early adoption is due to its
- role as a long-term store of value.
-And yet rarely do people think of Bitcoin as a 
+ makes Bitcoin a *store of value*, 
+ a superior *store of value*.
+In fact, Bitcoin's early adoption is
+ arguably due to its
+ role as a long-term *store of value*.
+
+As people increasingly look to Bitcoin
+ as a *store of value*, 
+ rarely do people think of Bitcoin as a 
  *unit of account*.
 Bitcoin
- is not necessarily any stronger as a *store of value*
+ is not necessarily any stronger
+ as a *store of value*
  than it is as a 
  *unit of account*,
  quite the contrary.
