@@ -66,7 +66,7 @@ Religious beliefs, whether secular or traditional,
 We cannot escape religion, 
  just as we cannot escape money.
 
-With a functioning religious belief, 
+Without a functioning religious belief, 
  we inevitably fall into a meaning crisis.
 And without a functioning money,
  we inevitably fall into servitude and debt.
