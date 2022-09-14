@@ -90,7 +90,7 @@ In other words, they're trying to store
  value in fiat by buying and selling Bitcoin,
  trying to time the market,
  which does not *and can not* work.
-Similar things happened with gold price
+Similar things happened with the gold price
  in the dying days of the Weimar Republic.
 The volatility of the gold price was
  not a reflection of gold, but of the
