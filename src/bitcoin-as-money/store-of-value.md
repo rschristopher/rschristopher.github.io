@@ -10,7 +10,6 @@ Most people first learn about Bitcoin
  as a risky investment,
  a speculative gamble on future wealth.
 They buy Bitcoin hoping to get rich,
- or diversify,
  thinking in terms of fiat money
  (such as a USD unit of account).
 Later they might realize that Bitcoin's
