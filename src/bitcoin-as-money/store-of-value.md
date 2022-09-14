@@ -23,7 +23,8 @@ In fact, Bitcoin's early adoption is
 
 As people increasingly look to Bitcoin
  as a *store of value*, 
- rarely do people think of Bitcoin as a 
+ rarely do those same people
+ think of Bitcoin as a 
  *unit of account*.
 Bitcoin
  is not necessarily any stronger
