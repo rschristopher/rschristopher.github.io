@@ -1,6 +1,25 @@
 # Separation of Money and State
-...
-is it possible?
+
+Power over money is power over human choice 
+ and human energy.
+There are and can be no limits on the power
+ of a state if that state has power over money.
+Power over money is 
+ *total totalitarianism*.
+With power over what people can and cannot buy,
+ you need not have any law enforcement, as
+ the power over money is sufficient enforcement
+ of human behavior and action.
+Even crimes of passion become quite difficult
+ when one cannot buy food or water or
+ transportation.
+Complete power over money renders
+ people into slaves,
+ including the people managing the money.
+The system itself becomes the all powerful
+ ruler.
+
+ 
 
 
 ## Church and State
@@ -10,7 +29,7 @@ An often overlooked consequence
  first amendment of the United States 
  is that rather than liberating politics from
  the corrupting influence of churches,
- rather the opposite was true.
+ the opposite was true.
 Churches, not politics, were set free.
 
 This may run contrary to conventional
@@ -25,8 +44,8 @@ Or have the churches lessened their
  from the state, and become increasingly 
  benign places of worship?
 There is much to be criticized when looking
- at modern churches, such as the
- shallow banality no more sacred than
+ at modern churches, such as their
+ shallow banality with no more sacredness than
  than the strip-malls where they reside, 
  but the
  inquisition
