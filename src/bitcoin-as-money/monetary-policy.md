@@ -49,13 +49,13 @@ Each era halves the block-subsidy, and
  in a number too small to represent in Satoshis,
  hence the subsidy will be zero.
 
-At that point (block 6,930,000 in the year 2140), there
- will have been 20,999,999.9769 Bitcoin
+At that point (block 6,930,000 in the year 2140),
+ there will have been 20,999,999.9769 Bitcoin
  block subsidies, and from then
  on Bitcoin mining will operate only
- on fees (which in practice would have
+ on fees (which in practice will have
  already happened as the prior era subsidy
- was already a single Satoshi).
+ will have already been a single Satoshi).
 
 
 
