@@ -1,23 +1,29 @@
 # Separation of Money and State
 
-Power over money is power over human choice 
- and human energy.
-There are and can be no limits on the power
- of a state if that state has power over money.
+There is no more important challenge
+ in this era 
+ than the separation of money from state.
+
+Power over money is power over human choice,
+ which is a power over human beings.
+If a state has power over money
+ then there can be no limit to its power 
+ over those governed.
 Power over money is 
  *total totalitarianism*.
-With power over what people can and cannot buy,
- you need not have any law enforcement, as
- the power over money is sufficient enforcement
+Controlling what people can and cannot buy,
+ you need not have any law enforcement,
+ power over money is sufficient enforcement
  of human behavior and action.
 Even crimes of passion become quite difficult
  when one cannot buy food or water or
  transportation.
 Complete power over money renders
  people into slaves,
- including the people managing the money.
+ including those managing the money.
 The system itself becomes the all powerful
- ruler.
+ ruler, slaves to the principalities that 
+ emerge from our own base instincts.
 
  
 
