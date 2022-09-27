@@ -72,7 +72,7 @@ To the degree a church has been separated from
  state, that church has been freed of the
  corrupting influence of the state.
 
-The same, obviously, is true of money.
+The same, obviously, can be true of money.
 
 
 
