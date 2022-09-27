@@ -32,10 +32,7 @@ We can either limit technology to prevent
  such power from manifesting,
  which puts our civilization on a dead end,
  or we separate money from state.
-The reasons are beyond
- liberal ideals or conservative
- traditions, but it is for
- the survival of civilization itself.
+
  
 
 
