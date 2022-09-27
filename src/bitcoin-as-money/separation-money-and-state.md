@@ -46,7 +46,8 @@ An often overlooked consequence
  is that rather than liberating politics from
  the corrupting influence of churches,
  the opposite was true.
-Churches, not politics, were set free.
+
+!!! info "Churches, not politics, were set free."
 
 This may run contrary to conventional
  wisdom, to the facade of enlightenment
