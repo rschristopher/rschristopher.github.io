@@ -90,8 +90,28 @@ The concepts of a store of wealth, of
  proto-money,
  have existed in every ancient culture.
 Primitive forms of money are as universal as
- animistic
+ primitive, usually 
+ animistic,
  religions.
+
+???+ info "Fiat Money and Ancestor Worship"
+    Founding fathers, kings and queens, or
+    even the most secular and supposedly 
+    "enlightened" money designs are ostensibly
+    a form of ancestor worship.
+
+    These animistic tokens function well-enough
+    but are by and large being replaced by
+    technocratic digital money, stripped of
+    their religious nature. And rather than
+    become a source of liberation, digital
+    money has become a source of control, and
+    not by mythological archetypes or even the
+    pretense of functioning religious systems,
+    but by mundane bureaucratic policy makers
+    with unchecked parasitism, feeding on the
+    culture and energy of the people who don't
+    even know their names.
 
 Religious beliefs, whether secular or traditional,
  provide a moral framework and a language
@@ -103,7 +123,8 @@ We cannot escape religion,
  just as we cannot escape money.
 
 Without a functioning religious belief, 
- we inevitably fall into a meaning crisis.
+ we inevitably fall into a 
+ meaning crisis.
 And without a functioning money,
  we inevitably fall into servitude and debt.
 We cannot escape the very human need
@@ -122,29 +143,32 @@ That is, to set money free from the
 ...
 
 What is the ultimate fate of modern fiat,
- the petrodollar system?
+ the petrodollar system known as USD?
 
 The USD was
  originally backed by gold.
 Roughly $20/ounce,
  then $35/ounce during the
- Breton Woods era,
- and then pure fiat backed by the
- US empire's agreement with Saudi Arabia. 
+ Breton Woods era.
+It wasn't till after 1971 that
+ pure fiat USD emerged. 
 These are, by any measure, distinct monies,
  but all were known as "USD".
 The fate of the existing
  post-1971 fiat USD seems obvious,
  as fiat systems tend to 
  hyperinflated into oblivion.
+And at this point fiat currencies have lost
+ so much value that it js best measured in the
+ number of nines (99%, 99.9%, and soon 99.99%).
 
-And we're way past the point of no return. 
-80% of all circulating money was created
- in the last two years. 
+Something like 
+ 80% of all circulating money was created
+ in 2020 and 2021. 
 True inflation, monetary inflation, 
  is already in hyperinflation
  despite a massive cover up and
- claiming it's all transient and that
+ claiming it was transient and that
  price inflation is unrelated to the 
  massive monetary inflation.
 The willful stupidity of modern economists 
