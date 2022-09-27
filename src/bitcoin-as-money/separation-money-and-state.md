@@ -5,10 +5,10 @@
 Power over money is power over human choice,
  which is a power over human beings.
 If a state has power over money
- then there is no limit to state power 
+ then there is no limit to that state's power 
  over those governed.
 Controlling what people can and cannot buy,
- you need not have any law enforcement,
+ you need not have any law enforcement;
  power over money is sufficient enforcement
  of human behavior and action.
 Even crimes of passion become quite difficult
@@ -20,17 +20,22 @@ Power over money is
 Complete power over money renders
  people into something less than slaves,
  including those managing the money.
-The system itself becomes the all powerful
- ruler, leaving humans to be obedient 
+The system itself becomes all powerful,
+ leaving humans to be obedient
+ (in action, speech, and thought) 
  to the principalities that 
- emerge from our own base instincts,
- or else.
+ emerge from our own base instincts.
 Historically, such a society has proven
  non-sustainable, collapsing under its own
  tyrannical rules.
-The reason to separate money from state is
- not just liberal idealism, but it is for
- the survival of human civilization itself.
+We can either limit technology to prevent
+ such power from manifesting,
+ which puts our civilization on a dead end,
+ or we separate money from state.
+The reasons are beyond
+ liberal ideals or conservative
+ traditions, but it is for
+ the survival of civilization itself.
  
 
 
