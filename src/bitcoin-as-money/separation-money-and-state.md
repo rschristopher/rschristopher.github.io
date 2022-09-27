@@ -31,7 +31,7 @@ Historically, such a society has proven
  non-sustainable, collapsing under its own
  tyrannical fiat.
 We can either limit technology to prevent
- such power from manifesting,
+ such power from manifesting further,
  which puts our civilization on a dead end,
  or we separate money from state.
 
