@@ -18,13 +18,19 @@ Even crimes of passion become quite difficult
 Power over money is 
  *total totalitarianism*.
 Complete power over money renders
- people into slaves,
+ people into something less than slaves,
  including those managing the money.
 The system itself becomes the all powerful
- ruler, leaving humans to be slaves
+ ruler, leaving humans to be obedient 
  to the principalities that 
- emerge from our own base instincts.
-
+ emerge from our own base instincts,
+ or else.
+Historically, such a society has proven
+ non-sustainable, collapsing under its own
+ tyrannical rules.
+The reason to separate money from state is
+ not just liberal idealism, but it is for
+ the survival of human civilization itself.
  
 
 
@@ -74,9 +80,9 @@ There have been religions and money
  as long as there has
  been humans.
 The concepts of a store of wealth, of
- scarce and beautiful artifacts and talismans,
+ scarce and beautiful artifacts,
  what we can call
- proto-money 
+ proto-money,
  have existed in every ancient culture.
 Primitive forms of money are as universal as
  animistic
