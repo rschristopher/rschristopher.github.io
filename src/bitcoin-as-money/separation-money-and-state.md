@@ -71,7 +71,7 @@ To the degree a church has been separated from
  state, that church has been freed of the
  corrupting influence of the state.
 
-The same, it would seem, is true of money.
+The same, obviously, is true of money.
 
 
 
@@ -120,20 +120,23 @@ That is, to set money free from the
 
 ...
 
+What is the ultimate fate of modern fiat,
+ the petrodollar system?
 
-
-## USD
-What is the ultimate fate of the USD?
-The USD was originally backed by gold.
-Roughly $20/ounce, then $35/ounce,
- then pure fiat backed by the
+The USD was
+ originally backed by gold.
+Roughly $20/ounce,
+ then $35/ounce during the
+ Breton Woods era,
+ and then pure fiat backed by the
  US empire's agreement with Saudi Arabia. 
 These are, by any measure, distinct monies,
- but all were known as USD.
+ but all were known as "USD".
 The fate of the existing
- post 1971 fiat USD seems obvious,
- as non-sustainable systems tend to.. 
- well.. not sustain. 
+ post-1971 fiat USD seems obvious,
+ as fiat systems tend to 
+ hyperinflated into oblivion.
+
 And we're way past the point of no return. 
 80% of all circulating money was created
  in the last two years. 
