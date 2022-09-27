@@ -1,20 +1,25 @@
 # Criticisms
 
-There is a lot of criticism of Bitcoin,
- a lot,
- especially from journalists and so-called 
+There is a lot of criticism of Bitcoin --
+ *a lot*
+ -- especially from journalists and so-called 
  experts,
  and yet despite the constant criticism, 
  it's nearly impossible 
  to find critics that understand
  Bitcoin, let alone demonstrates
- that understanding.
+ their understanding.
 
-In practice, if these critics were right,
+In practice, if the critics were right,
  Bitcoin should have been dead years ago.
+In fact, it has been declared
+ dead,
+ many
+ times.
 And yet despite this, the quality of the criticism
  hasn't improved even as Bitcoin has succeeded.
-The criticism has become incessant noise with very little signal.
+The criticism has become incessant
+ noise with very little signal.
 
 !!! info "*The more one learns about Bitcoin, the more of a supporter one becomes.*"
 
@@ -22,8 +27,9 @@ The criticism has become incessant noise with very little signal.
 This of course suggests
  that the critics are stupid,
  lazy, and intellectually dishonest
- (being so unabashedly uninterested in the pursuit of truth). 
-It would even seem that most of the media function as
+ (being so unabashedly uninterested
+ in the pursuit of truth). 
+It would even seem that most of the media functions as
  propaganda defending the status quo, and
  accepting without question the dictates of power.
 
@@ -33,7 +39,7 @@ However,
 Lack of competent criticism 
  poses a serious risk,
  especially for something as important as money,
- and the 
+ including the 
  separation of money and state.
 
 !!! warning "*The biggest risk to Bitcoin is its lack of competent crítics.*"
