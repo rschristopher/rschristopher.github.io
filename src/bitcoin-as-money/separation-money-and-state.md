@@ -1,6 +1,6 @@
 # Separation of Money and State
 
-!!! quote "There is no more important problem to solve in this era than the separation of money from state."
+!!! info "There is no more important problem to solve in this era than the separation of money from state."
 
 Power over money is power over human choice,
  which is a power over human beings
