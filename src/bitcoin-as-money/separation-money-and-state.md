@@ -95,23 +95,27 @@ Primitive forms of money are as universal as
  religions.
 
 ???+ info "Fiat Money and Ancestor Worship"
-    Founding fathers, kings and queens, or
+    Founding fathers, kings and queens, and
     even the most secular and supposedly 
     "enlightened" money designs are ostensibly
     a form of ancestor worship.
 
-    These animistic tokens function well-enough
-    but are by and large being replaced by
-    technocratic digital money, stripped of
-    their religious nature. And rather than
+    These animistic tokens functioned well-enough
+    for primitive economies,
+    but are being replaced by
+    digital money, stripped of
+    their religious nature. 
+
+    And rather than
     become a source of liberation, digital
-    money has become a source of control, and
+    money has become a system of control, and
     not by mythological archetypes or even the
     pretense of functioning religious systems,
     but by mundane bureaucratic policy makers
-    with unchecked parasitism, feeding on the
-    culture and energy of the people who don't
-    even know their names.
+    with unchecked power,
+    parasitically feeding on the
+    the people (people who don't
+    even know the names of these parasites).
 
 Religious beliefs, whether secular or traditional,
  provide a moral framework and a language
@@ -157,7 +161,7 @@ These are, by any measure, distinct monies,
 The fate of the existing
  post-1971 fiat USD seems obvious,
  as fiat systems tend to 
- hyperinflated into oblivion.
+ hyperinflate into oblivion.
 And at this point fiat currencies have lost
  so much value that it js best measured in the
  number of nines (99%, 99.9%, and soon 99.99%).
