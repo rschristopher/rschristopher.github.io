@@ -2,16 +2,14 @@
 
 !!! info "There is no more important problem to solve in this era than the separation of money from state."
 
-Power over money is power over human choice,
- which is a power over human beings
- and their ability to cooperate.
+Power over money is power over human choice.
 If a state has power over money
  then there is no limit to that state's power 
  over those governed.
 Controlling what people can and cannot buy,
  you need not have any law enforcement;
  power over money is sufficient enforcement
- of human behavior and action (and even thought).
+ of all human behavior and action.
 Even crimes of passion become quite difficult
  when one cannot buy food or water or
  transportation.
@@ -21,17 +19,17 @@ Complete power over money is
 Such power renders
  humans into something less than slaves,
  including those managing the money.
-The system itself becomes all powerful,
+The system itself would become all powerful,
  leaving humans to be obedient
  (in action, speech, and thought) 
  to the monetary principalities that 
  emerge from our own base instincts.
 
-Historically, such a society has proven
+Historically, such totalitarianism has proven
  non-sustainable, collapsing under its own
  tyrannical fiat.
 We can either limit technology to prevent
- such power from manifesting further,
+ this power from manifesting further,
  which puts our civilization on a dead end,
  or we separate money from state.
 
@@ -110,18 +108,18 @@ Primitive forms of money are as universal as
     become a source of liberation, digital
     money has become a system of control, and
     not by mythological archetypes or even the
-    pretense of functioning religious systems,
+    pretense of a functioning religious system,
     but by mundane bureaucratic policy makers
     with unchecked power,
     parasitically feeding on the
     the people (people who don't
-    even know the names of these parasites).
+    even know the names of these bureaucrats).
 
 Religious beliefs, whether secular or traditional,
  provide a moral framework and a language
  with which to communicate what are
  otherwise transcendent concepts 
- (truth, goodness, meaning in life sufficient
+ (such as truth, goodness, or meaning in life sufficient
  to bear the weight of life's suffering).
 We cannot escape religion, 
  just as we cannot escape money.
@@ -144,27 +142,32 @@ That is, to set money free from the
 
 ## Money and State
 
-...
-
 What is the ultimate fate of modern fiat,
+ that is,
+ what is the fate of
  the petrodollar system known as USD?
 
-The USD was
- originally backed by gold.
-Roughly $20/ounce,
- then $35/ounce during the
- Breton Woods era.
-It wasn't till after 1971 that
- pure fiat USD emerged. 
-These are, by any measure, distinct monies,
- but all were known as "USD".
+???+ info "USD sound and unsound"
+    The USD was
+    originally backed by gold.
+    It was sound money worth roughly $20/ounce.
+    Later, during the
+    Breton Woods era
+    it was worth $35/ounce.
+    This system ended in 1971,
+    the petrodollar system emerged,
+    and global fiat was born.
+
+    These are, by any measure, distinct monies,
+    but all were known as "USD".
+
 The fate of the existing
  post-1971 fiat USD seems obvious,
  as fiat systems tend to 
  hyperinflate into oblivion.
-And at this point fiat currencies have lost
- so much value that it js best measured in the
- number of nines (99%, 99.9%, and soon 99.99%).
+At this point fiat currencies have lost
+ so much value that they're best measured in the
+ number of nines (99%, 99.9%, 99.99%, and so on).
 
 Something like 
  80% of all circulating money was created
