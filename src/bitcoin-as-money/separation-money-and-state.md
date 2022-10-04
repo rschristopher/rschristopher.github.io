@@ -3,31 +3,36 @@
 !!! info "There is no more important problem to solve in this era than the separation of money from state."
 
 Power over money is power over human choice.
-If a state has power over money
- then there is no limit to that state's power 
- over those governed.
+If a state had complete power over money
+ then there would be no limit to that state's 
+ power over those governed.
 Controlling what people can and cannot buy,
- you need not have any law enforcement;
- power over money is sufficient enforcement
+ you would not need much law enforcement;
+ power over money would be sufficient enforcement
  of all human behavior and action.
-Even crimes of passion become quite difficult
- when one cannot buy food or water or
+Even crimes of passion would become quite
+ difficult if one couldn't buy food or water or
  transportation.
 
-Complete power over money is 
+Complete power over money would offer
  *total totalitarianism*.
-Such power renders
+Such power would render
  humans into something less than slaves,
  including those managing the money.
 The system itself would become all powerful,
  leaving humans to be obedient
  (in action, speech, and thought) 
  to the monetary principalities that 
- emerge from our own base instincts.
+ emerge from their own base instincts.
 
 Historically, such totalitarianism has proven
- non-sustainable, collapsing under its own
+ impossible, collapsing under its own
  tyrannical fiat.
+As monetary technology increases,
+ so too does monetary power.
+The desire
+ from the state and others to wield
+ this power will also increase.
 We can either limit technology to prevent
  this power from manifesting further,
  which puts our civilization on a dead end,
