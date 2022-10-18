@@ -1,6 +1,8 @@
 # Hardware Wallets
 
-...
+!!! warning "work in progress"
+
+<!--
 
 Coldcard
 
@@ -28,7 +30,7 @@ However, with the exception of devices like the
 
 
 
-
+-->
 
 
 
