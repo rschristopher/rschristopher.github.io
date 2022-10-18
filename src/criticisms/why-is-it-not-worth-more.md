@@ -43,7 +43,7 @@ Estimates for the total supply of gold vary wildly,
 
 ## More real-estate?
 
-> Buy land, they're not making it anymore
+!!! quote "Buy land, they're not making it anymore."
 
 Should Bitcoin by worth more than
  the total value of all land on earth?
@@ -206,3 +206,4 @@ As such, using Bitcoin is a choice,
  a better future.
 
 
+!!! warning "work in progress"
