@@ -1,5 +1,5 @@
 # Cantillon Bubbles
-## *i.e., Bitcoin's Inflation Problem*
+## *Bitcoin's Inflation Problem*
 
 !!! warning "work in progress"
 
