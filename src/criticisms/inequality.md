@@ -36,6 +36,11 @@ However, knowledge of the morality
 
 ## Moral Claims
 
+!!! warning "work in progress"
+
+<!--
+
+
 ### Inequality is bad
 
 Is it even possible not to have inequality? What would that even mean?
@@ -90,10 +95,11 @@ In other words, wealth isn't
  subsidized through government grants
  or easy money policies.
 
-
 What are the ramifications
  of sound money on a population that
  grew accustom to fiat?
+
+-->
 
 
 
