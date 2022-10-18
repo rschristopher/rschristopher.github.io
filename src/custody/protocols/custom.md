@@ -1,5 +1,9 @@
 # Bitcoin Security Protocol: Custom
 
+!!! warning "work in progress"
+
+<!--
+
 
 ???+ info "Who is this good for?"
     Anyone wanting a custom
@@ -93,3 +97,4 @@ Insert secure micro SD card into your computer running Tails,
 Wait for confirmation.
 
 
+-->
