@@ -1,5 +1,8 @@
 # Airgapped Computer
 
+!!! warning "work in progress"
+
+
 Even if you use
  [Dice and Paper](../creating-keys/dice-and-paper.md)
  to generate a seed phrase,
