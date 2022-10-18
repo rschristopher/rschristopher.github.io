@@ -1,6 +1,7 @@
 # Dice and Computer
 
-...
+!!! warning "work in progress"
+
 
 We can use our airgapped computer 
  to convert dice rolls
