@@ -1,5 +1,6 @@
-# Run a Lightning Node
+# Lightning Node
 
-...
+
+!!! warning "work in progress"
 
 
