@@ -98,6 +98,7 @@ Primitive forms of money are as universal as
  religions.
 
 ???+ info "Fiat Money and Ancestor Worship"
+    Look at the design of paper money and coinage.
     Founding fathers, kings and queens, and
     even the most secular and supposedly 
     "enlightened" money designs are ostensibly
@@ -118,7 +119,8 @@ Primitive forms of money are as universal as
     with unchecked power,
     parasitically feeding on the
     the people (people who don't
-    even know the names of these bureaucrats).
+    even know the names of their
+    would-be tyrant bureaucrats).
 
 Religious beliefs, whether secular or traditional,
  provide a moral framework and a language
@@ -147,6 +149,9 @@ That is, to set money free from the
 
 ## Money and State
 
+!!! warning "work in progress"
+
+<!--
 What is the ultimate fate of modern fiat,
  that is,
  what is the fate of
@@ -251,3 +256,4 @@ Increase adoption of Bitcoin as money.
 Store of wealth, unit of account, 
  system of exchange, ...
 
+-->
