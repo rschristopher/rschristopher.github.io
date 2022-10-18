@@ -10,7 +10,13 @@ Full node on a protected network.
 Master public keys will never touch an Internet-connected device.
 
 No persistance of private keys or seed phrases on any electronic device.
- Air-gapped seed-signing devices only.
+ Air-gapped and quarantined seed-signing devices only.
+
+
+!!! warning "work in progress"
+
+<!--
+
 
 
 ## Setup
@@ -128,5 +134,5 @@ Sign transaction with relevant wallets,
 
 
 
-
+-->
 
