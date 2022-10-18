@@ -1,6 +1,9 @@
 # Cantillon Bubbles
 ## *i.e., Bitcoin's Inflation Problem*
 
+!!! warning "work in progress"
+
+<!--
 
 ## Inflation
 Could an ideal money be inflationary?
@@ -11,3 +14,5 @@ The biggest threat to Bitcoin is not lost keys but rather found keys that were o
 
 A hypothetical zero inflation money, always 21.million and nothing ever lost, this would be weaker than Bitcoin, which is guaranteed to be deflationary as coins are lost or even deliberately destroyed. Yet this guarantee comes with a risk of "found" keys, that is, sudden increases in the effective money supply, cantillon bubbles that could be destabilizing.
 Bitcoin's cantillon risk.
+
+-->
