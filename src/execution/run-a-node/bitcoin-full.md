@@ -1,5 +1,7 @@
-# Run a Bitcoin Full Node
+# Bitcoin Full Node
 
-...
+
+!!! warning "work in progress"
+
 
 
