@@ -1,5 +1,9 @@
 # Creating Keys
 
+!!! warning "work in progress"
+
+<!--
+
 ...
 Command Line Overview
 
@@ -28,9 +32,10 @@ https://bitcoinmagazine.com/culture/diy-bitcoin-private-key-project
 
 
 
-<!--
+
+
  [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
--->
+
 
 
 The best way to understand this is through examples,
@@ -137,3 +142,4 @@ https://river.com/learn/terms/x/xpub-extended-public-key/
 https://bitcointalk.org/index.php?topic=5213741.0
 
 
+-->
