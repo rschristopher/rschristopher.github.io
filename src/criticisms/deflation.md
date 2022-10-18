@@ -1,5 +1,8 @@
 # Deflationary Spiral
 
+!!! warning "work in progress"
+
+<!--
 ...
 this idea is fucking stupid beyond belief, but here goes...
 
@@ -17,6 +20,6 @@ Deflationary price changes due to economic growth is not a bad thing
  and is in fact the norm throughout history.
 
 
-
+-->
 
 
