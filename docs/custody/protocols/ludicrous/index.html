@@ -1185,88 +1185,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Ludicrous
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         Ludicrous
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    Setup
-  </a>
-  
-    <nav class="md-nav" aria-label="Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#seed-creation" class="md-nav__link">
-    Seed Creation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#proof-of-control" class="md-nav__link">
-    Proof of Control
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#address-verification" class="md-nav__link">
-    Address Verification
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deposit" class="md-nav__link">
-    Deposit
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verify-balance" class="md-nav__link">
-    Verify balance
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#withdrawal" class="md-nav__link">
-    Withdrawal
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -2146,69 +2067,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    Setup
-  </a>
-  
-    <nav class="md-nav" aria-label="Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#seed-creation" class="md-nav__link">
-    Seed Creation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#proof-of-control" class="md-nav__link">
-    Proof of Control
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#address-verification" class="md-nav__link">
-    Address Verification
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deposit" class="md-nav__link">
-    Deposit
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verify-balance" class="md-nav__link">
-    Verify balance
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#withdrawal" class="md-nav__link">
-    Withdrawal
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2230,76 +2088,130 @@ robust self custody solution possible.</p>
 <p>Full node on a protected network.</p>
 <p>Master public keys will never touch an Internet-connected device.</p>
 <p>No persistance of private keys or seed phrases on any electronic device.
- Air-gapped seed-signing devices only.</p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<details class="check" open="open">
-<summary>Prerequisites</summary>
-<p>2+ distinct air-gapped devices</p>
-<p>1 USB card loaded with Tails OS</p>
-<p>1+ full-node, mynode, umbrel</p>
-<p>1+ DMZ computer, no Internet access</p>
-<p>1+ secure Internet computer </p>
-<p>1+ secure Ethernet router</p>
-</details>
-<details class="check" open="open">
-<summary>Installation</summary>
-<p>Signer-1
-Signer-2</p>
-<p>Node-1
-Node-2</p>
-<p>DMZ-1</p>
-<p>PC-1</p>
-<p>Wired Ethernet router with no Internet,
-private network access only.</p>
-<p>DMZ, Node-1 and Node-2 are on this network,
- Node-1 and Node-2 have limited access over Tor</p>
-</details>
-<h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
-<details class="danger" open="open">
-<summary>Create Keys</summary>
-<p>Create 5+ high-entropy seed phrases</p>
-<p>Create metal backups</p>
-<p>Transfer master public keys to DMZ-1</p>
-<p>Generate 3/5, etc, multisig
- ... using Signer-1 and Signer-2
- ... verify entropy bits on Signer-1 and Signer-2</p>
-<p>Transfer multisig master public keys to DMZ-1</p>
-</details>
-<h3 id="proof-of-control">Proof of Control<a class="headerlink" href="#proof-of-control" title="Permanent link">&para;</a></h3>
-<details class="danger" open="open">
-<summary>Proof of Control</summary>
-<p>Deposit small amount on each singl-sig.</p>
-<p>Withdraw to multisig, for each single-sig </p>
-<p>Withdraw back to single-sig, for each multi-sig</p>
-<p>All wallets have received and sent.</p>
-<p>Single-sig stores the small amounts, 
- and can be used under duress </p>
-<p>Large deposits will go to multi-sig,
- and can only be accessed by using
- both signing devices and the DMZ</p>
-</details>
-<h3 id="address-verification">Address Verification<a class="headerlink" href="#address-verification" title="Permanent link">&para;</a></h3>
-<p>Only verified receive addresses should be used.</p>
-<p>Check first, middle, and final characters.
+ Air-gapped and quarantined seed-signing devices only.</p>
+<div class="admonition warning">
+<p class="admonition-title">work in progress</p>
+</div>
+<!--
+
+
+
+## Setup
+
+???+ check "Prerequisites"
+    2+ distinct air-gapped devices
+
+    1 USB card loaded with Tails OS
+
+    1+ full-node, mynode, umbrel
+
+    1+ DMZ computer, no Internet access
+
+    1+ secure Internet computer 
+
+    1+ secure Ethernet router
+
+
+???+ check "Installation"
+
+    Signer-1
+    Signer-2
+
+    Node-1
+    Node-2
+
+    DMZ-1
+
+    PC-1
+
+    Wired Ethernet router with no Internet,
+    private network access only.
+
+    DMZ, Node-1 and Node-2 are on this network,
+     Node-1 and Node-2 have limited access over Tor
+
+
+### Seed Creation
+
+???+ danger "Create Keys"
+    Create 5+ high-entropy seed phrases
+
+    Create metal backups
+
+    Transfer master public keys to DMZ-1
+
+    Generate 3/5, etc, multisig
+     ... using Signer-1 and Signer-2
+     ... verify entropy bits on Signer-1 and Signer-2
+
+    Transfer multisig master public keys to DMZ-1
+
+
+
+### Proof of Control
+
+???+ danger "Proof of Control"
+    Deposit small amount on each singl-sig.
+
+    Withdraw to multisig, for each single-sig 
+
+    Withdraw back to single-sig, for each multi-sig
+
+    All wallets have received and sent.
+
+    Single-sig stores the small amounts, 
+     and can be used under duress 
+
+    Large deposits will go to multi-sig,
+     and can only be accessed by using
+     both signing devices and the DMZ
+
+
+
+
+
+
+### Address Verification
+
+Only verified receive addresses should be used.
+
+Check first, middle, and final characters.
 Compare Signer-1 and Signer-2 addresses, then
- compare to DMZ addresses.</p>
-<p>Transfer batch of verified receive addresses
+ compare to DMZ addresses.
+
+Transfer batch of verified receive addresses
  to PC.
-Each address can be used only once!</p>
-<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
-<p>Master Public Key is available on the DMZ,
+Each address can be used only once!
+
+
+## Deposit 
+
+Master Public Key is available on the DMZ,
  where verified receive addresses can be 
- transmitted to the Internet connected device.</p>
-<h2 id="verify-balance">Verify balance<a class="headerlink" href="#verify-balance" title="Permanent link">&para;</a></h2>
-<p>Check the balance on DMZ-1 to Node-1</p>
-<h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
-<p>Use DMZ-1 to generate transaction, 
- copy unsigned transaction to Signer-1</p>
-<p>Sign transaction with relevant wallets,
+ transmitted to the Internet connected device.
+
+
+## Verify balance
+
+Check the balance on DMZ-1 to Node-1
+
+
+## Withdrawal 
+
+Use DMZ-1 to generate transaction, 
+ copy unsigned transaction to Signer-1
+
+Sign transaction with relevant wallets,
  then copy partially signed transaction
- to Signer-2 </p>
-<p>Sign transaction with relevant wallets,
- then copy signed transaction back to DMZ-1</p>
+ to Signer-2 
+
+Sign transaction with relevant wallets,
+ then copy signed transaction back to DMZ-1
+
+
+
+
+-->
 
               
             </article>
