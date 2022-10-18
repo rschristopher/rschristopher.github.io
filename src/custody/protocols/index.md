@@ -1,5 +1,8 @@
 # Protocols
 
+!!! warning "work in progress"
+
+
 <!--
 
 Lord Jesus Christ
@@ -12,7 +15,9 @@ If you're going to self custody your Bitcoin
  (because it's yours and you should)
  then it is  *highly recommended* to adopt
  a *protocol* for managing your Bitcoin.
-That is, step-by-step instructions that you print;
+
+
+A protocol is step-by-step instructions that you keep on hand;
  instructions that can be followed by you and your loved ones.
 This can be as simple as using a 
  [coldcard](https://coldcard.com/)
