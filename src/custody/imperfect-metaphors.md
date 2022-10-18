@@ -234,7 +234,7 @@ flowchart LR
   a --> b
 ```
 
-Imagine you then send `0.001 Bitcoin` to someone else (to an invoice address they sent you).
+Now imagine you then send `0.001 Bitcoin` to someone else (to an invoice address they sent you).
 
 It is tempting to think your original address now has 0.005 Bitcoin, 
  but in reality your original address has nothing. 
