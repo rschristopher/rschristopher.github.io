@@ -1,5 +1,8 @@
 # Bitcoin Security Protocol: Basic+
 
+!!! warning "work in progress"
+
+<!--
 
 ???+ info "Who is this good for?"
     This protocol
@@ -203,3 +206,5 @@ You may want to consider enhancing this
 + Coinjoin and other privacy techniques
 + Multi-sig 
 
+
+-->
