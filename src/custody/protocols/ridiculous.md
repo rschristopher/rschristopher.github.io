@@ -1,5 +1,11 @@
 # Bitcoin Security Protocol: Ridiculous
 
+
+!!! warning "work in progress"
+
+<!--
+
+
 ???+ info "Who is this good for?"
     Advanced users looking for a
     robust self custody solution
@@ -102,5 +108,5 @@ Sign transaction with relevant wallets,
 
 
 
-
+-->
 
