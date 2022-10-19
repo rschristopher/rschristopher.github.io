@@ -429,7 +429,7 @@ Next time you read an article on *"blockchain technology"* replace the word
 
 
 ???+ example "blockchain or magic?"
-    All the data in {--blockchain--}{++magic++} technology is immutable
+    All the data in {--blockchain technology--}{++magic++} is immutable
     and can be adapted for use in a variety of industries,
     including healthcare, supply chain management, and voting.
 
