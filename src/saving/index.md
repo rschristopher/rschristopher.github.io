@@ -1,7 +1,7 @@
-# Custody
+# Saving
 
 Unlike physical custody of assets, 
- custody of Bitcoin 
+ saving in Bitcoin 
  means storing information, a key or seed phrase,
  and to store it in such a way that no one else
  would ever be able to know it.
@@ -12,7 +12,7 @@ For example, consider the following seed phrase,
 
 Because this seed phrase has been revealed,
  anyone can generate private keys from this seed,
- which will access any Bitcoin stored in its invoice addresses (generated from this seed).
+ which will access any Bitcoin at any of the derived addresses (from this seed).
 
 
 > *What if you had to secure this seed phrase?*
@@ -24,9 +24,9 @@ In other words, how would you secure this phrase
 1. No one else could ever know the seed phrase
 
 Knowing how to fulfill the above 
- is at the heart of how to custody Bitcoin.
+ is at the heart of how to save in Bitcoin.
 
-## Self Custody
+## Self Custody (Self Sovereignty)
 
 To *self custody* means you personally 
  secure your seed phrase and manage your own keys.
@@ -102,7 +102,7 @@ If you trust an institution to custody your Bitcoin,
 
 There's a common misconception that Bitcoin self custody is hard.
 
-In practice, self custody is as easy as changing a light-bulb,
+In practice, saving in Bitcoin is as easy as changing a light-bulb,
  and it is vastly easier than online banking, not to mention far more secure.
  Bitcoin is as secure as you want it to be, from *trivial* to *nuclear-launch-code*
  level of security.
@@ -207,7 +207,7 @@ No reasonable person would conclude that the current state
  And worse, it is getting harder and harder by the day.
 
 
-!!! question "But is self custody really as easy as changing a light-bulb?"
+!!! question "But is Bitcoin really as easy as changing a light-bulb?"
     
     Yes, and definitely easier than 
     the security theater of online banking.
@@ -256,7 +256,6 @@ Bitcoin self custody offers real security.
 
 Bitcoin self custody is exactly as hard 
  as learning about the Internet in the 1990s.
-
 It's new, it's different,
  and it confuses those who haven't realized
  just how disruptive this kind of technology can be.
@@ -266,8 +265,8 @@ It's new, it's different,
 
     That's online banking you're thinking about.
 
-    A redneck with a gun and a coldcard can custody Bitcoin
-    with more security than any bank.
+    A redneck with a gun and a coldcard can protect *their* Bitcoin
+    with more security than any bank in the history of the world.
 
 
 
