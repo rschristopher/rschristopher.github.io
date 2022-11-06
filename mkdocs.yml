@@ -60,32 +60,43 @@ nav:
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
     - Saving:
         - saving/index.md
-        - Imperfect Metaphors: saving/imperfect-metaphors.md
-        - Airgapped Computer: saving/airgapped-computer.md
-        - Hardware Wallets: saving/hardware-wallets.md
-        - Creating Keys: 
-          - saving/creating-keys/index.md
-          - Using Dice: saving/creating-keys/dice.md
-          - Dice and Paper: saving/creating-keys/dice-and-paper.md
-          - Dice and Computer: saving/creating-keys/dice-and-computer.md
-          - Multisig: saving/creating-keys/multisig.md
-        - Using Keys:
-          - saving/using-keys/index.md
-          - Generating Addresses: saving/using-keys/generating-addresses.md
-          - Signing Transactions: saving/using-keys/signing-transactions.md
-        - Securing Keys:
-          - saving/securing-keys/index.md
-          - Bare Metal: saving/securing-keys/bare-metal.md
-          - Mnemonic Memorization: saving/securing-keys/memorization.md
-        - Protocols:
-          - saving/protocols/index.md
-          - Basic+: saving/protocols/basic.md
-          - Ridiculous: saving/protocols/ridiculous.md
-          - Ludicrous: saving/protocols/ludicrous.md
-          - Custom: saving/protocols/custom.md
-        - Advanced:
-          - Blockchain Analytics: saving/advanced/blockchain-analytics.md
-          - Keyless Vault and Covenant: saving/advanced/keyless-vaults.md
+        - Understanding the Terms: saving/understanding-terms.md
+        - Level-1 Getting Started: 
+          - saving/level-1/index.md
+        - Level-2 Your Keys:
+          - saving/level-2/index.md
+        - Level-3 Dedicated Hardware: 
+          - saving/level-3/index.md
+        - Level-4 Full Node Plus:
+          - saving/level-4/index.md
+        - Level-5 Airgap Quarantine: 
+          - saving/level-5/index.md
+        - Level-6 Metal Backup: 
+          - saving/level-6/index.md
+        - Wealth Preservation: 
+          - saving/wealth/index.md
+          - Full Privacy: saving/wealth/full-privacy.md
+          - Inheritance Planning: saving/wealth/inheritance.md
+          - Physical Security: saving/wealth/physical-security.md
+        - Level-7 Protocols and Multisig: 
+          - saving/level-7/index.md
+        - Level-8 DMZs:
+          - saving/level-8/index.md
+        - Level-9 Fault Tolerance:
+          - saving/level-9/index.md
+        - Level-10 Failsafes: 
+          - saving/level-10/index.md
+        - Level-11 Countermeasures:
+          - saving/level-11/index.md
+        - Level-12 Off-grid Operations:
+          - saving/level-12/index.md
+        - Appendix:
+          - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
+          - "A: Using Dice": saving/appendix/dice.md
+          - "A: Dice and Paper": saving/appendix/dice-and-paper.md
+          - "A: Dice and Computer": saving/appendix/dice-and-computer.md
+          - "A: Custom Protocol": saving/appendix/custom.md
+          - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Commerce:
         - commerce/index.md
         - Exchanges: 
