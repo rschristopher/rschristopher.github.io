@@ -4,9 +4,9 @@ Son of God
 Have mercy on me, a sinner
 -->
 
-# Imperfect Metaphors
+# Understanding the Terms
 
-> Bitcoin is unlike *anything* that has *ever* existed.
+!!! warning "Bitcoin is unlike *anything* that has *ever* existed."
 
 Bitcoin is unlike any money the world has seen.
  It is unlike any technology or network --
