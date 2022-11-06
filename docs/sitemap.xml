@@ -221,107 +221,137 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/airgapped-computer/</loc>
+         <loc>https://rschristopher.github.io/saving/understanding-terms/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/hardware-wallets/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/airgapped-computer/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/imperfect-metaphors/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/basic/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/advanced/blockchain-analytics/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/custom/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/advanced/keyless-vaults/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/dice-and-computer/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/creating-keys/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/dice-and-paper/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/creating-keys/dice-and-computer/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/dice/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/creating-keys/dice-and-paper/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/keyless-vaults/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/creating-keys/dice/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/ludicrous/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/creating-keys/multisig/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/mnemonic/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/protocols/</loc>
+         <loc>https://rschristopher.github.io/saving/appendix/ridiculous/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/protocols/basic/</loc>
+         <loc>https://rschristopher.github.io/saving/level-1/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/protocols/custom/</loc>
+         <loc>https://rschristopher.github.io/saving/level-10/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/protocols/ludicrous/</loc>
+         <loc>https://rschristopher.github.io/saving/level-11/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/protocols/ridiculous/</loc>
+         <loc>https://rschristopher.github.io/saving/level-12/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/securing-keys/</loc>
+         <loc>https://rschristopher.github.io/saving/level-2/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/securing-keys/bare-metal/</loc>
+         <loc>https://rschristopher.github.io/saving/level-3/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/securing-keys/memorization/</loc>
+         <loc>https://rschristopher.github.io/saving/level-4/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/using-keys/</loc>
+         <loc>https://rschristopher.github.io/saving/level-5/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/using-keys/generating-addresses/</loc>
+         <loc>https://rschristopher.github.io/saving/level-6/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rschristopher.github.io/saving/using-keys/signing-transactions/</loc>
+         <loc>https://rschristopher.github.io/saving/level-7/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/saving/level-8/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/saving/level-9/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/saving/wealth/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/saving/wealth/full-privacy/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/saving/wealth/inheritance/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/saving/wealth/physical-security/</loc>
          <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
