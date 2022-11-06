@@ -102,6 +102,35 @@ The following draft protocols incrementally build
 
 
 
+## Levels of Bitcoin Savings Security
+
+| Level       | Description                                                                 |
+| :---------: | :-------------------------------------------------------------------------- |
+| 0           | Nocoiner, no security risk with your Bitcoin if you don't have any Bitcoin  |
+| 1           | Use an exchange account (such as river.com)                                 |
+| 2           | hot wallet using electrum or sparrow                                        |
+| 3           | coldcard or trezor or DIY signer                                            |
+| 4           | run your own node and txn-manager (Tails OS)                                |
+| 5           | airgap quarantine, dice-rolled entropy seed creation                        |
+| 6           | metal backup                                                                |
+
+You can now securely save large sums of wealth,
+ and have a safe foundation for more advanced topics:
+ full privacy (nokyc, coinjoin), inheritance planning, physical security
+
+We can also continue to advanced security maturity levels.
+
+| Level       | Description                                                                 |
+| :---------: | :-------------------------------------------------------------------------- |
+| 7           | multi-signature                                                             |
+| 8           | DMZ with full-node and txn-manager                                          |
+| 9           | no single-point-of-compromise                                               |
+| 10          | multiple redundant fault tolerance                                          |
+| 11          | electronic countermeasures                                                  |
+| 12          | off-grid operations (redundant on-chain drop-points)                        |
+
+
+
 
 
 
