@@ -75,7 +75,9 @@ Here is an overview of the levels along with
 * [Level 5: Airgap Quarantine](level-5/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) with greater security than any bank ever could.
 * [Level 6: Metal Backup](level-6/) -- store Bitcoin (as much as your house is worth) with metal backups that can survive a house fire and/or natural disaster.
 
-*pause* for [Wealth Preservation](wealth/),
+*Pause* here for
+ [Wealth Preservation](wealth/)
+ discussions,
  because at this level you should also
  be thinking about other critical topics:
  *privacy, inheritance planning,
