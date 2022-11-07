@@ -74,7 +74,21 @@ Here is an overview of the levels along with
 * [Level 4: Full Node Plus](level-4/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) and run your own node with a dedicated online device for managing transactions.
 * [Level 5: Airgap Quarantine](level-5/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) with greater security than any bank ever could.
 * [Level 6: Metal Backup](level-6/) -- store Bitcoin (as much as your house is worth) with metal backups that can survive a house fire and/or natural disaster.
-* *pause* for [Wealth Preservation](wealth/), because at this level, you should also be thinking about other critical topics: *privacy, inheritance planning, and physical security*. Level 7 and above are use-case specific and not as universally relevant as the prior levels. At this point you can already store any amount of wealth (even extreme amounts of wealth) with more security than any institutional custody system could ever offer.
+
+*pause* for [Wealth Preservation](wealth/),
+ because at this level you should also
+ be thinking about other critical topics:
+ *privacy, inheritance planning,
+ and physical security*.
+Level 7 and above are use-case specific
+ and not as universally relevant as
+ the prior levels. 
+At this point you can already store any
+ amount of wealth
+ (even extreme amounts of wealth)
+ with more security than any
+ institutional custody system could ever offer.
+
 * [Level 7: Protocols + Multisig](level-7/) -- protocols to manage the complexity of self-sovereign savings with multi-signature keys.
 * [Level 8: DMZs](level-8/) -- keep your full-node and transaction-manager completely safe from untrusted devices on your network.
 * [Level 9: Fault Tolerance](level-9/) -- remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
