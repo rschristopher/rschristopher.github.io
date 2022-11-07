@@ -77,7 +77,7 @@ Here is an overview of the levels along with
 * *pause* for [Wealth Preservation](wealth/), because at this level, you should also be thinking about other critical topics: *privacy, inheritance planning, and physical security*. Level 7 and above are use-case specific and not as universally relevant as the prior levels. At this point you can already store any amount of wealth (even extreme amounts of wealth) with more security than any institutional custody system could ever offer.
 * [Level 7: Protocols + Multisig](level-7/) -- protocols to manage the complexity of self-sovereign savings with multi-signature keys.
 * [Level 8: DMZs](level-8/) -- keep your full-node and transaction-manager completely safe from untrusted devices on your network.
-* [Level 9: Fault Tolerance](level-9/) -- remove all "single points of compromise", in other words, an attacker who compromised a signing devices would have no access to your wealth.
+* [Level 9: Fault Tolerance](level-9/) -- remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
 * [Level 10: Fail-safes](level-10/) -- require fully redundant networks with explicit verification of cryptographic signatures.
 * [Level 11: Countermeasures](level-11/) -- electronic countermeasures to begin to safeguard against "NSA-level" threats.
 * [Level 12: Off-grid Operations](level-12/) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).

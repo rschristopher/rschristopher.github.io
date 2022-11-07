@@ -14,7 +14,7 @@ Bitcoin is unlike any money the world has seen.
 As a result, any attempt at explaining Bitcoin
  will rely either on imperfect metaphors, or novel technical terms.
 For example, the word *custody* is a misnomer,
- an anachronism from a simpler time when banks would *custody* your money.
+ an anachronism from a simpler time when banks would *custody* your gold.
 
 In reality, there are no actual coins to custody.
 Bitcoin is pure information; 
