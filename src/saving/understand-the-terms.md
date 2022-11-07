@@ -4,7 +4,7 @@ Son of God
 Have mercy on me, a sinner
 -->
 
-# Understanding the Terms
+# Understand the Terms
 
 !!! warning "Bitcoin is unlike *anything* that has *ever* existed."
 

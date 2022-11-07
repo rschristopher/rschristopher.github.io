@@ -1,4 +1,4 @@
-# Level-2 Your Keys
+# Level 2: Your Keys
 
 !!! warning "work in progress"
 

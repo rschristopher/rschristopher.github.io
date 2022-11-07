@@ -1,4 +1,4 @@
-# Level-7 Protocols
+# Level 7: Protocols + Multisig
 
 !!! warning "work in progress"
 

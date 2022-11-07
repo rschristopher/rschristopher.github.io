@@ -1,4 +1,4 @@
-# Appendix: Custom Protocol
+# Appendix: Custom Protocols
 
 !!! warning "work in progress"
 

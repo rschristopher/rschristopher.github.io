@@ -1,4 +1,4 @@
-# Level-1 Getting Started
+# Level 1: Getting Started
 
 
 !!! warning "work in progress"

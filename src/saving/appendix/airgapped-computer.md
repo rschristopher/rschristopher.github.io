@@ -92,7 +92,7 @@ While any device can be used,
     1. smartphone-like device, or mini-laptop
     1. no built-in storage, MicroSD only (for the OS and software)
     1. open source hardware (with firmware verification and supply chain safeguards)
-    1. completely air-gapped (no fan, no speaker, no mirophone, QR-code reader only)
+    1. completely air-gapped (no fan, no speaker, no microphone, QR-code reader only)
     1. read-only filesystem by default (option for persisting an encrypted volume)
     1. should run Linux
     1. should run electrum, python, and a terminal

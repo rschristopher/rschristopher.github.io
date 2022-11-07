@@ -1,4 +1,4 @@
-# Level-3 Dedicated Hardware
+# Level 3: Dedicated Hardware
 
 !!! warning "work in progress"
 

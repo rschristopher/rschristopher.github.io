@@ -1,4 +1,4 @@
-# Level-8 DMZs
+# Level 8: DMZs
 
 
 !!! warning "work in progress"

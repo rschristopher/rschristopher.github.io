@@ -1,4 +1,4 @@
-# Level-4 Full Node Plus
+# Level 4: Full Node Plus
 
 
 !!! warning "work in progress"

@@ -1,4 +1,4 @@
-# Level-5 Airgap Quarantine
+# Level 5: Airgap Quarantine
 
 
 !!! warning "work in progress"
