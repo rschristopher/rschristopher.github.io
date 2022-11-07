@@ -39,7 +39,7 @@ And yet, due to the
 The truth is, most all Bitcoiners started exactly this same way,
  and made many mistakes along the way.
 
-Borrowing from the very excellent 
+Inspired by the very excellent 
  [Zero Trust System](https://armantheparman.com/bitcoin-storage-get-better/)
  from 
  [Parman](https://armantheparman.com/about-contact/),
