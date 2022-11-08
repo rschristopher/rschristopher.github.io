@@ -68,12 +68,12 @@ Here is an overview of the levels along with
  how much a reasonable person should
  feel comfortable with at each level).
 
-* [Level 1: Getting Started](level-1/) -- store Bitcoin on a reputable exchange (a small amount that you can risk losing).
-* [Level 2: Your Keys](level-2/) -- store Bitcoin (still only a small amount that you can risk losing) on a home computer or mobile device.
-* [Level 3: Dedicated Hardware](level-3/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) on a dedicated offline device.
-* [Level 4: Full Node Plus](level-4/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) and run your own node with a dedicated online device for managing transactions.
-* [Level 5: Airgap Quarantine](level-5/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) with greater security than any bank ever could.
-* [Level 6: Metal Backup](level-6/) -- store Bitcoin (as much as your house is worth) with metal backups that can survive a house fire and/or natural disaster.
+* [Level 1: Getting Started](level-1/) -- Save Bitcoin on a reputable exchange (a small amount that you can risk losing).
+* [Level 2: Your Keys](level-2/) -- Save Bitcoin on a home computer + smartphone (a small amount that you can risk losing).
+* [Level 3: Dedicated Hardware](level-3/) -- Save Bitcoin on a dedicated offline device (as much as you'd be comfortable hiding under your mattress).
+* [Level 4: Full Node Plus](level-4/) -- Save Bitcoin and run your own node (as much as you'd be comfortable hiding under your mattress).
+* [Level 5: Airgap Quarantine](level-5/) -- Save Bitcoin with greater security than any bank ever could (as much as you'd be comfortable hiding under your mattress).
+* [Level 6: Metal Backup](level-6/) -- Save Bitcoin with metal backups that can survive a house fire and/or natural disaster (as much as your house is worth).
 
 *Pause* here for
  [Wealth Preservation](wealth/)
@@ -91,11 +91,11 @@ At this point you can already store any
  with more security than any
  institutional custody system could ever offer.
 
-* [Level 7: Protocols + Multisig](level-7/) -- protocols to manage the complexity of self-sovereign savings with multi-signature keys.
-* [Level 8: DMZs](level-8/) -- keep your full-node and transaction-manager completely safe from untrusted devices on your network.
-* [Level 9: Fault Tolerance](level-9/) -- remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
-* [Level 10: Fail-safes](level-10/) -- require fully redundant networks with explicit verification of cryptographic signatures.
-* [Level 11: Countermeasures](level-11/) -- electronic countermeasures to begin to safeguard against "NSA-level" threats.
+* [Level 7: Protocols + Multisig](level-7/) -- Protocols to manage the complexity of multi-signature keys.
+* [Level 8: DMZs](level-8/) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
+* [Level 9: Fault Tolerance](level-9/) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
+* [Level 10: Fail-safes](level-10/) -- Require fully redundant networks with explicit verification of cryptographic signatures.
+* [Level 11: Countermeasures](level-11/) -- Electronic countermeasures to safeguard against "NSA-level" threats.
 * [Level 12: Off-grid Operations](level-12/) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).
 
 

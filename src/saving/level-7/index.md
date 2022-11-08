@@ -1,6 +1,12 @@
 # Level 7: Protocols + Multisig
 
-!!! warning "work in progress"
+
+!!! info "Protocols to manage the complexity of multi-signature keys."
+
+<figure markdown>
+![Level 7](/images/levels-Level-7.drawio.png)
+  <figcaption>Level 7</figcaption>
+</figure>
 
 
 <!--

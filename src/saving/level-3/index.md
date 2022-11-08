@@ -1,6 +1,12 @@
 # Level 3: Dedicated Hardware
 
-!!! warning "work in progress"
+!!! info "Save Bitcoin on a dedicated offline device (as much as you'd be comfortable hiding under your mattress)."
+
+<figure markdown>
+![Level 3](/images/levels-Level-3.drawio.png)
+  <figcaption>Level 3</figcaption>
+</figure>
+
 
 <!--
 

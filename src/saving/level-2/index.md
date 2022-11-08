@@ -1,6 +1,11 @@
 # Level 2: Your Keys
 
-!!! warning "work in progress"
+!!! info "Save Bitcoin on a home computer + smartphone (a small amount that you can risk losing)."
+
+<figure markdown>
+![Level 2](/images/levels-Level-2.drawio.png)
+  <figcaption>Level 2</figcaption>
+</figure>
 
 <!--
 
