@@ -68,7 +68,7 @@ Here is an overview of the levels along with
  how much a reasonable person should
  feel comfortable with at each level).
 
-* [Level 1: Getting Started](level-1/) -- store Bitcoin (only a small amounts that you can risk losing) on a reputable exchange.
+* [Level 1: Getting Started](level-1/) -- store Bitcoin on a reputable exchange (a small amount that you can risk losing).
 * [Level 2: Your Keys](level-2/) -- store Bitcoin (still only a small amount that you can risk losing) on a home computer or mobile device.
 * [Level 3: Dedicated Hardware](level-3/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) on a dedicated offline device.
 * [Level 4: Full Node Plus](level-4/) -- store Bitcoin (as much as you'd be comfortable hiding under your mattress) and run your own node with a dedicated online device for managing transactions.
