@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 4](/images/levels-Level-4.drawio.png)
-  <figcaption>Level 4</figcaption>
+  <figcaption>Level 4 -- introducing a Full Bitcoin Node</figcaption>
 </figure>
 
 

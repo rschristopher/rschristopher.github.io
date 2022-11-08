@@ -5,7 +5,7 @@
 
 <figure markdown>
 ![Level 8](/images/levels-Level-8.drawio.png)
-  <figcaption>Level 8</figcaption>
+  <figcaption>Level 8 -- network segmentation and DMZs</figcaption>
 </figure>
 
 

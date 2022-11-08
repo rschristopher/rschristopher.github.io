@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 10](/images/levels-Level-10.drawio.png)
-  <figcaption>Level 10</figcaption>
+  <figcaption>Level 10 -- redundant networks</figcaption>
 </figure>
 
 

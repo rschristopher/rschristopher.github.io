@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 1](/images/levels-Level-1.drawio.png)
-  <figcaption>Level 1</figcaption>
+  <figcaption>Level 1 -- typical home network with devices that can reach a Bitcoin exchange website</figcaption>
 </figure>
 
 The only way to get started 

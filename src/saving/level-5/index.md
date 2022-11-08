@@ -5,7 +5,7 @@
 
 <figure markdown>
 ![Level 5](/images/levels-Level-5.drawio.png)
-  <figcaption>Level 5</figcaption>
+  <figcaption>Level 5 -- airgap quarantine</figcaption>
 </figure>
 
 

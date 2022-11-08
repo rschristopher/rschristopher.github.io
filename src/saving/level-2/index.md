@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 2](/images/levels-Level-2.drawio.png)
-  <figcaption>Level 2</figcaption>
+  <figcaption>Level 2 -- typical home network and a USB-stick</figcaption>
 </figure>
 
 <!--

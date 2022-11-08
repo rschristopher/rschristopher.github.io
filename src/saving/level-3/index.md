@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 3](/images/levels-Level-3.drawio.png)
-  <figcaption>Level 3</figcaption>
+  <figcaption>Level 3 -- typical home network with accessible cold storage</figcaption>
 </figure>
 
 

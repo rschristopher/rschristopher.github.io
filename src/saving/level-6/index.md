@@ -6,6 +6,6 @@
 
 <figure markdown>
 ![Level 6](/images/levels-Level-6.drawio.png)
-  <figcaption>Level 6</figcaption>
+  <figcaption>Level 6 -- metal seed backups</figcaption>
 </figure>
 

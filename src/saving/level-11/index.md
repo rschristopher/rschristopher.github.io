@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 11](/images/levels-Level-11.drawio.png)
-  <figcaption>Level 11</figcaption>
+  <figcaption>Level 11 -- electronic countermeasures</figcaption>
 </figure>
 
 
