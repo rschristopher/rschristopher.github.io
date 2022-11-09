@@ -4,7 +4,7 @@
 
 <figure markdown>
 ![Level 2](/images/levels-Level-2.drawio.png)
-  <figcaption>Level 2 -- typical home network and a USB-stick</figcaption>
+  <figcaption>Level 2 -- typical home network but with Tails OS on a USB-stick</figcaption>
 </figure>
 
 <!--
@@ -12,11 +12,6 @@
 ...
 Command Line Overview
 
-
-BIP-39 Seed Words
-https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
-
-https://github.com/hatgit/BIP39-wordlist-printable-en/blob/master/BIP39-en-printable.txt
 
 
 

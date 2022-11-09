@@ -55,7 +55,9 @@ Here are some alternative ways
 * Bitcoin ATM
 * Azteco Dealer
 
-There are other options, and depending on your circumstances skipping an online Bitcoin exchange may be best for you.
+There are many alternatives, and ultimately 
+ it depends on your circumstances whether
+ an exchange is appropriate for you.
 
 
 ## Find a Reputable Exchange
@@ -65,7 +67,7 @@ Experienced Bitcoiners are not at all surprised when overleveraged "crypto" comp
 Here are some criteria to look for when evaluating an exchange:
 
 * **Withdrawal support** -- this is the most critical requirement; avoid any exchange that does not allow you to transfer your Bitcoin to your own self custody. Otherwise you have no Bitcoin, only an IOU. And importantly, selling Bitcoin for fiat (as a means to withdraw) is a taxable event in the US.
-* **Bitcoin-only** -- if they offer other "cryptocurrencies", full stop, go to a different platform. This may seem extreme, but there are valid security concerns. The technology behind Bitcoin is non-trivial, and even a Bitcoin-only exchange will have serious challenges to overcome when building a proper custody and trading system. Exchanges that list Bitcoin as "one of many cryptocurrencies" are most likely scams and cannot offer even the most base-level of security and identity protection that you will need.
+* **Bitcoin-only** -- if they offer other "cryptocurrencies", full stop, go to a different platform. This may seem extreme, but there are valid security concerns. The technology behind Bitcoin is non-trivial, and even a Bitcoin-only exchange will have serious challenges to overcome when building a proper custody and trading system. Exchanges that list Bitcoin as "one of many cryptocurrencies" are most likely scams and cannot offer the base level of security and identity protection that you will need.
 * **Future-proof** -- a competent Bitcoin-focused company will build on top of Bitcoin: lightning integration, mining services, or other related products. Ultimately, a fiat-to-Bitcoin exchange will not lead to long-term profit, and any exchange not looking to the future should be avoided (as their short-term profits will likely be at your expense).
 * **No scammy yield products** -- if they promise some % yield through some unspecified source, go to a different platform. This is not only a security concern but it's also very likely a future bankruptcy ending in you losing your wealth.
 
