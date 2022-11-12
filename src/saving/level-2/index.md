@@ -15,7 +15,7 @@ In other words, you'll want to control the keys
  that can access your Bitcoin.
 For this, you'll want a 
  [hot wallet](../understand-the-terms/#hot-wallet)
- either on a home computer or smartphone.
+ on a home computer or smartphone.
 
 !!! warning "no paid or *influenced* content -- all views are from personal experience"
 

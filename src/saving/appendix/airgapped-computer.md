@@ -4,7 +4,7 @@
 
 
 Even if you use
- [Dice and Paper](../creating-keys/dice-and-paper.md)
+ [Dice and Paper](dice.md#dice-and-paper)
  to generate a seed phrase,
  you will need a computer to manage your private keys
  (which are generated from a seed phrase).
