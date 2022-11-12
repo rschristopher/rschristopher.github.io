@@ -1,145 +1,159 @@
 # Level 2: Your Keys
 
-!!! info "Save Bitcoin on a home computer + smartphone (a small amount that you can risk losing)."
+!!! info "Save Bitcoin on a home computer or smartphone (a small amount that you can risk losing)."
 
 <figure markdown>
 ![Level 2](/images/levels-Level-2.drawio.png)
   <figcaption>Level 2 -- typical home network but with Tails OS on a USB-stick</figcaption>
 </figure>
 
-<!--
 
-...
-Command Line Overview
+Once you have some Bitcoin (through an exchange or otherwise -- see
+ [level-1](../level-1))
+ you'll want to transfer it to your own custody.
+In other words, you'll want to control the keys
+ that can access your Bitcoin.
+For this, you'll want a 
+ [hot wallet](../understand-the-terms/#hot-wallet)
+ either on a home computer or smartphone.
 
-
-
-
-https://iancoleman.io/bip39/
-
-
-Entropy 
-https://www.fourmilab.ch/random/
-
-
-https://armantheparman.com/dicev1/
-https://bitcoinmagazine.com/culture/diy-bitcoin-private-key-project
+!!! warning "no paid or *influenced* content -- all views are from personal experience"
 
 
 
 
 
+## Smartphone
+
+A hot-wallet on your smartphone is definitely one of the easiest
+ ways to manage your Bitcoin.
+However it is only recommended for small amounts,
+ like the cash you'd keep in your wallet.
+
+[![bffbtc.org](https://bffbtc.org/wp-content/uploads/2022/09/BFF-EN-Bitcoin-flyer-page1.jpg)](https://bffbtc.org/flyer/)
+
+
+### Advantages 
+
+* full control of your keys
+* portability -- it's with you everywhere
+
+
+### Disadvantages
+
+* privacy concerns
+* security concerns
+* lockin concerns
+
+
+### Reputable Apps 
+
+* [Blue Wallet](https://bluewallet.io/)
+* [Zeus](https://zeusln.app/)
+* [Electrum Mobile](https://play.google.com/store/apps/details?id=org.electrum.electrum&pli=1)
 
 
 
 
 
- [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
+
+## Desktop
+
+Desktop apps can give you a more comprehensive set of features and are overall fantastic for learning.
 
 
+### Advantages 
 
-The best way to understand this is through examples,
- so let's start with an example seed phrase.
-
-!!! example "Example Seed Phrase"
-
-    ```
-    primary fetch primary prefer primary fetch primary fiber fish cause adult fee
-    ```
-
-This seed phrase can generate a root key, which can generate
- multiple accounts, each account with an unlimited number of
- addresses and key pairs (public and private).
-The accounts and keys can be referenced by a
- [derivation path ](https://river.com/learn/terms/d/derivation-path/).
-
-???+ example "m/0'/0'"
-    This is the
-    [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
-    path to the first account, which will give us the extended private key.
-    This key can be used to generate any of the child keys and addresses for this account.
-
-    ```
-    xprv9xYcGh8prgvDkcydvSeV6xEZVZ4t47xy46VzdsJGVFN8YvwKPF51u9azfREPrQyLyV8HdjDDAzaMkKcRsdfAGQ2diobuW1ZkBrGXXqze5CQ
-    ```
-
-    Additionally, we can derive the extended public key, also known as a Master Public Key (MPK).
-
-    ```
-    xpub6BXxgCfih4UX1BnqD5bhJVMD3nnTUYWwC9kuFgUH11bmqAPhjhxFJWrvBnmh5QexRFkCxqFTS1AHiPhGeEp7HKoW1d85wTyEHSeJdZouJQJ
-    ```
-
-If you wanted to derive the next two accounts, you would use `m/0'/1'` and `m/0'/2'`.
-Importantly, only the root key from the seed phrase can generate these accounts.
-If all you had was one of the extended private keys, you could only use that within
- that account. 
-And likewise, if all you had was the extended public key,
- you could only use that to generate addresses and public keys within
- that account.
-
-Additionally, you can retrieve specific addresses and key pairs for any of these accounts.
-For example, here is the first address and key pair for account number 2.
-
-???+ example "m/0'/2'/0'"
-    Receive Address
-    ```
-    1N1QRK5Ru3gJ7ue3Xv277cMUMdWePbehsc
-    ```
-
-    Public Key
-    ```
-    02279dd8f9c77ac86499fc05cebb3c81763e20f46ad3f9731e87992b512fe2e628
-    ```
-
-    Private Key
-    ```
-    L1yPKTZ6Rw2ge7utKVJrf8fgx7pm6kBAFEJAUmw63hFz1uWPaEeR
-    ```
+* full control of your keys
 
 
-The format of the receive addresses can vary, e.g.,
- a native 
- [Segwit](https://river.com/learn/terms/p/p2wpkh/)
- address and derivation path look like the following,
+### Disadvantages
 
-???+ example "m/84'/0'/3'/0/0"
-    Receive Address
-    ```
-    bc1q3ctchdrxdt4ydljcfp4y0s0a3w8ut07j22f8ty
-    ```
+* privacy concerns
+* security concerns
+* lockin concerns
+
+
+### Reputable Apps 
+
+There are the mobile hot-wallet apps I would recommend:
+
+* [Sparrow](https://www.sparrowwallet.com/)
+* [Specter](https://specter.solutions/)
+* [Electrum](https://electrum.org/#home)
 
 
 
 
-???+ info "Bitcoin Improvement Proposals"
-    In addition to
-     [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
-     there are other related BIPs, e.g.,
-    
-     * [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), derivation paths for 
-    [P2PKH](https://river.com/learn/terms/p/p2pkh/), e.g., `m/44'/0'/0'/0`
-     * [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki), derivation paths for 
-    [P2SH-P2WPKH](https://river.com/learn/terms/b/bip-49-derivation-paths-for-wrapped-segwit/), e.g., `m/49'/0'/0'/0`
-     * [BIP-84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki), derivation paths for
-    [P2WPKH](https://river.com/learn/terms/b/bip-84-derivation-paths-for-native-segwit/), e.g., `m/84'/0'/0'/0`
-    
-    And also
-     [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
-     which standardized the word list used in seed phrases.
+## Tails and Electrum
+
+If you have a spare USB thumb drive and are looking
+ for the quickest and easiest way to maximize
+ privacy and security before moving on to higher levels,
+ then I'd highly recommend
+ going with 
+ [Tails OS](https://tails.boum.org/)
+ which comes with Electrum.
+This solves most of the disadvantages of managing
+ keys on a smartphone or desktop client.
+With this approach, you get a secured OS from
+ a bootable USB drive that leaves no trace
+ on the machine you were running it on.
+
+### Install Tails
+
+See the official [Install Tails](https://tails.boum.org/install/index.en.html) guide.
+
+Once you boot with the Tails USB drive you will have an OS
+ centered around maintaining your privacy, and most importantly,
+ there is no persisted data, no cookies, not even persisted settings.
+Every time you boot Tails it's a fresh OS and it has no memeory
+ of what happened before.
+Internet traffic is over Tor making it extremely difficult
+ to track.
+
+There is an optional persistent volume that you can use
+ to save application data to the USB drive itself.
+What we'll do is enable this *only* for Electrum so that it can
+ persist your keys. 
 
 
+### Enable Persistence for Electrum
 
-Electrum ...
+Once you've booted Tails, go to *Applications* and select
+ *Configure persistent volume*
 
-https://learnmeabitcoin.com/beginners/private_keys
+![tail-select-persist](/images/tails-select-persist.png)
+
+This will open the Persistence wizard, you'll want to scroll
+ through the apps and select *Electrum*
+
+![tails-config-persist](/images/tails-config-persist.png)
+
+You can set a password for this persistent volume, 
+ and you will need to reboot.
+After a reboot, you will be given an option to
+ use the persistent volume -- or you can still
+ use Tails without it, in its pure amnesic state.
+If you do use the persistent volume then you will
+ be able to run Electrum with any saved wallets
+ or transaction files.
+
+From here you can run Electrum as normal,
+ generate wallets, send and receive Bitcoin, etc.
+
+![tails-electrum](/images/tails-electrum.png)
 
 
-https://river.com/learn/terms/z/zpub-extended-public-key/
+### Advantages 
 
-https://river.com/learn/terms/x/xpub-extended-public-key/
+* full control of your keys
+* secure -- more secure than any other level-2 solution
+* most bang for the buck -- you'll have equivalent security to most hardware wallets and likely much more privacy
 
 
-https://bitcointalk.org/index.php?topic=5213741.0
+### Disadvantages
+
+* long-term storage concerns -- this approach may be secure enough for your needs, however a sensible backup of your seed phrases (preferably in metal) is highly recommended before you consider using this for larger amounts of Bitcoin
 
 
--->

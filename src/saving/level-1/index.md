@@ -55,9 +55,11 @@ Here are some alternative ways
 * Bitcoin ATM
 * Azteco Dealer
 
-There are many alternatives, and ultimately 
+There are many 
+ [alternatives](https://sovrnbitcoiner.com/15-methods-to-aquire-non-kyc-bitcoin/),
+ and ultimately 
  it depends on your circumstances whether
- an exchange is appropriate for you.
+ an online exchange is appropriate for you.
 
 
 ## Find a Reputable Exchange
@@ -74,7 +76,7 @@ Here are some criteria to look for when evaluating an exchange:
 
 ## Reputable Exchanges
 
-!!! info "no paid or *influenced* content -- all views are from personal experience"
+!!! warning "no paid or *influenced* content -- all views are from personal experience"
 
 There are only *two* exchanges I would recommend:
 
