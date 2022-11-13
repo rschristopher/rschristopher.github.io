@@ -11,11 +11,20 @@
 Once you have some Bitcoin (through an exchange or otherwise -- see
  [level-1](../level-1))
  you'll want to transfer it to your own custody.
-In other words, you'll want to control the keys
+In other words, you'll want control of the keys
  that can access your Bitcoin.
-For this, you'll want a 
+We'll start with a 
  [hot wallet](../understand-the-terms/#hot-wallet)
  on a home computer or smartphone.
+
+However, in order to maximize security
+ and privacy, you can leverage
+ [Tails OS](https://tails.boum.org/)
+ with
+ [Electrum](https://electrum.org/#home)
+ on a bootable thumb drive.
+
+
 
 !!! warning "no paid or *influenced* content -- all views are from personal experience"
 
@@ -26,9 +35,9 @@ For this, you'll want a
 ## Smartphone
 
 A hot-wallet on your smartphone is definitely one of the easiest
- ways to manage your Bitcoin.
+ ways to manage your own Bitcoin.
 However it is only recommended for small amounts,
- like the cash you'd keep in your wallet.
+ like cash you'd keep in your pocket.
 
 [![bffbtc.org](https://bffbtc.org/wp-content/uploads/2022/09/BFF-EN-Bitcoin-flyer-page1.jpg)](https://bffbtc.org/flyer/)
 
@@ -41,9 +50,9 @@ However it is only recommended for small amounts,
 
 ### Disadvantages
 
-* privacy concerns
-* security concerns
-* lockin concerns
+* privacy concerns -- whether android or iOS, all of your behavior and activity will be tracked and sold to 3rd parties.
+* security concerns -- while you may trust Apple or Google to never have a data breach and to secure your data, this clearly poses a significant risk.
+* lockin concerns -- many apps do not allow seed phrases to be imported or exported -- do not use any app with this kind of lock-in.
 
 
 ### Reputable Apps 
@@ -59,7 +68,7 @@ However it is only recommended for small amounts,
 
 ## Desktop
 
-Desktop apps can give you a more comprehensive set of features and are overall fantastic for learning.
+Desktop apps can provide a more comprehensive set of features and are overall fantastic for learning.
 
 
 ### Advantages 
@@ -69,14 +78,12 @@ Desktop apps can give you a more comprehensive set of features and are overall f
 
 ### Disadvantages
 
-* privacy concerns
-* security concerns
-* lockin concerns
+* privacy concerns -- your Bitcoin will only be as private as the computer that you're using.
+* security concerns -- your Bitcoin will only be as secure as the computer that you're using.
+* lockin concerns -- strictly avoid any apps that do not allow import and export of a seed phrase. In fact, it's highly recommended to create test wallets and attempt to import onto multiple wallet apps and verify that the receive addresses are identical. **A Bitcoin wallet should never be exclusive to a given application.*
 
 
-### Reputable Apps 
-
-There are the mobile hot-wallet apps I would recommend:
+### Reputable Apps  
 
 * [Sparrow](https://www.sparrowwallet.com/)
 * [Specter](https://specter.solutions/)
