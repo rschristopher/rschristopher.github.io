@@ -112,7 +112,7 @@ With this approach, you get a secured OS from
 See the official [Install Tails](https://tails.boum.org/install/index.en.html) guide.
 
 Once you boot with the Tails USB drive you will have an OS
- centered around maintaining your privacy, and most importantly,
+ focused on maintaining your privacy, and most importantly,
  there is no persisted data, no cookies, not even persisted settings.
 Every time you boot Tails it's a fresh OS and it has no memeory
  of what happened before.
