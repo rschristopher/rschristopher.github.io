@@ -80,7 +80,7 @@ Desktop apps can provide a more comprehensive set of features and are overall fa
 
 * privacy concerns -- your Bitcoin will only be as private as the computer that you're using.
 * security concerns -- your Bitcoin will only be as secure as the computer that you're using.
-* lockin concerns -- strictly avoid any apps that do not allow import and export of a seed phrase. In fact, it's highly recommended to create test wallets and attempt to import onto multiple wallet apps and verify that the receive addresses are identical. **A Bitcoin wallet should never be exclusive to a given application.*
+* lockin concerns -- strictly avoid any apps that do not allow import and export of a seed phrase. In fact, it's highly recommended to create test wallets and attempt to import onto other wallet apps and verify that the receive addresses are identical. **A Bitcoin wallet should never be exclusive to a given application.**
 
 
 ### Reputable Apps  
