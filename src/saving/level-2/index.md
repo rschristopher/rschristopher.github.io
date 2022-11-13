@@ -155,6 +155,7 @@ From here you can run Electrum as normal,
 ### Advantages 
 
 * full control of your keys
+* privacy -- all of the privacy advantages of Tails OS, and if you're pursuing nokyc then Tails OS is definitely recommended.
 * secure -- more secure than any other level-2 solution
 * most bang for the buck -- you'll have equivalent security to most hardware wallets and likely much more privacy
 
