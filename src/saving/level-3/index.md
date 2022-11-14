@@ -7,6 +7,36 @@
   <figcaption>Level 3 -- typical home network with accessible cold storage</figcaption>
 </figure>
 
+In order to safely custody larger amounts of money,
+ you'll want to setup a dedicated signing device.
+Essentially, we will separating our private keys from the public keys.
+Private keys will be managed in an offline signing device.
+Public keys will be managed in a transaction manager.
+
+While there are many alternatives to the specific hardware
+ discussed here -- we will use
+ [coldcard](https://coldcard.com/)
+ as an example, but any signing offline signing device can be used.
+
+
+!!! warning "no paid or *influenced* content -- all views are from personal experience"
+
+
+## Honeypot
+
+
+
+
+
+## Transaction Manager
+
+
+
+
+
+## Signing Device
+
+
 
 <!--
 
