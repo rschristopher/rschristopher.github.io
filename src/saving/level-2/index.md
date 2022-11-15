@@ -1,6 +1,6 @@
 # Level 2: Your Keys
 
-!!! info "Save Bitcoin on a home computer or smartphone (a small amount that you can risk losing)."
+!!! info "Save Bitcoin using a home computer or smartphone (a small amount that you can risk losing)."
 
 <figure markdown>
 ![Level 2](/images/levels-Level-2.drawio.png)
@@ -80,7 +80,7 @@ Desktop apps can provide a more comprehensive set of features and are overall fa
 
 * privacy concerns -- your Bitcoin will only be as private as the computer that you're using.
 * security concerns -- your Bitcoin will only be as secure as the computer that you're using.
-* lockin concerns -- strictly avoid any apps that do not allow import and export of a seed phrase. In fact, it's highly recommended to create test wallets and attempt to import onto other wallet apps and verify that the receive addresses are identical. **A Bitcoin wallet should never be locked in.**
+* lockin concerns -- strictly avoid any apps that do not allow import and export of a seed phrase. In fact, it's highly recommended to create test wallets and attempt to import onto other wallet apps and verify that the receive addresses are identical. **A Bitcoin wallet should never be locked in to an app.**
 
 
 ### Reputable Apps  
@@ -162,6 +162,6 @@ From here you can run Electrum as normal,
 
 ### Disadvantages
 
-* long-term storage concerns -- this approach may be secure enough for your needs, however a sensible backup of your seed phrases (preferably in metal) is highly recommended before you consider using this for larger amounts of Bitcoin
+* long-term storage concerns -- this approach may be secure enough for your needs, however a sensible backup of your seed phrases (preferably in metal -- see [level-6](../level-6)) is highly recommended before you consider using this for larger amounts of Bitcoin
 
 

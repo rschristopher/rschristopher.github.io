@@ -1,6 +1,6 @@
 # Level 1: Getting Started
 
-!!! info "Save Bitcoin on a reputable exchange (a small amount that you can risk losing)."
+!!! info "Save Bitcoin using a reputable exchange (a small amount that you can risk losing)."
 
 <figure markdown>
 ![Level 1](/images/levels-Level-1.drawio.png)
