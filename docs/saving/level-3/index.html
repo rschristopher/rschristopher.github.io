@@ -2002,18 +2002,23 @@
 
 <h1 id="level-3-dedicated-hardware">Level 3: Dedicated Hardware<a class="headerlink" href="#level-3-dedicated-hardware" title="Permanent link">&para;</a></h1>
 <div class="admonition info">
-<p class="admonition-title">Save Bitcoin on a dedicated offline device (as much as you'd be comfortable hiding under your mattress).</p>
+<p class="admonition-title">Save Bitcoin using a dedicated offline device (as much as you'd be comfortable hiding under your mattress).</p>
 </div>
 <figure>
 <p><img alt="Level 3" src="/images/levels-Level-3.drawio.png" />
   </p>
 <figcaption>Level 3 -- typical home network with accessible cold storage</figcaption>
 </figure>
-<p>In order to save larger amounts of money,
+<p>In order to save large amounts of money,
+ and do so securely,
  you'll want to setup a dedicated signing device.
-Essentially, separatie the private keys from the public keys.
-Public keys will be managed in a transaction manager.
-Private keys will be managed in an offline signing device.</p>
+Essentially, separate the private keys from the public keys.
+Public keys will be managed in a transaction manager
+ (used to verify addresses for receiving Bitcoin,
+ checking balances,
+ and created unsigned transactions).
+Private keys will be managed in an offline signing device
+ (used only for spending Bitcoin).</p>
 <p>While there are many alternatives-- we will use
  <a href="https://coldcard.com/">coldcard</a>
  as an example, but any offline signing device can be used.</p>
@@ -2029,7 +2034,9 @@ You will still be using
  <a href="https://tails.boum.org/">Tails OS</a> on a USB drive,
  however, it's recommended to <em>also</em> install
  a Bitcoin client (such as
- <a href="https://electrum.org/#home">Electrum</a>)
+ <a href="https://electrum.org/#home">Electrum</a>
+ or
+ <a href="https://www.sparrowwallet.com/">Sparrow</a>)
  on the transaction manager directly.
 You will use this client as a
  decoy or <em>honeypot</em>.</p>
@@ -2039,8 +2046,29 @@ You will use this client as a
 <p>Similar to <a href="../level-2">level-2</a> we will use a
  bootable 
  <a href="https://tails.boum.org/">Tails OS</a> USB drive,</p>
-<p>https://coldcard.com/docs/microsd</p>
+<p>https://coldcard.com/docs/paths#dump-summary-file</p>
+<p>Create new wallet, select <code>Standard wallet</code> and then <code>Use a master key</code>,</p>
+<p><img alt="electrum-use-master-key" src="/images/electrum-use-master-key.png" /></p>
+<p>You can than <em>paste</em> or do a QR capture of the xpub you got from above.
+When you open this wallet you'll get the following warning,</p>
+<p><img alt="electrum-watch-only" src="/images/electrum-watch-only.png" /></p>
+<p>When you try to <em>send</em> from this wallet it will instead create an
+ <em>unsigned transaction</em> file, which will need to be signed by
+ the signing device (see below).</p>
 <h2 id="signing-device">Signing Device<a class="headerlink" href="#signing-device" title="Permanent link">&para;</a></h2>
+<p>Adapted from the
+ <a href="https://coldcard.com/docs/send-receive-btc#sending-bitcoin-airgapped">coldcard docs</a>,</p>
+<ol>
+<li>Connect your COLDCARD to power and enter your PIN if you haven't already done so.</li>
+<li>Select <code>Ready to Sign</code> from the main menu.</li>
+<li>The COLDCARD briefly shows Reading . . . and Validating . . . before displaying transaction details. Take every opportunity to check and double check transaction information. Make sure the address you are sending funds to is absolutely correct.</li>
+<li>If the transaction information is correct and the fee acceptable, press OK(✓). Otherwise, you can abort the transaction by pressing X.</li>
+<li>Your COLDCARD signs the transaction and saves two files to the microSD card, one ending in -signed.psbt, the other -final.txn.</li>
+<li>Press OK(✓) to return to the Main Menu.</li>
+</ol>
+<p>You can now power off the coldcard,
+ and transfer the microSD card back to the transaction manager 
+ running Tails OS.</p>
 <!--
 
 Coldcard
