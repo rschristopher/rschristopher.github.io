@@ -7,30 +7,53 @@
   <figcaption>Level 3 -- typical home network with accessible cold storage</figcaption>
 </figure>
 
-In order to safely custody larger amounts of money,
+In order to save larger amounts of money,
  you'll want to setup a dedicated signing device.
-Essentially, we will separating our private keys from the public keys.
-Private keys will be managed in an offline signing device.
+Essentially, separatie the private keys from the public keys.
 Public keys will be managed in a transaction manager.
+Private keys will be managed in an offline signing device.
 
-While there are many alternatives to the specific hardware
- discussed here -- we will use
+While there are many alternatives-- we will use
  [coldcard](https://coldcard.com/)
- as an example, but any signing offline signing device can be used.
+ as an example, but any offline signing device can be used.
 
 
-!!! warning "no paid or *influenced* content -- all views are from personal experience"
-
-
-## Honeypot
-
+!!! warning "no paid nor *influenced* content -- all views are from personal experience"
 
 
 
 
 ## Transaction Manager
 
+A transaction manager can be any device,
+ although it's recommended to use a dedicated laptop
+ that you can install a Linux flavor such as
+ [Ubuntu](https://ubuntu.com/).
+You will still be using 
+ [Tails OS](https://tails.boum.org/) on a USB drive,
+ however, it's recommended to *also* install
+ a Bitcoin client (such as
+ [Electrum](https://electrum.org/#home))
+ on the transaction manager directly.
+You will use this client as a
+ decoy or *honeypot*.
+ 
 
+
+### Honeypot
+
+A recommended approach
+
+
+
+
+### Tails OS (xPub only)
+
+Similar to [level-2](../level-2) we will use a
+ bootable 
+ [Tails OS](https://tails.boum.org/) USB drive,
+
+https://coldcard.com/docs/microsd
 
 
 

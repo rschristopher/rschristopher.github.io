@@ -26,7 +26,7 @@ However, in order to maximize security
 
 
 
-!!! warning "no paid or *influenced* content -- all views are from personal experience"
+!!! warning "no paid nor *influenced* content -- all views are from personal experience"
 
 
 

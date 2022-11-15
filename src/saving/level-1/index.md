@@ -76,7 +76,7 @@ Here are some criteria to look for when evaluating an exchange:
 
 ## Reputable Exchanges
 
-!!! warning "no paid or *influenced* content -- all views are from personal experience"
+!!! warning "no paid nor *influenced* content -- all views are from personal experience"
 
 There are only *two* exchanges I would recommend:
 
