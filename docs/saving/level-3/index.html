@@ -893,16 +893,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#transaction-manager" class="md-nav__link">
+    Transaction Manager
+  </a>
+  
+    <nav class="md-nav" aria-label="Transaction Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#honeypot" class="md-nav__link">
     Honeypot
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#transaction-manager" class="md-nav__link">
-    Transaction Manager
+        
+          <li class="md-nav__item">
+  <a href="#tails-os-xpub-only" class="md-nav__link">
+    Tails OS (xPub only)
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1940,16 +1953,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#transaction-manager" class="md-nav__link">
+    Transaction Manager
+  </a>
+  
+    <nav class="md-nav" aria-label="Transaction Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#honeypot" class="md-nav__link">
     Honeypot
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#transaction-manager" class="md-nav__link">
-    Transaction Manager
+        
+          <li class="md-nav__item">
+  <a href="#tails-os-xpub-only" class="md-nav__link">
+    Tails OS (xPub only)
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1983,20 +2009,37 @@
   </p>
 <figcaption>Level 3 -- typical home network with accessible cold storage</figcaption>
 </figure>
-<p>In order to safely custody larger amounts of money,
+<p>In order to save larger amounts of money,
  you'll want to setup a dedicated signing device.
-Essentially, we will separating our private keys from the public keys.
-Private keys will be managed in an offline signing device.
-Public keys will be managed in a transaction manager.</p>
-<p>While there are many alternatives to the specific hardware
- discussed here -- we will use
+Essentially, separatie the private keys from the public keys.
+Public keys will be managed in a transaction manager.
+Private keys will be managed in an offline signing device.</p>
+<p>While there are many alternatives-- we will use
  <a href="https://coldcard.com/">coldcard</a>
- as an example, but any signing offline signing device can be used.</p>
+ as an example, but any offline signing device can be used.</p>
 <div class="admonition warning">
-<p class="admonition-title">no paid or <em>influenced</em> content -- all views are from personal experience</p>
+<p class="admonition-title">no paid nor <em>influenced</em> content -- all views are from personal experience</p>
 </div>
-<h2 id="honeypot">Honeypot<a class="headerlink" href="#honeypot" title="Permanent link">&para;</a></h2>
 <h2 id="transaction-manager">Transaction Manager<a class="headerlink" href="#transaction-manager" title="Permanent link">&para;</a></h2>
+<p>A transaction manager can be any device,
+ although it's recommended to use a dedicated laptop
+ that you can install a Linux flavor such as
+ <a href="https://ubuntu.com/">Ubuntu</a>.
+You will still be using 
+ <a href="https://tails.boum.org/">Tails OS</a> on a USB drive,
+ however, it's recommended to <em>also</em> install
+ a Bitcoin client (such as
+ <a href="https://electrum.org/#home">Electrum</a>)
+ on the transaction manager directly.
+You will use this client as a
+ decoy or <em>honeypot</em>.</p>
+<h3 id="honeypot">Honeypot<a class="headerlink" href="#honeypot" title="Permanent link">&para;</a></h3>
+<p>A recommended approach</p>
+<h3 id="tails-os-xpub-only">Tails OS (xPub only)<a class="headerlink" href="#tails-os-xpub-only" title="Permanent link">&para;</a></h3>
+<p>Similar to <a href="../level-2">level-2</a> we will use a
+ bootable 
+ <a href="https://tails.boum.org/">Tails OS</a> USB drive,</p>
+<p>https://coldcard.com/docs/microsd</p>
 <h2 id="signing-device">Signing Device<a class="headerlink" href="#signing-device" title="Permanent link">&para;</a></h2>
 <!--
 
