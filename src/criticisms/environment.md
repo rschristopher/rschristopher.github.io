@@ -1,4 +1,4 @@
-# Environmental Criticisms of Bitcoin
+# Environmental Impact 
 
 !!! warning "work in progress"
 
