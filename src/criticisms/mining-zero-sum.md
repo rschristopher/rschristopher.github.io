@@ -1,7 +1,7 @@
 # Mining is Zero Sum
 
 The game theory of Bitcoin mining is quite
- different than the rest of Bitcoin.
+ different than saving or spending Bitcoin.
 Mining is a zero-sum adversarial game.
 Miners are incentived to hurt their competition
  in order to ensure their own survival.
