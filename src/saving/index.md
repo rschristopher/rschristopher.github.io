@@ -60,7 +60,7 @@ At the higher levels, the extreme sense of ownership
 In fact, I'd recommend to start with skepticism
  and keep in mind the following maxim,
 
-!!! info "*The more one learns about Bitcoin, the more of a supporter one becomes.*"
+!!! info "*The more one learns about Bitcoin, the more one supports Bitcoin.*"
  
 Here is an overview of the levels along with 
  a rough guide on the amount of wealth
