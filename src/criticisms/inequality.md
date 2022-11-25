@@ -29,7 +29,7 @@ Importantly, knowledge of such immorality
 
 However, knowledge of the morality
  of Bitcoin can help guide us as
- individual seeking truth in order to 
+ individuals seeking truth in order to 
  live moral lives.
 
 
