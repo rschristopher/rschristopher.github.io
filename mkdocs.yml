@@ -52,10 +52,10 @@ nav:
           - Deflation: criticisms/deflation.md
           - Environment: criticisms/environment.md
           - Inequality: criticisms/inequality.md
+          - Mining is Zero-sum: criticisms/mining-zero-sum.md
           - Quantum Computing: criticisms/quantum-computing.md
           - Scalability: criticisms/scalability.md
           - Surveillance: criticisms/surveillance.md
-          - Turing Incomplete: criticisms/turing-complete.md
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
         - Is Bitcoin True?: is-bitcoin-true.md
     - Saving:
