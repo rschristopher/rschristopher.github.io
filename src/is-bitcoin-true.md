@@ -211,7 +211,7 @@ It would mean our entire system is built on lies,
  unknowingly
  destroying civilization in the process.
 
-And it means that have been participants in this lie.
+And it means that we have been participants in this lie.
 
 For Americans it means Nixon was worse than 
  liberals believe, and that
