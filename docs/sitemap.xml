@@ -166,6 +166,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rschristopher.github.io/criticisms/minimg-zero-sum/</loc>
+         <lastmod>2022-11-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rschristopher.github.io/criticisms/quantum-computing/</loc>
          <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
@@ -177,11 +182,6 @@
     </url>
     <url>
          <loc>https://rschristopher.github.io/criticisms/surveillance/</loc>
-         <lastmod>2022-11-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/criticisms/turing-complete/</loc>
          <lastmod>2022-11-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
