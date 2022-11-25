@@ -7,7 +7,7 @@ If a state had complete power over money
  then there would be no limit to that state's 
  power over those governed.
 Controlling what people can and cannot buy,
- you would not need much law enforcement;
+ you would not need law enforcement;
  power over money would be sufficient enforcement
  of all human behavior and action.
 Even crimes of passion would become quite
@@ -29,7 +29,7 @@ Historically, such totalitarianism has proven
  impossible, collapsing under its own
  tyrannical fiat.
 As monetary technology increases,
- so too does monetary power.
+ so too does this monetary power.
 The desire
  from the state and others to wield
  this power will also increase.
@@ -74,8 +74,11 @@ There is much to be criticized when looking
 To the degree a church has been separated from
  state, that church has been freed of the
  corrupting influence of the state.
-
-The same, obviously, can be true of money.
+It was money that was the corrupting influence,
+ not the church nor the state.
+Separating money from human control, from
+ oligarchs and autocrats, is the challenge
+ we face.
 
 
 
@@ -143,6 +146,8 @@ But what we can do, is separate money
  from the state.
 That is, to set money free from the
  corrupting influence of the state.
+To relegate money to its proper place,
+ and not as a source of power and worship.
 
 
 
