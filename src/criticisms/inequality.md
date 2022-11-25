@@ -1,4 +1,4 @@
-# Inequality and Bitcoin
+# Inequality
 
 > Under a Bitcoin Standard, won't the rich continue to get richer?
 
