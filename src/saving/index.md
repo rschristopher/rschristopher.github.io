@@ -44,7 +44,7 @@ Inspired by the very excellent
  from 
  [Parman](https://armantheparman.com/about-contact/),
  I have outlined a series of levels to guide those
- new (and those experienced) towards a level of 
+ new (and those experienced) towards 
  safe self custody suitable for all levels of savings
  (from pocket change to generational wealth preservation).
 The early levels start simple and can serve as a guide
