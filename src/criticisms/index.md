@@ -7,7 +7,7 @@ There is a lot of criticism of Bitcoin --
  and yet despite the constant criticism, 
  it's nearly impossible 
  to find critics that understand
- Bitcoin, let alone demonstrates
+ Bitcoin, let alone demonstrate
  their understanding.
 
 In practice, if the critics were right,
@@ -15,13 +15,14 @@ In practice, if the critics were right,
 In fact, it has been declared
  dead,
  many
+ many
  times.
 And yet despite this, the quality of the criticism
  hasn't improved even as Bitcoin has succeeded.
 The criticism has become incessant
  noise with very little signal.
 
-!!! info "*The more one learns about Bitcoin, the more of a supporter one becomes.*"
+!!! info "*The more one learns about Bitcoin, the more one supports Bitcoin.*"
 
 
 This of course suggests
