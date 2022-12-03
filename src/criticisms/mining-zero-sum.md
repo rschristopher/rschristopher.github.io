@@ -48,6 +48,16 @@ Mining, even if the value of Bitcoin was stable,
 Unlike saving in Bitcoin, which enables low time-preference long-term thinking, 
  mining is a high time-preference, high risk game.
 
+On the other hand, is such a cutthroat adversarial
+ game sustainable? 
+For any individual miner, the
+ answer most assuredly is no.
+However, as long as people and are able and
+ willing to try their hand at this competitive 
+ game, then it will continue.
+Ugly and embattled, will it be sufficient?
+Time will tell.
+
 
 ## Issuance and Ordering
 
