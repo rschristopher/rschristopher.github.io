@@ -1,6 +1,5 @@
 # Mining is Zero Sum
 
-> 
 > The dark side of Bitcoin,
 > the chaotic fringe, the garment of skin,
 > the wasteland of rekt dreams and abandoned code --
@@ -18,7 +17,7 @@ Saving in Bitcoin is a positive sum game,
  and of civilization itself.
 Mining is a zero-sum adversarial game.
 Miners are incentived to hurt their competition
- in order to increase their own survival that
+ in order to increase their own survival which
  is under constant threat.
 
 Unlike gold mining, Bitcoin miners are in
@@ -29,29 +28,49 @@ And hurting one miner will directly benefit
  the others.
 Miners that succeed will find
  their profits dwindle over time even as revenue grows.
-There reserves will be tested and depleted as more
+Reserves will be tested and depleted as more
  and more competition enters the space.
 And there will always be more.
 Such is the nature of a zero sum adversarial game.
 
 On one hand, this is a benefit for decentralization,
  as any attempt to monopolize mining will result
- in an inevitable disintegration, as the cost
+ in inevitable disintegration, as the cost
  of bureaucratic overhead will make the larger
  miners feel the most pain.
-Mining is like a continuous arbitrage opportunity,
- with profits that inevitably diminish,
- forcing miners into survival mode, yet as the weaker
+Mining, even if the value of Bitcoin was stable,
+ is like a continuous arbitrage opportunity,
+ with profits that inevitably diminish.
+ This forces miners into survival mode, and as the weak
  miners fail this will tip the remaining miners
  into a moment of profitability, which will attract more
  miners, bloodthirsty and ready to compete, and the cycle repeats, forever.
-Unlike saving in Bitcoin, mining is a high time
- preference, high risk game. 
+Unlike saving in Bitcoin, which enables low time-preference long-term thinking, 
+ mining is a high time-preference, high risk game.
 
-## Issuance or Ordering?
 
-Mining is the issuance of Bitcoin.
-Mining is also the ordering of blocks of transactions.
+## Issuance and Ordering
+
+Mining is the issuance of new Bitcoin following
+ a predictable schedule, encoded in the protocol and
+ enforced by the nodes, by the savers that give
+ Bitcoin its monetary value.
+Mining is also necessary for the ordering
+ of blocks (of transactions).
+This dual purpose is necessary due to the fixed
+ supply schedule, which will eventually result
+ in miners operating solely on fees, that is,
+ no new issuance, but simply *proof-of-work* to
+ ensure new blocks, new settlements on the
+ timechain.
+Eventually there will be no mining, only a
+ competition for transaction fees.
+This will be an important test for the truth of
+ Bitcoin. That is, can Bitcoin survive and flourish
+ after the last block subsidy is paid?
+
+
+
 
 
 !!! warning "work in progress"
