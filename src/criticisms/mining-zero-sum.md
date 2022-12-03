@@ -1,6 +1,6 @@
 # Mining is Zero Sum
 
-> Issuance of Bitcoin and ordering blocks of transactions
+> Issuance of Bitcoin and ordering of blocks of transactions
 > -- *aka mining* -- is the dark side of Bitcoin,
 > the chaotic fringe, the garment of skin,
 > the wasteland of rekt dreams and abandoned code,
