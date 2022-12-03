@@ -13,11 +13,14 @@
 > for it cannot be otherwise.
 
 The game theory of Bitcoin mining is quite
- unlike the game theory of saving, of
- storing wealth in Bitcoin.
+ unlike the game theory of saving in Bitcoin.
+Saving in Bitcoin is a positive sum game,
+ increasing in value as a measure of adoption
+ and of civilization itself.
 Mining is a zero-sum adversarial game.
 Miners are incentived to hurt their competition
- in order to ensure their own survival.
+ in order to increase their own survival that
+ is under constant threat.
 
 Unlike gold mining, Bitcoin miners are in
  constant and direct competition with each
@@ -38,11 +41,11 @@ On one hand, this is a benefit for decentralization,
  of bureaucratic overhead will make the larger
  miners feel the most pain.
 Mining is like a continuous arbitrage opportunity,
- with profits that will inevitably diminish,
- forcing miners into survival mode, yet as some
+ with profits that inevitably diminish,
+ forcing miners into survival mode, yet as the weaker
  miners fail this will tip the remaining miners
  into a moment of profitability, which will attract more
- miners, and the cycle repeats, forever.
+ miners, bloodthirsty and ready to compete, and the cycle repeats, forever.
 Unlike saving in Bitcoin, mining is a high time
  preference, high risk game. 
 
