@@ -6,7 +6,7 @@
 > where the rotting corpses of past heroes are picked
 > apart, scavenged by hash-hungry parasites,
 > fighting, hashing, surviving,
-> until they become the rotting corpse they
+> until they become that rotting corpse they
 > so hungrily devour,
 > for it cannot be otherwise.
 
