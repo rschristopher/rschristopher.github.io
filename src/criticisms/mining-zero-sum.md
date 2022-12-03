@@ -1,14 +1,14 @@
 # Mining is Zero Sum
 
-> Issuance of Bitcoin and ordering of blocks of transactions
-> -- *aka mining* -- is the dark side of Bitcoin,
+> 
+> Mining is the dark side of Bitcoin,
 > the chaotic fringe, the garment of skin,
-> the wasteland of rekt dreams and abandoned code,
+> the wasteland of rekt dreams and abandoned code --
 > where the rotting corpses of past heroes are picked
 > apart, scavenged by hash-eating parasites,
 > all fighting for their own small moment of heroism,
 > before the others devour them,
-> before they become the rotting corpse they
+> before they become like the rotting corpse they
 > so hungrily devour,
 > for it cannot be otherwise.
 
@@ -48,6 +48,11 @@ Mining is like a continuous arbitrage opportunity,
  miners, bloodthirsty and ready to compete, and the cycle repeats, forever.
 Unlike saving in Bitcoin, mining is a high time
  preference, high risk game. 
+
+## Issuance or Ordering?
+
+Mining is the issuance of Bitcoin.
+Mining is also the ordering of blocks of transactions.
 
 
 !!! warning "work in progress"
