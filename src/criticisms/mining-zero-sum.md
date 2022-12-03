@@ -1,14 +1,13 @@
 # Mining is Zero Sum
 
 > 
-> Mining is the dark side of Bitcoin,
+> The dark side of Bitcoin,
 > the chaotic fringe, the garment of skin,
 > the wasteland of rekt dreams and abandoned code --
 > where the rotting corpses of past heroes are picked
 > apart, scavenged by hash-hungry parasites,
-> fighting for their own small moment,
-> before the others devour them,
-> before they become like the rotting corpse they
+> fighting, hashing, surviving,
+> until they become the rotting corpse they
 > so hungrily devour,
 > for it cannot be otherwise.
 
