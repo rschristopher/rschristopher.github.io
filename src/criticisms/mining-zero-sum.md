@@ -20,6 +20,36 @@ Miners are incentived to hurt their competition
  in order to increase their own survival which
  is under constant threat.
 
+## Issuance and Ordering
+
+Bitcoin mining serves two goals: issuance and
+ ordering of transactions (through blocks).
+Issuance is the block subsidy of new Bitcoin following
+ a predictable schedule, encoded in the protocol and
+ enforced by the nodes, by the savers that give
+ Bitcoin its monetary value.
+Every block added to the timechain provides
+ a chronological order of transactions (based on
+ block height) -- getting a transaction into a 
+ block means final international settlement,
+ and transaction fees are paid to the miners
+ to make sure this happens.
+
+This dual purpose of mining is necessary due to the fixed
+ supply schedule, which will eventually result
+ in miners operating solely on fees, that is,
+ no new issuance, but simply *proof-of-work* to
+ ensure new blocks, new settlements on the
+ timechain.
+Eventually there will be no mining, only a
+ competition for transaction fees.
+This will be an important test for the truth of
+ Bitcoin. That is, can Bitcoin survive and flourish
+ after the last block subsidy is paid?
+We'll know for sure in the year 2140.
+
+## Zero Sum
+
 Unlike gold mining, Bitcoin miners are in
  constant and direct competition with each
  other, such that the fortune of one will
@@ -31,7 +61,7 @@ Miners that succeed will find
 Reserves will be tested and depleted as more
  and more competition enters the space.
 And there will always be more.
-Such is the nature of a zero sum adversarial game.
+Such is the nature of any zero sum adversarial game.
 
 On one hand, this is a benefit for decentralization,
  as any attempt to monopolize mining will result
@@ -39,7 +69,8 @@ On one hand, this is a benefit for decentralization,
  of bureaucratic overhead will make the larger
  miners feel the most pain.
 Mining, even if the value of Bitcoin was stable,
- is like a continuous arbitrage opportunity,
+ is like a continuous arbitrage opportunity
+ (finding cheap enough electricity),
  with profits that inevitably diminish.
  This forces miners into survival mode, and as the weak
  miners fail this will tip the remaining miners
@@ -57,32 +88,5 @@ However, as long as people and are able and
  game, then it will continue.
 Ugly and embattled, will it be sufficient?
 Time will tell.
-
-
-## Issuance and Ordering
-
-Mining is the issuance of new Bitcoin following
- a predictable schedule, encoded in the protocol and
- enforced by the nodes, by the savers that give
- Bitcoin its monetary value.
-Mining is also necessary for the ordering
- of blocks (of transactions).
-This dual purpose is necessary due to the fixed
- supply schedule, which will eventually result
- in miners operating solely on fees, that is,
- no new issuance, but simply *proof-of-work* to
- ensure new blocks, new settlements on the
- timechain.
-Eventually there will be no mining, only a
- competition for transaction fees.
-This will be an important test for the truth of
- Bitcoin. That is, can Bitcoin survive and flourish
- after the last block subsidy is paid?
-
-
-
-
-
-!!! warning "work in progress"
 
 
