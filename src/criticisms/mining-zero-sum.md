@@ -69,19 +69,21 @@ Reserves will be tested and depleted as more
 And there will always be more.
 Such is the nature of any zero sum adversarial game.
 
-On one hand, this is a benefit for decentralization,
+On one hand, this benefits decentralization,
  as any attempt to monopolize mining will result
- in inevitable disintegration, as the cost
+ in inevitable disintegration, and the cost
  of bureaucratic overhead will make the larger
  miners feel the most pain.
 Mining, even if the value of Bitcoin was stable,
  is like a continuous arbitrage opportunity
  (finding cheap enough electricity to power advanced enough miners),
- with profits that inevitably diminish.
+ with profits that inevitably diminish through competition.
 This forces miners into survival mode, and as the weak
  miners fail this will tip the surviving miners
- into a moment of profitability, which will attract more
- miners, bloodthirsty and ready to compete, and the cycle repeats, forever.
+ into a moment of increased profitability,
+ which will attract
+ more people to try to mine,
+ and the cycle repeats, forever.
 Unlike saving in Bitcoin, which enables low time-preference long-term thinking, 
  mining is a high time-preference, high risk game.
 
@@ -89,7 +91,7 @@ On the other hand, is such a cutthroat adversarial
  zero sum game sustainable? 
 For an individual miner, the
  answer most assuredly is no.
-However, as long as people and are able and
+However, as long as people are able and
  willing to try their hand at this competitive 
  game, then it will continue.
 Ugly and embattled, will it be sufficient?
