@@ -40,14 +40,11 @@ This effectively makes miners decentralized
  payment processors.
 
 This dual purpose of mining is necessary due to the fixed
- supply schedule, which will eventually result
+ supply schedule, and in the future this will result
  in miners operating solely on fees, that is,
  no new issuance, but simply *proof-of-work* to
  ensure new blocks, new settlements on the
  timechain (final international settlements).
-Eventually there will be no issuance,
- no block reward, only a
- competition for transaction fees.
 This will be an important test for the truth of
  Bitcoin.
 That is, can Bitcoin survive and flourish
