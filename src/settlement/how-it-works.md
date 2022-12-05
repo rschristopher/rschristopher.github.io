@@ -1,4 +1,4 @@
-# How Bitcoin is Issued
+# How Bitcoin Mining Works
 
 
 !!! warning "work in progress"
