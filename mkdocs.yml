@@ -110,11 +110,11 @@ nav:
           - Bitcoin Script: commerce/advanced/bitcoin-script.md
           - Network Security: commerce/advanced/network-security.md
           - Physical Security: commerce/advanced/physical-security.md
-    - Issuance:
-        - issuance/index.md
-        - How it Works: issuance/how-it-works.md
-        - Home Mining: issuance/home-mining.md
-        - PoW and Energy Money: issuance/pow-energy-money.md
+    - Settlement:
+        - settlement/index.md
+        - How it Works: settlement/how-it-works.md
+        - Home Mining: settlement/home-mining.md
+        - PoW and Energy Money: settlement/pow-energy-money.md
     - References: references/index.md
 
 markdown_extensions:
