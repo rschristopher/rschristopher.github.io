@@ -66,7 +66,7 @@ Or have the churches lessened their
 There is much to be criticized when looking
  at modern churches, such as their
  shallow banality with no more sacredness than
- than the strip-malls where they reside, 
+ the strip-malls where they reside, 
  but the
  inquisition
  they are not.
@@ -154,11 +154,9 @@ To relegate money to its proper place,
 
 ## Money and State
 
-!!! warning "work in progress"
-
-<!--
-What is the ultimate fate of modern fiat,
- that is,
+What is the ultimate fate of modern
+ state-backed fiat,
+ and specifically,
  what is the fate of
  the petrodollar system known as USD?
 
@@ -177,46 +175,20 @@ What is the ultimate fate of modern fiat,
     but all were known as "USD".
 
 The fate of the existing
- post-1971 fiat USD seems obvious,
- as fiat systems tend to 
+ post-1971 fiat USD (the "petrodollar")
+ seems obvious,
+ fiat systems tend to 
  hyperinflate into oblivion.
-At this point fiat currencies have lost
- so much value that they're best measured in the
- number of nines (99%, 99.9%, 99.99%, and so on).
+We are at the brink of hyperinflation
+ despite a shallow cover up.
+Could Bitcoin adoption buoy the supply chains
+ and allow our system to sustain?
+It definitely could.
+And despite the authoritarian overreach,
+ those in positions of power don't have,
+ and never had, 
+ real power over money.
 
-Something like 
- 80% of all circulating money was created
- in 2020 and 2021. 
-True inflation, monetary inflation, 
- is already in hyperinflation
- despite a massive cover up and
- claiming it was transient and that
- price inflation is unrelated to the 
- massive monetary inflation.
-The willful stupidity of modern economists 
- can be startling.
-
-What is the effect of Bitcoin on USD?
-Unsure. 
-Let's assume that the existing powers 
- are failing,
- which seems to be the most likely scenario
- for their increasingly hysterical and 
- incompetent behavior. 
-Will they take the system down with them? 
-Yes, if they could. 
-Will Bitcoin adoption buoy the supply chains
- and free market remnants? 
-Yes, it definitely could.
-The existing hysterical incompetence will
- try to take the system down with them,
- demanding unlimited power with no
- accountability for what any reasonable
- analysis would conclude as crimes
- against humanity. 
-But they don't, and never had, real power. 
-They are spokespeople for the masses, 
- voices of the delusions.
 In the end, people want to eat, 
  feed their families, be healthy, 
  live productive lives that offer a 
@@ -234,31 +206,3 @@ What made civilization possible was not
  but freedom to live good lives, 
  freedom and opportunity to build your own life,
  a life that is worth living.
-
-The idea that,
- "it works", is a strange lie
- when looking at the historical context. 
-CCP? USSR? 
-The best successful examples of controlled
- systems. 
-They offered no innovation other than to
- parasitically feed from free market
- civilizations. 
-An accomplishment that other controlled
- systems failed to replicate. 
-Yet they repeat this lie. Why?
-
-Why repeat the lie?
-Because it promises power and the elevation 
- of the systems of man as God. 
-Creating ourselves a God. 
-What we create operates within rules,
- natural laws.
-
-Bitcoin fixes this when adoption increases,
- not when it's USD price increases. 
-Increase adoption of Bitcoin as money. 
-Store of wealth, unit of account, 
- system of exchange, ...
-
--->
