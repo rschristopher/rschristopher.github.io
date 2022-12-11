@@ -1,4 +1,4 @@
-# Separation of Money and State
+# Money and State
 
 !!! info "There is no more important problem to solve in this era than the separation of money from state."
 
