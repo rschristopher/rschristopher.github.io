@@ -228,7 +228,8 @@ Of the hundreds of state-controlled
     not a single person was ever held
     to account for this abject evil.
     USD remains a fiat money backed by
-    an unholy alliance with Saudi Arabia.
+    an unholy alliance
+    between the US and Saudi Arabia.
 
     These are, by any measure, distinct monies,
     but all were known as "USD".
