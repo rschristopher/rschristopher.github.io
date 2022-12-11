@@ -7,7 +7,7 @@ If a state had complete power over money
  then there would be no limit to that state's 
  power over those governed.
 Controlling what people can and cannot buy,
- you would not need law enforcement;
+ you would barely need law enforcement;
  power over money would be sufficient enforcement
  of all human behavior and action.
 Even crimes of passion would become quite
@@ -19,7 +19,7 @@ Complete power over money would offer
 Such power would render
  humans into something less than slaves,
  including those managing the money.
-The system itself would become all powerful,
+The system itself would need to be all powerful,
  leaving humans to be obedient
  (in action, speech, and thought) 
  to the monetary principalities that 
@@ -28,15 +28,27 @@ The system itself would become all powerful,
 Historically, such totalitarianism has proven
  impossible, collapsing under its own
  tyrannical fiat.
-As monetary technology increases,
- so too does this monetary power.
+As monetary technology increases --
+ with all the obvious benefits to humanity --
+ so too do we increase the risk of
+ state abuse of power.
 The desire
- from the state and others to wield
- this power will also increase.
-We can either limit technology to prevent
- this power from manifesting further,
+ from the state to wield complete
+ monetary surveillance and control
+ -- as futile and nihilistic as this may prove --
+ will become irresistible and is in many
+ ways a self-perpetuating existential
+ crisis from the state itself
+ (as monetary technology renders
+ much of the state's bureaucratic controls
+ useless to the interests of the people).
+We can either limit monetary technology
+ to slow the state's destructive path,
  which puts our civilization on a dead end,
- or we separate money from state.
+ or we separate money from state 
+ -- freeing money from the corrupting
+ influence of the state itself.
+
 
  
 
