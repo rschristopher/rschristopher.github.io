@@ -45,7 +45,7 @@ nav:
           - Store of Value: bitcoin-as-money/store-of-value.md
           - Fixed Supply: bitcoin-as-money/fixed-supply.md
           - Monetary Policy: bitcoin-as-money/monetary-policy.md
-          - Separation of Money and State: bitcoin-as-money/separation-money-and-state.md
+          - Money and State: bitcoin-as-money/money-and-state.md
         - Criticisms:
           - criticisms/index.md
           - Cantillon Bubbles: criticisms/cantillon.md
