@@ -81,8 +81,10 @@ Separating money from human control, from
  oligarchs and autocrats, is the challenge
  we face.
 
-!!! quote “I care not who controls a nation’s political affairs, so long as I control her currency”
-     – Mayer Amschel Rothschild
+!!! quote "I care not who controls a nation’s political affairs, so long as I control her currency"
+    – Mayer Amschel Rothschild
+
+
 
 
 ## Human Nature 
@@ -113,7 +115,7 @@ Primitive forms of money are as universal as
     for primitive economies,
     but are being replaced by
     digital money, stripped of
-    their religious nature. 
+    their animistic nature. 
 
     And rather than
     become a source of liberation, digital
@@ -126,6 +128,7 @@ Primitive forms of money are as universal as
     the people (people who don't
     even know the names of their
     would-be tyrant bureaucrats).
+
 
 Religious beliefs, whether secular or traditional,
  provide a moral framework and a language
@@ -140,7 +143,8 @@ Without a functioning religious belief,
  we inevitably fall into a 
  meaning crisis.
 And without a functioning money,
- we inevitably fall into servitude and debt.
+ we inevitably fall into servitude and debt,
+ and eventually into starvation.
 We cannot escape the very human need
  for money.
 
@@ -148,7 +152,9 @@ But what we can do, is separate money
  from the state.
 That is, to set money free from the
  corrupting influence of the state.
-To relegate money to its proper place,
+To once and for all end the corrupting
+ power of seigniorage --
+ to relegate money to its proper place,
  and not as a source of power and worship.
 
 
@@ -176,12 +182,14 @@ What is the ultimate fate of modern
     These are, by any measure, distinct monies,
     but all were known as "USD".
 
+
 The fate of the existing
  post-1971 fiat USD (the "petrodollar")
  seems obvious,
  fiat systems tend to 
  hyperinflate into oblivion.
-We are at the brink of hyperinflation
+In the US
+ we are at the brink of hyperinflation
  despite a shallow cover up.
 Could Bitcoin adoption buoy the supply chains
  and allow our system to sustain?
@@ -201,7 +209,7 @@ Freedom is a necessity,
  and without it systems fail. 
 This includes the current leaders. 
 They can't but live in the world too, 
- and act out their human desire for
+ and act out the very human desire for
  freedom and flourishing.
 What made civilization possible was not
  systems of control, 
