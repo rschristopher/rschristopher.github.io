@@ -191,6 +191,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rschristopher.github.io/pow/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/pow/home-mining/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/pow/how-it-works/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/pow/pow-energy-money/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rschristopher.github.io/references/</loc>
          <lastmod>2022-12-11</lastmod>
          <changefreq>daily</changefreq>
@@ -337,26 +357,6 @@
     </url>
     <url>
          <loc>https://rschristopher.github.io/saving/wealth/physical-security/</loc>
-         <lastmod>2022-12-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/settlement/</loc>
-         <lastmod>2022-12-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/settlement/home-mining/</loc>
-         <lastmod>2022-12-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/settlement/how-it-works/</loc>
-         <lastmod>2022-12-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/settlement/pow-energy-money/</loc>
          <lastmod>2022-12-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
