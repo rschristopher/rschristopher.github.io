@@ -181,29 +181,26 @@ Of the hundreds of state-controlled
     originally backed by gold.
     The very definition of USD was
     a measure of gold.
-    It was sound money worth roughly $20/ounce.
+    It was worth roughly $20/ounce.
     You can still find "double eagle" gold coins,
     roughly one ounce of gold, with the words,
     "twenty dollars", printed very clearly
-    on the front of the coin
-    (and today they are worth
-    roughly 100x the face value,
-    demonstrating a 99% debasement).
+    on the front of the coin.
 
     In 1933,
     private gold was seized by the federal
-    government. See executive order
+    government through executive order
     [6102](https://en.m.wikipedia.org/wiki/Executive_Order_6102).
     A twenty dollar bill was no longer a
     a "gold certificate".
-    International settlements happened in gold,
-    And the USD was debased to $35/ounce
+    International settlements still happened in gold,
+    but the USD was debased to $35/ounce
     (extracting wealth from the American
     people to pay off western war debts).
     Later, during the
     Breton Woods
     era (starting in 1944),
-    this $35/ounce rate was guaranteed
+    the $35/ounce rate was guaranteed
     for all international settlements,
     which continued the legacy
     of the gold standard.
