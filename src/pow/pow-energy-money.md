@@ -1,4 +1,4 @@
-# PoW and Energy Money
+# Energy Money
 
 
 !!! warning "work in progress"
