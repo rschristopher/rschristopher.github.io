@@ -162,14 +162,13 @@ To once and for all end the corrupting
 
 ## Money and State
 
-What is the ultimate fate of modern
- state-backed fiat,
- and specifically,
+What is the ultimate fate of modern fiat,
+ specifically,
  what is the fate of
  the petrodollar system known as USD?
-Of the hundreds of state-controlled
- fiat currencies;
- of the unprecedented
+Of the hundreds of
+ fiat currencies in the world;
+ of all the unprecedented
  hyperinflation
  events occurring around the globe;
  the lynchpin of this entire
@@ -210,8 +209,8 @@ Of the hundreds of state-controlled
     [Nixon shock](https://en.m.wikipedia.org/wiki/Nixon_shock)
     and shortly after, in 1974,
     the petrodollar system emerged.
-    Fiat-funded economists proclaimed the
-    USD price of gold would drop,
+    Fiat-funded economists proclaimed that the
+    price of gold would drop,
     thinking that this would remove the
     monetary premium of gold.
     And despite the opposite happening,
@@ -229,13 +228,13 @@ Of the hundreds of state-controlled
     to account for this abject evil.
 
     These are, by any measure, distinct monies,
-    but all are and were known as "USD".
+    but all are (and were) known as "USD".
 
 
 The fate of the existing
  fiat USD
  seems obvious, as
- fiat systems tend to 
+ fiat systems inevitably 
  hyperinflate into oblivion.
 In the US
  we are at the brink of hyperinflation
@@ -258,7 +257,7 @@ What made civilization possible was not
  freedom and opportunity to build your own life,
  a life that is worth living.
 
-The solution to these problems of money and state,
+The solution to these problems (of money and state),
  can not be solved by the state.
 There are no political solutions to problems
  born of political interventions.
@@ -267,7 +266,7 @@ The solution can only be a new form of money,
  and superior to gold.
 Bitcoin has all the properties necessary
  to be the solution.
-And while this truth of Bitcoin
+And while the truth of Bitcoin
  may take several generations to fully prove out,
  there is no more important problem for us to solve.
 
