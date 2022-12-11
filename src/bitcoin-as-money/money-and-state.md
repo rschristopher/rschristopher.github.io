@@ -227,32 +227,20 @@ Of the hundreds of state-controlled
     and continues to be,
     not a single person was ever held
     to account for this abject evil.
-    USD remains a fiat money backed by
-    an unholy alliance
-    between the US and Saudi Arabia.
 
     These are, by any measure, distinct monies,
-    but all were known as "USD".
+    but all are and were known as "USD".
 
 
 The fate of the existing
- fiat USD (the "petrodollar")
- seems obvious,
+ fiat USD
+ seems obvious, as
  fiat systems tend to 
  hyperinflate into oblivion.
 In the US
  we are at the brink of hyperinflation
  despite a shallow cover up.
-Could Bitcoin adoption buoy the supply chains
- and allow our system to sustain?
-It definitely could.
-And despite authoritarian overreach,
- and dumb attempts at CBDCs,
- those in positions of power don't have,
- and never had, 
- real power over money.
-
-In the end, people want to eat, 
+But in the end, people want to eat, 
  feed their families, be healthy, 
  live productive lives that offer a 
  future that is worth their present suffering, 
@@ -271,16 +259,15 @@ What made civilization possible was not
  a life that is worth living.
 
 The solution to these problems of money and state,
- cam not be solved by the state.
+ can not be solved by the state.
 There are no political solutions to problems
  born of political interventions.
 The solution can only be a new form of money,
  superior to fiat money,
- superior to gold.
+ and superior to gold.
 Bitcoin has all the properties necessary
  to be the solution.
 And while this truth of Bitcoin
  may take several generations to fully prove out,
- there is no more important problem to solve
- than the separation of money from state.
+ there is no more important problem for us to solve.
 
