@@ -167,24 +167,78 @@ What is the ultimate fate of modern
  and specifically,
  what is the fate of
  the petrodollar system known as USD?
+Of the hundreds of state-controlled
+ fiat currencies;
+ of the unprecedented
+ hyperinflation
+ events occurring around the globe;
+ the lynchpin of this entire
+ damnable fiat money experiment
+ is the USD petrodollar.
 
-???+ info "USD sound and unsound"
+???+ info "USD, a brief history"
     The USD was
     originally backed by gold.
+    The very definition of USD was
+    a measure of gold.
     It was sound money worth roughly $20/ounce.
+    You can still find "double eagle" gold coins,
+    roughly one ounce of gold, with the words,
+    "twenty dollars", printed very clearly
+    on the front of the coin
+    (and today they are worth
+    roughly 100x the face value,
+    demonstrating a 99% debasement).
+
+    In 1933,
+    private gold was seized by the federal
+    government. See executive order
+    [6102](https://en.m.wikipedia.org/wiki/Executive_Order_6102).
+    A twenty dollar bill was no longer a
+    a "gold certificate".
+    International settlements happened in gold,
+    And the USD was debased to $35/ounce
+    (extracting wealth from the American
+    people to pay off western war debts).
     Later, during the
-    Breton Woods era
-    it was worth $35/ounce.
-    This system ended in 1971,
-    the petrodollar system emerged,
-    and global fiat was born.
+    Breton Woods
+    era (starting in 1944),
+    this $35/ounce rate was guaranteed
+    for all international settlements,
+    which continued the legacy
+    of the gold standard.
+
+    The Bretton Woods system ended in 1971,
+    with the
+    [Nixon shock](https://en.m.wikipedia.org/wiki/Nixon_shock)
+    and shortly after, in 1974,
+    the petrodollar system emerged.
+    Fiat-funded economists proclaimed the
+    USD price of gold would drop,
+    thinking that this would remove the
+    monetary premium of gold.
+    And despite the opposite happening,
+    despite wealth transfers from productive
+    workers to cantillon insiders,
+    despite grotesque abuses of power
+    and corruption,
+    despite continuous war in oil-rich countries,
+    despite health epidemics brought about
+    by inflating the price of quality food,
+    despite all the evidence of how
+    disastrous this system has been
+    and continues to be,
+    not a single person was ever held
+    to account for this abject evil.
+    USD remains a fiat money backed by
+    an unholy alliance with Saudi Arabia.
 
     These are, by any measure, distinct monies,
     but all were known as "USD".
 
 
 The fate of the existing
- post-1971 fiat USD (the "petrodollar")
+ post-1971 fiat USD (and the current "petrodollar")
  seems obvious,
  fiat systems tend to 
  hyperinflate into oblivion.
