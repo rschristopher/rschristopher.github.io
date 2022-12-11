@@ -238,7 +238,7 @@ Of the hundreds of state-controlled
 
 
 The fate of the existing
- post-1971 fiat USD (and the current "petrodollar")
+ fiat USD (the "petrodollar")
  seems obvious,
  fiat systems tend to 
  hyperinflate into oblivion.
@@ -248,7 +248,8 @@ In the US
 Could Bitcoin adoption buoy the supply chains
  and allow our system to sustain?
 It definitely could.
-And despite the authoritarian overreach,
+And despite authoritarian overreach,
+ and dumb attempts at CBDCs,
  those in positions of power don't have,
  and never had, 
  real power over money.
@@ -270,3 +271,18 @@ What made civilization possible was not
  but freedom to live good lives, 
  freedom and opportunity to build your own life,
  a life that is worth living.
+
+The solution to these problems of money and state,
+ cam not be solved by the state.
+There are no political solutions to problems
+ born of political interventions.
+The solution can only be a new form of money,
+ superior to fiat money,
+ superior to gold.
+Bitcoin has all the properties necessary
+ to be the solution.
+And while this truth of Bitcoin
+ may take several generations to fully prove out,
+ there is no more important problem to solve
+ than the separation of money from state.
+
