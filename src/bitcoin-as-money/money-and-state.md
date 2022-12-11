@@ -74,13 +74,15 @@ There is much to be criticized when looking
 To the degree a church has been separated from
  state, that church has been freed of the
  corrupting influence of the state.
-It was money that was the corrupting influence,
+It was state-controlled money that was
+ the corrupting influence,
  not the church nor the state.
 Separating money from human control, from
  oligarchs and autocrats, is the challenge
  we face.
 
-
+!!! quote “I care not who controls a nation’s political affairs, so long as I control her currency”
+     – Mayer Amschel Rothschild
 
 
 ## Human Nature 
