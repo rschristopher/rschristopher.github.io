@@ -1,6 +1,6 @@
 # Money and State
 
-!!! info "There is no more important problem to solve in this era than the separation of money from state."
+!!! info "There is no more important problem to solve than the separation of money from state."
 
 Power over money is power over human choice.
 If a state had complete power over money
