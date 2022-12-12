@@ -12,7 +12,7 @@ Controlling what people can and cannot buy,
  of all human behavior and action.
 Even crimes of passion would become quite
  difficult if one couldn't buy food or water or
- transportation.
+ transportation without permission.
 
 Complete power over money would offer
  *total totalitarianism*.
