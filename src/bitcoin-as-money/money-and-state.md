@@ -205,7 +205,7 @@ Of the hundreds of
     private gold was seized by the federal
     government through executive order
     [6102](https://en.m.wikipedia.org/wiki/Executive_Order_6102).
-    A twenty dollar bill was no longer a
+    A twenty dollar bill was no longer
     a "gold certificate".
     International settlements still happened in gold,
     but the USD was debased to $35/ounce
