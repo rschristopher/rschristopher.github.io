@@ -17,13 +17,13 @@ Even crimes of passion would become quite
 Complete power over money would offer
  *total totalitarianism*.
 Such power would render
- humans into something less than slaves,
- including those managing the money.
+ us into something less than slaves,
+ including the people managing the money.
 The system itself would need to be all powerful,
- leaving humans to be obedient
+ requiring us to be obedient
  (in action, speech, and thought) 
  to the monetary principalities that 
- emerge from their own base instincts.
+ emerge from our own base instincts.
 
 Historically, such totalitarianism has proven
  impossible, collapsing under its own
