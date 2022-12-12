@@ -240,7 +240,8 @@ Of the hundreds of
     disastrous this system has been
     and continues to be,
     not a single person was ever held
-    to account for this abject evil.
+    to account for their role in
+    this abject evil.
 
 
 The fate of the existing
