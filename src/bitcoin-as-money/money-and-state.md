@@ -192,8 +192,7 @@ Of the hundreds of
  is the USD petrodollar.
 
 ???+ info "USD, a brief history"
-    The USD was
-    originally backed by gold.
+    The USD used to be backed by gold.
     The very definition of USD was
     a measure of gold.
     It was worth roughly $20/ounce.
@@ -242,9 +241,6 @@ Of the hundreds of
     and continues to be,
     not a single person was ever held
     to account for this abject evil.
-
-    These are, by any measure, distinct monies,
-    but all are (and were) known as "USD".
 
 
 The fate of the existing
