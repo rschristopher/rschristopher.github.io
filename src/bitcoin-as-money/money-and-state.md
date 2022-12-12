@@ -24,6 +24,9 @@ The system itself would need to be all powerful,
  (in action, speech, and thought) 
  to the monetary principalities that 
  emerge from our own base instincts.
+Worse, we would know the system is corrupt
+ and evil, but we would be unable to speak
+ against it.
 
 Historically, such totalitarianism has proven
  impossible, collapsing under its own
