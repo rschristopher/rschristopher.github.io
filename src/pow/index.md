@@ -1,7 +1,7 @@
-# Settlement 
+# Proof of Work 
 
 How Bitcoin is settled on the timechain,
- including how Bitcoin is issued (aka *mining* or *proof-of-work hashing*)
+ and how Bitcoin is issued (aka *mining* or *proof-of-work hashing*)
 
 !!! warning "work in progress"
 
