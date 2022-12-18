@@ -157,7 +157,7 @@ We cannot escape religion,
 
 Without a functioning religious belief, 
  we inevitably fall into a 
- meaning crisis.
+ crisis of meaning.
 And without a functioning money,
  we inevitably fall into servitude and debt,
  and eventually into starvation.
