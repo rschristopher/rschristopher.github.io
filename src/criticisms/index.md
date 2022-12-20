@@ -45,8 +45,7 @@ Lack of competent criticism
 
 !!! warning "*The biggest risk to Bitcoin is its lack of competent crítics.*"
 
-E.g., if the critics were right
- and Bitcoin proves to be dangerous,
+E.g., if Bitcoin proves to be dangerous,
  how would you stop it?
  Could you stop it?
  
