@@ -61,14 +61,21 @@ This question can better be asked,
  sufficiently true that its
  dominance is inevitable?*
 
-In order to provide a better sense of
+This alone is a better critique than any
+ of the tired tropes found in an otherwise
+ reputable media outlets --
+ Bitcoin cannot be just "the best sound money",
+ it must be ungovernable, completely
+ unstoppable by any centralizing power.
+With that in mind, and
+ in order to provide a better sense of
  criticism, 
  potentially even constructive criticism,
  we will steel-man the
  common critiques as well as explore
  reasonable and valid criticisms of Bitcoin.
 And in all cases we will tackle the strongest
- version of each argument,
+ version of each argument, completely 
  avoiding the typical inept stupidity
  found in most Bitcoin critics.
 
