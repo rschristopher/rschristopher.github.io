@@ -62,7 +62,7 @@ This question can better be asked,
  dominance is inevitable?*
 
 This alone is a better critique than any
- of the tired tropes found in an otherwise
+ of the tired tropes found in otherwise
  reputable media outlets --
  Bitcoin cannot be just "the best sound money",
  it must be ungovernable, completely
@@ -76,8 +76,8 @@ With that in mind, and
  reasonable and valid criticisms of Bitcoin.
 And in all cases we will tackle the strongest
  version of each argument, completely 
- avoiding the typical inept stupidity
- found in most Bitcoin critics.
+ avoiding the ill-informed noise
+ (you can go elsewhere for that).
 
 
 
