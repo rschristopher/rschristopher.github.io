@@ -61,11 +61,14 @@ This question can better be asked,
  sufficiently true that its
  dominance is inevitable?*
 
-We will steel-man the
- common criticisms as well as explore
+In order to provide a better sense of
+ criticism, 
+ potentially even constructive criticism,
+ we will steel-man the
+ common critiques as well as explore
  reasonable and valid criticisms of Bitcoin.
 And in all cases we will tackle the strongest
- version of each criticisms,
+ version of each argument,
  avoiding the typical inept stupidity
  found in most Bitcoin critics.
 
