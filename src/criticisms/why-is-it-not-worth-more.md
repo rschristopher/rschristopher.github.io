@@ -206,4 +206,3 @@ As such, using Bitcoin is a choice,
  a better future.
 
 
-!!! warning "work in progress"
