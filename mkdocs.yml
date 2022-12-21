@@ -86,9 +86,6 @@ nav:
           - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Commerce:
         - commerce/index.md
-        - Exchanges: 
-          - commerce/exchanges/index.md
-          - Peer-to-Peer: commerce/exchanges/peer-to-peer.md
         - Payments:
           - commerce/payments/index.md
           - Base Layer (on-chain): commerce/payments/base-layer.md
