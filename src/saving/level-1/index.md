@@ -45,14 +45,14 @@ Bitcoin reaches final international settlement quickly,
 If you can acquire
  Bitcoin directly without an exchange
  then you may want to skip to
- [level-2](level-2/).
+ [level-2](../level-2/).
 
 Here are some alternative ways
  to get Bitcoin (without an exchange).
 
 * get paid in Bitcoin -- you know someone who is willing to pay you in Bitcoin directly
 * trade with someone -- similar to above, you have something to sell and the buyer can pay directly in Bitcoin
-* Bitcoin ATM
+* [Bisq](https://bisq.network/) or [localbitcoins.com](https://localbitcoins.com/) -- useful for the privacy conscious, peer-to-peer exchanges which assume you are already on [level-2](../level-2/)
 * Azteco Dealer
 
 There are many 
