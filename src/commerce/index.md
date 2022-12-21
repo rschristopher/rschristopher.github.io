@@ -11,19 +11,19 @@ Under a Bitcoin Standard,
 Here is an overview of the different levels.
 
 * [Level 1: Customer](level-1) -- 
- buying goods
+ buying and selling goods
  and services using Bitcoin
  (both lightning and 
  final settlement on the base layer).
 * [Level 2: Hosted Provider](level-2) --
- selling goods and services using Bitcoin
- with a hosted service provider.
+ use a hosted payment system
+ for your business or hobby.
 * [Level 3: Self Hosted](level-3) --
  use a self-hosted payment system
- for your own hobby or business.
+ for your business or hobby.
 * [Level 4: Full Node](level-4) --
  run a dedicated full node (and lightning
- node) for your own business.
+ node) for your business or hobby.
 * [Level 5: Private Channels](level-5) --
  establish private lightning channels
  with local suppliers and partners.
