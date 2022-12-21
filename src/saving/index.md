@@ -15,7 +15,7 @@ And in general, the best we have, is that
 Maybe one day we will, and we'll realize 
  there was a fundamental flaw that everyone missed.
 But until then, Bitcoin remains as true as anything we
- can know, making it the the hardest and
+ can know, making it the hardest and
  most secure money in the world.
 
 Ready to get started? But where to start?
