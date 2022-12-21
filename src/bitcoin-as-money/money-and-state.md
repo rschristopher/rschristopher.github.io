@@ -98,7 +98,7 @@ Separating money from human control, from
  we face.
 
 !!! quote "I care not who controls a nation’s political affairs, so long as I control her currency"
-    – Mayer Amschel Rothschild
+    *– Mayer Amschel Rothschild*
 
 
 
@@ -126,6 +126,8 @@ Primitive forms of money are as universal as
     even the most secular and supposedly 
     "enlightened" money designs are ostensibly
     a form of ancestor worship.
+
+    ![face-on-money](/images/faces-on-money.jpg)
 
     These animistic tokens functioned well-enough
     for primitive economies,
@@ -192,21 +194,25 @@ Of the hundreds of
  is the USD petrodollar.
 
 ???+ info "USD, a brief history"
-    The USD used to be backed by gold.
+    The USD was once backed by gold.
     The very definition of USD was
     a measure of gold.
     It was worth roughly $20/ounce.
     You can still find "double eagle" gold coins,
     roughly one ounce of gold, with the words,
     "twenty dollars", printed very clearly
-    on the front of the coin.
+    on the coin.
+    Paper notes, meanwhile, were gold certificates
+    (redeemable for gold).
+
+    ![gold certificate](/images/1905-gold-certificate.jpg)
 
     In 1933,
     private gold was seized by the federal
     government through executive order
     [6102](https://en.m.wikipedia.org/wiki/Executive_Order_6102).
     A twenty dollar bill was no longer
-    a "gold certificate".
+    a "gold certificate" but instead a Federal Reserve note.
     International settlements still happened in gold,
     but the USD was debased to $35/ounce
     (extracting wealth from the American
@@ -217,12 +223,13 @@ Of the hundreds of
     the $35/ounce rate was guaranteed
     for all international settlements,
     which continued the legacy
-    of the gold standard.
+    of the gold standard,
+    albeit not available to the people of the US.
 
-    The Bretton Woods system ended in 1971,
+    The Bretton Woods system ended in 1971
     with the
-    [Nixon shock](https://en.m.wikipedia.org/wiki/Nixon_shock)
-    and shortly after, in 1974,
+    [Nixon shock](https://en.m.wikipedia.org/wiki/Nixon_shock),
+    and shortly after -- in 1974 --
     the petrodollar system emerged.
     Fiat-funded economists proclaimed that the
     price of gold would drop,
@@ -280,6 +287,6 @@ The solution can only be a new form of money,
 Bitcoin has all the properties necessary
  to be the solution.
 And while the truth of Bitcoin
- may take several generations to fully prove out,
+ may take several generations to fully prove,
  there is no more important problem for us to solve.
 
