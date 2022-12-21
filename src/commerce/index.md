@@ -1,6 +1,5 @@
 # Commerce
 
-!!! warning "work in progress"
 
 Under a Bitcoin Standard,
  commerce is the exchange of Bitcoin
@@ -8,22 +7,26 @@ Under a Bitcoin Standard,
  payments over the Lightning network, to
  final international settlement on the base layer.
 
+
+!!! warning "work in progress"
+
+
 Here is an overview of the different levels.
 
-* [Level 1: Customer](level-1) -- 
+* [Level 1: Getting Started](level-1) -- 
  buying and selling goods
  and services using Bitcoin
  (both lightning and 
  final settlement on the base layer).
-* [Level 2: Hosted Provider](level-2) --
+* [Level 2: Payment Service](level-2) --
  use a hosted payment system
  for your business or hobby.
 * [Level 3: Self Hosted](level-3) --
- use a self-hosted payment system
- for your business or hobby.
+ use a self hosted payment system
+ integrated into self custody.
 * [Level 4: Full Node](level-4) --
  run a dedicated full node (and lightning
- node) for your business or hobby.
+ node).
 * [Level 5: Private Channels](level-5) --
  establish private lightning channels
  with local suppliers and partners.

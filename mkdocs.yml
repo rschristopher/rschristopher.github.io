@@ -61,29 +61,33 @@ nav:
     - Saving:
         - saving/index.md
         - Understand the Terms: saving/understand-the-terms.md
-        - Why Self Sovereignty: saving/why-self-custody.md
-        - "Level 1: Getting Started": saving/level-1/index.md
-        - "Level 2: Your Keys": saving/level-2/index.md
-        - "Level 3: Dedicated Hardware": saving/level-3/index.md
-        - "Level 4: Full Node": saving/level-4/index.md
-        - "Level 5: Airgap Quarantine": saving/level-5/index.md
-        - "Level 6: Metal Backup": saving/level-6/index.md
+        - Self Custody:
+            - saving/self-custody/index.md
+            - "Level 1: Getting Started": saving/self-custody/level-1.md
+            - "Level 2: Your Keys": saving/self-custody/level-2.md
+            - "Level 3: Dedicated Hardware": saving/self-custody/level-3.md
+            - "Level 4: Full Node": saving/self-custody/level-4.md
+            - "Level 5: Airgap Quarantine": saving/self-custody/level-5.md
+            - "Level 6: Metal Backup": saving/self-custody/level-6.md
         - Wealth Preservation: 
-          - saving/wealth/index.md
-          - Full Privacy: saving/wealth/full-privacy.md
-          - Inheritance Planning: saving/wealth/inheritance.md
-          - Physical Security: saving/wealth/physical-security.md
-        - "Level 7: Protocols + Multisig": saving/level-7/index.md
-        - "Level 8: DMZs": saving/level-8/index.md
-        - "Level 9: Fault Tolerance": saving/level-9/index.md
-        - "Level 10: Fail-safes": saving/level-10/index.md
-        - "Level 11: Countermeasures": saving/level-11/index.md
-        - "Level 12: Off-grid Operations": saving/level-12/index.md
+            - saving/wealth/index.md
+            - Full Privacy: saving/wealth/full-privacy.md
+            - Inheritance Planning: saving/wealth/inheritance.md
+            - Physical Security: saving/wealth/physical-security.md
+        - Self Sovereignty:
+            - saving/self-sovereignty/index.md
+            - "Level 7: Protocols + Multisig": saving/self-sovereignty/level-7.md
+            - "Level 8: DMZs": saving/self-sovereignty/level-8.md
+            - "Level 9: Fault Tolerance": saving/self-sovereignty/level-9.md
+            - "Level 10: Fail-safes": saving/self-sovereignty/level-10.md
+            - "Level 11: Countermeasures": saving/self-sovereignty/level-11.md
+            - "Level 12: Off-grid Operations": saving/self-sovereignty/level-12.md
         - Appendix:
-          - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
-          - "A: Using Dice": saving/appendix/dice.md
-          - "A: Custom Protocols": saving/appendix/custom.md
-          - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
+            - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
+            - "A: Using Dice": saving/appendix/dice.md
+            - "A: Custom Protocols": saving/appendix/custom.md
+            - "A: Keyless Vaults": saving/appendix/keyless-vaults.md
+            - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Commerce:
         - commerce/index.md
         - Payments:

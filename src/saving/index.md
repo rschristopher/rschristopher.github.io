@@ -62,11 +62,13 @@ In fact, I'd recommend to start with skepticism
 
 !!! info "*The more one learns about Bitcoin, the more one supports Bitcoin.*"
  
-Here is an overview of the levels along with 
+Below is an overview of the levels along with 
  a rough guide on the amount of wealth
  appropriate at each level (that is,
  how much a reasonable person should
  feel comfortable with at each level).
+
+## Self Custody
 
 * [Level 1: Getting Started](level-1/) -- Save Bitcoin on a reputable exchange (a small amount that you can risk losing).
 * [Level 2: Your Keys](level-2/) -- Save Bitcoin on a home computer + smartphone (a small amount that you can risk losing).
@@ -75,22 +77,28 @@ Here is an overview of the levels along with
 * [Level 5: Airgap Quarantine](level-5/) -- Save Bitcoin with greater security than any bank ever could (as much as you'd be comfortable hiding under your mattress).
 * [Level 6: Metal Backup](level-6/) -- Save Bitcoin with metal backups that can survive a house fire and/or natural disaster (as much as your house is worth).
 
-*Pause* here for
+## Wealth Preservation
+
+Before advancing to higher levels of
+ self custody (self sovereignty)
+ it is recommended to first focus on
  [Wealth Preservation](wealth/)
- discussions,
+ strategies,
  because at this level you should also
- be thinking about other critical topics:
+ be thinking about
  *privacy, inheritance planning,
  and physical security*.
+
 Level 7 and above are use-case specific
  and not as universally relevant as
  the prior levels. 
 At this point you can already store any
  amount of wealth
  (even extreme amounts of wealth)
- with more security than any
+ with more security than any bank or
  institutional custody system could ever offer.
 
+## Self Sovereignty
 * [Level 7: Protocols + Multisig](level-7/) -- Protocols to manage the complexity of multi-signature keys.
 * [Level 8: DMZs](level-8/) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
 * [Level 9: Fault Tolerance](level-9/) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
@@ -101,5 +109,4 @@ At this point you can already store any
 
 Before you begin this journey and question everything you thought you knew about money,
  I recommend that you first read:
- [understand the terms](understand-the-terms.md),
- and [why self custody](why-self-custody.md).
+ [understand the terms](understand-the-terms.md)
