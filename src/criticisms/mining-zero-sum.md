@@ -20,7 +20,7 @@ Miners are incentived to hurt their competition
  in order to increase their own survival which
  is under constant threat.
 
-## Issuance and Settlement 
+## The bigger they are ...
 
 Bitcoin mining serves two goals: issuance and
  settlement of transactions (through blocks).
@@ -51,7 +51,7 @@ That is, can Bitcoin survive and flourish
  after the last block subsidy is paid?
 We'll know for sure in the year 2140.
 
-## The bigger they are, the easier they fall
+## The easier they fall
 
 Unlike gold mining, Bitcoin miners are in
  constant and direct competition with each
@@ -84,7 +84,7 @@ This forces miners into survival mode, and as the weak
 Unlike saving in Bitcoin, which enables low time-preference long-term thinking, 
  mining is a high time-preference, high risk game.
 
-On the other hand, is such a cutthroat adversarial
+Is such a cutthroat adversarial
  zero sum game sustainable? 
 For an individual miner, the
  answer most assuredly is no.
