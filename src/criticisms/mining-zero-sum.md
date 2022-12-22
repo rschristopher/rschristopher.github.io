@@ -68,7 +68,7 @@ Such is the nature of any zero sum adversarial game.
 
 On one hand, this benefits decentralization,
  as any attempt to monopolize mining will result
- in inevitable disintegration, and the cost
+ in inevitable attack and disintegration, and the cost
  of bureaucratic overhead will make the larger
  miners feel the most pain.
 Mining, even if the value of Bitcoin was stable,
