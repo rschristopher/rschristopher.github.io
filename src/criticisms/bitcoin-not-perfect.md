@@ -50,37 +50,21 @@ It is important to remember that Bitcoin is not, and need not be, perfect.
 Bitcoin only needs to be true,
  sufficiently true that it cannot be stopped or centralized.
 
-This is also a problem amongst Bitcoiners.
-For example, there are many fanatic Bitcoiners
- that simply do not use lightning payment
- rails out of concern for privacy;
- they do not run private lightning channels
- and learn how to secure their node --
- instead, they continue to use fiat
- payment rails 
- (with a kind of blindspot to the privacy problems with fiat)
- and they will say "more work needs to be done for lightning adoption".
-And while this is true -- more work is always needed --
- we do not wait for others to do the work.
-If we're capable of informed criticism, then
- we're capable of contributing to a 
- [BIP](https://river.com/learn/what-is-a-bitcoin-improvement-proposal-bip/).
-
 
 ## Good enough?
 
-To push this criticism into true steelman territory,
+To push this criticism into steelman territory,
  let's consider that there does exist a set of 
- necessary conditions for the truth of Bitcoin
- to materialize now and in the future.
+ necessary conditions for Bitcoin
+ to survive now and in the future.
 If not *perfect*, 
  it must be *good enough*.
 But what does that mean for Bitcoin to be *good enough*?
 
 Bitcoin requires a sufficiently
- advanced civilization to have electricity, computers,
+ advanced civilization with electricity, computers,
  and a global network.
-Bitcoin will need self-interested developers,
+Bitcoin will also need self-interested developers,
  and self-interested users,
  and self-interested miners --
  all to preserve the value and decentralization
@@ -90,16 +74,17 @@ While this does exist now, there is no reason
 Adopting Bitcoin is very much an act of *faith* --
 Faith that civilization can and should persist,
  that human progress will and should continue,
- and that a universal unit-of-account is beneficial to these ends.
+ and that a universal unit-of-account is beneficial towards these ends.
 
 To not believe in the above (with sufficient faith, beyond just rational self-interest)
  is to bow to a form nihilism that not even Bitcoin could survive.
 In other words, Bitcoin depends on human civilization to survive and flourish.
+If humans cannot make it, then neither can Bitcoin.
 
-Even with this faith in human civilization,
+However, even with faith in human civilization,
  there are some very difficult compromises
  that Bitcoin has faced, and will continue to face.
-Most pressing is privacy and decentralization.
+Most concerning is privacy and decentralization.
 Bitcoin is not perfectly decentralized,
  and it is not perfectly private.
 Compromises were made.
@@ -109,53 +94,131 @@ Compromises were made.
 
 In order to provide full transparency and
  full auditability of its supply, Bitcoin
- is pseudonymous and not fully private
- nor anonymous.
+ is not fully private nor anonymous
+ -- it is pseudonymous.
 In other words, sending and receiving Bitcoin
  is like writing under a pseudonym.
-You can create as many wallets each with
- as many addresses as you like.
+You can create as many wallets 
+ (each with as many addresses) as you like.
 Bitcoin gives you the tools for privacy,
- but it guarantees nothing; you can reuse
- addresses and even disclose them to whoever
- you like.
+ but it guarantees nothing; you could
+ disclose your addresses allowing others to surveil 
+ your Bitcoin.
 As a result, it is not and never can be as
  private as cash.
+
+This is even a problem amongst Bitcoiners.
+For example, there are many fanatic Bitcoiners
+ that simply do not use lightning payment
+ rails out of concern for privacy;
+ they do not run private lightning channels
+ and learn how to secure their nodes --
+ instead, they continue to use fiat
+ payment rails 
+ (with a kind of blindspot to the privacy problems with fiat)
+ and they will say "more work needs to be done for lightning adoption".
+And while this is true -- more work is always needed --
+ we do not wait for others to do the work.
+
+!!! danger "If you're capable of informed criticism, then you're capable of contributing to a [BIP](https://river.com/learn/what-is-a-bitcoin-improvement-proposal-bip/)"
+
+Ultimately, there is no perfect privacy,
+ there is only a cultural attitude to value
+ and fight for privacy (or not).
+Bitcoin provides us with sufficient tools
+ for privacy, but the rest is up to us.
+Cryptography provides us an asymmetric advantage
+ to favor privacy, but
+ we cannot expect any cryptographic
+ system to guarantee privacy if we
+ ourselves don't value it.
+
+
 
 
 ### Imperfect decentralization
 
-There are many centralizing aspects to Bitcoin.
-Perhaps the most interesting area is
- Bitcoin mining.
+Bitcoin compromises decentralization
+ in order to maintain a fully auditable
+ fixed supply with no conflicts -- an undisputed ledger.
+Specifically, the consensus rules solve
+ any disputes in the ledger
+ through proof-of-work consensus.
+In a conflict (divergent timechains)
+ the chain with the most proof-of-work
+ will win, the other chain will lose
+ (erasing those transactions).
+
+Most of the [whitepaper](/images/bitcoin.pdf)
+ was dedicated to this exact problem,
+ the famed
+ 51% attack:
+ if anyone could
+ achieve 51% or more of the total
+ network hashrate (the *work* in proof-of-work)
+ then they could control the network.
+They could use this power for good or evil,
+ but it's centralized either way.
+This is why the security of the network
+ depends on the enormous cost (in terms of money and ingenuity)
+ of a 51% attack over a given number of blocks.
+
 Mining benefits from
  economies of scale
- and as such we do see larger and larger mining companies
+ and as such we did see larger and larger mining companies
  with early signs of monopolization --
  right up until they went
  bankrupt.
-Because 
+Fortunate to the health of the network (but not to the miners), 
  [mining is zero sum](mining-zero-sum.md)
- it has so far proved impossible to monopolize.
-However, there is no guarantee that there
+ and it has so far proved impossible to monopolize.
+
+!!! danger "diseconomies of scale within Bitcoin mining must always be greater than its economies of scale"
+
+There is no guarantee that there
  will never be a mining monopoly --
  and while this is not necessarily a risk to the
  fixed supply, this is a severe risk to
  transaction processing.
-If you want a transaction in the timechain
- (the immutable ledger),
+If you want a transaction in the ledger
  you go through miners,
  and if mining was ever monopolized,
  there would be a centralized
- point of control of who could and could not
+ point-of-control of who could
+ (and could not)
  transact on chain.
+A miner with a majority of the hashrate
+ could simply ignore all other miners,
+ knowing full well it will always win
+ any divergent timechains, meaning
+ its mempool selection would be the
+ only one that matters.
+
+This would effectively
+ prove Bitcoin false.
+Because it would be centralized,
+ the monopoly miner would be the sole arbiter 
+ for all international settlements.
+They could set any premiums they
+ wanted on transaction fees.
+They could censor any/all transactions.
+They could push people to
+ second layer payment rails that
+ they control (as they could censor
+ all competition), giving them
+ full control over currency.
+And they could do all this without
+ breaking consensus rules.
+Eventually, even the power of seigniorage
+ could be gained (on a second layer)
+ and the system would 
+ become yet another bloated fiat monetary system.
 
 
 
 
 
 
-!!! warning "work in progress"
 
 
 
