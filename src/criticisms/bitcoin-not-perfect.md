@@ -1,3 +1,3 @@
-# Bitcoin is not 
+# Bitcoin is not Perfect 
 
 !!! warning "work in progress"
