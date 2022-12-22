@@ -121,7 +121,7 @@ With this level of control,
 Better if they had evil intent and broke
  consensus by changing the supply, for then
  it would result in a hard fork,
- and users could choose which to store
+ and users could choose which chain to store
  their wealth.
 For Bitcoin to be true, any attempt at
  monopolizing mining must fail.
