@@ -116,7 +116,7 @@ Such an entity would not break consensus rules
  mempool and transaction fees.
 With this level of control,
  such a good intentioned
- monopoly will be the downfall of Bitcoin's
+ monopoly would be the downfall of Bitcoin's
  decentralization.
 Better if they had evil intent and broke
  consensus by changing the supply, for then
