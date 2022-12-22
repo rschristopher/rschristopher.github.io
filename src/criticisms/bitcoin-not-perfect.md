@@ -3,7 +3,7 @@
 This is one of the most common themes of critique,
  especially when a critic is engaged in debate with a Bitcoiner.
 Once you see the pattern you'll see it everywhere.
-The critic simply claims a percieved weakness
+The critic simply claims that a percieved weakness
  is more important and relevant
  than it actually is.
 Here are some of the most common examples of this strategy:
