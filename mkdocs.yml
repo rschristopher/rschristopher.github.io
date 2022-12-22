@@ -48,6 +48,7 @@ nav:
           - Money and State: bitcoin-as-money/money-and-state.md
         - Criticisms:
           - criticisms/index.md
+          - Bitcoin is not Perfect: criticisms/bitcoin-not-perfect.md
           - Cantillon Bubbles: criticisms/cantillon.md
           - Deflation: criticisms/deflation.md
           - Environment: criticisms/environment.md
