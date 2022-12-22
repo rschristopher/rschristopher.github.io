@@ -6,8 +6,8 @@
 > where the rotting corpses of past heroes are picked
 > apart, scavenged by hash-hungry parasites,
 > fighting, hashing, surviving,
-> until they become that rotting corpse they
-> so hungrily devour,
+> until they become the rotting corpse they
+> so hungrily devoured,
 > for it cannot be otherwise.
 
 The game theory of Bitcoin mining is quite
@@ -51,7 +51,7 @@ That is, can Bitcoin survive and flourish
  after the last block subsidy is paid?
 We'll know for sure in the year 2140.
 
-## Zero Sum
+## The bigger they are, the easier they fall
 
 Unlike gold mining, Bitcoin miners are in
  constant and direct competition with each
@@ -94,4 +94,7 @@ However, as long as people are able and
 Ugly and embattled, will it be sufficient?
 Time will tell.
 
-
+> Therefore is the name of it called Babel;
+> because the Lord did there confound the language of all the earth:
+> and from thence did the Lord scatter them abroad upon the face of all the earth.
+> - Genesis 11:9
