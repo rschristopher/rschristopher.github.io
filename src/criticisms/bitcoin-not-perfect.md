@@ -210,9 +210,20 @@ They could push people to
 And they could do all this without
  breaking consensus rules.
 Eventually, even the power of seigniorage
- could be gained (on a second layer)
+ could be gained (on a secondary layer)
  and the system would 
  become yet another bloated fiat monetary system.
+
+Only time will tell whether
+ the game theory behind Bitcoin
+ is sufficient to ensure decentralization.
+And perhaps it will come down to a small
+ group of zealots that understand this
+ problem and build their own decentralized
+ mining infrastructure.
+Whatever happens will happen, and it should
+ be clear that Bitcoin is far from a sure thing,
+ but it is ours to lose if we don't pull this off.
 
 
 
