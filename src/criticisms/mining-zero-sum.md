@@ -12,49 +12,72 @@
 > for it cannot be otherwise.
 > 
 
-The game theory of Bitcoin mining is quite
- contrary to the game theory of saving in Bitcoin.
-Saving in Bitcoin is a positive sum game,
- increasing in value as a measure of adoption
- and of civilization itself.
-Mining though is a zero-sum adversarial game.
-And it is the foundation of the entire
- Bitcoin network.
-Miners are incentived to hurt their competition
- in order to increase their own survival which
- is under constant threat.
+The game theory of the Bitcoin ecosystem
+ is positive sum game which incentives
+ cooperative behavior.
+It is a marvel of technology and economics,
+ resulting in the most sound money the
+ world has ever known.
+Yet this entire system sits atop an
+ adversarial and zero sum game
+ known as mining.
+And while mining is better understood as a
+ decentralized payment processor, 
+ the market dynamics and incentives are
+ a cutthroat zero sum game.
+
 
 ## The bigger they are ...
 
-Bitcoin mining serves two goals: issuance and
- settlement of transactions (through blocks).
-Issuance is the block reward of new Bitcoin
- which follows 
- a predictable schedule
- (encoded in the protocol and
- enforced by the savers that give
- Bitcoin its monetary value).
-Meanwhile every block added to the timechain provides
- a chronological order of transactions (based on
- block height).
-Adding a transaction into a 
- block means final international settlement,
- and transaction fees are paid to the miners
- to make sure this happens.
-This effectively makes miners decentralized
- payment processors.
+Roughly every ten minutes a new block is found
+ (mined) which increases the total supply.
+Every 2016 blocks the network difficulty
+ adjusts to ensure that the issuance
+ is on schedule (one new block every ten minutes).
+And every four years the issuance is halved
+ (the famed "halvings").
+This may seem simple in theory,
+ but in practice the difficulty adjustment
+ means that miners are in direct competition
+ with each other.
 
-This dual purpose of mining is necessary due to the fixed
- supply schedule, and in the future this will result
- in miners operating solely on fees, that is,
- no new issuance, but simply *proof-of-work* to
- ensure new blocks, new settlements on the
- timechain (final international settlements).
-This will be an important test for the truth of
- Bitcoin.
-That is, can Bitcoin survive and flourish
- after the last block subsidy is paid?
-We'll know for sure in the year 2140.
+Imagine 
+ a mining farm which mines ~10 blocks per day
+ (out of 144 daily average).
+They are profitable so they upgrade,
+ adding a new fleet of machines 
+ and double their hashrate.
+At first they
+ mine ~20 blocks per day -- however, that
+ means that the daily average went
+ from 144 to 154.
+This would result in a difficulty adjustment
+ that brings the daily average back to 144.
+Despite doubling their hashrate,
+ they're now mining ~18 blocks per day,
+ and critically, all other
+ miners suffered equally.
+
+Now imagine this miner goes out of business,
+ they're no longer mining 
+ so the daily average drops from 144
+ to 126.
+The next difficulty adjustment will bring
+ the average back to 144 (lowering the network difficulty).
+Immediately, other miners see an increase (as it's now less difficult to mine blocks).
+A miner receiving ~20 blocks per day would
+ now be mining ~23 blocks.
+
+This increased profitability might cause the
+ miner that doubled their hashrate to
+ get back in the game.
+They turn all their machines back on, and
+ sure enough, ~23 blocks per day --
+ until the next difficulty adjustment,
+ and their daily average drops to ~18
+ as it was before.
+
+
 
 
 ## The easier they fall
@@ -101,7 +124,7 @@ Ugly and embattled, will it be sufficient?
 Time will tell.
 
 Most worrisome of all, is not the bad actors,
- but of honest actors who potentially gain
+ but the honest actors who potentially become
  a monopoly on mining.
 Such an entity would not break consensus rules
  (being honest and good intentioned),
