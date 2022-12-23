@@ -64,18 +64,21 @@ Now imagine this miner goes out of business,
  to 126.
 The next difficulty adjustment will bring
  the average back to 144 (lowering the network difficulty).
-Immediately, other miners see an increase (as it's now less difficult to mine blocks).
+Immediately, other miners see an increase 
+ (as it's now less difficult to mine blocks).
 A miner receiving ~20 blocks per day would
  now be mining ~23 blocks.
 
 This increased profitability might cause the
- miner that doubled their hashrate to
- get back in the game.
+ out-of-business mining farm to
+ get back into the game.
 They turn all their machines back on, and
  sure enough, ~23 blocks per day --
- until the next difficulty adjustment,
- and their daily average drops to ~18
- as it was before.
+ until the next difficulty adjustment --
+ and then their daily average 
+ drops back to ~18, hurting
+ everyone else in the process.
+
 
 
 
@@ -108,9 +111,10 @@ This forces miners into survival mode, and as the weak
  miners fail this will tip the surviving miners
  into a moment of increased profitability,
  which will attract
- more people to try to mine,
+ more entrepreneurs
  and the cycle repeats, forever.
-Unlike saving in Bitcoin, which enables low time-preference long-term thinking, 
+Unlike saving in Bitcoin, which encourages 
+ low time preference long-term thinking, 
  mining is a high time-preference, high risk game.
 
 Is such a cutthroat adversarial
@@ -129,8 +133,8 @@ Most worrisome of all, is not the bad actors,
 Such an entity would not break consensus rules
  (being honest and good intentioned),
  but for their own survival would
- centralize mining, ignoring blocks
- from other miners, controlling the
+ ignore blocks from other miners, 
+ controlling the
  mempool and transaction fees.
 With this level of control,
  such a good intentioned
@@ -141,10 +145,12 @@ Better if they had evil intent and broke
  it would result in a hard fork,
  and users could choose which chain to store
  their wealth.
+
 For Bitcoin to be true, any attempt at
  monopolizing mining must fail.
 The adversarial zero sum game must be sustainable
- and sufficient to destroy centralization of mining.
+ and also sufficient to prevent 
+ the centralization of mining.
 
 > Therefore is the name of it called Babel;
 > 
