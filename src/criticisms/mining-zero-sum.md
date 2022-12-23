@@ -12,19 +12,21 @@
 > for it cannot be otherwise.
 > 
 
-The game theory of the Bitcoin ecosystem
- is positive sum game which incentives
+The game theory of Bitcoin is well regarded 
+ as positive sum and incentivizing 
  cooperative behavior.
 It is a marvel of technology and economics,
  resulting in the most sound money the
  world has ever known.
 Yet this entire system sits atop an
- adversarial and zero sum game
+ adversarial and zero sum competition 
  known as mining.
-And while mining is better understood as a
- decentralized payment processor, 
+And while mining is better understood as
+ decentralized payment processing, 
  the market dynamics and incentives are
  a cutthroat zero sum game.
+
+
 
 
 ## The bigger they are ...
@@ -39,31 +41,37 @@ And every four years the issuance is halved
 This may seem simple in theory,
  but in practice the difficulty adjustment
  means that miners are in direct competition
- with each other.
+ with each other, and worse, the iterated
+ version of the game is negative sum.
 
 Imagine 
- a mining farm which mines ~10 blocks per day
+ a big mining farm
+ which mines ~10 blocks per day
  (out of 144 daily average).
 They are profitable so they upgrade,
- adding a new fleet of machines 
- and double their hashrate.
+ adding new fleets of machines
+ in order to double their hashrate.
 At first they
  mine ~20 blocks per day -- however, that
  means that the daily average went
  from 144 to 154.
-This would result in a difficulty adjustment
+This results in a difficulty adjustment
  that brings the daily average back to 144.
 Despite doubling their hashrate,
- they're now mining ~18 blocks per day,
+ the higher difficulty means
+ they're only mining ~18 blocks per day,
  and critically, all other
  miners suffered equally.
 
-Now imagine this miner goes out of business,
- they're no longer mining 
- so the daily average drops from 144
+After the halving this miner finds themselves
+ losing money, ~18 blocks per day is not enough
+ to stay in business.
+They shut the machines off.
+The daily average drops from 144 blocks
  to 126.
 The next difficulty adjustment will bring
- the average back to 144 (lowering the network difficulty).
+ the average back to 144 
+ (lowering the network difficulty).
 Immediately, other miners see an increase 
  (as it's now less difficult to mine blocks).
 A miner receiving ~20 blocks per day would
@@ -79,6 +87,17 @@ They turn all their machines back on, and
  drops back to ~18, hurting
  everyone else in the process.
 
+The only chance for this beleaguered mining
+ farm to have any hope of survival is
+ if other miners drop out first.
+They take out loans, and relocate to find
+ cheaper energy.
+And in all their desperate moves, are they
+ planning for the next halving?
+What about the next generation of mining
+ machines?
+Will they take out even more loans?
+
 
 
 
@@ -90,7 +109,7 @@ Unlike gold mining, Bitcoin miners are in
  other, such that the fortune of one will
  come at the expense of all others.
 And hurting one miner will directly benefit
- the others.
+ all other miners.
 Miners that succeed will find
  their profits dwindle over time even as revenue grows.
 Reserves will be tested and depleted as more
@@ -100,12 +119,13 @@ Such is the nature of any zero sum adversarial game.
 
 On one hand, this benefits decentralization,
  as any attempt to monopolize mining will result
- in inevitable attack and disintegration, and the cost
+ in inevitable attack and disintegration,
+ and the cost
  of bureaucratic overhead will make the larger
- miners feel the most pain.
+ miners suffer most.
 Mining, even if the value of Bitcoin was stable,
  is like a continuous arbitrage opportunity
- (finding cheap enough electricity to power advanced enough miners),
+ (finding cheap enough electricity to power advanced enough machines),
  with profits that inevitably diminish through competition.
 This forces miners into survival mode, and as the weak
  miners fail this will tip the surviving miners
@@ -127,19 +147,31 @@ However, as long as people are able and
 Ugly and embattled, will it be sufficient?
 Time will tell.
 
+
+
+## I'm new to mining and here to fix it
+
 Most worrisome of all, is not the bad actors,
- but the honest actors who potentially become
- a monopoly on mining.
-Such an entity would not break consensus rules
- (being honest and good intentioned),
- but for their own survival would
- ignore blocks from other miners, 
+ but the good-intentioned and honest actors.
+Such honest and good-intentioned miners
+ would not break consensus rules
+ but for their own survival might ally
+ into a monopoly and
+ comply with regulatory agencies,
+ ignoring blocks from other miners
+ (the "bad" miners), 
  controlling the
  mempool and transaction fees.
 With this level of control,
- such a good intentioned
+ a good intentioned
  monopoly would be the downfall of Bitcoin's
  decentralization.
+To not get your transaction processed by the
+ monopoly mining pool is to risk it being
+ ignored and overwritten in a chain reorg.
+Despite their good-intentions, the monopoly
+ miner would lead to the same regulatory
+ capture as we see with fiat.
 Better if they had evil intent and broke
  consensus by changing the supply, for then
  it would result in a hard fork,
@@ -150,7 +182,13 @@ For Bitcoin to be true, any attempt at
  monopolizing mining must fail.
 The adversarial zero sum game must be sustainable
  and also sufficient to prevent 
- the centralization of mining.
+ the centralization of mining,
+ even amongst those foolish enough
+ to bring their good intentions into
+ the adversarial world of mining.
+Mining is, and must remain, an adversarial
+ and cutthroat 
+ zero sum game.
 
 > Therefore is the name of it called Babel;
 > 
