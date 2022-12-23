@@ -53,7 +53,7 @@ nav:
           - Deflation: criticisms/deflation.md
           - Environment: criticisms/environment.md
           - Inequality: criticisms/inequality.md
-          - Mining is Zero-sum: criticisms/mining-zero-sum.md
+          - Mining is Negative Sum: criticisms/mining-zero-sum.md
           - Quantum Computing: criticisms/quantum-computing.md
           - Scalability: criticisms/scalability.md
           - Surveillance: criticisms/surveillance.md
