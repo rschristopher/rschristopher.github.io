@@ -1,4 +1,4 @@
-# Mining is Zero Sum
+# Mining is Negative Sum
 
 > The Bitcoin mines.
 > 
