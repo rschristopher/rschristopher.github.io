@@ -1,4 +1,4 @@
-# Mining is Negative Sum
+L# Mining is Negative Sum
 
 > The Bitcoin mines.
 > 
@@ -149,7 +149,7 @@ Time will tell.
 
 
 
-## I'm new to mining and here to fix it
+## The tower of good intentions 
 
 Most worrisome of all, is not the bad actors,
  but the good-intentioned and honest actors.
