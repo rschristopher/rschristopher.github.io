@@ -2,17 +2,17 @@
 
 > The Bitcoin mines.
 > 
-> The dark underworld;
-> The arena;
-> The chaotic fringe; 
-> The garment of skin.
-> It is here where heroes are forged,
-> confronting death himself.
-> Behold, the wasteland of rekt dreams and abandoned code.
+> The dark underworld;  
+> The arena;  
+> The chaotic fringe;   
+> The garment of skin.  
+> It is here where heroes are forged,  
+> confronting death himself.  
+> Behold, the wasteland of rekt dreams and abandoned code.  
 > Rotting corpses of past heroes are picked
-> apart, scavenged by hash-hungry parasites;
-> fighting, hashing, surviving.
-> The blood of the martyrs cries out.
+> apart, scavenged by hash-hungry parasites;  
+> fighting, hashing, surviving.  
+> The blood of the martyrs cries out.  
 > Only He who overcame death stands triumphant,
 > for it cannot be otherwise.
 > 
