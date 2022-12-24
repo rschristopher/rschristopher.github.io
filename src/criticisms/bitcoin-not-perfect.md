@@ -107,7 +107,7 @@ Bitcoin gives you the tools for privacy,
 As a result, it is not and never can be as
  private as cash.
 
-This is even a problem amongst Bitcoiners.
+Privacy is even a problem amongst Bitcoiners.
 For example, there are many fanatic Bitcoiners
  that simply do not use lightning payment
  rails out of concern for privacy;

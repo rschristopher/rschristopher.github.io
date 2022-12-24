@@ -7,7 +7,7 @@
 > The chaotic fringe;   
 > Behold, the wasteland of rekt dreams and abandoned code.  
 > Fighting, Hashing, Surviving.  
-> The blood of the martyrs cries out.  
+> The blood of martyrs cries out.  
 > Only He who overcame death stands triumphant,
 > for it cannot be otherwise.
 > 
@@ -21,10 +21,14 @@ It is a marvel of technology and economics,
 Yet this entire system sits atop an
  adversarial and zero sum competition 
  known as mining.
-And while mining is better understood as
+
+While mining can be better understood as
  decentralized payment processing, 
  the market dynamics and incentives are
  a cutthroat zero sum game.
+Worse still, an iterative version of this game
+ is a negative sum game.
+
 
 
 
