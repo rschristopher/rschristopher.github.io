@@ -159,8 +159,8 @@ Time will tell.
 ## The tower of good intentions 
 
 Most worrisome of all, is not the bad actors,
- but the good-intentioned and honest actors.
-Such honest and good-intentioned miners
+ but the good-intentioned and honest miners.
+Honest and good-intentioned miners
  would not break consensus rules
  but for their own survival might ally
  into a monopoly and
@@ -173,6 +173,7 @@ With this level of control,
  a good intentioned
  monopoly would be the downfall of Bitcoin's
  decentralization.
+
 To not get your transaction processed by the
  monopoly mining pool is to risk it being
  ignored and overwritten in a chain reorg.
