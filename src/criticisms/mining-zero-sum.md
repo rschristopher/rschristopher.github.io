@@ -27,7 +27,7 @@ While mining can be better understood as
  the market dynamics and incentives are
  a cutthroat zero sum game.
 Worse still, an iterative version of this game
- is a negative sum game.
+ is negative sum.
 
 
 
@@ -45,18 +45,21 @@ And every four years the issuance is halved
 This may seem simple in theory,
  but in practice the difficulty adjustment
  means that miners are in direct competition
- with each other, and worse, the iterated
- version of the game is negative sum.
+ with each other, and worse, the halvings
+  make this a negative sum game.
 
-Imagine 
- a big mining farm
+For example,
+Imagine a big mining farm
  which mines ~10 blocks per day
  (out of 144 daily average).
-They are profitable so they upgrade,
+They are profitable so they
+ invest in their business,
  adding new fleets of machines
  in order to double their hashrate.
-At first they
- mine ~20 blocks per day -- however, that
+Once the new machines are online, this
+ big mining farm 
+ doubles their hashrate and
+ mines ~20 blocks per day -- however, that
  means that the daily average went
  from 144 to 154.
 This results in a difficulty adjustment
@@ -78,10 +81,10 @@ The next difficulty adjustment will bring
  (lowering the network difficulty).
 Immediately, other miners see an increase 
  (as it's now less difficult to mine blocks).
-A miner receiving ~20 blocks per day would
+A miner that was receiving ~20 blocks per day would
  now be mining ~23 blocks.
 
-This increased profitability might cause the
+This change might cause the
  out-of-business mining farm to
  get back into the game.
 They turn all their machines back on, and
@@ -97,7 +100,7 @@ The only chance for this beleaguered mining
 They take out loans, and relocate to find
  cheaper energy.
 And in all their desperate moves, are they
- planning for the next halving?
+ prepared for the next halving?
 What about the next generation of mining
  machines?
 Will they take out even more loans?
@@ -115,7 +118,7 @@ Unlike gold mining, Bitcoin miners are in
 And hurting one miner will directly benefit
  all other miners.
 Miners that succeed will find
- their profits dwindle over time even as revenue grows.
+ their profits dwindle over time even as overall mining revenue grows.
 Reserves will be tested and depleted as more
  and more competition enters the space.
 And there will always be more.
@@ -144,7 +147,7 @@ Unlike saving in Bitcoin, which encourages
 Is such a cutthroat adversarial
  zero sum game sustainable? 
 For an individual miner, the
- answer most assuredly is no.
+ answer is no.
 However, as long as people are able and
  willing to try their hand at this competitive 
  game, then it will continue.
@@ -190,8 +193,7 @@ The adversarial zero sum game must be sustainable
  even amongst those foolish enough
  to bring their good intentions into
  the adversarial world of mining.
-Mining is, and must remain, an adversarial
- and cutthroat 
+Ultimately, mining must remain a cutthroat
  zero sum game.
 
 > Therefore is the name of it called Babel;
