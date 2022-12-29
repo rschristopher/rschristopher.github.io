@@ -9,6 +9,7 @@ In practice, Bitcoin is deflationary money,
  prices should decrease over time,
  leading to more purchasing power
  for savers.
+
 However, this assumes the market
  of circulating coins remains
  constant in every market,
@@ -149,11 +150,22 @@ Technically, nothing about Bitcoin
 What can be done, and this may likely
  prove itself out over time,
  is stringent laws against
- amy fractional reserve and
+ fractional reserve and
  a wiser civilization where
  all individuals know that
  they must save in Bitcoin 
  (at the base layer).
+There are no guarantees, and
+ it may take several generations
+ for any culture or local
+ civilization to advance itself
+ beyond fractional reserve.
+
+Ultimately, Bitcoin presents
+ the entirety of global civilization
+ with a game that's there's to lose.
+
+
 
 
 
