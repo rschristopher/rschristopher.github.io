@@ -162,8 +162,9 @@ There are no guarantees, and
  beyond fractional reserve.
 
 Ultimately, Bitcoin presents
- the entirety of global civilization
- with a game that's there's to lose.
+ all of humanity,
+ the entirety of global civilization,
+ with a game that's ours to lose.
 
 
 
