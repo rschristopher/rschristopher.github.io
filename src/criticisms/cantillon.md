@@ -73,10 +73,10 @@ This is the definition of criminality,
 
 ### How does it work?
 
-
 Imagine an efficient local economy with
  a small circulating supply -- 
- let's say 1 Bitcoin average.
+ let's say 1 Bitcoin on average
+ with 10-20 Bitcoin in people's savings.
 Prices are in sats and traded over
  lightning with very few on-chain
  transactions
@@ -88,11 +88,11 @@ Then, one day, an outsider brings
  in 50,000 Bitcoin into this market.
 They could buy every business and
  control the entire supply chain.
-The influx of new Bitcoin can inflate
+The influx of new Bitcoin would inflate
  prices in this local market,
  leading to a mini-bubble,
  all based on the whims of this
- new -- and very wealthy --
+ very wealthy
  entity.
 
 An efficient market hypothesis
@@ -103,13 +103,13 @@ An efficient market hypothesis
 However, unlike gold, Bitcoin
  can be transferred anywhere
  on earth with relative ease.
-The now wealthy local economy
+The inflated local economy
  may even attract foreign
  investors -- further
  exacerbating the price inflation.
 
 Every local market would be vulnerable
- to thexe Cantillon bubbles,
+ to these Cantillon bubbles,
  and worse,
  those most susceptible to 
  "paper Bitcoin"
@@ -117,10 +117,43 @@ Every local market would be vulnerable
  would likely be targetted 
  by investors looking
  to extract wealth.
+An unscrupulous financier 
+ would push for fractional
+ reserve schemes in any these
+ local economies.
+Many honest people will
+ likely fall victim to
+ various "paper Bitcoin" scams.
+
+In practice, as long as there's
+ someone willing to take the bait,
+ this problem will persist.
+Localized supply shocks and price
+ inflation will happen with
+ exactly the same problems we see
+ with fiat.
+The notable difference is that
+ the scammers under a Bitcoin standard
+ will need to be more competent
+ to pull off their grift than
+ modern central bankers.
 
 
 
+## What can be done?
 
-!!! warning "work in progress"
+Technically, nothing about Bitcoin
+ will prevent this -- and because of the
+ decentralized nature it will be impossible
+ to adequately regulate.
+What can be done, and this may likely
+ prove itself out over time,
+ is stringent laws against
+ amy fractional reserve and
+ a wiser civilization where
+ all individuals know that
+ they must save in Bitcoin 
+ (at the base layer).
+
 
 
