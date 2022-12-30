@@ -18,9 +18,9 @@ These kind of criticisms tend to
  of fiat-funded economics.
 However, in a debt-backed economy, like
  our current USD petrodollar,
- any kind of deflation is deadly
- because the cost of debt
- increases.
+ any kind of deflation is in-fact deadly
+ due to the cost of debt
+ increasing.
 
 
 
@@ -42,7 +42,7 @@ Debt management becomes difficult
  in a deflationary environment,
  which is why
  inflation is the necessary tool
- of central banks.
+ of central banks managing via fiat.
 If your money is based on debt,
  and you can increase the supply
  at will (lowering the value of your debt)
@@ -50,7 +50,7 @@ If your money is based on debt,
  maintain inflation 
  (literally by *fiat*)
  without destroying
- confindence in the currency.
+ confidence in the currency.
 
 Strong money, like Bitcoin,
  is effectively the antithesis
@@ -67,7 +67,7 @@ Bitcoin is effectively
 
 ## Great Depression
 
-The most common example of a deflationary
+The most common example of a deflationary spiral 
  is the
  [Great Depression](https://en.wikipedia.org/wiki/Great_Depression),
  somehow confusing deflation
@@ -81,7 +81,9 @@ The displaced farmers were not
 
 Such reasoning is absurd.
 The displaced farmers had no savings,
- they were starving.
+ they were starving as
+ their livelihoods were replaced
+ by tractors and industrialization.
 Any gold they had would have been
  spent on food (leading to price
  inflation as their savings
@@ -95,21 +97,122 @@ However, we can attempt
  and discuss the potential
  disadvantages of a 
  strong money
- (specifically of a deflationary currency).
+ (specifically, a deflationary currency).
 
 
 
+## Price Deflation
 
-!!! warning "work in progress"
+Deflation from economic depression
+ is not the same as deflation from
+ economic growth.
+This should be obvious, but our current
+ economic models somehow -- conveniently
+ for those benefitting inflation --
+ miss this point entirely.
+
+Obviously, deflation due to economic
+ contraction is bad.
+Prices shrinking because no one
+ has money to spend, this is bad.
+However, prices dropping because of
+ economic growth -- such as the price
+ of consumer electronics over the last
+ few decades, this is good, very good.
+This is the good kind of deflation that never
+ gets mentioned by fiat-funded academics
+ (this is what fueled our economy
+ over the last few decades).
+
+Price deflation very clearly increases
+ economic activity, and during times
+ of economic growth this should be
+ encouraged.
+This is, in fact, exactly what a
+ strong money like Bitcoin encourages.
+Bitcoin is deflationary *only*
+ due to economic growth.
+
+When there is an economic contraction,
+ Bitcoin behaves the opposite, prices
+ will inflate as there is simply less
+ goods being produced (constraining supply).
+Yet what happens when there is a surplus
+ of goods during an economic downturn?
+This is indeed what happened during the
+ Great Depression.
+
+The farmers didn't return to their small 
+ family farms after the recovery.
+Their jobs and homesteads were replaced
+ by tractors.
+Industrialization is what displaced those
+ farmers.
+
+The "recovery" happened when those displaced
+ farmers found new jobs in factories.
+Pretending that money printing would
+ have solved this phenomenon is foolish.
+Printing money during an economic depression
+ does not solve the cause of the depression,
+ it merely enriches the recipients of the
+ printed money and
+ leads to the problems of fiat money.
+
+However, what would have happened
+ had Bitcoin existed during the
+ Great Depression?
+The farmers would still have been
+ displaced.
+Unemployment would have still been high.
+A surplus of goods would still have
+ occured, leading to reduced prices,
+ the bad kind of deflation.
+
+Overall, Bitcoin does not seem to help
+ in these situations, and it does
+ not pretend to.
+What Bitcoin does is provide protection
+ to your savings should overzealous
+ central planners try to "fix" an economic
+ contraction through debasement.
+Central planners believe they can help,
+ and yet
+ all they do is make things worse and
+ rationalize their failings into success
+ narratives -- such as pretending
+ world wars are good for an economy.
 
 
 
-Deflation from economic depression is not the same as deflation from economic growth, obviously.
+## The Ugly Truth
 
-Printing money during an economic depression does not solve the cause of the depression,
- it merely enriches the recipients of the money and leads to the problems of fiat money.
+What Bitcoin can do during an economic
+ contraction, is send *clear* price signals.
+We may not like the signal, but printing money
+ to obscure the truth is a far worse option.
+Reality is not made by fiat, which is
+ exactly what fiat money aims to do.
 
-Deflationary price changes due to economic growth is not a bad thing
- and is in fact the norm throughout history.
+Bitcoin, during the Great Depression,
+ would have revealed that the price
+ of manual labor on a farm is no
+ longer sufficient to sustain a family,
+ nor is a small family farm sufficient to
+ sustain a family.
+Having known that earlier would have
+ saved many families from the degradation
+ of pretending otherwise,
+ of pretending that reality is controlled
+ by politicians.
+
+Whether we like it or not,
+ Bitcoin will reveal the true price
+ of money itself, as well as the true price of
+ food during a depression.
+Bitcoin offers only truth, the rest --
+ as always --
+ is up to us.
+
 
 
