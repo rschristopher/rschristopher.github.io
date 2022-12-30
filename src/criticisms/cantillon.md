@@ -154,7 +154,7 @@ What can be done, and this may likely
  a wiser civilization where
  all individuals know that
  they must save in Bitcoin 
- (at the base layer).
+ (proper self custody).
 There are no guarantees, and
  it may take several generations
  for any culture or local
@@ -162,8 +162,8 @@ There are no guarantees, and
  beyond fractional reserve.
 
 Ultimately, Bitcoin presents
- all of humanity,
- the entirety of global civilization,
+ all of humanity --
+ our entirety of global civilization --
  with a game that's ours to lose.
 
 
