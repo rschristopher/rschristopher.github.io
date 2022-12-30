@@ -79,7 +79,8 @@ The displaced farmers were not
  the value of their savings
  was increasing.
 
-Such reasoning is absurd.
+The usual reasoning behind the
+ Great Depression is absurd.
 The displaced farmers had no savings,
  they were starving as
  their livelihoods were replaced
@@ -147,7 +148,8 @@ The farmers didn't return to their small
 Their jobs and homesteads were replaced
  by tractors.
 Industrialization is what displaced those
- farmers.
+ farmers, leading to a surplus of workers
+ and not enough jobs.
 
 The "recovery" happened when those displaced
  farmers found new jobs in factories.
@@ -178,7 +180,7 @@ What Bitcoin does is provide protection
  contraction through debasement.
 Central planners believe they can help,
  and yet
- all they do is make things worse and
+ all they can do is make things worse and
  rationalize their failings into success
  narratives -- such as pretending
  world wars are good for an economy.
@@ -200,7 +202,10 @@ Bitcoin, during the Great Depression,
  longer sufficient to sustain a family,
  nor is a small family farm sufficient to
  sustain a family.
-Having known that earlier would have
+We know this in hindsight, but
+ how useful would this have been
+ to those farmers?
+Having known earlier would have
  saved many families from the degradation
  of pretending otherwise,
  of pretending that reality is controlled
