@@ -6,7 +6,7 @@ A [deflationary spiral](https://www.economicshelp.org/blog/1888/economics/deflat
 Many would-be critics will claim
  that Bitcoin cannot succeed because
  it is deflationary by nature and
- would create a deflationary spiral.
+ would create a deflationary death spiral.
 
 These kind of criticisms tend to
  be poorly thought out
@@ -19,20 +19,22 @@ These kind of criticisms tend to
 However, in a debt-backed economy, like
  our current USD petrodollar,
  any kind of deflation is in-fact deadly
- due to the cost of debt
+ due to the cost of the debt
  increasing.
 
 
 
 ## Debt-backed Money
 
-Debt-backed money like the USD
- is essentially an "IOU"
- backed by the Federal Reserve,
+!!! danger "Debt-backed money like the USD petrodollar is essentially an *IOU*"
+The modern USD is an "IOU"
+ from the Federal Reserve,
  a promise that they'll
  provide value in the future
  -- yet that future never comes.
-They just print more money to manage
+They just print more money
+ (expand their balance sheet)
+ to manage
  the ever-increasing debt.
 
 ![IOUs](/images/ious.jpg)
@@ -42,7 +44,8 @@ Debt management becomes difficult
  in a deflationary environment,
  which is why
  inflation is the necessary tool
- of central banks managing via fiat.
+ of central banks managing
+ debt-backed money via fiat.
 If your money is based on debt,
  and you can increase the supply
  at will (lowering the value of your debt)
@@ -57,10 +60,12 @@ Strong money, like Bitcoin,
  to debt-backed money --
  punishing debt and rewarding
  saving.
+And yes, deflationary spirals
+ are indeed a threat to debt-backed money --
+ but not to Bitcoin.
 Bitcoin is effectively
  non-compatible
- with debt-backed money
- maintained by fiat.
+ with debt-backed money.
 
 
 
@@ -73,14 +78,14 @@ The most common example of a deflationary spiral
  somehow confusing deflation
  based on economic contraction
  with deflation based on economic growth.
+But even so, was deflation the cause of the
+ Great Depression?
+
 The displaced farmers were not
  sitting on stockpiles of gold,
  refusing to spend because
  the value of their savings
  was increasing.
-
-The usual reasoning behind the
- Great Depression is absurd.
 The displaced farmers had no savings,
  they were starving as
  their livelihoods were replaced
@@ -90,10 +95,11 @@ Any gold they had would have been
  inflation as their savings
  became liquid).
 
-These kind of criticisms are
- generally too stupid and detached
+Blaming the Great Depression on deflation
+ should be considered
+ too stupid and detached
  from reality to take seriously.
-However, we can attempt
+However, we can still attempt
  to steel-man this issue
  and discuss the potential
  disadvantages of a 
@@ -109,17 +115,18 @@ Deflation from economic depression
  economic growth.
 This should be obvious, but our current
  economic models somehow -- conveniently
- for those benefitting inflation --
+ for those benefiting from inflation --
  miss this point entirely.
 
 Obviously, deflation due to economic
  contraction is bad.
 Prices shrinking because no one
- has money to spend, this is bad.
+ has money to spend -- this is bad.
+
 However, prices dropping because of
  economic growth -- such as the price
  of consumer electronics over the last
- few decades, this is good, very good.
+ few decades -- this is good, very good.
 This is the good kind of deflation that never
  gets mentioned by fiat-funded academics
  (this is what fueled our economy
@@ -135,14 +142,14 @@ Bitcoin is deflationary *only*
  due to economic growth.
 
 When there is an economic contraction,
- Bitcoin behaves the opposite, prices
+ Bitcoin behaves the opposite -- prices
  will inflate as there is simply less
  goods being produced (constraining supply).
 Yet what happens when there is a surplus
  of goods during an economic downturn?
-This is indeed what happened during the
- Great Depression.
 
+This is unfortunately what happened during the
+ Great Depression.
 The farmers didn't return to their small 
  family farms after the recovery.
 Their jobs and homesteads were replaced
@@ -164,7 +171,7 @@ Printing money during an economic depression
 However, what would have happened
  had Bitcoin existed during the
  Great Depression?
-The farmers would still have been
+Let's imagine that the farmers would still have been
  displaced.
 Unemployment would have still been high.
 A surplus of goods would still have
@@ -177,20 +184,22 @@ Overall, Bitcoin does not seem to help
 What Bitcoin does is provide protection
  to your savings should overzealous
  central planners try to "fix" an economic
- contraction through debasement.
-Central planners believe they can help,
+ contraction through debasement of your savings.
+Central planners believe they can help
+ (by spending money that's not theirs),
  and yet
  all they can do is make things worse and
- rationalize their failings into success
+ rationalize their failings into absurd
  narratives -- such as pretending
- world wars are good for an economy.
+ world wars and depopulation
+ are good for an economy.
 
 
 
 ## The Ugly Truth
 
 What Bitcoin can do during an economic
- contraction, is send *clear* price signals.
+ contraction is send *clear* price signals.
 We may not like the signal, but printing money
  to obscure the truth is a far worse option.
 Reality is not made by fiat, which is
@@ -215,7 +224,7 @@ Whether we like it or not,
  Bitcoin will reveal the true price
  of money itself, as well as the true price of
  food during a depression.
-Bitcoin offers only truth, the rest --
+Bitcoin offers truth, the rest --
  as always --
  is up to us.
 

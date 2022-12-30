@@ -10,7 +10,7 @@ In practice, Bitcoin is deflationary money,
  leading to more purchasing power
  for savers.
 
-However, this assumes the market
+However, this assumes the supply
  of circulating coins remains
  constant in every market,
  but in practice there
@@ -84,6 +84,7 @@ Prices are in sats and traded over
  (just periodic settlements).
 Wages are paid, food and fuel is
  purchased with regular predictability.
+People are happy.
 
 Then, one day, an outsider brings
  in 50,000 Bitcoin into this market.
@@ -94,7 +95,7 @@ The influx of new Bitcoin would inflate
  leading to a mini-bubble,
  all based on the whims of this
  very wealthy
- entity.
+ outsider.
 
 An efficient market hypothesis
  will predict that prices will
@@ -116,7 +117,7 @@ Every local market would be vulnerable
  "paper Bitcoin"
  (fractional reserve schemes)
  would likely be targetted 
- by investors looking
+ by grifters looking
  to extract wealth.
 An unscrupulous financier 
  would push for fractional
@@ -137,7 +138,8 @@ The notable difference is that
  the scammers under a Bitcoin standard
  will need to be more competent
  to pull off their grift than
- modern central bankers.
+ modern central bankers
+ (at the very least, *they* will know they're criminals).
 
 
 
@@ -149,17 +151,15 @@ Technically, nothing about Bitcoin
  to adequately regulate.
 What can be done, and this may likely
  prove itself out over time,
- is stringent laws against
- fractional reserve and
- a wiser civilization where
+ is a wiser civilization where
  all individuals know that
  they must save in Bitcoin 
  (proper self custody).
 There are no guarantees, and
  it may take several generations
- for any culture or local
- civilization to advance itself
- beyond fractional reserve.
+ for civilization to advance itself
+ and to put "fractional reserve"
+ in the same category as "snake oil".
 
 Ultimately, Bitcoin presents
  all of humanity --
