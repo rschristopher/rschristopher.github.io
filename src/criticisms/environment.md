@@ -65,7 +65,7 @@ Disingenuous arguments aside,
 
 
 
-## Bitcoin Mining
+## Monetizing electricity 
 
 Bitcoin mining directly monetizes 
  compute power.
@@ -181,7 +181,7 @@ For every environmental success of using
 The incentives are entirely on finding
  cheap enough power to mine and propagate blocks.
 There are no incentives to do so responsibly,
- environmentally and otherwise.
+ environmentally or otherwise.
 
 
 
