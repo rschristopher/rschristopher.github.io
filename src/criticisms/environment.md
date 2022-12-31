@@ -115,7 +115,8 @@ This includes
  excess hydro, wind, and solar.
 As a result,
  Bitcoin mining
- can be done in ways that increase
+ can be done in environmentally positive
+ ways that increase
  grid stability, as well as increasing the
  reach of the grid itself.
 However, the economic game theory of Bitcoin
@@ -182,9 +183,11 @@ Will mining not incentive reopening coal plants
  only to abandon them in far more reckless
  means than would have happened otherwise?
 
-For every environmental success of using
+For every environmental success of 
+ Bitcoin miners cleaning up
  toxic coal from a previously abandoned
- coal plant, are we not simply creating that
+ coal plant or consuming gas that would have been flared,
+ are we not simply creating that
  same problem all over again due to the adversarial
  nature of Bitcoin mining economics?
 The incentives are entirely on finding
@@ -200,7 +203,7 @@ For a civilization that is currently
  over oil,
  and a global slave
  labor campaign to strip mine
- the earth to produce batteries
+ the earth for batteries
  and solar panels -- completely
  lacking the self awareness to
  recognize the abject evil
