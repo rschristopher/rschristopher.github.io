@@ -45,8 +45,8 @@ Seems a bit odd to focus on
 Disingenuous arguments aside,
  is there any environmental impact
  from Bitcoin and Bitcoin mining,
- and is the benefit of Bitcoin
- worth that damaging impact?
+ and if so, is the benefit of Bitcoin
+ worth its damaging impact?
 
 
 
