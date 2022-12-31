@@ -218,7 +218,7 @@ Of the hundreds of
     (extracting wealth from the American
     people to pay off western war debts).
     Later, during the
-    Breton Woods
+    Bretton Woods
     era (starting in 1944),
     the $35/ounce rate was guaranteed
     for all international settlements,
