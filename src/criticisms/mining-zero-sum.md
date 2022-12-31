@@ -1,14 +1,12 @@
 # Mining is Negative Sum
 
-> The Bitcoin mines.
-> 
+> The Bitcoin mines.  
 > The dark underworld;  
-> The arena;  
 > The chaotic fringe;   
 > Behold, the wasteland of rekt dreams and abandoned code.  
 > Fighting, Hashing, Surviving.  
 > The blood of martyrs cries out.  
-> Only He who overcame death stands triumphant,
+> Those who overcame death stand triumphant,
 > for it cannot be otherwise.
 > 
 
