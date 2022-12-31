@@ -101,12 +101,12 @@ Perhaps all that it does is replace one
  group of oligarchs with another.
 
 The claim that Bitcoin won't fix
- existing inequality
+ existing fiat inequality
  is most likely false,
  but not definitively so --
  only time will tell exactly
- how inequality
- will be 
+ what inequality
+ may look like 
  under a Bitcoin standard.
 
 
@@ -130,7 +130,7 @@ However, we can steel-man this argument and
  could be done about it.
 
 
-!!! quote "inequality is evil."
+!!! quote "inequality is bad."
 
 Is it even possible not to have inequality? What would that even mean?
 
