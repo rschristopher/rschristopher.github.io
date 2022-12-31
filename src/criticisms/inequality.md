@@ -124,22 +124,19 @@ The technical claims about Bitcoin and inequality
 It's difficult to find a reasonable scenario
  where inequality is as bad as it is under fiat.
 However, we can steel-man this argument and
- explore the kind of dangers inequality would
+ explore the moral issues inequality would
  pose under a Bitcoin standard and what,
  if anything,
  could be done about it.
 
-
-!!! quote "inequality is bad."
+!!! quote "Inequality is bad."
 
 Is it even possible not to have inequality? What would that even mean?
 
 We live in a universe of unequal distributions, specifically
- [Pareto distributions](https://en.wikipedia.org/wiki/Pareto_distribution)
+ [Pareto distributions](https://en.wikipedia.org/wiki/Pareto_distribution).
 
 
-
-In which case fiat is morally evil and should be condemned as such.
 
 
 
