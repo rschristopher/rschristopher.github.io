@@ -67,7 +67,8 @@ Whatever may be true of Bitcoin's
 How could it not?
 You can no longer arbitrarily inflate
  the money supply and concentrate wealth.
-The only way to Bitcoin is through work,
+The only way to acquire 
+ Bitcoin is through work,
  producing
  something others find valuable
  -or-
@@ -79,9 +80,35 @@ Under Bitcoin,
  wealth isn't
  subsidized through government grants
  or easy money policies.
+However, we should consider that our
+ entire culture and modern society
+ has grown from fiat and seigniorage.
 What are the ramifications
  of sound money on a population that
  grew accustom to fiat?
+
+It's clear that Bitcoin won't
+ continue the existing inequality;
+ but it's not clear that it reduces
+ the level of
+ inequality.
+It's possible that a Bitcoin standard
+ will simply lead to
+ a similar level of inequality
+ but with wealth concentrated in different
+ places than politicians and central bankers.
+Perhaps all that it does is replace one
+ group of oligarchs with another.
+
+The claim that Bitcoin won't fix
+ existing inequality
+ is most likely false,
+ but not definitively so --
+ only time will tell exactly
+ how inequality
+ will be 
+ under a Bitcoin standard.
+
 
 
 
@@ -92,6 +119,18 @@ What are the ramifications
 
 ## Moral Claims
 
+The technical claims about Bitcoin and inequality
+ range from definitely false to most likely false.
+It's difficult to find a reasonable scenario
+ where inequality is as bad as it is under fiat.
+However, we can steel-man this argument and
+ explore the kind of dangers inequality would
+ pose under a Bitcoin standard and what,
+ if anything,
+ could be done about it.
+
+
+!!! quote "inequality is evil."
 
 Is it even possible not to have inequality? What would that even mean?
 
