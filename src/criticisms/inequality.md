@@ -198,10 +198,10 @@ Otherwise, and importantly for the survival
  resolved;
  if not by Bitcoin than something else.
 
-> This would mean Bitcoin is
-> "necessary but not sufficient"
-> for the survival and flourishing
-> of human civilization.
+*This would mean Bitcoin is
+ "necessary but not sufficient"
+ for the survival and flourishing
+ of human civilization.*
 
 For many reasons, this is perhaps
  the most healthy view to take.
