@@ -190,7 +190,8 @@ Remember, Bitcoin requires electricity,
 !!! quote "And if a house is divided against itself, that house will not be able to stand."
 
 Fortunately, the technical claim here is
- most likely false, in fact, if inequality
+ most likely false.
+In fact, if inequality under a Bitcoin standard 
  returns to a more natural distribution,
  then Bitcoin will have "fixed" this issue.
 Otherwise, and importantly for the survival
@@ -203,12 +204,17 @@ Otherwise, and importantly for the survival
  for the survival and flourishing
  of human civilization.*
 
-For many reasons, this is perhaps
+For many other reasons, this is perhaps
  the most healthy view to take.
 Bitcoin does and can solve many important
  problems, but it cannot succeed
  without human beings choosing the right
- path, the moral path.
+ path, the moral path --
+ that which is best for you and your family,
+ now and in the future, and simultaneously
+ what is best for those around you in your
+ community and in the broader culture,
+ now and in the future.
 
 
 
