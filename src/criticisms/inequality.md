@@ -119,24 +119,29 @@ The claim that Bitcoin won't fix
 
 ## Moral Claims
 
-The technical claims about Bitcoin and inequality
+The technical claims about Bitcoin's inequality
  range from definitely false to most likely false.
 It's difficult to find a reasonable scenario
- where inequality is as bad as it is under fiat.
+ where inequality under a Bitcoin standard
+ is as bad as it is under fiat.
 However, we can steel-man this argument and
  explore the moral issues inequality would
  pose under a Bitcoin standard and what,
  if anything,
  could be done about it.
 
-!!! quote "Inequality is bad."
+!!! quote "Inequality is bad"
 
-Is it even possible not to have inequality? What would that even mean?
-
+Is it even possible not to have inequality?
+What would that even mean?
 We live in a universe of unequal distributions, specifically
  [Pareto distributions](https://en.wikipedia.org/wiki/Pareto_distribution).
 
 
+
+
+
+!!! quote "Inequality beyond a natural distribution is bad"
 
 
 
