@@ -10,7 +10,7 @@ by R.S. Christopher
         - this is equivalent to acquiring fluency in French
 
 
-+ In the year 2140
+## In the year 2140
 Full Bitcoin Standard.
 Market cap of money, $300T, $14.285M BTCUSD
 
