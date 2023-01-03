@@ -58,22 +58,19 @@ Quantum computing "experts"
  NSF
  for grant money
  (fiat science),
- nor working on scammy
+ nor promoting scammy
  shitcoins,
  they
  could be funding themselves --
- they could quickly become
- the wealthiest entities 
+ they could be
+ the wealthiest people 
  on earth --
- unless they're full of shit and
- would be wise to write a 
- BIP
- rather than dumb
- fearmongering about
- topics they probably
- don't actually understand.
+ unless they're full of shit.
 
-This bounty is real.
+The bounty is real.
+Develop a quantum computer
+ that breaks Bitcoin's
+ elliptical curve algorithm.
 These coins are otherwise
  considered lost.
 If the price started
@@ -81,6 +78,7 @@ If the price started
  supply shock of millions
  of new Bitcoin coming
  into circulation --
+ don't worry --
  there are millions
  of Bitcoiners
  that will anxiously
@@ -90,8 +88,8 @@ If the price started
 Bitcoin will be fine,
  and it will have successfully
  funded advances
- in cryptography and
- in quantum computing.
+ in cryptography *and*
+ quantum computing.
 
 
 
