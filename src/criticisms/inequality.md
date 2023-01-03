@@ -1,7 +1,5 @@
 # Inequality
 
-!!! quote "Under a Bitcoin Standard, wealth will be too concentrated."
-
 While there is a lot of bad faith criticisms
  about inequality and Bitcoin,
  this is an area that deserves
@@ -51,9 +49,9 @@ Fiat is unconstrained and the supply is
 
 Since [1971](https://wtfhappenedin1971.com/),
  since the start of global fiat,
- inequality has only gone up.
+ inequality has only increased.
 We are now at a level of inequality
- never before seen in the US,
+ never before seen in the world,
  greater inequality than
  even the famed "guilded age".
 Whatever may be true of Bitcoin's
@@ -82,13 +80,13 @@ Under Bitcoin,
  or easy money policies.
 However, we should consider that our
  entire culture and modern society
- has grown from fiat and seigniorage.
+ has been corrupted by fiat and seigniorage.
 What are the ramifications
  of sound money on a population that
  grew accustom to fiat?
 
-It's clear that Bitcoin won't
- continue the existing inequality;
+It's clear that Bitcoin won't (and can't)
+ continue growing the existing inequality;
  but it's not clear that it reduces
  the level of
  inequality.
@@ -106,7 +104,7 @@ The claim that Bitcoin won't fix
  but not definitively so --
  only time will tell exactly
  what inequality
- may look like 
+ will look like 
  under a Bitcoin standard.
 
 
@@ -123,7 +121,7 @@ The technical claims about Bitcoin's inequality
  range from definitely false to most likely false.
 It's difficult to find a reasonable scenario
  where inequality under a Bitcoin standard
- is as bad as it is under fiat.
+ continues as it is under fiat.
 However, we can steel-man this argument and
  explore the moral issues inequality would
  pose under a Bitcoin standard and what,
