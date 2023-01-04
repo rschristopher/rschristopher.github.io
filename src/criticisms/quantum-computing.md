@@ -28,7 +28,7 @@ The truth is there's very little
 
 Importantly,
  people are concerned
- with *their* Bitcoin,
+ with their own Bitcoin,
  not hypothetical threats
  to someone else's
  Bitcoin
@@ -50,15 +50,16 @@ If you don't reuse addresses with
  known public keys, then your
  Bitcoin is
  [quantum resistant](https://en.bitcoin.it/wiki/Quantum_computing_and_Bitcoin).
-This is the standard approach anyway,
+Not disclosing public keys
+ is the standard approach anyway,
  recommended for privacy reasons.
 With most wallet software, and
  especially with cold storage solutions,
  you'd have to go out of your way 
  to make your Bitcoin vulnerable to
  a theoretic quantum attack
- (you'd need to disclose the public keys 
- that correspond to each address).
+ (you'd need to disclose your public keys 
+ that correspond to each UTXO).
 
 At present,
  there are indeed vulnerable
@@ -68,7 +69,7 @@ At present,
 This is because early transactions
  used [P2PK](https://river.com/learn/terms/p/p2pk/)
  which reveals the corresponding
- public key.
+ public key directly in the transaction.
 A quantum computer that breaks
  Bitcoin's 
  elliptic curve
@@ -80,7 +81,7 @@ However, the vast majority
  of Bitcoin is stored using
   addresses generated
  from public keys --
- first using 
+ hashing with
  [SHA-256](https://en.bitcoin.it/wiki/SHA-256)
  and then
  [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160).
