@@ -1,13 +1,11 @@
 # Quantum Computing 
 
-!!! warning "work in progress"
-
 This is one of the more interesting
  and theoretical criticisms of
  Bitcoin -- it usually goes like
  this:
 
-!!! quote "*advances in quantum computing will put millions of Bitcoin at risk, as early as next year, causing the price to drop to zero.*"
+!!! quote "*advances in quantum computing will put millions of Bitcoin at risk, causing the price to drop to zero.*"
 
 Such statements make
  for fun headlines
@@ -17,9 +15,11 @@ And we've been seeing such headlines
  for over a decade without any real
  progress with quantum attacks on
  Bitcoin's
- elliptical curve cryptography.
+ elliptical curve cryptography
+ (always seems to be a few years out).
 The truth is there's very little
- threat for now, and in fact 
+ threat (for now),
+ and in fact 
  quantum computing
  will most likely prove
  beneficial to Bitcoin;
@@ -29,24 +29,27 @@ The truth is there's very little
 Importantly,
  people are concerned
  with *their* Bitcoin,
- not hypotheticals with
- someone else's
- Bitcoin that may
+ not hypothetical threats
+ to someone else's
+ Bitcoin
+ (which may
  or may not be
  vulnerable to a
- "quantum attack".
+ "quantum attack").
 In other words,
  I want to know if *my*
  Bitcoin is safe.
 The simple truth is,
- Bitcoin is already quantum resistant
+ Bitcoin is already 
+ quantum resistant
  with a small handful of exceptions.
 
 ## Quantum Resistant
 
 If you don't reuse addresses with
  known public keys, then your
- Bitcoin is quantum resistant.
+ Bitcoin is
+ [quantum resistant](https://en.bitcoin.it/wiki/Quantum_computing_and_Bitcoin).
 This is the standard approach anyway,
  recommended for privacy reasons.
 With most wallet software, and
@@ -58,22 +61,47 @@ With most wallet software, and
  that correspond to each address).
 
 At present,
- the vulnerable
- coins to a quantum attack
- are those that have not
- moved since 2010;
- in particular,
- and most famously,
- the coins of
- Satoshi Nakamoto.
+ there are indeed vulnerable
+ coins to a quantum attack,
+ especially those that have not
+ moved since 2010.
+This is because early transactions
+ used [P2PK](https://river.com/learn/terms/p/p2pk/)
+ which reveals the corresponding
+ public key.
+A quantum computer that breaks
+ Bitcoin's 
+ elliptic curve
+ would (theoretically)
+ be able to generate
+ a private key from a corresponding
+ public key.
+However, the vast majority
+ of Bitcoin is stored using
+  addresses generated
+ from public keys --
+ first using 
+ [SHA-256](https://en.bitcoin.it/wiki/SHA-256)
+ and then
+ [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160).
+This double hash provides
+ quantum resistance.
+
+How many coins are vulnerable?
+That is, how many coins used P2PK?
+Most famously,
+ the [million or so](https://bitslog.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/)
+ coins of
+ Satoshi Nakamoto
+ are vulnerable to a quantum attack.
 If *anyone* had the means
  to access these coins,
- they would have
- access to the largest
- bounty on earth.
+ they would be wealthy
+ beyond measure.
 
 
-## The Quantum Computing Bounty
+
+## Satoshi's Bounty
 
 A better, and more constructive,
  way to view Bitcoin's relationship
@@ -84,7 +112,8 @@ A better, and more constructive,
  break Bitcoin's signing
  algorithm.
 *The prize?*
-Millions of untouched Bitcoin.
+Millions of untouched 
+ and most likely abandoned Bitcoin.
 Quantum computing "experts"
  would not need to be
  begging the
@@ -92,21 +121,19 @@ Quantum computing "experts"
  for grant money
  in their fiat-funded universities,
  nor promoting scammy
- shitcoins,
- they
- could be funding themselves --
+ shitcoins.
+They
+ could be funding themselves;
  they could be
  the wealthiest people 
- on earth --
+ on earth;
  unless they're full of shit.
 
-The bounty is real.
+This bounty is up for grabs.
 All you need to do is
  develop a quantum computer
  that breaks Bitcoin's
  elliptical curve algorithm.
-These coins are otherwise
- considered lost.
 If the price started
  to decline due to the sudden
  supply shock of millions
@@ -127,6 +154,9 @@ Bitcoin will be fine,
 
 
 
+## Quantum Mining
+
+!!! warning "work in progress"
 
 
 
