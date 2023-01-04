@@ -2031,7 +2031,7 @@ The truth is there's very little
  for quantum computing breakthroughs.</p>
 <p>Importantly,
  people are concerned
- with <em>their</em> Bitcoin,
+ with their own Bitcoin,
  not hypothetical threats
  to someone else's
  Bitcoin
@@ -2051,15 +2051,16 @@ The simple truth is,
  known public keys, then your
  Bitcoin is
  <a href="https://en.bitcoin.it/wiki/Quantum_computing_and_Bitcoin">quantum resistant</a>.
-This is the standard approach anyway,
+Not disclosing public keys
+ is the standard approach anyway,
  recommended for privacy reasons.
 With most wallet software, and
  especially with cold storage solutions,
  you'd have to go out of your way 
  to make your Bitcoin vulnerable to
  a theoretic quantum attack
- (you'd need to disclose the public keys 
- that correspond to each address).</p>
+ (you'd need to disclose your public keys 
+ that correspond to each UTXO).</p>
 <p>At present,
  there are indeed vulnerable
  coins to a quantum attack,
@@ -2068,7 +2069,7 @@ With most wallet software, and
 This is because early transactions
  used <a href="https://river.com/learn/terms/p/p2pk/">P2PK</a>
  which reveals the corresponding
- public key.
+ public key directly in the transaction.
 A quantum computer that breaks
  Bitcoin's 
  elliptic curve
@@ -2080,7 +2081,7 @@ However, the vast majority
  of Bitcoin is stored using
   addresses generated
  from public keys --
- first using 
+ hashing with
  <a href="https://en.bitcoin.it/wiki/SHA-256">SHA-256</a>
  and then
  <a href="https://en.bitcoin.it/wiki/RIPEMD-160">RIPEMD-160</a>.
