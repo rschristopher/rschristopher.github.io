@@ -153,11 +153,46 @@ Bitcoin will be fine,
  in cryptography *and*
  quantum computing.
 
+Such advances in quantum computing
+ could be more usefully applied to
+ Bitcoin mining.
 
 
 ## Quantum Mining
 
-!!! warning "work in progress"
+Bitcoin mining is entirely based on
+ SHA-256, which is itself quantum resistant.
+The best known approach would be
+ to use
+ [Grover's Algorithm](https://en.m.wikipedia.org/wiki/Grover%27s_algorithm),
+ which (if given a sufficiently powerful quantum computer)
+ could reduce the search space from 2<sup>256</sup>
+ to 2<sup>128</sup>.
+This doesn't exactly break SHA-256,
+ but it means a brute force search time
+ could be reduced.
+
+It is possible that a powerful enough
+ quantum computer could mine Bitcoin
+ far more efficiently than modern ASICs.
+Like the progression of CPU mining
+ to GPU and then to ASICs,
+ quantum mining is a logical next step.
+Bitcoin's difficulty adjustment will
+ keep the supply schedule on time,
+ producing new blocks every ten minutes
+ on average.
+
+Between Satoshi's bounty and Bitcoin mining,
+ we are likely to see amazing advances
+ in quantum computing that have far more
+ interesting applications than just
+ reducing the search space for
+ a brute force SHA-256 exploit.
+If quantum computing ever proves itself,
+ it will be in large part thanks to Bitcoin
+ and the economic incentives that are
+ far superior than fiat-funded science.
 
 
 
