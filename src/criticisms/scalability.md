@@ -3,11 +3,16 @@
 !!! warning "work in progress"
 
 
-This is a deceptively fun criticism.
+This is a fun criticism.
 It usually sounds like this,
 
 !!! quote "Bitcoin only supports up to 7 transactions per second. Do the math, that's not enough."
 
+Bitcoin doesn't process any transactions
+ per *second*, it processes blocks
+ (of transactions) every 10 minutes on average.
+Blocks have a few thousand transactions,
+ and so you could claim "up to 7 per second".
 And while this is true for base layer
  transactions (final international settlement),
  2nd layer solutions like the
@@ -15,7 +20,7 @@ And while this is true for base layer
  provide a highly scalable payment network
  that can scale upwards to infinity.
 
-But the critic is not interested in second
+But a Bitcoin critic is not interested in second
  layer payment rails or any actual
  engineering solutions to their criticism.
 The pattern of this criticism
