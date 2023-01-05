@@ -44,6 +44,7 @@ Rarely will you find a nuanced
  scaling criticism -- there are however,
  some interesting critiques and thought
  exercises to be found here.
+
 For example, how would lightning
  channels scale globally?
 
@@ -61,7 +62,7 @@ Truth is, under a Bitcoin standard not
  every human will need to make base layer
  transactions.
 And they don't need to open lightning channels.
-Only entities that we can call *sovereigns*
+Only entities that we should call *sovereigns*
  will need to do base layer transactions
  and manage their own lightning channels.
 A lightning channel is effectively a
@@ -75,7 +76,7 @@ Sovereign fiat currencies compete with each other,
  all trying their best to be the strongest
  fiat -- print too much and you hyperinflate,
  but print too little and you'll have no
- seigniorage money (would have to get a real job).
+ seigniorage (you'll have to get a real job).
 Under a Bitcoin standard, no one has the power
  of seigniorage.
 The fixed supply of Bitcoin and the ending of
@@ -121,7 +122,7 @@ Under a Bitcoin standard, money
  and the power of seigniorage is no more.
 Anyone with sufficient Bitcoin to do base
  layer transactions 
- (and could open and
+ (who could open and
  close lightning channels) would be a
  sovereign.
 This would include nation states,
