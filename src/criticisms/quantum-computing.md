@@ -192,7 +192,8 @@ Between Satoshi's bounty and Bitcoin mining,
 If quantum computing ever proves itself,
  it will be in large part thanks to Bitcoin
  and the economic incentives that are
- far superior than fiat-funded science.
+ far superior to the farsical theatrics 
+ of fiat-funded "science".
 
 
 
