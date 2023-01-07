@@ -190,7 +190,7 @@ Let us now imagine a global population of
  that define humanity.
 
 !!! danger "USD as Unit of Account"
-    I've inckuded USD in the below examples;
+    I'veincluded USD in the below examples;
     which is a bit funny since
     USD is obviously not a great measure,
     however, these are wild speculations
@@ -243,12 +243,12 @@ In other words,
 1 sat = 1 USD
 ```
 
-This means 1,000 sats ($1,000)
- per transaction.
+This means 1,000 sats
+ per transaction is worth much more ($1,000).
 The cost of 
  becoming a sovereign individual is now
- quite expensive, and would only
- get continually more expensive as
+ quite expensive, and will
+ grow continually more expensive as
  the economy grew.
 This benefits families and multigenerational
  wealth strategies while not precluding
@@ -279,18 +279,20 @@ All individuals will be associated with
  one or more sovereigns,
  either by family or by work.
 
-Now let's imagine there's only 50-million
+Let's imagine there's only 50-million
  sovereigns at any
  given point in time.
 This would easily be scalable with base layer
  transactions (using today's technology),
  and there'd be
- an average population of 240-persons
- per sovereign.
+ an average population of only 240-persons
+ per sovereign
+ (and with a very high per capita income).
 However,
  under a Pareto distribution, 
  we could expect
- 80% of the population in the top 20%
+ 80% of the population to be working
+ for the top 20%
  of sovereigns, that is,
  9.6-billion people in 10-million sovereigns,
  averaging ~960 people per sovereign,
