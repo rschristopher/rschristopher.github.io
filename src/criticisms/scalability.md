@@ -215,25 +215,27 @@ We'll have the following values in sats,
 ```
 
 Meanwhile, the transaction fees are averaging
- 1000 sats, which corresponds to $142.7 per txn.
+ 1000 sats,
+ which corresponds to $142 per transaction.
 Each block has at least 3000 transactions,
  resulting in a block reward of $428-thousand.
 
-1000 sats ($142.8) is the fee to go 
- from 2nd layer savings to sovereign individual.
+1000 sats ($142) is the fee to go 
+ from 2nd-layer savings to sovereign individual.
 In other words, this is the fee
  to become a sovereign.
 As a sovereign individual, one is free to hire
  their own team, investing in their own
  infrastructure.
-They either profit, sustain, or go bankrupt
+Sovereigns either profit, sustain, or go bankrupt
  (assets absorbed into other sovereigns).
 Competition amongst sovereign individuals
  is zero sum on the base layer, but positive
  sum in local environments as economies grow
  and new sovereign individuals are created.
 
-But let's assume the economy grew much larger.
+But let's assume the economy grew much larger
+ by the year 2140.
 Let's assume a $100-million BTCUSD. 
 In other words,
 
@@ -245,38 +247,43 @@ This means 1,000 sats ($1,000)
  per transaction.
 The cost of 
  becoming a sovereign individual is now
- quite expensive.
+ quite expensive, and would only
+ get continually more expensive as
+ the economy grew.
 This benefits families and multigenerational
  wealth strategies while not precluding
  individuals from joining the ranks
  of financial sovereignty.
+Anyone could save and become a sovereign,
+ adding liquidity to a lightning channel
+ in order to run their own business.
 
 Each block would be worth about $3-million,
- with network security
- at an ATH despite zero block subsidies
+ with network security at an all time high,
+ despite zero block subsidies
  (it's no longer mining, just 
  international settlement).
 
-But is all this scalable?
+But is all this really scalable?
 
-There would *only* be 150-million
+There would *only* be approximately 160-million
  transactions per year.
 
 This equates to tens-of-millions of
  financial sovereigns, out of billions of
  people.
 Most individuals will not be sovereign.
-Yet many families and dynasties
+Many families and dynasties
  will be sovereign.
 All individuals will be associated with
  one or more sovereigns,
  either by family or by work.
 
-Let's imagine there's only 50-million
+Now let's imagine there's only 50-million
  sovereigns at any
  given point in time.
-This would be scalable with base layer
- transactions,
+This would easily be scalable with base layer
+ transactions (using today's technology),
  and there'd be
  an average population of 240-persons
  per sovereign.
@@ -307,17 +314,16 @@ Sovereigns need workers and people,
  money on even being a sovereign).
 
 In any reasonable analysis,
- this is is far more scalable
+ this is far more scalable
  (and far more fair)
  than the ~200 or
  so sovereign nation states
- (with ~20 carrying the real value,
- and only 7-8 that actually matter)
  acting as totalitarian
  regimes and slave labor coordinators for
  billions of people.
-A natural distribution of sovereigns
- also avoids the oligarchies
+Bitcoin is an alternative to fiat debt slavery.
+And a natural distribution of sovereigns
+ avoids the oligarchies
  we see in modern fiat.
 
 A Bitcoin standard, even with
@@ -325,20 +331,20 @@ A Bitcoin standard, even with
  is already scalable enough to
  replace fiat.
 This would also put an 
- end to global oligarchy, 
+ end to our globalist oligarchy, 
  much like modernity was the
  end of nepotistic monarchies.
 
 A future Bitcoin standard could 
- easily scale to millions of sovereign
- individuals and dynasties,
+ easily scale to
+ tens of millions of sovereign individuals
+ and dynasties,
  where today's nation states 
  would either be relics
  of a strange past, or economically
  small players amidst 
  tens of millions of other sovereigns, 
- competing
- for wealth and resources like
+ competing for wealth and resources like
  everyone else.
 
 
