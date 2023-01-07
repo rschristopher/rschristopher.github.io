@@ -3,7 +3,7 @@
 !!! warning "work in progress"
 
 
-This is a fun criticism.
+This is one of my favorite critiques.
 It usually sounds like this,
 
 !!! quote "Bitcoin only supports up to 7 transactions per second. Do the math, that's not enough."
@@ -12,16 +12,16 @@ Bitcoin doesn't process any transactions
  per *second*, it processes blocks
  (of transactions) every 10 minutes on average.
 Blocks have a few thousand transactions,
- and so you could claim "up to 7 per second".
+ hence "up to 7 per second".
 And while this is true for base layer
  transactions (final international settlement),
- 2nd layer solutions like the
+ 2nd-layer solutions like the
  lightning network
  provide a highly scalable payment network
  that can scale upwards to infinity.
 
-But a Bitcoin critic is not interested in second
- layer payment rails or any actual
+But a Bitcoin critic is not interested in
+ 2nd-layer payment rails or any actual
  engineering solutions to their criticism.
 The pattern of this criticism
  is quite dumb and once you see it 
@@ -51,9 +51,9 @@ For example, how would lightning
 
 ## Scalability of Lightning Channels
 
-Opening or closing a lightning
- channel will require a
- base layer transaction.
+Opening and closing a lightning
+ channel will require
+ base layer transactions.
 Can all humans on earth open 
  a lightning channel?
 Can we have 8-billion lightning channels?
@@ -62,6 +62,8 @@ Truth is, under a Bitcoin standard not
  every human will need to make base layer
  transactions.
 And they don't need to open lightning channels.
+The world does not need a lightning channel
+ for every human.
 Only entities that we should call *sovereigns*
  will need to do base layer transactions
  and manage their own lightning channels.
@@ -69,17 +71,18 @@ A lightning channel is effectively a
  liquidity provider for payments.
 
 We see the same pattern with fiat, except with
- fiat the sovereign has the power of seigniorage;
+ fiat each sovereign has the power of seigniorage;
  they can print as much money (liquidity) as they
  desire.
 Sovereign fiat currencies compete with each other,
  all trying their best to be the strongest
  fiat -- print too much and you hyperinflate,
  but print too little and you'll have no
- seigniorage (you'll have to get a real job).
+ seigniorage.
 Under a Bitcoin standard, no one has the power
  of seigniorage.
-The fixed supply of Bitcoin and the ending of
+The fixed supply of Bitcoin and
+ the end of
  seigniorage is the entire value proposition
  of Bitcoin.
 
