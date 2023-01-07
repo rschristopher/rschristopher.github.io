@@ -20,7 +20,7 @@ And while this is true for base layer
  transactions (final international settlement),
  2nd-layer solutions like the
  lightning network
- that can scale upwards to infinity.
+ can scale upwards to infinity.
 
 But a Bitcoin critic is not interested in
  2nd-layer payment rails or any actual
