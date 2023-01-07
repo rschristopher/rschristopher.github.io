@@ -161,39 +161,38 @@ Let us imagine, the year 2140.
 
 If Bitcoin has survived this long,
  it will have proven itself true.
-The world will be a vastly different
- place with wonders far beyond our present
+The world will be a vastly different place,
+ with wonders far beyond our present
  imagination.
 However, there are some things we can know
  with relative certainty.
 For example, the last Satoshi
  will have been mined.
-The fixed supply is fixed with zero inflation.
+There will be zero inflation.
 What we today call "mining" will instead
  be a global settlement layer, where sovereigns
  compete in a zero sum game for transaction
  fees.
 
 And with some degree of confidence, we can
- predict that fiat money is gone. 
+ predict that fiat money is a relic of the past.
 Money will be decoupled from nation states,
- which, if they're still around, are
- far weaker and less influencial than
- what we see today.
+ which, if they're still around, would be
+ far weaker and less influencial than today.
 
 And, the easiest prediction of all:
  Bitcoin will simply be known as *"money"*.
 
-Let usnnow imagine a global population of
- 12-billion humans.
-They live in relative peace, though
+Let us now imagine a global population of
+ 12-billion humans,
+ living in relative peace, though
  always with the typical human dramas
  that define humanity.
 
 !!! danger "USD as Unit of Account"
     I've inckuded USD in the below examples;
     which is a bit funny since
-    USD is not a great measure,
+    USD is obviously not a great measure,
     however, these are wild speculations
     meant as a thought exercise in the
     mathematics of scale.
@@ -203,7 +202,8 @@ Let's imagine that the market cap of money
  stands at $300-trillion, the equivalent
  of a $14.285-million BTCUSD.
 This is arguably much smaller than
- one would expect, but we'll start here
+ one would expect in the year 2140,
+ but we'll start here
  to set some baseline numbers for our
  scaling calculation.
 We'll have the following values in sats,
@@ -215,15 +215,14 @@ We'll have the following values in sats,
 ```
 
 Meanwhile, the transaction fees are averaging
- 1000 sats, which corresponds to $1,428 per txn.
+ 1000 sats, which corresponds to $142.7 per txn.
 Each block has at least 3000 transactions,
- resulting in a block reward of $4.28-million.
+ resulting in a block reward of $428-thousand.
 
-1000 sats ($1,428) is the fee to go 
+1000 sats ($142.8) is the fee to go 
  from 2nd layer savings to sovereign individual.
-In other words, 1000 sats will secure your savings
- outside any custodian.
-This is the fee to become a sovereign.
+In other words, this is the fee
+ to become a sovereign.
 As a sovereign individual, one is free to hire
  their own team, investing in their own
  infrastructure.
@@ -242,7 +241,7 @@ In other words,
 1 sat = 1 USD
 ```
 
-This means 10,000 sats ($10,000)
+This means 1,000 sats ($1,000)
  per transaction.
 The cost of 
  becoming a sovereign individual is now
@@ -252,28 +251,29 @@ This benefits families and multigenerational
  individuals from joining the ranks
  of financial sovereignty.
 
-Each block would be worth $30-million,
+Each block would be worth about $3-million,
  with network security
- at an ATH despite zero block subsidy
+ at an ATH despite zero block subsidies
  (it's no longer mining, just 
  international settlement).
 
 But is all this scalable?
 
-There would *only* be 157.68-million
+There would *only* be 150-million
  transactions per year.
 
 This equates to tens-of-millions of
  financial sovereigns, out of billions of
  people.
-Most individuals will not be a sovereign.
+Most individuals will not be sovereign.
 Yet many families and dynasties
  will be sovereign.
-All individuals will be associated with a
- sovereign, either by family or by work.
+All individuals will be associated with
+ one or more sovereigns,
+ either by family or by work.
 
-Let's imagine 12-billion global population,
- and only 50-million sovereigns at any
+Let's imagine there's only 50-million
+ sovereigns at any
  given point in time.
 This would be scalable with base layer
  transactions,
@@ -281,13 +281,14 @@ This would be scalable with base layer
  an average population of 240-persons
  per sovereign.
 However,
- under a Pareto distribution, we can expect
+ under a Pareto distribution, 
+ we could expect
  80% of the population in the top 20%
  of sovereigns, that is,
  9.6-billion people in 10-million sovereigns,
  averaging ~960 people per sovereign,
- with a long tail of 40-million sovereigns
- with mostly family, individual,
+ with a long tail of 40-million sovereigns;
+ mostly family, individual,
  and small business sovereigns.
 The largest sovereigns might have thousands
  of people,
@@ -298,8 +299,8 @@ And due to the nature of the game
  (the economic game), it's unlikely
  a given sovereign would grow too large
  (before disintegrating into smaller sovereigns).
-People would be free to go from one
- sovereign to another; you're working
+People would be free to work with different
+ sovereigns; you're working
  for Bitcoin after all.
 Sovereigns need workers and people,
  they're always hiring (otherwise why waste the
@@ -317,7 +318,7 @@ In any reasonable analysis,
  billions of people.
 A natural distribution of sovereigns
  also avoids the oligarchies
- we see within modern fiat.
+ we see in modern fiat.
 
 A Bitcoin standard, even with
  the technology as is,
@@ -331,11 +332,12 @@ This would also put an
 A future Bitcoin standard could 
  easily scale to millions of sovereign
  individuals and dynasties,
- where today's nation states are either relics
- of a strange past, or if they're
- still surviving (as many will),
- they're economically small players amidst 
- tens of millions of sovereigns, competing
+ where today's nation states 
+ would either be relics
+ of a strange past, or economically
+ small players amidst 
+ tens of millions of other sovereigns, 
+ competing
  for wealth and resources like
  everyone else.
 
