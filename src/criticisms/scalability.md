@@ -175,7 +175,8 @@ What we today call "mining" will instead
  fees.
 
 And with some degree of confidence, we can
- predict that fiat money is a relic of the past.
+ predict that fiat money
+ will be a relic of the past.
 Money will be decoupled from nation states,
  which, if they're still around, would be
  far weaker and less influencial than today.
@@ -190,7 +191,7 @@ Let us now imagine a global population of
  that define humanity.
 
 !!! danger "USD as Unit of Account"
-    I'veincluded USD in the below examples;
+    I've included USD in the below examples;
     which is a bit funny since
     USD is obviously not a great measure,
     however, these are wild speculations
@@ -244,7 +245,7 @@ In other words,
 ```
 
 This means 1,000 sats
- per transaction is worth much more ($1,000).
+ per transaction fee is now $1,000.
 The cost of 
  becoming a sovereign individual is now
  quite expensive, and will
