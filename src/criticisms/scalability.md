@@ -1,7 +1,10 @@
 # Scalability
 
-!!! warning "work in progress"
-
+<!--
+Lord Jesus Christ
+Son of God
+have mercy on me a sinner 
+-->
 
 This is one of my favorite critiques,
 
