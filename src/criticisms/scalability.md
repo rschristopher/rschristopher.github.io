@@ -139,8 +139,8 @@ This would include nation states,
 If this seems bizarre, consider
  that this is far more aligned
  with the history of money and civilization
- than this ~50 year experiment in
- global fiat we're currently experiencing.
+ than our current ~50 year experiment in
+ global fiat.
 
 But how many sovereigns could exist
  under a Bitcoin standard?
