@@ -184,8 +184,8 @@ Money will be decoupled from nation states,
 And, the easiest prediction of all:
  Bitcoin will simply be known as *"money"*.
 
-Let us imagine a global population of
- 12-billiom humans.
+Let usnnow imagine a global population of
+ 12-billion humans.
 They live in relative peace, though
  always with the typical human dramas
  that define humanity.
