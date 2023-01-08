@@ -1,7 +1,4 @@
-# Whitelisting
-
-!!! info "*The Problem of the Surveillance State*"
-
+# Surveillance
 
 !!! warning "work in progress"
 
