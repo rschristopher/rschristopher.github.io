@@ -235,7 +235,7 @@ Competition amongst sovereign individuals
  sum in local environments as economies grow
  and new sovereign individuals are created.
 
-But let's assume the economy grew much larger
+Now let's assume the economy is much larger
  by the year 2140.
 Let's assume a $100-million BTCUSD. 
 In other words,
@@ -250,7 +250,7 @@ The cost of
  becoming a sovereign individual is now
  quite expensive, and will
  grow continually more expensive as
- the economy grew.
+ the economy grows.
 This benefits families and multigenerational
  wealth strategies while not precluding
  individuals from joining the ranks
