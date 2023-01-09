@@ -5,11 +5,12 @@
 
 This is a collection of essays
  and information all centered around
- a single question:
+ a single question.
+It is a question most worth pursuing.
 *Is Bitcoin True?*
 In other words, we aim to understand:
  is Bitcoin money?
-Is the fixed supply truly fixed?
+Is the fixed supply of Bitcoin truly fixed?
 Will this solve the problems
  of seigniorage and fiat currency?
 
@@ -20,7 +21,7 @@ We will not be satisfied
 We want to know whether
  there is truth to Bitcoin.
 And we will go as deep as
- needed to discover this
+ necessary to discover this
  truth.
 
 
@@ -47,7 +48,7 @@ Some of the arguments put forth
  to which you cling.
 It might be uncomfortable.
 So again I ask,
- is truth important to you?
+ is truth really important to you?
 
 
 
@@ -63,8 +64,8 @@ While revisionists like to say I am
  and that it was all just a
  translation
  error 
- or worse a myth --
-no, *I am* a dog-headed giant;
+ or worse, a myth --
+no, *I am* actually a dog-headed giant;
 a monster from beyond the fringes,
  haunting the marginalia of
  your ancient world.
