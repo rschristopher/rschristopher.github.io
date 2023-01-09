@@ -41,11 +41,13 @@ Are you willing to challenge
  held beliefs?
 Is truth important to you?
 
-Many of the arguments put forth
+Some of the arguments put forth
+ in these essays 
  may challenge the status quo
  to which you cling.
 It might be uncomfortable.
-But it is the truth.
+So again I ask,
+ is truth important to you?
 
 
 
