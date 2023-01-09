@@ -17,7 +17,7 @@ Unfortunately, because Bitcoin is fully
 
 Any digital currency will have this problem.
 By virtue of being *digital* it will be
- easy to surveil.
+ as easy to surveil as the network itself.
 Unlike physical tokens such as coins,
  a digital money will be traceable.
 
@@ -54,7 +54,7 @@ After such an event, or even knowing
 
 Whether we like it or not, we live in such
  a system right now.
-But what -- if anything -- can be done?
+But what -- *if anything* -- can be done?
 And at what level of censorship would
  Bitcoin be rendered false?
 In both cases, the answer lies in the impossible
@@ -118,7 +118,7 @@ There's a reason centrally planned
  markets lead to starvation.
 
 Whether Bitcoin can survive or not rests
- on this very basic question.
+ on this very basic question:
 Can markets function freely
  in the information age
  (where mass surveillance is the norm)?
@@ -196,8 +196,8 @@ Bitcoin privacy tools exist,
  in the face of authoritarian
  overreach?
 
-Only time will tell, and our decisions,
- you and me, will determine the outcome.
+Only time will tell, and our decisions
+ -- *you and me* -- will determine the outcome.
 
 
 

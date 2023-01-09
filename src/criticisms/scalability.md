@@ -8,14 +8,14 @@ have mercy on me a sinner
 
 This is one of my favorite critiques,
 
-!!! quote "Bitcoin only supports up to 7 transactions per second. Do the math, that's not enough."
+!!! quote "Bitcoin only supports up to 7-transactions per-second. Do the math, that's not enough."
 
 In truth, 
  Bitcoin doesn't process any transactions
- per *second*, it processes blocks
- (of transactions) every 10 minutes, on average.
+ per-*second*, it processes blocks
+ (of transactions) every 10-minutes, on average.
 Blocks have a few thousand transactions,
- hence "up to 7 per second", I guess.
+ hence "up to 7 per-second", I guess.
 And while this is true for base layer
  transactions (final international settlement),
  2nd-layer solutions like the
@@ -94,7 +94,7 @@ Under a Bitcoin standard,
  fairly under the rules of a fixed global
  money supply.
 If a sovereign lacks liquidity in their
- lightning channels (that is, they can't pay you),
+ lightning channels, that is, they can't pay you,
  you simply go to a sovereign that can.
 This is more or less how the gold standard
  functioned before it was corrupted by
@@ -216,12 +216,12 @@ We'll have the following values in sats,
 ```
 
 Meanwhile, the transaction fees are averaging
- 1000 sats,
- which corresponds to $142 per transaction.
-Each block has at least 3000 transactions,
+ 1,000 sats,
+ which corresponds to $142 per-transaction.
+Each block has at least 3,000 transactions,
  resulting in a block reward of $428-thousand.
 
-1000 sats ($142) is the fee to go 
+1,000 sats ($142) is the fee to go 
  from 2nd-layer savings to sovereign individual.
 In other words, this is the fee
  to become a sovereign.
@@ -245,7 +245,7 @@ In other words,
 ```
 
 This means 1,000 sats
- per transaction fee is now $1,000.
+ per-transaction fee is now $1,000.
 The cost of 
  becoming a sovereign individual is now
  quite expensive, and will
@@ -268,7 +268,7 @@ Each block would be worth about $3-million,
 But is all this really scalable?
 
 There would *only* be approximately 160-million
- transactions per year.
+ transactions per-year.
 
 This equates to tens-of-millions of
  financial sovereigns, out of billions of
@@ -287,8 +287,8 @@ This would easily be scalable with base layer
  transactions (using today's technology),
  and there'd be
  an average population of only 240-persons
- per sovereign
- (and with a very high per capita income).
+ per-sovereign
+ (and with a very high per-capita income).
 However,
  under a Pareto distribution, 
  we could expect
@@ -296,13 +296,13 @@ However,
  for the top 20%
  of sovereigns, that is,
  9.6-billion people in 10-million sovereigns,
- averaging ~960 people per sovereign,
+ averaging ~960 people per-sovereign,
  with a long tail of 40-million sovereigns;
  mostly family, individual,
  and small business sovereigns.
 The largest sovereigns might have thousands
  of people,
- maybe even some with tens of thousands.
+ maybe even some with tens-of-thousands.
 The smallest, are just individuals.
 
 And due to the nature of the game
@@ -340,13 +340,13 @@ This would also put an
 
 A future Bitcoin standard could 
  easily scale to
- tens of millions of sovereign individuals
+ tens-of-millions of sovereign individuals
  and dynasties,
  where today's nation states 
  would either be relics
  of a strange past, or economically
  small players amidst 
- tens of millions of other sovereigns, 
+ tens-of-millions of other sovereigns, 
  competing for wealth and resources like
  everyone else.
 

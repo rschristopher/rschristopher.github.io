@@ -36,7 +36,7 @@ theme:
     favicon: images/favicon.png
 
 nav:
-    - Bitcoin: 
+    - About: 
         - index.md
         - Bitcoin as Money: 
           - bitcoin-as-money/index.md
