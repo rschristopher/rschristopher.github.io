@@ -14,12 +14,16 @@ Or that Bitcoin creates more "e-waste" than the
 !!! question "Why is the Netherlands the benchmark for how much electricity a technology is morally allowed to consume?"
 
 The problem with these arguments is that
- they're entirely disingenuous and false.
+ they're entirely disingenuous and 
+ [false](https://www.lynalden.com/bitcoin-energy/).
 Bitcoin mining operates on electricity --
  *electricity* -- as in, zero emissions.
 Truth is, Bitcoin mining is consuming far
  less electricity than electric vehicles,
- phones, televisions, washing machines, etc.
+ phones, televisions, washing machines, and
+ pretty much all consumer electronics
+ (all of which use more electricity than
+ the Netherlands).
 
 Mining equipment does not require 
  [cobalt](https://earth.org/cobalt-mining/)
