@@ -1,7 +1,8 @@
 # Is Bitcoin True?
 
-One of my earliest reactions to a deep dive 
- into Bitcoin, was the thought,
+One of the earliest reactions people have
+ after going down the rabbit hole that is
+ Bitcoin, is the thought,
 
 > *Bitcoin fixes modern art?!*
 
