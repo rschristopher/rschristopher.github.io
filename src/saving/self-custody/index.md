@@ -259,6 +259,7 @@ Bitcoin self custody is exactly as hard
 It's new, it's different,
  and it confuses those who haven't realized
  just how disruptive this kind of technology truly is.
+
 The claims that it's too difficult are
  patronizing and wrong.
 Managing your keys is *easier* than
