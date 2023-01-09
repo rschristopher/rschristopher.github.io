@@ -45,7 +45,7 @@ Estimates for the total supply of gold vary wildly,
 
 !!! quote "Buy land, they're not making it anymore."
 
-Should Bitcoin by worth more than
+Should Bitcoin be worth more than
  the total value of all land on earth?
 It's certainly possible to theorize on
  a price, a number of Satoshis per sqft,
