@@ -119,7 +119,7 @@ There's a reason centrally planned
 
 Whether Bitcoin can survive or not rests
  on this very basic question:
-Can markets function freely
+ can markets function freely
  in the information age
  (where mass surveillance is the norm)?
 Or will the temptation for
@@ -197,7 +197,7 @@ Bitcoin privacy tools exist,
  overreach?
 
 Only time will tell, and our decisions
- -- *you and me* -- will determine the outcome.
+ -- *yours and mine* -- will determine the outcome.
 
 
 
