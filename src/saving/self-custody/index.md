@@ -259,6 +259,14 @@ Bitcoin self custody is exactly as hard
 It's new, it's different,
  and it confuses those who haven't realized
  just how disruptive this kind of technology truly is.
+The claims that it's too difficult are
+ patronizing and wrong.
+Managing your keys is *easier* than
+ driving a car,
+ buying a house,
+ or any of the myriad of tasks
+ we expect fully grown adults
+ to manage.
 
 
 !!! question "I heard it requires 'persistent competence', is that true?"
