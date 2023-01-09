@@ -24,6 +24,7 @@ And we will go as deep as
  truth.
 
 
+
 ## Who are you?
 
 No one important, and ultimately 
@@ -32,6 +33,21 @@ No one important, and ultimately
  matters is whether the claims
  about Bitcoin are true, or not.
 
+Perhaps more importantly,
+ who are *you*?
+Are you a seeker of truth?
+Are you willing to challenge
+ preconceived notions and deeply
+ held beliefs?
+Is truth important to you?
+
+Many of the arguments put forth
+ may challenge the status quo
+ to which you cling.
+It might be uncomfortable.
+But it is the truth.
+
+
 
 ## Who is R.S. Christopher?
 
@@ -39,18 +55,19 @@ No one important, and ultimately
  saint of travelers and Bitcoiners.
 While revisionists like to say I am
  an ordinary man, 
- arrogantly proclaiming
- dog-headed creatures don't
- actually exist
+ arrogantly proclaiming that
+ dog-headed creatures never
+ actually existed
  and that it was all just a
  translation
  error 
- or a myth --
+ or worse a myth --
 no, *I am* a dog-headed giant;
 a monster from beyond the fringes,
- haunting the marginalia of your world.
+ haunting the marginalia of
+ your ancient world.
 And yet, in my pursuit of power,
- I found salvation.
+ I instead found salvation.
 
 And now I help travelers and
  Bitcoiners find their way.
