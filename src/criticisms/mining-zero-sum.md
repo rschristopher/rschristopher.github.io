@@ -4,7 +4,7 @@
 > The dark underworld;  
 > The chaotic fringe;   
 > Behold, the wasteland of rekt dreams and abandoned code.  
-> Fighting, Hashing, Surviving.  
+> Fighting, hashing, surviving.  
 > The blood of martyrs cries out.  
 > Those who overcame death stand triumphant,
 > for it cannot be otherwise.

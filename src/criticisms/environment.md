@@ -22,7 +22,7 @@ Truth is, Bitcoin mining is consuming far
  less electricity than electric vehicles,
  phones, televisions, washing machines, and
  pretty much all consumer electronics
- (all of which use more electricity than
+ (all of which also use more electricity than
  the Netherlands).
 
 Mining equipment does not require 

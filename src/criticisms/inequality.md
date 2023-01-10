@@ -206,7 +206,7 @@ For many other reasons, this is perhaps
  the most healthy view to take.
 Bitcoin does and can solve many important
  problems, but it cannot succeed
- without human beings choosing the right
+ without us choosing the right
  path, the moral path --
  that which is best for you and your family,
  now and in the future, and simultaneously

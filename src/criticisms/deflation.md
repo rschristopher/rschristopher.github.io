@@ -207,9 +207,9 @@ Reality is not made by fiat, which is
 
 Bitcoin, during the Great Depression,
  would have revealed that the price
- of manual labor on a farm is no
+ of manual labor on a farm was no
  longer sufficient to sustain a family,
- nor is a small family farm sufficient to
+ nor was a small family farm sufficient to
  sustain a family.
 We know this in hindsight, but
  how useful would this have been

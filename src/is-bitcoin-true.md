@@ -1,15 +1,15 @@
 # Is Bitcoin True?
 
 One of the earliest reactions people have
- after going down the rabbit hole that is
- Bitcoin, is the thought,
+ as they go down the Bitcoin rabbit hole,
+ is the thought,
 
 > *Bitcoin fixes modern art?!*
 
 Bitcoin
  -- *if it is true* --
  fixes all of the problems of fiat money,
- even modern art.
+ *even modern art*.
 
 ## The problem of fiat money
 
