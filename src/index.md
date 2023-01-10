@@ -8,6 +8,7 @@ This is a collection of essays
  a single question.
 It is a question most worth pursuing.
 *Is Bitcoin True?*
+
 In other words, we aim to understand:
  is Bitcoin money?
 Is the fixed supply of Bitcoin truly fixed?
