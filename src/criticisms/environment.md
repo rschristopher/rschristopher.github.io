@@ -29,7 +29,7 @@ Mining equipment does not require
  [cobalt](https://earth.org/cobalt-mining/)
  nor any rare earth metals
  found in electric vehicles,
- smart phone batteries,
+ smartphone batteries,
  and other consumer electronics.
 As such, and unlike these other 
  technologies,
@@ -39,7 +39,7 @@ There is no strip mining and environmentally
  destructive practices that leave large
  patches of earth uninhabitable.
 And Bitcoin's "e-waste" is demonstrably benign
- conpared to smart phones, solar panels,
+ compared to smartphones, solar panels,
  and especially electric vehicles.
 To pretend otherwise is either shamefully
  naive or unscrupulously evil.
@@ -199,6 +199,8 @@ The incentives are entirely on finding
 There are no incentives to do so cleanly --
  unless of course the will and want
  is there to do so.
+
+
 
 ## Will and want
 
