@@ -40,15 +40,23 @@ No one imagines we need a custodian
  for our car keys.
 Key management is and always has been
  the responsibility of the owner
- of said asset.
+ of a house or car or Bitcoin.
 
 Self custody => key management, access to your wealth
 
 Self sovereignty => sovereignty
 
++ All levels merged under Sovereignty
 
++ Commerce, name the levels? Sovereignty?
++ Appendix 
 
++ Proof of Work, name the levels? Sovereignty?
++ Appendix 
 
-
+Understand the terms => Understand 
+savings/understand/
+commerce/understand/
+pow/understand/
 
 
