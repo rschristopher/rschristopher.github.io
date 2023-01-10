@@ -26,32 +26,6 @@ And we will go as deep as
 
 
 
-## Who are you?
-
-No one important, and ultimately 
- it doesn't
- really matter who I am -- what
- matters is whether the claims
- about Bitcoin are true, or not.
-
-Perhaps more importantly,
- who are *you*?
-Are you a seeker of truth?
-Are you willing to challenge
- preconceived notions and deeply
- held beliefs?
-Is truth important to you?
-
-Some of the arguments put forth
- in these essays 
- may challenge the status quo
- to which you cling.
-It might be uncomfortable.
-So again I ask,
- is truth really important to you?
-
-
-
 ## Who is R.S. Christopher?
 
 *Reprobus Saint Christopher*, the dog-headed
@@ -77,4 +51,29 @@ And now I help travelers and
 
 ![St Christopher](/images/st-christopher.jpg)
 
+
+
+## Who are you, really?
+
+No one important, and ultimately 
+ it doesn't
+ really matter who I am -- what
+ matters is whether the claims
+ about Bitcoin are true, or not.
+
+Perhaps more importantly,
+ who are *you*?
+Are you a seeker of truth?
+Are you willing to challenge
+ preconceived notions and deeply
+ held beliefs?
+Is truth important to you?
+
+Some of the arguments put forth
+ in these essays 
+ may challenge the status quo
+ to which you cling.
+It might be uncomfortable.
+So again I ask,
+ is truth really important to you?
 
