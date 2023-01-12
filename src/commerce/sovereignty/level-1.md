@@ -1,4 +1,4 @@
-# Bitcoin Full Node
+# Getting Started
 
 
 !!! warning "work in progress"

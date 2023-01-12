@@ -1,6 +1,7 @@
-# Local Area Networks
+# Localism
 
 
 !!! warning "work in progress"
+
 
 

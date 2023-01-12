@@ -1,5 +1,7 @@
-# Lightning and Privacy
+# Full Nodes
 
 
 !!! warning "work in progress"
+
+
 

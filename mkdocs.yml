@@ -62,27 +62,25 @@ nav:
     - Saving:
         - saving/index.md
         - Understand the Terms: saving/understand-the-terms.md
-        - Self Custody:
-            - saving/self-custody/index.md
-            - "Level 1: Getting Started": saving/self-custody/level-1.md
-            - "Level 2: Your Keys": saving/self-custody/level-2.md
-            - "Level 3: Dedicated Hardware": saving/self-custody/level-3.md
-            - "Level 4: Full Node": saving/self-custody/level-4.md
-            - "Level 5: Airgap Quarantine": saving/self-custody/level-5.md
-            - "Level 6: Metal Backup": saving/self-custody/level-6.md
+        - Sovereignty:
+            - saving/sovereignty/index.md
+            - "Level 1: Getting Started": saving/sovereignty/level-1.md
+            - "Level 2: Your Keys": saving/sovereignty/level-2.md
+            - "Level 3: Dedicated Hardware": saving/sovereignty/level-3.md
+            - "Level 4: Full Node": saving/sovereignty/level-4.md
+            - "Level 5: Airgap Quarantine": saving/sovereignty/level-5.md
+            - "Level 6: Metal Backup": saving/sovereignty/level-6.md
+            - "Level 7: Protocols + Multisig": saving/sovereignty/level-7.md
+            - "Level 8: DMZs": saving/sovereignty/level-8.md
+            - "Level 9: Fault Tolerance": saving/sovereignty/level-9.md
+            - "Level 10: Fail-safes": saving/sovereignty/level-10.md
+            - "Level 11: Countermeasures": saving/sovereignty/level-11.md
+            - "Level 12: Off-grid Operations": saving/sovereignty/level-12.md
         - Wealth Preservation: 
             - saving/wealth/index.md
             - Full Privacy: saving/wealth/full-privacy.md
             - Inheritance Planning: saving/wealth/inheritance.md
             - Physical Security: saving/wealth/physical-security.md
-        - Self Sovereignty:
-            - saving/self-sovereignty/index.md
-            - "Level 7: Protocols + Multisig": saving/self-sovereignty/level-7.md
-            - "Level 8: DMZs": saving/self-sovereignty/level-8.md
-            - "Level 9: Fault Tolerance": saving/self-sovereignty/level-9.md
-            - "Level 10: Fail-safes": saving/self-sovereignty/level-10.md
-            - "Level 11: Countermeasures": saving/self-sovereignty/level-11.md
-            - "Level 12: Off-grid Operations": saving/self-sovereignty/level-12.md
         - Appendix:
             - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
             - "A: Using Dice": saving/appendix/dice.md
@@ -91,27 +89,20 @@ nav:
             - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Commerce:
         - commerce/index.md
-        - Payments:
-          - commerce/payments/index.md
-          - Base Layer (on-chain): commerce/payments/base-layer.md
-          - Layer 2 (lightning): commerce/payments/lightning.md
-        - Privacy: 
-          - commerce/privacy/index.md
-          - AML/KYC: commerce/privacy/kyc.md
-          - Coinjoin: commerce/privacy/coinjoin.md
-          - Lightning: commerce/privacy/lightning.md
-        - Run a Node: 
-          - commerce/run-a-node/index.md
-          - Bitcoin Full Node: commerce/run-a-node/bitcoin-full.md
-          - Lightning Node: commerce/run-a-node/lightning.md
-        - Localism: 
-          - commerce/localism/index.md
-          - Local Area Networks: commerce/localism/lan.md
-          - Local Lightning: commerce/localism/lightning.md
-        - Advanced: 
-          - Bitcoin Script: commerce/advanced/bitcoin-script.md
-          - Network Security: commerce/advanced/network-security.md
-          - Physical Security: commerce/advanced/physical-security.md
+        - Understand the Terms: commerce/understand-the-terms.md
+        - Sovereignty:
+            - commerce/sovereignty/index.md
+            - "Level 1: Getting Started": commerce/sovereignty/level-1.md
+            - "Level 2: Payment Service": commerce/sovereignty/level-2.md
+            - "Level 3: Self Hosted": commerce/sovereignty/level-3.md
+            - "Level 4: Full Nodes": commerce/sovereignty/level-4.md
+            - "Level 5: Private Channels": commerce/sovereignty/level-5.md
+            - "Level 6: Localism": commerce/sovereignty/level-6.md
+        - Appendix: 
+          - "A: Bitcoin Script": commerce/appendix/bitcoin-script.md
+          - "A: Coinjoin": commerce/appendix/coinjoin.md
+          - "A: Network Security": commerce/appendix/network-security.md
+          - "A: Physical Security": commerce/appendix/physical-security.md
     - Proof of Work:
         - pow/index.md
         - How it Works: pow/how-it-works.md

@@ -1,4 +1,4 @@
-# Self Custody 
+# Sovereignty
 
 Unlike physical custody of assets, 
  saving in Bitcoin 
@@ -62,7 +62,7 @@ With Bitcoin, you truly can be
 
 !!! quote "Be a Sovereign over your own Savings"
 
-## Only Self Custody
+## Who owns your Bitcoin?
 
 If you trust an institution to custody your Bitcoin,
  then it's not your Bitcoin, it's their Bitcoin.
