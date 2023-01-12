@@ -1,4 +1,4 @@
-# Bitcoin Script
+# Appendix: Bitcoin Script
 
 
 !!! warning "work in progress"
