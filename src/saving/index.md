@@ -98,7 +98,7 @@ At this point you can already store any
  with more security than any bank or
  institutional custody system could ever offer.
 
-## Self Sovereignty
+## Advanced Sovereignty Levels
 * [Level 7: Protocols + Multisig](sovereignty/level-7/) -- Protocols to manage the complexity of multi-signature keys.
 * [Level 8: DMZs](sovereignty/level-8/) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
 * [Level 9: Fault Tolerance](sovereignty/level-9/) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
