@@ -1,5 +1,7 @@
-# How Bitcoin Mining Works
+# Sovereignty
 
 
 !!! warning "work in progress"
+
+
 

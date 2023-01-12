@@ -1,4 +1,5 @@
-# Bitcoin Mining at Home
+# Mining Farm
+
 
 !!! warning "work in progress"
 

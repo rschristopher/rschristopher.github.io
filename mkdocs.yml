@@ -105,9 +105,18 @@ nav:
           - "A: Physical Security": commerce/appendix/physical-security.md
     - Proof of Work:
         - pow/index.md
-        - How it Works: pow/how-it-works.md
-        - Home Mining: pow/home-mining.md
-        - PoW and Energy Money: pow/pow-energy-money.md
+        - Understand the Terms: pow/understand-the-terms.md
+        - Sovereignty:
+            - pow/sovereignty/index.md
+            - "Level 1: Getting Started": pow/sovereignty/level-1.md
+            - "Level 2: Mining Pools": pow/sovereignty/level-2.md
+            - "Level 3: Solo Mining": pow/sovereignty/level-3.md
+            - "Level 4: Mining Farm": pow/sovereignty/level-4.md
+            - "Level 5: Block Broadcasting": pow/sovereignty/level-5.md
+            - "Level 6: Stratum Selector": pow/sovereignty/level-6.md
+            - "Level 7: Off-grid Mining": pow/sovereignty/level-7.md
+        - Appendix: 
+          - "A: Energy Money": pow/appendix/energy-money.md
     - References: references/index.md
 
 markdown_extensions:

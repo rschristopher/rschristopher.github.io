@@ -8,18 +8,18 @@ How Bitcoin is settled on the timechain
 
 Here is an overview of the different levels.
 
-* [Level 1: Getting Started](level-1) -- 
+* [Level 1: Getting Started](sovereignty/level-1) -- 
  overview of how Bitcoin mining works
-* [Level 2: Mining Pools](level-2) --
+* [Level 2: Mining Pools](sovereignty/level-2) --
  setup a miner and point to a mining pool
-* [Level 3: Solo Mining](level-3) --
+* [Level 3: Solo Mining](sovereignty/level-3) --
  setup a full node and stratum server
-* [Level 4: Solo Mining Farm](level-4) --
+* [Level 4: Mining Farm](sovereignty/level-4) --
  run a farm of Bitcoin miners
-* [Level 5: Block Broadcasting](level-5) --
+* [Level 5: Block Broadcasting](sovereignty/level-5) --
  run a well-peered network of nodes to minimize the risk of orphaned blocks
-* [Level 6: Stratum Selector](level-6) --
+* [Level 6: Stratum Selector](sovereignty/level-6) --
  dynamically choose different stratum servers (pools) based on luck measure
-* [Level 7: Off-grid Mining](level-7) --
+* [Level 7: Off-grid Mining](sovereignty/level-7) --
  relocate miners to off-grid energy sources
 
