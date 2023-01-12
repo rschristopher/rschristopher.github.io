@@ -1,5 +1,7 @@
 # Sovereignty
 
+!!! quote "Be a Sovereign over your own Savings"
+
 Unlike physical custody of assets, 
  saving in Bitcoin 
  means storing information, a key or seed phrase,
@@ -26,11 +28,11 @@ In other words, how would you secure this phrase
 Knowing how to fulfill the above 
  is at the heart of how to save in Bitcoin.
 
-## Self Custody (Self Sovereignty)
+## Self Custody 
 
 To *self custody* means you personally 
  secure your seed phrase and manage your own keys.
- This is the recommended approach and
+This is the recommended approach and
  it is also the **only** way to properly secure your
  Bitcoin.
 
@@ -60,7 +62,6 @@ This subtle difference shifts the balance of power,
 With Bitcoin, you truly can be
  a sovereign over your own savings.
 
-!!! quote "Be a Sovereign over your own Savings"
 
 ## Who owns your Bitcoin?
 
