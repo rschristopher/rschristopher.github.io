@@ -160,7 +160,7 @@ In practice,
  and use that seed to derive as many keys and addresses as you need.
 This could be as simple as a single account with a single key
  that you use only once, or this could be millions of
- accounts used by an instition, such that each account
+ accounts used by an institution, such that each account
  can generate its own keys and addresses.
 
 ???+ info "Brief History"
