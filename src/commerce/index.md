@@ -10,7 +10,7 @@ And like [saving](../saving/)
  in Bitcoin, commerce starts simple
  and grows progressively deeper,
  complimenting the levels of
- sovereignty.
+ sovereignty in saving Bitcoin.
 Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign
