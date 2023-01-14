@@ -92,7 +92,7 @@ There are however some new concepts,
 
 
 
-Getting paid in Lightning
+## Getting paid in Lightning
 
 ...
 
