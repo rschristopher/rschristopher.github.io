@@ -109,4 +109,4 @@ At this point you can already store any
 
 Before you begin this journey and question everything you thought you knew about money,
  I recommend that you first read:
- [understand the terms](understand-the-terms.md)
+ [understand the terms](understand-the-terms.md).
