@@ -15,7 +15,7 @@ While most people will be involved in
  in mining, and far fewer will be successful.
 Ultimately, the mechanism that guarantees
  final international settlement is a
- highly competitive and adversarial
+ highly competitive (and adversarial)
  zero sum game.
 
 To those foolish enough to get into this game,
