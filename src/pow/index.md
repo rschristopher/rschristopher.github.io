@@ -19,10 +19,10 @@ Ultimately, the mechanism that guarantees
  zero sum game.
 
 To those foolish enough to get into this game,
- and for some it's more a matter or fate than
- want, the only way to be successful is a
+ *and for some it's more a matter of fate than
+ want*, the only way to be successful is a
  combination of competence, luck, and
- by far the most important, an insane
+ by far the most important: an sickening 
  work ethic.
 
 > “I’ve never really viewed myself as particularly talented. 
