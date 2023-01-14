@@ -13,7 +13,7 @@ While saving in Bitcoin involves
  (such as a cryptographic ledger or UTXO sets),
  Bitcoin commerce 
  is well aligned with
- traditional economic models.
+ traditional economics.
 The goal is simply to make
  or receive payments.
 For businesses it means
