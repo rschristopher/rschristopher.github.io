@@ -42,7 +42,7 @@ To those foolish enough to get into this game,
 > You’re getting off first, or I’m going to die.
 > It’s really that simple.”
 >  
-> - Will Smith
+> -- Will Smith
 
 
 
