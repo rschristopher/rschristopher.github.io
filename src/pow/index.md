@@ -60,7 +60,7 @@ To those foolish enough to get into this game,
 * [Level 5: Block Broadcasting](sovereignty/level-5) --
  run a well-peered network of nodes to minimize the risk of orphaned blocks
 * [Level 6: Stratum Selector](sovereignty/level-6) --
- dynamically choose different stratum servers (pools) based on luck measure
+ dynamically choose different stratum servers (or pools) based on luck measure
 * [Level 7: Off-grid Mining](sovereignty/level-7) --
  relocate miners to off-grid energy sources
 
