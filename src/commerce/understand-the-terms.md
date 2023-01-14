@@ -6,18 +6,28 @@ Have mercy on me, a sinner
 
 # Understand the Terms
 
+While saving in Bitcoin involves
+ new concepts
+ that don't otherwise exist in
+ traditional economic models
+ (such as a cryptographic ledger),
+ Bitcoin commerce 
+ is well aligned with these
+ traditional models.
+The goal is simply to make
+ or receive payments;
+ to buy and sell.
+For businesses it means
+ selling goods and serves,
+ getting paid in Bitcoin.
+For consumers it means
+ paying for goods and services,
+ as easily as you would
+ pay in cash.
+
+
+
 !!! warning "work in progress"
-
-While saving in Bitcoin involves securing
- your wealth in cold storage,
- making it difficult to transfer funds,
- Bitcoin from a commerce perspective
- is very different,
- the goal is to easily move Bitcoin.
-Specifically, to easily spend your Bitcoin,
- not only in a hot wallet but in a
- lightning channel.
-
 ...
 
 Hot wallets
