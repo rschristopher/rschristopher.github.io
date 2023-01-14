@@ -15,7 +15,7 @@ While saving in Bitcoin involves
  is well aligned with
  traditional economics.
 The goal is simply to make
- or receive payments.
+ and receive payments.
 For businesses it means
  selling goods and serves,
  getting paid in Bitcoin.
