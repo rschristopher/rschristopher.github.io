@@ -1,12 +1,53 @@
-# Proof of Work 
+# Proof of Work
 
-How Bitcoin is settled on the timechain
- (payment processing on the base layer),
- and how Bitcoin is issued (aka *mining* or *proof-of-work hashing*)
+Bitcoin transactions are processed through
+ a highly competitive system of
+ proof of work hashing, *aka* mining.
+This is also, coincidentally, how Bitcoin
+ is issued and how issuance stays on
+ a fixed supply schedule, and how the
+ total supply is (and always will remain) fixed.
 
-!!! warning "work in progress"
+While most people will be involved in
+ [saving](../saving/) Bitcoin, as well as
+ [commerce](../commerce) in Bitcoin,
+ very few will be involved
+ in mining, and far fewer will be successful.
+Ultimately, the mechanism that guarantees
+ final international settlement is a
+ highly competitive and adversarial
+ zero sum game.
 
-Here is an overview of the different levels.
+To those foolish enough to get into this game,
+ and for some it's more a matter or fate than
+ want, the only way to be successful is a
+ combination of competence, luck, and
+ by far the most important, an insane
+ work ethic.
+
+> “I’ve never really viewed myself as particularly talented. 
+> Where I excel is ridiculous, sickening 
+> work ethic.
+> The only thing I see that is distinctly
+> different about me is:
+> I’m not afraid to die on a treadmill. 
+> I will not be outworked, period.
+> You might have more talent than me,
+> you might be smarter than me,
+> you might be sexier than me.
+> You might be all of those things.
+> You got it on me in nine categories.
+> But if we get on the treadmill together,
+> there’s two things:
+> You’re getting off first, or I’m going to die.
+> It’s really that simple.”
+>  
+> - Will Smith
+
+
+
+
+## Sovereignty Levels
 
 * [Level 1: Getting Started](sovereignty/level-1) -- 
  overview of how Bitcoin mining works
@@ -22,4 +63,8 @@ Here is an overview of the different levels.
  dynamically choose different stratum servers (pools) based on luck measure
 * [Level 7: Off-grid Mining](sovereignty/level-7) --
  relocate miners to off-grid energy sources
+
+Before diving in and daring to test your fate
+ at Bitcoin mining, you may want to first read:
+ [understand the terms](understand-the-terms.md).
 
