@@ -17,7 +17,8 @@ It is better understood as
  course.
 Unfortunately, there's no word to adequately
  describe that, hence the circumlocutions
- necessary to describe what it really is.
+ necessary to describe what 
+ "Bitcoin mining" really is.
 
 For these reasons, we've called this section
  *proof of work*.
@@ -28,6 +29,8 @@ Because for better or worse, the entirety
  *proof of work* consensus mechanism.
 
 !!! warning "work in progress"
+
+
 
 
 
@@ -49,13 +52,20 @@ Because for better or worse, the entirety
 
 ...
 
-### RIPEMD-160
+... RIPEMD-160
 
 ...
 
 ### Merkle Root
 
 ...
+
+### Hashrate
+
+...
+
+
+
 
 
 
@@ -68,9 +78,15 @@ Because for better or worse, the entirety
 
 ...
 
+### Block height (PoW)
+
+...
+
 ### Block propagation
 
 ...
+
+
 
 
 
@@ -93,10 +109,41 @@ Because for better or worse, the entirety
 
 
 
+
+
+
 ## Luck
 
 ...
 
+
+
+
+
+
+## Pools
+
+...
+
+### Stratum
+
+...
+
+### Payout strategies
+
+...
+
+#### PPS
+
+...
+
+#### PPLNS
+
+...
+
+#### Solo
+
+...
 
 
 
