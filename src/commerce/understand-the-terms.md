@@ -73,11 +73,22 @@ There are however some new concepts,
 
 ### Private Channels 
 
+...
+
+
+
+
+
+
 
 
 ## Point of Sale
 
 ...
+
+
+
+
 
 
 
