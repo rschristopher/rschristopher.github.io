@@ -6,9 +6,9 @@ Have mercy on me, a sinner
 
 # Understand the Terms
 
-*Minimg* is perhaps one of the most confusing
+*Minimg* is perhaps the most confusing
  and egregiously bad 
- metaphors within Bitcoin.
+ metaphor within Bitcoin.
 It is better understood as 
  a transaction processor, allowing
  for *final international settlement*
