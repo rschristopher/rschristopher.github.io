@@ -57,7 +57,8 @@ And now St. Christopher helps travelers and
 
 ## Who are you, really?
 
-No one important, and ultimately 
+No one important, just a pseudonym.
+And ultimately 
  it doesn't
  really matter who I am -- what
  matters is whether the claims
@@ -69,7 +70,7 @@ Are you a seeker of truth?
 Are you willing to challenge
  preconceived notions and deeply
  held beliefs?
-Is truth important to you?
+Is *truth* important to you?
 
 Some of the arguments put forth
  in these essays 
