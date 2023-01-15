@@ -185,7 +185,7 @@ A stratified civilization cannot
 Remember, Bitcoin requires electricity,
  computers, and a global network.
 
-!!! quote "And if a house is divided against itself, that house will not be able to stand."
+> *"And if a house is divided against itself, that house will not be able to stand."*
 
 Fortunately, the technical claim here is
  most likely false.

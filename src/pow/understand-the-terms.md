@@ -129,19 +129,15 @@ Because for better or worse, the entirety
 
 ...
 
-### Payout strategies
+### PPS
 
 ...
 
-#### PPS
+### PPLNS
 
 ...
 
-#### PPLNS
-
-...
-
-#### Solo
+### Solo
 
 ...
 

@@ -97,8 +97,9 @@ Separating money from human control, from
  oligarchs and autocrats, is the challenge
  we face.
 
-!!! quote "I care not who controls a nation’s political affairs, so long as I control her currency"
-    *– Mayer Amschel Rothschild*
+> *"I care not who controls a nation’s political affairs, so long as I control her currency"*
+> 
+> -- Mayer Amschel Rothschild
 
 
 

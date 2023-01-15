@@ -18,11 +18,12 @@ Ultimately, the mechanism that guarantees
  highly competitive (and adversarial)
  zero sum game.
 
-For those foolish enough to get into this game,
- *and for some it's more a matter of fate than
- want*, the only way to be successful is a
+For those foolish enough to get into this game
+ -- *and for some it's more a matter of fate than
+ want* --
+ the only way to be successful is a
  combination of competence, luck, and
- by far the most important: a sickening 
+ by far the most important: a ridiculous 
  work ethic.
 
 > “I’ve never really viewed myself as particularly talented. 
