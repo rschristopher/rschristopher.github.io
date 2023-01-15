@@ -34,7 +34,7 @@ And we will go as deep as
 While revisionists like to say St. Christopher 
  was an ordinary man, 
  arrogantly proclaiming that
- "dog-headed men" never
+ *"dog-headed men"* never
  actually existed
  and that it was all just a
  translation
