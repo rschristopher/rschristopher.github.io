@@ -31,23 +31,24 @@ And we will go as deep as
 
 *Reprobus Saint Christopher*, the dog-headed
  saint of travelers and Bitcoiners.
-While revisionists like to say I am
- an ordinary man, 
+While revisionists like to say St. Christopher 
+ was an ordinary man, 
  arrogantly proclaiming that
- dog-headed creatures never
+ "dog-headed men" never
  actually existed
  and that it was all just a
  translation
  error 
  or worse, a myth --
-no, *I am* actually a dog-headed giant;
+no, St. Christopher actually was
+ a dog-headed giant;
 a monster from beyond the fringes,
  haunting the marginalia of
- your ancient world.
-And yet, in my pursuit of power,
- I instead found salvation.
+ our ancient world.
+And yet, in the pursuit of power,
+ Reprobus instead found salvation.
 
-And now I help travelers and
+And now St. Christopher helps travelers and
  Bitcoiners find their way.
 
 ![St Christopher](/images/st-christopher.jpg)
