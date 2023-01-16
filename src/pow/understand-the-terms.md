@@ -8,14 +8,14 @@ Have mercy on me, a sinner
 
 *Mining* is perhaps the most confusing
  metaphor within all of Bitcoin.
-It is perhaps better understood as 
+It can be better understood as 
  transaction processing, allowing
- for *final international settlement*,
- in addition to ensuring that the
+ for *final international settlement* --
+ as well as issuance, ensuring that the
  supply schedule stays on its predetermined
  course.
-Unfortunately, there's no word to adequately
- describe all that, hence the circumlocutions
+Unfortunately, there's no one word to adequately
+ describe all of that, hence the circumlocutions
  necessary to describe what 
  Bitcoin "mining" really is.
 
@@ -29,7 +29,7 @@ Because for better or worse, the entirety
 
 Ww will attempt to demystify *proof of work*
  and provide a clear and technically accurate
- understanding for how it all works.
+ understanding of how mining works.
 
  
 
@@ -44,43 +44,46 @@ Ww will attempt to demystify *proof of work*
 
 ## Hashing 
 
-Despite what a lot of well-intentioned
- media outlets claim, Bitcoin mining does
+Despite what is often claimed,
+ Bitcoin mining does
  not involve solving complex math problems.
-Bitcoin mining is actually just *hashing*.
+Bitcoin mining is just *hashing*.
 The "proof" in *proof of work* is simply
  a hash that *proves*
- a certain amount of hashes
- were made.
+ a certain amount of hashinh (that is, *work*)
+ was done.
 
 !!! question "what is a hash?"
 
 A "hash" refers to a
  [hash function](https://en.m.wikipedia.org/wiki/Hash_function),
- which is simply a function that takes
+ which is a function that takes
  input of any size and maps it to a 
  fixed-sized output.
 Typically a "hash" refers to the output of
  a hash function.
 A good hash function should be deterministic,
- uniformly distributed output, and non-reversable.
+ with uniformly distributed output,
+ and non-reversable.
 
 The output set of a hash function can be
  small (useful for data indexing) or
  extremely large (useful for cryptography).
-Bitcoin mining uses SHA-256.
+Bitcoin mining uses
+ [SHA-256](https://en.m.wikipedia.org/wiki/SHA-2).
 
 
 ### SHA-256
 
-[SHA-256](https://en.m.wikipedia.org/wiki/SHA-2)
+SHA-256 is a hash function that
  maps any input into a number somewhere between
  0 and 2<sup>256</sup>.
 This set of numbers is so large it's on the scale
  of *atoms in the universe*.
 It's so astronomically large that the chance
  two human-generated
- inputs mapping to the same output (collision)
+ inputs mapping to the same output
+ (what would be known as a collision)
  is considered so infeasible as to be
  impossible.
 And in fact there are exactly *zero* known
@@ -91,16 +94,51 @@ And in fact there are exactly *zero* known
 
 That said, what if instead of a collision,
  you just wanted to find an input whose
- hash was
- smaller than a given number?
-Well, it would depend on the number.
-If it's a very large number, say 
+ hashed output was
+ smaller than a target number?
+In other, the hashed output just so happened
+ to be a smaller than the target.
+If it's a very large target, say 
  2<sup>255</sup> then this would be trivial
- (50% of all inputs would do it, basically
- a coin flip).
-But if it was a very small number, then it
+ (50% of all inputs would produce
+ a hashed output smaller than that, basically
+ a coin toss).
+But if it was a very small target, then it
  would be extremely difficult to find *any*
- input that produced a hash that was smaller.
+ input that produced a hashed output
+ that was smaller.
+
+???+ example "For example"
+    Let's look at some example SHA-256 outputs,
+    
+    `1` => `6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B`
+    
+    `2` => `D4735E3A265E16EEE03F59718B9B5D03019C07D8B6C51F90DA3A666EEC13AB35`
+    
+    `3` => `4E07408562BEDB8B60CE05C1DECFE3AD16B72230967DE01F640B7E4729B49FCE`
+    
+    `three` => `8B5B9DB0C13DB24256C829AA364AA90C6D2EBA318B9232A4AB9313B954D3555F`
+    
+    `Three` => `926F52D1C1E19C0C58A7D39BF234A0D239352F5ACFA26C73989D9C3845614999`
+    
+    `Three?` => `F9DCE11BE6E27EA81231A766A4210EAA05D51E4C5F5F79C8FD0133274201D543`
+    
+    Notice that small changes in the input
+    produce radically different outputs.
+    Each output is a hexadecimal representation
+    of a number (that is, base-16).
+    In fact, there's no way to predict
+    where in the 2<sup>256</sup> output space
+    a given input will land (other than to
+    perform the SHA-256).
+    
+    Also notice that none of these output
+    numbers are particularly small.
+    For comparison, let's look at the
+    SHA-256 output of the Bitcoin genesis block,
+    
+    [`00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048`](https://blockstream.info/block/00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048)
+    
 
 This simple observation is the basis
  for Bitcoin mining.
