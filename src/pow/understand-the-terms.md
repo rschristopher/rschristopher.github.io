@@ -18,7 +18,7 @@ It is better understood as
 Unfortunately, there's no word to adequately
  describe that, hence the circumlocutions
  necessary to describe what 
- "Bitcoin mining" really is.
+ Bitcoin "mining" really is.
 
 For these reasons, we've called this section
  *proof of work*.
