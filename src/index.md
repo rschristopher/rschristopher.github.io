@@ -19,7 +19,7 @@ We will not be satisfied
  with shallow
  [criticism](criticisms/)
  and hype.
-We want to know whether
+We want to know whether or not
  there is truth to Bitcoin.
 And we will go as deep as
  necessary to discover this
