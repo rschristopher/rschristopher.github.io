@@ -2493,9 +2493,34 @@ This number is so large
  current (and otherwise impressive)
  data storage capability.</p>
 <h3 id="session-difficulty">Session Difficulty<a class="headerlink" href="#session-difficulty" title="Permanent link">&para;</a></h3>
-<p>...</p>
+<p>Typically, session difficulty refers to the
+ specific difficulty assigned to a miner.
+While the network difficulty is used to
+ find a valid block, the session difficulty
+ is a way to find valid <em>shares</em> that act as
+ a <em>proof of work</em> for an individual miner
+ (or a pool of miners).
+For example, a modern ASIC might use a
+ session difficulty of 65,536 and generate
+ valid share files every few seconds.</p>
+<p>A share is simply a block
+ that meets the session difficulty
+ (but not necessarily the
+ network difficulty).
+These shares are themselves a
+ <em>proof of work</em>, specifically it is
+ <em>proof</em> that a given miner did work.</p>
 <h3 id="share-difficulty">Share Difficulty<a class="headerlink" href="#share-difficulty" title="Permanent link">&para;</a></h3>
-<p>...</p>
+<p>A valid share must meet the session difficulty,
+ which just means its SHA-256 hash is
+ smaller than the target
+ (computed from the session difficulty).
+Every share will have its own difficulty.
+The difficulty of a given share is guaranteed
+ to be greater than the session difficulty,
+ and if the share difficulty is greater than
+ the network difficulty then that share
+ is a block!</p>
 <h2 id="asics">ASICs<a class="headerlink" href="#asics" title="Permanent link">&para;</a></h2>
 <p><em>Application-Specific Integrated Circuit</em> or
  <a href="https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit">ASIC</a>
