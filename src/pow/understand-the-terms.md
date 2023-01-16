@@ -44,27 +44,35 @@ Ww will attempt to demystify *proof of work*
 
 ## Hashing 
 
-Despite what is often claimed,
- Bitcoin mining does
- not involve solving complex math problems.
+Despite how often it is said,
+ Bitcoin mining is not concerned with
+ solving complex math problems.
 Bitcoin mining is just *hashing*.
 The "proof" in *proof of work* is simply
  a hash that *proves*
- a certain amount of hashinh (that is, *work*)
+ a certain amount of hashing (that is, *work*)
  was done.
+The important part is not the math function,
+ the important part is the *proof of work*.
 
-!!! question "what is a hash?"
+???+ question "what is a hash?"
+    A "hash" refers to a
+     [hash function](https://en.m.wikipedia.org/wiki/Hash_function),
+     which is a function that takes
+     input of any size and maps it to a 
+     fixed-sized output.
+    Typically a "hash" refers to the output of
+     a hash function.
+    A good hash function should be deterministic,
+     with uniformly distributed output,
+     and be non-reversable.
 
-A "hash" refers to a
- [hash function](https://en.m.wikipedia.org/wiki/Hash_function),
- which is a function that takes
- input of any size and maps it to a 
- fixed-sized output.
-Typically a "hash" refers to the output of
- a hash function.
-A good hash function should be deterministic,
- with uniformly distributed output,
- and non-reversable.
+    A hash function can certainly be
+    considered a "complex math function"
+    (not exactly a "math problem"),
+    but that is decidedly not the point
+    of Bitcoin hashing -- the point
+    is *proof of work*.
 
 The output set of a hash function can be
  small (useful for data indexing) or
@@ -94,16 +102,14 @@ And in fact there are exactly *zero* known
 
 That said, what if instead of a collision,
  you just wanted to find an input whose
- hashed output was
+ SHA-256 output was
  smaller than a target number?
-In other, the hashed output just so happened
- to be a smaller than the target.
 If it's a very large target, say 
  2<sup>255</sup> then this would be trivial
  (50% of all inputs would produce
  a hashed output smaller than that, basically
  a coin toss).
-But if it was a very small target, then it
+But if it was a very small target number, then it
  would be extremely difficult to find *any*
  input that produced a hashed output
  that was smaller.
@@ -111,26 +117,27 @@ But if it was a very small target, then it
 ???+ example "For example"
     Let's look at some example SHA-256 outputs,
     
-    `1` => `6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B`
+    ```
+    1 => 6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B
+    2 => D4735E3A265E16EEE03F59718B9B5D03019C07D8B6C51F90DA3A666EEC13AB35
+    3 => 4E07408562BEDB8B60CE05C1DECFE3AD16B72230967DE01F640B7E4729B49FCE
+    ```
+    ```
+     three => 8B5B9DB0C13DB24256C829AA364AA90C6D2EBA318B9232A4AB9313B954D3555F
+     Three => 926F52D1C1E19C0C58A7D39BF234A0D239352F5ACFA26C73989D9C3845614999
+    Three? => F9DCE11BE6E27EA81231A766A4210EAA05D51E4C5F5F79C8FD0133274201D543
+    ```
     
-    `2` => `D4735E3A265E16EEE03F59718B9B5D03019C07D8B6C51F90DA3A666EEC13AB35`
-    
-    `3` => `4E07408562BEDB8B60CE05C1DECFE3AD16B72230967DE01F640B7E4729B49FCE`
-    
-    `three` => `8B5B9DB0C13DB24256C829AA364AA90C6D2EBA318B9232A4AB9313B954D3555F`
-    
-    `Three` => `926F52D1C1E19C0C58A7D39BF234A0D239352F5ACFA26C73989D9C3845614999`
-    
-    `Three?` => `F9DCE11BE6E27EA81231A766A4210EAA05D51E4C5F5F79C8FD0133274201D543`
-    
+    Each output is a hexadecimal representation
+    of a number (that is, a very large base-16 number).
     Notice that small changes in the input
     produce radically different outputs.
-    Each output is a hexadecimal representation
-    of a number (that is, base-16).
     In fact, there's no way to predict
-    where in the 2<sup>256</sup> output space
+    where in the 2<sup>256</sup> output set
     a given input will land (other than to
     perform the SHA-256).
+    And as expected, exactly 50% of those
+    outputs are less than 2<sup>255</sup>.
     
     Also notice that none of these output
     numbers are particularly small.
@@ -138,16 +145,44 @@ But if it was a very small target, then it
     SHA-256 output of the Bitcoin genesis block,
     
     [`00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048`](https://blockstream.info/block/00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048)
+
+    Notice the leading zeros.
+    This number is clearly much smaller than
+    the previous SHA-256 outputs.
+    In this case the target was 
+
+    [`00000000FFFF0000000000000000000000000000000000000000000000000000`](https://en.bitcoin.it/wiki/Difficulty)
+
+    And indeed the SHA-256 output of the genesis
+    block is smaller than this target.
+
+    Compare this to a more recent block hash, block 772244,
+
+    [`000000000000000000032c4341255c7b108f3982b71b6e734d25b89bb9b1cc41`](https://blockstream.info/block/000000000000000000032c4341255c7b108f3982b71b6e734d25b89bb9b1cc41)
+    
+    By looking at the leading zeros it is obvious that this number
+    is considerably smaller than the genesis block
+    (and thus more work was required to find an input that
+     produced such a small SHA-256 output).
+    In fact, the probability of guessing an input
+    with a SHA-256 output that small is so small
+    that you're more likely to be struck by
+    lightning every day of the week at noon.
+
     
 
-This simple observation is the basis
- for Bitcoin mining.
-In other words, finding input whose hash
- is sufficiently small can only be done
+This simple observation
+ is the basis
+ of Bitcoin mining.
+Importantly, finding input whose
+ SHA-256 hash output
+ is smaller than a target
+ can only be done
  through a brute force search;
- and thus if the goal is to find a specific input
- whose output is smaller than a given number,
- this would *prove* a certain amount of *work*
+ and thus the very existence of
+ such an input
+ would *prove* a certain amount of
+ brute force *work*
  was done.
 
 ???+ info "Other hash functions"
@@ -157,14 +192,44 @@ In other words, finding input whose hash
     used in conjunction with SHA-256 to generate
     Bitcoin addresses.
 
-### Merkle Root
+    However, within Bitcoin mining 
+    *proof of work*, it is
+    entirely a game of SHA-256 hashing.
 
-...
+???+ info "Other uses of SHA-256 in Bitcoin"
+    Bitcoin makes extensive use of SHA-256,
+    including addresses as well as computing
+    a Merkle Root.
+    A Merkle Root is a specific kind of 
+    [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
+    which is effectively a SHA-256 hash of hashes
+    of all the transactions in a given block.
+    The purpose of a Merkle Root is to prove
+    a given set of transactions produced
+    a specific SHA-256 hash
+    (a way to validate that the transactions
+     in a given block were not modified).
+
 
 ### Hashrate
 
-...
-
+You'll likely hear the term "hashrate"
+ when discussing Bitcoin mining.
+As the name implies, hashrate is
+ simply the number of SHA-256
+ hashes per-second happening in
+ the Bitcoin network.
+There are great real-time
+ [visualizations](https://mempool.space/graphs/mining/hashrate-difficulty#1y)
+ of hashrate over time.
+Hashrate across the Bitcoin
+ network is estimated based
+ on the time between blocks
+ and the current network difficulty.
+In general, the fast you are
+ receiving valid blocks for
+ a given difficulty, the
+ more hashrate you have.
 
 
 
@@ -173,20 +238,87 @@ In other words, finding input whose hash
 
 ## Difficulty
 
-Given a target number from 0 to 2<sup>256</sup>,
- finding an input whose SHA-256 hash is smaller
- than that target requires work.
-And the smaller the target, the more difficult
- it is to find, the more work required.
-In fact, Bitcoin uses a metric called
- *difficulty*, to describe the "work"
- in *proof of work*; in other words,
- a measure of how difficult it
- was to find a block.
+Difficulty is simply the measure
+ of how difficult it is to find
+ a valid block in the Bitcoin network.
+Every
+ 2016
+ blocks the difficulty will be adjusted
+ to match a 10-minute average time
+ between blocks.
+In other words, if blocks are
+ coming in faster than every
+ 10-minutes, the difficulty
+ will increase; if blocks
+ are coming in slower,
+ the difficulty will decrease.
+
+The formula for difficulty is based
+ on the target number discussed
+ above.
+Specifically,
+
+```
+difficulty = difficulty_1 / target
+```
+
+And `difficulty_1` is the highest possible target allowable in Bitcoin,
+```
+difficulty_1 = 00000000FFFF0000000000000000000000000000000000000000000000000000
+```
+
+Note that as *difficulty* increases
+ the target number decreases
+ (that is, it becomes more difficulty
+ to find a SHA-256 hash that is less
+ than the target).
+
+
 
 ### Network Difficulty
 
-...
+Network difficulty refers to
+ the current difficulty across
+ the entire Bitcoin network.
+When Bitcoin was first released
+ in 2009
+ the network difficulty was 1,
+ and this number slowly increased
+ as more participants joined
+ and started mining.
+By 2012 the difficulty
+ was over a million.
+
+In the age of ASICs, the
+ network difficulty has
+ grown astronomically large,
+ and
+ [continues](https://mempool.space/graphs/mining/hashrate-difficulty#all)
+ to grow.
+For example, block 772244 (mentioned above)
+ has a difficulty of 37,590,453,655,497.09
+ (over 37-trillion).
+This corresponds to a *hashrate*
+ over 250 exahash --
+ that is, over 250 quintillion
+ SHA-256 hashes per-second.
+
+To put this into perspective,
+ if we attempted to log all of
+ these quintillions of hashes
+ per-second
+ then we would exhaust
+ all know storage space
+ (all cloud storage,
+  all personal computers,
+  all mobile devices)
+ in only a few seconds.
+This number is so large
+ it is far beyond our
+ current (and otherwise impressive)
+ data storage capability.
+
+
 
 ### Session Difficulty
 
