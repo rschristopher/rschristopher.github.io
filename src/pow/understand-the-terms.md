@@ -323,11 +323,39 @@ This number is so large
 
 ### Session Difficulty
 
-...
+Typically, session difficulty refers to the
+ specific difficulty assigned to a miner.
+While the network difficulty is used to
+ find a valid block, the session difficulty
+ is a way to find valid *shares* that act as
+ a *proof of work* for an individual miner
+ (or a pool of miners).
+For example, a modern ASIC might use a
+ session difficulty of 65,536 and generate
+ valid share files every few seconds.
+
+A share is simply a block
+ that meets the session difficulty
+ (but not necessarily the
+ network difficulty).
+These shares are themselves a
+ *proof of work*, specifically it is
+ *proof* that a given miner did work.
+
+
 
 ### Share Difficulty
 
-...
+A valid share must meet the session difficulty,
+ which just means its SHA-256 hash is
+ smaller than the target
+ (computed from the session difficulty).
+Every share will have its own difficulty.
+The difficulty of a given share is guaranteed
+ to be greater than the session difficulty,
+ and if the share difficulty is greater than
+ the network difficulty then that share
+ is a block!
 
 
 
