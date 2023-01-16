@@ -216,7 +216,7 @@ Importantly, finding input whose
 As the name implies, hashrate is
  simply the number of SHA-256
  hashes per-second happening
- in order successful discover
+ in order to successful discover
  a new block.
 There are great real-time
  [visualizations](https://mempool.space/graphs/mining/hashrate-difficulty#1y)
@@ -261,7 +261,8 @@ Specifically,
 difficulty = difficulty_1 / target
 ```
 
-And `difficulty_1` is the highest possible target allowable in Bitcoin,
+And `difficulty_1` is the highest possible target allowable in Bitcoin
+ (in other words the lowest allowable difficulty),
 ```
 difficulty_1 = 00000000FFFF0000000000000000000000000000000000000000000000000000
 ```
@@ -269,7 +270,7 @@ difficulty_1 = 00000000FFFF0000000000000000000000000000000000000000000000000000
 Note that as *difficulty* increases
  the target number decreases
  (that is, it becomes more difficulty
- to find a SHA-256 hash that is less
+ to find a SHA-256 hash less
  than the target).
 
 
@@ -283,7 +284,7 @@ That is, the difficulty needed
  to find a valid block.
 When Bitcoin was first released
  in 2009
- the network difficulty was 1,
+ the network difficulty was 1.0,
  and this number slowly increased
  as more participants joined
  and started mining.
@@ -306,7 +307,7 @@ This corresponds to a *hashrate*
 
 To put this into perspective,
  if we attempted to log all of
- these quintillions of hashes
+ the quintillions of hashes
  per-second
  then we would exhaust
  all know storage space
@@ -317,7 +318,7 @@ To put this into perspective,
 This number is so large
  it is far beyond our
  current (and otherwise impressive)
- data storage capability.
+ global data storage capability.
 
 
 
@@ -362,6 +363,67 @@ The difficulty of a given share is guaranteed
 
 
 
+
+
+
+
+
+## Blocks
+
+Ultimately, the entire goal of Bitcoin mining
+ is to find and propagate blocks.
+Finding a block means finding a valid block
+ whose SHA-256 hash is less than the
+ current network difficulty target.
+More specifically, the hash of the
+ *block headers*
+ must meet this difficulty.
+
+### Block headers
+
+A block header is composed of a small
+ number of fields that when input
+ into a SHA-256 will produce a
+ hash that is less than the target 
+ (from the network difficulty).
+
+* **version** -- a 4-byte field used to track version, and (since [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki)) is used to signal for soft forks (backwards compatible upgrades to the protocol)
+* **timestamp** -- a 4-byte field containing the Unix timestamp; must be greater than the average of the previous 11-blocks and less than 2-hours past the current network-adjusted timestamp 
+* **difficulty** -- a 4-byte compressed representation of the current network difficulty
+* **nonce** -- 
+* **previous block hash** -- 
+* **merkle root** --
+
+
+### Block height and weight (PoW)
+
+...
+
+### Block propagation
+
+...
+
+
+
+
+
+
+
+
+
+
+
+## Luck
+
+...
+
+
+
+
+
+
+
+
 ## ASICs
 
 *Application-Specific Integrated Circuit* or
@@ -385,41 +447,6 @@ At every step of this evolution the incentives
  hashrate for the minimum amount of
  electricity consumption.
 
-
-
-
-
-
-
-## Blocks
-
-...
-
-### Block headers
-
-...
-
-### Block height (PoW)
-
-...
-
-### Block propagation
-
-...
-
-
-
-
-
-
-
-
-
-
-
-## Luck
-
-...
 
 
 
