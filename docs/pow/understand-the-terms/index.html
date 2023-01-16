@@ -2272,7 +2272,7 @@ The important part is not the math function,
 <summary>what is a hash?</summary>
 <p>A "hash" refers to a
  <a href="https://en.m.wikipedia.org/wiki/Hash_function">hash function</a>,
- which is a function that takes
+ which is a math function that takes
  input of any size and maps it to a 
  fixed-sized output.
 Typically a "hash" refers to the output of
@@ -2406,27 +2406,26 @@ a specific SHA-256 hash
  in a given block were not modified).</p>
 </details>
 <h3 id="hashrate">Hashrate<a class="headerlink" href="#hashrate" title="Permanent link">&para;</a></h3>
-<p>You'll likely hear the term "hashrate"
- when discussing Bitcoin mining.
-As the name implies, hashrate is
+<p>As the name implies, hashrate is
  simply the number of SHA-256
- hashes per-second happening in
- the Bitcoin network.
+ hashes per-second happening
+ in order successful discover
+ a new block.
 There are great real-time
  <a href="https://mempool.space/graphs/mining/hashrate-difficulty#1y">visualizations</a>
  of hashrate over time.
-Hashrate across the Bitcoin
+Hashrate across the entire Bitcoin
  network is estimated based
  on the time between blocks
  and the current network difficulty.
-In general, the fast you are
- receiving valid blocks for
+In general, the faster you are
+ producing valid blocks for
  a given difficulty, the
  more hashrate you have.</p>
 <h2 id="difficulty">Difficulty<a class="headerlink" href="#difficulty" title="Permanent link">&para;</a></h2>
 <p>Difficulty is simply the measure
  of how difficult it is to find
- a valid block in the Bitcoin network.
+ a valid block.
 Every
  2016
  blocks the difficulty will be adjusted
@@ -2454,8 +2453,10 @@ Specifically,</p>
  than the target).</p>
 <h3 id="network-difficulty">Network Difficulty<a class="headerlink" href="#network-difficulty" title="Permanent link">&para;</a></h3>
 <p>Network difficulty refers to
- the current difficulty across
+ the difficulty across
  the entire Bitcoin network.
+That is, the difficulty needed
+ to find a valid block.
 When Bitcoin was first released
  in 2009
  the network difficulty was 1,
@@ -2474,7 +2475,7 @@ For example, block 772244 (mentioned above)
  has a difficulty of 37,590,453,655,497.09
  (over 37-trillion).
 This corresponds to a <em>hashrate</em>
- over 250 exahash --
+ of over 250 exahash --
  that is, over 250 quintillion
  SHA-256 hashes per-second.</p>
 <p>To put this into perspective,
