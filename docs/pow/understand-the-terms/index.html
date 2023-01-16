@@ -1703,13 +1703,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#asics" class="md-nav__link">
-    ASICs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#blocks" class="md-nav__link">
     Blocks
   </a>
@@ -1725,8 +1718,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#block-height-pow" class="md-nav__link">
-    Block height (PoW)
+  <a href="#block-height-and-weight-pow" class="md-nav__link">
+    Block height and weight (PoW)
   </a>
   
 </li>
@@ -1746,6 +1739,13 @@
         <li class="md-nav__item">
   <a href="#luck" class="md-nav__link">
     Luck
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#asics" class="md-nav__link">
+    ASICs
   </a>
   
 </li>
@@ -2123,13 +2123,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#asics" class="md-nav__link">
-    ASICs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#blocks" class="md-nav__link">
     Blocks
   </a>
@@ -2145,8 +2138,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#block-height-pow" class="md-nav__link">
-    Block height (PoW)
+  <a href="#block-height-and-weight-pow" class="md-nav__link">
+    Block height and weight (PoW)
   </a>
   
 </li>
@@ -2166,6 +2159,13 @@
         <li class="md-nav__item">
   <a href="#luck" class="md-nav__link">
     Luck
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#asics" class="md-nav__link">
+    ASICs
   </a>
   
 </li>
@@ -2409,7 +2409,7 @@ a specific SHA-256 hash
 <p>As the name implies, hashrate is
  simply the number of SHA-256
  hashes per-second happening
- in order successful discover
+ in order to successful discover
  a new block.
 There are great real-time
  <a href="https://mempool.space/graphs/mining/hashrate-difficulty#1y">visualizations</a>
@@ -2443,13 +2443,14 @@ In other words, if blocks are
 Specifically,</p>
 <div class="highlight"><pre><span></span><code>difficulty = difficulty_1 / target
 </code></pre></div>
-<p>And <code>difficulty_1</code> is the highest possible target allowable in Bitcoin,
+<p>And <code>difficulty_1</code> is the highest possible target allowable in Bitcoin
+ (in other words the lowest allowable difficulty),
 <div class="highlight"><pre><span></span><code>difficulty_1 = 00000000FFFF0000000000000000000000000000000000000000000000000000
 </code></pre></div></p>
 <p>Note that as <em>difficulty</em> increases
  the target number decreases
  (that is, it becomes more difficulty
- to find a SHA-256 hash that is less
+ to find a SHA-256 hash less
  than the target).</p>
 <h3 id="network-difficulty">Network Difficulty<a class="headerlink" href="#network-difficulty" title="Permanent link">&para;</a></h3>
 <p>Network difficulty refers to
@@ -2459,7 +2460,7 @@ That is, the difficulty needed
  to find a valid block.
 When Bitcoin was first released
  in 2009
- the network difficulty was 1,
+ the network difficulty was 1.0,
  and this number slowly increased
  as more participants joined
  and started mining.
@@ -2480,7 +2481,7 @@ This corresponds to a <em>hashrate</em>
  SHA-256 hashes per-second.</p>
 <p>To put this into perspective,
  if we attempted to log all of
- these quintillions of hashes
+ the quintillions of hashes
  per-second
  then we would exhaust
  all know storage space
@@ -2491,7 +2492,7 @@ This corresponds to a <em>hashrate</em>
 This number is so large
  it is far beyond our
  current (and otherwise impressive)
- data storage capability.</p>
+ global data storage capability.</p>
 <h3 id="session-difficulty">Session Difficulty<a class="headerlink" href="#session-difficulty" title="Permanent link">&para;</a></h3>
 <p>Typically, session difficulty refers to the
  specific difficulty assigned to a miner.
@@ -2521,6 +2522,35 @@ The difficulty of a given share is guaranteed
  and if the share difficulty is greater than
  the network difficulty then that share
  is a block!</p>
+<h2 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h2>
+<p>Ultimately, the entire goal of Bitcoin mining
+ is to find and propagate blocks.
+Finding a block means finding a valid block
+ whose SHA-256 hash is less than the
+ current network difficulty target.
+More specifically, the hash of the
+ <em>block headers</em>
+ must meet this difficulty.</p>
+<h3 id="block-headers">Block headers<a class="headerlink" href="#block-headers" title="Permanent link">&para;</a></h3>
+<p>A block header is composed of a small
+ number of fields that when input
+ into a SHA-256 will produce a
+ hash that is less than the target 
+ (from the network difficulty).</p>
+<ul>
+<li><strong>version</strong> -- a 4-byte field used to track version, and (since <a href="https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki">BIP-9</a>) is used to signal for soft forks (backwards compatible upgrades to the protocol)</li>
+<li><strong>timestamp</strong> -- a 4-byte field containing the Unix timestamp; must be greater than the average of the previous 11-blocks and less than 2-hours past the current network-adjusted timestamp </li>
+<li><strong>difficulty</strong> -- a 4-byte compressed representation of the current network difficulty</li>
+<li><strong>nonce</strong> -- </li>
+<li><strong>previous block hash</strong> -- </li>
+<li><strong>merkle root</strong> --</li>
+</ul>
+<h3 id="block-height-and-weight-pow">Block height and weight (PoW)<a class="headerlink" href="#block-height-and-weight-pow" title="Permanent link">&para;</a></h3>
+<p>...</p>
+<h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
+<p>...</p>
+<h2 id="luck">Luck<a class="headerlink" href="#luck" title="Permanent link">&para;</a></h2>
+<p>...</p>
 <h2 id="asics">ASICs<a class="headerlink" href="#asics" title="Permanent link">&para;</a></h2>
 <p><em>Application-Specific Integrated Circuit</em> or
  <a href="https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit">ASIC</a>
@@ -2541,16 +2571,6 @@ At every step of this evolution the incentives
  are pointing to the maximum amount of
  hashrate for the minimum amount of
  electricity consumption.</p>
-<h2 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h2>
-<p>...</p>
-<h3 id="block-headers">Block headers<a class="headerlink" href="#block-headers" title="Permanent link">&para;</a></h3>
-<p>...</p>
-<h3 id="block-height-pow">Block height (PoW)<a class="headerlink" href="#block-height-pow" title="Permanent link">&para;</a></h3>
-<p>...</p>
-<h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
-<p>...</p>
-<h2 id="luck">Luck<a class="headerlink" href="#luck" title="Permanent link">&para;</a></h2>
-<p>...</p>
 <h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
 <p>...</p>
 <h3 id="stratum">Stratum<a class="headerlink" href="#stratum" title="Permanent link">&para;</a></h3>
