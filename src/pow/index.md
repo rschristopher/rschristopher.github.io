@@ -2,15 +2,16 @@
 
 Bitcoin transactions are processed through
  a highly competitive system of
- proof of work hashing, *aka* mining.
+ *proof of work* hashing, *aka* mining.
 This is also, coincidentally, how Bitcoin
  is issued and how issuance stays on
  a fixed supply schedule, and how the
  total supply is (and always will remain) fixed.
 
-While most people will be involved in
- [saving](../saving/) Bitcoin, as well as
- [commerce](../commerce) in Bitcoin,
+While most people will be
+ [saving](../saving/)
+ and
+ [transacting](../commerce) in Bitcoin,
  very few will be involved
  in mining, and far fewer will be successful.
 Ultimately, the mechanism that guarantees
@@ -18,7 +19,7 @@ Ultimately, the mechanism that guarantees
  highly competitive (and adversarial)
  zero sum game.
 
-For those foolish enough to get into this game
+For those foolish enough to play this game
  -- *and for some it's more a matter of fate than
  want* --
  the only way to be successful is a
@@ -45,7 +46,13 @@ For those foolish enough to get into this game
 >  
 > -- Will Smith
 
-
+If you're afraid to die on a treadmill,
+ Bitcoin mining is most certainly not
+ for you.
+However, if this sounds like
+ just your kind of game,
+ well then -- welcome to the
+ [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic).
 
 
 ## Sovereignty Levels
@@ -59,13 +66,13 @@ For those foolish enough to get into this game
 * [Level 4: Mining Farm](sovereignty/level-4) --
  run a farm of Bitcoin miners
 * [Level 5: Block Broadcasting](sovereignty/level-5) --
- run a well-peered network of nodes to minimize the risk of orphaned blocks
+ run a well-peered network of nodes
 * [Level 6: Stratum Selector](sovereignty/level-6) --
- dynamically choose different stratum servers (or pools) based on luck measure
+ dynamically choose different stratum servers
 * [Level 7: Off-grid Mining](sovereignty/level-7) --
  relocate miners to off-grid energy sources
 
 Before diving in and daring to test your fate
- at Bitcoin mining, you may want to first read:
+ at Bitcoin mining, you may want to first
  [understand the terms](understand-the-terms.md).
 

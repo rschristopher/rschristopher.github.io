@@ -8,13 +8,11 @@ Under a Bitcoin Standard,
  final international settlement on the base layer.
 And like [saving](../saving/)
  in Bitcoin, commerce starts simple
- and grows progressively deeper,
- complimenting the levels of
- sovereignty in saving Bitcoin.
+ and grows progressively deeper.
 Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign
- (and not by fiat, but simply by opting in
+ (not by fiat, but simply by opting in
  to sound money, getting paid in Bitcoin,
  and buying goods and services in Bitcoin).
 
@@ -28,26 +26,22 @@ Below is an overview of the levels, guiding
 * [Level 1: Getting Started](sovereignty/level-1) -- 
  buying and selling goods
  and services using Bitcoin
- (both lightning and 
- final settlement on the base layer).
 * [Level 2: Payment Service](sovereignty/level-2) --
  use a hosted payment system
- for your business or hobby.
+ for your business or hobby
 * [Level 3: Self Hosted](sovereignty/level-3) --
  use a self hosted payment system
- integrated into self custody.
+ integrated into self custody
 * [Level 4: Full Node](sovereignty/level-4) --
- run a dedicated full node (and lightning
- node).
+ run a dedicated full node (and lightning node)
 * [Level 5: Private Channels](sovereignty/level-5) --
  establish private lightning channels
- with local suppliers and partners.
+ with local partners
 * [Level 6: Localism](sovereignty/level-6) --
- establish local area off-grid networks
- with other local merchants and customers.
+ establish local-area off-grid networks
 
 Before diving in and learning to become a
- financial sovereign, you may want to first read:
+ financial sovereign, you may want to first
  [understand the terms](understand-the-terms.md).
 
 

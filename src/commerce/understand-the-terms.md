@@ -17,10 +17,10 @@ While saving in Bitcoin involves
 The goal is simply to make
  and receive payments.
 For businesses it means
- selling goods and serves,
+ selling goods and services,
  getting paid in Bitcoin.
 For customers it means
- paying for goods and services,
+ paying for goods and services --
  as easily as you would
  pay in cash.
 
@@ -35,15 +35,17 @@ This is because most of those traditional
  business models developed under a gold
  standard (a sound money standard).
 
-In practice, you may find commerce
+As a result, you may find commerce
  under a Bitcoin standard to be
- intuitive and simple, with less of the complex
+ intuitive and simple,
+ almost naive,
+ with none of the complex
  financialization one finds in modern fiat.
 There are however some new concepts,
  in particular new technical concepts
  that are worth understanding.
 We will describe and help demystify these
- technical concepts, especially those
+ new concepts, especially those
  necessary for understanding commerce
  in Bitcoin.
 
@@ -55,7 +57,7 @@ We will describe and help demystify these
 !!! warning "work in progress"
 
 
-## Lightning Channels
+## Lightning Network
 
 ...
 

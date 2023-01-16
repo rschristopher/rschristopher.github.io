@@ -4,7 +4,7 @@
 
 
 This is a collection of essays
- and information all centered around
+ and information centered around
  a single question.
 It is a question most worth pursuing.
 *Is Bitcoin True?*
@@ -17,7 +17,7 @@ Will this solve the problems
 
 We will not be satisfied
  with shallow
- criticisms
+ [criticism](criticisms/)
  and hype.
 We want to know whether
  there is truth to Bitcoin.
@@ -31,7 +31,8 @@ And we will go as deep as
 
 *Reprobus Saint Christopher*, the dog-headed
  saint of travelers and Bitcoiners.
-While revisionists like to say St. Christopher 
+While [revisionists](https://en.wikipedia.org/wiki/Saint_Christopher)
+ like to say St. Christopher 
  was an ordinary man, 
  arrogantly proclaiming that
  *"dog-headed men"* never
@@ -40,15 +41,15 @@ While revisionists like to say St. Christopher
  translation
  error 
  or worse, a myth --
-no, St. Christopher actually was
+no, Reprobus actually was
  a dog-headed giant;
 a monster from beyond the fringes,
  haunting the marginalia of
  our ancient world.
-And yet, in the pursuit of power,
+And, in the pursuit of power,
  Reprobus instead found salvation.
 
-And now St. Christopher helps travelers and
+And even now St. Christopher helps travelers and
  Bitcoiners find their way.
 
 ![St Christopher](/images/st-christopher.jpg)
@@ -58,8 +59,7 @@ And now St. Christopher helps travelers and
 ## Who are you, really?
 
 No one important, just a pseudonym.
-And ultimately 
- it doesn't
+It doesn't
  really matter who I am -- what
  matters is whether the claims
  about Bitcoin are true, or not.
@@ -68,11 +68,11 @@ Perhaps more importantly,
  who are *you*?
 Are you a seeker of truth?
 Are you willing to challenge
- preconceived notions and deeply
+ conventional wisdom and deeply
  held beliefs?
-Is *truth* important to you?
+Is *truth* that important to you?
 
-Some of the arguments put forth
+The arguments put forth
  in these essays 
  may challenge the status quo
  to which you cling.

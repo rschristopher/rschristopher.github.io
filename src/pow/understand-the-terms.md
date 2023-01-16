@@ -11,7 +11,7 @@ Have mercy on me, a sinner
  metaphor within Bitcoin.
 It is better understood as 
  a transaction processor, allowing
- for *final international settlement*
+ for *final international settlement*,
  in addition to ensuring that the
  supply schedule stays on its predetermined
  course.
