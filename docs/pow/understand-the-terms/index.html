@@ -2248,14 +2248,14 @@ Have mercy on me, a sinner
 <h1 id="understand-the-terms">Understand the Terms<a class="headerlink" href="#understand-the-terms" title="Permanent link">&para;</a></h1>
 <p><em>Mining</em> is perhaps the most confusing
  metaphor within all of Bitcoin.
-It is perhaps better understood as 
+It can be better understood as 
  transaction processing, allowing
- for <em>final international settlement</em>,
- in addition to ensuring that the
+ for <em>final international settlement</em> --
+ as well as issuance, ensuring that the
  supply schedule stays on its predetermined
  course.
-Unfortunately, there's no word to adequately
- describe all that, hence the circumlocutions
+Unfortunately, there's no one word to adequately
+ describe all of that, hence the circumlocutions
  necessary to describe what 
  Bitcoin "mining" really is.</p>
 <p>For these reasons, we've called this section
@@ -2267,44 +2267,47 @@ Because for better or worse, the entirety
  <em>proof of work</em> consensus mechanism.</p>
 <p>Ww will attempt to demystify <em>proof of work</em>
  and provide a clear and technically accurate
- understanding for how it all works.</p>
+ understanding of how mining works.</p>
 <div class="admonition warning">
 <p class="admonition-title">work in progress</p>
 </div>
 <h2 id="hashing">Hashing<a class="headerlink" href="#hashing" title="Permanent link">&para;</a></h2>
-<p>Despite what a lot of well-intentioned
- media outlets claim, Bitcoin mining does
+<p>Despite what is often claimed,
+ Bitcoin mining does
  not involve solving complex math problems.
-Bitcoin mining is actually just <em>hashing</em>.
+Bitcoin mining is just <em>hashing</em>.
 The "proof" in <em>proof of work</em> is simply
  a hash that <em>proves</em>
- a certain amount of hashes
- were made.</p>
+ a certain amount of hashinh (that is, <em>work</em>)
+ was done.</p>
 <div class="admonition question">
 <p class="admonition-title">what is a hash?</p>
 </div>
 <p>A "hash" refers to a
  <a href="https://en.m.wikipedia.org/wiki/Hash_function">hash function</a>,
- which is simply a function that takes
+ which is a function that takes
  input of any size and maps it to a 
  fixed-sized output.
 Typically a "hash" refers to the output of
  a hash function.
 A good hash function should be deterministic,
- uniformly distributed output, and non-reversable.</p>
+ with uniformly distributed output,
+ and non-reversable.</p>
 <p>The output set of a hash function can be
  small (useful for data indexing) or
  extremely large (useful for cryptography).
-Bitcoin mining uses SHA-256.</p>
+Bitcoin mining uses
+ <a href="https://en.m.wikipedia.org/wiki/SHA-2">SHA-256</a>.</p>
 <h3 id="sha-256">SHA-256<a class="headerlink" href="#sha-256" title="Permanent link">&para;</a></h3>
-<p><a href="https://en.m.wikipedia.org/wiki/SHA-2">SHA-256</a>
+<p>SHA-256 is a hash function that
  maps any input into a number somewhere between
  0 and 2<sup>256</sup>.
 This set of numbers is so large it's on the scale
  of <em>atoms in the universe</em>.
 It's so astronomically large that the chance
  two human-generated
- inputs mapping to the same output (collision)
+ inputs mapping to the same output
+ (what would be known as a collision)
  is considered so infeasible as to be
  impossible.
 And in fact there are exactly <em>zero</em> known
@@ -2314,16 +2317,42 @@ And in fact there are exactly <em>zero</em> known
  universe to discover.</p>
 <p>That said, what if instead of a collision,
  you just wanted to find an input whose
- hash was
- smaller than a given number?
-Well, it would depend on the number.
-If it's a very large number, say 
+ hashed output was
+ smaller than a target number?
+In other, the hashed output just so happened
+ to be a smaller than the target.
+If it's a very large target, say 
  2<sup>255</sup> then this would be trivial
- (50% of all inputs would do it, basically
- a coin flip).
-But if it was a very small number, then it
+ (50% of all inputs would produce
+ a hashed output smaller than that, basically
+ a coin toss).
+But if it was a very small target, then it
  would be extremely difficult to find <em>any</em>
- input that produced a hash that was smaller.</p>
+ input that produced a hashed output
+ that was smaller.</p>
+<details class="example" open="open">
+<summary>For example</summary>
+<p>Let's look at some example SHA-256 outputs,</p>
+<p><code>1</code> =&gt; <code>6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B</code></p>
+<p><code>2</code> =&gt; <code>D4735E3A265E16EEE03F59718B9B5D03019C07D8B6C51F90DA3A666EEC13AB35</code></p>
+<p><code>3</code> =&gt; <code>4E07408562BEDB8B60CE05C1DECFE3AD16B72230967DE01F640B7E4729B49FCE</code></p>
+<p><code>three</code> =&gt; <code>8B5B9DB0C13DB24256C829AA364AA90C6D2EBA318B9232A4AB9313B954D3555F</code></p>
+<p><code>Three</code> =&gt; <code>926F52D1C1E19C0C58A7D39BF234A0D239352F5ACFA26C73989D9C3845614999</code></p>
+<p><code>Three?</code> =&gt; <code>F9DCE11BE6E27EA81231A766A4210EAA05D51E4C5F5F79C8FD0133274201D543</code></p>
+<p>Notice that small changes in the input
+produce radically different outputs.
+Each output is a hexadecimal representation
+of a number (that is, base-16).
+In fact, there's no way to predict
+where in the 2<sup>256</sup> output space
+a given input will land (other than to
+perform the SHA-256).</p>
+<p>Also notice that none of these output
+numbers are particularly small.
+For comparison, let's look at the
+SHA-256 output of the Bitcoin genesis block,</p>
+<p><a href="https://blockstream.info/block/00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048"><code>00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048</code></a></p>
+</details>
 <p>This simple observation is the basis
  for Bitcoin mining.
 In other words, finding input whose hash
