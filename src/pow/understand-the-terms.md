@@ -58,7 +58,7 @@ The important part is not the math function,
 ???+ question "what is a hash?"
     A "hash" refers to a
      [hash function](https://en.m.wikipedia.org/wiki/Hash_function),
-     which is a function that takes
+     which is a math function that takes
      input of any size and maps it to a 
      fixed-sized output.
     Typically a "hash" refers to the output of
@@ -213,21 +213,20 @@ Importantly, finding input whose
 
 ### Hashrate
 
-You'll likely hear the term "hashrate"
- when discussing Bitcoin mining.
 As the name implies, hashrate is
  simply the number of SHA-256
- hashes per-second happening in
- the Bitcoin network.
+ hashes per-second happening
+ in order successful discover
+ a new block.
 There are great real-time
  [visualizations](https://mempool.space/graphs/mining/hashrate-difficulty#1y)
  of hashrate over time.
-Hashrate across the Bitcoin
+Hashrate across the entire Bitcoin
  network is estimated based
  on the time between blocks
  and the current network difficulty.
-In general, the fast you are
- receiving valid blocks for
+In general, the faster you are
+ producing valid blocks for
  a given difficulty, the
  more hashrate you have.
 
@@ -240,7 +239,7 @@ In general, the fast you are
 
 Difficulty is simply the measure
  of how difficult it is to find
- a valid block in the Bitcoin network.
+ a valid block.
 Every
  2016
  blocks the difficulty will be adjusted
@@ -278,8 +277,10 @@ Note that as *difficulty* increases
 ### Network Difficulty
 
 Network difficulty refers to
- the current difficulty across
+ the difficulty across
  the entire Bitcoin network.
+That is, the difficulty needed
+ to find a valid block.
 When Bitcoin was first released
  in 2009
  the network difficulty was 1,
@@ -299,7 +300,7 @@ For example, block 772244 (mentioned above)
  has a difficulty of 37,590,453,655,497.09
  (over 37-trillion).
 This corresponds to a *hashrate*
- over 250 exahash --
+ of over 250 exahash --
  that is, over 250 quintillion
  SHA-256 hashes per-second.
 
