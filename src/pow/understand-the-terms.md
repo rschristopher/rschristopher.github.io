@@ -6,17 +6,16 @@ Have mercy on me, a sinner
 
 # Understand the Terms
 
-*Minimg* is perhaps the most confusing
- and egregiously bad 
+*Mining* is perhaps the most confusing
  metaphor within Bitcoin.
-It is better understood as 
+It is perhaps better understood as 
  a transaction processor, allowing
  for *final international settlement*,
  in addition to ensuring that the
  supply schedule stays on its predetermined
  course.
 Unfortunately, there's no word to adequately
- describe that, hence the circumlocutions
+ describe all that, hence the circumlocutions
  necessary to describe what 
  Bitcoin "mining" really is.
 
