@@ -5,8 +5,8 @@ Bitcoin transactions are processed through
  *proof of work* hashing, *aka* mining.
 This is also, coincidentally, how Bitcoin
  is issued and how issuance stays on
- a fixed supply schedule, and how the
- total supply is (and always will remain) fixed.
+ a fixed supply schedule -- and how the
+ total supply will remain fixed, forever.
 
 While most people will be
  [saving](../saving/)
