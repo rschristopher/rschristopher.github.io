@@ -21,7 +21,7 @@ Unfortunately, there's no word to adequately
  Bitcoin "mining" really is.
 
 For these reasons, we've called this section
- *proof of work*.
+ *Proof of Work*.
 Because for better or worse, the entirety
  of Bitcoin mining, international settlement
  processing, whatever you want to call it --
