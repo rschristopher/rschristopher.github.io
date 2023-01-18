@@ -196,21 +196,6 @@ Importantly, finding input whose
     *proof of work*, it is
     entirely a game of SHA-256 hashing.
 
-???+ info "Other uses of SHA-256 in Bitcoin"
-    Bitcoin makes extensive use of SHA-256,
-    including addresses as well as computing
-    a Merkle Root.
-    A Merkle Root is a specific kind of 
-    [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
-    which is effectively a SHA-256 hash of hashes
-    of all the transactions in a given block.
-    The purpose of a Merkle Root is to prove
-    a given set of transactions produced
-    a specific SHA-256 hash
-    (a way to validate that the transactions
-     in a given block were not modified).
-
-
 ### Hashrate
 
 As the name implies, hashrate is
@@ -229,6 +214,37 @@ In general, the faster you are
  producing valid blocks for
  a given difficulty, the
  more hashrate you have.
+
+
+
+
+
+
+
+
+## ASICs
+
+*Application-Specific Integrated Circuit* or
+ [ASIC](https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit)
+ is nothing new, and in Bitcoin mining
+ refers to a specific chip that calculates
+ [SHA-256](https://en.m.wikipedia.org/wiki/SHA-2)
+ hashes (and nothing else).
+However, an "ASIC" can also refer 
+ to the mining device itself
+ (which has hundreds
+ of ASIC chips).
+
+Initially, Bitcoin mining happened on
+ CPUs, and then GPUs.
+And due to economic incentives mining moved to
+ [FPGA](https://en.m.wikipedia.org/wiki/Field-programmable_gate_array)
+ chips and then eventually to modern ASICs.
+At every step of this evolution the incentives
+ are pointing to the maximum amount of
+ hashrate for the minimum amount of
+ electricity consumption.
+
 
 
 
@@ -373,7 +389,7 @@ Specifically, the *luck* of finding a
 It's similar to the probability of finding
  a block given a specific amount of hashrate.
 Technically, luck is simply the following
- formula for all shares between two blocks,
+ formula given shares between two blocks,
 
 ```
 sum(session_difficulty) / network_difficulty
@@ -411,10 +427,14 @@ And if luck is greater than 1, even by a small
  you produced.
 In that case you did the work for 102 blocks
  but were rewarded 100 blocks.
-Over time, let's say you earned 1000 blocks,
- but a luck of 102% means you missed 20 blocks --
- this would mean persistent bad luck, which
- is a sign something is wrong with your miners.
+This might just be legitimate *bad luck*.
+But over time, let's say you earned 1000 blocks
+ with a luck of 102%, meaning you missed 20 blocks --
+ this is persistent bad luck, and is
+ not statistically possible, and
+ is a sign something is wrong with your miners
+ (block withholding, rejected orphaned blocks,
+ compromised firmware, etc).
 
 
 
@@ -450,8 +470,18 @@ A block header is composed of a small
 * **previous block hash** -- 
 * **merkle root** --
 
+???+ info "Purpose of a Merkle root"
+    A Merkle Root is a Bitcoin-specific
+    [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
+    which is effectively a SHA-256 hash of hashes
+    of all the transactions in a given block.
+    The purpose of a Merkle Root is to prove
+    that a given set of transactions produces
+    a given SHA-256 hash
+    (a way to validate that the transactions
+     in a given block were not modified).
 
-### Block height and weight (PoW)
+### Block height and weight
 
 ...
 
@@ -467,34 +497,6 @@ A block header is composed of a small
 
 
 
-
-
-
-
-
-
-## ASICs
-
-*Application-Specific Integrated Circuit* or
- [ASIC](https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit)
- is nothing new, and in Bitcoin mining
- refers to a specific chip that calculates
- [SHA-256](https://en.m.wikipedia.org/wiki/SHA-2)
- hashes (and nothing else).
-However, an "ASIC" can also refer 
- to the mining device itself
- (which has hundreds
- of ASIC chips).
-
-Initially, Bitcoin mining happened on
- CPUs, and then GPUs.
-And due to economic incentives mining moved to
- [FPGA](https://en.m.wikipedia.org/wiki/Field-programmable_gate_array)
- chips and then eventually to modern ASICs.
-At every step of this evolution the incentives
- are pointing to the maximum amount of
- hashrate for the minimum amount of
- electricity consumption.
 
 
 
