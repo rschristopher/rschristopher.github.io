@@ -235,6 +235,8 @@ In general, the faster you are
 
 
 
+
+
 ## Difficulty
 
 Difficulty is simply the measure
@@ -315,10 +317,10 @@ To put this into perspective,
   all personal computers,
   all mobile devices)
  in only a few seconds.
-This number is so large
- it is far beyond our
+Bitcoin's global hashrate is now so large
+ it has outgrown our
  current (and otherwise impressive)
- global data storage capability.
+ global data storage capacity.
 
 
 
@@ -350,15 +352,69 @@ These shares are themselves a
 A valid share must meet the session difficulty,
  which just means its SHA-256 hash is
  smaller than the target
- (computed from the session difficulty).
-Every share will have its own difficulty.
-The difficulty of a given share is guaranteed
- to be greater than the session difficulty,
- and if the share difficulty is greater than
+ computed from the session difficulty.
+Every share will have its own difficulty which
+ is greater than the session difficulty.
+And if the share difficulty is greater than
  the network difficulty then that share
  is a block!
 
 
+
+
+
+
+## Luck
+
+Luck is a measure of -- you guessed it -- *luck*.
+Specifically, the *luck* of finding a 
+ valid block in
+ a given period of time.
+It's similar to the probability of finding
+ a block given a specific amount of hashrate.
+Technically, luck is simply the following
+ formula for all shares between two blocks,
+
+```
+sum(session_difficulty) / network_difficulty
+```
+
+In other words, if luck is 1.0 (100%) then you
+ mined a block when your own *proof of work*
+ was equal to the current network difficulty.
+If your luck measure was greater than 1.0
+ then this is bad luck
+ (meaning you did more work for that
+ one block than implied by the current network difficulty).
+And if your luck was less than 1.0
+ then this is good luck
+ (meaning you found a block before doing
+ all the work implied by the network difficulty).
+In practice, the luck between any two blocks
+ will vary, sometimes good and sometimes bad luck.
+However, the average luck over time
+ should convergence
+ on 100% (by definition).
+
+Over a period of N blocks, luck is simply,
+
+```
+sum(session_difficulty) / (N * network_difficulty)
+```
+
+In a perfectly efficient and error-free system,
+ luck will converge to 100% as N gets larger.
+And if luck is greater than 1, even by a small
+ fraction, say, 1.02 (102%), then that denotes
+ bad luck -- meaning you didn't mine as many
+ blocks as you should have for the hashrate
+ you produced.
+In that case you did the work for 102 blocks
+ but were rewarded 100 blocks.
+Over time, let's say you earned 1000 blocks,
+ but a luck of 102% means you missed 20 blocks --
+ this would mean persistent bad luck, which
+ is a sign something is wrong with your miners.
 
 
 
@@ -409,13 +465,6 @@ A block header is composed of a small
 
 
 
-
-
-
-
-## Luck
-
-...
 
 
 
