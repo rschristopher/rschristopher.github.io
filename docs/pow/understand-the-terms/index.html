@@ -1669,6 +1669,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#asics" class="md-nav__link">
+    ASICs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#difficulty" class="md-nav__link">
     Difficulty
   </a>
@@ -1725,8 +1732,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#block-height-and-weight-pow" class="md-nav__link">
-    Block height and weight (PoW)
+  <a href="#block-height-and-weight" class="md-nav__link">
+    Block height and weight
   </a>
   
 </li>
@@ -1740,13 +1747,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#asics" class="md-nav__link">
-    ASICs
-  </a>
   
 </li>
       
@@ -2089,6 +2089,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#asics" class="md-nav__link">
+    ASICs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#difficulty" class="md-nav__link">
     Difficulty
   </a>
@@ -2145,8 +2152,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#block-height-and-weight-pow" class="md-nav__link">
-    Block height and weight (PoW)
+  <a href="#block-height-and-weight" class="md-nav__link">
+    Block height and weight
   </a>
   
 </li>
@@ -2160,13 +2167,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#asics" class="md-nav__link">
-    ASICs
-  </a>
   
 </li>
       
@@ -2390,21 +2390,6 @@ Bitcoin addresses.</p>
 <em>proof of work</em>, it is
 entirely a game of SHA-256 hashing.</p>
 </details>
-<details class="info" open="open">
-<summary>Other uses of SHA-256 in Bitcoin</summary>
-<p>Bitcoin makes extensive use of SHA-256,
-including addresses as well as computing
-a Merkle Root.
-A Merkle Root is a specific kind of 
-<a href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle Tree</a>
-which is effectively a SHA-256 hash of hashes
-of all the transactions in a given block.
-The purpose of a Merkle Root is to prove
-a given set of transactions produced
-a specific SHA-256 hash
-(a way to validate that the transactions
- in a given block were not modified).</p>
-</details>
 <h3 id="hashrate">Hashrate<a class="headerlink" href="#hashrate" title="Permanent link">&para;</a></h3>
 <p>As the name implies, hashrate is
  simply the number of SHA-256
@@ -2422,6 +2407,26 @@ In general, the faster you are
  producing valid blocks for
  a given difficulty, the
  more hashrate you have.</p>
+<h2 id="asics">ASICs<a class="headerlink" href="#asics" title="Permanent link">&para;</a></h2>
+<p><em>Application-Specific Integrated Circuit</em> or
+ <a href="https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit">ASIC</a>
+ is nothing new, and in Bitcoin mining
+ refers to a specific chip that calculates
+ <a href="https://en.m.wikipedia.org/wiki/SHA-2">SHA-256</a>
+ hashes (and nothing else).
+However, an "ASIC" can also refer 
+ to the mining device itself
+ (which has hundreds
+ of ASIC chips).</p>
+<p>Initially, Bitcoin mining happened on
+ CPUs, and then GPUs.
+And due to economic incentives mining moved to
+ <a href="https://en.m.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a>
+ chips and then eventually to modern ASICs.
+At every step of this evolution the incentives
+ are pointing to the maximum amount of
+ hashrate for the minimum amount of
+ electricity consumption.</p>
 <h2 id="difficulty">Difficulty<a class="headerlink" href="#difficulty" title="Permanent link">&para;</a></h2>
 <p>Difficulty is simply the measure
  of how difficult it is to find
@@ -2529,7 +2534,7 @@ Specifically, the <em>luck</em> of finding a
 It's similar to the probability of finding
  a block given a specific amount of hashrate.
 Technically, luck is simply the following
- formula for all shares between two blocks,</p>
+ formula given shares between two blocks,</p>
 <div class="highlight"><pre><span></span><code>sum(session_difficulty) / network_difficulty
 </code></pre></div>
 <p>In other words, if luck is 1.0 (100%) then you
@@ -2560,10 +2565,14 @@ And if luck is greater than 1, even by a small
  you produced.
 In that case you did the work for 102 blocks
  but were rewarded 100 blocks.
-Over time, let's say you earned 1000 blocks,
- but a luck of 102% means you missed 20 blocks --
- this would mean persistent bad luck, which
- is a sign something is wrong with your miners.</p>
+This might just be legitimate <em>bad luck</em>.
+But over time, let's say you earned 1000 blocks
+ with a luck of 102%, meaning you missed 20 blocks --
+ this is persistent bad luck, and is
+ not statistically possible, and
+ is a sign something is wrong with your miners
+ (block withholding, rejected orphaned blocks,
+ compromised firmware, etc).</p>
 <h2 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h2>
 <p>Ultimately, the entire goal of Bitcoin mining
  is to find and propagate blocks.
@@ -2587,30 +2596,22 @@ More specifically, the hash of the
 <li><strong>previous block hash</strong> -- </li>
 <li><strong>merkle root</strong> --</li>
 </ul>
-<h3 id="block-height-and-weight-pow">Block height and weight (PoW)<a class="headerlink" href="#block-height-and-weight-pow" title="Permanent link">&para;</a></h3>
+<details class="info" open="open">
+<summary>Purpose of a Merkle root</summary>
+<p>A Merkle Root is a Bitcoin-specific
+<a href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle Tree</a>
+which is effectively a SHA-256 hash of hashes
+of all the transactions in a given block.
+The purpose of a Merkle Root is to prove
+that a given set of transactions produces
+a given SHA-256 hash
+(a way to validate that the transactions
+ in a given block were not modified).</p>
+</details>
+<h3 id="block-height-and-weight">Block height and weight<a class="headerlink" href="#block-height-and-weight" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
 <p>...</p>
-<h2 id="asics">ASICs<a class="headerlink" href="#asics" title="Permanent link">&para;</a></h2>
-<p><em>Application-Specific Integrated Circuit</em> or
- <a href="https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit">ASIC</a>
- is nothing new, and in Bitcoin mining
- refers to a specific chip that calculates
- <a href="https://en.m.wikipedia.org/wiki/SHA-2">SHA-256</a>
- hashes (and nothing else).
-However, an "ASIC" can also refer 
- to the mining device itself
- (which has hundreds
- of ASIC chips).</p>
-<p>Initially, Bitcoin mining happened on
- CPUs, and then GPUs.
-And due to economic incentives mining moved to
- <a href="https://en.m.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a>
- chips and then eventually to modern ASICs.
-At every step of this evolution the incentives
- are pointing to the maximum amount of
- hashrate for the minimum amount of
- electricity consumption.</p>
 <h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
 <p>...</p>
 <h3 id="stratum">Stratum<a class="headerlink" href="#stratum" title="Permanent link">&para;</a></h3>
