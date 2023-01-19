@@ -517,22 +517,28 @@ A block header is composed of a small
 * `previous block hash` -- a 32-byte field holding the SHA-256 of the previous block -- this ensures that no previous transaction was modified
 * `merkle root` -- a 32-byte field holding the Merkle tree of all transactions in the block
 
-When mining Bitcoin, only the `nonce` is directly modifiable.
+When mining Bitcoin, the `nonce`
+ is directly modifiable to work on.
 However, modern ASICs will exhaust
  the 4-bytes of `nonce` instantly.
-Miners can use the variance in the `timestamp`,
+Miners could potentially
+ use the variance in the `timestamp`,
  artificially adjusting the `timestamp`
  such that it's still
  valid (according to the consensus rules).
-But in practice this does not give 
+But in practice `nonce` and a handful
+ of bits of `timestamp` do not give 
  sufficient search space for modern
- ASIC miners (with all that hashing power)
+ ASIC miners (with all their hashing power)
  -- instead,
- modern ASIC miners modify the block,
- specifically the transactions themselves,
- adding `extranonce` which requires a
- new `merkle root` for every variation
- of the transaction list.
+ modern ASIC miners modify the transactions,
+ typically the coinbase (the very first
+ transaction in a block, which is usually
+ paid to the miner),
+ adding `extranonce` fields.
+ Because this modifies transactions this
+ requires a
+ new `merkle root` for every variation.
 
 The Merkle Root is a Bitcoin-specific
  [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
@@ -546,7 +552,8 @@ The purpose of a Merkle Root is to prove
 
 ### Block height and weight
 
-...
+[772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
+
 
 ### Block propagation
 
