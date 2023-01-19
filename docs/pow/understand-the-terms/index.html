@@ -2646,22 +2646,28 @@ More specifically, the hash of the
 <li><code>previous block hash</code> -- a 32-byte field holding the SHA-256 of the previous block -- this ensures that no previous transaction was modified</li>
 <li><code>merkle root</code> -- a 32-byte field holding the Merkle tree of all transactions in the block</li>
 </ul>
-<p>When mining Bitcoin, only the <code>nonce</code> is directly modifiable.
+<p>When mining Bitcoin, the <code>nonce</code>
+ is directly modifiable to work on.
 However, modern ASICs will exhaust
  the 4-bytes of <code>nonce</code> instantly.
-Miners can use the variance in the <code>timestamp</code>,
+Miners could potentially
+ use the variance in the <code>timestamp</code>,
  artificially adjusting the <code>timestamp</code>
  such that it's still
  valid (according to the consensus rules).
-But in practice this does not give 
+But in practice <code>nonce</code> and a handful
+ of bits of <code>timestamp</code> do not give 
  sufficient search space for modern
- ASIC miners (with all that hashing power)
+ ASIC miners (with all their hashing power)
  -- instead,
- modern ASIC miners modify the block,
- specifically the transactions themselves,
- adding <code>extranonce</code> which requires a
- new <code>merkle root</code> for every variation
- of the transaction list.</p>
+ modern ASIC miners modify the transactions,
+ typically the coinbase (the very first
+ transaction in a block, which is usually
+ paid to the miner),
+ adding <code>extranonce</code> fields.
+ Because this modifies transactions this
+ requires a
+ new <code>merkle root</code> for every variation.</p>
 <p>The Merkle Root is a Bitcoin-specific
  <a href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle Tree</a>
  which is effectively a SHA-256 hash of hashes
@@ -2672,7 +2678,7 @@ The purpose of a Merkle Root is to prove
  (a way to validate that the transactions
   in a given block were not modified).</p>
 <h3 id="block-height-and-weight">Block height and weight<a class="headerlink" href="#block-height-and-weight" title="Permanent link">&para;</a></h3>
-<p>...</p>
+<p><a href="https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c">772,615</a></p>
 <h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
