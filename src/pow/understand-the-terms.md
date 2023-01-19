@@ -11,7 +11,8 @@ Have mercy on me, a sinner
 It can be better understood as 
  transaction processing, allowing
  for *final international settlement* --
- as well as issuance, ensuring that the
+ as well as 
+ for issuance, ensuring that the
  supply schedule stays on its predetermined
  course.
 Unfortunately, there's no one word to adequately
@@ -27,13 +28,12 @@ Because for better or worse, the entirety
  all rests on top of what is known as a
  *proof of work* consensus mechanism.
 
-Ww will attempt to demystify *proof of work*
+We will attempt to demystify *proof of work*
  and provide a clear and technically accurate
  understanding of how mining works.
 
  
 
-!!! warning "work in progress"
 
 
 
@@ -56,16 +56,17 @@ The important part is not the math function,
  the important part is the *proof of work*.
 
 ???+ question "what is a hash?"
-    A "hash" refers to a
+    A "hash" refers to the output of a
      [hash function](https://en.m.wikipedia.org/wiki/Hash_function),
      which is a math function that takes
      input of any size and maps it to a 
      fixed-sized output.
-    Typically a "hash" refers to the output of
-     a hash function.
     A good hash function should be deterministic,
      with uniformly distributed output,
-     and be non-reversable.
+     and be non-reversable
+     (that is, you cannot determine what
+      the input was if you only have the
+      output).
 
     A hash function can certainly be
     considered a "complex math function"
@@ -74,7 +75,9 @@ The important part is not the math function,
     of Bitcoin hashing -- the point
     is *proof of work*.
 
-The output set of a hash function can be
+The output set of a hash function 
+ (that is, the set of all possible outputs)
+ can be
  small (useful for data indexing) or
  extremely large (useful for cryptography).
 Bitcoin mining uses
@@ -104,7 +107,7 @@ That said, what if instead of a collision,
  you just wanted to find an input whose
  SHA-256 output was
  smaller than a target number?
-If it's a very large target, say 
+If it's a very large target number, say 
  2<sup>255</sup> then this would be trivial
  (50% of all inputs would produce
  a hashed output smaller than that, basically
@@ -196,6 +199,7 @@ Importantly, finding input whose
     *proof of work*, it is
     entirely a game of SHA-256 hashing.
 
+
 ### Hashrate
 
 As the name implies, hashrate is
@@ -215,9 +219,32 @@ In general, the faster you are
  a given difficulty, the
  more hashrate you have.
 
-
-
-
+Importantly, hashrate is the
+ measure of total work being
+ done.
+From a protocol perspective,
+ we only care about
+ hashrate, and not the
+ physical energy consumed
+ by the miners to produce 
+ that hashrate.
+Energy usage (e.g, in Watts or Joules-per-Terahash-second)
+ is entirely dependent on the 
+ mining devices themselves.
+And this simple inflection
+ point of Watts to Hashrate
+ is where the realm of
+ abstract mathematics
+ unites with our physical
+ world.
+This is ultiamtely why
+ Bitcoin has value, because
+ producing Bitcoin takes real
+ energy in the real world
+ (measured in Watts),
+ and it does so through
+ a fixed and known
+ supply schedule.
 
 
 
@@ -226,7 +253,7 @@ In general, the faster you are
 
 *Application-Specific Integrated Circuit* or
  [ASIC](https://en.m.wikipedia.org/wiki/Application-specific_integrated_circuit)
- is nothing new, and in Bitcoin mining
+ is nothing new, and in Bitcoin mining this
  refers to a specific chip that calculates
  [SHA-256](https://en.m.wikipedia.org/wiki/SHA-2)
  hashes (and nothing else).
@@ -245,7 +272,19 @@ At every step of this evolution the incentives
  hashrate for the minimum amount of
  electricity consumption.
 
-
+It is difficult to know what the next
+ evolution of Bitcoin mining technology
+ will be.
+It might be quantum ASICs
+ powered by clean nuclear energy.
+It might be highly decentralized
+ commodity ASICs producing hash
+ from geothermal energy.
+Whether it be advances in
+ quantum computing,
+ or advances in energy production,
+ Bitcoin mining will be incentivizing
+ much needed innovation.
 
 
 
@@ -255,7 +294,7 @@ At every step of this evolution the incentives
 
 ## Difficulty
 
-Difficulty is simply the measure
+Difficulty is the measure
  of how difficult it is to find
  a valid block.
 Every
@@ -307,7 +346,8 @@ When Bitcoin was first released
  as more participants joined
  and started mining.
 By 2012 the difficulty
- was over a million.
+ was over a million
+ (that is, over a million times more difficulty).
 
 In the age of ASICs, the
  network difficulty has
@@ -320,7 +360,7 @@ For example, block 772244 (mentioned above)
  (over 37-trillion).
 This corresponds to a *hashrate*
  of over 250 exahash --
- that is, over 250 quintillion
+ that is, over 250-quintillion
  SHA-256 hashes per-second.
 
 To put this into perspective,
@@ -351,7 +391,7 @@ While the network difficulty is used to
  (or a pool of miners).
 For example, a modern ASIC might use a
  session difficulty of 65,536 and generate
- valid share files every few seconds.
+ valid shares every few seconds.
 
 A share is simply a block
  that meets the session difficulty
@@ -369,7 +409,8 @@ A valid share must meet the session difficulty,
  which just means its SHA-256 hash is
  smaller than the target
  computed from the session difficulty.
-Every share will have its own difficulty which
+In other words,
+ every share will have its own difficulty which
  is greater than the session difficulty.
 And if the share difficulty is greater than
  the network difficulty then that share
@@ -419,19 +460,19 @@ sum(session_difficulty) / (N * network_difficulty)
 ```
 
 In a perfectly efficient and error-free system,
- luck will converge to 100% as N gets larger.
+ luck will converge on 100% as N gets larger.
 And if luck is greater than 1, even by a small
  fraction, say, 1.02 (102%), then that denotes
  bad luck -- meaning you didn't mine as many
  blocks as you should have for the hashrate
  you produced.
-In that case you did the work for 102 blocks
+Imagine you did the work for 102 blocks
  but were rewarded 100 blocks.
 This might just be legitimate *bad luck*.
-But over time, let's say you earned 1000 blocks
+But over time, let's say you earned 1,000 blocks
  with a luck of 102%, meaning you missed 20 blocks --
  this is persistent bad luck, and is
- not statistically possible, and
+ not statistically feasible, and thus
  is a sign something is wrong with your miners
  (block withholding, rejected orphaned blocks,
  compromised firmware, etc).
@@ -440,6 +481,7 @@ But over time, let's say you earned 1000 blocks
 
 
 
+!!! warning "work in progress"
 
 
 
@@ -453,7 +495,12 @@ Finding a block means finding a valid block
  current network difficulty target.
 More specifically, the hash of the
  *block headers*
- must meet this difficulty.
+ must meet this difficulty,
+ and the block itself must
+ be valid
+ (otherwise the *nodes*
+  in the Bitcoin network
+  will reject this block).
 
 ### Block headers
 
@@ -461,25 +508,41 @@ A block header is composed of a small
  number of fields that when input
  into a SHA-256 will produce a
  hash that is less than the target 
- (from the network difficulty).
+ (computed from the network difficulty).
 
-* **version** -- a 4-byte field used to track version, and (since [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki)) is used to signal for soft forks (backwards compatible upgrades to the protocol)
-* **timestamp** -- a 4-byte field containing the Unix timestamp; must be greater than the average of the previous 11-blocks and less than 2-hours past the current network-adjusted timestamp 
-* **difficulty** -- a 4-byte compressed representation of the current network difficulty
-* **nonce** -- 
-* **previous block hash** -- 
-* **merkle root** --
+* `version` -- a 4-byte field used to track version, and (since [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki)) is used to signal for soft forks (backwards compatible upgrades to the protocol)
+* `timestamp` -- a 4-byte field containing the Unix timestamp; must be greater than the average of the previous 11-blocks and less than 2-hours past the current network-adjusted timestamp 
+* `difficulty` -- a 4-byte compressed representation of the current network difficulty
+* `nonce` -- *number used only once*, a 4-byte number used by miners in order to test different hashes
+* `previous block hash` -- a 32-byte field holding the SHA-256 of the previous block -- this ensures that no previous transaction was modified
+* `merkle root` -- a 32-byte field holding the Merkle tree of all transactions in the block
 
-???+ info "Purpose of a Merkle root"
-    A Merkle Root is a Bitcoin-specific
-    [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
-    which is effectively a SHA-256 hash of hashes
-    of all the transactions in a given block.
-    The purpose of a Merkle Root is to prove
-    that a given set of transactions produces
-    a given SHA-256 hash
-    (a way to validate that the transactions
-     in a given block were not modified).
+When mining Bitcoin, only the `nonce` is directly modifiable.
+However, modern ASICs will exhaust
+ the 4-bytes of `nonce` instantly.
+Miners can use the variance in the `timestamp`,
+ artificially adjusting the `timestamp`
+ such that it's still
+ valid (according to the consensus rules).
+But in practice this does not give 
+ sufficient search space for modern
+ ASIC miners (with all that hashing power)
+ -- instead,
+ modern ASIC miners modify the block,
+ specifically the transactions themselves,
+ adding `extranonce` which requires a
+ new `merkle root` for every variation
+ of the transaction list.
+
+The Merkle Root is a Bitcoin-specific
+ [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
+ which is effectively a SHA-256 hash of hashes
+ of all the transactions in a given block.
+The purpose of a Merkle Root is to prove
+ that a given set of transactions produces
+ a given SHA-256 hash
+ (a way to validate that the transactions
+  in a given block were not modified).
 
 ### Block height and weight
 
