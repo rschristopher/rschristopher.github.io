@@ -3,11 +3,12 @@
 <!--
 
 explorer.acinq.co
-LnRouter
+LnRouter, lnrouter.app/graph
 1ml
-ambos.space
+amboss.space
 lightningnetwork.plus
 thunderhub.io
+thebitcoinlayer.substack.com
 
 -->
 
