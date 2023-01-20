@@ -1,5 +1,15 @@
 # Commerce
 
+<!--
+
+explorer.acinq.co
+LnRouter
+1ml
+ambos.space
+lightningnetwork.plus
+thunderhub.io
+
+-->
 
 Under a Bitcoin Standard,
  commerce is the exchange of Bitcoin
