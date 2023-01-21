@@ -533,14 +533,13 @@ But in practice `nonce` and a handful
  -- instead,
  modern ASIC miners modify the transactions,
  typically the coinbase (the very first
- transaction in a block, which is usually
- paid to the miner),
+ transaction in a block),
  adding `extranonce` fields.
- Because this modifies transactions this
- requires a
- new `merkle root` for every variation.
+ Because this will modify transactions this
+ will require a new
+ `merkle root` for every variation.
 
-The Merkle Root is a Bitcoin-specific
+The `merkle root` is a Bitcoin-specific
  [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)
  which is effectively a SHA-256 hash of hashes
  of all the transactions in a given block.
@@ -552,7 +551,26 @@ The purpose of a Merkle Root is to prove
 
 ### Block height and weight
 
-[772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
+Every block in the timechain has
+ a valid *proof of work* hash,
+ and is also indexed by its
+ block height.
+Block height is simply the number
+ of blocks prior to any given block.
+E.g., block height
+ [772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
+ has exactly 772,615 blocks
+ prior to it.
+
+If you look at the details of a given block,
+ e.g., block
+ [772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
+ you will see that it has a *block weight*,
+ in this case, 3.99 MWU.
+The block weight is simply the size
+ of a block, measured in 
+ [weight units](https://en.bitcoin.it/wiki/Weight_units)
+ where *MWU* is *million of weight units*.
 
 
 ### Block propagation
