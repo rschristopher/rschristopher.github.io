@@ -481,7 +481,6 @@ But over time, let's say you earned 1,000 blocks
 
 
 
-!!! warning "work in progress"
 
 
 
@@ -557,7 +556,8 @@ Every block has
  block height.
 Block height is simply the number
  of blocks prior to any given block,
- and is used to index that block.
+ and is an easy way to reference
+ a given block.
 E.g., block height
  [772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
  has exactly 772,615 blocks
@@ -576,10 +576,7 @@ The block weight is simply the size
 
 ### Block propagation
 
-Once a miner finds a new block, that is,
- a valid share whose *proof of work* 
- hash is less than the target number
- (computed from network difficulty)
+Once a miner finds a new block
  it needs to propagate this block
  to the rest of the network.
 Typically, this is done through the
@@ -591,7 +588,38 @@ Failure to propagate quick enough can
  which means the miner gets zero reward
  despite their proof of work.
 
-To 
+Once the miner submits a new block,
+ the p2p network of Bitcoin nodes
+ will propagate the new block
+ (each node verifying the
+ *proof of work* and validity).
+Historically, this process was
+ somewhat slow.
+However, since
+ [BIP-152](https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki)
+ the nodes propagate
+ blocks using a compact
+ message that only includes
+ block headers and
+ a compact transaction list.
+Because each full node
+ manages its own mempool,
+ it already has most of the
+ transactions, so it's
+ able to assemble the
+ block quickly
+ (only fetching transactions
+ that it doesn't already
+ know about).
+
+[![block propagation time](/images/block-prop-time.png)](https://www.dsn.kastel.kit.edu/bitcoin/#propagation)
+
+Compact block messages
+ led to a signifant 
+ reduction in block propagation,
+ which in turn
+ greatly reduces the risk
+ of oprhaned blocks.
 
 
 
@@ -599,6 +627,9 @@ To
 
 
 
+
+
+!!! warning "work in progress"
 
 
 
