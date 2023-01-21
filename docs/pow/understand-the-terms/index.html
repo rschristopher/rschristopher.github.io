@@ -2800,8 +2800,11 @@ Additionally, work is coordinated
 <h3 id="stratum">Stratum<a class="headerlink" href="#stratum" title="Permanent link">&para;</a></h3>
 <p>For better or worse,
  <a href="https://en.bitcoin.it/wiki/Stratum_mining_protocol">stratum</a>
- is the defacto protocol for mining pools
- to manage work in a pool.</p>
+ is the defacto protocol for pools
+ to manage workers in a pool.
+It is a raw-socket protocol using
+ newline-delimited JSON
+ (rather than websockets or any other standard protocol).</p>
 <h3 id="pps">PPS<a class="headerlink" href="#pps" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h3 id="pplns">PPLNS<a class="headerlink" href="#pplns" title="Permanent link">&para;</a></h3>
