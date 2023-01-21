@@ -551,12 +551,13 @@ The purpose of a Merkle Root is to prove
 
 ### Block height and weight
 
-Every block in the timechain has
+Every block has
  a valid *proof of work* hash,
  and is also indexed by its
  block height.
 Block height is simply the number
- of blocks prior to any given block.
+ of blocks prior to any given block,
+ and is used to index that block.
 E.g., block height
  [772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
  has exactly 772,615 blocks
@@ -565,19 +566,32 @@ E.g., block height
 If you look at the details of a given block,
  e.g., block
  [772,615](https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c)
- you will see that it has a *block weight*,
+ you will see that it also has a *block weight*,
  in this case, 3.99 MWU.
 The block weight is simply the size
  of a block, measured in 
  [weight units](https://en.bitcoin.it/wiki/Weight_units)
- where *MWU* is *million of weight units*.
+ where *MWU* is *million weight units*.
 
 
 ### Block propagation
 
-...
+Once a miner finds a new block, that is,
+ a valid share whose *proof of work* 
+ hash is less than the target number
+ (computed from network difficulty)
+ it needs to propagate this block
+ to the rest of the network.
+Typically, this is done through the
+ [submitblock](https://developer.bitcoin.org/reference/rpc/submitblock.html)
+ RPC command in
+ [Bitcoin Core](https://github.com/bitcoin/bitcoin).
+Failure to propagate quick enough can
+ result in an *orphan* or stale block,
+ which means the miner gets zero reward
+ despite their proof of work.
 
-
+To 
 
 
 
