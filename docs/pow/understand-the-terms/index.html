@@ -2662,13 +2662,12 @@ But in practice <code>nonce</code> and a handful
  -- instead,
  modern ASIC miners modify the transactions,
  typically the coinbase (the very first
- transaction in a block, which is usually
- paid to the miner),
+ transaction in a block),
  adding <code>extranonce</code> fields.
- Because this modifies transactions this
- requires a
- new <code>merkle root</code> for every variation.</p>
-<p>The Merkle Root is a Bitcoin-specific
+ Because this will modify transactions this
+ will require a new
+ <code>merkle root</code> for every variation.</p>
+<p>The <code>merkle root</code> is a Bitcoin-specific
  <a href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle Tree</a>
  which is effectively a SHA-256 hash of hashes
  of all the transactions in a given block.
@@ -2678,7 +2677,25 @@ The purpose of a Merkle Root is to prove
  (a way to validate that the transactions
   in a given block were not modified).</p>
 <h3 id="block-height-and-weight">Block height and weight<a class="headerlink" href="#block-height-and-weight" title="Permanent link">&para;</a></h3>
-<p><a href="https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c">772,615</a></p>
+<p>Every block in the timechain has
+ a valid <em>proof of work</em> hash,
+ and is also indexed by its
+ block height.
+Block height is simply the number
+ of blocks prior to any given block.
+E.g., block height
+ <a href="https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c">772,615</a>
+ has exactly 772,615 blocks
+ prior to it.</p>
+<p>If you look at the details of a given block,
+ e.g., block
+ <a href="https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c">772,615</a>
+ you will see that it has a <em>block weight</em>,
+ in this case, 3.99 MWU.
+The block weight is simply the size
+ of a block, measured in 
+ <a href="https://en.bitcoin.it/wiki/Weight_units">weight units</a>
+ where <em>MWU</em> is <em>million of weight units</em>.</p>
 <h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
