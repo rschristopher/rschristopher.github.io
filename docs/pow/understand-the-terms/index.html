@@ -2615,9 +2615,6 @@ But over time, let's say you earned 1,000 blocks
  is a sign something is wrong with your miners
  (block withholding, rejected orphaned blocks,
  compromised firmware, etc).</p>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
 <h2 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h2>
 <p>Ultimately, the entire goal of Bitcoin mining
  is to find and propagate blocks.
@@ -2683,7 +2680,8 @@ The purpose of a Merkle Root is to prove
  block height.
 Block height is simply the number
  of blocks prior to any given block,
- and is used to index that block.
+ and is an easy way to reference
+ a given block.
 E.g., block height
  <a href="https://mempool.space/block/00000000000000000003af8ff6f35d69425cc88d4af0be2312e1a74f8223ca4c">772,615</a>
  has exactly 772,615 blocks
@@ -2698,10 +2696,7 @@ The block weight is simply the size
  <a href="https://en.bitcoin.it/wiki/Weight_units">weight units</a>
  where <em>MWU</em> is <em>million weight units</em>.</p>
 <h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
-<p>Once a miner finds a new block, that is,
- a valid share whose <em>proof of work</em> 
- hash is less than the target number
- (computed from network difficulty)
+<p>Once a miner finds a new block
  it needs to propagate this block
  to the rest of the network.
 Typically, this is done through the
@@ -2712,7 +2707,39 @@ Failure to propagate quick enough can
  result in an <em>orphan</em> or stale block,
  which means the miner gets zero reward
  despite their proof of work.</p>
-<p>To </p>
+<p>Once the miner submits a new block,
+ the p2p network of Bitcoin nodes
+ will propagate the new block
+ (each node verifying the
+ <em>proof of work</em> and validity).
+Historically, this process was
+ somewhat slow.
+However, since
+ <a href="https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki">BIP-152</a>
+ the nodes propagate
+ blocks using a compact
+ message that only includes
+ block headers and
+ a compact transaction list.
+Because each full node
+ manages its own mempool,
+ it already has most of the
+ transactions, so it's
+ able to assemble the
+ block quickly
+ (only fetching transactions
+ that it doesn't already
+ know about).</p>
+<p><a href="https://www.dsn.kastel.kit.edu/bitcoin/#propagation"><img alt="block propagation time" src="/images/block-prop-time.png" /></a></p>
+<p>Compact block messages
+ led to a signifant 
+ reduction in block propagation,
+ which in turn
+ greatly reduces the risk
+ of oprhaned blocks.</p>
+<div class="admonition warning">
+<p class="admonition-title">work in progress</p>
+</div>
 <h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
 <p>...</p>
 <h3 id="stratum">Stratum<a class="headerlink" href="#stratum" title="Permanent link">&para;</a></h3>
