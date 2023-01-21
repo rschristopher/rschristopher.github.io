@@ -707,8 +707,12 @@ Additionally, work is coordinated
 
 For better or worse,
  [stratum](https://en.bitcoin.it/wiki/Stratum_mining_protocol)
- is the defacto protocol for mining pools
- to manage work in a pool.
+ is the defacto protocol for pools
+ to manage workers in a pool.
+It is a raw-socket protocol using
+ newline-delimited JSON
+ (rather than websockets or any other standard protocol).
+
 
 ### PPS
 
