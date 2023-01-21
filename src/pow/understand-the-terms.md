@@ -612,7 +612,11 @@ Because each full node
  that it doesn't already
  know about).
 
-[![block propagation time](/images/block-prop-time.png)](https://www.dsn.kastel.kit.edu/bitcoin/#propagation)
+
+<figure markdown>
+  [![block propagation time](/images/block-prop-time.png)](https://www.dsn.kastel.kit.edu/bitcoin/#propagation)
+  <figcaption>Block propagation time (at 50% and 90% of total network)</figcaption>
+</figure>
 
 Compact block messages
  led to a signifant 
@@ -628,8 +632,6 @@ Compact block messages
 
 
 
-
-!!! warning "work in progress"
 
 
 
@@ -675,8 +677,8 @@ A mining device might have an operational
 Blocks are finite, 144 per day,
  52-thousand per year.
 And there are millions of miners, all
- competing against that same network
- difficulty.
+ competing against the ever increasing
+ network difficulty.
 
 This was a problem even early in Bitcoin's
  history.
@@ -684,12 +686,12 @@ As a result, in 2010, pooled mining was born.
 The idea is simple, pool your hashrate and
  share the reward based on contributed hashrate.
 A small miner doesn't have to wait 540 years
- or be extremely lucky,
+ or be extremely lucky --
  they can get paid a small amount daily.
 
-This works by all of the miners in a pool
- using the pool's coinbase address, and
- expecting a payout from the pool
+All miners in a pool
+ use the pool's coinbase address, and
+ expect payout from the pool
  (as their shares *prove* they did
  work for the pool).
 There are different payout strategies
@@ -698,7 +700,7 @@ There are different payout strategies
  by the pool itself.
 Additionally, work is coordinated
  across all the participants of a pool
- through a separate protocol
+ through a protocol
  known as *stratum*.
 
 
@@ -708,23 +710,140 @@ Additionally, work is coordinated
 For better or worse,
  [stratum](https://en.bitcoin.it/wiki/Stratum_mining_protocol)
  is the defacto protocol for pools
- to manage workers in a pool.
+ to manage workers.
 It is a raw-socket protocol using
  newline-delimited JSON
- (rather than websockets or any other standard protocol).
+ (rather than websockets or any other standard).
+And while
+ [stratum v2](https://stratumprotocol.org/)
+ promises to solve many of the
+ problems with stratum,
+ until there's wide adoption
+ of v2 in mining firmware,
+ stratum will remain the standard.
+
+Importantly, modern firmware
+ lacks the ability to call
+ [getblocktemplate](https://developer.bitcoin.org/reference/rpc/getblocktemplate.html)
+ on a full node, and simply requires
+ a stratum url in order to 
+ function.
+There is no technical reason for this,
+ but a consequence of market demand
+ for fleets of ASICs and pooled mining.
+If you have a modern ASIC,
+ you will need a stratum server
+ (from a pool or otherwise)
+ to start mining.
+
+### Pay-per-Share
+
+This is the most common payout strategy
+ for pools, and is typically *full-pay-per-share* (FPPS).
+You may see PPS or PPS+ as slight 
+ variations of this strategy.
+Simply put, the risk is on
+ the pool itself and not the miners.
+The miners get paid for their shares
+ regardless of whether the pool is
+ propagating blocks.
+In fact, the risk of orphans or any
+ operational inefficiency is owned
+ by the pool
+ (even if there's a problem with one of the miners).
+
+An FPPS pool will set a session-difficulty
+ and an FPPS rate,
+ and a miner gets paid for all shares
+ above that difficulty.
+If a share happens to be a block,
+ the miner gets paid for just another share.
+If the miner withholds 
+ a block (intentionally or accidentally),
+ the miner loses only a
+ negligible amount of payout,
+ and the pool loses an entire block.
+
+While this strategy has proven
+ very popular in recent years,
+ it is unlikely to survive as
+ a viable
+ business model --
+ and in fact
+ most FPPS pools offer other
+ services to offset their
+ (predictable)
+ losses.
 
 
-### PPS
+### Pay-per-Last-N-Share
 
-...
+This is an alternative pool strategy, 
+ abbreviated as PPLNS with variations
+ like SPLNS.
+In this payout strategy, risk
+ is shared amongst all miners 
+ in the pool.
+The miners get paid when the
+ pool mines a block, and
+ the payout is based
+ on their recent shares.
 
-### PPLNS
+If there is block withholding
+ (intentional or otherwise)
+ every miner in the pool
+ suffers, finding that their
+ *luck* measure becomes
+ persistently bad.
+For this reason, most miners
+ prefer FPPS pools, especially
+ if they can negotiate a low
+ (or no) FPPS fee.
 
-...
 
 ### Solo
 
-...
+Because of the requirement
+ for stratum servers
+ and the complexity of
+ block propagation, some
+ pools offer
+ a *solo* mode.
+In this strategy, risk
+ is owned entirely by
+ each miner, they either
+ mine blocks or they don't.
+The pool operator is paid
+ a fee for providing
+ a stratum service 
+ alongside well-peered
+ full nodes for block
+ propagation.
+
+Importantly, if a miner
+ is using a pool for solo
+ mining, they are entirely
+ dependent on that pool
+ for efficient worker management
+ (that is, coordinating 
+ their fleet of miners),
+ as well as for propagating
+ blocks.
+And because the miner owns
+ all of the risk, using a
+ pool for solo mining
+ is only viable for those
+ that lack the engineering
+ resources to manage
+ stratum servers and 
+ full nodes.
+Otherwise, solo mining
+ is best done, well, *solo* --
+ as in, run your own
+ stratum server and full node.
+
+
+
 
 
 
