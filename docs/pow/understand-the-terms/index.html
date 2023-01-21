@@ -2697,7 +2697,7 @@ The block weight is simply the size
  where <em>MWU</em> is <em>million weight units</em>.</p>
 <h3 id="block-propagation">Block propagation<a class="headerlink" href="#block-propagation" title="Permanent link">&para;</a></h3>
 <p>Once a miner finds a new block
- it needs to propagate this block
+ it needs to propagate that block
  to the rest of the network.
 Typically, this is done through the
  <a href="https://developer.bitcoin.org/reference/rpc/submitblock.html">submitblock</a>
@@ -2707,7 +2707,7 @@ Failure to propagate quick enough can
  result in an <em>orphan</em> or stale block,
  which means the miner gets zero reward
  despite their proof of work.</p>
-<p>Once the miner submits a new block,
+<p>Once a miner submits a new block,
  the p2p network of Bitcoin nodes
  will propagate the new block
  (each node verifying the
@@ -2718,9 +2718,9 @@ However, since
  <a href="https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki">BIP-152</a>
  the nodes propagate
  blocks using a compact
- message that only includes
+ message format that only includes
  block headers and
- a compact transaction list.
+ a compact list of transaction IDs.
 Because each full node
  manages its own mempool,
  it already has most of the
@@ -2733,7 +2733,7 @@ Because each full node
 <p><a href="https://www.dsn.kastel.kit.edu/bitcoin/#propagation"><img alt="block propagation time" src="/images/block-prop-time.png" /></a></p>
 <p>Compact block messages
  led to a signifant 
- reduction in block propagation,
+ reduction in block propagation time,
  which in turn
  greatly reduces the risk
  of oprhaned blocks.</p>
@@ -2741,9 +2741,67 @@ Because each full node
 <p class="admonition-title">work in progress</p>
 </div>
 <h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
-<p>...</p>
+<p>Mining is all about probability.
+If you're a large miner with 10%
+ of the total hashrate, then you
+ will be expected to mine 10% of the
+ total number of blocks.
+There are on average 144 blocks per day,
+ so 10% is 14.4 blocks per day.
+A miner with 1% would average 1.4
+ blocks per day, and so on.</p>
+<p>But what about small miners?
+What about an individual mining device?</p>
+<p>Let's look at block 
+ <a href="https://mempool.space/block/00000000000000000003f2b0cedf601824c02ba9ad129ca3531502dca525c635">772,793l</a>.
+This block was mined through
+ <a href="https://solo.ckpool.org">Solo CK</a>
+ purportedly by an individual miner
+ with only 10 terahash.
+10 terahash out 284 exahash (at the time).
+That's 10 / 284,000,000.
+This means they will mine 
+ 0.0000003% of all blocks,
+ and statistically should take
+ about 540 years before finding
+ a block.</p>
+<p>This rare luck aside, most individual mining
+ devices will never find a block, ever.
+A mining device might have an operational
+ life of 10 years, probably less,
+ which is far less than the centuries
+ it would take to find a block.
+Blocks are finite, 144 per day,
+ 52-thousand per year.
+And there are millions of miners, all
+ competing against that same network
+ difficulty.</p>
+<p>This was a problem even early in Bitcoin's
+ history.
+As a result, in 2010, pooled mining was born.
+The idea is simple, pool your hashrate and
+ share the reward based on contributed hashrate.
+A small miner doesn't have to wait 540 years
+ or be extremely lucky,
+ they can get paid a small amount daily.</p>
+<p>This works by all of the miners in a pool
+ using the pool's coinbase address, and
+ expecting a payout from the pool
+ (as their shares <em>prove</em> they did
+ work for the pool).
+There are different payout strategies
+ where risk is either shared amongst pool
+ participants, or the risk is owned entirely
+ by the pool itself.
+Additionally, work is coordinated
+ across all the participants of a pool
+ through a separate protocol
+ known as <em>stratum</em>.</p>
 <h3 id="stratum">Stratum<a class="headerlink" href="#stratum" title="Permanent link">&para;</a></h3>
-<p>...</p>
+<p>For better or worse,
+ <a href="https://en.bitcoin.it/wiki/Stratum_mining_protocol">stratum</a>
+ is the defacto protocol for mining pools
+ to manage work in a pool.</p>
 <h3 id="pps">PPS<a class="headerlink" href="#pps" title="Permanent link">&para;</a></h3>
 <p>...</p>
 <h3 id="pplns">PPLNS<a class="headerlink" href="#pplns" title="Permanent link">&para;</a></h3>
