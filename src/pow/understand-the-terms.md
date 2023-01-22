@@ -689,7 +689,7 @@ A small miner doesn't have to wait 540 years
  or be extremely lucky --
  they can get paid a small amount daily.
 
-All miners in a pool
+Miners in a pool
  use the pool's coinbase address, and
  expect payout from the pool
  (as their shares *prove* they did
