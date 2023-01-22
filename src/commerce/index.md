@@ -19,7 +19,7 @@ Under a Bitcoin Standard,
  final international settlement on the base layer.
 And like [saving](../saving/)
  in Bitcoin, commerce starts simple
- and grows progressively deeper.
+ and grows more and more powerful.
 Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign
