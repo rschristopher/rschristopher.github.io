@@ -776,7 +776,7 @@ While this strategy has proven
  losses.
 
 
-### Pay-per-Last-N-Share
+### Pay-per-Last-N-Shares
 
 This is an alternative pool strategy, 
  abbreviated as PPLNS with variations
@@ -826,7 +826,7 @@ Importantly, if a miner
  dependent on that pool
  for efficient worker management
  (that is, coordinating 
- their fleet of miners),
+ work amongst a fleet of miners),
  as well as for propagating
  blocks.
 And because the miner owns
