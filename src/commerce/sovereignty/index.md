@@ -72,10 +72,14 @@ Sovereign -- base layer
 Inter-sovereign -- L2
 Inter-payments -- L3
 
+Possible solutions now, 
 
+Sidecar channels,
+https://lightning.engineering/posts/2021-05-26-sidecar-channels/
 
-
-
+Channel factories
+https://thebitcoinmanual.com/articles/btc-channel-factories/
+https://www.bitcoinlightning.com/channel-factories-the-future-of-the-lightning-network/
 
 
 
