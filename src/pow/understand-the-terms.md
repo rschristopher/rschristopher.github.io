@@ -660,7 +660,7 @@ This block was mined through
  [Solo CK](https://solo.ckpool.org)
  purportedly by an individual miner
  with only 10 terahash.
-10 terahash out 284 exahash (at the time).
+10 terahash out of 284 exahash (at the time).
 That's 10 / 284,000,000.
 This means they will mine 
  0.0000003% of all blocks,
