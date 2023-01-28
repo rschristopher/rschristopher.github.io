@@ -237,7 +237,7 @@ And this simple inflection
  abstract mathematics
  unites with our physical
  world.
-This is ultiamtely why
+This is ultimately why
  Bitcoin has value, because
  producing Bitcoin takes real
  energy in the real world

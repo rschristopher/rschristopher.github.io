@@ -11,8 +11,12 @@ Have mercy on me, a sinner
 
 
 
+
+
 In the year 2140,
  is there still mining pools?
+
+!!! question "Will there be mining pools in 2140?"
 
 ~50 million sovereigns
 12 billion subjects
@@ -61,7 +65,9 @@ Pools are a farce, and can only sustain
 The real game is and will always be
  solo mining.
 
+
 -->
+
 
 
 
