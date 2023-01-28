@@ -1,7 +1,6 @@
 # Sovereignty
 
 
-!!! warning "work in progress"
 
 
 <!--
@@ -11,10 +10,9 @@ Son of the living God
 Have mercy on me, a sinner
 
 
-In the year 2525
-If man is still alive...
 
-Is there still mining pools?
+In the year 2140,
+ is there still mining pools?
 
 ~50 million sovereigns
 12 billion subjects
@@ -26,15 +24,14 @@ If their sovereign is strong, they can
  life.
 Otherwise, they either find a better sovereign,
  or become a sovereign.
-No one is denied the opportunity, except by
- act by God.
+No one is denied the opportunity.
 
 There is no more block subsidy.
 Miners are on-chain settlement exchanges,
  turning lightning wallets into sovereign
  wealth allocations, final international
  settlement.
-Miners, hy necessity, are sovereign.
+Miners, by necessity, are sovereign.
 Do you need a pool?
 Only if your time preference is small.
 Or, if the long tail of hashrate can compete.
@@ -64,5 +61,8 @@ Pools are a farce, and can only sustain
 The real game is and will always be
  solo mining.
 
-
 -->
+
+
+
+!!! warning "work in progress"
