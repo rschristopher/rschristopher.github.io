@@ -63,7 +63,9 @@ We will describe and help demystify these
 
 ## Lightning Network
 
-Lightning is a Bitcoin payment network.
+Lightning is a Bitcoin payment network
+ (proposed in this 2016
+ [whitepaper](https://lightning.network/lightning-network-paper.pdf)).
 It allows virtually unlimited scaling
  of Bitcoin payments;
  and is built on top of the
@@ -94,16 +96,18 @@ Lightning routes payments
  (provided there is sufficient
  liquidity in the channels).
 
+There are plenty of
+ [great](https://medium.com/softblocks/lightning-network-in-depth-part-1-payment-channels-b943607950dd)
+ [resources](https://bitcoinmagazine.com/technical/understanding-the-lightning-network-part-building-a-bidirectional-payment-channel-1464710791)
+ to understand the implementation
+ details of the Lightning Network,
+ and while still very early it
+ has seen widespread early adoption.
 
 <figure markdown>
   [![lightning geo map](/images/lightning-map.png)](https://explorer.acinq.co/)
   <figcaption>Lightning Network Map -- each line is a channel</figcaption>
 </figure>
-
-
-
-
-
 
 
 
@@ -116,6 +120,9 @@ A public channel is simply a routable channel
  connected to the broader lightning network.
 This is a peer-to-peer network that
  routes payments anywhere.
+Another way to think about it,
+ these are the channels that are
+ not otherwise hidden.
 Public channels (and nodes) are
  discoverable on sites such as
  [1ml](https://1ml.com/),
@@ -127,16 +134,55 @@ Public channels (and nodes) are
   <figcaption>LnRouter -- exploring public nodes</figcaption>
 </figure>
 
-Importantly, anyone with a node can join,
- you simply request to open a channel
- with any of the discoverable nodes.
+Importantly, anyone can use
+ the Lightning Network,
+ and anyone with a node
+ (a Bitcoin
+ full node
+ with lightning software) can join.
+To join,
+ simply request to open a channel
+ with one of the nodes on the network.
 The moment you have at least one open
  channel, your node will be discoverable
  by others.
-A well-connected node could potentially earn
- small amounts of sats by routing
- payments (provided there are sufficient
- payments you are routing).
+Additionally, a well-connected node
+ could potentially earn
+ sats by routing
+ payments.
+
+
+
+
+
+### Private Channels 
+
+A private channel is simply a channel
+ between two nodes that is not otherwise
+ discoverable.
+Private channels 
+ (and entire private networks)
+ can easily be created 
+ for situations where all participants
+ wish to remain private.
+For example, payments between
+ nation states or business
+ entities wishing to remain private.
+
+Importantly, maintaining privacy
+ requires an implicit trust
+ amongst all participants in
+ a private network.
+Should one of the nodes
+ create a routable channel
+ to the public Lightning Network,
+ this would (depending on the software
+ and configuration) make this
+ formerly private network
+ part of the public network.
+
+
+
 
 
 !!! warning "work in progress"
@@ -144,11 +190,22 @@ A well-connected node could potentially earn
 
 
 
-### Private Channels 
+### Invoices
 
 ...
 
 
+
+
+
+### Routing
+
+...
+
+<!--
+polar
+https://lightningpolar.com/
+-->
 
 
 
