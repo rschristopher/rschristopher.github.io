@@ -75,7 +75,7 @@ nav:
             - "Level 9: Fault Tolerance": saving/sovereignty/level-9.md
             - "Level 10: Fail-safes": saving/sovereignty/level-10.md
             - "Level 11: Countermeasures": saving/sovereignty/level-11.md
-            - "Level 12: Off-grid Operations": saving/sovereignty/level-12.md
+            - "Level 12: Off-grid": saving/sovereignty/level-12.md
         - Wealth Preservation: 
             - saving/wealth/index.md
             - Full Privacy: saving/wealth/full-privacy.md
@@ -98,6 +98,7 @@ nav:
             - "Level 4: Full Nodes": commerce/sovereignty/level-4.md
             - "Level 5: Private Channels": commerce/sovereignty/level-5.md
             - "Level 6: Localism": commerce/sovereignty/level-6.md
+            - "Level 7: Off-grid": commerce/sovereignty/level-7.md
         - Appendix: 
           - "A: Bitcoin Script": commerce/appendix/bitcoin-script.md
           - "A: Coinjoin": commerce/appendix/coinjoin.md
@@ -114,7 +115,7 @@ nav:
             - "Level 4: Mining Farm": pow/sovereignty/level-4.md
             - "Level 5: Block Broadcasting": pow/sovereignty/level-5.md
             - "Level 6: Stratum Selector": pow/sovereignty/level-6.md
-            - "Level 7: Off-grid Mining": pow/sovereignty/level-7.md
+            - "Level 7: Off-grid": pow/sovereignty/level-7.md
         - Appendix: 
           - "A: Energy Money": pow/appendix/energy-money.md
     - References: references/index.md

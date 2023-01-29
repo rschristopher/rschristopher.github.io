@@ -49,7 +49,9 @@ Below is an overview of the levels, guiding
  establish private lightning channels
  with local partners
 * [Level 6: Localism](sovereignty/level-6) --
- establish local-area off-grid networks
+ establish local-area payment networks
+* [Level 7: Off-grid Commerce](sovereignty/level-7) --
+ manage off-grid payment networks
 
 Before diving in and learning to become a
  financial sovereign, you may want to first

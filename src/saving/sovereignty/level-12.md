@@ -1,4 +1,4 @@
-# Level 12: Off-grid Operations
+# Level 12: Off-grid
 
 !!! info "Receive-only (e.g., satellite) nodes with geographically distributed key signing."
 
