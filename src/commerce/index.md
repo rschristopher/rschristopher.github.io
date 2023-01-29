@@ -20,12 +20,15 @@ Under a Bitcoin Standard,
 And like [saving](../saving/)
  in Bitcoin, commerce starts simple
  and grows more and more powerful.
+
 Not only can one be a sovereign of their
  own savings, they can be a true
- financial sovereign
- (not by fiat, but simply by opting in
- to sound money, getting paid in Bitcoin,
- and buying goods and services in Bitcoin).
+ financial sovereign --
+ not by fiat, but simply by opting-in
+ to sound money: getting paid in Bitcoin,
+ buying goods and services in Bitcoin,
+ and empowering local businesses
+ through liquidity channels.
 
 Below is an overview of the levels, guiding
  one from hobbyist to full financial

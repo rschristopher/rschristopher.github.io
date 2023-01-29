@@ -1,8 +1,11 @@
 <!--
+
 Lord Jesus Christ
-Son of God
+Son of the living God
 Have mercy on me, a sinner
+
 -->
+
 
 # Understand the Terms
 
@@ -93,11 +96,14 @@ Lightning routes payments
 
 
 <figure markdown>
-  [![lightning map](/images/lightning-map.png)](https://explorer.acinq.co/)
+  [![lightning geo map](/images/lightning-map.png)](https://explorer.acinq.co/)
   <figcaption>Lightning Network Map -- each line is a channel</figcaption>
 </figure>
 
-!!! warning "work in progress"
+
+
+
+
 
 
 
@@ -105,7 +111,37 @@ Lightning routes payments
 
 ### Public Channels
 
-...
+The above is a map of all *public* lightning channels.
+A public channel is simply a routable channel
+ connected to the broader lightning network.
+This is a peer-to-peer network that
+ routes payments anywhere.
+Public channels (and nodes) are
+ discoverable on sites such as
+ [1ml](https://1ml.com/),
+ [amboss.space](https://amboss.space/),
+ or through LnRouter,
+
+<figure markdown>
+  [![lightning network explorer](/images/lightning-map-lnrouter.png)](https://lnrouter.app/graph)
+  <figcaption>LnRouter -- exploring public nodes</figcaption>
+</figure>
+
+Importantly, anyone with a node can join,
+ you simply request to open a channel
+ with any of the discoverable nodes.
+The moment you have at least one open
+ channel, your node will be discoverable
+ by others.
+A well-connected node could potentially earn
+ small amounts of sats by routing
+ payments (provided there are sufficient
+ payments you are routing).
+
+
+!!! warning "work in progress"
+
+
 
 
 ### Private Channels 

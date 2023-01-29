@@ -12,6 +12,17 @@ Son of the living God
 Have mercy on me, a sinner
 
 
+explorer.acinq.co
+LnRouter, lnrouter.app/graph
+1ml
+amboss.space
+lightningnetwork.plus
+thunderhub.io
+thebitcoinlayer.substack.com
+
+
+
+
 In the year 2525
 If man is still alive...
 

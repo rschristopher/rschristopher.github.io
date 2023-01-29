@@ -104,7 +104,7 @@ At this point you can already store any
 * [Level 9: Fault Tolerance](sovereignty/level-9/) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
 * [Level 10: Fail-safes](sovereignty/level-10/) -- Require fully redundant networks with explicit verification of cryptographic signatures.
 * [Level 11: Countermeasures](sovereignty/level-11/) -- Electronic countermeasures to safeguard against "NSA-level" threats.
-* [Level 12: Off-grid Operations](sovereignty/level-12/) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).
+* [Level 12: Off-grid](sovereignty/level-12/) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).
 
 
 Before you begin this journey and question everything you thought you knew about money,
