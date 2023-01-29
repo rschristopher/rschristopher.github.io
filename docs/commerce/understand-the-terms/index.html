@@ -1349,6 +1349,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#invoices" class="md-nav__link">
+    Invoices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#routing" class="md-nav__link">
+    Routing
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1990,6 +2004,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#invoices" class="md-nav__link">
+    Invoices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#routing" class="md-nav__link">
+    Routing
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2073,7 +2101,9 @@ We will describe and help demystify these
  necessary for understanding commerce
  in Bitcoin.</p>
 <h2 id="lightning-network">Lightning Network<a class="headerlink" href="#lightning-network" title="Permanent link">&para;</a></h2>
-<p>Lightning is a Bitcoin payment network.
+<p>Lightning is a Bitcoin payment network
+ (proposed in this 2016
+ <a href="https://lightning.network/lightning-network-paper.pdf">whitepaper</a>).
 It allows virtually unlimited scaling
  of Bitcoin payments;
  and is built on top of the
@@ -2102,6 +2132,13 @@ Lightning routes payments
  network
  (provided there is sufficient
  liquidity in the channels).</p>
+<p>There are plenty of
+ <a href="https://medium.com/softblocks/lightning-network-in-depth-part-1-payment-channels-b943607950dd">great</a>
+ <a href="https://bitcoinmagazine.com/technical/understanding-the-lightning-network-part-building-a-bidirectional-payment-channel-1464710791">resources</a>
+ to understand the implementation
+ details of the Lightning Network,
+ and while still very early it
+ has seen widespread early adoption.</p>
 <figure>
 <p><a href="https://explorer.acinq.co/"><img alt="lightning geo map" src="/images/lightning-map.png" /></a>
   </p>
@@ -2113,6 +2150,9 @@ A public channel is simply a routable channel
  connected to the broader lightning network.
 This is a peer-to-peer network that
  routes payments anywhere.
+Another way to think about it,
+ these are the channels that are
+ not otherwise hidden.
 Public channels (and nodes) are
  discoverable on sites such as
  <a href="https://1ml.com/">1ml</a>,
@@ -2123,21 +2163,57 @@ Public channels (and nodes) are
   </p>
 <figcaption>LnRouter -- exploring public nodes</figcaption>
 </figure>
-<p>Importantly, anyone with a node can join,
- you simply request to open a channel
- with any of the discoverable nodes.
+<p>Importantly, anyone can use
+ the Lightning Network,
+ and anyone with a node
+ (a Bitcoin
+ full node
+ with lightning software) can join.
+To join,
+ simply request to open a channel
+ with one of the nodes on the network.
 The moment you have at least one open
  channel, your node will be discoverable
  by others.
-A well-connected node could potentially earn
- small amounts of sats by routing
- payments (provided there are sufficient
- payments you are routing).</p>
+Additionally, a well-connected node
+ could potentially earn
+ sats by routing
+ payments.</p>
+<h3 id="private-channels">Private Channels<a class="headerlink" href="#private-channels" title="Permanent link">&para;</a></h3>
+<p>A private channel is simply a channel
+ between two nodes that is not otherwise
+ discoverable.
+Private channels 
+ (and entire private networks)
+ can easily be created 
+ for situations where all participants
+ wish to remain private.
+For example, payments between
+ nation states or business
+ entities wishing to remain private.</p>
+<p>Importantly, maintaining privacy
+ requires an implicit trust
+ amongst all participants in
+ a private network.
+Should one of the nodes
+ create a routable channel
+ to the public Lightning Network,
+ this would (depending on the software
+ and configuration) make this
+ formerly private network
+ part of the public network.</p>
 <div class="admonition warning">
 <p class="admonition-title">work in progress</p>
 </div>
-<h3 id="private-channels">Private Channels<a class="headerlink" href="#private-channels" title="Permanent link">&para;</a></h3>
+<h3 id="invoices">Invoices<a class="headerlink" href="#invoices" title="Permanent link">&para;</a></h3>
 <p>...</p>
+<h3 id="routing">Routing<a class="headerlink" href="#routing" title="Permanent link">&para;</a></h3>
+<p>...</p>
+<!--
+polar
+https://lightningpolar.com/
+-->
+
 <h2 id="point-of-sale">Point of Sale<a class="headerlink" href="#point-of-sale" title="Permanent link">&para;</a></h2>
 <p>...</p>
 <h2 id="getting-paid-in-lightning">Getting paid in Lightning<a class="headerlink" href="#getting-paid-in-lightning" title="Permanent link">&para;</a></h2>
