@@ -25,9 +25,9 @@
 
 
 
-## Books with "Bitcoin" in the name
+## Books with "Bitcoin" in the title 
 
-*that are worth reading*
+*that are actually worth reading*
 
 + Bitcoin is Venice 
 + Bullish Case for Bitcoin
