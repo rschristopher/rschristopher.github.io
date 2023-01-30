@@ -10,7 +10,7 @@
 + [Mises Institute](https://mises.org/)
 + [The Bitcoin Standard](https://saifedean.com/)
 + [The Bitcoin Layer](https://thebitcoinlayer.substack.com/)
-+ [The Bitsteim Brief](https://bitstein.substack.com/)
++ [The Bitstein Brief](https://bitstein.substack.com/)
 + [DarthCoin](https://darthcoin.substack.com/)
 + [Gigi](https://dergigi.com/)
 + [Arman the Parman](https://armantheparman.com/)
