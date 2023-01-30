@@ -44,10 +44,10 @@ Below is an overview of the levels, guiding
  use a hosted payment system
  for your business or hobby
 * [Level 3: Self Hosted](sovereignty/level-3) --
- use a self hosted payment system
+ use a self-hosted payment system
  integrated into self custody
-* [Level 4: Full Node](sovereignty/level-4) --
- run a dedicated full node (and lightning node)
+* [Level 4: Lightning Node](sovereignty/level-4) --
+ run a dedicated lightning node
 * [Level 5: Private Channels](sovereignty/level-5) --
  establish private lightning channels
  with local partners
