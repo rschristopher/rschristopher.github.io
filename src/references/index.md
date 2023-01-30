@@ -38,3 +38,5 @@
 
 + Bitcoin is Venice 
 + Bullish Case for Bitcoin
++ Bitcoin Clarity
+
