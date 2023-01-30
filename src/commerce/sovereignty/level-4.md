@@ -1,4 +1,4 @@
-# Full Nodes
+# Lightning Node
 
 
 !!! warning "work in progress"
