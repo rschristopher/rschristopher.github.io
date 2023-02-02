@@ -222,11 +222,3 @@ https://lightningpolar.com/
 
 
 
-## Getting paid in Lightning
-
-...
-
-
-
-
-
