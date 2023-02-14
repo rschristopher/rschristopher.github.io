@@ -6,9 +6,10 @@ on:
     paths:
       - "src/**"
       - "mkdocs.yml"
+      - ".github/workflows/publish.yml"
 
 env:
-  PYTHON_VERSION: 3.10
+  PYTHON_VERSION: 3.11.1
 
 permissions:
   contents: write
