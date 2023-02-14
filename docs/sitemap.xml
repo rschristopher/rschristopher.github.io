@@ -231,6 +231,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rschristopher.github.io/references/nostr/</loc>
+         <lastmod>2023-02-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rschristopher.github.io/saving/</loc>
          <lastmod>2023-02-14</lastmod>
          <changefreq>daily</changefreq>

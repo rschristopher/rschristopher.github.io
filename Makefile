@@ -1,9 +1,11 @@
 .PHONY: build clean run
 
 build: clean
-	mkdir docs
+	mkdir -p docs/.well-known
 	poetry run mkdocs build
 	echo -n 'isbitcointrue.com' > docs/CNAME
+	cp _config.yml docs/_config.yml
+	cp nostr.json docs/.well-known/nostr.json
 
 clean:
 	rm -rf docs
