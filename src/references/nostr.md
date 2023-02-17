@@ -2,11 +2,11 @@
 
 Follow me on 
  [Nostr](https://iris.to/isbitcointrue.com)
- with the verified
+ with the self-verified
  [`isbitcointrue.com`](https://iris.to/isbitcointrue.com)
  identifier,
  using your preferred Nostr client.
-Or use the unverified public key,
+Or use the following public key,
 
 `npub1w4w9apn7yjd3atqzu3f4umctxpx2u3tcq3uadj2zgxndwavpd49smxj8ar`
 
@@ -75,4 +75,13 @@ Regardless of which Nostr client you use,
 
 
 [nostr-resources](https://nostr-resources.com/)
+
+
+
+
+
+
+## Linking to a Lightning Address
+
+...
 
