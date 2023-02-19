@@ -20,15 +20,15 @@ Or use the following public key,
 ## What is Nostr?
 
 Nostr is a protocol that decentralizes social networking.
-In other words, you can use *any* Nostr app and you'll be
+In other words, you can use *any* Nostr client and you'll be
  looking at the same social network.
 In effect this replaces twitter, telegram, and any other
  centrally controlled social network -- allowing
- an uncensorable social network.
+ an open and uncensorable social network.
 
 Technically, email and websites are based on
  similar protocols.
-Imagine one company owned all websites and email --
+Imagine if one company owned all websites and email --
  censoring your emails and prohibiting what you
  can write on your own website --
  this is effectively what social media companies
