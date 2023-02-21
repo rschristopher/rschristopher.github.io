@@ -36,7 +36,7 @@ npub1w4w9apn7yjd3atqzu3f4umctxpx2u3tcq3uadj2zgxndwavpd49smxj8ar
 Nostr is a *protocol* for decentralized social networking.
 In other words, you can use *any* Nostr client and you'll be
  looking at the same social network.
-In effect this replaces twitter, telegram, and any other
+This replaces twitter, telegram, and any other
  centrally controlled social network -- allowing
  an open and uncensorable social network.
 
