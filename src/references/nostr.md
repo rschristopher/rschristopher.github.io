@@ -62,12 +62,12 @@ Regardless of which Nostr client you use,
 
 ## Why is Nostr?
 
-The early Internet was decentralized;
+The early Internet was decentralized:
  emails, websites, usenet groups, gopher,
  private FTP sites, or even the infamous
  bulletin board systems (BBS) -- all were
  completely decentralized and uncensorable.
-Users rarely went by their personal identity,
+Users did not reveal their personal identity,
  preferring pseudonymous "handles".
 Using a personal identity was considered,
  well, too personal.
@@ -78,13 +78,14 @@ Even personal websites fell out of favor,
  all replaced by the
  dystopian surveillance panopticon
  brought about by FAANG companies and their ilk.
-That is, Facebook, Apple, Amazon, Netflix, and
+Facebook, Apple, Amazon, Netflix, and
  Google -- along with the other *"big tech"*
  companies that never made it to that dumb
  acronym (Twitter, Microsoft, Slack, etc).
 
-Few questioned the wisdom of this centralizing,
- ignoring heavy-handed influence of government
+Few questioned the wisdom of this centralizing
+ corporatism,
+ ignoring the heavy-handed influence of government
  and military "defense" agencies --
  let alone the corrosive influence of political
  parties and the various dictators and human
@@ -104,21 +105,22 @@ Everything one does and says, both online
  bought and sold for immoral
  uses that prior generations would have
  only imagined in a sci-fi novel.
-Just reading this blog has likely triggered
- dozens of surveillance trackers,
- each adding data to your digital profile
- (the device you are using, how long you stayed
- on this page, your physical location, mouse
- and/or touchpad gestures, everything) --
- this profile is then sold, where yours and
- billions of other profiles are endlessly
- compared and experimented on via 
- machine learning models, including
- predictions of what you'll buy,
- where you'll go, who you'll likely vote for,
- and of course: your level of conformity
- into this draconian system that
- no one asked for.
+
+> Even reading this blog has likely triggered
+> dozens of surveillance trackers,
+> each adding data to your digital profile
+> (the device you are using, how long you stayed
+> on this page, your physical location, mouse
+> and/or touchpad movements, everything) --
+> this profile is then sold, where yours and
+> billions of other profiles are endlessly
+> compared and experimented via 
+> machine learning models with
+> predictions of what you'll buy next,
+> where you'll go, who you'll likely vote for,
+> and of course: your level of conformity
+> into this draconian system that
+> no one asked for.
 
 Meanwhile, if you use Nostr, you do so without
  any of the above.
