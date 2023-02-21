@@ -62,13 +62,13 @@ Regardless of which Nostr client you use,
 
 ## Why is Nostr?
 
-The early Internet was decentralized.
-Emails, websites, Usenet groups, gopher,
+The early Internet was decentralized;
+ emails, websites, usenet groups, gopher,
  private FTP sites, or even the infamous
  bulletin board systems (BBS) -- all were
  completely decentralized and uncensorable.
 Users rarely went by their personal identity,
- preferring pseudonyms or "handles".
+ preferring pseudonymous "handles".
 Using a personal identity was considered,
  well, too personal.
 
@@ -80,7 +80,7 @@ Even personal websites fell out of favor,
  brought about by FAANG companies and their ilk.
 That is, Facebook, Apple, Amazon, Netflix, and
  Google -- along with the other *"big tech"*
- companies that never made it to that trendy
+ companies that never made it to that dumb
  acronym (Twitter, Microsoft, Slack, etc).
 
 Few questioned the wisdom of this centralizing,
@@ -94,7 +94,7 @@ Not only are *true names* the expectation,
  with movements amongst nation states to
  enforce this level of tracking.
 Everything one does and says, both online
- and off, what your typing, where you're sitting,
+ and off, what you type, where you're sitting,
  your buying habits, your political views,
  everything -- all private details are
  aggressively and repeatedly tracked in
@@ -125,7 +125,7 @@ Meanwhile, if you use Nostr, you do so without
 Nostr continues the tradition of a decentralized
  Internet.
 There are identities only
- if you choose to reveal them
+ if you choose to reveal them.
 The default is
  complete privacy through pseudonyms --
  specifically through
