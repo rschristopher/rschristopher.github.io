@@ -82,7 +82,7 @@ Even personal websites fell out of favor,
  brought about by FAANG companies and their ilk.
 Facebook, Apple, Amazon, Netflix, and
  Google -- along with the other *"big tech"*
- companies that never made it to that dumb
+ companies that never made it into that dumb
  acronym (Twitter, Microsoft, Slack, etc).
 
 Few questioned the wisdom of this centralized
