@@ -20,7 +20,9 @@ Follow me on
  using your preferred Nostr client.
 Or use the following public key,
 
-`npub1w4w9apn7yjd3atqzu3f4umctxpx2u3tcq3uadj2zgxndwavpd49smxj8ar`
+```
+npub1w4w9apn7yjd3atqzu3f4umctxpx2u3tcq3uadj2zgxndwavpd49smxj8ar
+```
 
 
 
@@ -40,7 +42,7 @@ In effect this replaces twitter, telegram, and any other
 
 Technically, email and websites are based on
  similar protocols.
-Imagine if one company owned all websites and email --
+Imagine if one company owned all websites and all email --
  censoring your emails and prohibiting what you
  can write on your own website --
  this is effectively what social media companies
@@ -52,9 +54,9 @@ You decide what you want to read, not an "algorithm"
 
 As such, a Nostr client app is like a web browser.
 Regardless of which web browser you use,
- you can be looking at the same website.
+ you will be looking at the same website.
 Regardless of which Nostr client you use,
- you can be looking at the same Nostr feed.
+ you will be looking at the same Nostr feed.
 
 
 
@@ -83,21 +85,26 @@ Facebook, Apple, Amazon, Netflix, and
  companies that never made it to that dumb
  acronym (Twitter, Microsoft, Slack, etc).
 
-Few questioned the wisdom of this centralizing
- corporatism,
+Few questioned the wisdom of this centralized
+ corporate fascism,
  ignoring the heavy-handed influence of government
  and military "defense" agencies --
  let alone the corrosive influence of political
  parties and the various dictators and human
- rights abusers.
+ rights abusers
+ (often calling themselves *activists*
+  and other absurdities).
 Not only are *true names* the expectation,
  they are increasingly required --
- with movements amongst nation states to
+ with pressure from nation states
+ (and unelected central planners)
+ to encourage and even 
  enforce this level of tracking.
-Everything one does and says, both online
+Everything you do and say, both online
  and off, what you type, where you're sitting,
  your buying habits, your political views,
- everything -- all private details are
+ everything -- all these formerly
+ private details are
  aggressively and repeatedly tracked in
  a comically inefficient 
  Rube Goldberg surveillance machine,
@@ -106,36 +113,35 @@ Everything one does and says, both online
  uses that prior generations would have
  only imagined in a sci-fi novel.
 
-> Even reading this blog has likely triggered
-> dozens of surveillance trackers,
-> each adding data to your digital profile
-> (the device you are using, how long you stayed
-> on this page, your physical location, mouse
-> and/or touchpad movements, everything) --
-> this profile is then sold, where yours and
-> billions of other profiles are endlessly
-> compared and experimented via 
-> machine learning models with
-> predictions of what you'll buy next,
-> where you'll go, who you'll likely vote for,
-> and of course: your level of conformity
-> into this draconian system that
-> no one asked for.
+!!! example "e.g."
+    Even reading this blog has likely triggered
+    dozens of surveillance trackers,
+    each adding data to your digital profile
+    (the device you are using, how long you stayed
+    on this page, your physical location, mouse
+    and/or touchpad movements, everything) --
+    this profile is then sold, where yours and
+    billions of other profiles are endlessly
+    compared and experimented via 
+    machine learning models with
+    predictions of what you'll buy next,
+    where you'll go, who you'll likely vote for,
+    and of course: your level of conformity
+    into this draconian system that
+    no one asked for.
 
-Meanwhile, if you use Nostr, you do so without
- any of the above.
-Nostr continues the tradition of a decentralized
- Internet.
-There are identities only
- if you choose to reveal them.
+Meanwhile, Nostr continues the tradition
+ of a decentralized Internet.
+There are no identities other than what
+ you choose to reveal.
 The default is
  complete privacy through pseudonyms --
  specifically through
  public/private keys.
 
-Your "identity" in Nostr is simply a public key.
-All messages are signed by the corresponding
- private keys.
+An "identity" in Nostr is simply a public key.
+All messages are signed by a corresponding
+ private key.
 You can create as many keys as you want.
 That is, as many pseudonyms as you want.
 You can even use new keys every time,
@@ -162,19 +168,33 @@ And since Nostr is a protocol, different
 Like what the Internet did to publishing houses
  and record stores, Nostr is poised to do to
  our labyrinthine social media hellscape.
+
 If Twitter, Facebook, Tik-Tok and the others
- are to survive the next decade, it will be
+ are to survive the next decade,
+ it will likely be
  as Nostr clients.
-
-
-
-!!! warning "work in progress"
+Or Facebook will go the way of Kodak,
+ Google the way of IBM,
+ and so on --
+ replaced by more competent
+ companies that understand
+ the direction of society.
+If you don't think this
+ could happen, consider
+ that this is what already
+ happened when these
+ FAANG companies were young
+ startups and supplanted
+ the old tech giants,
+ all building on top of
+ Internet protocols like HTTP.
 
 ![nostrich](/images/nostrich.jpeg)
 
 
 
 
+!!! warning "work in progress"
 
 ## Creating Keys
 
