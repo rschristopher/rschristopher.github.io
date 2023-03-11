@@ -36,6 +36,7 @@
 
 *that are actually worth reading*
 
++ The Bitcoin Standard 
 + Bitcoin is Venice 
 + Bullish Case for Bitcoin
 + Bitcoin Clarity
