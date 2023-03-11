@@ -1,4 +1,4 @@
-# Lightning Node
+# Level 4: Lightning Node
 
 
 !!! warning "work in progress"
