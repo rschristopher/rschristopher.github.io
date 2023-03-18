@@ -7,15 +7,16 @@ Have mercy on me, a sinner
 # "Toxic" Maximalists
 
 This is one of the silliest and most disingenuous
- criticisms out there.
+ criticisms.
 It usually goes like this,
- Bitcoiners are a toxic cult preventing
- BTC from succeeding.
+
+!!! quote "Bitcoiners are a toxic cult preventing BTC from succeeding."
+
 This is clearly disingenuous because no one
  would ever use this line of reasoning
  for any other asset.
 Would you refuse to buy a house because some
- home owners are jerks?
+ home owner was a jerk on the Internet?
 And more importantly, why would anyone care
  about the opinions of Bitcoin maximalists,
  as that clearly has nothing to do with
@@ -28,8 +29,8 @@ And, are they actually toxic?
 ## What is Maximalism?
 
 Let's understand the terms.
-A Bitcoin "maximalist" is simply someone who saves
- in Bitcoin, and Bitcoin only.
+A Bitcoin "maximalist" is simply someone who
+ saves in Bitcoin, and Bitcoin only.
 For those who view Bitcoin as an investment,
  a maximalist simply refuses to diversify
  their portfolio.
@@ -46,7 +47,7 @@ Bitcoin is an alternative to
  (although not mutually exclusive) --
  in other words, fiat is failing,
  the plans to save it are horrible, and
- Bitcoin is the only hope for the continuation
+ Bitcoin is our best hope for the continuation
  of civilization as we know it.
 
 
@@ -55,9 +56,10 @@ Bitcoin is an alternative to
 
 This label of "toxic" originally came from
  various shitcoin influencers
- (*altcoins* as they call them),
- because of the rather loud criticisms
- from Bitcoiners
+ (*altcoins* as they call them).
+There are often
+ rather loud criticisms
+ from Bitcoin maximalists 
  about perceived scams.
 Whether it was
  FTX,
@@ -67,9 +69,8 @@ Whether it was
  Bitcoin hard forks resulting in
  BCH and
  BSV,
- there has been a growing chorus
- of criticism from Bitcoin maximalists
- that their targets felt was "toxic".
+ there has been an ongoing chorus
+ of criticism from Bitcoin maximalists.
 And like any community made up of humans,
  there will always be some who are polite,
  and others who are not.
