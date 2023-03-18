@@ -22,17 +22,18 @@ And more importantly, why would anyone care
  as that clearly has nothing to do with
  whether or not Bitcoin is true.
 It'll either hold value, or it won't.
-And, are they actually toxic?
+
+And, are Bitcoin maximalists actually toxic?
 
 
 
 ## What is Maximalism?
 
-Let's understand the terms.
-A Bitcoin "maximalist" is simply someone who
+Let's first understand the terms.
+A Bitcoin *maximalist* is simply someone who
  saves in Bitcoin, and Bitcoin only.
 For those who view Bitcoin as an investment,
- a maximalist simply refuses to diversify
+ a maximalist is one who refuses to diversify
  their portfolio.
 They believe Bitcoin is
  the only viable monetary asset.
@@ -55,8 +56,8 @@ Bitcoin is an alternative to
 ## What makes them toxic?
 
 This label of "toxic" originally came from
- various shitcoin influencers
- (*altcoins* as they call them).
+ shitcoin influencers
+ (*altcoins* to be euphemistic).
 There are often
  rather loud criticisms
  from Bitcoin maximalists 
@@ -80,11 +81,11 @@ Arguably, it was the less-than-polite
 The problem with this framing, of course,
  is that the "toxic" maximalists have been
  proven right, 
- again 
+ again,
  and again,
  and again.
 Anyone listening to the "toxic" maximalists
- would have come out okay from the labyrinth
+ would have come out clean from the labyrinth
  of financial scams that make up our modern
  economy.
 
