@@ -9,7 +9,7 @@ Have mercy on me, a sinner
 This is one of the silliest and most disingenuous
  criticisms out there.
 It usually goes like this,
- Bitcoiners are a toxic cult and are preventing
+ Bitcoiners are a toxic cult preventing
  BTC from succeeding.
 This is clearly disingenuous because no one
  would ever use this line of reasoning
@@ -21,6 +21,7 @@ And more importantly, why would anyone care
  as that clearly has nothing to do with
  whether or not Bitcoin is true.
 It'll either hold value, or it won't.
+And, are they actually toxic?
 
 Let's understand the terms.
 A Bitcoin "maximalist" is simply someone who saves
@@ -35,10 +36,13 @@ For those viewing it as a gamble,
 For the doomers, Bitcoin is a lifeline,
  the only remaining hope for a civilization
  they see as failing.
-Bitcoin is Al alternative to 
+Bitcoin is an alternative to 
  stockpiling guns and survival gear
  (although not mutually exclusive).
 
+
+
+!!! warning "work in progress"
 
 
 
