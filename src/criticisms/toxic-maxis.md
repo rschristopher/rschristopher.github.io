@@ -6,8 +6,8 @@ Have mercy on me, a sinner
 
 # "Toxic" Maximalists
 
-This is one of the silliest and most disingenuous
- criticisms.
+This is a rather and disingenuous
+ criticism, although quite common.
 It usually goes like this,
 
 !!! quote "Bitcoiners are a toxic cult preventing BTC from succeeding."
@@ -109,8 +109,8 @@ Anyone listening to the "toxic" maximalists
 
 While there are of course bad actors
  in any group, especially online,
- outspoken criticism of dysfunctional and immoral
- financial systems is clearly not toxic.
+ outspoken criticism of an immoral
+ financial system is clearly not toxic.
 Calling out a scam is toxic
  only to the scammer.
 In almost every case of someone
@@ -118,7 +118,7 @@ In almost every case of someone
  will find
  online personalities who were guilty
  of promoting scams,
- not those promoting sound money,
+ not promoting sound money,
  but those looking to benrfit from
  immoral financial schemes
  (seigniorage, fractional reserve, and so on).
@@ -136,7 +136,12 @@ As a general rule, avoid anyone who
 
 ...
 
-
+<!--
+You are a child of God,
+ made in the image and likeness of God.
+Choose God, beg forgiveness.
+Return to the Father.
+-->
 
 
 
