@@ -113,7 +113,7 @@ While there are of course bad actors
  outspoken criticism of an immoral
  financial system is clearly not toxic.
 Calling out a scam is not toxic,
- except to the scammer.
+ except maybe to the scammer.
 In almost every case of someone
  complaining of "toxic maxis" you
  will find someone guilty
