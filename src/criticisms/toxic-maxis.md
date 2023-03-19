@@ -34,7 +34,7 @@ And, most importantly,
 
 Let's first understand the terms.
 A Bitcoin *maximalist* (maxi)
- is simply someone who
+ is anyone who
  saves in Bitcoin, and Bitcoin only.
 For those who view Bitcoin as an investment,
  a maximalist is one who refuses to diversify
@@ -112,15 +112,14 @@ While there are of course bad actors
  in any group, especially online,
  outspoken criticism of an immoral
  financial system is clearly not toxic.
-Calling out a scam is toxic
- only to the scammer.
+Calling out a scam is not exactly toxic,
+ except to the scammer.
 In almost every case of someone
  complaining of "toxic maxis" you
- will find
- online personalities who were guilty
+ will find someone guilty
  of promoting scams,
  not promoting sound money,
- but those looking to benrfit from
+ but looking to benefit from
  immoral financial schemes
  (seigniorage, fractional reserve, and so on).
 
