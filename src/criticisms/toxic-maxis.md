@@ -12,9 +12,10 @@ It usually goes like this,
 
 !!! quote "Bitcoiners are a toxic cult preventing BTC from succeeding."
 
-This is clearly disingenuous because no one
- would ever use this line of reasoning
- for any other asset.
+This is clearly disingenuous because
+ no one
+ would use this line of reasoning
+ for other assets.
 Would you refuse to buy a house because some
  home owner was a jerk on the Internet?
 And more importantly, why would anyone care
@@ -24,7 +25,7 @@ And more importantly, why would anyone care
 Either it will hold value, or it won't.
 
 And, most importantly,
- are Bitcoin maximalists actually toxic?
+ are Bitcoin maximalists actually *toxic*?
 
 
 
@@ -40,7 +41,7 @@ For those who view Bitcoin as an investment,
 They believe Bitcoin is
  the only viable monetary asset.
 
-For those viewing it as a gamble,
+For those viewing Bitcoin as a gamble,
  a maximalist is "all in".
 For the doomers, Bitcoin is a lifeline,
  the only remaining hope for a civilization
@@ -110,19 +111,23 @@ While there are of course bad actors
  in any group, especially online,
  outspoken criticism of dysfunctional and immoral
  financial systems is clearly not toxic.
-Calling out a scam as a scam is toxic
+Calling out a scam is toxic
  only to the scammer.
 In almost every case of someone
  complaining of "toxic maxis" you
  will find
  online personalities who were guilty
- of promoting scams.
+ of promoting scams,
+ not those promoting sound money,
+ but those looking to benrfit from
+ immoral financial schemes
+ (seigniorage, fractional reserve, and so on).
 
 As a general rule, avoid anyone who
  is complaining about "toxic maxis" --
- best case it's a thin-skinned person;
+ best case they're thin-skinned and immature;
  worst case it's a scammer who's upset
- they were caught.
+ they were exposed.
 
 
 
