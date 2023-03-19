@@ -43,11 +43,11 @@ They believe Bitcoin is
  the only viable monetary asset.
 
 For those viewing Bitcoin as a gamble,
- a maximalist is "all in".
+ a maximalist is *all in*.
 For the doomers, Bitcoin is a lifeline,
- the only remaining hope for a civilization
+ the only remaining hope for our civilization
  they see as failing.
-Bitcoin is an alternative to 
+For many, Bitcoin is an alternative to 
  stockpiling guns and survival gear
  (although not mutually exclusive) --
  in other words, fiat is failing,
