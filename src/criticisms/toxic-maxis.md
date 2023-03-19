@@ -114,9 +114,9 @@ While there are of course bad actors
  financial system is clearly not toxic.
 Calling out a scam is not toxic,
  except maybe to the scammer.
-In almost every case of someone
- complaining of "toxic maxis" you
- will find someone guilty
+In almost every case where someone is
+ complaining of "toxic maxis", you
+ will likely find someone guilty
  of promoting scams,
  not promoting sound money,
  but looking to benefit from
