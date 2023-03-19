@@ -21,9 +21,10 @@ And more importantly, why would anyone care
  about the opinions of Bitcoin maximalists,
  as that clearly has nothing to do with
  whether or not Bitcoin is true.
-It'll either hold value, or it won't.
+Either it will hold value, or it won't.
 
-And, are Bitcoin maximalists actually toxic?
+And, most importantly,
+ are Bitcoin maximalists actually toxic?
 
 
 
