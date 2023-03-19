@@ -104,7 +104,7 @@ Anyone listening to the "toxic" maximalists
 
 
 
-## Is this even toxic?
+### Is this even toxic?
 
 While there are of course bad actors
  in any group, especially online,
@@ -127,7 +127,7 @@ As a general rule, avoid anyone who
 
 
 
-## The problem with maximalism
+## The problems with maximalism
 
 ...
 
