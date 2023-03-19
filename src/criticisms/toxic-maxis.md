@@ -10,14 +10,14 @@ This is a rather and disingenuous
  criticism, although quite common.
 It usually goes like this,
 
-!!! quote "Bitcoiners are a toxic cult preventing BTC from succeeding."
+!!! quote "Bitcoiner maxis are a toxic cult preventing BTC from succeeding."
 
 This is clearly disingenuous because
  no one
  would use this line of reasoning
  for other assets.
-Would you refuse to buy a house because some
- home owner was a jerk on the Internet?
+Would you refuse to buy a house because a
+ real-estate maximalist was a jerk on the Internet?
 And more importantly, why would anyone care
  about the opinions of Bitcoin maximalists,
  as that clearly has nothing to do with
@@ -33,7 +33,8 @@ And, most importantly,
 ## What is Maximalism?
 
 Let's first understand the terms.
-A Bitcoin *maximalist* is simply someone who
+A Bitcoin *maximalist* (maxi)
+ is simply someone who
  saves in Bitcoin, and Bitcoin only.
 For those who view Bitcoin as an investment,
  a maximalist is one who refuses to diversify
