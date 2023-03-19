@@ -132,9 +132,20 @@ As a general rule, avoid anyone who
 
 
 
-## The problems with maximalism
+
+
+## Maximalism is not priced in
 
 ...
+
+
+
+
+## The problem with maximalism
+
+...
+
+
 
 <!--
 You are a child of God,
