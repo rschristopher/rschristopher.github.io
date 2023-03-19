@@ -6,7 +6,7 @@ Have mercy on me, a sinner
 
 # "Toxic" Maximalists
 
-This is a rather and disingenuous
+This is a rather silly and disingenuous
  criticism, although quite common.
 It usually goes like this,
 
