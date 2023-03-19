@@ -136,6 +136,9 @@ As a general rule, avoid anyone who
 
 ## Maximalism is not priced in
 
+Toxic or otherwise, Bitcoin maximalism is not
+ priced in.
+
 ...
 
 
