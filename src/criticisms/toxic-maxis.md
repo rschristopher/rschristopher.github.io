@@ -28,6 +28,7 @@ And, most importantly,
 
 
 
+
 ## What is Maximalism?
 
 Let's first understand the terms.
@@ -54,15 +55,18 @@ Bitcoin is an alternative to
 
 
 
-## What makes them toxic?
+
+
+## What is toxic maximalism?
 
 This label of "toxic" originally came from
  shitcoin influencers
  (*altcoins* to be euphemistic).
-There are often
+There were (and still are)
  rather loud criticisms
  from Bitcoin maximalists 
- about perceived scams.
+ about perceived scams,
+ especially as it relates to Bitcoin.
 Whether it was
  FTX,
  SVB,
@@ -74,7 +78,7 @@ Whether it was
  there has been an ongoing chorus
  of criticism from Bitcoin maximalists.
 And like any community made up of humans,
- there will always be some who are polite,
+ there will always be those who are polite,
  and others who are not.
 Arguably, it was the less-than-polite
  voices that earned the "toxic" label.
@@ -87,19 +91,51 @@ The problem with this framing, of course,
  and again.
 Anyone listening to the "toxic" maximalists
  would have come out clean from the labyrinth
- of financial scams that make up our modern
+ of scammy muck that is our modern
  economy.
 
 
 
 
+
+
+
+
+
+
+
+## Is this even toxic?
+
+While there are of course bad actors
+ in any group, especially online,
+ outspoken criticism of dysfunctional and immoral
+ financial systems is clearly not toxic.
+Calling out a scam as a scam is toxic
+ only to the scammer.
+In almost every case of someone
+ complaining of "toxic maxis" you
+ will find
+ online personalities who were guilty
+ of promoting scams.
+
+As a general rule, avoid anyone who
+ is complaining about "toxic maxis" --
+ best case it's a thin-skinned person;
+ worst case it's a scammer who's upset
+ they were caught.
+
+
+
+
+## The problem with maximalism
+
+...
+
+
+
+
+
+
+
 !!! warning "work in progress"
-
-
-
-
-
-
-
-
 
