@@ -10,7 +10,7 @@ This is a rather silly and disingenuous
  criticism, although quite common.
 It usually goes like this,
 
-!!! quote "Bitcoiner maxis are a toxic cult preventing BTC from succeeding."
+!!! quote "Bitcoin maxis are a toxic cult preventing BTC from succeeding."
 
 This is clearly disingenuous because
  no one
@@ -30,7 +30,7 @@ And, most importantly,
 
 
 
-## What is Maximalism?
+## What is Bitcoin maximalism?
 
 Let's first understand the terms.
 A Bitcoin *maximalist* (maxi)
