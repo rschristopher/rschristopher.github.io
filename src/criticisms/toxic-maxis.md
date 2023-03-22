@@ -106,7 +106,7 @@ Anyone listening to the "toxic" maximalists
 
 
 
-### Is this even toxic?
+### Is that even toxic?
 
 While there are of course bad actors
  in any group, especially online,
