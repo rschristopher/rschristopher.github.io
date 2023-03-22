@@ -65,9 +65,9 @@ This label of "toxic" originally came from
  shitcoin influencers
  (*altcoins* to be euphemistic).
 There were (and still are)
- rather loud criticisms
+ rather harsh criticisms
  from Bitcoin maximalists 
- about perceived scams,
+ towards scams and other dishonest practices,
  especially as it relates to Bitcoin.
 Whether it was
  FTX,
