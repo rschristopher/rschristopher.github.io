@@ -138,6 +138,13 @@ As a general rule, avoid anyone who
 
 Toxic or otherwise, Bitcoin maximalism is not
  priced in.
+Cult-like zealots are the buyers of last resort.
+They are why Bitcoin will hold its value over
+ time, because there will always Bitcoin
+ maxis.
+This is why the price cannot ever go to zero.
+There will be a group of people saving their
+ life energy in Bitcoin.
 
 ...
 
