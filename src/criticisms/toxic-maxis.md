@@ -187,16 +187,16 @@ And while maximalists can seem like
 
 
 
-### Maximalists are the intrinsic value
+### Maximalism is intrinsic value
 
 The durability of any monetary asset depends
  on a sustainable demand.
 This is why people are intuitively concerned
- with "implicit value" on any speculative
+ with "intrinsic value" on any speculative
  investment.
 The very existence of Bitcoin maximalists
  means that Bitcoin has *defacto*
- implicit value and is already money
+ intrinsic value and is *already* money
  (the hardest money to ever exist), albeit
  to a small subset of the population.
 Ultimately,
