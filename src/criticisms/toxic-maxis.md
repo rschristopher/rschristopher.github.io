@@ -208,16 +208,48 @@ Ultimately,
 
 
 
-## The problem with maximalism
+## The problems with maximalism
+
+In the spirit of steel manning, there is much
+ to criticize about Bitcoin maximalism --
+ however, none of it reflects on Bitcoin
+ the asset, nor the fundamentals
+ of whether Bitcoin is true.
+We can however, provide a critique of the
+ Bitcoin maxi worldview.
+
+!!! warning "Bitcoin doesn't fix everything"
 
 ...
+
+
+
+
+!!! warning "Bitcoin is not a religion"
+
+...
+
+
+
+
+!!! warning "Bitcoin cannot be a religion"
+
+...
+
+
+
+
+!!! warning "Bitcoin is not salvation nor redemption"
+
+...
+
 
 
 
 <!--
 You are a child of God,
  made in the image and likeness of God.
-Choose God, beg forgiveness.
+Choose God, and beg forgiveness.
 Return to the Father.
 -->
 
