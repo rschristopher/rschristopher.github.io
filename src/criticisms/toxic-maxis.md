@@ -195,7 +195,8 @@ The very existence of Bitcoin maximalists
  to a small subset of the population.
 Ultimately,
  this subset is the buoy that gives Bitcoin
- the needed floor till it reaches mass adoption
+ the needed (and growing) floor till it reaches
+ mass adoption
  and is viewed globally as "money". 
 
 
