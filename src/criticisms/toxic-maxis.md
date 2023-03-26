@@ -138,7 +138,7 @@ As a general rule, avoid anyone who
 
 Bitcoin maxis may seem like religious 
  zealots, but they have proven,
- time and time again, to be 
+ time and again, to be 
  the buyers of last resort.
 They are why Bitcoin will hold its value over
  time, during bear markets and worse.
@@ -159,7 +159,7 @@ In the worst case scenarios,
  where the hype is dead,
  there will still be Bitcoin maximalists
  working and saving in Bitcoin,
- buying any Bitcoin you have to sell them.
+ buying any Bitcoin you have to sell.
 Even if it's banned, maximalists will still
  be there, in black and grey markets --
  *staying humble, stacking sats*.
@@ -168,14 +168,15 @@ Because of this, Bitcoin has a floor that
  and the only ceiling is as a
  global unit of account,
  a measure of the entire global economy.
-There are no highs where maximalists will 
- stop buying, and no lows where they'll give up.
+There are no fiat-priced highs where maximalists
+ will stop buying,
+ and no lows where they'll give up.
 
 Eventually, as Bitcoin gains global adoption,
  maximalists will just seem like everyday 
  "savers" -- it is only now during the
- early adoption phase that Bitcoin is
- considered a speculative investment and
+ early adoption phase where Bitcoin is
+ considered a speculative investment that
  "maximalist" is even a term.
 And while maximalists can seem like 
  idealistic zealots 
