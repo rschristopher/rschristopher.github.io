@@ -183,7 +183,11 @@ And while maximalists can seem like
  cynics who do not yet understand
  the fundamentals),
  they are what gives Bitcoin its value
- during this critical moments of early adoption.
+ during these critical moments of early adoption.
+
+
+
+### Maximalists are the intrinsic value
 
 The durability of any monetary asset depends
  on a sustainable demand.
@@ -198,8 +202,7 @@ The very existence of Bitcoin maximalists
 Ultimately,
  this subset is the buoy that gives Bitcoin
  the needed (and growing) floor till it reaches
- mass adoption
- and is viewed globally as "money". 
+ mass adoption.
 
 
 
