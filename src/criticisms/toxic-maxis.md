@@ -136,15 +136,17 @@ As a general rule, avoid anyone who
 
 ## Maximalism is not priced in
 
-Toxic or otherwise, Bitcoin maximalism is not
- priced in.
-Cult-like zealots have proven,
+Bitcoin maxis may seem like religious 
+ zealots, but they have proven,
  time and time again, to be 
  the buyers of last resort.
 They are why Bitcoin will hold its value over
  time, during bear markets and worse.
+Toxic or otherwise, Bitcoin maximalism is not
+ yet priced in.
 
-This is why the price will never go to zero.
+Bitcoin maxis are why the price will
+ never go to zero.
 There will always be maximalists 
  saving their life energy in Bitcoin.
 It is a reaction to both fiat and the failings
