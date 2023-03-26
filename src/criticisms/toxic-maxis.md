@@ -142,14 +142,13 @@ Cult-like zealots have proven,
  time and time again, to be 
  the buyers of last resort.
 They are why Bitcoin will hold its value over
- time, even during brutal crackdowns and
- bear markets.
+ time, during bear markets and worse.
 
-This is why the price cannot ever go to zero.
-There will always be a group of people
+This is why the price will never go to zero.
+There will always be maximalists 
  saving their life energy in Bitcoin.
-It is a reaction to fiat and the failings
- of gold, and unless there's a return to
+It is a reaction to both fiat and the failings
+ of gold, and unless there emerges a more
  sound money, Bitcoin maximalists will
  remain.
 
@@ -159,34 +158,43 @@ In the worst case scenarios,
  there will still be Bitcoin maximalists
  working and saving in Bitcoin,
  buying any Bitcoin you have to sell them.
-Even where it's banned, maximalists will still
- be there, in black and grey markets.
+Even if it's banned, maximalists will still
+ be there, in black and grey markets --
+ *staying humble, stacking sats*.
 Because of this, Bitcoin has a floor that 
  is far above zero,
  and the only ceiling is as a
- global unit of account.
-There are no highs where maximalists
+ global unit of account,
+ a measure of the entire global economy.
+There are no highs where maximalists will 
  stop buying, and no lows where they'll give up.
 
-Eventually, as Bitcoin gains wide adoption,
- then maximalists are just simply
- "savers" -- it is only now during this
+Eventually, as Bitcoin gains global adoption,
+ maximalists will just seem like everyday 
+ "savers" -- it is only now during the
  early adoption phase that Bitcoin is
- considered a speculative investment
- by retail and institutional investors.
-And maximalists can seem like 
- idealistic zealots to those uninformed
- cynics who are still trying to understand
- the fundamentals.
+ considered a speculative investment and
+ "maximalist" is even a term.
+And while maximalists can seem like 
+ idealistic zealots 
+ (esecially to those uninformed
+ cynics who do not yet understand
+ the fundamentals),
+ they are what gives Bitcoin its value
+ during this critical moments of early adoption.
+
 The durability of any monetary asset depends
  on a sustainable demand.
 This is why people are intuitively concerned
  with "implicit value" on any speculative
  investment.
 The very existence of Bitcoin maximalists
- means that Bitcoin is already a money, albeit
+ means that Bitcoin has *defacto*
+ implicit value and is already money
+ (the hardest money to ever exist), albeit
  to a small subset of the population.
-This subset is the buoy that gives Bitcoin
+Ultimately,
+ this subset is the buoy that gives Bitcoin
  the needed floor till it reaches mass adoption
  and is viewed globally as "money". 
 
