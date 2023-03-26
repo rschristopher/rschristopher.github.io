@@ -142,26 +142,53 @@ Cult-like zealots have proven,
  time and time again, to be 
  the buyers of last resort.
 They are why Bitcoin will hold its value over
- time, because there will always Bitcoin
- maxis.
+ time, even during brutal crackdowns and
+ bear markets.
 
 This is why the price cannot ever go to zero.
 There will always be a group of people
  saving their life energy in Bitcoin.
-This means that in the worst case scenarios,
+It is a reaction to fiat and the failings
+ of gold, and unless there's a return to
+ sound money, Bitcoin maximalists will
+ remain.
+
+In the worst case scenarios,
  where all the investors disperse,
  where the hype is dead,
  there will still be Bitcoin maximalists
  working and saving in Bitcoin,
  buying any Bitcoin you have to sell them.
+Even where it's banned, maximalists will still
+ be there, in black and grey markets.
 Because of this, Bitcoin has a floor that 
  is far above zero,
- and has no ceiling.
+ and the only ceiling is as a
+ global unit of account.
 There are no highs where maximalists
- stop buying, and no lows where the stop buying.
+ stop buying, and no lows where they'll give up.
 
-
-...
+Eventually, as Bitcoin gains wide adoption,
+ then maximalists are just simply
+ "savers" -- it is only now during this
+ early adoption phase that Bitcoin is
+ considered a speculative investment
+ by retail and institutional investors.
+And maximalists can seem like 
+ idealistic zealots to those uninformed
+ cynics who are still trying to understand
+ the fundamentals.
+The durability of any monetary asset depends
+ on a sustainable demand.
+This is why people are intuitively concerned
+ with "implicit value" on any speculative
+ investment.
+The very existence of Bitcoin maximalists
+ means that Bitcoin is already a money, albeit
+ to a small subset of the population.
+This subset is the buoy that gives Bitcoin
+ the needed floor till it reaches mass adoption
+ and is viewed globally as "money". 
 
 
 
