@@ -73,8 +73,8 @@ This label of "toxic" originally came from
 There were (and still are)
  rather harsh criticisms
  from Bitcoin maximalists 
- towards scams and other dishonest practices,
- especially as it relates to Bitcoin.
+ towards any perceived scam
+ as it relates to Bitcoin.
 Whether it was
  FTX,
  SVB,
