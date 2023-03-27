@@ -420,10 +420,12 @@ And this is, by definition,
 
 Bitcoin must sit atop this religious worldview.
 Otherwise it cannot make sense, because
- without knowable universal truths,
+ without knowable universal truth,
  then nothing will or can make sense.
 And yes this can make Bitcoin feel redemptive
- -- but remember, it is only money.
+ -- but remember, it is only money,
+ it depends upon the same foundation
+ that our civilization was born upon.
 
 To *know* if Bitcoin is true, this requires
  a deeper inquiry.
