@@ -208,26 +208,73 @@ Ultimately,
 
 
 
+
+
 ## The problems with maximalism
 
-In the spirit of steel manning, there is much
- to criticize about Bitcoin maximalism --
- however, none of it reflects on Bitcoin
- the asset, nor the fundamentals
- of whether Bitcoin is true.
-We can however, provide a critique of the
- Bitcoin maxi worldview.
+Despite the positive benefits of
+ Bitcoin maximalism, there is much
+ to criticize in this space,
+ especially as Bitcoin emerges 
+ from a secular culture in the midst
+ of a meaning crisis with origins
+ far older than fiat.
+As we witness the failings of
+ modernism and the progressive ethos --
+ which has led to an absurd clown world
+ of postmodern deconstructions of
+ logic, math, morality, and meaning --
+ it is tempting to ascribe deeper
+ purpose and even *salvation* to Bitcoin,
+ to deify Bitcoin as if it offers 
+ personal redemption.
+It is no different, and equally mistaken,
+ to treat any worldly concern with sacred and
+ religious reverence.
+Whether it's politics,
+ or a vague sense of activism,
+ or Bitcoin,
+ none of these will fulfill your
+ very human need for purpose,
+ let alone answer the fundamental
+ questions of life.
+
+ 
 
 !!! warning "Bitcoin doesn't fix everything"
 
-...
+Bitcoin fixes one thing, just one.
+Bitcoin fixes a problem of fiat,
+ specifically the problem of seigniorage.
+That's it.
+Bitcoin doesn't fix anything else.
 
+While the problems of seigniorage
+ and the failings of fiat run deep --
+ especially as it enables corrosive
+ and morally reprehensible bureaucrats --
+ the underlying problems still exist,
+ and are not solved by the mere
+ existence of Bitcoin.
+Bitcoin won't provide a libertarian utopia.
+It won't eliminate central planners.
+It won't even remove fractional reserve.
+
+All of our problems (save seigniorage)
+ will still exist under a Bitcoin standard.
+Arguably, many of today's problems are
+ intractable and unsolvable because of
+ fiat.
+But even in this framing, 
+ Bitcoin isn't fixing these problems,
+ Bitcoin just gives us a chance to fix them --
+ the rest is up to us.
 
 
 
 !!! warning "Bitcoin is not a religion"
 
-...
+
 
 
 
