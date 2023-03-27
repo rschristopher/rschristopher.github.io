@@ -20,7 +20,8 @@ Would you refuse to buy a house because a
  real-estate maximalist was a jerk on the Internet?
 And more importantly, why would anyone care
  about the opinions of Bitcoin maximalists,
- as that clearly has nothing to do with
+ as their opinions clearly have
+ nothing to do with
  whether or not Bitcoin is true.
 Either it will hold value, or it won't.
 
