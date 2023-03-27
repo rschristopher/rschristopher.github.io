@@ -70,21 +70,14 @@ For many, Bitcoin is an alternative to
 This label of "toxic" originally came from
  shitcoin influencers
  (*altcoins* to be euphemistic).
-There were (and still are)
- rather harsh criticisms
- from Bitcoin maximalists 
- towards any perceived scam
- as it relates to Bitcoin.
 Whether it was
  FTX,
- SVB,
  BlockFi,
  or the
- Bitcoin hard forks resulting in
- BCH and
- BSV,
+ Bitcoin hard forks,
  there has been an ongoing chorus
- of criticism from Bitcoin maximalists.
+ of criticism from Bitcoin maximalists
+ towards any perceived scam.
 And like any community made up of humans,
  there will always be those who are polite,
  and others who are not.
