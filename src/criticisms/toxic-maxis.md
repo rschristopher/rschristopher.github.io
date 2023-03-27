@@ -367,7 +367,7 @@ To the degree Bitcoin is true,
 
 Consider for a moment just how damaging are
  the effects of fiat -- from the unhealthy diets
- to the ugly art -- the effects are
+ to the degenerate art -- the effects are
  everywhere.
 Perhaps the worst effect is the
  antihumanism of fiat-funded environmentalists
