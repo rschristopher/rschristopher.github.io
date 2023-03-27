@@ -266,7 +266,8 @@ Bitcoin doesn't fix anything else.
 While the problems of seigniorage
  and the failings of fiat run deep --
  especially as it enables corrosive
- and morally reprehensible bureaucrats --
+ and morally reprehensible bureaucrats 
+ to centrally plan an economy --
  the underlying problems still exist,
  and are not solved by the mere
  existence of Bitcoin.
