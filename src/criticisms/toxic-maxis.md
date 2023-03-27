@@ -375,7 +375,7 @@ Bitcoin does not give us an epistemology
  nor an ethical framework 
  to know that malthusian views are evil.
 Nothing about being a Bitcoiner precludes
- one from antihuman even malthusian views.
+ one from antihuman views.
 
 Bitcoin cannot even give us the framework
  to determine if Bitcoin is true.
@@ -384,15 +384,36 @@ Bitcoin cannot give us a worldview
  let alone that there exists a universal truth.
 
 Holding onto Bitcoin as if it is salvation,
- will lead one astray.
-An attachment onto this world.
+ will lead one astray --
+an attachment onto this world
+ that is not self-justifying.
 It would lead you into the same postmodern
  relativism of our existing secular culture.
 It would lead inevitably to nihilism.
 
 There is a way out of this nihilism,
- and it is found in the unspoken presuppositions
+ and -- interestingly enough --
+ it is found in the unspoken presuppositions
  from which we first asked: is Bitcoin true?
+
+To even ask this question precludes
+ the existence of truth, a universal truth,
+ a knowable truth.
+And pursuing this knowable truth is considered 
+ valuable, something that is good.
+An entire foundation of epistemology,
+ ethics, mathematics, and meaning 
+ are implied in the question.
+Bitcoin can only make sense upon such 
+ a foundation.
+In this sense -- yes it can feel redemptive
+ -- but remember, it is only money.
+To know if it is true, this requires
+ a deeper inquiry, a religious worldview 
+ that sufficiently makes sense of the world
+ as it is, and that can bring one closer
+ to the truth.
+ 
 
 
 
