@@ -31,6 +31,9 @@ And, most importantly,
 
 
 
+
+
+
 ## What is Bitcoin maximalism?
 
 Let's first understand the terms.
@@ -55,6 +58,8 @@ For many, Bitcoin is an alternative to
  the plans to save it are horrible, and
  Bitcoin is our best hope for the continuation
  of civilization.
+
+
 
 
 
@@ -135,6 +140,8 @@ As a general rule, avoid anyone who
 
 
 
+
+
 ## Maximalism is not priced in
 
 Bitcoin maxis may seem like religious 
@@ -189,6 +196,8 @@ And while maximalists can seem like
 
 
 
+
+
 ### Maximalism is intrinsic value
 
 The durability of any monetary asset depends
@@ -211,6 +220,11 @@ Ultimately,
 
 
 
+
+
+
+
+
 ## The problems with maximalism
 
 Despite the positive benefits of
@@ -220,6 +234,7 @@ Despite the positive benefits of
  from a secular culture in the midst
  of a meaning crisis with origins
  far older than fiat.
+
 As we witness the failings of
  modernism and the progressive ethos --
  which has led to an absurd clown world
@@ -231,18 +246,21 @@ As we witness the failings of
  personal redemption.
 It is no different, and equally mistaken,
  to treat any worldly concern with sacred and
- religious reverence.
-Whether it's politics,
- or a vague sense of activism,
- or Bitcoin,
- none of these will fulfill your
+ religious reverence --
+ whether it's politics,
+ a vague sense of activism,
+ or Bitcoin.
+None of these will fulfill your
  very human need for purpose,
  let alone answer the fundamental
  questions of life.
 
+
+
+
  
 
-!!! warning "Bitcoin doesn't fix everything"
+### Bitcoin doesn't fix everything
 
 Bitcoin fixes one thing -- just one.
 Bitcoin fixes a problem of fiat,
@@ -261,7 +279,7 @@ Bitcoin won't provide a libertarian utopia.
 It won't eliminate central planners.
 It won't even remove fractional reserve.
 
-All of our problems (save seigniorage)
+All of our problems (except seigniorage)
  will still exist under a Bitcoin standard.
 Arguably, many of today's problems are
  intractable and unsolvable because of
@@ -273,7 +291,9 @@ But even in this framing,
 
 
 
-!!! warning "Bitcoin is not a religion"
+
+
+### Bitcoin is not a religion
 
 Let's dispense with the modern myth that
  we are not religious, that a secular
@@ -309,21 +329,70 @@ Bitcoin may be the antidote to a
  but it can not make sense
  of life nor provide purpose.
 In a healthy culture this would be obvious.
+Bitcoin is not -- and *cannot be* -- a religion.
 
 
 
 
 
-!!! warning "Bitcoin cannot be a religion"
-
-...
 
 
 
 
-!!! warning "Bitcoin is not salvation nor redemption"
+### Bitcoin is not salvation nor redemption
 
-...
+This is an all too common view amongst
+ Bitcoiners; that Bitcoin is redemptive.
+*Bitcoin is salvation.*
+This is understandable, and it is
+ backed by plenty of evidence -- people
+ learning about Bitcoin are also
+ improving their life, thinking about the
+ future and saving towards a better future.
+Bitcoiners are having children, lots of them.
+This certainly sounds like redemption.
+
+However, is Bitcoin the cause of this redemption?
+No, Bitcoin is not redemptive,
+ *truth* is redemptive.
+To the degree Bitcoin is true,
+ it will feel redemptive, as all truth does.
+
+Consider for a moment just how damaging is
+ the effects of fiat, from the bad diets
+ to the ugly art, the effects are
+ everywhere.
+Perhaps the worst effect of all is the
+ antihumanism of fiat-funded environmentalists
+ believing we shouldn't
+ have children, that we're polluting
+ the earth and should die out as
+ a species.
+These malthusian views are not only factually
+ wrong but abhorrently evil.
+
+Bitcoin does not give us an epistemology
+ nor an ethical framework 
+ to know that malthusian views are evil.
+Nothing about being a Bitcoiner precludes
+ one from antihuman even malthusian views.
+
+Bitcoin cannot even give us the framework
+ to determine if Bitcoin is true.
+Bitcoin cannot give us a worldview
+ that understands what truth is,
+ let alone that there exists a universal truth.
+
+Holding onto Bitcoin as if it is salvation,
+ will lead one astray.
+An attachment onto this world.
+It would lead you into the same postmodern
+ relativism of our existing secular culture.
+It would lead inevitably to nihilism.
+
+There is a way out of this nihilism,
+ and it is found in the unspoken presuppositions
+ from which we first asked: is Bitcoin true?
 
 
 
