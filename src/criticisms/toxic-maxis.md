@@ -142,6 +142,9 @@ As a general rule, avoid anyone who
 
 
 
+
+
+
 ## Maximalism is not priced in
 
 Bitcoin maxis may seem like religious 
@@ -180,6 +183,12 @@ There are no fiat-priced highs where maximalists
  will stop buying,
  and no lows where they'll give up.
 
+
+
+
+
+### Maximalism is intrinsic value
+
 Eventually, as Bitcoin gains global adoption,
  maximalists will just seem like everyday 
  "savers" -- it is only now during the
@@ -193,12 +202,6 @@ And while maximalists can seem like
  the fundamentals),
  they are what gives Bitcoin its value
  during these critical moments of early adoption.
-
-
-
-
-
-### Maximalism is intrinsic value
 
 The durability of any monetary asset depends
  on a sustainable demand.
@@ -237,7 +240,7 @@ Despite the positive benefits of
 
 As we witness the failings of
  modernism and the progressive ethos --
- which has led to an absurd clown world
+ which has led to an absurd clown-world
  of postmodern deconstructions of
  logic, math, morality, and meaning --
  it is tempting to ascribe deeper
@@ -364,11 +367,16 @@ No, Bitcoin is not redemptive,
 To the degree Bitcoin is true,
  it will feel redemptive, as all truth does.
 
-Consider for a moment just how damaging is
- the effects of fiat -- from the bad diets
+
+
+
+### Bitcoin is insufficient 
+
+Consider for a moment just how damaging are
+ the effects of fiat -- from the unhealthy diets
  to the ugly art -- the effects are
  everywhere.
-Perhaps the worst effect of all is the
+Perhaps the worst effect is the
  antihumanism of fiat-funded environmentalists
  believing we shouldn't
  have children, that we're polluting
@@ -381,19 +389,20 @@ Bitcoin does not give us an epistemology
  nor an ethical framework 
  to know that malthusian views are evil.
 Nothing about being a Bitcoiner precludes
- one from antihuman views.
+ one from evil antihuman views.
 
 Bitcoin cannot even give us the framework
  to determine if Bitcoin is true.
 Bitcoin cannot give us a worldview
  that understands what truth is,
- let alone that there exists a universal truth.
+ let alone that there exists universal truth.
 
 Holding onto Bitcoin as if it is salvation,
  this will lead one astray --
  an attachment onto this world that will
  bring only suffering.
-It would lead you into the same postmodern
+Such an attachment 
+ would lead into the same postmodern
  relativism of our existing secular culture
  (which birthed fiat).
 It would lead inevitably to nihilism.
@@ -408,7 +417,7 @@ To even ask this question precludes
  a knowable truth.
 And we assume that pursuing
  this knowable truth is 
- valuable, something that is good.
+ valuable, something that is *good*.
 Thus, there is an entire foundation of
  epistemology,
  ethics, mathematics, and meaning 
@@ -427,7 +436,7 @@ To *know* if Bitcoin is true, this requires
  a deeper inquiry.
 It presupposes a religious worldview 
  that sufficiently makes sense of the world
- as it is, not as we wish it to be.
+ as it really is, not as we wish it to be.
 Ultimately, Bitcoin is not your redeemer,
  but if you found your way to Bitcoin
  such that you 
