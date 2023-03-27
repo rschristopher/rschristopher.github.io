@@ -380,8 +380,8 @@ Bitcoin cannot give us a worldview
 ### Bitcoin is not salvation
 
 This is an all too common view amongst
- Bitcoin maxis; that Bitcoin is redemptive.
-*Bitcoin is salvation.*
+ Bitcoin maxis; that Bitcoin is redemptive,
+ or that *Bitcoin is salvation.*
 This is understandable, and it is
  backed by plenty of evidence -- people
  learning about Bitcoin are also
