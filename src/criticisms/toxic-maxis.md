@@ -243,7 +243,8 @@ It is no different, and equally mistaken,
  to treat any worldly concern with sacred and
  religious reverence --
  whether it's politics,
- a vague sense of activism,
+ activism,
+ movies,
  or Bitcoin.
 None of these will fulfill your
  very human need for purpose,
@@ -338,9 +339,44 @@ Bitcoin is not -- and *cannot be* -- a religion.
 
 
 
+### Bitcoin is not self-justifying 
+
+Consider for a moment just how damaging are
+ the effects of fiat -- from the unhealthy diets
+ to the degenerate art -- the effects are
+ everywhere.
+Perhaps the worst effect is the
+ antihumanism of fiat-funded environmentalists
+ believing we shouldn't
+ have children, that we're polluting
+ the earth and should die out as
+ a species.
+These malthusian views are not only factually
+ wrong but abhorrently evil.
+
+Some Bitcoiners will disagree with
+ the above,
+ others will see it as self evidently true.
+Bitcoin does not give us an epistemology
+ nor an ethical framework 
+ to know that malthusian views are evil.
+Nothing about being a Bitcoiner precludes
+ one from evil antihuman worldviews.
+
+Ulimately, Bitcoin cannot give us the framework
+ to determine if Bitcoin is true.
+Bitcoin cannot give us a worldview
+ that understands what truth is,
+ let alone that there exists universal truth.
 
 
-### Bitcoin is not salvation nor redemption
+
+
+
+
+
+
+### Bitcoin is not salvation
 
 This is an all too common view amongst
  Bitcoin maxis; that Bitcoin is redemptive.
@@ -360,45 +396,15 @@ No, Bitcoin is not redemptive,
 To the degree Bitcoin is true,
  it will feel redemptive, as all truth does.
 
-
-
-
-### Bitcoin is insufficient 
-
-Consider for a moment just how damaging are
- the effects of fiat -- from the unhealthy diets
- to the degenerate art -- the effects are
- everywhere.
-Perhaps the worst effect is the
- antihumanism of fiat-funded environmentalists
- believing we shouldn't
- have children, that we're polluting
- the earth and should die out as
- a species.
-These malthusian views are not only factually
- wrong but abhorrently evil.
-
-Bitcoin does not give us an epistemology
- nor an ethical framework 
- to know that malthusian views are evil.
-Nothing about being a Bitcoiner precludes
- one from evil antihuman views.
-
-Bitcoin cannot even give us the framework
- to determine if Bitcoin is true.
-Bitcoin cannot give us a worldview
- that understands what truth is,
- let alone that there exists universal truth.
-
-Holding onto Bitcoin as if it is salvation,
+Deifying Bitcoin as if it is salvation,
  this will lead one astray --
  an attachment onto this world that will
  bring only suffering.
-Such an attachment 
+Such attachment and suffering 
  would lead into the same postmodern
  relativism of our existing secular culture
  (which birthed fiat).
-It would lead inevitably to nihilism.
+It then would lead inevitably to nihilism.
 
 There is a way out of this inevitable nihilism,
  and -- interestingly enough --
@@ -414,17 +420,17 @@ And we assume that pursuing
 Thus, there is an entire foundation of
  epistemology,
  ethics, mathematics, and meaning 
- implied in this question.
+ implied in asking this question.
 And this is, by definition,
  a religious worldview.
 
-Bitcoin must sit atop this religious worldview.
+Bitcoin requires this religious worldview.
 Otherwise it cannot make sense, because
  without knowable universal truth,
  then nothing will or can make sense.
 And yes this can make Bitcoin feel redemptive
  -- but remember, it is only money,
- it depends upon the same foundation
+ it simply depends upon the same foundation
  that our civilization was born upon.
 
 To *know* if Bitcoin is true, this requires
@@ -437,8 +443,8 @@ Ultimately, Bitcoin is not your redeemer,
  such that you 
  are saving for the future and starting a
  family -- don't thank Bitcoin,
- thank the redemptive spirit that
- is offering you salvation.
+ don't thank God for Bitcoin,
+ thank God for offering you salvation.
 
 
 
