@@ -164,7 +164,7 @@ In the worst case scenarios,
  working and saving in Bitcoin,
  buying any Bitcoin you have to sell.
 Even if it's banned, maximalists will still
- be there, in black and grey markets --
+ be there -- in black and grey markets --
  *staying humble, stacking sats*.
 Because of this, Bitcoin has a floor that 
  is far above zero,
@@ -239,6 +239,7 @@ As we witness the failings of
  purpose and even *salvation* to Bitcoin,
  to deify Bitcoin as if it offers 
  personal redemption.
+
 It is no different, and equally mistaken,
  to treat any worldly concern with sacred and
  religious reverence --
