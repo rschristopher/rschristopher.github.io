@@ -243,7 +243,7 @@ Whether it's politics,
 
 !!! warning "Bitcoin doesn't fix everything"
 
-Bitcoin fixes one thing, just one.
+Bitcoin fixes one thing -- just one.
 Bitcoin fixes a problem of fiat,
  specifically the problem of seigniorage.
 That's it.
@@ -274,6 +274,40 @@ But even in this framing,
 
 !!! warning "Bitcoin is not a religion"
 
+Let's dispense with the modern myth that
+ we are not religious, that a secular
+ worldview is even a sustainable possibility.
+Humans are religious creatures.
+We seek meaning with which to make sense
+ of the world around us -- this is a religious
+ impulse and it's inescapable.
+A religious worldview is what you use to
+ make sense of
+ what is happening around you, with meaning
+ sufficient to overcome the suffering of life
+ -- there is no default worldview,
+ and pretending otherwise is a regression
+ inevitably into nihilism.
+
+And as we slide into nihilism,
+ it's tempting to
+ grasp onto anything that seems good and
+ attach to it as a religious worldview
+ that can make sense of the world.
+Bitcoin can seem to do this at first,
+ as so many confusing and illogical things
+ suddenly make more sense.
+The degradation of fine art makes more sense.
+The absurdity of central banks and politics
+ makes more sense.
+But this is because we're living under the
+ poisonous influence of fiat.
+
+Bitcoin may be the antidote to a
+ specific problem in our civilization,
+ but it can not make sense
+ of life nor provide purpose.
+In a healthy culture this would be obvious.
 
 
 
