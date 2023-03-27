@@ -54,7 +54,7 @@ For many, Bitcoin is an alternative to
  in other words, fiat is failing,
  the plans to save it are horrible, and
  Bitcoin is our best hope for the continuation
- of civilization as we know it.
+ of civilization.
 
 
 
