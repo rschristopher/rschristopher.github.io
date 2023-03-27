@@ -380,9 +380,9 @@ Bitcoin cannot give us a worldview
 ### Bitcoin is not salvation
 
 This is an all too common view amongst
- Bitcoin maxis; that Bitcoin is redemptive,
- or that *Bitcoin is salvation.*
-This is understandable, and it is
+ Bitcoin maxis that Bitcoin is redemptive,
+  that *Bitcoin is salvation.*
+This belief is understandable, and it is
  backed by plenty of evidence -- people
  learning about Bitcoin are also
  improving their life, thinking about the
@@ -402,10 +402,10 @@ Deifying Bitcoin as if it is salvation,
  an attachment onto this world that will
  bring only suffering.
 Such attachment and suffering 
- would lead into the same postmodern
+ lead into the same postmodern
  relativism of our existing secular culture
  (which birthed fiat).
-It then would lead inevitably to nihilism.
+This in turn leads inevitably to nihilism.
 
 There is a way out of this inevitable nihilism,
  and -- interestingly enough --
