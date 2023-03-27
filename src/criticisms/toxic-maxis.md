@@ -286,8 +286,13 @@ Arguably, many of today's problems are
  fiat.
 But even in this framing, 
  Bitcoin isn't fixing these problems,
- Bitcoin just gives us a chance to fix them --
- the rest is up to us.
+ Bitcoin just gives us a chance to fix them.
+
+
+
+
+
+
 
 
 
@@ -302,7 +307,7 @@ Humans are religious creatures.
 We seek meaning with which to make sense
  of the world around us -- this is a religious
  impulse and it's inescapable.
-A religious worldview is what you use to
+A "religious worldview" is what you use to
  make sense of
  what is happening around you, with meaning
  sufficient to overcome the suffering of life
@@ -342,7 +347,7 @@ Bitcoin is not -- and *cannot be* -- a religion.
 ### Bitcoin is not salvation nor redemption
 
 This is an all too common view amongst
- Bitcoiners; that Bitcoin is redemptive.
+ Bitcoin maxis; that Bitcoin is redemptive.
 *Bitcoin is salvation.*
 This is understandable, and it is
  backed by plenty of evidence -- people
@@ -350,6 +355,7 @@ This is understandable, and it is
  improving their life, thinking about the
  future and saving towards a better future.
 Bitcoiners are having children, lots of them.
+They're attending church.
 This certainly sounds like redemption.
 
 However, is Bitcoin the cause of this redemption?
@@ -359,8 +365,8 @@ To the degree Bitcoin is true,
  it will feel redemptive, as all truth does.
 
 Consider for a moment just how damaging is
- the effects of fiat, from the bad diets
- to the ugly art, the effects are
+ the effects of fiat -- from the bad diets
+ to the ugly art -- the effects are
  everywhere.
 Perhaps the worst effect of all is the
  antihumanism of fiat-funded environmentalists
@@ -384,14 +390,15 @@ Bitcoin cannot give us a worldview
  let alone that there exists a universal truth.
 
 Holding onto Bitcoin as if it is salvation,
- will lead one astray --
-an attachment onto this world
- that is not self-justifying.
+ this will lead one astray --
+ an attachment onto this world that will
+ bring only suffering.
 It would lead you into the same postmodern
- relativism of our existing secular culture.
+ relativism of our existing secular culture
+ (which birthed fiat).
 It would lead inevitably to nihilism.
 
-There is a way out of this nihilism,
+There is a way out of this inevitable nihilism,
  and -- interestingly enough --
  it is found in the unspoken presuppositions
  from which we first asked: is Bitcoin true?
@@ -399,21 +406,37 @@ There is a way out of this nihilism,
 To even ask this question precludes
  the existence of truth, a universal truth,
  a knowable truth.
-And pursuing this knowable truth is considered 
+And we assume that pursuing
+ this knowable truth is 
  valuable, something that is good.
-An entire foundation of epistemology,
+Thus, there is an entire foundation of
+ epistemology,
  ethics, mathematics, and meaning 
- are implied in the question.
-Bitcoin can only make sense upon such 
- a foundation.
-In this sense -- yes it can feel redemptive
+ implied in this question.
+And this is, by definition,
+ a religious worldview.
+
+Bitcoin must sit atop this religious worldview.
+Otherwise it cannot make sense, because
+ without knowable universal truths,
+ then nothing will or can make sense.
+And yes this can make Bitcoin feel redemptive
  -- but remember, it is only money.
-To know if it is true, this requires
- a deeper inquiry, a religious worldview 
+
+To *know* if Bitcoin is true, this requires
+ a deeper inquiry.
+It presupposes a religious worldview 
  that sufficiently makes sense of the world
- as it is, and that can bring one closer
- to the truth.
- 
+ as it is, not as we wish it to be.
+Ultimately, Bitcoin is not your redeemer,
+ but if you found your way to Bitcoin
+ such that you 
+ are saving for the future and starting a
+ family -- don't thank Bitcoin,
+ thank the redemptive spirit that
+ is offering you salvation.
+
+
 
 
 
@@ -426,8 +449,4 @@ Return to the Father.
 -->
 
 
-
-
-
-!!! warning "work in progress"
 
