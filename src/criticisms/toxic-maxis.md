@@ -117,8 +117,7 @@ In almost every case where someone is
  complaining of "toxic maxis", you
  will likely find someone guilty
  of promoting scams,
- not promoting sound money,
- but looking to benefit from
+ looking to benefit from
  immoral financial schemes
  (seigniorage, fractional reserve, and so on).
 
