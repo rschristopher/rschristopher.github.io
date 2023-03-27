@@ -246,8 +246,8 @@ It is no different, and equally mistaken,
  whether it's politics,
  activism,
  movies,
- or Bitcoin.
-None of these will fulfill your
+ or Bitcoin --
+ none of these will fulfill your
  very human need for purpose,
  let alone answer the fundamental
  questions of life.
