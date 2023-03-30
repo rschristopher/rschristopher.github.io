@@ -15,7 +15,7 @@ It usually goes like this,
 This is clearly disingenuous because
  no one
  would use this line of reasoning
- for other assets.
+ about other assets.
 Would you refuse to buy a house because a
  real-estate maximalist was a jerk on the Internet?
 And more importantly, why would anyone care
