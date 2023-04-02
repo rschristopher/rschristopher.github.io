@@ -432,7 +432,9 @@ Otherwise it cannot make sense, because
 And yes this can make Bitcoin feel redemptive
  -- but remember, it is only money,
  it simply depends upon the same foundation
- that our civilization was born upon.
+ that our civilization was born upon
+ (despite the modern degeneracy of
+ of moral and epistemic relativism).
 
 To *know* if Bitcoin is true, this requires
  a deeper inquiry.
