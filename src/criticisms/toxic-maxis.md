@@ -10,7 +10,7 @@ This is a rather silly and disingenuous
  criticism, although quite common.
 It usually goes like this,
 
-!!! quote "Bitcoin maxis are a toxic cult preventing BTC from succeeding."
+!!! quote "Bitcoin maxis are a toxic cult that hurt adoption."
 
 This is clearly disingenuous because
  no one
