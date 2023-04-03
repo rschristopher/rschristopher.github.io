@@ -25,7 +25,17 @@ And more importantly, why would anyone care
  whether or not Bitcoin is true.
 Either it will hold value, or it won't.
 
-And, most importantly,
+If Bitcoin is true, it'll be adopted globally;
+ not
+ just by some worldviews and ideologies,
+ but by all worldviews and ideologies.
+This is because it's money --
+ something all humans in all walks of life
+ within this thing we call civilization
+ must contend with.
+
+As we explore this issue,
+ we can also ask the lesser relevant question,
  are Bitcoin maximalists actually *toxic*?
 
 
