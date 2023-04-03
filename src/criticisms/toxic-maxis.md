@@ -30,7 +30,7 @@ If Bitcoin is true, it'll be adopted globally;
  just by some worldviews and ideologies,
  but by all worldviews and ideologies.
 This is because it's money --
- something all humans in all walks of life
+ something all humans
  within this thing we call civilization
  must contend with.
 
