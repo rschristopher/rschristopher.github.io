@@ -29,7 +29,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: brown
+      accent: orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
