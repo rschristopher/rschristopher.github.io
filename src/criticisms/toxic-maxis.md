@@ -445,7 +445,7 @@ And yes this can make Bitcoin feel redemptive
  it simply depends upon the same foundation
  that our civilization was born upon
  (despite the modern degeneracy of
- of moral and epistemic relativism).
+ moral and epistemic relativism).
 
 To *know* if Bitcoin is true, this requires
  a deeper inquiry.
