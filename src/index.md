@@ -2,6 +2,12 @@
 
 *by* ***R.S. Christopher***
 
+<!--
+Lord Jesus Christ, Son of the Living God
+Have mercy on me
+a sinner
+-->
+
 
 This is a collection of essays
  and information centered around
