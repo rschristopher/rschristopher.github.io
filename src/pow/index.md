@@ -61,10 +61,10 @@ However, if this sounds like
  overview of how Bitcoin mining works
 * [Level 2: Mining Pools](sovereignty/level-2) --
  setup a miner and point to a mining pool
-* [Level 3: Solo Mining](sovereignty/level-3) --
- setup a full node and stratum server
-* [Level 4: Mining Farm](sovereignty/level-4) --
+* [Level 3: Mining Farm](sovereignty/level-3) --
  run a farm of Bitcoin miners
+* [Level 4: Solo Mining](sovereignty/level-4) --
+  setup a full node and stratum server
 * [Level 5: Block Broadcasting](sovereignty/level-5) --
  run a well-peered network of nodes
 * [Level 6: Stratum Selector](sovereignty/level-6) --
