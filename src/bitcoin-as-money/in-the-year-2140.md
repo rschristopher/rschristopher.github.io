@@ -93,7 +93,7 @@ For Bitcoin to survive, financial sovereigns must have advantages not available 
 In practice, a sovereign controls the liquidity, say, in a lightning channel. And even if multiple participants could share the same channel, those participants could not provide their own liquidity and benefit from 2nd layer transaction fees the way the sovereign can. The incentives for 2nd layer fees must be sufficient to encourage the far more costly on-chain transactions. There must be continued competition amongst Bitcoin users to become one of the financial sovereigns, iterating over time such that the continuous demand is met to keep proof-of-work hashing incentivized.
 
 !!! info "Prerequisite 5"
-    In order for Bitcoin to survive to the year 2140, there must be fierce competition and incentives for users of secondary layers to become user of the base layer (financial sovereigns).
+    In order for Bitcoin to survive to the year 2140, there must be fierce competition and incentives for users of secondary layers to become users of the base layer (financial sovereigns).
 
 
 
