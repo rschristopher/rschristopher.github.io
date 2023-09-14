@@ -104,10 +104,11 @@ Ultimately, secondary layers will be a ripe target for fractional reserve scheme
 The very pattern that led to global fiat could easily be repeated even after the abject failure of global fiat. This isn't the first fiat monetary system, and it's unlikely to be the last. As long as there are people willing to work for fiat while alternatives exist, then fiat money will remain.
 
 !!! info "Prerequisite 6"
-In order for Bitcoin to survive to the year 2140, there must be sufficient global demand for hard money and a forcible rejection of fractional reserve and fiat.
+    In order for Bitcoin to survive to the year 2140, there must be sufficient global demand for hard money and a forcible rejection of fractional reserve and fiat.
 
 Unfortunately, if prerequisite 6 was already met, we would still be on a gold standard and Bitcoin would never have existed. The more nuanced flavor of this prerequisite is that Bitcoin itself must incentive exactly this cultural shift to anathematize fractional reserve and fiat money. Human nature on this matter has already spoken.
 
+God help us.
 
 
 
