@@ -103,7 +103,7 @@ In practice, a sovereign controls the liquidity, say, in a lightning channel. An
 
 Ultimately, secondary layers will be a ripe target for fractional reserve schemes and fiat. For example, an existing nation state may choose to back their fiat currency with Bitcoin but then ban or limit their own citizens from transacting in Bitcoin (exactly as the US did during the Bretton Woods era). In this situation, even under a global Bitcoin standard, fiat currencies will very likely survive.
 
-The very pattern that led to global fiat could easily be repeated even after the abject failure of global fiat. This isn't the first fiat monetary system, and it's unlikely to be the last. As long as there are people willing to work for fiat while alternatives exist, then fiat money will remain.
+The very pattern that led to global fiat could easily be repeated even after the abject failure of global fiat. This isn't the first fiat monetary system, and it's unlikely to be the last. As long as there are people willing to work for fiat while hard money exist, then fiat money will remain.
 
 !!! info "Prerequisite 6"
     In order for Bitcoin to survive to the year 2140, there must be sufficient global demand for hard money and a forcible rejection of fractional reserve and fiat.
