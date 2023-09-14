@@ -12,7 +12,7 @@ While it’s difficult to make predictions more than a century in the future, we
 
 
 
-## Human Population and Technology
+## Population Growth 
 
 Global population growth is difficult to predict more than a century into the future, and advances in technology and adoption are even more speculative. That said, for some baseline numbers we can assume a global population increase over 10-billion, and sufficient agricultural advances to avoid the various doomsday predictions (which have historically been wrong every singly time) and arrive at a conservative estimate of 12-billion global population.
 
