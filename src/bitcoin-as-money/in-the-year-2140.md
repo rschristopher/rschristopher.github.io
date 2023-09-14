@@ -4,7 +4,9 @@ Most famously, this is the year (give or take) that the last Bitcoin will be min
 
 More formally, an infinite halving schedule would have an asymptotic limit of 21-million (see the first equation below). But there are only 33 block-subsidy eras (0 to 32), each lasting exactly 210,000 blocks (see the second equation, which is the total Bitcoin supply).
 
-.. img
+<img src="/images/bitcoin-supply-asymptotic.png" alt="Bitcoin Asymptotic Supply" align="left" width=300 style="border: 1px solid gray">
+<img src="/images/bitcoin-supply-actual.png" alt="Bitcoin Actual Supply" align=left width=352 style="border: 3px solid black">
+<br style="clear: both" />
 
 Each era is roughly 4-years, for a total of 132 years, such that the final era will have a block subsidy of only 1 satoshi, or 0.00000001 BTC. A single satoshi is not divisible on the base layer, thus, at block height 6,930,000 (in the year 2140) we will see the final block subsidy. From that point on Bitcoin mining will operate only on fees, which in practice will already have happened as fees will far outweigh such small block subsidies (in fact, the coinbase reward itself will likely be dust).
 
