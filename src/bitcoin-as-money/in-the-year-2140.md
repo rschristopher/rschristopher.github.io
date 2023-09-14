@@ -4,7 +4,7 @@ Most famously, this is the year (give or take) that the last Bitcoin will be min
 
 More formally, an infinite halving schedule would have an asymptotic limit of 21-million (see the first equation below). But there are only 33 block-subsidy eras (0 to 32), each lasting exactly 210,000 blocks (see the second equation, which is the total Bitcoin supply).
 
-.. ing
+.. img
 
 Each era is roughly 4-years, for a total of 132 years, such that the final era will have a block subsidy of only 1 satoshi, or 0.00000001 BTC. A single satoshi is not divisible on the base layer, thus, at block height 6,930,000 (in the year 2140) we will see the final block subsidy. From that point on Bitcoin mining will operate only on fees, which in practice will already have happened as fees will far outweigh such small block subsidies (in fact, the coinbase reward itself will likely be dust).
 
@@ -14,7 +14,7 @@ While it’s difficult to make predictions more than a century in the future, we
 
 ## Human Population and Technology
 
-Global population growth is difficult to predict more than a century in the future, and advances in technology and adoption are even more speculative. That said, for some baseline numbers we can assume a global population increase over 10-billion, and sufficient agricultural advances to avoid the various doomsday predictions (which have historically been wrong every singly time) and arrive at a conservative estimate of 12-billion global population.
+Global population growth is difficult to predict more than a century into the future, and advances in technology and adoption are even more speculative. That said, for some baseline numbers we can assume a global population increase over 10-billion, and sufficient agricultural advances to avoid the various doomsday predictions (which have historically been wrong every singly time) and arrive at a conservative estimate of 12-billion global population.
 
 Likewise we can assume advances in energy markets and access to technology, which are necessary for the mass adoption of Bitcoin. While there are many regressive scenarios one can speculate upon, most of these are not only detrimental to human flourishing but also to Bitcoin adoption itself. In other words, one needs a global information network and access to personal computing devices for Bitcoin to not only thrive but to survive. 
 
