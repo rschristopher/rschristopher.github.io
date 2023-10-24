@@ -163,7 +163,7 @@ There are no guarantees, and
 
 Ultimately, Bitcoin presents
  all of humanity --
- our entirety of global civilization --
+ our entire global civilization --
  with a game that's ours to lose.
 
 
