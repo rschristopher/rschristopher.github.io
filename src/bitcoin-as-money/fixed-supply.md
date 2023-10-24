@@ -15,7 +15,10 @@ have mercy on me, a sinner
 Let's consider this classic chart that you may have seen
  in various corners of the Internet.
 
-![Weimar Gold Price](/images/weimar_inflation_orig.jpg)
+!!! info "Weimar Gold Price from 1918 to 1923"
+    <figure markdown>
+      ![Weimar Gold Price](/images/weimar_inflation_orig.jpg)
+    </figure>
 
 I've seen many versions of this chart, 
  and always felt there was a lot overlooked.
