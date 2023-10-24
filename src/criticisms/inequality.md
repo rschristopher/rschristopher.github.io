@@ -10,7 +10,7 @@ Inequality presents a moral claim,
  from the technical claims
  and understand them as such.
 It is not useful to employ moral arguments
- when pursuing truth
+ when pursuing technical truth
  -- *if Bitcoin is true*,
  it's not because it's good or bad,
  it's because it's true.
@@ -22,8 +22,7 @@ In other words, if Bitcoin
 No, it would still (obviously) be true.
 Importantly, knowledge of such immorality 
  would do nothing to stop it, much like
- knowledge of the problems of fiat don't fix
- the problems of fiat.
+ knowledge of the problems of fiat don't fix the problems of fiat.
 
 However, knowledge of the morality
  of Bitcoin can help guide us as
