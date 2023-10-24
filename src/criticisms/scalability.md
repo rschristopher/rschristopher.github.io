@@ -326,7 +326,7 @@ In any reasonable analysis,
  billions of people.
 Bitcoin is an alternative to fiat debt slavery.
 And a natural distribution of sovereigns
- avoids the oligarchies
+ avoids the entrenched oligarchies
  we see in modern fiat.
 
 A Bitcoin standard, even with
