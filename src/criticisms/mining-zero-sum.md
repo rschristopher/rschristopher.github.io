@@ -46,8 +46,7 @@ This may seem simple in theory,
  with each other, and worse, the halvings
   make this a negative sum game.
 
-For example,
-Imagine a big mining farm
+For example, imagine a big mining farm
  which mines ~10 blocks per day
  (out of 144 daily average).
 They are profitable so they
