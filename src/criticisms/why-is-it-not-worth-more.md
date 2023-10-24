@@ -199,7 +199,7 @@ Saving in Bitcoin is a way to opt-out --
 
 Bitcoin is money you can save without
  losing your soul.
-It is not a hedge, its value can only
+It is not a hedge -- its value can only
  increase along with civilization itself.
 As such, using Bitcoin is a choice,
  a choice in favor of 
