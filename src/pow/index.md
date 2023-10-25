@@ -29,11 +29,11 @@ For those foolish enough to play this game
 
 > “Always poor is he who works with an indolent hand, but the hand of the diligent brings wealth” (Proverbs 10:4)
 
-If you're looking for passive income or an investment opportunity,
+If you're looking for passive income or an exciting investment opportunity,
  Bitcoin mining is most certainly not
  for you.
 However, if honest hard work is just your kind of game, well then -- welcome to the
- [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic).
+ [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic), where you'll find the "rough work of a work day world."
 
 
 ## Sovereignty Levels
