@@ -57,18 +57,12 @@ However, if this sounds like
 
 ## Sovereignty Levels
 
-* [Level 1: Getting Started](sovereignty/level-1) -- 
- overview of how Bitcoin mining works
-* [Level 2: Mining Pools](sovereignty/level-2) --
- setup a miner and point to a mining pool
-* [Level 3: Mining Farm](sovereignty/level-3) --
- run a farm of Bitcoin miners
-* [Level 4: Solo Mining](sovereignty/level-4) --
-  setup a full node and stratum server
-* [Level 5: Block Broadcasting](sovereignty/level-5) --
- run a well-peered network of nodes
-* [Level 6: Off-grid Mining](sovereignty/level-6) --
- relocate miners to off-grid energy sources
+* [Level 1: Getting Started](sovereignty/level-1) -- Start hashing!
+* [Level 2: Mining Pools](sovereignty/level-2) -- Setup a dedicated miner and point to a mining pool
+* [Level 3: Mining Farm](sovereignty/level-3) -- Run a farm of dedicated Bitcoin miners
+* [Level 4: Solo Mining](sovereignty/level-4) -- Run a full node and stratum server
+* [Level 5: Block Broadcasting](sovereignty/level-5) -- Run a well-peered network of nodes
+* [Level 6: Off-grid Mining](sovereignty/level-6) -- Relocate miners to off-grid energy sources
 
 Before diving in and daring to test your fate
  at Bitcoin mining, you may want to first
