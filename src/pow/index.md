@@ -39,7 +39,7 @@ However, if honest hard work is just your kind of game, well then -- welcome to 
 ## Sovereignty Levels
 
 * [Level 1: Getting Started](sovereignty/level-1) -- Start hashing!
-* [Level 2: Mining Pools](sovereignty/level-2) -- Setup a dedicated miner and point to a mining pool
+* [Level 2: Mining Pools](sovereignty/level-2) -- Setup a dedicated Bitcoin miner and point to a mining pool
 * [Level 3: Mining Farm](sovereignty/level-3) -- Run a farm of dedicated Bitcoin miners
 * [Level 4: Solo Mining](sovereignty/level-4) -- Run a full node and stratum server
 * [Level 5: Block Broadcasting](sovereignty/level-5) -- Run a well-peered network of nodes
