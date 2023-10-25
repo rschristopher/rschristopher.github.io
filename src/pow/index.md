@@ -67,9 +67,7 @@ However, if this sounds like
   setup a full node and stratum server
 * [Level 5: Block Broadcasting](sovereignty/level-5) --
  run a well-peered network of nodes
-* [Level 6: Stratum Selector](sovereignty/level-6) --
- dynamically choose different stratum servers
-* [Level 7: Off-grid Mining](sovereignty/level-7) --
+* [Level 6: Off-grid Mining](sovereignty/level-6) --
  relocate miners to off-grid energy sources
 
 Before diving in and daring to test your fate
