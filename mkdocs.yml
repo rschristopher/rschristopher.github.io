@@ -99,10 +99,9 @@ nav:
             - "Level 1: Getting Started": commerce/sovereignty/level-1.md
             - "Level 2: Payment Service": commerce/sovereignty/level-2.md
             - "Level 3: Self Hosted": commerce/sovereignty/level-3.md
-            - "Level 4: Lightning Node": commerce/sovereignty/level-4.md
-            - "Level 5: Private Channels": commerce/sovereignty/level-5.md
-            - "Level 6: Localism": commerce/sovereignty/level-6.md
-            - "Level 7: Off-grid": commerce/sovereignty/level-7.md
+            - "Level 4: Private Channels": commerce/sovereignty/level-4.md
+            - "Level 5: Localism": commerce/sovereignty/level-5.md
+            - "Level 6: Off-grid": commerce/sovereignty/level-6.md
         - Appendix: 
           - "A: Bitcoin Script": commerce/appendix/bitcoin-script.md
           - "A: Coinjoin": commerce/appendix/coinjoin.md
@@ -118,8 +117,7 @@ nav:
             - "Level 3: Mining Farm": pow/sovereignty/level-3.md
             - "Level 4: Solo Mining": pow/sovereignty/level-4.md
             - "Level 5: Block Broadcasting": pow/sovereignty/level-5.md
-            - "Level 6: Stratum Selector": pow/sovereignty/level-6.md
-            - "Level 7: Off-grid": pow/sovereignty/level-7.md
+            - "Level 6: Off-grid": pow/sovereignty/level-6.md
         - Appendix: 
           - "A: Energy Money": pow/appendix/energy-money.md
     - References: 
