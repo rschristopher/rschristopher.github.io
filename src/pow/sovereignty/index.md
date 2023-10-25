@@ -72,3 +72,15 @@ The real game is and will always be
 
 
 !!! warning "work in progress"
+
+!!! quote "be a Sovereign of your own Work"
+
+Transaction processing and settlement. That is, process and settle your own transactions.
+
+
+
+
+
+
+
+
