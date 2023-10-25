@@ -2,13 +2,9 @@
 
 <!--
 
-explorer.acinq.co
-LnRouter, lnrouter.app/graph
-1ml
-amboss.space
-lightningnetwork.plus
-thunderhub.io
-thebitcoinlayer.substack.com
+Lord Jesus Christ
+Son of God
+Have mercy on me, a sinner
 
 -->
 
@@ -24,6 +20,7 @@ And like [saving](../saving/)
 Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign --
+ a sovereign of their own business --
  not by fiat, but simply by opting-in
  to sound money: getting paid in Bitcoin,
  buying goods and services in Bitcoin,
@@ -42,18 +39,16 @@ Below is an overview of the levels, guiding
  and services using Bitcoin
 * [Level 2: Payment Service](sovereignty/level-2) --
  use a hosted payment system
- for your business or hobby
+ for your business
 * [Level 3: Self Hosted](sovereignty/level-3) --
  use a self-hosted payment system
- integrated into self custody
-* [Level 4: Lightning Node](sovereignty/level-4) --
- run a dedicated lightning node
-* [Level 5: Private Channels](sovereignty/level-5) --
- establish private lightning channels
- with local partners
-* [Level 6: Localism](sovereignty/level-6) --
+ integrated into your own self custody
+* [Level 4: Private Channels](sovereignty/level-4) --
+ establish private channels
+ with local partners to buy and sell
+* [Level 5: Localism](sovereignty/level-5) --
  establish local-area payment networks
-* [Level 7: Off-grid Commerce](sovereignty/level-7) --
+* [Level 6: Off-grid Commerce](sovereignty/level-6) --
  manage off-grid payment networks
 
 Before diving in and learning to become a
