@@ -34,22 +34,12 @@ Below is an overview of the levels, guiding
 
 ## Sovereignty Levels
 
-* [Level 1: Getting Started](sovereignty/level-1) -- 
- buying and selling goods
- and services using Bitcoin
-* [Level 2: Payment Service](sovereignty/level-2) --
- use a hosted payment system
- for your business
-* [Level 3: Self Hosted](sovereignty/level-3) --
- use a self-hosted payment system
- integrated into your own self custody
-* [Level 4: Private Channels](sovereignty/level-4) --
- establish private channels
- with local partners to buy and sell
-* [Level 5: Localism](sovereignty/level-5) --
- establish local-area payment networks
-* [Level 6: Off-grid Commerce](sovereignty/level-6) --
- manage off-grid payment networks
+* [Level 1: Getting Started](sovereignty/level-1) -- Buy and sell goods and services using Bitcoin
+* [Level 2: Payment Service](sovereignty/level-2) -- Use a hosted payment system for your business
+* [Level 3: Self Hosted](sovereignty/level-3) -- Self-host a payment system for your business, and  integrate with your own self custody
+* [Level 4: Private Channels](sovereignty/level-4) -- Establish private channels with local partners
+* [Level 5: Localism](sovereignty/level-5) -- Establish local-area payment networks
+* [Level 6: Off-grid Commerce](sovereignty/level-6) -- Establish off-grid payment networks
 
 Before diving in and learning to become a
  financial sovereign, you may want to first
