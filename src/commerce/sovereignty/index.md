@@ -4,12 +4,27 @@
 !!! warning "work in progress"
 
 
+!!! quote "Be a Sovereign over your own Business"
+
+Get paid in Bitcoin
+
+Settle in Bitcoin
+
 
 <!--
 
 Lord Jesus Christ
 Son of the living God
 Have mercy on me, a sinner
+
+
+Let's stick with the base layer, and
+A: Lightning 
+
+and also reference the necessary 2nd layer payment rails that will need to exist for full sovereignty.
+
+
+
 
 
 explorer.acinq.co
@@ -23,8 +38,6 @@ thebitcoinlayer.substack.com
 
 
 
-In the year 2525
-If man is still alive...
 
 Do you need an on-chain transaction to receive
  lightning payments?
