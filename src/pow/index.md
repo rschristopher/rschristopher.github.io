@@ -27,31 +27,12 @@ For those foolish enough to play this game
  by far the most important: a ridiculous 
  work ethic.
 
-> “I’ve never really viewed myself as particularly talented. 
-> Where I excel is ridiculous, sickening 
-> work ethic.
-> The only thing I see that is distinctly
-> different about me is:
-> I’m not afraid to die on a treadmill. 
-> I will not be outworked, period.
-> You might have more talent than me,
-> you might be smarter than me,
-> you might be sexier than me.
-> You might be all of those things.
-> You got it on me in nine categories.
-> But if we get on the treadmill together,
-> there’s two things:
-> You’re getting off first, or I’m going to die.
-> It’s really that simple.”
->  
-> -- Will Smith
+> “Always poor is he who works with an indolent hand, but the hand of the diligent brings wealth” (Proverbs 10:4)
 
-If you're afraid to die on a treadmill,
+If you're looking for passive income or an investment opportunity,
  Bitcoin mining is most certainly not
  for you.
-However, if this sounds like
- just your kind of game,
- well then -- welcome to the
+However, if honest hard work is just your kind of game, well then -- welcome to the
  [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic).
 
 
