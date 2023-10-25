@@ -1,4 +1,4 @@
-# Level 7: Off-grid Commerce
+# Level 6: Off-grid Commerce
 
 
 !!! warning "work in progress"
