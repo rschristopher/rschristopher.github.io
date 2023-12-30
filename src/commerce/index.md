@@ -56,9 +56,8 @@ Poor scalability, gold coins and other tokens become inevitable
 * [Level 2: Primitive Tokens](sovereignty/level-2) -- localism, bartering with opendime or similar
 * [Level 3: Private Channels](sovereignty/level-3) -- layer-2 payment rails such as lightning over private channels 
 * [Level 4: Public Channels](sovereignty/level-4) -- limited layer-2 public channels with select partners
-* *[future]* [Level 5: point-of-sale](sovereignty/level-5) -- *future inevitable*, point-of-sale systems
-* *[future]* [Level 6: cold storage commerce](sovereignty/level-6) -- *future inevitable*, cold storage security on layer-2 or above
-* *[future]* [Level 7: layer-2 wallets](sovereignty/level-7) -- *future inevitable*, self-custody layer-2 wallets for employees of financial sovereigns
+* *[future]* [Level 5: point-of-sale](sovereignty/level-5) -- *future inevitable*, point-of-sale systems with cold storage security 
+* *[future]* [Level 6: layer-2 wallets](sovereignty/level-6) -- *future inevitable*, self-custody layer-2 wallets for employees of financial sovereigns
 
 Before diving in and learning about  sovereign commerce, you may want to first
  [understand the terms](understand-the-terms.md).
