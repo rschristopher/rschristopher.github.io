@@ -6,12 +6,13 @@ Lord Jesus Christ
 Son of God
 Have mercy on me, a sinner
 
+Grant me wisdom and guidance to speak the truth
 -->
 
 Under a Bitcoin Standard,
  commerce is the exchange of Bitcoin
  for goods and services, from 
- payments over the Lightning network, to
+ payments over secondary layers (such as the Lightning network), to
  final international settlement on the base layer.
 And like [saving](../saving/)
  in Bitcoin, commerce starts simple
@@ -21,28 +22,43 @@ Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign --
  a sovereign of their own business --
- not by fiat, but simply by opting-in
+ impossible with fiat, but made possible with Bitcoin, simply by opting-in
  to sound money: getting paid in Bitcoin,
  buying goods and services in Bitcoin,
  and empowering local businesses
- through liquidity channels.
+ through liquidity (such as lightning channels).
+In other words, empowering sovereign commerce through Bitcoin.
 
-Below is an overview of the levels, guiding
- one from hobbyist to full financial
- sovereign.
+Below are proposed sovereignty levels, guiding us from hobbyists to full financial
+ sovereigns.
+
+!!! warning "Bitcoin versus Fiat"
+    Fiat-based commerce does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat then inevitably produces the Biblical mark of the beast, *one cannot buy nor sell*.
+    
+    Sovereign commerce necessitates truly peer-to-peer transactions that cannot be censored or controlled by any authority. As such, we are still very early and much development still remains in order to make Bitcoin-commerce globally scalable. For now, sovereign commerce will look simultaneously antiquated (reminiscent of a gold standard) while also forward-looking (inevitable innovations that make sovereign commerce possible at global scale).
+
+    In short, we're not there yet, but the destination is inevitable.
+
+
 
 
 ## Sovereignty Levels
 
-* [Level 1: Getting Started](sovereignty/level-1) -- Buy and sell goods and services using Bitcoin
-* [Level 2: Payment Service](sovereignty/level-2) -- Use a hosted payment system for your business
-* [Level 3: Self Hosted](sovereignty/level-3) -- Self-host a payment system for your business, and  integrate with your own self custody
-* [Level 4: Private Channels](sovereignty/level-4) -- Establish private channels with local partners
-* [Level 5: Localism](sovereignty/level-5) -- Establish local-area payment networks
-* [Level 6: Off-grid Commerce](sovereignty/level-6) -- Establish off-grid payment networks
+Imagine a small community of unbanked workers. They could be farmers, fishermen, any small and relatively self sufficient community.
+Imagine they have some Bitcoin and occasional outside trade, and they experience fiat hyperinflation.
+How would they establish sovereign commerce?
 
-Before diving in and learning to become a
- financial sovereign, you may want to first
+
+* [Level 1: On-chain Limitations](sovereignty/level-1) -- on-chain transactions for final settlement.
+Poor scalability, gold coins and other tokens become inevitable
+* [Level 2: Primitive Tokens](sovereignty/level-2) -- localism, bartering with opendime or similar
+* [Level 3: Private Channels](sovereignty/level-3) -- layer-2 payment rails such as lightning over private channels 
+* [Level 4: Public Channels](sovereignty/level-4) -- Establish limited public channels with select partners
+* [Level 5: [future] point-of-sale](sovereignty/level-5) -- future inevitable, point-of-sale systems
+* [Level 6: [future] cold storage commerce](sovereignty/level-6) -- future inevitable, cold storage security on secondary layer
+* [Level 7: [future] layer-2 wallets](sovereignty/level-7) -- future inevitable, self-custody layer-2 wallets for employees of financial sovereigns
+
+Before diving in and learning about  sovereign commerce, you may want to first
  [understand the terms](understand-the-terms.md).
 
 
