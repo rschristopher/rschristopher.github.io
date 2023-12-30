@@ -44,19 +44,21 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
 
 ## Sovereignty Levels
 
-Imagine a small community of unbanked workers. They could be farmers, fishermen, any small and relatively self sufficient community.
-Imagine they have some Bitcoin and occasional outside trade, and they experience fiat hyperinflation.
-How would they establish sovereign commerce?
+Imagine a local community of workers. They could be unbanked. They could be farmers, fishermen -- any small and relatively self sufficient community.
+Imagine they have some Bitcoin and occasionally they trade outside.
+Now imagine they experience fiat hyperinflation.
+There are countless real-world examples of such communities, and many in our future.
+How could they establish sovereign commerce?
 
 
 * [Level 1: On-chain Limitations](sovereignty/level-1) -- on-chain transactions for final settlement.
 Poor scalability, gold coins and other tokens become inevitable
 * [Level 2: Primitive Tokens](sovereignty/level-2) -- localism, bartering with opendime or similar
 * [Level 3: Private Channels](sovereignty/level-3) -- layer-2 payment rails such as lightning over private channels 
-* [Level 4: Public Channels](sovereignty/level-4) -- Establish limited public channels with select partners
-* [Level 5: [future] point-of-sale](sovereignty/level-5) -- future inevitable, point-of-sale systems
-* [Level 6: [future] cold storage commerce](sovereignty/level-6) -- future inevitable, cold storage security on secondary layer
-* [Level 7: [future] layer-2 wallets](sovereignty/level-7) -- future inevitable, self-custody layer-2 wallets for employees of financial sovereigns
+* [Level 4: Public Channels](sovereignty/level-4) -- limited layer-2 public channels with select partners
+* [Level 5: [future] point-of-sale](sovereignty/level-5) -- *future inevitable*, point-of-sale systems
+* [Level 6: [future] cold storage commerce](sovereignty/level-6) -- *future inevitable*, cold storage security on layer-2 or above
+* [Level 7: [future] layer-2 wallets](sovereignty/level-7) -- *future inevitable*, self-custody layer-2 wallets for employees of financial sovereigns
 
 Before diving in and learning about  sovereign commerce, you may want to first
  [understand the terms](understand-the-terms.md).
