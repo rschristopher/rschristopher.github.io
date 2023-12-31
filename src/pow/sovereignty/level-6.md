@@ -1,4 +1,4 @@
-# Level 6: Opensource firmware
+# Level 6: Opensource Firmware 
 
 future inevitability 
 
