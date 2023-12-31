@@ -58,7 +58,7 @@ In fact, to truly gain your own financial sovereignty, then mining your own bloc
 * *[future]* [Level 6: Opensource firmware](sovereignty/level-6) -- *future inevitability*, opensource firmware, maximizing efficiency 
 * *[future]* [Level 7: Commodity Hardware](sovereignty/level-7) -- *future inevitability*, custom hardware and novel machine configuration 
 
-Before diving in and daring to test your fate in the Bitcoin mining arent, you may want to first
+Before diving in and daring to test your fate in the Bitcoin mining arena, you may want to first
  [understand the terms](understand-the-terms.md).
 
 
