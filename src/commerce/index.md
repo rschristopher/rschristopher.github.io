@@ -33,7 +33,7 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
  sovereigns.
 
 !!! warning "Bitcoin versus Fiat"
-    Fiat-based commerce does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat then inevitably produces the Biblical mark of the beast, without which *one cannot buy nor sell*.
+    Fiat-based commerce does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat inevitably produces the Biblical mark of the beast, without which *one cannot buy nor sell*.
     
     Sovereign commerce necessitates truly peer-to-peer transactions that cannot be censored or controlled by any authority. As such, we are still very early. Technical and economic development remains in order to make Bitcoin-commerce globally scalable. For now, sovereign commerce will look simultaneously antiquated (reminiscent of a gold standard) while also forward-looking (inevitable innovations that make sovereign commerce possible at global scale).
 
