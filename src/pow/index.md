@@ -1,17 +1,25 @@
-# Proof of Work
+<!--
+
+Lord Jesus Christ
+Son of God
+Have mercy on me, a sinner
+
+Grant me wisdom and guidance to speak the truth
+
+-->
+# Proof-of-Work
 
 Bitcoin transactions are processed through
  a highly competitive system of
- *proof of work* hashing, *aka* mining.
+ *proof-of-work* hashing, aka *mining*.
 This is also, coincidentally, how Bitcoin
  is issued and how issuance stays on
- a fixed supply schedule -- which is how the
- total supply will remain fixed, forever.
+ a fixed supply schedule -- which is how the total supply of Bitcoin will remain fixed, forever.
 
 While most people will be
  [saving](../saving/)
  and
- [transacting](../commerce) in Bitcoin,
+ [spending](../commerce) in Bitcoin,
  very few will be involved
  in mining, and far fewer will be successful.
 Ultimately, the mechanism that guarantees
@@ -20,8 +28,7 @@ Ultimately, the mechanism that guarantees
  zero sum game.
 
 For those foolish enough to play this game
- -- *and for some it's more a matter of fate than
- want* --
+ -- *and for some it's more a matter of fate than want* --
  the only way to be successful is a
  combination of competence, luck, and
  by far the most important: a ridiculous 
@@ -35,15 +42,31 @@ If you're looking for passive income or an exciting investment opportunity,
 However, if honest hard work is just your kind of game, well then -- welcome to the
  [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic), where you'll find the "rough work of a work day world."
 
+Proof-of-work hashing is ultimately what gives Bitcoin its security, and what allows for final international settlement.
+And while it is adversarial and zero-sum, it is open to everybody.
+Anyone can find and propagate blocks.
+In fact, to truly gain your own financial sovereignty, then mining your own blocks guarantees you can settle your own transactions.
+
 
 ## Sovereignty Levels
 
+1. run a niner, send hashrate to a pool
+2. run a mining farm
+3. demand response curtailment
+
+
+
+
+
+
+
 * [Level 1: Getting Started](sovereignty/level-1) -- Start hashing!
 * [Level 2: Mining Pools](sovereignty/level-2) -- Setup a dedicated Bitcoin miner and point to a mining pool
-* [Level 3: Mining Farm](sovereignty/level-3) -- Run a farm of dedicated Bitcoin miners
+* [Level 3: full node and stratum server](sovereignty/level-3) -- Run a farm of dedicated Bitcoin miners
 * [Level 4: Solo Mining](sovereignty/level-4) -- Run a full node and a stratum server
 * [Level 5: Block Broadcasting](sovereignty/level-5) -- Run a well-peered network of nodes
-* [Level 6: Off-grid Mining](sovereignty/level-6) -- Relocate miners to off-grid energy sources
+* *[future]* [Level 6: Opensource firmware](sovereignty/level-6) -- future inevitable, opensource firmware, squeezing efficiency to the bone 
+* *[future]* [Level 7: Commodity Hardware](sovereignty/level-7) -- future inevitable, custom hardware and novel machine configuration 
 
 Before diving in and daring to test your fate
  at Bitcoin mining, you may want to first
