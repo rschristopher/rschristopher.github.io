@@ -96,7 +96,7 @@ nav:
         - Understand the Terms: commerce/understand-the-terms.md
         - Sovereignty:
             - commerce/sovereignty/index.md
-            - "Level 1: Getting Started": commerce/sovereignty/level-1.md
+            - "Level 1: On-chain Limitations": commerce/sovereignty/level-1.md
             - "Level 2: Payment Service": commerce/sovereignty/level-2.md
             - "Level 3: Self Hosted": commerce/sovereignty/level-3.md
             - "Level 4: Private Channels": commerce/sovereignty/level-4.md
