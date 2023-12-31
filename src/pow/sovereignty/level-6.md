@@ -1,6 +1,6 @@
 # Level 6: Opensource firmware
 
-future inevitable
+future inevitability 
 
 opensource firmware, maximizing efficiency 
 
