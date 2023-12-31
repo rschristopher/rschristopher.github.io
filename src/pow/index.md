@@ -54,7 +54,7 @@ In fact, to truly gain your own financial sovereignty, then mining your own bloc
 * [Level 3: Demand Response Curtailment](sovereignty/level-3) -- run miners only when doing so is profitable, maximizing hashrate within available (i.e., profitable) power
 * [Level 4: Solo Mining](sovereignty/level-4) -- run a full node and a stratum server
 * [Level 5: Block Broadcasting](sovereignty/level-5) -- run a well-peered network of nodes
-* *[future]* [Level 6: Opensource firmware](sovereignty/level-6) -- *future inevitability*, opensource firmware, maximizing efficiency 
+* *[future]* [Level 6: Opensource Firmware](sovereignty/level-6) -- *future inevitability*, opensource firmware, maximizing efficiency 
 * *[future]* [Level 7: Commodity Hardware](sovereignty/level-7) -- *future inevitability*, custom hardware and novel machine configuration 
 
 Before diving in and daring to test your fate in the Bitcoin mining arena, you may want to first
