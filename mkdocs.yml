@@ -97,11 +97,11 @@ nav:
         - Sovereignty:
             - commerce/sovereignty/index.md
             - "Level 1: On-chain Limitations": commerce/sovereignty/level-1.md
-            - "Level 2: Payment Service": commerce/sovereignty/level-2.md
-            - "Level 3: Self Hosted": commerce/sovereignty/level-3.md
-            - "Level 4: Private Channels": commerce/sovereignty/level-4.md
-            - "Level 5: Localism": commerce/sovereignty/level-5.md
-            - "Level 6: Off-grid": commerce/sovereignty/level-6.md
+            - "Level 2: Primitive Tokens": commerce/sovereignty/level-2.md
+            - "Level 3: Private Channels": commerce/sovereignty/level-3.md
+            - "Level 4: Public Channels": commerce/sovereignty/level-4.md
+            - "Level 5: Point-of-Sale": commerce/sovereignty/level-5.md
+            - "Level 6: Layer-2 Wallets": commerce/sovereignty/level-6.md
         - Appendix: 
           - "A: Bitcoin Script": commerce/appendix/bitcoin-script.md
           - "A: Coinjoin": commerce/appendix/coinjoin.md
