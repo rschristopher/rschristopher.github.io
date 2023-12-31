@@ -44,31 +44,30 @@ However, if honest hard work is just your kind of game, well then -- welcome to 
 
 Proof-of-work hashing is ultimately what gives Bitcoin its security, and what allows for final international settlement.
 And while it is adversarial and zero-sum, it is open to everybody.
-Anyone can find and propagate blocks.
-In fact, to truly gain your own financial sovereignty, then mining your own blocks guarantees you can settle your own transactions.
+Anyone can attempt to find and propagate blocks.
+In fact, to truly gain your own financial sovereignty, then mining your own blocks guarantees you can settle your own on-chain transactions.
 
 
 ## Sovereignty Levels
 
-1. run a niner, send hashrate to a pool
-2. run a mining farm
-3. demand response curtailment
-
-
-
-
-
-
-
 * [Level 1: Getting Started](sovereignty/level-1) -- Start hashing!
-* [Level 2: Mining Pools](sovereignty/level-2) -- Setup a dedicated Bitcoin miner and point to a mining pool
-* [Level 3: full node and stratum server](sovereignty/level-3) -- Run a farm of dedicated Bitcoin miners
+* [Level 2: Hash Farms](sovereignty/level-2) -- run a farm of Bitcoin miners
+* [Level 3: Demand Response Curtailment](sovereignty/level-3) -- run miners only when doing so is profitable, maximizing hashrate within available (i.e., profitable) power
 * [Level 4: Solo Mining](sovereignty/level-4) -- Run a full node and a stratum server
 * [Level 5: Block Broadcasting](sovereignty/level-5) -- Run a well-peered network of nodes
-* *[future]* [Level 6: Opensource firmware](sovereignty/level-6) -- future inevitable, opensource firmware, squeezing efficiency to the bone 
+* *[future]* [Level 6: Opensource firmware](sovereignty/level-6) -- future inevitable, opensource firmware, maximizing efficiency 
 * *[future]* [Level 7: Commodity Hardware](sovereignty/level-7) -- future inevitable, custom hardware and novel machine configuration 
 
-Before diving in and daring to test your fate
- at Bitcoin mining, you may want to first
+Before diving in and daring to test your fate in the Bitcoin mining arent, you may want to first
  [understand the terms](understand-the-terms.md).
+
+
+
+
+
+
+
+
+
+ 
 
