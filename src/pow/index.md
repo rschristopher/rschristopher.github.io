@@ -40,9 +40,8 @@ If you're looking for passive income or an exciting investment opportunity,
  Bitcoin mining is most certainly not
  for you.
 However, if honest hard work is just your kind of game, well then -- welcome to the
- [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic), where you'll find the "rough work of a work day world."
-
-Proof-of-work hashing is ultimately what gives Bitcoin its security, and what allows for final international settlement.
+ [arena](https://en.wikipedia.org/wiki/Citizenship_in_a_Republic).
+Proof-of-work hashing is what gives Bitcoin its security, and what allows for final international settlement.
 And while it is adversarial and zero-sum, it is open to everybody.
 Anyone can attempt to find and propagate blocks.
 In fact, to truly gain your own financial sovereignty, then mining your own blocks guarantees you can settle your own on-chain transactions.
