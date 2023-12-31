@@ -1,6 +1,6 @@
-# Level 6: Opensource firmware
+# Level 5: Block Broadcasting
 
-future inevitable, opensource firmware, maximizing efficiency 
+run a well-peered network of nodes
 
 
 !!! warning "work in progress"
