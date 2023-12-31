@@ -61,7 +61,7 @@ Instead, they lived through massive uncertainty,
  be losing value. And then other periods where
  the number would go up and up,
  only to crash once again -- until finally,
- the mark itself crashed, hyperinflated
+ the *German Papiermark* itself crashed, hyperinflated
  into oblivion.
 
 A fixed supply is not only important, but critical.
