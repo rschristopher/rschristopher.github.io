@@ -20,7 +20,7 @@ Global population growth is difficult to predict more than a century into the fu
 
 Likewise we can assume advances in energy markets and access to technology, which are necessary for the mass adoption of Bitcoin. While there are many regressive scenarios one can speculate upon, most of these are not only detrimental to human flourishing but also to Bitcoin adoption itself. In other words, one needs a global information network and access to personal computing devices for Bitcoin to not only thrive but to survive. 
 
-If there is any such regression in human civilization then it is unlikely Bitcoin will survive in a recognizable way into the year 2140 – so for the purposes for this exercise, we will assume humanity overcomes the various existential threats (external and self-imposed) and maintains a steady state of growth and human flourishing. We can consider this the baseline requirement for Bitcoin’s survival (that we don’t end up living in a post-apocalyptic dystopia).
+If there is any such regression in human civilization then it is unlikely Bitcoin will survive in a recognizable way into the year 2140 – so for the purposes of this exercise, we will assume humanity overcomes the various existential threats (external and self-imposed) and maintains a steady state of growth and human flourishing. We can consider this the baseline requirement for Bitcoin’s survival (that we don’t end up living in a post-apocalyptic dystopia).
 
 !!! info "Prerequisite 1"
     In order for Bitcoin to survive to the year 2140, human civilization must avoid any catastrophic collapse. Bitcoin depends on human flourishing.
