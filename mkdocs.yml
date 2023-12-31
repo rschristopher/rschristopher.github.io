@@ -6,7 +6,7 @@ site_description: "Is Bitcoin True?"
 site_author: RS Christopher
 docs_dir: src
 site_dir: docs
-copyright: Uncopyright &copy; 2022-2023 ~ R.S. Christopher
+copyright: Uncopyright &copy; 2022-2024 ~ R.S. Christopher
 extra:
     generator: false
 extra_css:
