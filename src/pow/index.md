@@ -49,7 +49,7 @@ In fact, to truly gain your own financial sovereignty, then mining your own bloc
 
 ## Sovereignty Levels
 
-* [Level 1: Getting Started](sovereignty/level-1) -- Start hashing!
+* [Level 1: Start Hashing](sovereignty/level-1) -- run a miner pointed to a mining pool
 * [Level 2: Hash Farms](sovereignty/level-2) -- run a farm of Bitcoin miners
 * [Level 3: Demand Response Curtailment](sovereignty/level-3) -- run miners only when doing so is profitable, maximizing hashrate within available (i.e., profitable) power
 * [Level 4: Solo Mining](sovereignty/level-4) -- Run a full node and a stratum server
