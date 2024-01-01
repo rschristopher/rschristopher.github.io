@@ -46,13 +46,15 @@ As we explore this issue,
 
 ## What is Bitcoin maximalism?
 
+!!! quote "Being called a *'bitcoin maxi'* is about as offensive to me as being called a *'heliocentric maxi'*
+<br />~ Ross Stevens"
+
 Let's first understand the terms.
 A Bitcoin *maximalist* (maxi)
  is anyone who
  saves in Bitcoin, and Bitcoin only.
 For those who view Bitcoin as an investment,
- a maximalist is one who refuses to diversify
- their portfolio.
+ a maximalist is one who refuses to diversify and stores wealth in Bitcoin.
 They believe Bitcoin is
  the only viable monetary asset.
 
