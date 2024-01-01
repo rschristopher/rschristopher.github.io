@@ -54,7 +54,7 @@ A Bitcoin *maximalist* (maxi)
  is anyone who
  saves in Bitcoin, and Bitcoin only.
 For those who view Bitcoin as an investment,
- a maximalist is one who refuses to diversify and stores wealth in Bitcoin.
+ a maximalist is one who stores wealth only in Bitcoin.
 They believe Bitcoin is
  the only viable monetary asset.
 
@@ -68,8 +68,7 @@ For many, Bitcoin is an alternative to
  (although not mutually exclusive) --
  in other words, fiat is failing,
  the plans to save it are horrible, and
- Bitcoin is our best hope for the continuation
- of civilization.
+ Bitcoin is our best hope for the continuation of civilization.
 
 
 
