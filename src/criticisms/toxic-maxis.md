@@ -46,8 +46,7 @@ As we explore this issue,
 
 ## What is Bitcoin maximalism?
 
-!!! quote "Being called a *'bitcoin maxi'* is about as offensive to me as being called a *'heliocentric maxi'*
-<br />~ Ross Stevens"
+!!! quote "Being called a *'bitcoin maxi'* is about as offensive to me as being called a *'heliocentric maxi'* <br />~ Ross Stevens"
 
 Let's first understand the terms.
 A Bitcoin *maximalist* (maxi)
