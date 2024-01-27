@@ -59,14 +59,14 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
 Imagine a local community of workers. They could be unbanked. They could be farmers, fishermen -- any small and relatively self sufficient community.
 Imagine they have some Bitcoin and occasionally they trade outside.
 Now imagine they experience fiat hyperinflation.
-There are countless real-world examples of such communities, and many in our future.
+There are countless real-world examples of exactly such communities, and many in our future.
 How could they establish sovereign commerce?
 
 
 * [Level 1: On-chain Limitations](sovereignty/level-1) -- on-chain transactions for final settlement.
 Poor scalability, gold coins and other tokens become inevitable
 * [Level 2: Primitive Tokens](sovereignty/level-2) -- localism, bartering with opendime or similar
-* [Level 3: Private Channels](sovereignty/level-3) -- layer-2 payment rails such as lightning over private channels 
+* [Level 3: Private Channels](sovereignty/level-3) -- layer-2 payment rails such as lightning over trusted private channels 
 * [Level 4: Public Channels](sovereignty/level-4) -- limited layer-2 public channels with select partners
 * *[future]* [Level 5: Point-of-Sale](sovereignty/level-5) -- *future inevitability*, point-of-sale systems with cold storage security 
 * *[future]* [Level 6: Sovereign Wallets](sovereignty/level-6) -- *future inevitability*, self-custody layer-2+ wallets
