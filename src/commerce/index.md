@@ -40,6 +40,13 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
     In short, we're not there yet, but like with Bitcoin itself, it is inevitable.
 
 
+??? danger "future inevitable"
+    For Bitcoin commerce to scale globally, several architectural layers become necessary:
+    * layer-2+ liquidity channels, such as the lightning network (which solves transaction scaling)
+    * layer-2+ non-custodial wallets (which must solve pseudonymous user scaling) -- this must:
+    ** allow unlimited creation of cryptographic wallets (such as deterministic wallet) which can effectively collect and lock funds from existing liquidity channels, however,
+    ** closing channels must not impede any locked funds in use on the network. In other words, funds must be spendable independently of the liquidity source. 
+    ** funds must be collectable into an on-chain transaction should the owner decide to do so, e.g., to create their own liquidity channel to send and receive from -- effectively making them financial sovereigns.
 
 
 ## Sovereignty Levels
