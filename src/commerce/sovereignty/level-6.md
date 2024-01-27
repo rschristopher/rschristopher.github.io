@@ -1,4 +1,4 @@
-# Level 6: Layer-2 Wallets
+# Level 6: Sovereign Wallets
 
 
 future inevitable
