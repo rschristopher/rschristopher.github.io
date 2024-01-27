@@ -47,9 +47,9 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
     
     * layer-2+ non-custodial wallets (which must solve pseudonymous user scaling) -- this must:
     
-    ** allow unlimited creation of cryptographic wallets (such as deterministic wallet) which can effectively collect and lock funds from existing liquidity channels, however,
+    ** allow unlimited creation of cryptographic wallets (such as deterministic wallets) which can effectively collect and lock funds from existing liquidity channels, however,
     
-    ** closing channels must not impede any locked funds in use on the network. In other words, funds must be spendable independently of the liquidity source. 
+    ** closing channels must not impede any locked funds in use on the network. In other words, funds must be spendable independently of the liquidity source. E.g., if a channel paid 100 sats to X, and the channel is later closed, then X must be able to spend those 100 sats on other channels.
     
     ** funds must be collectable into an on-chain transaction should the owner decide to do so, e.g., to create their own liquidity channel to send and receive from -- effectively making them financial sovereigns.
 
