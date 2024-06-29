@@ -80,7 +80,7 @@ Gold lends itself to a system of credits
 Fiat relies on outdated
  [banking cores](https://en.wikipedia.org/wiki/Core_banking),
  and in practice takes weeks or months for 
- something as simply as a cup of coffee
+ something as simple as a cup of coffee
  to reach final settlement.
 The exception to this is cash on hand,
  promissory notes, which
