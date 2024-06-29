@@ -55,9 +55,7 @@ And everything in fiat is relative with no absolute
  unit to measure against (not even bottles of Cristal).
 It is all fiat all the time.
 
-Fiat unit of account is like a ruler that arbitrarily changes length.
-Like the imperial unit of length, the "foot" --
- it was historically based on the length of a person's foot.
+Fiat unit of account is like a ruler that arbitrarily changes length; much like the imperial unit of length, the "foot"  (which was historically based on the length of a person's foot).
 Although in fairness at least the length of a foot
  never inflated to be larger than the earth 
  (inflationary fiat currency can make no such claim).
