@@ -1,10 +1,10 @@
 # Is Bitcoin True?
 
-One of the strangest reactions I had when
- I first went down the Bitcoin rabbit hole,
+One of the strangest realizations I had when
+ I first learned about Bitcoin,
  was the thought,
 
-> *Bitcoin fixes modern art?!*
+> *Bitcoin fixes modern art*
 
 Bitcoin
  -- *if it is true* --
