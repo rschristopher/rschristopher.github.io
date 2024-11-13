@@ -121,6 +121,7 @@ nav:
             - "Level 7: Commodity Hardware": pow/sovereignty/level-7.md
         - Appendix: 
           - "A: Energy Money": pow/appendix/energy-money.md
+          - "A: ASICBoost": pow/appendix/asicboost.md
     - References: 
         - references/index.md
         - Nostr: references/nostr.md
