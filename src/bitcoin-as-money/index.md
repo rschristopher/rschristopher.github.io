@@ -144,9 +144,9 @@ And of course, the not so secret secret,
 The petrodollar system depends on two critical elements,
 
 1. US military dominance
-2. US relations with Saudi Arabia
+2. US relations with oil-rich nations (like Saudi Arabia)
 
-In other words, if Saudi Arabia should fall,
+In other words, if Saudi Arabia and other oil-rich nations should fall,
  the USD petrodollar would collapse overnight.
 Similarly, if the US military was not the de-facto
  dominant power on earth, then the USD would collapse

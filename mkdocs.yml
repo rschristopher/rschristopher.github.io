@@ -92,21 +92,21 @@ nav:
             - "A: Keyless Vaults": saving/appendix/keyless-vaults.md
             - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Spending:
-        - commerce/index.md
-        - Understand the Terms: commerce/understand-the-terms.md
+        - spending/index.md
+        - Understand the Terms: spending/understand-the-terms.md
         - Sovereignty:
-            - commerce/sovereignty/index.md
-            - "Level 1: On-chain Limitations": commerce/sovereignty/level-1.md
-            - "Level 2: Primitive Tokens": commerce/sovereignty/level-2.md
-            - "Level 3: Private Channels": commerce/sovereignty/level-3.md
-            - "Level 4: Public Channels": commerce/sovereignty/level-4.md
-            - "Level 5: Point-of-Sale": commerce/sovereignty/level-5.md
-            - "Level 6: Layer-2 Wallets": commerce/sovereignty/level-6.md
+            - spending/sovereignty/index.md
+            - "Level 1: On-chain Limitations": spending/sovereignty/level-1.md
+            - "Level 2: Primitive Tokens": spending/sovereignty/level-2.md
+            - "Level 3: Private Channels": spending/sovereignty/level-3.md
+            - "Level 4: Public Channels": spending/sovereignty/level-4.md
+            - "Level 5: Point-of-Sale": spending/sovereignty/level-5.md
+            - "Level 6: Layer-2 Wallets": spending/sovereignty/level-6.md
         - Appendix: 
-          - "A: Bitcoin Script": commerce/appendix/bitcoin-script.md
-          - "A: Coinjoin": commerce/appendix/coinjoin.md
-          - "A: Network Security": commerce/appendix/network-security.md
-          - "A: Physical Security": commerce/appendix/physical-security.md
+          - "A: Bitcoin Script": spending/appendix/bitcoin-script.md
+          - "A: Coinjoin": spending/appendix/coinjoin.md
+          - "A: Network Security": spending/appendix/network-security.md
+          - "A: Physical Security": spending/appendix/physical-security.md
     - Proof of Work:
         - pow/index.md
         - Understand the Terms: pow/understand-the-terms.md
