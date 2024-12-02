@@ -114,7 +114,8 @@ It began after
 For all its faults,
  the 
  [*petrodollar*](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar)
- system is why you can freely exchange
+ system makes the USD a stable *global reserve currency* which
+ is why you can freely exchange
  your USD to Canadian dollars or Euros or Yen
  or Yuan.
 Almost anywhere on earth you go,
@@ -122,7 +123,7 @@ Almost anywhere on earth you go,
  allow you to withdraw the local currency
  (at a relatively stable exchange rate).
 Despite the many problems of fiat money,
- this technology was itself revolutionary,
+ this innovation was itself revolutionary,
  allowing decades of economic growth
  on a global scale.
 
@@ -135,7 +136,7 @@ The dirty secret was that this economic growth
  mountain of debt that can never be paid back
  (it is money backed by debt afterall).
 
-And of course, the not so secret secret,
+And of course, the not-so-secret secret,
  this system requires
  continuous war over oil.
 
