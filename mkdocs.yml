@@ -91,7 +91,7 @@ nav:
             - "A: Custom Protocols": saving/appendix/custom.md
             - "A: Keyless Vaults": saving/appendix/keyless-vaults.md
             - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
-    - Commerce:
+    - Spending:
         - commerce/index.md
         - Understand the Terms: commerce/understand-the-terms.md
         - Sovereignty:
