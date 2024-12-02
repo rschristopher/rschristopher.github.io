@@ -1,3 +1,4 @@
+# Proof-of-Work
 <!--
 
 Lord Jesus Christ
@@ -7,7 +8,6 @@ Have mercy on me, a sinner
 Grant me wisdom and guidance to speak the truth
 
 -->
-# Proof-of-Work
 
 Bitcoin transactions are processed through
  a highly competitive system of
