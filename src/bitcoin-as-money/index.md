@@ -80,7 +80,7 @@ An unskilled worker might earn only 25-cents per hour --
  *a mere $40 per month* --
  2-ounces of gold per month.
 At today's gold price this is
- well over $20/hour.
+ well over $30/hour.
 
 *Gold-backed money provided a living wage
  to even the lowest paid workers.*
