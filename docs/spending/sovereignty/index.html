@@ -2117,6 +2117,12 @@ https://thebitcoinmanual.com/articles/btc-channel-factories/
 https://www.bitcoinlightning.com/channel-factories-the-future-of-the-lightning-network/
 
 
+lightning channrl is 2-2 multisig, bouncing a transaction back snd forth and noy spending.
+This channel can close, and all thats needed is L3 wallet, a separate transaction that takes an infinitely divisivle slice of a UTXO away from the 2-2 multisig, and is spendable on any lightning channel.
+HD wallet addresses, with tiny frwction of a UTXO, but that UTXO might get moved to a change address.
+The new UTXO at rhe change address must carry forward the info needed that the old UTXO can be spendable at the new.
+These balances can get passed arlund and consolidated.
+
 
 
 -->
