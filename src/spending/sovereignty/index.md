@@ -4,7 +4,7 @@
 !!! warning "work in progress"
 
 
-!!! quote "Be a Sovereign over your own Business"
+!!! quote "Be a Sovereign over your own spending"
 
 Get paid in Bitcoin
 
