@@ -2,6 +2,7 @@
 by R.S. Christopher
 
 ## TODO
++ volatility
 + https://github.com/3rdIteration/btcrecover
 + https://x.com/lukegromen/status/1864299137128091726?s=46
 + river, dual money era
