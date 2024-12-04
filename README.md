@@ -6,7 +6,7 @@ by R.S. Christopher
 + protocols
 + simplify!
   + savings
-  + commerce
+  + spending
   + pow
 
 
