@@ -4,7 +4,7 @@ One of the strangest realizations I had when
  I first learned about Bitcoin,
  was the thought,
 
-> *Bitcoin fixes modern art*
+> *Bitcoin fixes modern art?*
 
 Bitcoin
  -- *if it is true* --
@@ -47,7 +47,8 @@ and yes, even *modern art*.
     ![banana taped to wall](/images/banana.jpg)
 
     This is an actual piece of art -- 
-    [that sold](https://news.artnet.com/art-world/maurizio-cattelan-banana-explained-1732773).
+    [that sold](https://news.artnet.com/art-world/maurizio-cattelan-banana-explained-1732773),
+    and appreciated to over [6-million dollars](https://www.npr.org/2024/11/21/nx-s1-5199568/a-duct-taped-banana-sells-for-6-2-million-at-an-art-auction).
 
     There are many such examples, along with 
     eye-roll inducing apologetics, such
@@ -108,7 +109,7 @@ Inflationary money
  is simply worth more now than it will be 
  in the future.
 
-Worse, fiat money is inflationary at the whims
+Fiat money is inflationary at the whims
  of those who control the money supply. There is a
  reason janitors have less purchasing power than 
  ever before. And it's not because a wealthy
@@ -371,7 +372,7 @@ And years later we realize that there
 
 That's all it would take to prove Bitcoin false
  -- one small counterexample, 
- a flaw that could not be fixed in a soft fork.
+ a flaw that could not be fixed in a [soft fork](https://learnmeabitcoin.com/technical/blockchain/soft-fork/).
 If trust was required,
  then that trust could be exploited
  -- and those who

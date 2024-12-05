@@ -40,12 +40,12 @@ For example,
 This gives us two distinct stories. 
 We know the story of the *gold price*.
  Inflationary paper money will inevitably end this way.
-However, the volatility is an often overlooked story.
+However, the volatility is an often overlooked story -- as something as stable as gold became volatile.
 
 There was extreme volatility in the price of gold,
  as well as in real estate and other hard assets.
 For well over a year the price was dropping, 
- crashing to less than 50% of its ATH.
+ crashing to less than 50% of its all-time-high (ATH).
 And then every time there was a new ATH, 
  it was followed for months on end of a painful
  bear market. 
@@ -59,7 +59,7 @@ The people of Germany in 1921 lacked the benefit
 Instead, they lived through massive uncertainty,
  holding gold through periods where it seemed to
  be losing value. And then other periods where
- the number would go up and up,
+ the number would go up-and-up,
  only to crash once again -- until finally,
  the *German Papiermark* itself crashed, hyperinflated
  into oblivion.
@@ -70,7 +70,6 @@ A fixed supply is not only important, but critical.
  days it can be tamed and even reduced, but 
  eventually it grows along with all the consequent
  problems of fiat money.
-
 
 
 ## Is a Fixed Supply Feasible?

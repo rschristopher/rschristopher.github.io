@@ -40,6 +40,7 @@ theme:
 nav:
     - Truth: 
         - index.md
+        - Is Bitcoin True?: is-bitcoin-true.md
         - Bitcoin as Money: 
           - bitcoin-as-money/index.md
           - Unit of Account: bitcoin-as-money/unit-of-account.md
@@ -62,7 +63,6 @@ nav:
           - Surveillance: criticisms/surveillance.md
           - Toxic Maximalists: criticisms/toxic-maxis.md
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
-        - Is Bitcoin True?: is-bitcoin-true.md
     - Saving:
         - saving/index.md
         - Understand the Terms: saving/understand-the-terms.md

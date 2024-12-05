@@ -47,7 +47,6 @@ It is a delightful
 
 
 
-
 ## Encountering Bitcoin
 
 In the future -- *if Bitcoin is true* --
@@ -150,6 +149,22 @@ The only successful *store of value* under
  access to the money printer
  (to cheap debt).
 
+???+ info "Equities (vs gold)"
+    The snake-oil salesmen of "modern monetary theory" would have you believe
+    that economic growth depends on inflationary money; after all, they claim you can
+    store value in productive index funds such as the S&P 500.
+
+    Here is a comparison of the S&P 500 to itself (but priced in gold) since the year 2000.
+    <figure markdown>
+      ![spxtr-gold](/images/spxtr-gold.png)
+    </figure>
+    This is an inverse way of showing that gold, completely unproductive and boring,
+    has outperformed equities as a store of value; and that real wealth
+    has decreased in the last few decades.
+    The perceived volatility of hard assets like Bitcoin
+    are in actuality a reflection of the volatility in fiat (and its inability to properly price assets).
+
+
 Bitcoin -- *if it is true* -- is a superior *store of value*
  to fiat and even to gold
  (the most effective *store of value* the world has ever known).
@@ -158,5 +173,12 @@ Over time Bitcoin will gain adoption and value,
  transferable anywhere on earth, unmolested.
 Neither gold nor fiat nor real-estate nor even fine-art
  can function as a better store of value than Bitcoin.
+
+
+???+ info "Fiat Volatility"
+    <figure markdown>
+      ![usd-volatility](/images/usd-volatility.png)
+    </figure>
+
 
 
