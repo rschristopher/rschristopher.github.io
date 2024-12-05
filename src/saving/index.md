@@ -70,19 +70,19 @@ Below is an overview of the levels along with
 
 ## Sovereignty Levels
 
-* [Level 1: Getting Started](sovereignty/level-1/) -- Save Bitcoin on a reputable exchange (a small amount that you can risk losing).
-* [Level 2: Your Keys](sovereignty/level-2/) -- Save Bitcoin on a home computer + smartphone (a small amount that you can risk losing).
-* [Level 3: Dedicated Hardware](sovereignty/level-3/) -- Save Bitcoin on a dedicated offline device (as much as you'd be comfortable hiding under your mattress).
-* [Level 4: Full Node Plus](sovereignty/level-4/) -- Save Bitcoin and run your own node (as much as you'd be comfortable hiding under your mattress).
-* [Level 5: Airgap Quarantine](sovereignty/level-5/) -- Save Bitcoin with greater security than any bank ever could (as much as you'd be comfortable hiding under your mattress).
-* [Level 6: Metal Backup](sovereignty/level-6/) -- Save Bitcoin with metal backups that can survive a house fire and/or natural disaster (as much as your house is worth).
+* [Level 1: Getting Started](sovereignty/level-1.md) -- Save Bitcoin on a reputable exchange (a small amount that you can risk losing).
+* [Level 2: Your Keys](sovereignty/level-2.md) -- Save Bitcoin on a home computer + smartphone (a small amount that you can risk losing).
+* [Level 3: Dedicated Hardware](sovereignty/level-3.md) -- Save Bitcoin on a dedicated offline device (as much as you'd be comfortable hiding under your mattress).
+* [Level 4: Full Node Plus](sovereignty/level-4.md) -- Save Bitcoin and run your own node (as much as you'd be comfortable hiding under your mattress).
+* [Level 5: Airgap Quarantine](sovereignty/level-5.md) -- Save Bitcoin with greater security than any bank ever could (as much as you'd be comfortable hiding under your mattress).
+* [Level 6: Metal Backup](sovereignty/level-6.md) -- Save Bitcoin with metal backups that can survive a house fire and/or natural disaster (as much as your house is worth).
 
 ## Wealth Preservation
 
 Before advancing to higher levels of
  self custody (self sovereignty)
  it is recommended to first focus on
- [Wealth Preservation](wealth/)
+ [Wealth Preservation](wealth/index.md)
  strategies,
  because at this level you should also
  be thinking about
@@ -99,12 +99,12 @@ At this point you can already store any
  institutional custody system could ever offer.
 
 ## Advanced Sovereignty Levels
-* [Level 7: Protocols + Multisig](sovereignty/level-7/) -- Protocols to manage the complexity of multi-signature keys.
-* [Level 8: DMZs](sovereignty/level-8/) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
-* [Level 9: Fault Tolerance](sovereignty/level-9/) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
-* [Level 10: Fail-safes](sovereignty/level-10/) -- Require fully redundant networks with explicit verification of cryptographic signatures.
-* [Level 11: Countermeasures](sovereignty/level-11/) -- Electronic countermeasures to safeguard against "NSA-level" threats.
-* [Level 12: Off-grid](sovereignty/level-12/) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).
+* [Level 7: Protocols + Multisig](sovereignty/level-7.md) -- Protocols to manage the complexity of multi-signature keys.
+* [Level 8: DMZs](sovereignty/level-8.md) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
+* [Level 9: Fault Tolerance](sovereignty/level-9.md) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
+* [Level 10: Fail-safes](sovereignty/level-10.md) -- Require fully redundant networks with explicit verification of cryptographic signatures.
+* [Level 11: Countermeasures](sovereignty/level-11.md) -- Electronic countermeasures to safeguard against "NSA-level" threats.
+* [Level 12: Off-grid](sovereignty/level-12.md) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).
 
 
 Before you begin this journey and question everything you thought you knew about money,
