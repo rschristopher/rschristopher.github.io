@@ -168,20 +168,14 @@ Unlike gold and silver, the petrodollar
 
 ## Fiat Interregnum 
 
-The design of Bitcoin is to solve the problems
- of fiat money.
-As such, if Bitcoin is true then
-it will inevitably become the money of international
- settlement, ending the era of fiat money.
-While fiat is (by definition) enforced as a [medium of exchange](medium-of-exchange.md)
- it fails as a [store of value](store-of-value.md), 
- and as such will impede price signals
- and fail as a reliable [unit of account](unit-of-account.md).
-This if why fiat inevitably results in a [dual money system](https://river.com/learn/files/river-dual-money-era-2024.pdf?ref=blog.river.com),
- where "currency" is separated from "assets"; in other words, people use fiat money only as currency while
- saving (storing wealth) in hard assets (be it gold, real-estate, equities, or even fine-art).
+While fiat is (by definition) legally enforced as a [medium of exchange](medium-of-exchange.md)
+ it fails as a [store of value](store-of-value.md), distorting price signals,
+ and ultimately failing as a reliable [unit of account](unit-of-account.md).
+Fiat money inevitably creates a [dual money system](https://river.com/learn/files/river-dual-money-era-2024.pdf?ref=blog.river.com),
+ where weak "currency" is separated from monetary "assets"; in other words, the masses earn fiat while the wealthy store wealth in hard assets (gold, real-estate, equities, or even fine-art).
 
 [![dual-money-system](/images/dual-money-system.png)](https://river.com/learn/files/river-dual-money-era-2024.pdf?ref=blog.river.com)
+
 
 
 Bitcoin need not be adopted nor even accepted by the
