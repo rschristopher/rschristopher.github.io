@@ -168,7 +168,7 @@ Unlike gold and silver, the petrodollar
 
 ## Fiat Interregnum 
 
-While fiat is (by definition) legally enforced as a [medium of exchange](medium-of-exchange.md)
+While fiat is (by definition) legally enforced as a [medium of exchange](medium-of-exchange.md),
  it fails as a [store of value](store-of-value.md), distorting price signals,
  and ultimately failing as a reliable [unit of account](unit-of-account.md).
 Fiat money inevitably creates a [dual money system](https://river.com/learn/files/river-dual-money-era-2024.pdf?ref=blog.river.com),
