@@ -172,7 +172,7 @@ While fiat is (by definition) legally enforced as a [medium of exchange](medium-
  it fails as a [store of value](store-of-value.md), distorting price signals,
  and ultimately failing as a reliable [unit of account](unit-of-account.md).
 Fiat money inevitably creates a [dual money system](https://river.com/learn/files/river-dual-money-era-2024.pdf?ref=blog.river.com),
- where weak "currency" is separated from monetary "assets"; in other words, the masses earn fiat while the wealthy store wealth in hard assets (gold, real-estate, equities, or even fine-art).
+ where weak "currency" is separated from monetary "assets"; in other words, the masses earn fiat while the wealthy store value in hard assets (gold, real-estate, equities, or even fine-art).
 
 [![dual-money-system](/images/dual-money-system.png)](https://river.com/learn/files/river-dual-money-era-2024.pdf?ref=blog.river.com)
 
