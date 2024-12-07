@@ -1,11 +1,10 @@
 # Level 1: Getting Started
 
 !!! info "Save Bitcoin using a reputable exchange (a small amount that you can risk losing)."
-
-<figure markdown>
-![Level 1](/images/levels-Level-1.drawio.png)
-  <figcaption>Level 1 -- typical home network with devices that can reach a Bitcoin exchange website</figcaption>
-</figure>
+    <figure markdown>
+      ![Level 1](/images/levels-Level-1.drawio.png)
+      <figcaption>Level 1 -- typical home network with devices that can reach a Bitcoin exchange</figcaption>
+    </figure>
 
 The only way to get started 
  with Bitcoin is to first get some Bitcoin.

@@ -1,15 +1,14 @@
 # Level 2: Your Keys
 
 !!! info "Save Bitcoin using a home computer or smartphone (a small amount that you can risk losing)."
-
-<figure markdown>
-![Level 2](/images/levels-Level-2.drawio.png)
-  <figcaption>Level 2 -- typical home network but with Tails OS on a USB-stick</figcaption>
-</figure>
+    <figure markdown>
+    ![Level 2](/images/levels-Level-2.drawio.png)
+      <figcaption>Level 2 -- typical home network but with Tails OS on a USB-stick</figcaption>
+    </figure>
 
 
 Once you have some Bitcoin (through an exchange or otherwise -- see
- [level-1](../level-1))
+ [level-1](level-1.md))
  you'll want to transfer it to your own custody.
 In other words, you'll want control of the keys
  that can access your Bitcoin.
@@ -39,7 +38,7 @@ A hot-wallet on your smartphone is definitely one of the easiest
 However it is only recommended for small amounts,
  like cash you'd keep in your pocket.
 
-[![bffbtc.org](https://bffbtc.org/wp-content/uploads/2022/09/BFF-EN-Bitcoin-flyer-page1.jpg)](https://bffbtc.org/flyer/)
+[![bffbtc.org](https://bffbtc.org/wp-content/uploads/2023/03/EN-Bitcoin-flyer-BW-Phoenix-02.jpg)](https://bffbtc.org/flyer/)
 
 
 ### Advantages 
