@@ -2,7 +2,6 @@
 by R.S. Christopher
 
 ## TODO
-+ halvings, rounding sats down
 + https://github.com/3rdIteration/btcrecover
 + protocols
 + simplify!

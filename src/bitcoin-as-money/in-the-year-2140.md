@@ -1,14 +1,16 @@
 # In the Year 2140
 
-Most famously, this is the year (give or take) that the last Bitcoin will be mined. The Bitcoin supply schedule will officially hit its fixed limit of 20,999,999.9769.  Why not exactly 21-million? Well, a single BTC is not infinitely divisible, and it would take infinite halvings and infinite time for the halving logic to reach 21-million.
+Most famously, this is the year (give or take) that the last Bitcoin will be mined. The Bitcoin supply schedule will officially hit its fixed limit of 20,999,999.9769 (ignnoring lost and unspendable Bitcoin).  Why not exactly 21-million? Well, it would take infinite halvings and infinite time for the halving logic to reach 21-million.
 
-More formally, an infinite halving schedule would have an asymptotic limit of 21-million (see the first equation below). But there are only 33 block-subsidy eras (0 to 32), each lasting exactly 210,000 blocks (see the second equation, which is the total Bitcoin supply).
+More formally, an infinite halving schedule would have an asymptotic limit of 21-million (see the first equation below). 
+But there are only 33 block-subsidy eras (0 to 32), and the halvings will have a discrete rounding to the nearest satoshi.
+See the second equation, which better approximates the total possible Bitcoin supply.
 
 <img src="/images/bitcoin-supply-asymptotic.png" alt="Bitcoin Asymptotic Supply" align="left" width=300 style="border: 1px solid gray">
 <img src="/images/bitcoin-supply-actual.png" alt="Bitcoin Actual Supply" align=left width=352 style="border: 3px solid black">
 <br style="clear: both" />
 
-Each era is roughly 4-years, for a total of 132 years, such that the final era will have a block subsidy of only 1 satoshi, or 0.00000001 BTC. A single satoshi is not divisible on the base layer, thus, at block height 6,930,000 (in the year 2140) we will see the final block subsidy. From that point on Bitcoin mining will operate only on fees, which in practice will already have happened as fees will far outweigh such small block subsidies (in fact, the coinbase reward itself will likely be dust).
+Each era is roughly 4-years, for a total of 132 years, such that the final era will have a block subsidy of only 1 satoshi, or 0.00000001 BTC. A single satoshi is not divisible on the base layer, thus, at block height 6,930,000 (in the year 2140) we will see the final block subsidy. From that point on Bitcoin mining will operate only on fees, which in practice will already have happened as fees will far outweigh such small block subsidies (in fact, the coinbase reward itself will be dust without fees).
 
 While it’s difficult to make predictions more than a century in the future, we can speculate based on what we do know and examine any pre-conditions for Bitcoin’s survival – in other words, if Bitcoin will survive to the year 2140 and issue its final block subsidy, then what would have to be true?
 
@@ -103,7 +105,7 @@ In practice, a sovereign controls the liquidity, say, in a lightning channel. An
 
 Ultimately, secondary layers will be a ripe target for fractional reserve schemes and fiat. For example, an existing nation state may choose to back their fiat currency with Bitcoin but then ban or limit their own citizens from transacting in Bitcoin (exactly as the US did during the Bretton Woods era). In this situation, even under a global Bitcoin standard, fiat currencies will very likely survive.
 
-The very pattern that led to global fiat could easily be repeated even after the abject failure of global fiat. This isn't the first fiat monetary system, and it's unlikely to be the last. As long as there are people willing to work for fiat while hard money exists, then fiat money will remain.
+The very pattern that led to global fiat could easily be repeated even after the abject failure of global fiat. The USD isn't the first fiat monetary system, and it's unlikely to be the last. As long as there are people willing to work for fiat while hard money exists, then fiat money will remain.
 
 !!! info "Prerequisite 6"
     In order for Bitcoin to survive to the year 2140, there must be sufficient global demand for hard money and a forcible rejection of fractional reserve and fiat.

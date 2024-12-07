@@ -6,9 +6,6 @@ Lord Jesus Christ
 Son of God
 have mercy on me, a sinner
 
-
-... Who controls Bitcoin?
-
 -->
 
 
@@ -87,9 +84,9 @@ That means every year there is 2% more gold than
  the previous year.
  A gold standard means 2% annual inflation.
 
-At present, Bitcoin's inflation rate is equal to gold,
- and after the next halving (likely in May 2024), Bitcoin
- will become the least inflationary monetary asset
+At present, Bitcoin's inflation rate is already less than gold,
+ and as such, Bitcoin
+ is the least inflationary monetary asset
  the world has ever known.
 
 
@@ -98,7 +95,7 @@ Many Bitcoiners will tell you to *[read the code](https://github.com/bitcoin/bit
 
 And yes, the code at the moment will
  [fix the supply](https://github.com/bitcoin/bitcoin/blob/v22.0/src/validation.cpp#L1186-L1197)
- at 21 million.
+ to just under 21 million.
 
 ???+ info "GetBlockSubsidy"
      Every 210,000 blocks (roughly every 4 years)
@@ -107,11 +104,10 @@ And yes, the code at the moment will
     You can calculate 50 times 210,000 to arrive at 10.5 million,
      exactly half of 21 million.
     Afterwards, the block subsidy
-     was "halved" to 25. Then to 12.5, and we are now in the
-     era of a 6.25 block subsidy.
+     was "halved" to 25, then to 12.5, then 6.25, then 3.125, and so on.
 
     This "halving" process will contiue until
-     the year 2140 when the final fraction of a Bitcoin is mined,
+     the [year 2140](in-the-year-2140.md) when the final fraction of a Bitcoin is mined,
      at which point mining will operate only on transaction fees.
 
     ```cpp
