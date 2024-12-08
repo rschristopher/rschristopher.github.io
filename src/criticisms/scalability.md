@@ -179,7 +179,7 @@ And with some degree of confidence, we can
  will be a relic of the past.
 Money will be decoupled from nation states,
  which, if they're still around, would be
- far weaker and less influencial than today.
+ far weaker and less influential than today.
 
 And, the easiest prediction of all:
  Bitcoin will simply be known as *"money"*.
