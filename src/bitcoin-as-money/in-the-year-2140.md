@@ -25,7 +25,7 @@ Likewise we can assume advances in energy markets and access to technology, whic
 If there is any such regression in human civilization then it is unlikely Bitcoin will survive in a recognizable way into the year 2140 – so for the purposes of this exercise, we will assume humanity overcomes the various existential threats (external and self-imposed) and maintains a steady state of growth and human flourishing. We can consider this the baseline requirement for Bitcoin’s survival (that we don’t end up living in a post-apocalyptic dystopia).
 
 !!! info "Prerequisite 1"
-    In order for Bitcoin to survive to the year 2140, human civilization must avoid any catastrophic collapse. Bitcoin depends on human flourishing.
+    In order for Bitcoin to survive to the year 2140, human civilization must avoid any catastrophic collapse. Bitcoin depends on human flourishing, or rather, Bitcoin requires a symbiotic relationship with human civilization.
 
 
 
