@@ -157,7 +157,13 @@ Let us imagine, the year 2140.
 
 
 
+
+
+
 ## In the year 2140
+
+Let us continue from the earlier essay:
+ [In the Year 2140](../bitcoin-as-money/in-the-year-2140.md).
 
 If Bitcoin has survived this long,
  it will have proven itself true.
