@@ -10,7 +10,7 @@ See the second equation, which better approximates the total possible Bitcoin su
 <img src="/images/bitcoin-supply-actual.png" alt="Bitcoin Actual Supply" align=left width=352 style="border: 3px solid black">
 <br style="clear: both" />
 
-Each era is roughly 4-years, for a total of 132 years, such that the final era will have a block subsidy of only 1 satoshi, or 0.00000001 BTC. A single satoshi is not divisible on the base layer, thus, at block height 6,930,000 (in the year 2140) we will see the final block subsidy. From that point on Bitcoin mining will operate only on fees, which in practice will already have happened as fees will far outweigh such small block subsidies (in fact, the coinbase reward itself will be dust without fees).
+Each era is roughly 4-years, for a total of 132 years, such that the final era will have a block subsidy of only 1 satoshi, or 0.00000001 BTC. A single satoshi is not divisible on the base layer, thus, at block height 6,930,000 (in the year 2140) we will see the final block subsidy. From that point on Bitcoin mining will operate only on fees, which in practice will already have happened as fees will far outweigh such small block subsidies (when the coinbase reward will be dust without fees).
 
 While it’s difficult to make predictions more than a century in the future, we can speculate based on what we do know and examine any pre-conditions for Bitcoin’s survival – in other words, if Bitcoin will survive to the year 2140 and issue its final block subsidy, then what would have to be true?
 
