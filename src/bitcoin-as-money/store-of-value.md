@@ -176,8 +176,18 @@ Neither gold nor fiat nor real-estate nor even fine-art
 
 
 ???+ info "Fiat Volatility"
+    Bitcoin is often [criticized](../criticisms/index.md) as being "too volatile".
+    However, even as measured in fiat, Bitcoin is by far the highest-performing asset of all time.
+    And considering that 80% of all USD was created in the last 5 years, one may want to consider
+    that it is fiat volatility that is confusing price signals -- after all, the Bitcoin supply
+    has stayed fixed and predictable, with growing adoption.
+
+    For better or worse, Bitcoin price movement is a slow process of price discovery --
+    as those who understand the fundamentals of money would never sell Bitcoin for fiat,
+    and ultimately Bitcoin finds its way into stronger hands, sending its fiat price higher and higher.
+    The weaker money will be overproduced to satisfy the demand for the stronger money.
     <figure markdown>
-      ![usd-volatility](/images/usd-volatility.png)
+      ![usd-volatility](/images/usd-volatility.png){ width="450" }
     </figure>
 
 
