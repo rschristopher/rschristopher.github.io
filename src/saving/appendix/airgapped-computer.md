@@ -111,12 +111,13 @@ While any device can be used,
 ## Software
 
 A minimal Debian install is recommended,
- the bare minimum needed for Electrum.
+ the bare minimum needed for the following:
 
 * Electrum
-* iancoleman.io
+* Sparrow
+* iancoleman.io/bip39/
 * BIP-39 Seed Words
-* custom scripts
+* python and supporting scripts
 
 
 
@@ -138,7 +139,7 @@ This means we must securely read in a PBST,
 
 ### QR Code Reader
 
-You will need a camera to read the QA Code of the PSBT
+You will need a camera to read the QR Code of the PSBT
 
 
 
