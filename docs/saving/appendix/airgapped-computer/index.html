@@ -2298,12 +2298,13 @@ generated <em>after</em> sealing the MicroSD in place.</p>
 </details>
 <h2 id="software">Software<a class="headerlink" href="#software" title="Permanent link">&para;</a></h2>
 <p>A minimal Debian install is recommended,
- the bare minimum needed for Electrum.</p>
+ the bare minimum needed for the following:</p>
 <ul>
 <li>Electrum</li>
-<li>iancoleman.io</li>
+<li>Sparrow</li>
+<li>iancoleman.io/bip39/</li>
 <li>BIP-39 Seed Words</li>
-<li>custom scripts</li>
+<li>python and supporting scripts</li>
 </ul>
 <h2 id="input-device">Input Device<a class="headerlink" href="#input-device" title="Permanent link">&para;</a></h2>
 <p>PSBT</p>
@@ -2316,7 +2317,7 @@ And once signed, this is the only output
 This means we must securely read in a PBST,
  and securely output a signed transaction.</p>
 <h3 id="qr-code-reader">QR Code Reader<a class="headerlink" href="#qr-code-reader" title="Permanent link">&para;</a></h3>
-<p>You will need a camera to read the QA Code of the PSBT</p>
+<p>You will need a camera to read the QR Code of the PSBT</p>
 <h3 id="micro-sd">Micro SD<a class="headerlink" href="#micro-sd" title="Permanent link">&para;</a></h3>
 <p>Alternatively, and this method is tricky to ensure an airgap,
  you can copy the PSBT from a MicroSD card or USB thumb drive.</p>
