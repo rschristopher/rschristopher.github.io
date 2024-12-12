@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://rschristopher.github.io/saving/appendix/airgapped-computer/">
       
       
-        <link rel="prev" href="../../wealth/physical-security/">
+        <link rel="prev" href="../dice/">
       
       
-        <link rel="next" href="../dice/">
+        <link rel="next" href="../custom/">
       
       <link rel="icon" href="../../../images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
@@ -1218,6 +1218,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../dice/" class="md-nav__link">
+        A: Using Dice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -1332,20 +1346,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../dice/" class="md-nav__link">
-        A: Using Dice
-      </a>
     </li>
   
 
@@ -2206,20 +2206,17 @@
 
 
 <h1 id="appendix-airgapped-computer">Appendix: Airgapped Computer<a class="headerlink" href="#appendix-airgapped-computer" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
 <p>Even if you use
  <a href="../dice/#dice-and-paper">Dice and Paper</a>
  to generate a seed phrase,
  you will need a computer to manage your private keys
  (which are generated from a seed phrase).
-A computer will be needed
+Additionally, a computer will be needed
  to sign transactions with your private keys, 
- as well as verify receive addresses.
+ as well as verify your addresses.
 It is recommended to use a dedicated computer --
  a computer which is
- airgapped and well secured.</p>
+ airgapped and well-secured.</p>
 <h2 id="airgap-quarantine">Airgap Quarantine<a class="headerlink" href="#airgap-quarantine" title="Permanent link">&para;</a></h2>
 <p>An airgapped computer is one
  with no wireless, 
@@ -2259,14 +2256,17 @@ your own KVM (keyboard, video, mouse) peripherals
 which may have their own vulnerabilities,
 and you may end up with a sort of 
 Frankenstein computer
-(duct taped together)</p>
+(duct-taped together).</p>
 </details>
 <details class="info" open="open">
 <summary>Laptop or Desktop</summary>
 <p>With some effort it's possible
 to take an existing laptop or desktop
 and simply remove the wifi card
-and all built-in networking devices.</p>
+and all built-in networking devices.
+Additionally, you may want to run
+<a href="https://tails.net/">TailsOS</a> from a bootable USB 
+(as an added layer of security).</p>
 <p><strong>downside:</strong> not all computers
 allow for this kind of customization,
 and honestly even an older model
@@ -2275,12 +2275,13 @@ than what you'll need for managing
 Bitcoin keys. And in general, the
 more hardware features, the more
 potential security concerns. 
-Simpler is better.</p>
+Simple is better.</p>
 </details>
 <details class="info" open="open">
-<summary>Ideal Seed-signer</summary>
+<summary>Ideal System</summary>
 <p>The ideal cold-storage computer
-simply doesn't exist.</p>
+simply doesn't exist.
+The closest would be the <a href="https://seedsigner.com/">SeedSigner</a> (<a href="https://econoalchemist.github.io/SeedSigner/">guide</a>)</p>
 <p>If it did, it would have the following attributes,</p>
 <ol>
 <li>smartphone-like device, or mini-laptop</li>
@@ -2289,7 +2290,7 @@ simply doesn't exist.</p>
 <li>completely air-gapped (no fan, no speaker, no microphone, QR-code reader only)</li>
 <li>read-only filesystem by default (option for persisting an encrypted volume)</li>
 <li>should run Linux</li>
-<li>should run electrum, python, and a terminal</li>
+<li>should run electrum or sparrow, python, and a terminal</li>
 <li>isolated electronic and physical counter-measures (to surveillance)</li>
 </ol>
 <p>All software and configuration should be on the MicroSD (like a Raspberry Pi)
@@ -2300,11 +2301,10 @@ generated <em>after</em> sealing the MicroSD in place.</p>
 <p>A minimal Debian install is recommended,
  the bare minimum needed for the following:</p>
 <ul>
-<li>Electrum</li>
-<li>Sparrow</li>
-<li>iancoleman.io/bip39/</li>
+<li>Electrum and/or Sparrow</li>
+<li>iancoleman.io/bip39</li>
 <li>BIP-39 Seed Words</li>
-<li>python and supporting scripts</li>
+<li>python and supporting verification scripts</li>
 </ul>
 <h2 id="input-device">Input Device<a class="headerlink" href="#input-device" title="Permanent link">&para;</a></h2>
 <p>PSBT</p>
@@ -2501,7 +2501,7 @@ https://bitcointalk.org/index.php?topic=5213741.0
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../wealth/physical-security/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Physical Security" rel="prev">
+          <a href="../dice/" class="md-footer__link md-footer__link--prev" aria-label="Previous: A: Using Dice" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -2510,20 +2510,20 @@ https://bitcointalk.org/index.php?topic=5213741.0
                 Previous
               </span>
               <div class="md-ellipsis">
-                Physical Security
+                A: Using Dice
               </div>
             </div>
           </a>
         
         
           
-          <a href="../dice/" class="md-footer__link md-footer__link--next" aria-label="Next: A: Using Dice" rel="next">
+          <a href="../custom/" class="md-footer__link md-footer__link--next" aria-label="Next: A: Custom Protocols" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                A: Using Dice
+                A: Custom Protocols
               </div>
             </div>
             <div class="md-footer__button md-icon">
