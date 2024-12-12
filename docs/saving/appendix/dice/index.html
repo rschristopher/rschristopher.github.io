@@ -2660,26 +2660,32 @@ as the line-numbers start at 1 but the seed words start at 0</p>
  in the wallet software  of your choice.
  If you made a mistake anywhere the checksum
  will very likely fail.</p>
-<p>E.g., I was able to verify this seed phrase in
-<a href="https://electrum.org/#home">electrum</a> --</p>
+<p>I was able to verify this seed phrase in <a href="https://electrum.org/#home">electrum</a> --</p>
+<details class="example" open="open">
+<summary>electrum</summary>
 <p><img alt="electrum verify seed" src="/images/electrum_verify_seed.png" /></p>
-<p>And can view the master public key 
+</details>
+<hr />
+<p>And I can view the master public key 
  (go to "wallet" -&gt; "information" in electrum) --</p>
+<details class="example" open="open">
+<summary>electrum</summary>
 <p><img alt="electrum sample zpub" src="/images/electrum_sample_zpub.png" /></p>
+</details>
 <hr />
 <p>Additionally, I was able to verify
  the seed phrase and the entropy bits using the
  <a href="https://iancoleman.io/bip39">Mnemonic Code Converter</a>
  --</p>
+<details class="example" open="open">
+<summary><a href="https://iancoleman.io/bip39/">iancoleman.io/bip39</a></summary>
 <p><img alt="iancolement sample zpub" src="/images/iancoleman_sample_zpub.png" /></p>
+</details>
 <hr />
 <p>And that's it! </p>
 <p>What started with dice and paper is now a 
  valid and secure Bitcoin private key.</p>
 <h2 id="dice-and-computer">Dice and Computer<a class="headerlink" href="#dice-and-computer" title="Permanent link">&para;</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
 <p>We can use our airgapped computer 
  to convert dice rolls
  into a seed phrase. 
@@ -2702,7 +2708,7 @@ This will give us the verified entropy
 <span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">dice2n</span><span class="p">(</span><span class="n">n_str</span><span class="p">,</span> <span class="n">digits</span><span class="p">):</span>
     <span class="n">basem</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">n_str</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">n_str</span><span class="p">:</span>
         <span class="n">n</span> <span class="o">+=</span> <span class="p">(</span><span class="n">digits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="o">*</span> <span class="n">basem</span>
         <span class="n">basem</span> <span class="o">=</span> <span class="n">basem</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">n</span>
@@ -2720,7 +2726,7 @@ This will give us the verified entropy
     <span class="k">while</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
         <span class="n">n</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="nb">divmod</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">))</span>
         <span class="n">chars</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">digits</span><span class="p">[</span><span class="n">d</span><span class="p">])</span>
-    <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">chars</span><span class="p">))</span>
+    <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">chars</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 </details>
 <p>If you already have the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">official BIP-39 words</a>
@@ -2820,7 +2826,7 @@ This will give us the verified entropy
     <span class="k">def</span> <span class="nf">dice2n</span><span class="p">(</span><span class="n">n_str</span><span class="p">,</span> <span class="n">digits</span><span class="p">):</span>
         <span class="n">basem</span> <span class="o">=</span> <span class="mi">1</span>
         <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">n_str</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">n_str</span><span class="p">:</span>
             <span class="n">n</span> <span class="o">+=</span> <span class="p">(</span><span class="n">digits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="o">*</span> <span class="n">basem</span>
             <span class="n">basem</span> <span class="o">=</span> <span class="n">basem</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">n</span>
@@ -2927,6 +2933,8 @@ This will give us the verified entropy
 </details>
 <hr />
 <p><img alt="dice_prompt() screen" src="/images/dice_prompt_d8_animated.gif" /></p>
+<p>The above code can be found <a href="https://github.com/rschristopher/airgap/blob/main/dice.py">here</a>, in a simplified app (under 100-lines).
+This can be run on even the most basic hardware (such as an <a href="../airgapped-computer/">airgapped computer</a>).</p>
 
 
 

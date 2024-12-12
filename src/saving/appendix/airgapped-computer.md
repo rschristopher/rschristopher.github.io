@@ -1,19 +1,17 @@
 # Appendix: Airgapped Computer
 
-!!! warning "work in progress"
-
 
 Even if you use
  [Dice and Paper](dice.md#dice-and-paper)
  to generate a seed phrase,
  you will need a computer to manage your private keys
  (which are generated from a seed phrase).
-A computer will be needed
+Additionally, a computer will be needed
  to sign transactions with your private keys, 
- as well as verify receive addresses.
+ as well as verify your addresses.
 It is recommended to use a dedicated computer --
  a computer which is
- airgapped and well secured.
+ airgapped and well-secured.
 
 
 
@@ -45,6 +43,7 @@ While any device can be used,
  here are some recommendations,
 
 
+
 ???+ info "Raspberry Pi Zero (recommended)"
     The RPi Zero has no wifi
     and no networking of any kind.
@@ -61,8 +60,7 @@ While any device can be used,
     which may have their own vulnerabilities,
     and you may end up with a sort of 
     Frankenstein computer
-    (duct taped together)
-
+    (duct-taped together).
 
 
 
@@ -71,6 +69,9 @@ While any device can be used,
     to take an existing laptop or desktop
     and simply remove the wifi card
     and all built-in networking devices.
+    Additionally, you may want to run
+    [TailsOS](https://tails.net/) from a bootable USB 
+    (as an added layer of security).
 
     **downside:** not all computers
     allow for this kind of customization,
@@ -80,12 +81,14 @@ While any device can be used,
     Bitcoin keys. And in general, the
     more hardware features, the more
     potential security concerns. 
-    Simpler is better.
+    Simple is better.
 
 
-???+ info "Ideal Seed-signer"
+
+???+ info "Ideal System"
     The ideal cold-storage computer
     simply doesn't exist.
+    The closest would be the [SeedSigner](https://seedsigner.com/) ([guide](https://econoalchemist.github.io/SeedSigner/))
 
     If it did, it would have the following attributes,
 
@@ -95,15 +98,13 @@ While any device can be used,
     1. completely air-gapped (no fan, no speaker, no microphone, QR-code reader only)
     1. read-only filesystem by default (option for persisting an encrypted volume)
     1. should run Linux
-    1. should run electrum, python, and a terminal
+    1. should run electrum or sparrow, python, and a terminal
     1. isolated electronic and physical counter-measures (to surveillance)
 
     All software and configuration should be on the MicroSD (like a Raspberry Pi)
     but with an optional tamper-proof seal such that seed phrases could only be
     generated *after* sealing the MicroSD in place.
 
-    
-    
 
 
 
@@ -113,11 +114,10 @@ While any device can be used,
 A minimal Debian install is recommended,
  the bare minimum needed for the following:
 
-* Electrum
-* Sparrow
-* iancoleman.io/bip39/
+* Electrum and/or Sparrow
+* iancoleman.io/bip39
 * BIP-39 Seed Words
-* python and supporting scripts
+* python and supporting verification scripts
 
 
 
@@ -135,6 +135,7 @@ And once signed, this is the only output
  from our device.
 This means we must securely read in a PBST,
  and securely output a signed transaction.
+
 
 
 ### QR Code Reader

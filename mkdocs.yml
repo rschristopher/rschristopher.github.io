@@ -86,8 +86,8 @@ nav:
             - Inheritance Planning: saving/wealth/inheritance.md
             - Physical Security: saving/wealth/physical-security.md
         - Appendix:
-            - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
             - "A: Using Dice": saving/appendix/dice.md
+            - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
             - "A: Custom Protocols": saving/appendix/custom.md
             - "A: Keyless Vaults": saving/appendix/keyless-vaults.md
             - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
