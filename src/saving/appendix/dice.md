@@ -201,7 +201,7 @@ To really understand the security and ownership
  of your private keys, you ought to generate
  seed phrases by hand, with dice and paper.
 You will need to transfer the seed phrase 
- to a secure airgapped computer 
+ to a secure [airgapped computer ](airgapped-computer.md)
  and generate a checksum,
  however everything before that
  can be done by hand.
