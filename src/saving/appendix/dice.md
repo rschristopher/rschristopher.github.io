@@ -441,15 +441,17 @@ Now that you have all 24 words, you can use them
  If you made a mistake anywhere the checksum
  will very likely fail.
 
-E.g., I was able to verify this seed phrase in
-[electrum](https://electrum.org/#home) --
+I was able to verify this seed phrase in [electrum](https://electrum.org/#home) --
+???+ example "electrum"
+    ![electrum verify seed](/images/electrum_verify_seed.png)
 
-![electrum verify seed](/images/electrum_verify_seed.png)
+---
 
-And can view the master public key 
+
+And I can view the master public key 
  (go to "wallet" -> "information" in electrum) --
-
-![electrum sample zpub](/images/electrum_sample_zpub.png)
+???+ example "electrum"
+    ![electrum sample zpub](/images/electrum_sample_zpub.png)
 
 ---
 
@@ -457,8 +459,8 @@ Additionally, I was able to verify
  the seed phrase and the entropy bits using the
  [Mnemonic Code Converter](https://iancoleman.io/bip39)
  --
-
-![iancolement sample zpub](/images/iancoleman_sample_zpub.png)
+???+ example "[iancoleman.io/bip39](https://iancoleman.io/bip39/)"
+    ![iancolement sample zpub](/images/iancoleman_sample_zpub.png)
 
 ---
 
@@ -468,10 +470,10 @@ What started with dice and paper is now a
  valid and secure Bitcoin private key.
 
 
+
+
+
 ## Dice and Computer
-
-!!! warning "work in progress"
-
 
 We can use our airgapped computer 
  to convert dice rolls
@@ -492,7 +494,7 @@ This technique is also applicable to other
     def dice2n(n_str, digits):
         basem = 1
         n = 0
-        for c in reversed(n_str):
+        for c in n_str:
             n += (digits.index(c)) * basem
             basem = basem*len(digits)
         return n
@@ -506,7 +508,7 @@ This technique is also applicable to other
         while n > 0:
             n, d = divmod(n, len(digits))
             chars.append(digits[d])
-        return ''.join(reversed(chars))
+        return ''.join(chars)
     ```
 
 
@@ -619,7 +621,7 @@ Using the above approach, you can loop through all slices,
         def dice2n(n_str, digits):
             basem = 1
             n = 0
-            for c in reversed(n_str):
+            for c in n_str:
                 n += (digits.index(c)) * basem
                 basem = basem*len(digits)
             return n
@@ -706,6 +708,7 @@ danger
 
 ![dice_prompt() screen](/images/dice_prompt_d8_animated.gif)
 
-
+The above code can be found [here](https://github.com/rschristopher/airgap/blob/main/dice.py), in a simplified app (under 100-lines).
+This can be run on even the most basic hardware (such as an [airgapped computer](airgapped-computer.md)).
 
 
