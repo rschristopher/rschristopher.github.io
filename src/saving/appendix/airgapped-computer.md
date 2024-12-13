@@ -203,25 +203,61 @@ This is obviously error prone, and while you
  (including sending your Bitcoin to an unrecoverable address).
 
 
+
+
+
+
 <!--
 
-...
-Command Line Overview
+Make yourself expensive to tyranny.
+
+physical adversaries:
+1. burglar
+2. ransom
+3. fire
+
+burglar-resistant, hide your keys, secure home
+ransom-resistant, guns and defense
+fire-resistant, stainless steel dog tags
+
+
+cyber adversaries:
+1. bot
+2. hacker
+3. NSA 
+
+bot-resistant, TailsOS
+hacker-resistant, aitgap quarantine
+NSA-resistant,
+trust nothing, assume all electronics are spying on you, and secretly transmitting data. Even seemingly air-gapped devices are compromised.
+
+How to generate and store a seed?
+Entropy with dice.
+Stateless signer.
+Redundancy.
+countermeasures.. farady bags/cases, physical camera cover
+
+Multiple air-gapped devices, with no single point of compromise (that is, attacker must have 2 or more full conpronises to access funds).
+
+
+spiritual adversaries
+1. powers and principalities
+2. taxes
+3. pride
+
+Christ Jesus is the Lord and King
+Pray continuously and humble oneself.
+This is not your wealth, but God's.
+You are but a steward, and as such will be responsible for what you do with His wealth.
 
 
 
 
-https://iancoleman.io/bip39/
-
-
-Entropy 
-https://www.fourmilab.ch/random/
 
 
 
 
 
- [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
 
 
 
