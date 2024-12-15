@@ -1,7 +1,7 @@
 # Level 7: Protocols + Multisig
 
 
-!!! info "Protocols to manage the complexity of multi-signature keys."
+!!! info "Protocols to manage the multi-signature keys (any amount)."
     <figure markdown>
     ![Level 7](/images/levels-Level-7.drawio.png)
       <figcaption>Level 7 -- ready for multisig protocols</figcaption>
