@@ -99,7 +99,7 @@ At this point you can already store any
  institutional custody system could ever offer.
 
 ## Advanced Sovereignty Levels
-* [Level 7: Protocols + Multisig](sovereignty/level-7.md) -- Protocols to manage the complexity of multi-signature keys.
+* [Level 7: Multisig Protocols](sovereignty/level-7.md) -- Protocols to manage the complexity of multi-signature keys.
 * [Level 8: DMZs](sovereignty/level-8.md) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
 * [Level 9: Fault Tolerance](sovereignty/level-9.md) -- Remove all "single points of compromise", in other words, an attacker who compromised a signing device would have no access to your wealth.
 * [Level 10: Fail-safes](sovereignty/level-10.md) -- Require fully redundant networks with explicit verification of cryptographic signatures.
