@@ -74,7 +74,7 @@ nav:
             - "Level 4: Full Node": saving/sovereignty/level-4.md
             - "Level 5: Airgap Quarantine": saving/sovereignty/level-5.md
             - "Level 6: Metal Backup": saving/sovereignty/level-6.md
-            - "Level 7: Protocols + Multisig": saving/sovereignty/level-7.md
+            - "Level 7: Multisig Protocols": saving/sovereignty/level-7.md
             - "Level 8: DMZs": saving/sovereignty/level-8.md
             - "Level 9: Fault Tolerance": saving/sovereignty/level-9.md
             - "Level 10: Fail-safes": saving/sovereignty/level-10.md
