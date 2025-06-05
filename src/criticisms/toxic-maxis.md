@@ -458,7 +458,7 @@ Ultimately, Bitcoin is not your redeemer,
  are saving for the future and starting a
  family -- don't thank Bitcoin;
  don't thank God for Bitcoin --
- thank God for offering you salvation.
+ thank God for meeting you where you are, and offering you salvation.
 
 
 
