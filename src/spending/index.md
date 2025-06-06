@@ -10,12 +10,12 @@ Grant me wisdom and guidance to speak the truth
 -->
 
 Under a Bitcoin Standard,
- *spending* is the exchange of Bitcoin
+ *currency* is the exchange of Bitcoin
  for goods and services, from 
  payments over secondary layers (such as the Lightning network), to
  final international settlement on the base layer.
 And like [saving](../saving/index.md)
- in Bitcoin, *spending* starts simple
+ in Bitcoin, *currency* starts simple
  and grows more and more powerful.
 
 Not only can one be a sovereign of their
@@ -33,15 +33,15 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
  sovereigns.
 
 !!! warning "Bitcoin versus Fiat"
-    Fiat-based spending does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat inevitably produces the Biblical mark of the beast, without which *one cannot buy nor sell*.
+    Fiat-based currency does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat inevitably produces the Biblical mark of the beast, without which *one cannot buy nor sell*.
     
-    Sovereign commerce necessitates truly peer-to-peer transactions that cannot be censored or controlled by any authority. As such, we are still very early. Technical and economic development remains in order to make Bitcoin-commerce globally scalable. For now, sovereign commerce will look simultaneously antiquated (reminiscent of a gold standard) while also forward-looking (inevitable innovations that make sovereign commerce possible at global scale).
+    Sovereign commerce necessitates truly peer-to-peer transactions that cannot be censored or controlled by any authority. As such, we are still very early. Technical and economic development remains in order to make Bitcoin-currencu globally scalable. For now, sovereign commerce will look simultaneously antiquated (reminiscent of a gold standard) while also forward-looking (inevitable innovations that make sovereign commerce possible at global scale).
 
     In short, we're not there yet, but like with Bitcoin itself, it is inevitable.
 
 
 ??? danger "future inevitable"
-    For Bitcoin commerce to scale globally, several architectural layers become necessary:
+    For Bitcoin currency to scale globally, several architectural layers become necessary:
     
     * layer-2+ liquidity channels, such as the lightning network (which solves transaction scaling)
     
