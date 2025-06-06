@@ -101,7 +101,7 @@ nav:
             - "Level 3: Private Channels": currency/sovereignty/level-3.md
             - "Level 4: Public Channels": currency/sovereignty/level-4.md
             - "Level 5: Point-of-Sale": currency/sovereignty/level-5.md
-            - "Level 6: Layer-2 Wallets": currency/sovereignty/level-6.md
+            - "Level 6: Sovereign Wallets": currency/sovereignty/level-6.md
         - Appendix: 
           - "A: Bitcoin Script": currency/appendix/bitcoin-script.md
           - "A: Coinjoin": currency/appendix/coinjoin.md
