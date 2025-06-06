@@ -106,7 +106,6 @@ nav:
           - "A: Bitcoin Script": currency/appendix/bitcoin-script.md
           - "A: Coinjoin": currency/appendix/coinjoin.md
           - "A: Network Security": currency/appendix/network-security.md
-          - "A: Physical Security": currency/appendix/physical-security.md
     - Proof of Work:
         - pow/index.md
         - Understand the Terms: pow/understand-the-terms.md

@@ -12,16 +12,15 @@ Grant me wisdom and guidance to speak the truth
 Under a Bitcoin Standard,
  *currency* is the exchange of Bitcoin
  for goods and services, from 
- payments over secondary layers (such as the Lightning network), to
+ payments via secondary layers (such as the Lightning network), to
  final international settlement on the base layer.
-And like [saving](../saving/index.md)
- in Bitcoin, *currency* starts simple
- and grows more and more powerful.
+And much like [saving](../saving/index.md)
+ in Bitcoin, *spending* in Bitcoin (via Bitcoin-backed currency) is incredibly powerful.
 
 Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign --
- a sovereign of their own business --
+ a sovereign of their own business or family dynasty --
  impossible with fiat, but made possible with Bitcoin, simply by opting-in
  to sound money: getting paid in Bitcoin,
  buying goods and services in Bitcoin,
@@ -29,19 +28,17 @@ Not only can one be a sovereign of their
  through liquidity (such as lightning channels).
 In other words, empowering sovereign commerce through Bitcoin.
 
-Below are proposed sovereignty levels, guiding us from hobbyists to full financial
- sovereigns.
 
-!!! warning "Bitcoin versus Fiat"
-    Fiat-based currency does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat inevitably produces the Biblical mark of the beast, without which *one cannot buy nor sell*.
+## Bitcoin versus Fiat
+Fiat-based currency does not and cannot allow for sovereign commerce. If your payment rails require trusted third parties, then those third parties will hold absolute power over whether you can or cannot transact. Fiat inevitably produces the Biblical mark of the beast, without which *one cannot buy nor sell*.
     
-    Sovereign commerce necessitates truly peer-to-peer transactions that cannot be censored or controlled by any authority. As such, we are still very early. Technical and economic development remains in order to make Bitcoin-currencu globally scalable. For now, sovereign commerce will look simultaneously antiquated (reminiscent of a gold standard) while also forward-looking (inevitable innovations that make sovereign commerce possible at global scale).
+Sovereign commerce necessitates truly peer-to-peer transactions that cannot be censored or controlled by any authority. As such, we are still very early. Technical and economic development remains in order to make Bitcoin-backed currency globally scalable. For now, sovereign commerce will look simultaneously antiquated (reminiscent of a gold standard) while also forward-looking (inevitable innovations that make sovereign commerce possible at global scale).
 
-    In short, we're not there yet, but like with Bitcoin itself, it is inevitable.
+In short, we're not there yet, but like with Bitcoin itself, it is inevitable.
 
 
 ???+ danger "future inevitable"
-    For Bitcoin currency to scale globally, several architectural layers become necessary:
+    For Bitcoin-backed sovereign currency to scale globally, several architectural layers become necessary:
     
     * layer-2+ liquidity channels, such as the lightning network (which solves transaction scaling)
     
@@ -51,12 +48,13 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
     
         * closing channels must not impede any locked funds in use on the network. In other words, funds must be spendable independently of the liquidity source. E.g., if a channel paid 100 sats to X, and the channel is later closed, then X must be able to spend those 100 sats on other channels.
     
-        * funds must be collectable into an on-chain transaction should the owner decide to do so, e.g., to create their own liquidity channel to send and receive from -- effectively making them financial sovereigns.
+        * funds must be collectable into an on-chain transaction should the owner decide to do so, e.g., to create their own liquidity channel to send and receive from -- effectively making them financial sovereigns in their own right.
 
 
 ## Sovereignty Levels
 
-Imagine a local community of workers. They could be unbanked. They could be farmers, fishermen -- any small and relatively self sufficient community.
+Imagine a local community of workers. They could be unbanked in the fiat world. 
+They could be farmers, fishermen -- any small and relatively self sufficient community.
 Imagine they have some Bitcoin and occasionally they trade outside.
 Now imagine they experience fiat hyperinflation.
 There are countless real-world examples of exactly such communities, and many in our future.
@@ -71,7 +69,13 @@ Poor scalability, gold coins and other tokens become inevitable
 * *[future]* [Level 5: Point-of-Sale](sovereignty/level-5.md) -- *future inevitability*, point-of-sale systems with cold storage security 
 * *[future]* [Level 6: Sovereign Wallets](sovereignty/level-6.md) -- *future inevitability*, self-custody layer-2+ wallets
 
-Before diving in and learning about  sovereign commerce, you may want to first
+Before diving in and learning about  sovereign commerce, let's
  [understand the terms](understand-the-terms.md).
+
+
+
+
+
+
 
 
