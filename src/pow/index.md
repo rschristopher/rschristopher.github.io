@@ -19,7 +19,7 @@ This is also, coincidentally, how Bitcoin
 While most people will be
  [saving](../saving/)
  and
- [spending](../commerce) in Bitcoin,
+ [spending](../currency/) in Bitcoin,
  very few will be involved
  in mining, and far fewer will be successful.
 Ultimately, the mechanism that guarantees
