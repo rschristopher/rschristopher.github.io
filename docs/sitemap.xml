@@ -111,6 +111,71 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rschristopher.github.io/currency/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/understand-the-terms/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/appendix/bitcoin-script/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/appendix/coinjoin/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/appendix/network-security/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/appendix/physical-security/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/level-1/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/level-2/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/level-3/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/level-4/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/level-5/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rschristopher.github.io/currency/sovereignty/level-6/</loc>
+         <lastmod>2025-06-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rschristopher.github.io/pow/</loc>
          <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
@@ -317,71 +382,6 @@
     </url>
     <url>
          <loc>https://rschristopher.github.io/saving/wealth/physical-security/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/understand-the-terms/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/appendix/bitcoin-script/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/appendix/coinjoin/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/appendix/network-security/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/appendix/physical-security/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/level-1/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/level-2/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/level-3/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/level-4/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/level-5/</loc>
-         <lastmod>2025-06-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rschristopher.github.io/spending/sovereignty/level-6/</loc>
          <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
