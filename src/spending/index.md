@@ -40,7 +40,7 @@ Below are proposed sovereignty levels, guiding us from hobbyists to full financi
     In short, we're not there yet, but like with Bitcoin itself, it is inevitable.
 
 
-??? danger "future inevitable"
+???+ danger "future inevitable"
     For Bitcoin currency to scale globally, several architectural layers become necessary:
     
     * layer-2+ liquidity channels, such as the lightning network (which solves transaction scaling)
