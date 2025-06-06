@@ -31,7 +31,7 @@ jobs:
       - name: Poetry
         run: |
           pip install poetry
-          poetry install
+          poetry install --no-root
 
       - name: Build Site and Push
         run: |
