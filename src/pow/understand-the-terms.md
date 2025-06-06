@@ -133,7 +133,7 @@ But if it was a very small target number, then it
     
     Each output is a hexadecimal representation
     of a number (that is, a very large base-16 number).
-    Notice that small changes in the input
+    Notice that small changes in the input 
     produce radically different outputs.
     In fact, there's no way to predict
     where in the 2<sup>256</sup> output set
@@ -655,7 +655,7 @@ But what about small miners?
 What about an individual mining device?
 
 Let's look at block 
- [772,793l](https://mempool.space/block/00000000000000000003f2b0cedf601824c02ba9ad129ca3531502dca525c635).
+ [772,793](https://mempool.space/block/00000000000000000003f2b0cedf601824c02ba9ad129ca3531502dca525c635).
 This block was mined through
  [Solo CK](https://solo.ckpool.org)
  purportedly by an individual miner
