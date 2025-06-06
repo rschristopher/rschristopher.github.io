@@ -38,7 +38,7 @@ theme:
     favicon: images/favicon.png
 
 nav:
-    - Truth: 
+    - Money: 
         - index.md
         - Is Bitcoin True?: is-bitcoin-true.md
         - Bitcoin as Money: 
