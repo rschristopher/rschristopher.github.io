@@ -11,15 +11,17 @@ Have mercy on us, and save us
 !!! warning "work in progress"
 
 
-In our world of global fiat there are no true sovereigns -- the machinations of the state have turned even the wealthiest and most productive members of society into effective debt slaves.
-Slaves to a fiat system with broken incentives, whose wealth is determined by proximity to a money printer -- more specifically, the bureaucratic class of public sector employees with access to unlimited fiat money through government debt, as ultimately the central banks are beholden to the government to keep them in business. The central banks "create" the money from nothing, which only works through the unholy alliance of the government and its organs (including the military). 
+In our world of global fiat there are no true sovereigns, not in the traditional sense. 
+The machinations of the state have turned even the wealthiest and most productive members of society into effective debt slaves to the fiat bureaucracy.
+Slaves to the fiat system with broken incentives, where wealth is more often determined by proximity to a money printer (rather than value to society) -- more specifically, the bureaucratic class of public sector employees with access to unlimited fiat money through government debt, as ultimately the central banks are beholden to the government to keep them in business. 
+The central banks "create" the money from nothing, which only works through the unholy alliance with the government and its organs (including the military). 
 This alliance has an unsolvable bad actor problem that has been successfully exploited by a grotesque network of so-called NGOs and "aid organizations" -- parasitic grifters who have found a true loophole to siphon unmeasured wealth from the productive members of society into a bureaucratic hellscape of incompetent ideologues who are mostly unaware of their deleterious effect on civilization.
 
 These are effectively courtiers and courtesans to an enpty throne, a modern idol every bit as demonic as the ancient gods.
 Whether we like it or not, this is the end state of global fiat.
-In a very practical way, we have become the playthings of demons (the ideologies possessing the debt slaves).
+In a very practical way, we have become the playthings of demons (the ideologies possessing us).
 
-Bitcoin, right now, enables financial sovereignty.
+Bitcoin, right now, enables financial sovereignty to a world of debt slaves.
 It is available to anyone, but not for everyone.
 No one is explicitly excluded, yet in the final analysis the baae-layer will only support tens of millions of true sovereign entities conpeting over truly scarce resources, while the rest of humanity will be holding holds wealth through trusted intermediaries.
 While there may be future innovations that can enable 2nd and 3rd layer global payment rails, we're currently in a situation where the entire world relies on fraudulent intermediaries of fiat central banking and the demonic antihuman ideologies that engenders.
