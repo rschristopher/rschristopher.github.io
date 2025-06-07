@@ -1,60 +1,31 @@
+<!--
+
+Lord Jesus Christ
+Son of the living God
+Have mercy on us, and save us
+
+-->
 # Sovereignty
 
 
 !!! warning "work in progress"
 
 
-!!! quote "Be a Sovereign over your own spending"
+In our world of global fiat there are no true sovereigns -- the machinations of the state have turned even the wealthiest and most productive members of society into effective debt slaves.
+Slaves to a fiat system with broken incentives, whose wealth is determined by proximity to a money printer -- more specifically, the bureaucratic class of public sector employees with access to unlimited fiat money through government debt, as ultimately the central banks are beholden to the government to keep them in business. The central banks "create" the money from nothing, which only works through the unholy alliance of the government and its organs (including the military). 
+This alliance has an unsolvable bad actor problem that has been successfully exploited by a grotesque network of so-called NGOs and "aid organizations" -- parasitic grifters who have found a true loophole to siphon unmeasured wealth from the productive members of society into a bureaucratic hellscape of incompetent ideologues who are mostly unaware of their deleterious effect on civilization.
 
-Get paid in Bitcoin
+These are effectively courtiers and courtesans to an enpty throne, a modern idol every bit as demonic as the ancient gods.
+Whether we like it or not, this is the end state of global fiat.
+In a very practical way, we have become the playthings of demons (the ideologies possessing the debt slaves).
 
-Settle in Bitcoin
+Bitcoin, right now, enables financial sovereignty.
+It is available to anyone, but not for everyone.
+No one is explicitly excluded, yet in the final analysis the baae-layer will only support tens of millions of true sovereign entities conpeting over truly scarce resources, while the rest of humanity will be holding holds wealth through trusted intermediaries.
+While there may be future innovations that can enable 2nd and 3rd layer global payment rails, we're currently in a situation where the entire world relies on fraudulent intermediaries of fiat central banking and the demonic antihuman ideologies that engenders.
 
 
 <!--
-
-Lord Jesus Christ
-Son of the living God
-Have mercy on me, a sinner
-
-
-Let's stick with the base layer, and
-A: Lightning 
-
-and also reference the necessary 2nd layer payment rails that will need to exist for full sovereignty.
-
-
-
-
-
-explorer.acinq.co
-LnRouter, lnrouter.app/graph
-1ml
-amboss.space
-lightningnetwork.plus
-thunderhub.io
-thebitcoinlayer.substack.com
-
-
-
-
-
-Do you need an on-chain transaction to receive
- lightning payments?
-If yes, this is a scaling problem.
-Can a user receive lightning payments from
- an existing channel?
-That is, can a channel support multiple
- users?
-The equivalent of a HD wallet for lightning.
-In other words, an existing channel could then
- add multiple parties as potential recipients.
-
-Perhaps this is best thought of as a layer 3.
-The lightning transactions are always 2-2 multisig
- being bounced back and forth.
-This is the game of sovereigns.
-What's missing is your % of that.
 
 ~50 million sovereigns
 12 billion subjects, all working with
@@ -89,31 +60,15 @@ Once the money is yours, it's yours...
 You can be a sovereign if you so choose, or
  just save and spend it on L3 rails.
 
-Cold storage on L3, it's yours afterall,
- or put it on L2, the inter-sovereign layer.
-
-Sovereign -- base layer
-Inter-sovereign -- L2
-Inter-payments -- L3
-
-Possible solutions now, 
-
-Sidecar channels,
-https://lightning.engineering/posts/2021-05-26-sidecar-channels/
-
-Channel factories
-https://thebitcoinmanual.com/articles/btc-channel-factories/
-https://www.bitcoinlightning.com/channel-factories-the-future-of-the-lightning-network/
-
-
-lightning channrl is 2-2 multisig, bouncing a transaction back snd forth and noy spending.
+lightning channrl is 2-2 multisig, bouncing a transaction back snd forth and not spending.
 This channel can close, and all thats needed is L3 wallet, a separate transaction that takes an infinitely divisivle slice of a UTXO away from the 2-2 multisig, and is spendable on any lightning channel.
 HD wallet addresses, with tiny frwction of a UTXO, but that UTXO might get moved to a change address.
 The new UTXO at rhe change address must carry forward the info needed that the old UTXO can be spendable at the new.
-These balances can get passed arlund and consolidated.
-
-every L3 wallet is basically a potential on-chain transaction that could be a new L2 channel. And in practice its just millisats being consolidated, and eventually can be used to create a channel or an L1 transaction.
 
 
 
 -->
+
+
+
+
