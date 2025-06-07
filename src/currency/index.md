@@ -20,7 +20,7 @@ And much like [saving](../saving/index.md)
 Not only can one be a sovereign of their
  own savings, they can be a true
  financial sovereign --
- a sovereign of their own business or family dynasty --
+ a sovereign of their own business or sovereign family dynasty --
  impossible with fiat, but made possible with Bitcoin, simply by opting-in
  to sound money: getting paid in Bitcoin,
  buying goods and services in Bitcoin,
