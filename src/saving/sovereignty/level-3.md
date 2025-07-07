@@ -48,7 +48,9 @@ You will use this client as a
 
 ### Honeypot
 
-A recommended approach
+The proper transaction manager will be via Tails OS with a persistent xPub.
+However, you may want to install Sparrow normally with a hot wallet that you can use for testing.
+This can also serve as a honeypot, that is, a Bitcoin wallet decoy.
 
 
 
