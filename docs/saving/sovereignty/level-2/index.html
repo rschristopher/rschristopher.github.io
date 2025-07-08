@@ -1381,24 +1381,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#install-tails" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install Tails
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#enable-persistence-for-electrum" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable Persistence for Electrum
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#advantages_2" class="md-nav__link">
     <span class="md-ellipsis">
       Advantages
@@ -3087,24 +3069,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#install-tails" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install Tails
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#enable-persistence-for-electrum" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable Persistence for Electrum
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#advantages_2" class="md-nav__link">
     <span class="md-ellipsis">
       Advantages
@@ -3157,17 +3121,22 @@
 In other words, you'll want control of the keys
  that can access your Bitcoin.
 We'll start with a 
- <a href="../understand-the-terms/#hot-wallet">hot wallet</a>
+ <a href="../../understand-the-terms/#hot-wallet">hot wallet</a>
  on a home computer or smartphone.</p>
 <p>However, in order to maximize security
- and privacy, you can leverage
+ and privacy, you should leverage
  <a href="https://tails.boum.org/">Tails OS</a>
  with
  <a href="https://electrum.org/#home">Electrum</a>
  on a bootable thumb drive.</p>
-<div class="admonition warning">
-<p class="admonition-title">no paid nor <em>influenced</em> content -- all views are from personal experience</p>
-</div>
+<details class="success" open="open">
+<summary>Generate your own seed</summary>
+<p>The best way to manage your own keys is by generating a seed phrase (as discussed <a href="../../understand-the-terms/">previously</a>.
+You'll want sufficient entropy so as to guarantee security for all of your derived public and private keys.
+While modern <em>random-number-generators</em> (RNGs) offer sufficient entropy, it is highly recommended to use
+<a href="../../appendix/dice/">dice</a> to generate your seeds (even for hot wallets).</p>
+</details>
+<hr />
 <h2 id="smartphone">Smartphone<a class="headerlink" href="#smartphone" title="Permanent link">&para;</a></h2>
 <p>A hot-wallet on your smartphone is definitely one of the easiest
  ways to manage your own Bitcoin.
@@ -3186,13 +3155,18 @@ However it is only recommended for small amounts,
 <li>lockin concerns -- many apps do not allow seed phrases to be imported or exported -- do not use any app with this kind of lock-in.</li>
 </ul>
 <h3 id="reputable-apps">Reputable Apps<a class="headerlink" href="#reputable-apps" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">no paid nor <em>influenced</em> content -- all views are from personal experience</p>
+</div>
 <ul>
 <li><a href="https://bluewallet.io/">Blue Wallet</a></li>
 <li><a href="https://zeusln.app/">Zeus</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=org.electrum.electrum&amp;pli=1">Electrum Mobile</a></li>
+<li><a href="https://phoenix.acinq.co/">Phoenix</a></li>
 </ul>
+<hr />
 <h2 id="desktop">Desktop<a class="headerlink" href="#desktop" title="Permanent link">&para;</a></h2>
-<p>Desktop apps can provide a more comprehensive set of features and are overall fantastic for learning.</p>
+<p>Desktop apps to manage your keys can provide a more comprehensive set of features and are fantastic for learning.
+And while they work with hot wallets, these apps can also coordinate transactions for cold storage.</p>
 <h3 id="advantages_1">Advantages<a class="headerlink" href="#advantages_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li>full control of your keys</li>
@@ -3209,6 +3183,7 @@ However it is only recommended for small amounts,
 <li><a href="https://specter.solutions/">Specter</a></li>
 <li><a href="https://electrum.org/#home">Electrum</a></li>
 </ul>
+<hr />
 <h2 id="tails-and-electrum">Tails and Electrum<a class="headerlink" href="#tails-and-electrum" title="Permanent link">&para;</a></h2>
 <p>If you have a spare USB thumb drive and are looking
  for the quickest and easiest way to maximize
@@ -3222,8 +3197,10 @@ This solves most of the disadvantages of managing
 With this approach, you get a secured OS from
  a bootable USB drive that leaves no trace
  on the machine you were running it on.</p>
-<h3 id="install-tails">Install Tails<a class="headerlink" href="#install-tails" title="Permanent link">&para;</a></h3>
+<details class="info" open="open">
+<summary>Install Tails</summary>
 <p>See the official <a href="https://tails.boum.org/install/index.en.html">Install Tails</a> guide.</p>
+</details>
 <p>Once you boot with the Tails USB drive you will have an OS
  focused on maintaining your privacy, and most importantly,
  there is no persisted data, no cookies, not even persisted settings.
@@ -3233,18 +3210,21 @@ Internet traffic is over Tor making it extremely difficult
  to track.</p>
 <p>There is an optional persistent volume that you can use
  to save application data to the USB drive itself.
-What we'll do is enable this <em>only</em> for Electrum so that it can
+And what we'll do is enable this <em>only</em> for Electrum so that it can
  persist your keys. </p>
-<h3 id="enable-persistence-for-electrum">Enable Persistence for Electrum<a class="headerlink" href="#enable-persistence-for-electrum" title="Permanent link">&para;</a></h3>
-<p>Once you've booted Tails, go to <em>Applications</em> and select
- <em>Configure persistent volume</em></p>
-<p><img alt="tail-select-persist" src="/images/tails-select-persist.png" /></p>
-<p>This will open the Persistence wizard, you'll want to scroll
- through the apps and select <em>Electrum</em></p>
-<p><img alt="tails-config-persist" src="/images/tails-config-persist.png" /></p>
-<p>You can set a password for this persistent volume, 
- and you will need to reboot.
-After a reboot, you will be given an option to
+<details open="open">
+<summary>Enable Persistence for Electrum</summary>
+<p><figure markdown="span">
+<img alt="tail-select-persist" src="/images/tails-select-persist.png" />
+  <figcaption>Once you've booted Tails, go to <em>Applications</em> and select <em>Configure persistent volume</em>.</figcaption>
+</figure></p>
+<hr />
+<p><figure markdown="span">
+<img alt="tails-config-persist" src="/images/tails-config-persist.png" />
+  <figcaption>Select <em>Electrum</em> and optionally set a password for the volume.</figcaption>
+</figure></p>
+</details>
+<p>After a reboot, you will be given an option to
  use the persistent volume -- or you can still
  use Tails without it, in its pure amnesic state.
 If you do use the persistent volume then you will

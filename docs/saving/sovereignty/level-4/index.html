@@ -1352,27 +1352,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#hardware-requirements" class="md-nav__link">
+  <a href="#diy-node-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Hardware Requirements
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#software-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Software Setup
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#optional-user-friendly-interfaces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Optional: User-Friendly Interfaces
+      DIY Node Setup
     </span>
   </a>
   
@@ -1390,54 +1372,12 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Integrating with the Transaction Manager">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#connecting-electrum-to-your-node" class="md-nav__link">
-    <span class="md-ellipsis">
-      Connecting Electrum to Your Node
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#connecting-sparrow-to-your-node" class="md-nav__link">
-    <span class="md-ellipsis">
-      Connecting Sparrow to Your Node
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#leveraging-knots-privacy-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Leveraging Knots’ Privacy Features
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
   <a href="#signing-transactions" class="md-nav__link">
     <span class="md-ellipsis">
       Signing Transactions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maintenance-and-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      Maintenance and Security
     </span>
   </a>
   
@@ -2997,27 +2937,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#hardware-requirements" class="md-nav__link">
+  <a href="#diy-node-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Hardware Requirements
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#software-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Software Setup
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#optional-user-friendly-interfaces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Optional: User-Friendly Interfaces
+      DIY Node Setup
     </span>
   </a>
   
@@ -3035,54 +2957,12 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Integrating with the Transaction Manager">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#connecting-electrum-to-your-node" class="md-nav__link">
-    <span class="md-ellipsis">
-      Connecting Electrum to Your Node
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#connecting-sparrow-to-your-node" class="md-nav__link">
-    <span class="md-ellipsis">
-      Connecting Sparrow to Your Node
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#leveraging-knots-privacy-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Leveraging Knots’ Privacy Features
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
   <a href="#signing-transactions" class="md-nav__link">
     <span class="md-ellipsis">
       Signing Transactions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maintenance-and-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      Maintenance and Security
     </span>
   </a>
   
@@ -3121,39 +3001,38 @@
   <figcaption>Level 4 -- introducing a Full Bitcoin Node</figcaption>
 </figure></p>
 </div>
-<p>Running a Bitcoin full node enhances your self-custody by allowing your transaction manager to verify transactions and balances against your own copy of the Bitcoin blockchain. This eliminates reliance on third-party nodes, boosting privacy and security. In Level 4, you’ll integrate a full node into the setup from <a href="../level-3">Level 3</a>, using it to support your transaction manager while keeping private keys offline on a dedicated signing device like a <a href="https://coldcard.com/">Coldcard</a>.</p>
+<p>Running a Bitcoin full node enhances your self-custody by allowing your <strong>transaction manager</strong> to verify transactions and balances against your own copy of the Bitcoin blockchain. This eliminates reliance on third-party nodes, boosting privacy and security. In Level 4, you’ll integrate a full node into the setup from <a href="../level-3">Level 3</a>, using it to support your transaction manager while keeping private keys offline on a dedicated signing device like a <a href="https://coldcard.com/">Coldcard</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">No paid nor <em>influenced</em> content -- all views are from personal experience</p>
 </div>
+<hr />
 <h2 id="why-run-a-full-node">Why Run a Full Node?<a class="headerlink" href="#why-run-a-full-node" title="Permanent link">&para;</a></h2>
 <p>A full node downloads and validates the entire Bitcoin blockchain, ensuring you trust only your own verification of the network’s rules. Benefits include:</p>
 <ul>
 <li><strong>Privacy</strong>: Your transaction manager queries your own node, reducing risks of IP tracking or data leaks.</li>
 <li><strong>Security</strong>: You verify transactions and balances yourself, avoiding reliance on potentially malicious external nodes.</li>
-<li><strong>Sovereignty</strong>: Running a node strengthens Bitcoin’s decentralization, contributing to network resilience.</li>
+<li><strong>Sovereignty</strong>: Running a node strengthens Bitcoin’s decentralization, contributing to network resilience (effectively +1 more copy of the blockchain).</li>
 </ul>
-<p>This guide recommends <a href="https://bitcoinknots.org/">Bitcoin Knots</a>, a Bitcoin full node implementation with enhanced privacy features and spam filtering compared to Bitcoin Core. Knots includes tools like improved transaction filtering and mempool policies to reduce spam, making it ideal for privacy-focused self-custody.</p>
+<p>We'll use <a href="https://bitcoinknots.org/">Bitcoin Knots</a>, a Bitcoin full node implementation with enhanced privacy features and spam filtering compared to Bitcoin Core. Knots includes tools like improved transaction filtering and mempool policies to reduce spam, making it ideal for privacy-focused self-custody.</p>
+<hr />
 <h2 id="setting-up-your-full-node">Setting Up Your Full Node<a class="headerlink" href="#setting-up-your-full-node" title="Permanent link">&para;</a></h2>
-<p>To run a Bitcoin Knots full node, you need a dedicated device with sufficient storage, as the Bitcoin blockchain exceeds 500 GB (as of July 2025) and grows over time. A Raspberry Pi 4 or 5 with an external SSD is cost-effective, though a dedicated Linux laptop or desktop (e.g., <a href="https://ubuntu.com/">Ubuntu</a>) offers better performance.</p>
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Device</strong>: Raspberry Pi 4/5 (8 GB RAM recommended) or a dedicated Linux computer.</li>
-<li><strong>Storage</strong>: At least 1 TB SSD (external for Raspberry Pi, internal for laptops/desktops).</li>
-<li><strong>Internet</strong>: Stable connection with sufficient bandwidth (initial sync requires significant data).</li>
-<li><strong>Power</strong>: Reliable power supply, ideally with a UPS for uninterrupted operation.</li>
-</ul>
-<h3 id="software-setup">Software Setup<a class="headerlink" href="#software-setup" title="Permanent link">&para;</a></h3>
+<p>For simplified node management, consider <a href="https://umbrel.com/">Umbrel</a> or <a href="https://raspiblitz.org/">Raspiblitz</a> or <a href="https://mynodebtc.com/">MyNode</a>,
+ which provide web interfaces and tools like Electrum Server. 
+However, these may default to Bitcoin Core; you’ll need to manually install Bitcoin Knots (check project documentation for compatibility). </p>
+<p>To run a Bitcoin Knots full node, you need a dedicated device with sufficient storage (2TB recommended). 
+A Raspberry Pi 4 or 5 with an external SSD is cost-effective, though a dedicated Linux laptop or desktop (e.g., <a href="https://ubuntu.com/">Ubuntu</a>) offers better performance.</p>
+<h3 id="diy-node-setup">DIY Node Setup<a class="headerlink" href="#diy-node-setup" title="Permanent link">&para;</a></h3>
 <ol>
-<li><strong>Install Linux</strong>:</li>
-<li>For a Raspberry Pi, use <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS</a> or <a href="https://umbrel.com/">Umbrel</a> for a user-friendly interface (note: Umbrel may require manual Knots integration).</li>
-<li>For a laptop/desktop, install <a href="https://ubuntu.com/download/desktop">Ubuntu</a>.</li>
-<li><strong>Download Bitcoin Knots</strong>:</li>
+<li><strong>Install Linux</strong></li>
+<li><strong>Install Bitcoin Knots</strong><ul>
 <li>Visit <a href="https://bitcoinknots.org/">bitcoinknots.org</a> and download the latest Bitcoin Knots version for your system.</li>
 <li>Verify the download using GPG signatures to ensure authenticity.</li>
-<li><strong>Configure Bitcoin Knots</strong>:</li>
+</ul>
+</li>
+<li><strong>Configure Bitcoin Knots</strong><ul>
 <li>Create a <code>bitcoin.conf</code> file in the Bitcoin data directory (<code>~/.bitcoin/</code> on Linux).</li>
 <li>Add the following settings for a secure, node-only setup:
-     <div class="highlight"><pre><span></span><code>server=1
+ <div class="highlight"><pre><span></span><code>server=1
 rpcuser=yourusername
 rpcpassword=yourstrongpassword
 txindex=1
@@ -3161,86 +3040,61 @@ listen=1
 bind=127.0.0.1
 prune=0
 blockfilterindex=1
+dbcache=4096
 </code></pre></div></li>
 <li><code>txindex=1</code> enables transaction indexing for wallet queries; <code>prune=0</code> ensures a full archival node; <code>blockfilterindex=1</code> supports advanced privacy features.</li>
-<li><strong>Optimize Initial Block Download (IBD)</strong>:</li>
-<li>Set the <code>dbcache</code> parameter in <code>bitcoin.conf</code> to allocate more RAM for caching, speeding up IBD and verification. For example:
-     <div class="highlight"><pre><span></span><code>dbcache=4096
-</code></pre></div></li>
-<li>A <code>dbcache</code> of 4096 MB (4 GB) is suitable for systems with 8 GB RAM; adjust based on available memory (e.g., 2048 MB for 4 GB RAM). Higher values reduce disk I/O but require sufficient RAM.</li>
-<li><strong>Start Bitcoin Knots</strong>:</li>
+</ul>
+</li>
+<li><strong>Start Bitcoin Knots</strong><ul>
 <li>Run <code>bitcoind -daemon</code> to start the node in the background.</li>
 <li>The initial sync may take days, depending on hardware, internet speed, and <code>dbcache</code> settings. Monitor progress with <code>bitcoin-cli getblockchaininfo</code>.</li>
-<li><strong>Secure Your Node</strong>:</li>
-<li>Configure your firewall to allow only port 8333 (Bitcoin P2P) for external connections and restrict RPC access to localhost.</li>
+</ul>
+</li>
+<li><strong>Secure Your Node</strong><ul>
+<li>Configure your firewall to allow only port 8333 (Bitcoin P2P) for external connections and restrict RPC access to localhost (or to your local network).</li>
 <li>Enable Tor or a VPN for additional privacy if your node is externally accessible.</li>
-<li>Back up <code>bitcoin.conf</code> and any wallet files offline.</li>
+</ul>
+</li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Speeding Up Initial Sync</p>
-<p>Setting <code>dbcache</code> to a higher value (e.g., 4096 MB) significantly reduces the time for Initial Block Download and verification by caching more blockchain data in RAM. Ensure your system has enough free memory to avoid swapping, which could slow down the process. For example, a Raspberry Pi with 8 GB RAM can safely use <code>dbcache=4096</code>, while a 4 GB system should use <code>dbcache=2048</code> or lower.</p>
+<p>Setting <code>dbcache</code> to a higher value (e.g., <code>dbcache=12288</code>, 12 GB) significantly reduces the time for Initial Block Download (IBD) and verification by caching the UTXO set in memory. Ensure your system has enough free memory to avoid swapping, which could slow down the process. For example, a Raspberry Pi with 8 GB RAM can safely use <code>dbcache=4096</code>, but if you have plenty of memory (16+ GB) it is best to keep the entire chainstate (UTXO set) in memory.</p>
 </div>
-<h3 id="optional-user-friendly-interfaces">Optional: User-Friendly Interfaces<a class="headerlink" href="#optional-user-friendly-interfaces" title="Permanent link">&para;</a></h3>
-<p>For easier node management, consider <a href="https://umbrel.com/">Umbrel</a> or <a href="https://raspiblitz.org/">Raspiblitz</a>, which provide web interfaces and tools like Electrum Server. However, these may default to Bitcoin Core; you’ll need to manually install Bitcoin Knots (check project documentation for compatibility). Knots’ built-in spam filtering and privacy features make it a strong choice even without these interfaces.</p>
+<hr />
 <h2 id="integrating-with-the-transaction-manager">Integrating with the Transaction Manager<a class="headerlink" href="#integrating-with-the-transaction-manager" title="Permanent link">&para;</a></h2>
-<p>With your Bitcoin Knots node synced, configure your <a href="../level-3">Level 3 transaction manager</a> to connect to it. This assumes you’re using <a href="https://tails.boum.org/">Tails OS</a> with <a href="https://electrum.org/">Electrum</a> or <a href="https://www.sparrowwallet.com/">Sparrow</a> for your watch-only wallet.</p>
-<h3 id="connecting-electrum-to-your-node">Connecting Electrum to Your Node<a class="headerlink" href="#connecting-electrum-to-your-node" title="Permanent link">&para;</a></h3>
+<p>With your Bitcoin Knots node synced, configure your <a href="../level-3">Level 3 transaction manager</a> to connect to your node (and Electrum Server, if available). 
+This assumes you’re using <a href="https://tails.boum.org/">Tails OS</a> with <a href="https://electrum.org/">Electrum</a> or <a href="https://www.sparrowwallet.com/">Sparrow</a> for your watch-only wallet.</p>
 <ol>
-<li><strong>Set Up Electrum Server</strong> (recommended for efficiency):</li>
-<li>Install <a href="https://github.com/chris-belcher/electrum-personal-server">Electrum Personal Server</a> or <a href="https://github.com/romanz/electrs">Electrs</a> on your node to provide a lightweight interface for Electrum.</li>
-<li>Configure the server to connect to Bitcoin Knots, following the respective documentation.</li>
-<li><strong>Configure Electrum on Tails OS</strong>:</li>
+<li><strong>Set Up Electrum Server</strong> (recommended for efficiency):<ul>
+<li>Install <a href="https://github.com/romanz/electrs">Electrs</a> on your node to provide additional indexing for faster performance.</li>
+</ul>
+</li>
+<li><strong>Configure Electrum on Tails OS</strong>:<ul>
 <li>Boot Tails OS and open Electrum.</li>
 <li>Go to <code>Preferences &gt; Network</code> and select <code>Connect to a specific server</code>.</li>
-<li>Enter your node’s IP address and port (e.g., <code>192.168.1.100:50002</code> for Electrs or EPS).</li>
-<li>Alternatively, use Knots’ RPC interface with <code>electrum --oneserver --server=yournodeip:8332:t</code> (requires additional setup).</li>
-<li><strong>Verify Connection</strong>:</li>
+<li>Enter your node’s IP address and port (e.g., <code>192.168.1.100:50002</code> for Electrs).</li>
+</ul>
+</li>
+<li><strong>Verify Connection</strong>:<ul>
 <li>Confirm Electrum connects to your node and shows synced status.</li>
 <li>Ensure your watch-only wallet loads addresses and balances correctly.</li>
-</ol>
-<h3 id="connecting-sparrow-to-your-node">Connecting Sparrow to Your Node<a class="headerlink" href="#connecting-sparrow-to-your-node" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Configure Sparrow</strong>:</li>
-<li>Open Sparrow on Tails OS.</li>
-<li>Go to <code>File &gt; Preferences &gt; Server</code> and select <code>Bitcoin Core</code> (compatible with Knots).</li>
-<li>Enter your node’s IP address, RPC port (default 8332), and RPC credentials from <code>bitcoin.conf</code>.</li>
-<li><strong>Test the Connection</strong>:</li>
-<li>Sparrow should connect and display blockchain data from your Knots node.</li>
-<li>Verify that your watch-only wallet creates unsigned transactions as in <a href="../level-3">Level 3</a>.</li>
-</ol>
-<h3 id="leveraging-knots-privacy-features">Leveraging Knots’ Privacy Features<a class="headerlink" href="#leveraging-knots-privacy-features" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Bitcoin Knots’ spam filtering reduces mempool clutter, ensuring your transaction manager processes only relevant data.</li>
-<li>The <code>blockfilterindex=1</code> setting enables compact block filters, improving privacy for wallet queries.</li>
-<li>Run your transaction manager and node on the same local network to minimize external queries, and use Tails OS’s Tor routing for broadcasting transactions.</li>
 </ul>
+</li>
+</ol>
+<hr />
 <h2 id="signing-transactions">Signing Transactions<a class="headerlink" href="#signing-transactions" title="Permanent link">&para;</a></h2>
 <p>The signing process remains identical to <a href="../level-3">Level 3</a>:</p>
 <ol>
-<li>Create an unsigned transaction on your transaction manager (Tails OS with Electrum/Sparrow).</li>
+<li>Create an unsigned transaction on your transaction manager (Tails OS with Electrum or Sparrow).</li>
 <li>Transfer the transaction file to your offline signing device (e.g., Coldcard) via microSD.</li>
 <li>Sign the transaction on the Coldcard and save the signed file.</li>
 <li>Return to the transaction manager, load the signed file, and broadcast it via your Bitcoin Knots node.</li>
 </ol>
-<p>Your Knots node verifies and propagates the transaction to the Bitcoin network, leveraging its enhanced privacy and filtering capabilities.</p>
-<h2 id="maintenance-and-security">Maintenance and Security<a class="headerlink" href="#maintenance-and-security" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Keep Bitcoin Knots Updated</strong>: Check <a href="https://bitcoinknots.org/">bitcoinknots.org</a> for updates to address security and privacy improvements.</li>
-<li><strong>Monitor Storage</strong>: Ensure your SSD has space for the growing blockchain (~50 GB/year).</li>
-<li><strong>Backup Configuration</strong>: Store <code>bitcoin.conf</code> and wallet files offline.</li>
-<li><strong>Physical Security</strong>: Secure your node device, as it holds sensitive blockchain data.</li>
-<li><strong>Power and Uptime</strong>: Use a UPS to prevent data corruption and maintain 24/7 uptime to support the network.</li>
-</ul>
+<hr />
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Level 4 self-custody with a Bitcoin Knots full node empowers you to verify transactions and balances independently, with enhanced privacy and spam filtering. By integrating your Knots node with the Level 3 transaction manager and offline signing device, you create a sovereign, secure setup for saving significant Bitcoin. This is like fortifying your digital mattress with a privacy-focused vault.</p>
-<p>To get started:</p>
-<ol>
-<li>Set up a dedicated device with Bitcoin Knots, optimizing IBD with <code>dbcache</code>.</li>
-<li>Sync the blockchain and secure your node with a firewall and strong credentials.</li>
-<li>Connect your Tails OS transaction manager (Electrum or Sparrow) to your Knots node.</li>
-<li>Test the workflow with small transactions to ensure reliability.</li>
-<li>Store your signing device, seed phrase, and node backups securely offline.</li>
-</ol>
+<p>Level 4 self-custody with a Bitcoin Knots full node empowers you to verify transactions directly. 
+By integrating your Knots node with the Level 3 transaction manager and offline signing device, you create a sovereign, secure setup for saving significant amounts of Bitcoin. 
+This is like fortifying your digital mattress with a privacy-focused vault.</p>
 <p>For further reading, explore the <a href="https://bitcoinknots.org/">Bitcoin Knots documentation</a>, <a href="https://getumbrel.com/">Umbrel guides</a>, or <a href="https://raspiblitz.org/">Raspiblitz tutorials</a> (with Knots integration).</p>
 <hr />
 <p><em>Disclaimer</em>: Running a full node requires technical effort and responsibility. Verify software downloads, secure your hardware, and double-check transactions. Self-custody and node operation carry risks, and you are responsible for protecting your Bitcoin.</p>
