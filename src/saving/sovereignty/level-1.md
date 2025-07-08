@@ -51,11 +51,10 @@ Here are some alternative ways
 
 * get paid in Bitcoin -- you know someone who is willing to pay you in Bitcoin directly
 * trade with someone -- similar to above, you have something to sell and the buyer can pay directly in Bitcoin
-* [Bisq](https://bisq.network/) or [localbitcoins.com](https://localbitcoins.com/) -- useful for the privacy conscious, peer-to-peer exchanges which assume you are already on [level-2](../level-2/)
-* Azteco Dealer
+* [Bisq](https://bisq.network/) or [Azteco](https://azte.co/) -- useful for the privacy conscious, peer-to-peer exchanges which assume you are already on [level-2](../level-2/)
 
 There are many 
- [alternatives](https://sovrnbitcoiner.com/15-methods-to-aquire-non-kyc-bitcoin/),
+ [alternatives](https://kycnot.me/),
  and ultimately 
  it depends on your circumstances whether
  an online exchange is appropriate for you.

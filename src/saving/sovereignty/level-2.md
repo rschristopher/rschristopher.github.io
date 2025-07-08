@@ -13,11 +13,11 @@ Once you have some Bitcoin (through an exchange or otherwise -- see
 In other words, you'll want control of the keys
  that can access your Bitcoin.
 We'll start with a 
- [hot wallet](../understand-the-terms/#hot-wallet)
+ [hot wallet](../../understand-the-terms/#hot-wallet)
  on a home computer or smartphone.
 
 However, in order to maximize security
- and privacy, you can leverage
+ and privacy, you should leverage
  [Tails OS](https://tails.boum.org/)
  with
  [Electrum](https://electrum.org/#home)
@@ -25,11 +25,15 @@ However, in order to maximize security
 
 
 
-!!! warning "no paid nor *influenced* content -- all views are from personal experience"
+???+ success "Generate your own seed"
+    The best way to manage your own keys is by generating a seed phrase (as discussed [previously](../understand-the-terms.md).
+    You'll want sufficient entropy so as to guarantee security for all of your derived public and private keys.
+    While modern *random-number-generators* (RNGs) offer sufficient entropy, it is highly recommended to use
+    [dice](../appendix/dice.md) to generate your seeds (even for hot wallets).
 
 
 
-
+---
 
 ## Smartphone
 
@@ -56,18 +60,24 @@ However it is only recommended for small amounts,
 
 ### Reputable Apps 
 
+!!! warning "no paid nor *influenced* content -- all views are from personal experience"
+
 * [Blue Wallet](https://bluewallet.io/)
 * [Zeus](https://zeusln.app/)
-* [Electrum Mobile](https://play.google.com/store/apps/details?id=org.electrum.electrum&pli=1)
+* [Phoenix](https://phoenix.acinq.co/)
 
 
 
 
 
+
+
+---
 
 ## Desktop
 
-Desktop apps can provide a more comprehensive set of features and are overall fantastic for learning.
+Desktop apps to manage your keys can provide a more comprehensive set of features and are fantastic for learning.
+And while they work with hot wallets, these apps can also coordinate transactions for cold storage.
 
 
 ### Advantages 
@@ -91,6 +101,9 @@ Desktop apps can provide a more comprehensive set of features and are overall fa
 
 
 
+
+---
+
 ## Tails and Electrum
 
 If you have a spare USB thumb drive and are looking
@@ -106,9 +119,8 @@ With this approach, you get a secured OS from
  a bootable USB drive that leaves no trace
  on the machine you were running it on.
 
-### Install Tails
-
-See the official [Install Tails](https://tails.boum.org/install/index.en.html) guide.
+???+ info "Install Tails"
+    See the official [Install Tails](https://tails.boum.org/install/index.en.html) guide.
 
 Once you boot with the Tails USB drive you will have an OS
  focused on maintaining your privacy, and most importantly,
@@ -120,24 +132,25 @@ Internet traffic is over Tor making it extremely difficult
 
 There is an optional persistent volume that you can use
  to save application data to the USB drive itself.
-What we'll do is enable this *only* for Electrum so that it can
+And what we'll do is enable this *only* for Electrum so that it can
  persist your keys. 
 
 
-### Enable Persistence for Electrum
+???+ "Enable Persistence for Electrum"
+    
+    <figure markdown="span">
+    ![tail-select-persist](/images/tails-select-persist.png)
+      <figcaption>Once you've booted Tails, go to *Applications* and select *Configure persistent volume*.</figcaption>
+    </figure>
+    
+    ---
+    
+    <figure markdown="span">
+    ![tails-config-persist](/images/tails-config-persist.png)
+      <figcaption>Select *Electrum* and optionally set a password for the volume.</figcaption>
+    </figure>
 
-Once you've booted Tails, go to *Applications* and select
- *Configure persistent volume*
 
-![tail-select-persist](/images/tails-select-persist.png)
-
-This will open the Persistence wizard, you'll want to scroll
- through the apps and select *Electrum*
-
-![tails-config-persist](/images/tails-config-persist.png)
-
-You can set a password for this persistent volume, 
- and you will need to reboot.
 After a reboot, you will be given an option to
  use the persistent volume -- or you can still
  use Tails without it, in its pure amnesic state.

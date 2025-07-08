@@ -1,79 +1,75 @@
 # Level 5: Airgap Quarantine
 
-!!! info "Save Bitcoin with greater security than any bank (as much as you'd be comfortable hiding under your mattress)."
+!!! info "Greater security than any bank (as much as you'd be comfortable hiding under your mattress)."
     <figure markdown>
     ![Level 5](/images/levels-Level-5.drawio.png)
       <figcaption>Level 5 -- airgap quarantine with dedicated air-gapped computer</figcaption>
     </figure>
 
-Level 5 enforces an **airgap quarantine**, ensuring your signing device and its associated computer remain completely isolated from any network or external device. This strict airgap provides the highest level of Bitcoin self-custody security by eliminating risks of malware, network attacks, or physical data leaks. Data transfers use QR codes via a dedicated [air-gapped computer](../appendix/airgapped-computer.md), avoiding physical connections like USB or microSD. This setup builds on [Level 4](../level-4), combining a [Bitcoin Knots](https://bitcoinknots.org/) full node and a Tails OS transaction manager with an air-gapped signing process.
+An **airgap quarantine** ensures your signing device and any associated computers remain completely isolated from any network or external device. 
+A strict airgap provides the highest level of security by eliminating risks of malware, network attacks, or physical data leaks. 
+Data transfers require QR codes via a dedicated [air-gapped computer](../appendix/airgapped-computer.md),
+ avoiding physical connections like USB or microSD. 
 
-!!! warning "No paid nor *influenced* content -- all views are from personal experience"
+By isolating the signing device via an [air-gapped computer](../appendix/airgapped-computer.md), you eliminate most all attack vectors (for remote or physical compromise).
+A well-managed airgap quarantine offers you more security to your savings than any bank in the history of the world.
 
-## Why Airgap Quarantine?
 
-The airgap is the foundation of Level 5, ensuring your private keys remain untouchable. By isolating the signing device and [air-gapped computer](../appendix/airgapped-computer.md), you eliminate all vectors for remote or physical compromise. Benefits include:
 
-- **Uncompromised Security**: No network or physical connections prevent malware, keyloggers, or exploits from accessing your keys.
-- **Enhanced Privacy**: QR codes transfer data optically, avoiding traceable interfaces like USB or network.
-- **Sovereign Control**: You verify and sign transactions independently using trusted, open-source tools.
 
-This guide uses a generic signing device with an [air-gapped computer](../appendix/airgapped-computer.md) running QR-capable software (e.g., Sparrow or Electrum) to maintain the airgap quarantine.
 
-## Setting Up Your Airgap Quarantine
+---
 
-Level 5 assumes you have a [Level 4 setup](../level-4): a Bitcoin Knots full node and a Tails OS transaction manager with [Electrum](https://electrum.org/) or [Sparrow](https://www.sparrowwallet.com/) for a watch-only wallet. The airgap quarantine requires a signing device and an [air-gapped computer](../appendix/airgapped-computer.md) to handle QR code workflows, ensuring no network exposure.
+## Prepare
 
-### Signing Device Setup
-The signing device holds your private keys and must remain air-gapped, never connecting to any network or device. You’ll need:
+An airgap quarantine requires a signing device and possibly an [air-gapped computer](../appendix/airgapped-computer.md) to handle QR code workflows, ensuring no network exposure.
+This can be challenging to setup, and it is important to prepare carefully.
 
-- **Hardware**: A Bitcoin-only signing device with seed phrase generation (e.g., 12/24-word BIP-39).
-- **Power**: Offline power source (e.g., battery or dedicated charger).
-- **Environment**: A clean, offline computer (e.g., temporary Tails OS session) for initial setup.
+Technically, there are numerous ways to create an airgap, either on existing hardware or something like a [SeedSigner](https://seedsigner.com/).
+The most challenging aspect is not the device, but the discipline used to ensure that the Quarantine Rules (see below) are never violated.
 
-1. **Initialize the Signing Device**:
-    - Power on the device using an offline power source (never connect to a networked system).
-    - Update the firmware offline, following the device’s official instructions, using a sanitized microSD or USB drive.
-    - Generate a new 12/24-word seed phrase (BIP-39) or import an existing seed.
-    - Write down the seed phrase on paper or metal and store it securely offline.
-2. **Export xPub**:
-    - Export the extended public key (xPub) for your chosen wallet type (e.g., BIP-84 Native Segwit).
-    - If the device supports QR codes, display the xPub as a QR code; otherwise, save it to a microSD card as a text file.
-    - Transfer the xPub to the [air-gapped computer](../appendix/airgapped-computer.md) (via QR or sanitized microSD) for further transfer to the transaction manager.
-    - On the Tails OS transaction manager, open Electrum or Sparrow, create a watch-only wallet, and import the xPub (similar to [Level 3](../level-3)).
-    - Verify the watch-only wallet shows correct addresses and balances via your Bitcoin Knots node.
-3. **Secure the Device**:
-    - Set a strong PIN or passphrase, if supported.
-    - Store the device in a tamper-evident bag or safe when not in use.
+Ultimately, you'll need an airgapped device (or devices) that can perform the following:
 
-### Air-Gapped Computer Setup
-The [air-gapped computer](../appendix/airgapped-computer.md) processes transactions and handles QR code generation/scanning, ensuring the signing device’s airgap is preserved. See [the appendix](../appendix/airgapped-computer.md) for detailed setup instructions. Requirements include:
+1. Input seeds and/or keys (verify checksums).
+1. Read QR codes (of unsigned transactions).
+1. Sign transactions.
+1. Display QR codes (of signed transactions).
 
-- **Hardware**: A dedicated device (e.g., old laptop or Raspberry Pi) with a display, webcam, and no network hardware.
-- **Storage**: A USB drive with [Tails OS](https://tails.boum.org/) or a clean Linux install (e.g., [Ubuntu](https://ubuntu.com/)).
-- **Software**: Sparrow or Electrum installed offline for transaction processing and QR code support.
-- **QR Scanner**: A webcam or attached USB webcam compatible with your OS.
+If you have a signing device that doesn't perform all of the above (such as no QR support),
+ you will need an air-gapped laptop, and you must ensure that your signing device ONLY ever interfaces with that air-gapped laptop.
+[Tails OS](https://tails.boum.org/) can be useful towards this end, although it's important to maintain the airgap
+ -- that is -- the USB drive used by Tail OS must also be quarantined.
 
-1. **Prepare the Computer**:
-    - Physically disable network capabilities (e.g., remove Wi-Fi/Bluetooth modules, tape over Ethernet port).
-    - Install Tails OS or Ubuntu on a USB drive using a clean, offline system.
-    - Install Sparrow or Electrum offline by transferring the verified installer via a USB drive.
-2. **Verify Integrity**:
-    - Boot the [air-gapped computer](../appendix/airgapped-computer.md) and confirm no network connections (e.g., check `ifconfig` or `nmcli` for no active interfaces).
-    - Use a fresh Tails OS session or dedicated Linux install for each signing session to minimize risks.
-3. **Import xPub (Initial Setup)**:
-    - Transfer the signing device’s xPub (via QR code or sanitized microSD) to the [air-gapped computer](../appendix/airgapped-computer.md).
-    - In Sparrow or Electrum, export the xPub as a QR code to the transaction manager.
-    - Scan the QR code on the transaction manager to create the watch-only wallet.
 
-### Transaction Manager Setup
-The transaction manager is the [Level 4](../level-4) setup: a Tails OS USB with Electrum or Sparrow, connected to your Bitcoin Knots full node. It requires a webcam to scan QR codes from the [air-gapped computer](../appendix/airgapped-computer.md).
 
-- **Electrum**: Enable QR code support in `Preferences > QR Code`.
-- **Sparrow**: Use `Tools > Scan QR Code` for QR-based workflows.
-- **Privacy**: Run on a local network with your Knots node, using Tails OS’s Tor routing for broadcasting transactions.
 
-## Airgap Transaction Workflow
+
+
+
+---
+
+## Quarantine Rules
+
+The rules of an airgap quarantine are typically more involved than a simple network airgap.
+By adhering to these rules you ensure maximum security for your savings.
+
+1. No device can cross the quarantine (except the transaction manager via QR codes).
+1. No device can be exposed to your seed phrases (except your signing device).
+1. Stow all smartphones in farraday bags outside the room where you will power on your signing device. Assume they are actively trying to steal your keys (and your Bitcoin).
+1. Ensure there are no electronic devices in the vicinity of your signing device (including speakers and any "smart" devices).
+1. Ensure you are not near a window and that you have complete privacy.
+
+
+
+
+
+
+
+
+
+---
+
+## Signing Ceremony
 
 The airgap quarantine uses QR codes to transfer data between the transaction manager and [air-gapped computer](../appendix/airgapped-computer.md), with the signing device processing transactions offline. The workflow varies slightly depending on whether the signing device supports QR codes natively or requires microSD input.
 
@@ -126,6 +122,12 @@ The airgap quarantine uses QR codes to transfer data between the transaction man
 - **Verification**: Cross-check transaction details on all devices to prevent spoofing.
 - **MicroSD Hygiene**: For non-QR devices, use a dedicated, sanitized microSD card, stored offline.
 
+
+
+
+
+---
+
 ## Maintaining the Airgap
 
 The airgap is the bedrock of Level 5’s security. Any breach—network connection, untrusted USB, or online power source—could expose your keys. To preserve the airgap:
@@ -137,7 +139,16 @@ The airgap is the bedrock of Level 5’s security. Any breach—network connecti
 - **Backup Integrity**: Store seed phrase backups (paper/metal) in separate, secure locations, never digitizing them.
 - **Monitor Transaction Manager**: Periodically use a fresh Tails OS USB for the transaction manager to minimize malware risks.
 
-## Signing Device Options
+
+
+
+
+
+--- 
+
+## Signing Devices
+
+!!! warning "No paid nor *influenced* content -- all views are from personal experience"
 
 Several signing devices support airgap quarantine workflows, offering varying levels of QR code integration and cost:
 
@@ -147,6 +158,12 @@ Several signing devices support airgap quarantine workflows, offering varying le
 - **Specter-DIY**: Open-source, DIY device using affordable hardware (e.g., ESP32). Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users. [github.com/cryptoadvance/specter-diy](https://github.com/cryptoadvance/specter-diy).
 
 Choose a device based on your preference for cost, ease of use, or open-source transparency, ensuring it supports air-gapped operation.
+
+
+
+
+
+---
 
 ## Conclusion
 

@@ -9,8 +9,9 @@
 In order to save large amounts of money,
  and do so securely,
  you'll want to setup a dedicated signing device.
-Essentially, separate the private keys from the public keys.
-Public keys will be managed in a transaction manager
+Essentially, this will separate the private keys from the public keys.
+
+Public keys will be managed in a **transaction manager**
  (used to verify addresses for receiving Bitcoin,
  checking balances,
  and created unsigned transactions).
@@ -27,22 +28,25 @@ While there are many alternatives-- we will use
 
 
 
+
+
+---
+
 ## Transaction Manager
 
 A transaction manager can be any device,
  although it's recommended to use a dedicated laptop that you can install a Linux flavor such as [Ubuntu](https://ubuntu.com/). 
-You will still be using [Tails OS](https://tails.boum.org/) on a USB drive; 
- however, it's recommended to *also* install a Bitcoin client (such as [Electrum](https://electrum.org/#home)
- or [Sparrow](https://www.sparrowwallet.com/)) on the transaction manager directly. 
-You can optionally use this client as a decoy or *honeypot*.
+However, it is recommended to use [Tails OS](https://tails.boum.org/) on a USB drive for the added privacy and security.
 
 
 
 ### Honeypot
 
-Your transaction manager should be via Tails OS with a persistent xPub. 
-However, you may want to install Sparrow normally with a hot wallet that you can use for testing. 
+Your real **transaction manager** should be via Tails OS with a persistent xPub (see below). 
+However, you may want to install [Sparrow](https://www.sparrowwallet.com/) or [Electrum](https://electrum.org/#home) with a hot wallet
+ and use that for testing. 
 This can also serve as a honeypot, that is, a Bitcoin wallet decoy.
+If someone comes looking for Bitcoin, a honeypot can act as an effective decoy.
 
 
 
@@ -51,7 +55,7 @@ This can also serve as a honeypot, that is, a Bitcoin wallet decoy.
 ### Tails OS (xPub only)
 
 Similar to [level-2](../level-2), 
- we will use a bootable [Tails OS](https://tails.boum.org/) USB drive for the actual transaction manager.
+ we will use a bootable [Tails OS](https://tails.boum.org/) USB drive for the actual **transaction manager**.
 To set up your transaction manager with a watch-only wallet, follow the steps outlined in the [Coldcard documentation](https://coldcard.com/docs/paths#dump-summary-file)
  to export your xPub from the Coldcard. 
 
@@ -63,13 +67,14 @@ To set up your transaction manager with a watch-only wallet, follow the steps ou
 
 
 
+
+
+
 ---
-
-
 
 ## Signing Device
 
-Adapted from the [Coldcard docs](https://coldcard.com/docs/send-receive-btc#sending-bitcoin-airgapped):
+*Adapted from the [Coldcard docs](https://coldcard.com/docs/send-receive-btc#sending-bitcoin-airgapped)*
 
 1. Connect your Coldcard to power and enter your PIN if you haven't already done so.
 2. Select `Ready to Sign` from the main menu.
@@ -79,7 +84,7 @@ Adapted from the [Coldcard docs](https://coldcard.com/docs/send-receive-btc#send
 6. Your Coldcard signs the transaction and saves two files to the microSD card: one ending in `-signed.psbt` and another `-final.txn`.
 7. Press OK (✓) to return to the Main Menu.
 
-You can now power off the Coldcard and transfer the microSD card back to the transaction manager running Tails OS.
+You can now power off the Coldcard and transfer the microSD card back to the **transaction manager** running Tails OS.
 
 
 
@@ -96,11 +101,16 @@ Back on your Tails OS transaction manager:
 
 
 
-### Alternative Signing Devices
 
-While Coldcard is a robust, Bitcoin-only, [air-gapped](../appendix/airgapped-computer.md) solution, other dedicated hardware options exist for self-custody. Here are two recommended alternatives:
 
-- [**SeedSigner**](https://seedsigner.com): A DIY, open-source signing device built on affordable hardware like a Raspberry Pi Zero. SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable, low-cost solution.
+---
+
+## Alternative Signing Devices
+
+While Coldcard is a robust, Bitcoin-only, [air-gapped](../appendix/airgapped-computer.md) solution, other dedicated hardware options exist for self-custody. 
+Here are some recommended alternatives:
+
+- [**SeedSigner**](https://seedsigner.com): A DIY, open-source signing device built on affordable hardware (Raspberry Pi Zero). SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable solution.
 - [**DIY Raspberry Pi Zero**](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0): For advanced users, you can create your own signing device using a Raspberry Pi Zero with open-source software.
 - [**Specter-DIY**](https://github.com/cryptoadvance/specter-diy): This approach requires technical expertise but offers complete control over the hardware and software stack.
 
