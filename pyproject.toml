@@ -3,6 +3,7 @@ name = "rschristopher.github.io"
 version = "1.0.1"
 description = ""
 authors = ["RS Christopher <rschristopher@avant.net>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
