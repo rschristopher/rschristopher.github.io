@@ -81,7 +81,7 @@ To ensure your metal backup remains reliable:
 
 - **Inspect Regularly**: Check annually for corrosion, scratches, or wear.
 - **Multiple Backups**: Create at least two metal backups, stored in separate, secure locations (e.g., home safe and bank vault).
-- **Test Periodically**: Every few years, verify legibility and test on an offline wallet to confirm accuracy.
+- **Test Periodically**: Every few years, verify legibility and test with an offline wallet to confirm accuracy.
 - **Secure Locations**: Store backups in fireproof, waterproof containers in locations accessible only to you or trusted individuals.
 
 ---
