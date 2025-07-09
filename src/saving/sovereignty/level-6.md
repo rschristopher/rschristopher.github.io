@@ -9,8 +9,9 @@
 What if your signing devices and seed phrases were destroyed in a fire?
 
 For significant Bitcoin holdings, metal backups of your seed phrases ensure your private keys survive extreme conditions like fire, flood, or physical damage.
+For example, a metal backup created using stainless steel dog tags provides a fireproof, waterproof, and corrosion-resistant copy of your seed phrase. 
 
-A metal seed backup, created using stainless steel dog tags, provides a fireproof, waterproof, and corrosion-resistant copy of your seed phrase. Generic metal stamping enhances security by allowing you to source materials independently, avoiding reliance on commercial Bitcoin seed backup solutions.
+
 
 ---
 
@@ -18,7 +19,9 @@ A metal seed backup, created using stainless steel dog tags, provides a fireproo
 
 A metal seed backup ensures your Bitcoin seed phrase withstands disasters that would destroy paper or digital backups. By stamping your seed phrase into stainless steel or titanium, you create a resilient, long-term artifact.
 
-Generic metal stamping, using dog tags or fender washers, enhances security by avoiding commercial Bitcoin seed backup solutions, which may involve unverified supply chains that could compromise privacy.
+
+
+
 
 ---
 
@@ -48,7 +51,7 @@ Avoid softer metals like aluminum, silver, or gold, which are less durable and h
 
 Stamp your seed phrase into stainless steel dog tags or fender washers. Generic materials, like dog tags, enhance security by allowing you to control the supply chain and verify materials independently.
 
-While commercial products exist, the [MicroSeed](https://21e15.com/) stamp kit, which uses 1" stainless steel fender washers (available at hardware stores), is a reliable option. However, you can achieve the same result with dog tags and a stamping kit from craft stores.
+While commercial seed backups exist, most are inferior to a DIY solution. The [MicroSeed](https://21e15.com/) stamp kit, which uses 1" stainless steel fender washers (available at hardware stores), is a good option to simplify the stamping process.
 
 ???+ info "Materials Needed"
     - **Metal Medium**: Stainless steel dog tags or fender washers.
