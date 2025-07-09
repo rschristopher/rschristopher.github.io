@@ -6,23 +6,35 @@
       <figcaption>Level 6 -- metal seed backups</figcaption>
     </figure>
 
-Level 6 enhances your Bitcoin self-custody by creating a durable metal backup of your seed phrase, ensuring your private keys survive extreme conditions like fire, flood, or physical damage. This setup builds on [Level 5](../level-5), which uses an air-gapped signing device, a [Bitcoin Knots](https://bitcoinknots.org/) full node, a Tails OS transaction manager, and an [air-gapped computer](../appendix/airgapped-computer.md). A metal seed backup, created using generic stainless steel dog tags and a tungsten stamping kit, provides a fireproof, waterproof, and corrosion-resistant record for your 12/24-word BIP-39 seed phrase, protecting wealth equivalent to "your house." Generic metal stamping offers superior security by allowing you to source materials independently, avoiding reliance on commercial Bitcoin seed backup solutions that may have supply chain risks or proprietary designs.
+What if your signing decices and seed phrases were destroyed in a fire?
+
+For large amounts of Bitcoin, you're going to want a metal backup of your seed phrases, ensuring your private keys survive extreme conditions like fire, flood, or physical damage. 
+
+A metal seed backup, created using generic stainless steel dog tags and a tungsten stamping kit, provides a fireproof, waterproof, and corrosion-resistant copy of your seed phrases. Generic metal stamping offers superior security by allowing you to source materials independently, avoiding reliance on commercial Bitcoin seed backup solutions.
 
 !!! warning "No paid nor *influenced* content -- all views are from personal experience"
 
+
+
+
+
+---
+
 ## Why Metal Seed Backup?
 
-A metal seed backup ensures your Bitcoin seed phrase withstands disasters that could destroy paper or digital backups. By stamping your seed phrase into durable materials like stainless steel or titanium, you create a resilient, long-term record. Benefits include:
+A metal seed backup ensures your Bitcoin seed phrase withstands disasters that would destroy paper or digital backups. By stamping your seed phrase into stainless steel or titanium, you create a resilient, long-term artifact.
 
-- **Extreme Durability**: Withstands high temperatures, water, and physical stress, unlike paper or plastic.
-- **Longevity**: Resists degradation for decades, ensuring access to your funds.
-- **Security**: Offline, immune to digital attacks, and sourced independently for maximum trust.
+Generic metal stamping, using dog tags or fender washers, enhances security by avoiding commercial Bitcoin seed backup solutions, which may involve unverified supply chains that could compromise privacy.
 
-Generic metal stamping, using dog tags or washers from craft stores, enhances security by avoiding commercial Bitcoin seed backup solutions, which may involve unverified supply chains or pre-engraved components that could compromise privacy.
 
-## Choosing Durable Materials
 
-Select materials that resist environmental damage and are suitable for stamping. The table below compares common metals for hardness (Vickers scale, higher is better for stamping durability) and melting temperature (for fire resistance):
+
+
+---
+
+## Why Stainless Steel?
+
+Not all metals resist environmental damage nor are suitable for stamping. The table below compares common metals for hardness (Vickers scale, higher is better for stamping durability) and melting temperature (for fire resistance):
 
 | **Metal**       | **Hardness (Vickers)** | **Melting Temperature** | **Suitability for Seed Backup** |
 |-----------------|------------------------|-------------------------|---------------------------------|
@@ -32,15 +44,21 @@ Select materials that resist environmental damage and are suitable for stamping.
 | Silver          | ~25–70 HV             | ~1,760°F (960°C)       | Poor: Soft, tarnishes, less durable for stamping. |
 | Gold            | ~20–30 HV             | ~1,947°F (1,064°C)     | Poor: Very soft, expensive, unsuitable for stamping. |
 
-- **Stainless Steel**: Affordable, corrosion-resistant, and durable, ideal for dog tags or washers. Widely available at craft stores or online.
+- **Stainless Steel**: Affordable, corrosion-resistant. Widely available. Look for grade 306 or better.
 - **Titanium**: Ultra-durable, lightweight, and fire-resistant, but more expensive and slightly harder to stamp. Suitable for high-value backups.
-- **Tungsten Stamping Kit**: Use a tungsten or steel stamping kit with letter stamps (e.g., 3mm or 4mm for legibility). Tungsten stamps are harder, ensuring clear imprints on metal surfaces. Available at craft stores or online retailers like Amazon.
+- **Tungsten Stamping Kit**: Use a tungsten or steel stamping kit with letter stamps. Tungsten stamps are harder, ensuring clear imprints on metal surfaces. Available at craft stores or online retailers.
 
 Avoid softer metals like aluminum, silver, or gold, which are less durable and harder to stamp legibly. Verify material quality to ensure durability standards.
 
+
+
+
+
+---
+
 ## Creating a Metal Seed Backup
 
-Stamp your 12/24-word BIP-39 seed phrase (from your [Level 5](../level-5) signing device) into stainless steel dog tags or washers. Generic materials, like dog tags, offer security by allowing you to control the supply chain. For example, a solution like [MicroSeed](https://21e15.com/) uses 1" fender washers (quarter-sized) in stainless steel or titanium, but you can achieve the same result with dog tags from craft stores.
+Stamp your seed phrase into stainless steel dog tags or washers. Generic materials, like dog tags, offer security by allowing you to control the supply chain. For example, a solution like [MicroSeed](https://21e15.com/) uses 1" fender washers (quarter-sized) in stainless steel or titanium, but you can achieve the same result with dog tags from craft stores.
 
 ### Materials Needed
 - **Metal Medium**:
@@ -76,6 +94,11 @@ Stamp your 12/24-word BIP-39 seed phrase (from your [Level 5](../level-5) signin
 - **Destruction of Temporary Backups**: Burn or shred any paper backups after stamping to eliminate risks.
 - **Avoid Commercial Solutions**: Generic dog tags or washers reduce supply chain risks compared to commercial Bitcoin seed backup products, which may have pre-engraved components or unverified origins.
 
+
+
+
+---
+
 ## Maintaining Your Metal Backup
 
 To ensure your metal seed backup remains reliable:
@@ -86,13 +109,12 @@ To ensure your metal seed backup remains reliable:
 - **Test Periodically**: Every few years, verify legibility and test on an offline wallet to confirm accuracy.
 - **Secure Locations**: Store backups in fireproof, waterproof containers in locations only you or trusted individuals can access.
 
-## Integration with Level 5
 
-The metal seed backup complements the [Level 5](../level-5) airgap quarantine, ensuring your seed phrase is preserved if your signing device or [air-gapped computer](../appendix/airgapped-computer.md) is lost or damaged. The transaction workflow remains unchanged:
 
-- Use the Tails OS transaction manager and Bitcoin Knots node for watch-only operations.
-- Sign transactions on the [air-gapped computer](../appendix/airgapped-computer.md) with the signing device, using QR codes or sanitized microSD.
-- The metal backup serves as a fail-safe, allowing wallet recovery by re-entering the seed phrase into a new signing device if needed.
+
+
+
+---
 
 ## Conclusion
 
