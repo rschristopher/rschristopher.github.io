@@ -71,7 +71,7 @@ By adhering to these rules you ensure maximum security for your savings.
 
 ## Signing Ceremony
 
-In order to maintain the integrity of the airgap quarantine,
+In order to maintain the integrity of your airgap quarantine,
  a strict signing ceremony should be followed.
 Airgap quarantine steps are highlighted in red.
 
@@ -128,7 +128,7 @@ Choose a device based on your preference for cost, ease of use, or open-source t
 - [**Coldcard**](https://coldcard.com): Bitcoin-only, air-gapped, with robust security (secure element, PIN protection). Requires an [air-gapped computer](../appendix/airgapped-computer.md) for QR workflows, using microSD for transaction input.
 - [**Coldcard Mk4**](https://coldcard.com/docs/qr-codes): Adds native QR code support for xPub export and transaction signing. Simplifies airgap workflows but is slightly more expensive.
 - [**SeedSigner**](https://seedsigner.com): DIY, open-source device built on Raspberry Pi Zero. Fully transparent, and QR-native, but requires assembly and technical expertise.
-- [**Specter-DIY**](https://github.com/cryptoadvance/specter-diy): Open-source, DIY device using affordable hardware (e.g., ESP32). Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users.
+- [**Specter-DIY**](https://github.com/cryptoadvance/specter-diy): Open-source, DIY device using affordable hardware. Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users.
 
 
 
@@ -139,7 +139,7 @@ Choose a device based on your preference for cost, ease of use, or open-source t
 
 ## Conclusion
 
-An airgap quarantine delivers unmatched security for your Bitcoin, surpassing traditional banking systems. 
+An airgap quarantine delivers unmatched security for your Bitcoin, far surpassing the security of traditional banking systems with respect to custody of wealth. 
 By combining a Bitcoin full node, Tails OS transaction manager, and a strictly air-gapped signing process, you achieve ultimate sovereignty and privacy. 
 
 
