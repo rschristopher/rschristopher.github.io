@@ -1380,75 +1380,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Signing Ceremony">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-create-unsigned-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 1: Create Unsigned Transaction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-transfer-to-air-gapped-computer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Transfer to Air-Gapped Computer
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-sign-with-the-signing-device" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3: Sign with the Signing Device
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-4-transfer-signed-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 4: Transfer Signed Transaction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-5-broadcast-signed-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 5: Broadcast Signed Transaction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#security-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Security Notes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maintaining-the-airgap" class="md-nav__link">
-    <span class="md-ellipsis">
-      Maintaining the Airgap
-    </span>
-  </a>
-  
 </li>
       
         <li class="md-nav__item">
@@ -2996,75 +2927,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Signing Ceremony">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-create-unsigned-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 1: Create Unsigned Transaction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-transfer-to-air-gapped-computer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Transfer to Air-Gapped Computer
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-sign-with-the-signing-device" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3: Sign with the Signing Device
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-4-transfer-signed-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 4: Transfer Signed Transaction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-5-broadcast-signed-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 5: Broadcast Signed Transaction
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#security-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Security Notes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maintaining-the-airgap" class="md-nav__link">
-    <span class="md-ellipsis">
-      Maintaining the Airgap
-    </span>
-  </a>
-  
 </li>
       
         <li class="md-nav__item">
@@ -3114,10 +2976,10 @@ A strict airgap provides the highest level of security by eliminating risks of m
 Data transfers require QR codes via a dedicated <a href="../../appendix/airgapped-computer/">air-gapped computer</a>,
  avoiding physical connections like USB or microSD. </p>
 <p>By isolating the signing device via an <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, you eliminate most all attack vectors (for remote or physical compromise).
-A well-managed airgap quarantine offers you more security to your savings than any bank in the history of the world.</p>
+A well-managed airgap quarantine offers you more security for your savings than any bank in the history of the world.</p>
 <hr />
 <h2 id="prepare">Prepare<a class="headerlink" href="#prepare" title="Permanent link">&para;</a></h2>
-<p>An airgap quarantine requires a signing device and possibly an <a href="../../appendix/airgapped-computer/">air-gapped computer</a> to handle QR code workflows, ensuring no network exposure.
+<p>An airgap quarantine requires a signing device and an <a href="../../appendix/airgapped-computer/">air-gapped computer</a> to handle QR code workflows, ensuring no network exposure.
 This can be challenging to setup, and it is important to prepare carefully.</p>
 <p>Technically, there are numerous ways to create an airgap, either on existing hardware or something like a <a href="https://seedsigner.com/">SeedSigner</a>.
 The most challenging aspect is not the device, but the discipline used to ensure that the Quarantine Rules (see below) are never violated.</p>
@@ -3134,7 +2996,7 @@ The most challenging aspect is not the device, but the discipline used to ensure
  -- that is -- the USB drive used by Tail OS must also be quarantined.</p>
 <hr />
 <h2 id="quarantine-rules">Quarantine Rules<a class="headerlink" href="#quarantine-rules" title="Permanent link">&para;</a></h2>
-<p>The rules of an airgap quarantine are typically more involved than a simple network airgap.
+<p>An airgap quarantine is typically more involved than a simple network airgap.
 By adhering to these rules you ensure maximum security for your savings.</p>
 <ol>
 <li>No device can cross the quarantine (except the transaction manager via QR codes).</li>
@@ -3145,111 +3007,69 @@ By adhering to these rules you ensure maximum security for your savings.</p>
 </ol>
 <hr />
 <h2 id="signing-ceremony">Signing Ceremony<a class="headerlink" href="#signing-ceremony" title="Permanent link">&para;</a></h2>
-<p>The airgap quarantine uses QR codes to transfer data between the transaction manager and <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, with the signing device processing transactions offline. The workflow varies slightly depending on whether the signing device supports QR codes natively or requires microSD input.</p>
-<h3 id="step-1-create-unsigned-transaction">Step 1: Create Unsigned Transaction<a class="headerlink" href="#step-1-create-unsigned-transaction" title="Permanent link">&para;</a></h3>
+<p>In order to maintain the integrity of the airgap quarantine,
+ a strict signing ceremony should be followed.
+Airgap quarantine steps are highlighted in red.</p>
+<details class="note" open="open">
+<summary>Step 1: Create Unsigned Transaction</summary>
 <ol>
 <li>On the Tails OS transaction manager, open Electrum or Sparrow.</li>
 <li>Create a transaction in your watch-only wallet (e.g., send Bitcoin to an address).</li>
-<li>Export the unsigned transaction as a QR code:<ul>
-<li>In Electrum, select <code>Send &gt; QR Code</code>.</li>
-<li>In Sparrow, go to <code>Transactions &gt; Export &gt; QR Code</code>.</li>
-</ul>
-</li>
-<li>Verify the transaction details (amount, address, fee) on the transaction manager.</li>
+<li>Verify the transaction details (amount, address, fee).</li>
+<li>Export the unsigned transaction as a QR code.</li>
 </ol>
-<h3 id="step-2-transfer-to-air-gapped-computer">Step 2: Transfer to Air-Gapped Computer<a class="headerlink" href="#step-2-transfer-to-air-gapped-computer" title="Permanent link">&para;</a></h3>
+</details>
+<details class="danger" open="open">
+<summary>Step 2: Transfer to Air-Gapped Computer</summary>
 <ol>
-<li>Boot the <a href="../../appendix/airgapped-computer/">air-gapped computer</a> with Tails OS or your Linux install.</li>
-<li>Open Sparrow or Electrum and scan the QR code from the transaction manager’s screen using the webcam.<ul>
-<li>For large transactions, scan multiple QR codes as prompted.</li>
-</ul>
-</li>
-<li>Verify the transaction details (address, amount, fee) on the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>.</li>
-<li>Save the unsigned transaction to a microSD card (for devices without QR input) or export it as a QR code (for QR-capable devices).</li>
+<li>Boot the <a href="../../appendix/airgapped-computer/">air-gapped computer</a> (with Tails OS or Linux install).</li>
+<li>Open Sparrow or Electrum and scan the QR code from the transaction manager.</li>
+<li>Verify the transaction details (address, amount, fee).</li>
+<li>Save the unsigned transaction to a microSD card (for devices without QR input) or export it as a QR code (for QR-capable signing device).</li>
 </ol>
-<h3 id="step-3-sign-with-the-signing-device">Step 3: Sign with the Signing Device<a class="headerlink" href="#step-3-sign-with-the-signing-device" title="Permanent link">&para;</a></h3>
+</details>
+<details class="danger" open="open">
+<summary>Step 3: Sign Transaction</summary>
 <ol>
 <li>Power on the signing device using a battery or offline charger.</li>
-<li>Load the unsigned transaction:<ul>
-<li>For QR-capable devices, scan the QR code from the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>.</li>
-<li>For non-QR devices, insert a sanitized microSD card with the unsigned transaction.</li>
-</ul>
-</li>
-<li>Verify the transaction details (destination address, amount, fee) on the signing device’s screen against the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>.</li>
-<li>If correct, approve the transaction to sign it. Output the signed transaction:<ul>
-<li>QR-capable devices: Display the signed transaction as a QR code.</li>
-<li>Non-QR devices: Save the signed transaction to the microSD card (e.g., <code>-signed.psbt</code>).</li>
-</ul>
-</li>
-<li>If incorrect, reject the transaction and investigate discrepancies.</li>
-<li>Power off the signing device.</li>
+<li>Load the unsigned transaction.</li>
+<li>Verify the transaction details (address, amount, fee).</li>
+<li>Approve / Sign the transaction.</li>
 </ol>
-<h3 id="step-4-transfer-signed-transaction">Step 4: Transfer Signed Transaction<a class="headerlink" href="#step-4-transfer-signed-transaction" title="Permanent link">&para;</a></h3>
+</details>
+<details class="danger" open="open">
+<summary>Step 4: Transfer Signed Transaction</summary>
 <ol>
-<li>On the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, load the signed transaction:<ul>
-<li>Scan the QR code from the signing device (if QR-capable).</li>
-<li>Insert the microSD card with the signed transaction (if non-QR).</li>
-</ul>
-</li>
+<li>On the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, load the signed transaction.</li>
 <li>Verify the signed transaction details in Sparrow or Electrum.</li>
 <li>Export the signed transaction as a QR code.</li>
 </ol>
-<h3 id="step-5-broadcast-signed-transaction">Step 5: Broadcast Signed Transaction<a class="headerlink" href="#step-5-broadcast-signed-transaction" title="Permanent link">&para;</a></h3>
+</details>
+<details class="note" open="open">
+<summary>Step 5: Broadcast Signed Transaction</summary>
 <ol>
-<li>On the transaction manager, scan the signed transaction QR code from the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>:<ul>
-<li>In Electrum, use <code>Tools &gt; Load Transaction &gt; From QR Code</code>.</li>
-<li>In Sparrow, use <code>Tools &gt; Scan QR Code</code>.</li>
-</ul>
-</li>
+<li>On the transaction manager, scan the signed transaction QR code from the <a href="../../appendix/airgapped-computer/">air-gapped computer</a>.</li>
 <li>Verify the transaction details again (address, amount, fee).</li>
-<li>Broadcast the transaction to the Bitcoin network via your Bitcoin Knots node.</li>
-<li>Confirm the transaction appears in your Knots node’s mempool (e.g., via <code>bitcoin-cli getmempoolentry</code>).</li>
+<li>Broadcast the transaction to the Bitcoin network via your Bitcoin node.</li>
+<li>Wait for transaction confirmation.</li>
 </ol>
-<h3 id="security-notes">Security Notes<a class="headerlink" href="#security-notes" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Airgap Discipline</strong>: Ensure the signing device and <a href="../../appendix/airgapped-computer/">air-gapped computer</a> never touch a networked device, even for power or updates.</li>
-<li><strong>Screen Distance</strong>: Position devices 6–12 inches apart for clear QR code scanning.</li>
-<li><strong>Lighting</strong>: Use a well-lit environment, avoiding direct sunlight on screens.</li>
-<li><strong>Verification</strong>: Cross-check transaction details on all devices to prevent spoofing.</li>
-<li><strong>MicroSD Hygiene</strong>: For non-QR devices, use a dedicated, sanitized microSD card, stored offline.</li>
-</ul>
-<hr />
-<h2 id="maintaining-the-airgap">Maintaining the Airgap<a class="headerlink" href="#maintaining-the-airgap" title="Permanent link">&para;</a></h2>
-<p>The airgap is the bedrock of Level 5’s security. Any breach—network connection, untrusted USB, or online power source—could expose your keys. To preserve the airgap:</p>
-<ul>
-<li><strong>No Connections</strong>: Never connect the signing device or <a href="../../appendix/airgapped-computer/">air-gapped computer</a> to the internet, USB ports (except for offline power), or networked devices.</li>
-<li><strong>Offline Power</strong>: Use a battery or offline charger for both the signing device and <a href="../../appendix/airgapped-computer/">air-gapped computer</a>.</li>
-<li><strong>Secure Storage</strong>: Store the signing device, <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, and any microSD cards in tamper-evident bags or a safe when not in use.</li>
-<li><strong>Clean Setup</strong>: Update firmware or software using offline Tails OS sessions, then destroy the session.</li>
-<li><strong>Backup Integrity</strong>: Store seed phrase backups (paper/metal) in separate, secure locations, never digitizing them.</li>
-<li><strong>Monitor Transaction Manager</strong>: Periodically use a fresh Tails OS USB for the transaction manager to minimize malware risks.</li>
-</ul>
+</details>
 <hr />
 <h2 id="signing-devices">Signing Devices<a class="headerlink" href="#signing-devices" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">No paid nor <em>influenced</em> content -- all views are from personal experience</p>
 </div>
-<p>Several signing devices support airgap quarantine workflows, offering varying levels of QR code integration and cost:</p>
-<ul>
-<li><strong>Coldcard (Mk3 or earlier)</strong>: Bitcoin-only, air-gapped, with robust security (secure element, PIN protection). Requires an <a href="../../appendix/airgapped-computer/">air-gapped computer</a> for QR workflows, using microSD for transaction input. Priced ~$100–$150. <a href="https://coldcard.com/">coldcard.com</a>.</li>
-<li><strong>Coldcard Mk4</strong>: Adds native QR code support for xPub export and transaction signing, eliminating the need for an <a href="../../appendix/airgapped-computer/">air-gapped computer</a>. Simplifies airgap workflows but is slightly more expensive. <a href="https://coldcard.com/docs/qr-codes">coldcard.com</a>.</li>
-<li><strong>SeedSigner</strong>: DIY, open-source device built on Raspberry Pi Zero. Fully transparent, low-cost (~$50–$100), and QR-native, but requires assembly and technical expertise. <a href="https://seedsigner.com/">seedsigner.com</a>.</li>
-<li><strong>Specter-DIY</strong>: Open-source, DIY device using affordable hardware (e.g., ESP32). Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users. <a href="https://github.com/cryptoadvance/specter-diy">github.com/cryptoadvance/specter-diy</a>.</li>
-</ul>
 <p>Choose a device based on your preference for cost, ease of use, or open-source transparency, ensuring it supports air-gapped operation.</p>
+<ul>
+<li><a href="https://coldcard.com"><strong>Coldcard</strong></a>: Bitcoin-only, air-gapped, with robust security (secure element, PIN protection). Requires an <a href="../../appendix/airgapped-computer/">air-gapped computer</a> for QR workflows, using microSD for transaction input.</li>
+<li><a href="https://coldcard.com/docs/qr-codes"><strong>Coldcard Mk4</strong></a>: Adds native QR code support for xPub export and transaction signing. Simplifies airgap workflows but is slightly more expensive.</li>
+<li><a href="https://seedsigner.com"><strong>SeedSigner</strong></a>: DIY, open-source device built on Raspberry Pi Zero. Fully transparent, and QR-native, but requires assembly and technical expertise.</li>
+<li><a href="https://github.com/cryptoadvance/specter-diy"><strong>Specter-DIY</strong></a>: Open-source, DIY device using affordable hardware (e.g., ESP32). Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users.</li>
+</ul>
 <hr />
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Level 5 airgap quarantine delivers unmatched security for your Bitcoin, surpassing traditional banking systems through rigorous isolation. By combining a Bitcoin Knots full node, Tails OS transaction manager, and a strictly air-gapped signing process with an <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, you achieve ultimate sovereignty and privacy. This setup is a digital fortress hidden under your mattress, protected by an unbreachable airgap.</p>
-<p>To get started:</p>
-<ol>
-<li>Set up a signing device with an offline seed and export its xPub via QR code or microSD.</li>
-<li>Configure an <a href="../../appendix/airgapped-computer/">air-gapped computer</a> with Sparrow or Electrum for QR workflows.</li>
-<li>Ensure your Tails OS transaction manager has a webcam for QR scanning.</li>
-<li>Practice the transaction workflow with small amounts to build confidence.</li>
-<li>Store the signing device, <a href="../../appendix/airgapped-computer/">air-gapped computer</a>, microSD (if used), seed phrase backups, and node configuration securely offline.</li>
-</ol>
-<p>For further reading, explore the <a href="https://bitcoinknots.org/">Bitcoin Knots guides</a>, 
- <a href="https://tails.boum.org/">Tails OS security practices</a>, or the documentation for your chosen signing device (see above).</p>
+<p>An airgap quarantine delivers unmatched security for your Bitcoin, surpassing traditional banking systems. 
+By combining a Bitcoin full node, Tails OS transaction manager, and a strictly air-gapped signing process, you achieve ultimate sovereignty and privacy. </p>
 <hr />
 <p><em>Disclaimer</em>: Airgap quarantine demands rigorous security practices. Verify all hardware and software, cross-check transactions, and maintain strict airgap discipline. 
 Self-custody carries risks, and you are responsible for protecting your Bitcoin.</p>
