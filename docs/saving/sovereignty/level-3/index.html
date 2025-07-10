@@ -1349,21 +1349,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Signing Device">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#broadcasting-the-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Broadcasting the Transaction
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1379,15 +1364,6 @@
   <a href="#hardware-wallets-considerations" class="md-nav__link">
     <span class="md-ellipsis">
       Hardware Wallets: Considerations
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
     </span>
   </a>
   
@@ -2981,21 +2957,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Signing Device">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#broadcasting-the-transaction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Broadcasting the Transaction
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -3011,15 +2972,6 @@
   <a href="#hardware-wallets-considerations" class="md-nav__link">
     <span class="md-ellipsis">
       Hardware Wallets: Considerations
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
     </span>
   </a>
   
@@ -3081,6 +3033,8 @@ If someone comes looking for Bitcoin, a honeypot can act as an effective decoy.<
  we will use a bootable <a href="https://tails.boum.org/">Tails OS</a> USB drive for the actual <strong>transaction manager</strong>.
 To set up your transaction manager with a watch-only wallet, follow the steps outlined in the <a href="https://coldcard.com/docs/paths#dump-summary-file">Coldcard documentation</a>
  to export your xPub from the Coldcard. </p>
+<details class="note" open="open">
+<summary>Tails OS with xPub</summary>
 <ol>
 <li>On your Tails OS, open Electrum.</li>
 <li>Create a new wallet, select <code>Standard wallet</code>, and then <code>Use a master key</code>.</li>
@@ -3088,9 +3042,12 @@ To set up your transaction manager with a watch-only wallet, follow the steps ou
 <li>When you open this wallet, you'll see a warning indicating it is watch-only.</li>
 <li>When you attempt to <em>send</em> from this wallet, it will create an <em>unsigned transaction</em> file, which will need to be signed by the signing device (see below).</li>
 </ol>
+</details>
 <hr />
 <h2 id="signing-device">Signing Device<a class="headerlink" href="#signing-device" title="Permanent link">&para;</a></h2>
 <p><em>Adapted from the <a href="https://coldcard.com/docs/send-receive-btc#sending-bitcoin-airgapped">Coldcard docs</a></em></p>
+<details class="note" open="open">
+<summary>Sign Transaction</summary>
 <ol>
 <li>Connect your Coldcard to power and enter your PIN if you haven't already done so.</li>
 <li>Select <code>Ready to Sign</code> from the main menu.</li>
@@ -3100,9 +3057,10 @@ To set up your transaction manager with a watch-only wallet, follow the steps ou
 <li>Your Coldcard signs the transaction and saves two files to the microSD card: one ending in <code>-signed.psbt</code> and another <code>-final.txn</code>.</li>
 <li>Press OK (✓) to return to the Main Menu.</li>
 </ol>
+</details>
 <p>You can now power off the Coldcard and transfer the microSD card back to the <strong>transaction manager</strong> running Tails OS.</p>
-<h3 id="broadcasting-the-transaction">Broadcasting the Transaction<a class="headerlink" href="#broadcasting-the-transaction" title="Permanent link">&para;</a></h3>
-<p>Back on your Tails OS transaction manager:</p>
+<details class="note" open="open">
+<summary>Broadcasting (signed) Transaction</summary>
 <ol>
 <li>Insert the microSD card with the signed transaction files.</li>
 <li>Open Electrum or Sparrow and load the <code>-signed.psbt</code> or <code>-final.txn</code> file.</li>
@@ -3110,6 +3068,7 @@ To set up your transaction manager with a watch-only wallet, follow the steps ou
 <li>Broadcast the transaction to the Bitcoin network.</li>
 <li>Once broadcasted, you can safely remove the microSD card and store it securely.</li>
 </ol>
+</details>
 <hr />
 <h2 id="alternative-signing-devices">Alternative Signing Devices<a class="headerlink" href="#alternative-signing-devices" title="Permanent link">&para;</a></h2>
 <p>While Coldcard is a robust, Bitcoin-only, <a href="../../appendix/airgapped-computer/">air-gapped</a> solution, other dedicated hardware options exist for self-custody. 
@@ -3133,18 +3092,6 @@ Other hardware wallets may:</p>
 <li>Require online connections, reducing security compared to air-gapped solutions.</li>
 </ul>
 <p>When choosing a hardware wallet, prioritize devices that are Bitcoin-focused, air-gapped, and open-source to ensure maximum security and sovereignty.</p>
-<hr />
-<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Level 3 self-custody with a dedicated signing device like Coldcard, SeedSigner, or a DIY solution provides a high level of security for saving significant amounts of Bitcoin. By separating your private keys (on the offline signing device) from your public keys (on the transaction manager), you minimize risks while maintaining full control over your funds. Using Tails OS for the transaction manager and incorporating a honeypot adds additional layers of protection.</p>
-<p>To get started:</p>
-<ol>
-<li>Choose a signing device (e.g., Coldcard or SeedSigner).</li>
-<li>Set up a dedicated transaction manager with Tails OS and a watch-only wallet.</li>
-<li>Practice the air-gapped signing process with small amounts to ensure familiarity.</li>
-<li>Store your signing device and seed phrase backups in secure, offline locations.</li>
-</ol>
-<p>This setup is akin to hiding your wealth "under the mattress" but with the cryptographic security of Bitcoin. 
-For further reading, explore the <a href="https://coldcard.com/docs/">Coldcard documentation</a> or <a href="https://seedsigner.com/">SeedSigner guides</a> to deepen your understanding of secure self-custody.</p>
 
 
 

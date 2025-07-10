@@ -1383,15 +1383,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2968,15 +2959,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -3051,7 +3033,7 @@ dbcache=4096
 </ul>
 </li>
 <li><strong>Secure Your Node</strong><ul>
-<li>Configure your firewall to allow only port 8333 (Bitcoin P2P) for external connections and restrict RPC access to localhost (or to your local network).</li>
+<li>Configure your firewall to allow only tcp/8333 (Bitcoin P2P) for external connections and restrict RPC access to localhost (or to your local network).</li>
 <li>Enable Tor or a VPN for additional privacy if your node is externally accessible.</li>
 </ul>
 </li>
@@ -3083,21 +3065,18 @@ This assumes you’re using <a href="https://tails.boum.org/">Tails OS</a> with 
 </ol>
 <hr />
 <h2 id="signing-transactions">Signing Transactions<a class="headerlink" href="#signing-transactions" title="Permanent link">&para;</a></h2>
-<p>The signing process remains identical to <a href="../level-3">Level 3</a>:</p>
+<p>The signing process remains identical to <a href="../level-3">Level 3</a>,
+ however, when you verify transactions and broadcast, you will retain privacy so long as your transaction manager 
+ is communicating with your full node.</p>
 <ol>
-<li>Create an unsigned transaction on your transaction manager (Tails OS with Electrum or Sparrow).</li>
-<li>Transfer the transaction file to your offline signing device (e.g., Coldcard) via microSD.</li>
-<li>Sign the transaction on the Coldcard and save the signed file.</li>
-<li>Return to the transaction manager, load the signed file, and broadcast it via your Bitcoin Knots node.</li>
+<li>Create an unsigned transaction on your transaction manager (Tail OS).</li>
+<li>Transfer the transaction file to your offline signing device.</li>
+<li>Sign the transaction.</li>
+<li>Return to the transaction manager, load the signed transaction, and broadcast it via your Bitcoin Knots node.</li>
 </ol>
 <hr />
-<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Level 4 self-custody with a Bitcoin Knots full node empowers you to verify transactions directly. 
-By integrating your Knots node with the Level 3 transaction manager and offline signing device, you create a sovereign, secure setup for saving significant amounts of Bitcoin. 
-This is like fortifying your digital mattress with a privacy-focused vault.</p>
-<p>For further reading, explore the <a href="https://bitcoinknots.org/">Bitcoin Knots documentation</a>, <a href="https://getumbrel.com/">Umbrel guides</a>, or <a href="https://raspiblitz.org/">Raspiblitz tutorials</a> (with Knots integration).</p>
-<hr />
-<p><em>Disclaimer</em>: Running a full node requires technical effort and responsibility. Verify software downloads, secure your hardware, and double-check transactions. Self-custody and node operation carry risks, and you are responsible for protecting your Bitcoin.</p>
+<p><em>Disclaimer</em>: Running a full node requires technical effort and responsibility. Verify software downloads, secure your hardware, and double-check transactions. 
+Self-custody and node operation carry risks, and you are responsible for protecting your Bitcoin.</p>
 
 
 
