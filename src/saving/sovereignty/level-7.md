@@ -1,6 +1,6 @@
 # Level 7: Multisig Protocols
 
-!!! info "Protocols to manage multi-signature keys for secure Bitcoin custody."
+!!! info "Protocols to manage multi-signature Bitcoin custody (any amount)."
     <figure markdown>
     ![Level 7](/images/levels-Level-7.drawio.png)
       <figcaption>Level 7 -- Multisig Protocols</figcaption>
@@ -14,7 +14,18 @@ Have mercy on me, a sinner
 
 -->
 
-Multisig (multi-signature) protocols are the gold standard for securing Bitcoin in self-custody. Unlike single-signature wallets, which rely on one private key, multisig requires multiple keys to authorize transactions, offering unmatched security and redundancy. However, managing a multisig setup is complex for both technical and non-technical users. A well-defined *protocol*—a set of step-by-step instructions—is essential to navigate this complexity, ensuring your Bitcoin remains secure, accessible, and manageable.
+Multisig (multi-signature) Protocols are the gold standard for securing Bitcoin. 
+Unlike single-signature wallets, which rely on one private key, multisig requires multiple keys to authorize transactions,
+ offering unmatched security and redundancy.
+
+These can be configured in any *m-of-n quorum*, which allows for both security and fault tolerance,
+ e.g., a 2/3 quorum requires 2 valid signatures from any 3 private keys 
+ -- which is ideal for [inheritance planning](../wealth/inheritance.md)
+ and collaborative custody.
+
+That said, managing a multisig setup can be complex for both technical and non-technical users. 
+A well-defined *protocol*—a set of step-by-step instructions—is essential to navigate this complexity,
+ ensuring your Bitcoin remains secure, accessible, and manageable for you and your loved ones.
 
 
 
@@ -23,7 +34,7 @@ Multisig (multi-signature) protocols are the gold standard for securing Bitcoin 
 
 ## Why a Multisig Protocol?
 
-Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, provide significant advantages: losing one key doesn’t compromise your funds, and an attacker needs multiple keys to steal your Bitcoin. These benefits come at the cost of increased complexity. Without a clear protocol, even experienced users can make errors, such as mismanaging keys, failing to document recovery steps, or exposing sensitive information. For non-technical users, the technical jargon, hardware requirements, and coordination of multiple devices can feel overwhelming.
+Multisig setups, such as a *2-of-3* or *3-of-5* key arrangement, provide significant advantages: losing one key doesn’t compromise your funds, and an attacker needs multiple keys to steal your Bitcoin. These benefits come at the cost of increased complexity. Without a clear protocol, even experienced users can make errors, such as mismanaging keys, failing to document recovery steps, or exposing sensitive information. For non-technical users, the technical jargon, hardware requirements, and coordination of multiple devices can be overwhelming.
 
 A multisig protocol addresses these challenges by:
 
@@ -64,24 +75,21 @@ Multisig setups are inherently more demanding than single-signature wallets. Her
 A multisig protocol is a written guide that you and your trusted contacts can follow. Below are the essential steps to create and implement one:
 
 1. **Choose Your Multisig Setup**:
-   - Decide on the key configuration (e.g., 2-of-3, 3-of-5) based on your security needs. A 2-of-3 setup balances security and convenience, while 3-of-5 offers greater redundancy.
-   - Use reputable hardware wallets like Coldcard or SeedSigner, which support multisig. Coldcard excels with air-gapped operation and PSBT (Partially Signed Bitcoin Transactions) support, while SeedSigner offers a DIY, open-source approach.
+    - Decide on the key configuration (e.g., *2-of-3*, *3-of-5*) based on your security needs.
+    - Use reputable signing devices like Coldcard or SeedSigner, which support multisig.
+    - Choose software that supports multisig, such as [Electrum](https://electrum.org/), [Sparrow Wallet](https://sparrowwallet.com/), or [Specter](https://specter.solutions/). These tools coordinate key setup and transaction signing.
 
-2. **Select Wallet Software**:
-   - Choose software that supports multisig, such as [Electrum](https://electrum.org/), [Sparrow Wallet](https://sparrowwallet.com/), or [Specter](https://specter.solutions/). These tools coordinate key setup and transaction signing.
-   - Verify software integrity (e.g., check signatures) to avoid malicious versions.
+2. **Distribute Keys Securely**:
+    - Store each key in a separate, secure location (e.g., personal safe, safety deposit box, or with a trusted collaborator). Use tamper-evident storage to detect unauthorized access.
+    - Avoid digital backups that could be hacked, and never store keys together.
 
-3. **Distribute Keys Securely**:
-   - Store each key in a separate, secure location (e.g., personal safe, safety deposit box, or with a trusted collaborator). Use tamper-evident storage to detect unauthorized access.
-   - Avoid digital backups that could be hacked, and never store keys together.
+3. **Document Your Protocol**:
+    - Use a clear, step-by-step guide covering setup, transaction signing, key recovery, and inheritance. Include wallet software versions, hardware details, and contact information for trusted parties.
+    - Store the protocol securely (e.g., encrypted or in a physical safe) and share relevant sections with heirs or collaborators.
 
-4. **Document Your Protocol**:
-   - Write a clear, step-by-step guide covering setup, transaction signing, key recovery, and inheritance. Include wallet software versions, hardware details, and contact information for trusted parties.
-   - Store the protocol securely (e.g., encrypted or in a physical safe) and share relevant sections with heirs or collaborators.
-
-5. **Test Your Setup**:
-   - Perform small test transactions to verify your protocol, including signing with multiple keys and recovering funds from backups.
-   - Simulate failure scenarios (e.g., losing one key) to ensure your recovery process works.
+4. **Test Your Setup**:
+    - Perform small test transactions to verify your protocol, including signing with multiple keys and recovering funds from backups.
+    - Simulate failure scenarios (e.g., losing one key) to ensure your recovery process works.
 
 
 
@@ -91,7 +99,7 @@ A multisig protocol is a written guide that you and your trusted contacts can fo
 ## Examples
 
 - **Glacier Protocol**: A comprehensive multisig framework with cold storage and operational security. Ideal for advanced users or high-net-worth individuals, though its complexity may deter beginners.
-- **Coldcard Multisig Guide**: Follow Coldcard’s [multisig setup guide](https://coldcard.com/docs/multisig/) for a hardware-focused approach. It’s user-friendly yet robust, suitable for technical and non-technical users.
+- **Coldcard Multisig Guide**: Follow Coldcard’s [multisig setup guide](https://coldcard.com/docs/multisig/) for a hardware-focused approach. It’s robust and most suitable for technical and users.
 - **Custom Protocol**: Use the [Custom](../appendix/custom.md) template to design a multisig setup tailored to your hardware, software, and security preferences.
 
 
@@ -110,7 +118,7 @@ The level of security required for your Bitcoin custody depends on your threat m
 - **Advanced Security**: Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, add redundancy and resilience. A protocol is critical here to coordinate multiple keys, streamline transaction signing, and guide non-technical users or heirs.
 - **Paranoid Security**: For protection against sophisticated threats—like hostile nation-states (e.g., historical cases like [Canada’s trucker protest crackdowns](https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test))—use a high-threshold multisig (e.g., 4-of-7), geographically distributed keys, air-gapped devices, and self-hosted full nodes. A protocol is indispensable to manage this complexity and ensure flawless execution.
 
-Start with a baseline like Coldcard’s multisig guide and scale up as needed. The [Basic+](../appendix/basic.md) protocol offers a starting point with reasonable security, while the [Custom](../appendix/custom.md) template supports advanced configurations.
+The [Basic+](../appendix/basic.md) protocol offers a starting point with reasonable security, while the [Custom](../appendix/custom.md) template supports advanced configurations.
 
 
 
@@ -123,7 +131,11 @@ Start with a baseline like Coldcard’s multisig guide and scale up as needed. T
 
 ## Final Thoughts
 
-Multisig protocols empower you to secure your Bitcoin with unparalleled sovereignty, but their complexity demands a structured approach. By adopting a clear, well-documented protocol, you can overcome the challenges of key management, transaction coordination, and recovery—whether you’re a technical expert or a beginner. Choose a setup that matches your threat model, test it rigorously, and ensure your trusted contacts can follow it. With a multisig protocol, you’ll protect your wealth better than any custodian ever could.
+Multisig Protocols empower you to secure your Bitcoin with unparalleled sovereignty, but the complexity demands a structured approach. 
+By adopting a clear, well-documented protocol, you can overcome the challenges of key management, transaction coordination, and recovery—whether you’re a technical expert or a beginner. 
+Choose a setup that matches your needs, test it rigorously,
+ and ensure your trusted contacts can follow it. 
+With a multisig protocol, you’ll protect your wealth better than any bank or custodian ever could.
 
 
 
