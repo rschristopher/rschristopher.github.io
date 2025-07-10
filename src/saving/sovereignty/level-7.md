@@ -19,7 +19,7 @@ Unlike single-signature wallets, which rely on one private key, multisig require
  offering unmatched security and redundancy.
 
 These can be configured in any *m-of-n quorum*, which allows for both security and fault tolerance,
- e.g., a 2/3 quorum requires 2 valid signatures from any 3 private keys 
+ e.g., a *2-of-3 quorum* requires 2 valid signatures from any 3 private keys 
  -- which is ideal for [inheritance planning](../wealth/inheritance.md)
  and collaborative custody.
 
