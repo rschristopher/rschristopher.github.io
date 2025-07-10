@@ -61,7 +61,7 @@ A Raspberry Pi 4 or 5 with an external SSD is cost-effective, though a dedicated
     - Run `bitcoind -daemon` to start the node in the background.
     - The initial sync may take days, depending on hardware, internet speed, and `dbcache` settings. Monitor progress with `bitcoin-cli getblockchaininfo`.
 5. **Secure Your Node**
-    - Configure your firewall to allow only port 8333 (Bitcoin P2P) for external connections and restrict RPC access to localhost (or to your local network).
+    - Configure your firewall to allow only tcp/8333 (Bitcoin P2P) for external connections and restrict RPC access to localhost (or to your local network).
     - Enable Tor or a VPN for additional privacy if your node is externally accessible.
 
 !!! note "Speeding Up Initial Sync"
@@ -95,30 +95,25 @@ This assumes you’re using [Tails OS](https://tails.boum.org/) with [Electrum](
 ---
 
 ## Signing Transactions
-The signing process remains identical to [Level 3](../level-3):
+The signing process remains identical to [Level 3](../level-3),
+ however, when you verify transactions and broadcast, you will retain privacy so long as your transaction manager 
+ is communicating with your full node.
 
-1. Create an unsigned transaction on your transaction manager (Tails OS with Electrum or Sparrow).
-2. Transfer the transaction file to your offline signing device (e.g., Coldcard) via microSD.
-3. Sign the transaction on the Coldcard and save the signed file.
-4. Return to the transaction manager, load the signed file, and broadcast it via your Bitcoin Knots node.
-
-
-
-
+1. Create an unsigned transaction on your transaction manager (Tail OS).
+2. Transfer the transaction file to your offline signing device.
+3. Sign the transaction.
+4. Return to the transaction manager, load the signed transaction, and broadcast it via your Bitcoin Knots node.
 
 
----
 
-## Conclusion
-Level 4 self-custody with a Bitcoin Knots full node empowers you to verify transactions directly. 
-By integrating your Knots node with the Level 3 transaction manager and offline signing device, you create a sovereign, secure setup for saving significant amounts of Bitcoin. 
-This is like fortifying your digital mattress with a privacy-focused vault.
 
-For further reading, explore the [Bitcoin Knots documentation](https://bitcoinknots.org/), [Umbrel guides](https://getumbrel.com/), or [Raspiblitz tutorials](https://raspiblitz.org/) (with Knots integration).
+
+
 
 --- 
 
-*Disclaimer*: Running a full node requires technical effort and responsibility. Verify software downloads, secure your hardware, and double-check transactions. Self-custody and node operation carry risks, and you are responsible for protecting your Bitcoin.
+*Disclaimer*: Running a full node requires technical effort and responsibility. Verify software downloads, secure your hardware, and double-check transactions. 
+Self-custody and node operation carry risks, and you are responsible for protecting your Bitcoin.
 
 
 

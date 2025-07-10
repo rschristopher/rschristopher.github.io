@@ -131,15 +131,8 @@ Choose a device based on your preference for cost, ease of use, or open-source t
 - [**Specter-DIY**](https://github.com/cryptoadvance/specter-diy): Open-source, DIY device using affordable hardware. Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users.
 
 
-
-
-
-
----
-
-## Conclusion
-
-An airgap quarantine delivers unmatched security for your Bitcoin, far surpassing the security of traditional banking systems with respect to custody of wealth. 
+Regardless of which signing device you use,
+ an airgap quarantine delivers unmatched security for your Bitcoin, far surpassing the security of traditional banking systems with respect to custody of wealth. 
 By combining a Bitcoin full node, Tails OS transaction manager, and a strictly air-gapped signing process, you achieve ultimate sovereignty and privacy. 
 
 

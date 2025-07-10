@@ -59,11 +59,12 @@ Similar to [level-2](../level-2),
 To set up your transaction manager with a watch-only wallet, follow the steps outlined in the [Coldcard documentation](https://coldcard.com/docs/paths#dump-summary-file)
  to export your xPub from the Coldcard. 
 
-1. On your Tails OS, open Electrum.
-2. Create a new wallet, select `Standard wallet`, and then `Use a master key`.
-3. Paste or scan the QR code of the xPub obtained from your Coldcard.
-4. When you open this wallet, you'll see a warning indicating it is watch-only.
-5. When you attempt to *send* from this wallet, it will create an *unsigned transaction* file, which will need to be signed by the signing device (see below).
+???+ note "Tails OS with xPub"
+    1. On your Tails OS, open Electrum.
+    2. Create a new wallet, select `Standard wallet`, and then `Use a master key`.
+    3. Paste or scan the QR code of the xPub obtained from your Coldcard.
+    4. When you open this wallet, you'll see a warning indicating it is watch-only.
+    5. When you attempt to *send* from this wallet, it will create an *unsigned transaction* file, which will need to be signed by the signing device (see below).
 
 
 
@@ -76,28 +77,26 @@ To set up your transaction manager with a watch-only wallet, follow the steps ou
 
 *Adapted from the [Coldcard docs](https://coldcard.com/docs/send-receive-btc#sending-bitcoin-airgapped)*
 
-1. Connect your Coldcard to power and enter your PIN if you haven't already done so.
-2. Select `Ready to Sign` from the main menu.
-3. Insert the microSD card containing the unsigned transaction file from your transaction manager.
-4. The Coldcard briefly shows *Reading...* and *Validating...* before displaying transaction details. Take every opportunity to check and double-check transaction information. Ensure the address you are sending funds to is absolutely correct.
-5. If the transaction information is correct and the fee acceptable, press OK (✓). Otherwise, abort the transaction by pressing X.
-6. Your Coldcard signs the transaction and saves two files to the microSD card: one ending in `-signed.psbt` and another `-final.txn`.
-7. Press OK (✓) to return to the Main Menu.
+???+ note "Sign Transaction"
+    1. Connect your Coldcard to power and enter your PIN if you haven't already done so.
+    2. Select `Ready to Sign` from the main menu.
+    3. Insert the microSD card containing the unsigned transaction file from your transaction manager.
+    4. The Coldcard briefly shows *Reading...* and *Validating...* before displaying transaction details. Take every opportunity to check and double-check transaction information. Ensure the address you are sending funds to is absolutely correct.
+    5. If the transaction information is correct and the fee acceptable, press OK (✓). Otherwise, abort the transaction by pressing X.
+    6. Your Coldcard signs the transaction and saves two files to the microSD card: one ending in `-signed.psbt` and another `-final.txn`.
+    7. Press OK (✓) to return to the Main Menu.
 
 You can now power off the Coldcard and transfer the microSD card back to the **transaction manager** running Tails OS.
 
 
 
 
-### Broadcasting the Transaction
-
-Back on your Tails OS transaction manager:
-
-1. Insert the microSD card with the signed transaction files.
-2. Open Electrum or Sparrow and load the `-signed.psbt` or `-final.txn` file.
-3. Verify the transaction details again, ensuring the destination address and amount are correct.
-4. Broadcast the transaction to the Bitcoin network.
-5. Once broadcasted, you can safely remove the microSD card and store it securely.
+???+ note "Broadcasting (signed) Transaction"
+    1. Insert the microSD card with the signed transaction files.
+    2. Open Electrum or Sparrow and load the `-signed.psbt` or `-final.txn` file.
+    3. Verify the transaction details again, ensuring the destination address and amount are correct.
+    4. Broadcast the transaction to the Bitcoin network.
+    5. Once broadcasted, you can safely remove the microSD card and store it securely.
 
 
 
@@ -138,24 +137,6 @@ When choosing a hardware wallet, prioritize devices that are Bitcoin-focused, ai
 
 
 
-
-
-
----
-
-## Conclusion
-
-Level 3 self-custody with a dedicated signing device like Coldcard, SeedSigner, or a DIY solution provides a high level of security for saving significant amounts of Bitcoin. By separating your private keys (on the offline signing device) from your public keys (on the transaction manager), you minimize risks while maintaining full control over your funds. Using Tails OS for the transaction manager and incorporating a honeypot adds additional layers of protection.
-
-To get started:
-
-1. Choose a signing device (e.g., Coldcard or SeedSigner).
-2. Set up a dedicated transaction manager with Tails OS and a watch-only wallet.
-3. Practice the air-gapped signing process with small amounts to ensure familiarity.
-4. Store your signing device and seed phrase backups in secure, offline locations.
-
-This setup is akin to hiding your wealth "under the mattress" but with the cryptographic security of Bitcoin. 
-For further reading, explore the [Coldcard documentation](https://coldcard.com/docs/) or [SeedSigner guides](https://seedsigner.com/) to deepen your understanding of secure self-custody.
 
 
 

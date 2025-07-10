@@ -17,7 +17,7 @@ For example, a metal backup created using stainless steel dog tags provides a fi
 
 ## Why Metal Seed Backup?
 
-A metal seed backup ensures your Bitcoin seed phrase withstands disasters that would destroy paper or digital backups. By stamping your seed phrase into stainless steel or titanium, you create a resilient, long-term artifact.
+A metal backup ensures your Bitcoin seed phrase withstands disasters that would destroy paper or digital backups. By stamping your seed phrase into stainless steel or titanium, you create a resilient, long-term artifact.
 
 
 
@@ -37,7 +37,7 @@ Not all metals resist environmental damage or are suitable for stamping. The tab
 | Silver          | ~25–70 HV             | ~1,760°F (960°C)       | Poor: Soft, tarnishes, less durable for stamping. |
 | Gold            | ~20–30 HV             | ~1,947°F (1,064°C)     | Poor: Very soft, expensive, unsuitable for stamping. |
 
-- **Stainless Steel**: Affordable and corrosion-resistant. Widely available in grades 304 or 316.
+- **Stainless Steel**: Affordable and corrosion-resistant. Recommended in grades 304 or 316.
 - **Titanium**: Ultra-durable, lightweight, and fire-resistant but more expensive and slightly harder to stamp. Ideal for high-value backups.
 - **Tungsten Stamping Kit**: Use a tungsten or steel stamping kit with letter stamps. Tungsten stamps are harder, ensuring clear imprints. Available at craft stores or online retailers.
 
@@ -47,7 +47,7 @@ Avoid softer metals like aluminum, silver, or gold, which are less durable and h
 
 ## Creating a Metal Seed Backup
 
-!!! warning "*No paid nor influenced content* -- all views are from personal experience"
+!!! warning "No paid nor *influenced* content -- all views are from personal experience"
 
 Stamp your seed phrase into stainless steel dog tags or fender washers. Generic materials, like dog tags, enhance security by allowing you to control the supply chain and verify materials independently.
 
@@ -58,7 +58,9 @@ While commercial seed backups exist, most are inferior to a DIY solution. The [M
     - **Stamping Kit**: Tungsten or steel stamping kit with letter stamps.
     - **Stamping Surface**: A flat, hard surface like a steel anvil or brick for stable stamping. A brick is sufficient but may cause slight imperfections.
 
-???+ note "Stamping Process"
+For the actual stamping, you'll want to follow the [Quarantine Rules](level-5.md#quarantine-rules) discussed previously.
+
+???+ danger "Stamping Process (quarantined)"
     1. **Prepare the Seed Phrase**:
         - Retrieve the seed phrase from your signing device, written on a temporary paper backup during initial setup.
         - Work in a secure, private location with no electronic devices nearby.
@@ -71,7 +73,7 @@ While commercial seed backups exist, most are inferior to a DIY solution. The [M
         - Test the backup by entering the seed phrase into a temporary, offline wallet (e.g., on a fresh Tails OS session) on a signing device.
     5. **Secure the Backup**:
         - Store the metal backup in a tamper-evident bag or container.
-        - Place it in a secure, offline location (e.g., safe deposit box or home safe) separate from your signing device and [air-gapped computer](../appendix/airgapped-computer.md).
+        - Place it in a secure, offline location (e.g., safe deposit box or home safe).
 
 ---
 
@@ -86,18 +88,20 @@ To ensure your metal backup remains reliable:
 
 ---
 
-## Conclusion
-
-Stamping your seed phrase into durable materials with a tungsten kit ensures resilience against fire, flood, or time.
-
-To get started:
-
-1. Acquire stainless steel dog tags (or fender washers) and a tungsten stamping kit from a craft store or online.
-2. Stamp your seed phrase in a private, offline environment, verifying each word.
-3. Test the backup on an offline wallet to confirm accuracy.
-4. Store multiple backups in secure, separate locations using tamper-evident containers.
-5. Destroy temporary paper backups and maintain air-gap discipline.
-
----
-
 *Disclaimer*: Metal seed backups require meticulous handling and secure storage. Verify material quality, stamp accurately, and protect backups from theft or exposure. Self-custody carries risks, and you are responsible for protecting your Bitcoin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
