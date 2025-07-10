@@ -1429,27 +1429,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-much-security-do-you-need" class="md-nav__link">
     <span class="md-ellipsis">
       How Much Security Do You Need?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#final-thoughts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Final Thoughts
     </span>
   </a>
   
@@ -2939,27 +2921,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-much-security-do-you-need" class="md-nav__link">
     <span class="md-ellipsis">
       How Much Security Do You Need?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#final-thoughts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Final Thoughts
     </span>
   </a>
   
@@ -3015,7 +2979,6 @@ A well-defined <em>protocol</em>—a set of step-by-step instructions—is essen
 <li><strong>Simplifying Complexity</strong>: Breaking down setup, transaction signing, and recovery into clear, repeatable steps.</li>
 <li><strong>Reducing Errors</strong>: Providing a checklist to avoid mistakes, such as improper key storage or incorrect wallet configurations.</li>
 <li><strong>Enabling Collaboration</strong>: Guiding trusted parties (e.g., family or heirs) to access funds securely, even if they lack technical expertise.</li>
-<li><strong>Ensuring Consistency</strong>: Standardizing processes across deposits, withdrawals, and maintenance, regardless of user experience.</li>
 </ul>
 <p>One excellent example is the <a href="https://glacierprotocol.org/">Glacier Protocol</a>, which combines multisig with rigorous operational security. Glacier breaks its process into sub-protocols (setup, deposit, withdrawal), each with detailed instructions. While highly secure, Glacier has minor drawbacks, such as address reuse and lack of <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP-39</a> mnemonic seed support. For users seeking alternatives, custom protocols can be tailored to balance security and usability.</p>
 <hr />
@@ -3058,34 +3021,21 @@ A well-defined <em>protocol</em>—a set of step-by-step instructions—is essen
 <p><strong>Test Your Setup</strong>:</p>
 <ul>
 <li>Perform small test transactions to verify your protocol, including signing with multiple keys and recovering funds from backups.</li>
-<li>Simulate failure scenarios (e.g., losing one key) to ensure your recovery process works.</li>
+<li>Simulate failure scenarios (e.g., losing one key) to ensure your recovery process works perfectly.</li>
 </ul>
 </li>
 </ol>
 <hr />
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Glacier Protocol</strong>: A comprehensive multisig framework with cold storage and operational security. Ideal for advanced users or high-net-worth individuals, though its complexity may deter beginners.</li>
-<li><strong>Coldcard Multisig Guide</strong>: Follow Coldcard’s <a href="https://coldcard.com/docs/multisig/">multisig setup guide</a> for a hardware-focused approach. It’s robust and most suitable for technical and users.</li>
-<li><strong>Custom Protocol</strong>: Use the <a href="../../appendix/custom/">Custom</a> template to design a multisig setup tailored to your hardware, software, and security preferences.</li>
-</ul>
-<hr />
 <h2 id="how-much-security-do-you-need">How Much Security Do You Need?<a class="headerlink" href="#how-much-security-do-you-need" title="Permanent link">&para;</a></h2>
 <p>The level of security required for your Bitcoin custody depends on your threat model. A protocol benefits all levels of security, but at the higher levels involving multisig, it is essential to manage complexity and ensure reliability.</p>
 <ul>
-<li><strong>Minimal Security</strong>: A mobile app hot wallet (e.g., BlueWallet or Muun) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.</li>
+<li><strong>Minimal Security</strong>: A mobile app hot wallet (e.g., BlueWallet or Phoenix) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.</li>
 <li><strong>Baseline Security</strong>: Using a hardware wallet like a <a href="https://coldcard.com/">Coldcard</a> or <a href="https://seedsigner.com/">SeedSigner</a> with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.</li>
 <li><strong>Advanced Security</strong>: Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, add redundancy and resilience. A protocol is critical here to coordinate multiple keys, streamline transaction signing, and guide non-technical users or heirs.</li>
-<li><strong>Paranoid Security</strong>: For protection against sophisticated threats—like hostile nation-states (e.g., historical cases like <a href="https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test">Canada’s trucker protest crackdowns</a>)—use a high-threshold multisig (e.g., 4-of-7), geographically distributed keys, air-gapped devices, and self-hosted full nodes. A protocol is indispensable to manage this complexity and ensure flawless execution.</li>
+<li><strong>Paranoid Security</strong>: For protection against sophisticated threats—like hostile nation-states (e.g., historical cases like <a href="https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test">Canada’s trucker protest crackdowns</a>)—use a high-threshold multisig, geographically distributed keys, air-gapped devices, and self-hosted full nodes. A protocol is indispensable to manage this complexity and ensure flawless execution.</li>
 </ul>
 <p>The <a href="../../appendix/basic/">Basic+</a> protocol offers a starting point with reasonable security, while the <a href="../../appendix/custom/">Custom</a> template supports advanced configurations.</p>
-<hr />
-<h2 id="final-thoughts">Final Thoughts<a class="headerlink" href="#final-thoughts" title="Permanent link">&para;</a></h2>
-<p>Multisig Protocols empower you to secure your Bitcoin with unparalleled sovereignty, but the complexity demands a structured approach. 
-By adopting a clear, well-documented protocol, you can overcome the challenges of key management, transaction coordination, and recovery—whether you’re a technical expert or a beginner. 
-Choose a setup that matches your needs, test it rigorously,
- and ensure your trusted contacts can follow it. 
-With a multisig protocol, you’ll protect your wealth better than any bank or custodian ever could.</p>
+<p>With a multisig protocol, you’ll protect your wealth better than any bank or custodian ever could.</p>
 
 
 
