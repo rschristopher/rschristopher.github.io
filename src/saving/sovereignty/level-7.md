@@ -41,7 +41,6 @@ A multisig protocol addresses these challenges by:
 - **Simplifying Complexity**: Breaking down setup, transaction signing, and recovery into clear, repeatable steps.
 - **Reducing Errors**: Providing a checklist to avoid mistakes, such as improper key storage or incorrect wallet configurations.
 - **Enabling Collaboration**: Guiding trusted parties (e.g., family or heirs) to access funds securely, even if they lack technical expertise.
-- **Ensuring Consistency**: Standardizing processes across deposits, withdrawals, and maintenance, regardless of user experience.
 
 One excellent example is the [Glacier Protocol](https://glacierprotocol.org/), which combines multisig with rigorous operational security. Glacier breaks its process into sub-protocols (setup, deposit, withdrawal), each with detailed instructions. While highly secure, Glacier has minor drawbacks, such as address reuse and lack of [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) mnemonic seed support. For users seeking alternatives, custom protocols can be tailored to balance security and usability.
 
@@ -89,18 +88,10 @@ A multisig protocol is a written guide that you and your trusted contacts can fo
 
 4. **Test Your Setup**:
     - Perform small test transactions to verify your protocol, including signing with multiple keys and recovering funds from backups.
-    - Simulate failure scenarios (e.g., losing one key) to ensure your recovery process works.
+    - Simulate failure scenarios (e.g., losing one key) to ensure your recovery process works perfectly.
 
 
 
-
----
-
-## Examples
-
-- **Glacier Protocol**: A comprehensive multisig framework with cold storage and operational security. Ideal for advanced users or high-net-worth individuals, though its complexity may deter beginners.
-- **Coldcard Multisig Guide**: Follow Coldcard’s [multisig setup guide](https://coldcard.com/docs/multisig/) for a hardware-focused approach. It’s robust and most suitable for technical and users.
-- **Custom Protocol**: Use the [Custom](../appendix/custom.md) template to design a multisig setup tailored to your hardware, software, and security preferences.
 
 
 
@@ -113,28 +104,13 @@ A multisig protocol is a written guide that you and your trusted contacts can fo
 
 The level of security required for your Bitcoin custody depends on your threat model. A protocol benefits all levels of security, but at the higher levels involving multisig, it is essential to manage complexity and ensure reliability.
 
-- **Minimal Security**: A mobile app hot wallet (e.g., BlueWallet or Muun) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.
+- **Minimal Security**: A mobile app hot wallet (e.g., BlueWallet or Phoenix) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.
 - **Baseline Security**: Using a hardware wallet like a [Coldcard](https://coldcard.com/) or [SeedSigner](https://seedsigner.com/) with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.
 - **Advanced Security**: Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, add redundancy and resilience. A protocol is critical here to coordinate multiple keys, streamline transaction signing, and guide non-technical users or heirs.
-- **Paranoid Security**: For protection against sophisticated threats—like hostile nation-states (e.g., historical cases like [Canada’s trucker protest crackdowns](https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test))—use a high-threshold multisig (e.g., 4-of-7), geographically distributed keys, air-gapped devices, and self-hosted full nodes. A protocol is indispensable to manage this complexity and ensure flawless execution.
+- **Paranoid Security**: For protection against sophisticated threats—like hostile nation-states (e.g., historical cases like [Canada’s trucker protest crackdowns](https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test))—use a high-threshold multisig, geographically distributed keys, air-gapped devices, and self-hosted full nodes. A protocol is indispensable to manage this complexity and ensure flawless execution.
 
 The [Basic+](../appendix/basic.md) protocol offers a starting point with reasonable security, while the [Custom](../appendix/custom.md) template supports advanced configurations.
 
-
-
-
-
-
-
-
----
-
-## Final Thoughts
-
-Multisig Protocols empower you to secure your Bitcoin with unparalleled sovereignty, but the complexity demands a structured approach. 
-By adopting a clear, well-documented protocol, you can overcome the challenges of key management, transaction coordination, and recovery—whether you’re a technical expert or a beginner. 
-Choose a setup that matches your needs, test it rigorously,
- and ensure your trusted contacts can follow it. 
 With a multisig protocol, you’ll protect your wealth better than any bank or custodian ever could.
 
 
