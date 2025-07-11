@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#appendix-custom-protocols" class="md-skip">
+        <a href="#appendix-custom-protocol-template" class="md-skip">
           Skip to content
         </a>
       
@@ -1755,6 +1755,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    A: Custom Protocols
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1766,6 +1779,88 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deposit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#withdrawal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Withdrawal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check Balance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maintenance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inheritance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inheritance
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2819,6 +2914,77 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deposit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#withdrawal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Withdrawal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check Balance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maintenance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inheritance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inheritance
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2833,106 +2999,418 @@
 
 
 
-<h1 id="appendix-custom-protocols">Appendix: Custom Protocols<a class="headerlink" href="#appendix-custom-protocols" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
-<!--
-
-
-???+ info "Who is this good for?"
-    Anyone wanting a custom
-    self custody solution that
-    maximizes security based
-    on their own personal needs.
-
-
-## Setup
-
-???+ check "Prerequisites"
-    1 coldcard
-
-    1 air-gapped device with camera
-
-    1 micro SD card
-
-    1 USB card loaded with Tails OS (Electrum persisted)
-
-    1 laptop with wifi (that can be booted with Tails OS)
-
-
-???+ check "Setup Coldcard"
-    ...
-
-???+ check "Setup air-gapped device"
-    ...
-
-???+ check "Setup Tails"
-    ...
-
-
-
-### Seed Creation
-
-???+ danger "Create Keys"
-    ...
-
-
-
-### Proof of Control
-
-???+ danger "Proof of Control"
-    ...
-
-
-
-### Address Verification
-
-Boot Tails, open Electrum, view addresses
-
-Turn on Coldcard, Address Explorer
-
-Compare addresses, they should be identical
-
-
-
-
-## Deposit 
-
-Boot Tails, open Electrum, receive address
-
-Transfer the receive address via QR code,
- even to non-private device (e.g., smartphone)
- if depositing KYC coins from an exchange.
-
-
-
-
-## Verify Balance
-
-Boot Tails, open Electrum, balances
-
-
-
-
-## Withdrawal 
-
-Boot Tails, open Electrum,
- create transaction
-
-Insert secure micro SD card into your computer running Tails,
- write unsigned transaction (PSBT) to card
-
-Insert secure micro SD card into Coldcard
- sign transaction
-
-Insert secure micro SD card into your computer running Tails,
- load the signed transaction and broadcast.
-
-Wait for confirmation.
-
-
--->
+<h1 id="appendix-custom-protocol-template">Appendix: Custom Protocol Template<a class="headerlink" href="#appendix-custom-protocol-template" title="Permanent link">&para;</a></h1>
+<p>This is a customizable template for creating your own multisig Bitcoin self-custody protocol.
+It assumes a generic multisig setup (e.g., 2-of-3) with airgapped
+Signing-Devices, a full node for verification, metal seed backups, and
+quarantine rules to prevent contamination between online and offline
+environments. </p>
+<p>All steps adhere strictly to the quarantine rules in <a href="../../sovereignty/level-5/">Level 5: Airgap Quarantine</a>.</p>
+<p>To customize this template:</p>
+<ul>
+<li>Replace generic steps with specifics for your setup, such as hardware (e.g., SeedSigner for all keys in a 2-of-3 multisig).</li>
+<li>Add personal details, like "Retrieve the metal backup from Uncle Bob's safe deposit box."</li>
+<li>Adjust for your threat model, e.g., more quarantine steps if needed.</li>
+<li>Link to relevant sections in this site for deeper guidance, such as <a href="../../sovereignty/level-2/">Level 2: Your Keys</a>.</li>
+</ul>
+<p>Always follow <a href="../../sovereignty/level-7/">Level 7: Multisig Protocols</a> principles: Use airgapped Signing-Devices for signing, verify
+everything through your own <a href="../../sovereignty/level-4/">full node</a>, store seeds on durable metal backups,
+and maintain strict separation between online (watching/broadcasting) and
+offline (signing) processes.</p>
+<hr />
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<p>This section covers the initial configuration of your multisig wallet and keys.
+Perform these steps in a secure, private environment. Ensure all devices are
+airgapped where required, and use quarantine procedures to avoid cross-
+contamination. Customize by specifying your hardware (e.g., "Use SeedSigner for Key 1").</p>
+<details class="info" open="open">
+<summary>Prepare Secure Environments</summary>
+<ol>
+<li>Set up an <a href="../airgapped-computer/">Airgapped-Computer</a> or device for offline operations. This
+   should never connect to the internet.</li>
+<li>Prepare a separate Transaction-Manager for watch-only tasks, connected to
+   your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Establish quarantine rules: Use USB drives or QR codes for data transfer
+   between online and offline environments, and sanitize them after each
+   use.</li>
+<li>Verify all software and firmware: Download from official sources, check
+   signatures, and ensure they are up-to-date.</li>
+<li>Prepare metal backup tools for seed phrases.</li>
+</ol>
+</details>
+<details class="danger" open="open">
+<summary>Generate Keys on Signing-Devices</summary>
+<ol>
+<li>Power on each airgapped Signing-Device (e.g., one per key in your
+   multisig setup; customize: "Use SeedSigner for Key 1, Coldcard for Key 2").</li>
+<li>Generate a new seed phrase on each device, following the manufacturer's
+   instructions for entropy (e.g., using <a href="../dice/">dice</a> rolls if supported).</li>
+<li>Write down the seed phrase temporarily on paper for verification.</li>
+<li>Confirm the seed phrase on the device to ensure accuracy.</li>
+<li>Repeat for each required key in your multisig configuration (e.g., 3
+   devices for a 2-of-3 setup).</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Backup Seeds to Metal</summary>
+<ol>
+<li>Transcribe each seed phrase onto durable <a href="../../sovereignty/level-6/">metal backups</a> (e.g., stainless
+   steel plates).</li>
+<li>Verify the transcription by comparing it to the temporary paper note.</li>
+<li>Destroy the temporary paper note securely (e.g., burn it).</li>
+<li>Store each metal backup in a separate, secure location (e.g., safety
+   deposit boxes or hidden safes; customize: "Key 1 with Uncle Bob").</li>
+<li>Use tamper-evident seals on storage containers.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Export XPUBs/ZPUBs for Watch-Only Wallet</summary>
+<ol>
+<li>On each airgapped Signing-Device, export the extended public key (XPUB
+   or ZPUB for multisig, depending on your address type).</li>
+<li>Transfer the XPUB/ZPUB data to a sanitized USB drive or display as a QR
+   code.</li>
+<li>Move the data to your Transaction-Manager via quarantine (e.g., scan QR or
+   copy from USB).</li>
+<li>Import the XPUBs/ZPUBs into your watch-only wallet software (e.g.,
+   Sparrow or Electrum) to create the multisig descriptor.</li>
+<li>Verify the wallet descriptor matches your intended configuration.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Create and Verify Multisig Wallet Descriptor</summary>
+<ol>
+<li>In your watch-only software, combine the XPUBs/ZPUBs to generate the
+   multisig script or descriptor.</li>
+<li>Save the descriptor securely (e.g., encrypted file on your
+   Transaction-Manager).</li>
+<li>Generate a test receive address and verify it matches expectations.</li>
+<li>Connect to your <a href="../../sovereignty/level-4/">full node</a> to ensure the watch-only wallet syncs
+   correctly.</li>
+<li>Document the descriptor and XPUBs/ZPUBs in your protocol notes.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Validate Addresses for Future Deposits</summary>
+<ol>
+<li>Generate several receive addresses in your watch-only software.</li>
+<li>Transfer the addresses to airgapped Signing-Devices via QR or USB for
+   verification.</li>
+<li>On each Signing-Device, confirm the addresses derive from the correct
+   XPUB/ZPUB.</li>
+<li>Note any derivation paths or address types (e.g., P2WSH for multisig).</li>
+<li>Store validated addresses in a secure, offline list for reference.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Test Setup with Small Transaction</summary>
+<ol>
+<li>Deposit a small amount of Bitcoin to a test address.</li>
+<li>Monitor confirmation on your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Attempt a small withdrawal following the Withdrawal section below.</li>
+<li>Verify the entire process works end-to-end.</li>
+<li>Document any issues and adjust the protocol as needed.</li>
+</ol>
+</details>
+<hr />
+<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
+<p>This section handles receiving Bitcoin securely. Always generate new addresses
+to avoid reuse, and verify everything through your <a href="../../sovereignty/level-4/">full node</a>. Customize with specific sender instructions if needed.</p>
+<details class="info" open="open">
+<summary>Generate Receive Address</summary>
+<ol>
+<li>Open your watch-only wallet software on the Transaction-Manager.</li>
+<li>Generate a new receive address from the multisig descriptor.</li>
+<li>Label the address for tracking (e.g., "Deposit from Exchange - Date").</li>
+<li>Copy the address securely.</li>
+<li>Optionally, create a QR code for easy sharing.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Verify Address on Airgapped Devices</summary>
+<ol>
+<li>Transfer the address data (e.g., via QR or USB) to each airgapped
+   Signing-Device.</li>
+<li>On each device, confirm the address matches the expected derivation from
+   your XPUB/ZPUB.</li>
+<li>Ensure all required keys agree on the address validity.</li>
+<li>Return confirmation data if needed (e.g., signed message).</li>
+<li>Sanitize transfer media after use.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Share Address with Sender</summary>
+<ol>
+<li>Provide the verified address to the sender via secure channel (e.g.,
+   encrypted message).</li>
+<li>Instruct the sender to double-check the address before sending.</li>
+<li>Avoid public exposure of the address.</li>
+<li>Note the expected amount and sender for reference.</li>
+<li>Wait for the transaction to appear.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Monitor Incoming Transaction</summary>
+<ol>
+<li>Use your <a href="../../sovereignty/level-4/">full node</a> or watch-only software to scan for the transaction.</li>
+<li>Check transaction details: Amount, fees, and inputs.</li>
+<li>Wait for initial confirmation (e.g., 1 block).</li>
+<li>Monitor for RBF (Replace-By-Fee) flags if applicable.</li>
+<li>Log the transaction ID (TXID) in your records.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Confirm Finality</summary>
+<ol>
+<li>Wait for sufficient confirmations (e.g., 6 blocks for standard security).</li>
+<li>Verify the transaction on your <a href="../../sovereignty/level-4/">full node</a> to ensure it's in the
+   blockchain.</li>
+<li>Update your watch-only wallet balance.</li>
+<li>Optionally, check against a separate full node for redundancy.</li>
+<li>Document the deposit as complete.</li>
+</ol>
+</details>
+<hr />
+<h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
+<p>This section details spending Bitcoin via multisig signing. Use this for
+transfers or spends, ensuring all steps are followed to avoid errors. Customize with specific recipient details.</p>
+<details class="info" open="open">
+<summary>Create Unsigned Transaction</summary>
+<ol>
+<li>Open your watch-only wallet software on the Transaction-Manager.</li>
+<li>Select UTXOs to spend and specify recipient address(es) and amounts.</li>
+<li>Set appropriate fees based on mempool conditions (use your <a href="../../sovereignty/level-4/">full node</a> for
+   estimates).</li>
+<li>Generate the unsigned transaction (e.g., PSBT file).</li>
+<li>Save the unsigned transaction to a sanitized USB or export as QR.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Transfer Unsigned Transaction to Airgapped Devices</summary>
+<ol>
+<li>Move the unsigned transaction data to each airgapped Signing-Device via
+   quarantine (e.g., USB or QR).</li>
+<li>Ensure no internet-connected devices are nearby.</li>
+<li>Verify the transfer media is clean before insertion.</li>
+<li>Load the transaction on the device without signing yet.</li>
+<li>Inspect transaction details on the device screen (e.g., outputs, fees).</li>
+</ol>
+</details>
+<details class="danger" open="open">
+<summary>Sign Transaction on Each Required Signing-Device</summary>
+<ol>
+<li>On the first Signing-Device, review and approve the transaction details.</li>
+<li>Sign the transaction, generating a partial signature.</li>
+<li>Export the partially signed transaction (e.g., to USB or QR).</li>
+<li>Repeat for each required key/device in your multisig threshold (e.g., 2
+   out of 3; customize: "Sign with SeedSigner Key 1 first").</li>
+<li>Ensure devices remain airgapped throughout.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Combine Signatures and Finalize Transaction</summary>
+<ol>
+<li>Transfer all partial signatures back to the Transaction-Manager via
+   quarantine.</li>
+<li>In your watch-only software, combine the signatures into a fully signed
+   transaction.</li>
+<li>Verify the final transaction is complete and valid.</li>
+<li>Check for any errors in signature combination.</li>
+<li>Save the signed transaction.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Broadcast Signed Transaction</summary>
+<ol>
+<li>Connect to your <a href="../../sovereignty/level-4/">full node</a> or a trusted broadcaster.</li>
+<li>Submit the signed transaction to the network.</li>
+<li>Monitor for acceptance into the mempool.</li>
+<li>Track confirmations on your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Log the TXID and update records.</li>
+</ol>
+</details>
+<hr />
+<h2 id="check-balance">Check Balance<a class="headerlink" href="#check-balance" title="Permanent link">&para;</a></h2>
+<p>This section explains how to view balances without exposing keys. Always use
+your own <a href="../../sovereignty/level-4/">full node</a> for primary verification; external sources are optional and
+for cross-checking only. Never expose your ZPUB publicly.</p>
+<details class="info" open="open">
+<summary>Sync Watch-Only Wallet or Full Node</summary>
+<ol>
+<li>Open your watch-only software on the Transaction-Manager.</li>
+<li>Ensure it's connected to your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Rescan or sync the blockchain if needed.</li>
+<li>Wait for full synchronization.</li>
+<li>Note any unconfirmed transactions.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Query Balance for Multisig Addresses</summary>
+<ol>
+<li>View the total balance in your watch-only wallet.</li>
+<li>Break down by confirmed and unconfirmed UTXOs.</li>
+<li>List recent transactions for context.</li>
+<li>Calculate available spendable amount (accounting for fees).</li>
+<li>Document the balance in your secure logs.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Optional: Verify Against Separate Full Node</summary>
+<ol>
+<li>If using a secondary <a href="../../sovereignty/level-4/">full node</a>, query the same addresses there.</li>
+<li>Compare balances and UTXOs for consistency.</li>
+<li>Investigate any discrepancies immediately.</li>
+<li>Avoid public block explorers unless absolutely necessary.</li>
+<li>Never input your ZPUB into online tools.</li>
+</ol>
+</details>
+<hr />
+<h2 id="recovery">Recovery<a class="headerlink" href="#recovery" title="Permanent link">&para;</a></h2>
+<p>This section covers restoring from backups or handling lost keys. Use this in
+case of device failure, loss, or other issues. Test this process periodically. Customize with specific backup locations (e.g., "Contact Aunt Jane for Key 3").</p>
+<details class="info" open="open">
+<summary>Identify the Issue</summary>
+<ol>
+<li>Determine what needs recovery (e.g., lost key, damaged device, full
+   wallet rebuild).</li>
+<li>Gather all available <a href="../../sovereignty/level-6/">metal backups</a> and protocol documents.</li>
+<li>Assess if the multisig threshold can still be met (e.g., 2-of-3 with one
+   lost).</li>
+<li>If threshold can't be met, proceed to full seed recovery.</li>
+<li>Document the recovery attempt.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Retrieve Metal Backups</summary>
+<ol>
+<li>Access your secure storage locations (customize: "Retrieve Key 1 from Uncle Bob").</li>
+<li>Check tamper-evident seals for integrity.</li>
+<li>Transcribe seeds from metal to temporary paper if needed.</li>
+<li>Verify transcription accuracy.</li>
+<li>Handle backups in a private, secure environment.</li>
+</ol>
+</details>
+<details class="danger" open="open">
+<summary>Restore Keys on New Signing-Devices</summary>
+<ol>
+<li>Acquire new airgapped Signing-Devices (e.g., same model as original; customize: "Buy new SeedSigner").</li>
+<li>Enter the seed phrase from backup on each device.</li>
+<li>Verify the restored wallet matches the original (e.g., check XPUB/ZPUB).</li>
+<li>Regenerate any necessary data (e.g., export new XPUBs if paths differ).</li>
+<li>Destroy temporary paper notes securely.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Rebuild Multisig Wallet Descriptor</summary>
+<ol>
+<li>Export XPUBs/ZPUBs from restored devices to the Transaction-Manager via
+   quarantine.</li>
+<li>In watch-only software, recreate the multisig descriptor.</li>
+<li>Verify it matches the original descriptor.</li>
+<li>Rescan the blockchain on your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Confirm all UTXOs are detected.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Test Recovery with Small Amount</summary>
+<ol>
+<li>Deposit a small test amount if possible.</li>
+<li>Follow the Withdrawal section to spend it.</li>
+<li>Ensure the recovered setup works fully.</li>
+<li>Update protocol documents with any changes.</li>
+<li>Store new backups if devices were replaced.</li>
+</ol>
+</details>
+<hr />
+<h2 id="maintenance">Maintenance<a class="headerlink" href="#maintenance" title="Permanent link">&para;</a></h2>
+<p>This section outlines ongoing tasks to keep your protocol secure. Perform these
+periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks as needed.</p>
+<details class="info" open="open">
+<summary>Verify Metal Backups</summary>
+<ol>
+<li>Access backups in rotation (e.g., one per session).</li>
+<li>Check for damage or corrosion.</li>
+<li>Transcribe and verify a seed on a test device.</li>
+<li>Reseal and return to storage.</li>
+<li>Update locations if needed.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Update Software and Firmware</summary>
+<ol>
+<li>Check for updates on official sites.</li>
+<li>Verify signatures before installing.</li>
+<li>Update watch-only software and <a href="../../sovereignty/level-4/">full node</a> first.</li>
+<li>For Signing-Devices, update firmware airgapped if possible.</li>
+<li>Test compatibility post-update.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Run Full Node Health Checks</summary>
+<ol>
+<li>Verify node synchronization with the blockchain.</li>
+<li>Check disk space, uptime, and connections.</li>
+<li>Prune if needed, but retain necessary data.</li>
+<li>Backup node configuration.</li>
+<li>Restart and monitor for errors.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Simulate Full Protocol Run</summary>
+<ol>
+<li>Perform a test deposit and withdrawal with minimal funds.</li>
+<li>Include recovery simulation (without actual loss).</li>
+<li>Time the process and note improvements.</li>
+<li>Involve heirs in a dry run if applicable.</li>
+<li>Update the protocol document with lessons learned.</li>
+</ol>
+</details>
+<hr />
+<h2 id="inheritance">Inheritance<a class="headerlink" href="#inheritance" title="Permanent link">&para;</a></h2>
+<p>This section provides instructions for heirs or trusted parties to access funds.
+Share this section securely with them in advance, but withhold sensitive
+details like backup locations until needed. Customize with heir-specific roles.</p>
+<details class="info" open="open">
+<summary>Provide Overview to Heirs</summary>
+<ol>
+<li>Explain the multisig setup and protocol basics to trusted parties (customize: "Brief family members on 2-of-3 setup").</li>
+<li>Share a redacted version of this document (e.g., without locations).</li>
+<li>Designate roles (e.g., who holds which key; customize: "Uncle Bob holds Key 3").</li>
+<li>Discuss legal aspects (e.g., wills, dead-man switches).</li>
+<li>Ensure heirs understand the importance of security.</li>
+</ol>
+</details>
+<details class="info" open="open">
+<summary>Locate and Access Backups Securely</summary>
+<ol>
+<li>Provide clues or instructions for finding <a href="../../sovereignty/level-6/">metal backups</a> (e.g., via
+   lawyer or safe; customize: "Check my will for locations").</li>
+<li>Instruct on checking tamper seals.</li>
+<li>Advise using a secure environment for access.</li>
+<li>Recommend consulting a Bitcoin expert if needed.</li>
+<li>Warn against rushing or public exposure.</li>
+</ol>
+</details>
+<details class="warning" open="open">
+<summary>Follow Setup/Recovery Steps as Needed</summary>
+<ol>
+<li>If keys are intact, follow the Setup section to initialize devices.</li>
+<li>For lost elements, use the Recovery section.</li>
+<li>Rebuild the watch-only wallet on a new Transaction-Manager.</li>
+<li>Verify everything through a <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Test with a small transaction if possible.</li>
+</ol>
+</details>
+<details class="danger" open="open">
+<summary>Execute a Withdrawal if Authorized</summary>
+<ol>
+<li>Gather required Signing-Devices and meet the multisig threshold.</li>
+<li>Follow the Withdrawal section carefully.</li>
+<li>Send to a secure, heir-controlled address.</li>
+<li>Monitor and confirm the transaction.</li>
+<li>Document the process for records.</li>
+</ol>
+</details>
 
 
 

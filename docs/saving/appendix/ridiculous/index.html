@@ -2787,6 +2787,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seed-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seed Creation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proof-of-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proof of Control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#address-verification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Address Verification
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deposit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verify-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verify balance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#withdrawal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Withdrawal
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2805,112 +2882,66 @@
 <div class="admonition warning">
 <p class="admonition-title">work in progress</p>
 </div>
-<!--
-
-
-???+ info "Who is this good for?"
-    Advanced users looking for a
-    robust self custody solution
-    without any single-point of compromise.
-
-No single-point to compromise.
-Multi-sig split across different air-gapped devices.
-
-
-## Setup
-
-???+ check "Prerequisites"
-    1+ air-gapped device with micro SD card reader
-
-    1+ air-gapped device with camera
-
-    1 Micro SD card
-
-    1 USB card loaded with Tails OS (Electrum persisted)
-
-    1 laptop with wifi (that can be booted with Tails OS)
-
-
-
-### Seed Creation
-
-???+ danger "Create Keys"
-    Create 5+ high-entropy seed phrases
-
-    Create metal backups
-
-    Transfer master public keys to PC
-
-    Generate 2/2, 3/5, etc, multisig
-     ... using Signer-1 and Signer-2
-
-    Transfer multisig master public keys to PC
-
-
-### Proof of Control
-
-???+ danger "Proof of Control"
-    Deposit small amount on each single-sig.
-
-    Withdraw to multisig, for each single-sig 
-
-    Withdraw back to single-sig, for each multi-sig
-
-    All wallets have received and sent.
-
-    Single-sig stores the small amounts, 
-     and can be used under duress 
-
-    Large deposits will go to multi-sig,
-     and can only be accessed by using
-     2+ signing devices
-
-
-
-### Address Verification
-
-Only verified receive addresses should be used.
-
-Check first, middle, and final characters.
+<details class="info" open="open">
+<summary>Who is this good for?</summary>
+<p>Advanced users looking for a
+robust self custody solution
+without any single-point of compromise.</p>
+</details>
+<p>No single-point to compromise.
+Multi-sig split across different air-gapped devices.</p>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<details class="check" open="open">
+<summary>Prerequisites</summary>
+<p>1+ air-gapped device with micro SD card reader</p>
+<p>1+ air-gapped device with camera</p>
+<p>1 Micro SD card</p>
+<p>1 USB card loaded with Tails OS (Electrum persisted)</p>
+<p>1 laptop with wifi (that can be booted with Tails OS)</p>
+</details>
+<h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
+<details class="danger" open="open">
+<summary>Create Keys</summary>
+<p>Create 5+ high-entropy seed phrases</p>
+<p>Create metal backups</p>
+<p>Transfer master public keys to PC</p>
+<p>Generate 2/2, 3/5, etc, multisig
+ ... using Signer-1 and Signer-2</p>
+<p>Transfer multisig master public keys to PC</p>
+</details>
+<h3 id="proof-of-control">Proof of Control<a class="headerlink" href="#proof-of-control" title="Permanent link">&para;</a></h3>
+<details class="danger" open="open">
+<summary>Proof of Control</summary>
+<p>Deposit small amount on each single-sig.</p>
+<p>Withdraw to multisig, for each single-sig </p>
+<p>Withdraw back to single-sig, for each multi-sig</p>
+<p>All wallets have received and sent.</p>
+<p>Single-sig stores the small amounts, 
+ and can be used under duress </p>
+<p>Large deposits will go to multi-sig,
+ and can only be accessed by using
+ 2+ signing devices</p>
+</details>
+<h3 id="address-verification">Address Verification<a class="headerlink" href="#address-verification" title="Permanent link">&para;</a></h3>
+<p>Only verified receive addresses should be used.</p>
+<p>Check first, middle, and final characters.
 Compare Signer-1 and Signer-2 addresses, then
- compare to Tails addresses.
-
-Each address can be used only once!
-
-
-
-
-## Deposit 
-
-Master Public Key is available on Tails,
+ compare to Tails addresses.</p>
+<p>Each address can be used only once!</p>
+<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
+<p>Master Public Key is available on Tails,
  where verified receive addresses can be 
- transmitted.
-
-
-
-
-## Verify balance
-
-Boot Tails OS, open Electrum
-
-
-
-## Withdrawal 
-
-Use Tails to generate transaction, 
- copy unsigned transaction to Signer-1 (micro SD)
-
-Sign transaction with relevant wallets,
+ transmitted.</p>
+<h2 id="verify-balance">Verify balance<a class="headerlink" href="#verify-balance" title="Permanent link">&para;</a></h2>
+<p>Boot Tails OS, open Electrum</p>
+<h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
+<p>Use Tails to generate transaction, 
+ copy unsigned transaction to Signer-1 (micro SD)</p>
+<p>Sign transaction with relevant wallets,
  then copy partially signed transaction
- to Signer-2 (QR code)
-
-Sign transaction with relevant wallets,
- then copy signed transaction back to Tails
-
-
-
-
--->
+ to Signer-2 (QR code)</p>
+<p>Sign transaction with relevant wallets,
+ then copy signed transaction back to Tails</p>
 
 
 
