@@ -3000,92 +3000,71 @@
 
 
 <h1 id="appendix-custom-protocol-template">Appendix: Custom Protocol Template<a class="headerlink" href="#appendix-custom-protocol-template" title="Permanent link">&para;</a></h1>
-<p>This is a customizable template for creating your own multisig Bitcoin self-custody protocol.
-It assumes a generic multisig setup (e.g., 2-of-3) with airgapped
-Signing-Devices, a full node for verification, metal seed backups, and
+<p>This is a customizable template for creating your own <a href="../../sovereignty/level-7/">multisig</a> Bitcoin self-custody protocol.
+It assumes a generic <a href="../../sovereignty/level-7/">multisig</a> setup (e.g., 2-of-3) with airgapped
+Signing-Devices, a <a href="../../sovereignty/level-4/">full node</a> for verification, <a href="../../sovereignty/level-6/">metal seed backups</a>, and
 quarantine rules to prevent contamination between online and offline
 environments. </p>
-<p>All steps adhere strictly to the quarantine rules in <a href="../../sovereignty/level-5/">Level 5: Airgap Quarantine</a>.</p>
-<p>To customize this template:</p>
-<ul>
-<li>Replace generic steps with specifics for your setup, such as hardware (e.g., SeedSigner for all keys in a 2-of-3 multisig).</li>
-<li>Add personal details, like "Retrieve the metal backup from Uncle Bob's safe deposit box."</li>
-<li>Adjust for your threat model, e.g., more quarantine steps if needed.</li>
-<li>Link to relevant sections in this site for deeper guidance, such as <a href="../../sovereignty/level-2/">Level 2: Your Keys</a>.</li>
-</ul>
-<p>Always follow <a href="../../sovereignty/level-7/">Level 7: Multisig Protocols</a> principles: Use airgapped Signing-Devices for signing, verify
-everything through your own <a href="../../sovereignty/level-4/">full node</a>, store seeds on durable metal backups,
-and maintain strict separation between online (watching/broadcasting) and
-offline (signing) processes.</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>This section covers the initial configuration of your multisig wallet and keys.
+<p>This section covers the initial configuration of your <a href="../../sovereignty/level-7/">multisig</a> wallet and keys.
 Perform these steps in a secure, private environment. Ensure all devices are
-airgapped where required, and use quarantine procedures to avoid cross-
-contamination. Customize by specifying your hardware (e.g., "Use SeedSigner for Key 1").</p>
+airgapped where required, and use <a href="../../sovereignty/level-5/">quarantine procedures</a> to avoid cross-
+contamination.</p>
 <details class="info" open="open">
 <summary>Prepare Secure Environments</summary>
 <ol>
-<li>Set up an <a href="../airgapped-computer/">Airgapped-Computer</a> or device for offline operations. This
-   should never connect to the internet.</li>
+<li>Set up an <a href="../airgapped-computer/">Airgapped-Computer</a> for offline operations.</li>
 <li>Prepare a separate Transaction-Manager for watch-only tasks, connected to
    your <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Establish quarantine rules: Use USB drives or QR codes for data transfer
-   between online and offline environments, and sanitize them after each
-   use.</li>
+<li>Follow the <a href="../../sovereignty/level-5/">quarantine rules in Level 5</a>.</li>
 <li>Verify all software and firmware: Download from official sources, check
    signatures, and ensure they are up-to-date.</li>
 <li>Prepare metal backup tools for seed phrases.</li>
+<li>Boot the Transaction-Manager using Tails OS as described in <a href="../../sovereignty/level-2/">Level 2: Your Keys</a>.</li>
+<li><em>optional</em> install Sparrow on the Transaction-Manager via Tails OS with <a href="https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/">persistent storage</a></li>
 </ol>
 </details>
 <details class="danger" open="open">
 <summary>Generate Keys on Signing-Devices</summary>
 <ol>
 <li>Power on each airgapped Signing-Device (e.g., one per key in your
-   multisig setup; customize: "Use SeedSigner for Key 1, Coldcard for Key 2").</li>
-<li>Generate a new seed phrase on each device, following the manufacturer's
-   instructions for entropy (e.g., using <a href="../dice/">dice</a> rolls if supported).</li>
+   <a href="../../sovereignty/level-7/">multisig</a> setup).</li>
+<li>Generate a new seed phrase on each Signing-Device (e.g., using <a href="../dice/">dice</a> rolls to ensure entropy).</li>
 <li>Write down the seed phrase temporarily on paper for verification.</li>
 <li>Confirm the seed phrase on the device to ensure accuracy.</li>
-<li>Repeat for each required key in your multisig configuration (e.g., 3
+<li>Repeat for each required key in your <a href="../../sovereignty/level-7/">multisig</a> configuration (e.g., 3
    devices for a 2-of-3 setup).</li>
 </ol>
 </details>
 <details class="info" open="open">
 <summary>Backup Seeds to Metal</summary>
 <ol>
-<li>Transcribe each seed phrase onto durable <a href="../../sovereignty/level-6/">metal backups</a> (e.g., stainless
-   steel plates).</li>
-<li>Verify the transcription by comparing it to the temporary paper note.</li>
-<li>Destroy the temporary paper note securely (e.g., burn it).</li>
-<li>Store each metal backup in a separate, secure location (e.g., safety
-   deposit boxes or hidden safes; customize: "Key 1 with Uncle Bob").</li>
+<li>Transcribe each seed phrase onto durable <a href="../../sovereignty/level-6/">metal backups</a>.</li>
+<li>Verify the metal seed by comparing it to the temporary paper note.</li>
+<li>Destroy the temporary paper note (e.g., burn it).</li>
+<li>Store each metal backup in a separate, secure location.</li>
 <li>Use tamper-evident seals on storage containers.</li>
 </ol>
 </details>
 <details class="warning" open="open">
-<summary>Export XPUBs/ZPUBs for Watch-Only Wallet</summary>
+<summary>Export ZPUBs to Transaction-Manager</summary>
 <ol>
-<li>On each airgapped Signing-Device, export the extended public key (XPUB
-   or ZPUB for multisig, depending on your address type).</li>
-<li>Transfer the XPUB/ZPUB data to a sanitized USB drive or display as a QR
-   code.</li>
-<li>Move the data to your Transaction-Manager via quarantine (e.g., scan QR or
-   copy from USB).</li>
-<li>Import the XPUBs/ZPUBs into your watch-only wallet software (e.g.,
-   Sparrow or Electrum) to create the multisig descriptor.</li>
+<li>On each Signing-Device, export the extended public key (ZPUB for <a href="../../sovereignty/level-7/">multisig</a>).</li>
+<li>Transfer the ZPUB data to your Transaction-Manager via <a href="../../sovereignty/level-5/">quarantine</a> procedure.</li>
+<li>Import the ZPUB into your Transaction-Manager (Tails OS).</li>
 <li>Verify the wallet descriptor matches your intended configuration.</li>
 </ol>
 </details>
 <details class="info" open="open">
 <summary>Create and Verify Multisig Wallet Descriptor</summary>
 <ol>
-<li>In your watch-only software, combine the XPUBs/ZPUBs to generate the
-   multisig script or descriptor.</li>
+<li>In Sparrow on Tails OS, combine the XPUBs/ZPUBs to generate the
+   <a href="../../sovereignty/level-7/">multisig</a> script or descriptor.</li>
 <li>Save the descriptor securely (e.g., encrypted file on your
    Transaction-Manager).</li>
 <li>Generate a test receive address and verify it matches expectations.</li>
-<li>Connect to your <a href="../../sovereignty/level-4/">full node</a> to ensure the watch-only wallet syncs
+<li>Connect to your <a href="../../sovereignty/level-4/">full node</a> to ensure the Transaction-Manager (Tails OS) syncs
    correctly.</li>
 <li>Document the descriptor and XPUBs/ZPUBs in your protocol notes.</li>
 </ol>
@@ -3093,12 +3072,12 @@ contamination. Customize by specifying your hardware (e.g., "Use SeedSigner for 
 <details class="warning" open="open">
 <summary>Validate Addresses for Future Deposits</summary>
 <ol>
-<li>Generate several receive addresses in your watch-only software.</li>
+<li>Generate several receive addresses in Sparrow on Tails OS.</li>
 <li>Transfer the addresses to airgapped Signing-Devices via QR or USB for
    verification.</li>
 <li>On each Signing-Device, confirm the addresses derive from the correct
    XPUB/ZPUB.</li>
-<li>Note any derivation paths or address types (e.g., P2WSH for multisig).</li>
+<li>Note any derivation paths or address types (e.g., P2WSH for <a href="../../sovereignty/level-7/">multisig</a>).</li>
 <li>Store validated addresses in a secure, offline list for reference.</li>
 </ol>
 </details>
@@ -3119,8 +3098,8 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <details class="info" open="open">
 <summary>Generate Receive Address</summary>
 <ol>
-<li>Open your watch-only wallet software on the Transaction-Manager.</li>
-<li>Generate a new receive address from the multisig descriptor.</li>
+<li>Open Sparrow on the Transaction-Manager.</li>
+<li>Generate a new receive address from the <a href="../../sovereignty/level-7/">multisig</a> descriptor.</li>
 <li>Label the address for tracking (e.g., "Deposit from Exchange - Date").</li>
 <li>Copy the address securely.</li>
 <li>Optionally, create a QR code for easy sharing.</li>
@@ -3152,7 +3131,7 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <details class="info" open="open">
 <summary>Monitor Incoming Transaction</summary>
 <ol>
-<li>Use your <a href="../../sovereignty/level-4/">full node</a> or watch-only software to scan for the transaction.</li>
+<li>Use your <a href="../../sovereignty/level-4/">full node</a> or Sparrow on Tails OS to scan for the transaction.</li>
 <li>Check transaction details: Amount, fees, and inputs.</li>
 <li>Wait for initial confirmation (e.g., 1 block).</li>
 <li>Monitor for RBF (Replace-By-Fee) flags if applicable.</li>
@@ -3165,19 +3144,19 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <li>Wait for sufficient confirmations (e.g., 6 blocks for standard security).</li>
 <li>Verify the transaction on your <a href="../../sovereignty/level-4/">full node</a> to ensure it's in the
    blockchain.</li>
-<li>Update your watch-only wallet balance.</li>
+<li>Update your Transaction-Manager (Tails OS) balance.</li>
 <li>Optionally, check against a separate full node for redundancy.</li>
 <li>Document the deposit as complete.</li>
 </ol>
 </details>
 <hr />
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
-<p>This section details spending Bitcoin via multisig signing. Use this for
+<p>This section details spending Bitcoin via <a href="../../sovereignty/level-7/">multisig</a> signing. Use this for
 transfers or spends, ensuring all steps are followed to avoid errors. Customize with specific recipient details.</p>
 <details class="info" open="open">
 <summary>Create Unsigned Transaction</summary>
 <ol>
-<li>Open your watch-only wallet software on the Transaction-Manager.</li>
+<li>Open Sparrow on the Transaction-Manager.</li>
 <li>Select UTXOs to spend and specify recipient address(es) and amounts.</li>
 <li>Set appropriate fees based on mempool conditions (use your <a href="../../sovereignty/level-4/">full node</a> for
    estimates).</li>
@@ -3189,8 +3168,8 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <summary>Transfer Unsigned Transaction to Airgapped Devices</summary>
 <ol>
 <li>Move the unsigned transaction data to each airgapped Signing-Device via
-   quarantine (e.g., USB or QR).</li>
-<li>Ensure no internet-connected devices are nearby.</li>
+   <a href="../../sovereignty/level-5/">quarantine</a> (e.g., USB or QR).</li>
+<li>Ensure no Internet-connected devices are nearby.</li>
 <li>Verify the transfer media is clean before insertion.</li>
 <li>Load the transaction on the device without signing yet.</li>
 <li>Inspect transaction details on the device screen (e.g., outputs, fees).</li>
@@ -3202,8 +3181,8 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <li>On the first Signing-Device, review and approve the transaction details.</li>
 <li>Sign the transaction, generating a partial signature.</li>
 <li>Export the partially signed transaction (e.g., to USB or QR).</li>
-<li>Repeat for each required key/device in your multisig threshold (e.g., 2
-   out of 3; customize: "Sign with SeedSigner Key 1 first").</li>
+<li>Repeat for each required key/device in your <a href="../../sovereignty/level-7/">multisig</a> threshold (e.g., 2
+   out of 3).</li>
 <li>Ensure devices remain airgapped throughout.</li>
 </ol>
 </details>
@@ -3211,8 +3190,8 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <summary>Combine Signatures and Finalize Transaction</summary>
 <ol>
 <li>Transfer all partial signatures back to the Transaction-Manager via
-   quarantine.</li>
-<li>In your watch-only software, combine the signatures into a fully signed
+   <a href="../../sovereignty/level-5/">quarantine</a>.</li>
+<li>In Sparrow on Tails OS, combine the signatures into a fully signed
    transaction.</li>
 <li>Verify the final transaction is complete and valid.</li>
 <li>Check for any errors in signature combination.</li>
@@ -3237,7 +3216,7 @@ for cross-checking only. Never expose your ZPUB publicly.</p>
 <details class="info" open="open">
 <summary>Sync Watch-Only Wallet or Full Node</summary>
 <ol>
-<li>Open your watch-only software on the Transaction-Manager.</li>
+<li>Open Sparrow on the Transaction-Manager.</li>
 <li>Ensure it's connected to your <a href="../../sovereignty/level-4/">full node</a>.</li>
 <li>Rescan or sync the blockchain if needed.</li>
 <li>Wait for full synchronization.</li>
@@ -3247,7 +3226,7 @@ for cross-checking only. Never expose your ZPUB publicly.</p>
 <details class="info" open="open">
 <summary>Query Balance for Multisig Addresses</summary>
 <ol>
-<li>View the total balance in your watch-only wallet.</li>
+<li>View the total balance in Sparrow on Tails OS.</li>
 <li>Break down by confirmed and unconfirmed UTXOs.</li>
 <li>List recent transactions for context.</li>
 <li>Calculate available spendable amount (accounting for fees).</li>
@@ -3274,7 +3253,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <li>Determine what needs recovery (e.g., lost key, damaged device, full
    wallet rebuild).</li>
 <li>Gather all available <a href="../../sovereignty/level-6/">metal backups</a> and protocol documents.</li>
-<li>Assess if the multisig threshold can still be met (e.g., 2-of-3 with one
+<li>Assess if the <a href="../../sovereignty/level-7/">multisig</a> threshold can still be met (e.g., 2-of-3 with one
    lost).</li>
 <li>If threshold can't be met, proceed to full seed recovery.</li>
 <li>Document the recovery attempt.</li>
@@ -3293,7 +3272,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <details class="danger" open="open">
 <summary>Restore Keys on New Signing-Devices</summary>
 <ol>
-<li>Acquire new airgapped Signing-Devices (e.g., same model as original; customize: "Buy new SeedSigner").</li>
+<li>Acquire new airgapped Signing-Devices (e.g., same model as original).</li>
 <li>Enter the seed phrase from backup on each device.</li>
 <li>Verify the restored wallet matches the original (e.g., check XPUB/ZPUB).</li>
 <li>Regenerate any necessary data (e.g., export new XPUBs if paths differ).</li>
@@ -3304,8 +3283,8 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <summary>Rebuild Multisig Wallet Descriptor</summary>
 <ol>
 <li>Export XPUBs/ZPUBs from restored devices to the Transaction-Manager via
-   quarantine.</li>
-<li>In watch-only software, recreate the multisig descriptor.</li>
+   <a href="../../sovereignty/level-5/">quarantine</a>.</li>
+<li>In Sparrow on Tails OS, recreate the <a href="../../sovereignty/level-7/">multisig</a> descriptor.</li>
 <li>Verify it matches the original descriptor.</li>
 <li>Rescan the blockchain on your <a href="../../sovereignty/level-4/">full node</a>.</li>
 <li>Confirm all UTXOs are detected.</li>
@@ -3340,7 +3319,7 @@ periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks a
 <ol>
 <li>Check for updates on official sites.</li>
 <li>Verify signatures before installing.</li>
-<li>Update watch-only software and <a href="../../sovereignty/level-4/">full node</a> first.</li>
+<li>Update Sparrow on Tails OS and <a href="../../sovereignty/level-4/">full node</a> first.</li>
 <li>For Signing-Devices, update firmware airgapped if possible.</li>
 <li>Test compatibility post-update.</li>
 </ol>
@@ -3373,7 +3352,7 @@ details like backup locations until needed. Customize with heir-specific roles.<
 <details class="info" open="open">
 <summary>Provide Overview to Heirs</summary>
 <ol>
-<li>Explain the multisig setup and protocol basics to trusted parties (customize: "Brief family members on 2-of-3 setup").</li>
+<li>Explain the <a href="../../sovereignty/level-7/">multisig</a> setup and protocol basics to trusted parties (customize: "Brief family members on 2-of-3 setup").</li>
 <li>Share a redacted version of this document (e.g., without locations).</li>
 <li>Designate roles (e.g., who holds which key; customize: "Uncle Bob holds Key 3").</li>
 <li>Discuss legal aspects (e.g., wills, dead-man switches).</li>
@@ -3396,7 +3375,7 @@ details like backup locations until needed. Customize with heir-specific roles.<
 <ol>
 <li>If keys are intact, follow the Setup section to initialize devices.</li>
 <li>For lost elements, use the Recovery section.</li>
-<li>Rebuild the watch-only wallet on a new Transaction-Manager.</li>
+<li>Rebuild the Transaction-Manager (Tails OS) on a new Transaction-Manager.</li>
 <li>Verify everything through a <a href="../../sovereignty/level-4/">full node</a>.</li>
 <li>Test with a small transaction if possible.</li>
 </ol>
@@ -3404,7 +3383,7 @@ details like backup locations until needed. Customize with heir-specific roles.<
 <details class="danger" open="open">
 <summary>Execute a Withdrawal if Authorized</summary>
 <ol>
-<li>Gather required Signing-Devices and meet the multisig threshold.</li>
+<li>Gather required Signing-Devices and meet the <a href="../../sovereignty/level-7/">multisig</a> threshold.</li>
 <li>Follow the Withdrawal section carefully.</li>
 <li>Send to a secure, heir-controlled address.</li>
 <li>Monitor and confirm the transaction.</li>
