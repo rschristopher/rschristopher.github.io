@@ -2,7 +2,6 @@
 
 !!! warning "work in progress"
 
-<!--
 
 ???+ info "Who is this good for?"
     This protocol
@@ -196,15 +195,23 @@ This is a 3-step process ...
 
 
 
-## Additional Security Concerns
-
-You may want to consider enhancing this
- protocol with more advanced techniques.
-
-+ Metal seed backup
-+ Run a full node
-+ Coinjoin and other privacy techniques
-+ Multi-sig 
 
 
--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

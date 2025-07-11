@@ -15,7 +15,6 @@ No persistance of private keys or seed phrases on any electronic device.
 
 !!! warning "work in progress"
 
-<!--
 
 
 
@@ -134,5 +133,4 @@ Sign transaction with relevant wallets,
 
 
 
--->
 
