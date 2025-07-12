@@ -2980,13 +2980,38 @@ The most challenging aspect is not the device, but the discipline used to ensure
 <h2 id="quarantine-rules">Quarantine Rules<a class="headerlink" href="#quarantine-rules" title="Permanent link">&para;</a></h2>
 <p>An airgap quarantine is typically more involved than a simple network airgap.
 By adhering to these rules you ensure maximum security for your savings.</p>
+<p>To achieve nuclear-launch-code-level security, follow these rules as a concise, numbered checklist. Each includes a brief rationale for clarity and enforcement. The focus is on absolute isolation, verifiable processes, and layered defenses against physical, digital, and human threats. Adhere to them without exception during any session involving seeds or transaction signing.</p>
 <ol>
-<li>No device can cross the quarantine (except the transaction manager via QR codes).</li>
-<li>No device can be exposed to your seed phrases (except your signing device).</li>
-<li>Stow all smartphones in farraday bags outside the room where you will power on your signing device. Assume they are actively trying to steal your keys (and your Bitcoin).</li>
-<li>Ensure there are no electronic devices in the vicinity of your signing device (including speakers and any "smart" devices).</li>
-<li>Ensure you are not near a window and that you have complete privacy.</li>
+<li>
+<p><strong>No device or data crosses the quarantine except via QR codes</strong>: Limit transfers between the Transaction-Manager and Airgapped-Computer to visual QR codes only; ban USB, MicroSD, or any physical media to eliminate malware vectors. <em>Rationale</em>: Prevents hidden payloads; QR enforces manual verification.</p>
+</li>
+<li>
+<p><strong>Expose seed phrases only on the Signing-Device</strong>: Never display, write, or input seeds on any other component; derive keys solely within this isolated environment. <em>Rationale</em>: Contains the most critical secret to one tamper-resistant point, reducing theft risk.</p>
+</li>
+<li>
+<p><strong>Stow all smartphones and personal electronics in Faraday bags outside the room</strong>: Power them off first and place in shielded bags; assume they are actively compromised for surveillance or key theft. <em>Rationale</em>: Blocks remote activation of microphones, cameras, or transmitters.</p>
+</li>
+<li>
+<p><strong>Ban all electronic devices near the Signing-Device</strong>: Exclude speakers, smart devices, fans, or anything with potential for acoustic/electromagnetic leaks; use a dedicated, shielded room if possible. <em>Rationale</em>: Mitigates side-channel attacks like audio-based data exfiltration.</p>
+</li>
+<li>
+<p><strong>Ensure complete physical privacy</strong>: Conduct sessions away from windows, in a locked room with no line-of-sight exposure; use white noise generators or RF shielding if available. <em>Rationale</em>: Guards against optical surveillance (e.g., drones, lasers) or thermal imaging.</p>
+</li>
+<li>
+<p><strong>Sanitize and verify all tools pre-session</strong>: Check software/firmware signatures on official sources; wipe temporary media and test for integrity; treat every component as potentially compromised. <em>Rationale</em>: Counters supply-chain attacks and ensures no pre-installed malware.</p>
+</li>
+<li>
+<p><strong>If possible, require multi-person verification for critical steps</strong>: Involve a trusted witness for seed loading or signing; use time-delayed access (e.g., 24-hour locks) to deter coercion. <em>Rationale</em>: Adds human redundancy against ransom or insider threats.</p>
+</li>
+<li>
+<p><strong>Post-session wipe and audit</strong>: Clear RAM on shutdown, log all actions, and test quarantine integrity periodically (e.g., simulate breaches quarterly). <em>Rationale</em>: Erases residual data and detects subtle violations early.</p>
+</li>
+<li>
+<p><strong>Distribute and redundantly store components</strong>: Keep Signing-Device elements geographically separate. <em>Rationale</em>: Ensures resilience against localized physical attacks like burglary or fire.</p>
+</li>
 </ol>
+<p>These rules, when followed meticulously, create a fortress-like barrier, making unauthorized access exponentially difficult—even for advanced adversaries. 
+Test them in dry runs to build familiarity.</p>
 <hr />
 <h2 id="signing-ceremony">Signing Ceremony<a class="headerlink" href="#signing-ceremony" title="Permanent link">&para;</a></h2>
 <p>In order to maintain the integrity of your airgap quarantine,
