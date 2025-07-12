@@ -3011,7 +3011,7 @@ environments. </p>
 Perform these steps in a secure, private environment. Ensure all devices are
 airgapped where required, and use <a href="../../sovereignty/level-5/">quarantine procedures</a> to avoid cross-
 contamination.</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Prepare Secure Environments</summary>
 <ol>
 <li>Set up an <a href="../airgapped-computer/">Airgapped-Computer</a> for offline operations.</li>
@@ -3025,7 +3025,7 @@ contamination.</p>
 <li><em>optional</em> install Sparrow on the Transaction-Manager via Tails OS with <a href="https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/">persistent storage</a></li>
 </ol>
 </details>
-<details class="danger" open="open">
+<details class="danger">
 <summary>Generate Keys on Signing-Devices</summary>
 <ol>
 <li>Power on each airgapped Signing-Device (e.g., one per key in your
@@ -3037,7 +3037,7 @@ contamination.</p>
    devices for a 2-of-3 setup).</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Backup Seeds to Metal</summary>
 <ol>
 <li>Transcribe each seed phrase onto durable <a href="../../sovereignty/level-6/">metal backups</a>.</li>
@@ -3047,7 +3047,7 @@ contamination.</p>
 <li>Use tamper-evident seals on storage containers.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Export ZPUBs to Transaction-Manager</summary>
 <ol>
 <li>On each Signing-Device, export the extended public key (ZPUB for <a href="../../sovereignty/level-7/">multisig</a>).</li>
@@ -3056,7 +3056,7 @@ contamination.</p>
 <li>Verify the wallet descriptor matches your intended configuration.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Create and Verify Multisig Wallet Descriptor</summary>
 <ol>
 <li>In Sparrow on Tails OS, combine the XPUBs/ZPUBs to generate the
@@ -3069,7 +3069,7 @@ contamination.</p>
 <li>Document the descriptor and XPUBs/ZPUBs in your protocol notes.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Validate Addresses for Future Deposits</summary>
 <ol>
 <li>Generate several receive addresses in Sparrow on Tails OS.</li>
@@ -3081,7 +3081,7 @@ contamination.</p>
 <li>Store validated addresses in a secure, offline list for reference.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Test Setup with Small Transaction</summary>
 <ol>
 <li>Deposit a small amount of Bitcoin to a test address.</li>
@@ -3095,7 +3095,7 @@ contamination.</p>
 <h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
 <p>This section handles receiving Bitcoin securely. Always generate new addresses
 to avoid reuse, and verify everything through your <a href="../../sovereignty/level-4/">full node</a>. Customize with specific sender instructions if needed.</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Generate Receive Address</summary>
 <ol>
 <li>Open Sparrow on the Transaction-Manager.</li>
@@ -3105,7 +3105,7 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <li>Optionally, create a QR code for easy sharing.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Verify Address on Airgapped Devices</summary>
 <ol>
 <li>Transfer the address data (e.g., via QR or USB) to each airgapped
@@ -3117,7 +3117,7 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <li>Sanitize transfer media after use.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Share Address with Sender</summary>
 <ol>
 <li>Provide the verified address to the sender via secure channel (e.g.,
@@ -3128,7 +3128,7 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <li>Wait for the transaction to appear.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Monitor Incoming Transaction</summary>
 <ol>
 <li>Use your <a href="../../sovereignty/level-4/">full node</a> or Sparrow on Tails OS to scan for the transaction.</li>
@@ -3138,7 +3138,7 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <li>Log the transaction ID (TXID) in your records.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Confirm Finality</summary>
 <ol>
 <li>Wait for sufficient confirmations (e.g., 6 blocks for standard security).</li>
@@ -3153,7 +3153,7 @@ to avoid reuse, and verify everything through your <a href="../../sovereignty/le
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
 <p>This section details spending Bitcoin via <a href="../../sovereignty/level-7/">multisig</a> signing. Use this for
 transfers or spends, ensuring all steps are followed to avoid errors. Customize with specific recipient details.</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Create Unsigned Transaction</summary>
 <ol>
 <li>Open Sparrow on the Transaction-Manager.</li>
@@ -3164,7 +3164,7 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <li>Save the unsigned transaction to a sanitized USB or export as QR.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Transfer Unsigned Transaction to Airgapped Devices</summary>
 <ol>
 <li>Move the unsigned transaction data to each airgapped Signing-Device via
@@ -3175,7 +3175,7 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <li>Inspect transaction details on the device screen (e.g., outputs, fees).</li>
 </ol>
 </details>
-<details class="danger" open="open">
+<details class="danger">
 <summary>Sign Transaction on Each Required Signing-Device</summary>
 <ol>
 <li>On the first Signing-Device, review and approve the transaction details.</li>
@@ -3186,7 +3186,7 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <li>Ensure devices remain airgapped throughout.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Combine Signatures and Finalize Transaction</summary>
 <ol>
 <li>Transfer all partial signatures back to the Transaction-Manager via
@@ -3198,7 +3198,7 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <li>Save the signed transaction.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Broadcast Signed Transaction</summary>
 <ol>
 <li>Connect to your <a href="../../sovereignty/level-4/">full node</a> or a trusted broadcaster.</li>
@@ -3213,7 +3213,7 @@ transfers or spends, ensuring all steps are followed to avoid errors. Customize 
 <p>This section explains how to view balances without exposing keys. Always use
 your own <a href="../../sovereignty/level-4/">full node</a> for primary verification; external sources are optional and
 for cross-checking only. Never expose your ZPUB publicly.</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Sync Watch-Only Wallet or Full Node</summary>
 <ol>
 <li>Open Sparrow on the Transaction-Manager.</li>
@@ -3223,7 +3223,7 @@ for cross-checking only. Never expose your ZPUB publicly.</p>
 <li>Note any unconfirmed transactions.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Query Balance for Multisig Addresses</summary>
 <ol>
 <li>View the total balance in Sparrow on Tails OS.</li>
@@ -3233,7 +3233,7 @@ for cross-checking only. Never expose your ZPUB publicly.</p>
 <li>Document the balance in your secure logs.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Optional: Verify Against Separate Full Node</summary>
 <ol>
 <li>If using a secondary <a href="../../sovereignty/level-4/">full node</a>, query the same addresses there.</li>
@@ -3247,7 +3247,7 @@ for cross-checking only. Never expose your ZPUB publicly.</p>
 <h2 id="recovery">Recovery<a class="headerlink" href="#recovery" title="Permanent link">&para;</a></h2>
 <p>This section covers restoring from backups or handling lost keys. Use this in
 case of device failure, loss, or other issues. Test this process periodically. Customize with specific backup locations (e.g., "Contact Aunt Jane for Key 3").</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Identify the Issue</summary>
 <ol>
 <li>Determine what needs recovery (e.g., lost key, damaged device, full
@@ -3259,7 +3259,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <li>Document the recovery attempt.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Retrieve Metal Backups</summary>
 <ol>
 <li>Access your secure storage locations (customize: "Retrieve Key 1 from Uncle Bob").</li>
@@ -3269,7 +3269,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <li>Handle backups in a private, secure environment.</li>
 </ol>
 </details>
-<details class="danger" open="open">
+<details class="danger">
 <summary>Restore Keys on New Signing-Devices</summary>
 <ol>
 <li>Acquire new airgapped Signing-Devices (e.g., same model as original).</li>
@@ -3279,7 +3279,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <li>Destroy temporary paper notes securely.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Rebuild Multisig Wallet Descriptor</summary>
 <ol>
 <li>Export XPUBs/ZPUBs from restored devices to the Transaction-Manager via
@@ -3290,7 +3290,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <li>Confirm all UTXOs are detected.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Test Recovery with Small Amount</summary>
 <ol>
 <li>Deposit a small test amount if possible.</li>
@@ -3304,7 +3304,7 @@ case of device failure, loss, or other issues. Test this process periodically. C
 <h2 id="maintenance">Maintenance<a class="headerlink" href="#maintenance" title="Permanent link">&para;</a></h2>
 <p>This section outlines ongoing tasks to keep your protocol secure. Perform these
 periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks as needed.</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Verify Metal Backups</summary>
 <ol>
 <li>Access backups in rotation (e.g., one per session).</li>
@@ -3314,7 +3314,7 @@ periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks a
 <li>Update locations if needed.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Update Software and Firmware</summary>
 <ol>
 <li>Check for updates on official sites.</li>
@@ -3324,7 +3324,7 @@ periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks a
 <li>Test compatibility post-update.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Run Full Node Health Checks</summary>
 <ol>
 <li>Verify node synchronization with the blockchain.</li>
@@ -3334,7 +3334,7 @@ periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks a
 <li>Restart and monitor for errors.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Simulate Full Protocol Run</summary>
 <ol>
 <li>Perform a test deposit and withdrawal with minimal funds.</li>
@@ -3349,7 +3349,7 @@ periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks a
 <p>This section provides instructions for heirs or trusted parties to access funds.
 Share this section securely with them in advance, but withhold sensitive
 details like backup locations until needed. Customize with heir-specific roles.</p>
-<details class="info" open="open">
+<details class="info">
 <summary>Provide Overview to Heirs</summary>
 <ol>
 <li>Explain the <a href="../../sovereignty/level-7/">multisig</a> setup and protocol basics to trusted parties (customize: "Brief family members on 2-of-3 setup").</li>
@@ -3359,7 +3359,7 @@ details like backup locations until needed. Customize with heir-specific roles.<
 <li>Ensure heirs understand the importance of security.</li>
 </ol>
 </details>
-<details class="info" open="open">
+<details class="info">
 <summary>Locate and Access Backups Securely</summary>
 <ol>
 <li>Provide clues or instructions for finding <a href="../../sovereignty/level-6/">metal backups</a> (e.g., via
@@ -3370,7 +3370,7 @@ details like backup locations until needed. Customize with heir-specific roles.<
 <li>Warn against rushing or public exposure.</li>
 </ol>
 </details>
-<details class="warning" open="open">
+<details class="warning">
 <summary>Follow Setup/Recovery Steps as Needed</summary>
 <ol>
 <li>If keys are intact, follow the Setup section to initialize devices.</li>
@@ -3380,7 +3380,7 @@ details like backup locations until needed. Customize with heir-specific roles.<
 <li>Test with a small transaction if possible.</li>
 </ol>
 </details>
-<details class="danger" open="open">
+<details class="danger">
 <summary>Execute a Withdrawal if Authorized</summary>
 <ol>
 <li>Gather required Signing-Devices and meet the <a href="../../sovereignty/level-7/">multisig</a> threshold.</li>
