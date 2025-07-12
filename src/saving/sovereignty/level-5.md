@@ -53,12 +53,29 @@ If you have a signing device that doesn't perform all of the above (such as no Q
 An airgap quarantine is typically more involved than a simple network airgap.
 By adhering to these rules you ensure maximum security for your savings.
 
-1. No device can cross the quarantine (except the transaction manager via QR codes).
-1. No device can be exposed to your seed phrases (except your signing device).
-1. Stow all smartphones in farraday bags outside the room where you will power on your signing device. Assume they are actively trying to steal your keys (and your Bitcoin).
-1. Ensure there are no electronic devices in the vicinity of your signing device (including speakers and any "smart" devices).
-1. Ensure you are not near a window and that you have complete privacy.
 
+To achieve nuclear-launch-code-level security, follow these rules as a concise, numbered checklist. Each includes a brief rationale for clarity and enforcement. The focus is on absolute isolation, verifiable processes, and layered defenses against physical, digital, and human threats. Adhere to them without exception during any session involving seeds or transaction signing.
+
+1. **No device or data crosses the quarantine except via QR codes**: Limit transfers between the Transaction-Manager and Airgapped-Computer to visual QR codes only; ban USB, MicroSD, or any physical media to eliminate malware vectors. *Rationale*: Prevents hidden payloads; QR enforces manual verification.
+
+2. **Expose seed phrases only on the Signing-Device**: Never display, write, or input seeds on any other component; derive keys solely within this isolated environment. *Rationale*: Contains the most critical secret to one tamper-resistant point, reducing theft risk.
+
+3. **Stow all smartphones and personal electronics in Faraday bags outside the room**: Power them off first and place in shielded bags; assume they are actively compromised for surveillance or key theft. *Rationale*: Blocks remote activation of microphones, cameras, or transmitters.
+
+4. **Ban all electronic devices near the Signing-Device**: Exclude speakers, smart devices, fans, or anything with potential for acoustic/electromagnetic leaks; use a dedicated, shielded room if possible. *Rationale*: Mitigates side-channel attacks like audio-based data exfiltration.
+
+5. **Ensure complete physical privacy**: Conduct sessions away from windows, in a locked room with no line-of-sight exposure; use white noise generators or RF shielding if available. *Rationale*: Guards against optical surveillance (e.g., drones, lasers) or thermal imaging.
+
+6. **Sanitize and verify all tools pre-session**: Check software/firmware signatures on official sources; wipe temporary media and test for integrity; treat every component as potentially compromised. *Rationale*: Counters supply-chain attacks and ensures no pre-installed malware.
+
+7. **If possible, require multi-person verification for critical steps**: Involve a trusted witness for seed loading or signing; use time-delayed access (e.g., 24-hour locks) to deter coercion. *Rationale*: Adds human redundancy against ransom or insider threats.
+
+8. **Post-session wipe and audit**: Clear RAM on shutdown, log all actions, and test quarantine integrity periodically (e.g., simulate breaches quarterly). *Rationale*: Erases residual data and detects subtle violations early.
+
+9. **Distribute and redundantly store components**: Keep Signing-Device elements geographically separate. *Rationale*: Ensures resilience against localized physical attacks like burglary or fire.
+
+These rules, when followed meticulously, create a fortress-like barrier, making unauthorized access exponentially difficult—even for advanced adversaries. 
+Test them in dry runs to build familiarity.
 
 
 

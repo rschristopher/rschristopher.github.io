@@ -1,367 +1,308 @@
 # Appendix: Airgapped Computer
 
+Even with dice and paper to generate a seed phrase, a computer remains
+essential for Bitcoin self-custody. It calculates the checksum (the 12th or
+24th word in a mnemonic), derives private keys and addresses from the seed,
+verifies receive addresses, and signs transactions. For maximum security,
+dedicate a computer to these tasks—one that is fully airgapped and rigorously
+quarantined.
 
-Even if you use
- [Dice and Paper](dice.md#dice-and-paper)
- to generate a seed phrase,
- you will need a computer to manage your private keys
- (which are generated from a seed phrase).
-Additionally, a computer will be needed
- to sign transactions with your private keys, 
- as well as verify your addresses.
-It is recommended to use a dedicated computer --
- a computer which is
- airgapped and well-secured.
-
-
-
-## Airgap Quarantine
-
-An airgapped computer is one
- with no wireless, 
- no bluetooth,
- no network connectivity of any kind.
-In addition to the airgap, 
- a quarantine will help ensure
- that the private keys will
- not be exposed.
-A quarantine is a set of 
- procedures one would follow
- to ensure that no unauthorized
- data will flow in or out of 
- this device.
+An airgapped computer lacks wireless capabilities, Bluetooth, or any network
+connectivity. Paired with strict [quarantine
+procedures](../sovereignty/level-5.md), it protects private keys from exposure.
+Below are recommendations for three key components: the Signing-Device,
+Airgapped-Computer, and Transaction-Manager. While setups can overlap—for
+instance, a single device handling multiple roles—separating them enhances
+security by minimizing risks.
 
-An airgap by itself will not
- guarantee the security of your
- private keys (although will greatly help).
-Sensible quarantine procedures will be
- necessary to ensure the airgap is
- never violated and that the risk
- of hardware exploits are minimized.
 
-While any device can be used,
- here are some recommendations,
 
 
+---
 
-???+ info "Raspberry Pi Zero (recommended)"
-    The RPi Zero has no wifi
-    and no networking of any kind.
-    The device is so simple that
-    it eliminates most potential
-    hardware vulnerabilities.
-    E.g., if you're worried about data
-    leakage through discreet
-    fan noise variation, well, the
-    RPi Zero doesn't have a fan.
+## Signing-Device
 
-    **downside:** you must provide
-    your own KVM (keyboard, video, mouse) peripherals
-    which may have their own vulnerabilities,
-    and you may end up with a sort of 
-    Frankenstein computer
-    (duct-taped together).
+The Signing-Device has one singular purpose: to sign Bitcoin transactions. It
+is the only component that ever loads a seed phrase and derives private keys,
+making it the most sensitive part of the system. To mitigate risks, it must
+remain strictly within the airgap, never interacting directly with networked
+devices or even sharing the same room in high-security setups.
 
+A standout option is the [SeedSigner](https://seedsigner.com/), a stateless
+signer that loads the seed only while powered on; once shut down, the
+information vanishes from memory. This design eliminates persistent storage of
+sensitive data, offering exceptional security. Setup guides are available
+[here](https://econoalchemist.github.io/SeedSigner/).
 
+Other hardware includes the Raspberry Pi Zero, which has no built-in networking
+and minimal components, reducing vulnerabilities like data leakage through
+hardware exploits. Attach a keyboard, monitor, and mouse as needed. For laptops
+or desktops, physically remove Wi-Fi cards and networking hardware, then boot
+from a secure OS like [Tails](https://tails.net/).
 
-???+ info "Laptop or Desktop"
-    With some effort it's possible
-    to take an existing laptop or desktop
-    and simply remove the wifi card
-    and all built-in networking devices.
-    Additionally, you may want to run
-    [TailsOS](https://tails.net/) from a bootable USB 
-    (as an added layer of security).
+Install essential software: a minimal Debian distribution, Electrum or Sparrow
+for signing, Python for scripts, and tools like iancoleman.io/bip39 for BIP-39
+support. Input unsigned transactions via QR code only; output signed ones the
+same way. Avoid USB or MicroSD to preserve the quarantine. Generate seeds with
+high entropy, such as [dice](dice.md) rolls, and assume all electronics could
+be compromised—use Faraday bags and camera covers.
 
-    **downside:** not all computers
-    allow for this kind of customization,
-    and honestly even an older model
-    laptop is probably more powerful
-    than what you'll need for managing
-    Bitcoin keys. And in general, the
-    more hardware features, the more
-    potential security concerns. 
-    Simple is better.
 
 
 
-???+ info "Ideal System"
-    The ideal cold-storage computer
-    simply doesn't exist.
-    The closest would be the [SeedSigner](https://seedsigner.com/) ([guide](https://econoalchemist.github.io/SeedSigner/))
+---
 
-    If it did, it would have the following attributes,
+## Airgapped-Computer
 
-    1. smartphone-like device, or mini-laptop
-    1. no built-in storage, MicroSD only (for the OS and software)
-    1. open source hardware (with firmware verification and supply chain safeguards)
-    1. completely air-gapped (no fan, no speaker, no microphone, QR-code reader only)
-    1. read-only filesystem by default (option for persisting an encrypted volume)
-    1. should run Linux
-    1. should run electrum or sparrow, python, and a terminal
-    1. isolated electronic and physical counter-measures (to surveillance)
+The Airgapped-Computer supports offline tasks beyond signing, such as scanning
+and displaying QR codes to bridge the Transaction-Manager and Signing-Device.
+It acts as an intermediary, ensuring the Signing-Device—a specialized subset of
+the Airgapped-Computer—stays isolated within the airgap.
 
-    All software and configuration should be on the MicroSD (like a Raspberry Pi)
-    but with an optional tamper-proof seal such that seed phrases could only be
-    generated *after* sealing the MicroSD in place.
+Hardware options mirror those for the Signing-Device: the Raspberry Pi Zero for
+its simplicity, or modified laptops/desktops with networking removed. An ideal
+conceptual device would be compact like a smartphone, with a MicroSD-based OS,
+open-source hardware, no fan or microphone, and a read-only filesystem running
+Linux, Electrum, or Sparrow.
 
+Software setup includes a minimal Debian install, Electrum/Sparrow,
+iancoleman.io/bip39, BIP-39 tools, and Python scripts. Input data via QR codes
+or sanitized MicroSD/USB (use separate media for input and output to uphold
+quarantine). Output via QR display, secure printing, or manual transcription
+(though error-prone).
 
+Verify firmware integrity and supply chain. Operate in an isolated space free
+of windows, smart devices, or potential surveillance. The SeedSigner can double
+as an Airgapped-Computer, but maintain separation to protect the signing
+function.
 
 
 
-## Software
 
-A minimal Debian install is recommended,
- the bare minimum needed for the following:
+---
 
-* Electrum and/or Sparrow
-* iancoleman.io/bip39
-* BIP-39 Seed Words
-* python and supporting verification scripts
+## Transaction-Manager
 
+Unlike the others, the Transaction-Manager connects to the Internet for watch-
+only tasks like monitoring balances and broadcasting transactions. It serves as
+the quarantine's gateway, exchanging data with the airgap solely via QR
+codes—never direct contact.
 
+Use a laptop booted from a Tails OS USB drive, as outlined in [Level 2: Your
+Keys](../sovereignty/level-2.md). Enable a persistent volume to install
+Electrum or Sparrow (see this [guide](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/) for Sparrow setup). Tails ensures a
+fresh, amnesic session each time, minimizing malware risks.
 
-## Input Device
+Software focuses on watch-only mode: Tails OS core, with Electrum or Sparrow
+for wallet management. Input signed transactions via QR scanner; output
+unsigned PSBTs as QR codes. Broadcast through your [full
+node](../sovereignty/level-4.md) or trusted services. Connect only to secure
+networks, and treat it as a target for bots and hackers—reboot fresh for every
+session.
 
-PSBT
 
-https://river.com/learn/terms/p/partially-signed-bitcoin-transaction-psbt/
 
-BIP-174
 
-This is the only data that ever needs to 
- input into our airgapped device.
-And once signed, this is the only output
- from our device.
-This means we must securely read in a PBST,
- and securely output a signed transaction.
+---
 
+## Airgap Quarantine Rules
 
+An airgap alone does not guarantee security. Follow strict [quarantine
+rules](../sovereignty/level-5.md) to prevent unauthorized data flow.
 
-### QR Code Reader
 
-You will need a camera to read the QR Code of the PSBT
+To achieve nuclear-launch-code-level security, follow these rules as a concise, numbered checklist. Each includes a brief rationale for clarity and enforcement. The focus is on absolute isolation, verifiable processes, and layered defenses against physical, digital, and human threats. Adhere to them without exception during any session involving keys or transactions.
 
+1. **No device or data crosses the quarantine except via QR codes**: Limit transfers between the Transaction-Manager and Airgapped-Computer to visual QR codes only; ban USB, MicroSD, or any physical media to eliminate malware vectors. *Rationale*: Prevents hidden payloads; QR enforces manual verification.
 
+2. **Expose seed phrases only on the Signing-Device**: Never display, write, or input seeds on any other component; derive keys solely within this isolated environment. *Rationale*: Contains the most critical secret to one tamper-resistant point, reducing theft risk.
 
+3. **Stow all smartphones and personal electronics in Faraday bags outside the room**: Power them off first and place in shielded bags; assume they are actively compromised for surveillance or key theft. *Rationale*: Blocks remote activation of microphones, cameras, or transmitters.
 
-### Micro SD
+4. **Ban all electronic devices near the Signing-Device**: Exclude speakers, smart devices, fans, or anything with potential for acoustic/electromagnetic leaks; use a dedicated, shielded room if possible. *Rationale*: Mitigates side-channel attacks like audio-based data exfiltration.
 
-Alternatively, and this method is tricky to ensure an airgap,
- you can copy the PSBT from a MicroSD card or USB thumb drive.
+5. **Ensure complete physical privacy**: Conduct sessions away from windows, in a locked room with no line-of-sight exposure; use white noise generators or RF shielding if available. *Rationale*: Guards against optical surveillance (e.g., drones, lasers) or thermal imaging.
 
-Importantly, the same device should NOT be used to transfer
- the signed transaction back to a networked device -- doing
- so will violate the quarantine.
+6. **Sanitize and verify all tools pre-session**: Check software/firmware signatures on official sources; wipe temporary media and test for integrity; treat every component as potentially compromised. *Rationale*: Counters supply-chain attacks and ensures no pre-installed malware.
 
+7. **If possible, require multi-person verification for critical steps**: Involve a trusted witness for seed loading or signing; use time-delayed access (e.g., 24-hour locks) to deter coercion. *Rationale*: Adds human redundancy against ransom or insider threats.
 
+8. **Post-session wipe and audit**: Clear RAM on shutdown, log all actions, and test quarantine integrity periodically (e.g., simulate breaches quarterly). *Rationale*: Erases residual data and detects subtle violations early.
 
-## Output Device
+9. **Distribute and redundantly store components**: Keep Signing-Device elements geographically separate. *Rationale*: Ensures resilience against localized physical attacks like burglary or fire.
 
-This is the most sensitive and high-risk part
- of a Bitcoin transaction, as you must take
- data from the quarantined device and
- broadcast it to the Bitcoin network.
-The risk of breaking the airgap quanrantine
- is highest here.
+These rules, when followed meticulously, create a fortress-like barrier, making unauthorized access exponentially difficult—even for advanced adversaries. Test them in dry runs to build familiarity.
 
 
 
-### QR Code Display
 
-You will need a device with a camera to be in proximity
- of the airgapped device, this is itself risky, so 
- precautions must be taken (see protocols)
 
 
+---
 
-### Printed QR Code
+## Adversaries and Countermeasures
 
-If you have a secure printer, one
- that you know cannot be remotely exploited
- then you can simply print the QR code 
- of the signed transaction, and then scan
- that printed QR code later on
- any trusted Internet connected device.
-This printer will necessarily be part of
- the quarantined airgapped computer,
- and its sole job is to print
- signed transactions (and nothing more).
+Protect against physical, cyber, and spiritual threats.
 
+### Physical Adversaries
+- Burglar: Hide keys, secure home.
+- Ransom: Guns and defense.
+- Fire: Stainless steel dog tags for backups.
 
-### Pencil and Paper
+### Cyber Adversaries
+- Bot: Use Tails OS.
+- Hacker: [Airgap quarantine](../sovereignty/level-5.md).
+- NSA: Trust nothing; assume electronics spy/transmit. Use multiple airgapped devices with no single point of compromise.
 
-If you're extremely paranoid and also patient,
- you could physically write down
- the signed transaction and then 
- input it into
- an Internet-connected device later.
-This is obviously error prone, and while you 
- will have minimized the risk of breaking
- the airgap quarantine,
- you will have maximized risk of error
- (including sending your Bitcoin to an unrecoverable address).
-
-
-
-
-
-
-<!--
+### Spiritual Adversaries
+- Powers and principalities: Christ Jesus is Lord and King; pray continuously and humble yourself.
+- Taxes: Be responsible as a steward of God's wealth.
+- Pride: Remember, this is not your wealth but God's.
 
 Make yourself expensive to tyranny.
 
-physical adversaries:
-1. burglar
-2. ransom
-3. fire
-
-burglar-resistant, hide your keys, secure home
-ransom-resistant, guns and defense
-fire-resistant, stainless steel dog tags
-
-
-cyber adversaries:
-1. bot
-2. hacker
-3. NSA 
-
-bot-resistant, TailsOS
-hacker-resistant, aitgap quarantine
-NSA-resistant,
-trust nothing, assume all electronics are spying on you, and secretly transmitting data. Even seemingly air-gapped devices are compromised.
-
-How to generate and store a seed?
-Entropy with dice.
-Stateless signer.
-Redundancy.
-countermeasures.. farady bags/cases, physical camera cover
-
-Multiple air-gapped devices, with no single point of compromise (that is, attacker must have 2 or more full conpronises to access funds).
-
-
-spiritual adversaries
-1. powers and principalities
-2. taxes
-3. pride
-
-Christ Jesus is the Lord and King
-Pray continuously and humble oneself.
-This is not your wealth, but God's.
-You are but a steward, and as such will be responsible for what you do with His wealth.
 
 
 
+---
 
+## Understanding Seed Phrases and Derivation
 
-
-
-
-
-
-
-
-The best way to understand this is through examples,
- so let's start with an example seed phrase.
+The best way to understand key management is through examples. Start with an
+example seed phrase.
 
 !!! example "Example Seed Phrase"
-
     ```
     primary fetch primary prefer primary fetch primary fiber fish cause adult fee
     ```
 
-This seed phrase can generate a root key, which can generate
- multiple accounts, each account with an unlimited number of
- addresses and key pairs (public and private).
-The accounts and keys can be referenced by a
- [derivation path ](https://river.com/learn/terms/d/derivation-path/).
+This seed generates a root key for multiple accounts, each with unlimited
+addresses and key pairs, referenced by [derivation
+paths](https://river.com/learn/terms/d/derivation-path/).
 
 ???+ example "m/0'/0'"
-    This is the
-    [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
-    path to the first account, which will give us the extended private key.
-    This key can be used to generate any of the child keys and addresses for this account.
-
+    Extended private key:
     ```
     xprv9xYcGh8prgvDkcydvSeV6xEZVZ4t47xy46VzdsJGVFN8YvwKPF51u9azfREPrQyLyV8HdjDDAzaMkKcRsdfAGQ2diobuW1ZkBrGXXqze5CQ
     ```
 
-    Additionally, we can derive the extended public key, also known as a Master Public Key (MPK).
-
+    Extended public key (Master Public Key):
     ```
     xpub6BXxgCfih4UX1BnqD5bhJVMD3nnTUYWwC9kuFgUH11bmqAPhjhxFJWrvBnmh5QexRFkCxqFTS1AHiPhGeEp7HKoW1d85wTyEHSeJdZouJQJ
     ```
 
-If you wanted to derive the next two accounts, you would use `m/0'/1'` and `m/0'/2'`.
-Importantly, only the root key from the seed phrase can generate these accounts.
-If all you had was one of the extended private keys, you could only use that within
- that account. 
-And likewise, if all you had was the extended public key,
- you could only use that to generate addresses and public keys within
- that account.
+For next accounts: `m/0'/1'`, `m/0'/2'`.
 
-Additionally, you can retrieve specific addresses and key pairs for any of these accounts.
-For example, here is the first address and key pair for account number 2.
+First address/key pair for account 2:
 
 ???+ example "m/0'/2'/0'"
-    Receive Address
+    Receive Address:
     ```
     1N1QRK5Ru3gJ7ue3Xv277cMUMdWePbehsc
     ```
 
-    Public Key
+    Public Key:
     ```
     02279dd8f9c77ac86499fc05cebb3c81763e20f46ad3f9731e87992b512fe2e628
     ```
 
-    Private Key
+    Private Key:
     ```
     L1yPKTZ6Rw2ge7utKVJrf8fgx7pm6kBAFEJAUmw63hFz1uWPaEeR
     ```
 
-
-The format of the receive addresses can vary, e.g.,
- a native 
- [Segwit](https://river.com/learn/terms/p/p2wpkh/)
- address and derivation path look like the following,
+Native SegWit example:
 
 ???+ example "m/84'/0'/3'/0/0"
-    Receive Address
+    Receive Address:
     ```
     bc1q3ctchdrxdt4ydljcfp4y0s0a3w8ut07j22f8ty
     ```
 
+### Bitcoin Improvement Proposals
+- [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki): Hierarchical deterministic wallets.
+- [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki): Derivation paths for P2PKH (e.g., `m/44'/0'/0'/0`).
+- [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki): Derivation paths for P2SH-P2WPKH (e.g., `m/49'/0'/0'/0`).
+- [BIP-84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki): Derivation paths for P2WPKH (e.g., `m/84'/0'/0'/0`).
+- [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): Standardized word list for seed phrases.
 
-
-
-???+ info "Bitcoin Improvement Proposals"
-    In addition to
-     [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
-     there are other related BIPs, e.g.,
-    
-     * [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), derivation paths for 
-    [P2PKH](https://river.com/learn/terms/p/p2pkh/), e.g., `m/44'/0'/0'/0`
-     * [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki), derivation paths for 
-    [P2SH-P2WPKH](https://river.com/learn/terms/b/bip-49-derivation-paths-for-wrapped-segwit/), e.g., `m/49'/0'/0'/0`
-     * [BIP-84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki), derivation paths for
-    [P2WPKH](https://river.com/learn/terms/b/bip-84-derivation-paths-for-native-segwit/), e.g., `m/84'/0'/0'/0`
-    
-    And also
-     [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
-     which standardized the word list used in seed phrases.
+Additional resources:
+- [Private Keys](https://learnmeabitcoin.com/beginners/private_keys)
+- [ZPUB Extended Public Key](https://river.com/learn/terms/z/zpub-extended-public-key/)
+- [XPUB Extended Public Key](https://river.com/learn/terms/x/xpub-extended-public-key/)
+- [PSBT Discussion](https://bitcointalk.org/index.php?topic=5213741.0)
 
 
 
 
-https://learnmeabitcoin.com/beginners/private_keys
-
-https://river.com/learn/terms/z/zpub-extended-public-key/
-
-https://river.com/learn/terms/x/xpub-extended-public-key/
 
 
-https://bitcointalk.org/index.php?topic=5213741.0
 
 
--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
