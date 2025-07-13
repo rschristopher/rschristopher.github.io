@@ -15,110 +15,94 @@ Perform these steps in a secure, private environment. Ensure all devices are
 airgapped where required, and use [quarantine procedures](../sovereignty/level-5.md) to avoid cross-
 contamination.
 
-??? info "Prepare Secure Environments"
+??? info "1. Prepare Devices"
     1. Set up an [Airgapped-Computer](airgapped-computer.md) for offline operations.
-    2. Prepare a separate Transaction-Manager for watch-only tasks, connected to
+    2. Set up a [Transaction-Manager](airgapped-computer.md), using Tails OS with persistent storage, connected to
        your [full node](../sovereignty/level-4.md).
-    3. Follow the [quarantine rules in Level 5](../sovereignty/level-5.md).
+    3. Review and prepare for the [quarantine rules in Level 5](../sovereignty/level-5.md).
     4. Verify all software and firmware: Download from official sources, check
        signatures, and ensure they are up-to-date.
     5. Prepare metal backup tools for seed phrases.
-    6. Boot the Transaction-Manager using Tails OS as described in [Level 2: Your Keys](../sovereignty/level-2.md).
-    7. *optional* install Sparrow on the Transaction-Manager via Tails OS with [persistent storage](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/)
+    6. *optional* install Sparrow on the Transaction-Manager via Tails OS with [persistent storage](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/)
 
-??? danger "Generate Keys on Signing-Devices"
+??? danger "2. Generate Seeds"
     1. Power on each airgapped Signing-Device (e.g., one per key in your
        [multisig](../sovereignty/level-7.md) setup).
     2. Generate a new seed phrase on each Signing-Device (e.g., using [dice](dice.md) rolls to ensure entropy).
     3. Write down the seed phrase temporarily on paper for verification.
     4. Confirm the seed phrase on the device to ensure accuracy.
-    5. Repeat for each required key in your [multisig](../sovereignty/level-7.md) configuration (e.g., 3
-       devices for a 2-of-3 setup).
+    5. Repeat for each required key in your [multisig](../sovereignty/level-7.md) configuration (e.g., 3 devices for a 2-of-3 setup).
 
-??? info "Backup Seeds to Metal"
-    1. Transcribe each seed phrase onto durable [metal backups](../sovereignty/level-6.md).
+??? info "3. Backup to Metal"
+    1. Stamp each seed phrase onto durable [metal backups](../sovereignty/level-6.md).
     2. Verify the metal seed by comparing it to the temporary paper note.
     3. Destroy the temporary paper note (e.g., burn it).
     4. Store each metal backup in a separate, secure location.
     5. Use tamper-evident seals on storage containers.
 
-??? warning "Export ZPUBs to Transaction-Manager"
+??? warning "4. Export ZPUBs to Transaction-Manager"
     1. On each Signing-Device, export the extended public key (ZPUB for [multisig](../sovereignty/level-7.md)).
     2. Transfer the ZPUB data to your Transaction-Manager via [quarantine](../sovereignty/level-5.md) procedure.
     3. Import the ZPUB into your Transaction-Manager (Tails OS).
     4. Verify the wallet descriptor matches your intended configuration.
 
-??? info "Create and Verify Multisig Wallet Descriptor"
-    1. In Sparrow on Tails OS, combine the XPUBs/ZPUBs to generate the
-       [multisig](../sovereignty/level-7.md) script or descriptor.
-    2. Save the descriptor securely (e.g., encrypted file on your
-       Transaction-Manager).
-    3. Generate a test receive address and verify it matches expectations.
-    4. Connect to your [full node](../sovereignty/level-4.md) to ensure the Transaction-Manager (Tails OS) syncs
-       correctly.
-    5. Document the descriptor and XPUBs/ZPUBs in your protocol notes.
-
-??? warning "Validate Addresses for Future Deposits"
-    1. Generate several receive addresses in Sparrow on Tails OS.
+??? warning "5. Validate Addresses for Future Deposits"
+    1. Generate several receive addresses in Electrum or Sparrow on Tails OS.
     2. Transfer the addresses to airgapped Signing-Devices via QR or USB for
        verification.
-    3. On each Signing-Device, confirm the addresses derive from the correct
-       XPUB/ZPUB.
+    3. On each Signing-Device, confirm the addresses derive from the correct ZPUB.
     4. Note any derivation paths or address types (e.g., P2WSH for [multisig](../sovereignty/level-7.md)).
     5. Store validated addresses in a secure, offline list for reference.
 
-??? info "Test Setup with Small Transaction"
-    1. Deposit a small amount of Bitcoin to a test address.
+??? info "6. Test Setup with Small Transaction"
+    1. Deposit a small amount of Bitcoin to a test address following the Deposit section below.
     2. Monitor confirmation on your [full node](../sovereignty/level-4.md).
     3. Attempt a small withdrawal following the Withdrawal section below.
     4. Verify the entire process works end-to-end.
     5. Document any issues and adjust the protocol as needed.
 
+
+
+
 ---
 
 ## Deposit
 
-This section handles receiving Bitcoin securely. Always generate new addresses
+This section is for receiving Bitcoin securely. Always generate new addresses
 to avoid reuse, and verify everything through your [full node](../sovereignty/level-4.md). Customize with specific sender instructions if needed.
 
-??? info "Generate Receive Address"
+??? info "1. Generate Address"
     1. Open Sparrow on the Transaction-Manager.
     2. Generate a new receive address from the [multisig](../sovereignty/level-7.md) descriptor.
     3. Label the address for tracking (e.g., "Deposit from Exchange - Date").
-    4. Copy the address securely.
-    5. Optionally, create a QR code for easy sharing.
+    4. Copy the address or create a QR code for easy sharing.
 
-??? warning "Verify Address on Airgapped Devices"
-    1. Transfer the address data (e.g., via QR or USB) to each airgapped
-       Signing-Device.
-    2. On each device, confirm the address matches the expected derivation from
-       your XPUB/ZPUB.
-    3. Ensure all required keys agree on the address validity.
+??? danger "2. Verify Address"
+    *This step is optional if you have already verified the address in the setup above -- if you're unaure, its best to verify the address.*
+    
+    1. Transfer the address data (e.g., via QR or USB) to each Signing-Device.
+    2. On each device, confirm the address matches the expected derivation from your ZPUB.
+    3. Ensure all required devices agree on the address validity.
     4. Return confirmation data if needed (e.g., signed message).
     5. Sanitize transfer media after use.
 
-??? info "Share Address with Sender"
-    1. Provide the verified address to the sender via secure channel (e.g.,
-       encrypted message).
+??? info "3. Share Address with Sender"
+    1. Provide the verified address to the sender via secure channel (e.g., encrypted message) in order to avoid public exposure of the address.
     2. Instruct the sender to double-check the address before sending.
-    3. Avoid public exposure of the address.
-    4. Note the expected amount and sender for reference.
-    5. Wait for the transaction to appear.
+    3. Note the expected amount and sender for reference.
+    4. Wait for the transaction to appear.
 
-??? info "Monitor Incoming Transaction"
+??? info "4. Monitor Incoming Transaction"
     1. Use your [full node](../sovereignty/level-4.md) or Sparrow on Tails OS to scan for the transaction.
     2. Check transaction details: Amount, fees, and inputs.
     3. Wait for initial confirmation (e.g., 1 block).
     4. Monitor for RBF (Replace-By-Fee) flags if applicable.
-    5. Log the transaction ID (TXID) in your records.
 
-??? info "Confirm Finality"
+??? info "5. Confirm"
     1. Wait for sufficient confirmations (e.g., 6 blocks for standard security).
-    2. Verify the transaction on your [full node](../sovereignty/level-4.md) to ensure it's in the
-       blockchain.
-    3. Update your Transaction-Manager (Tails OS) balance.
-    4. Optionally, check against a separate full node for redundancy.
-    5. Document the deposit as complete.
+    2. Verify the transaction on your [full node](../sovereignty/level-4.md) to ensure it's in a valid block on-chain.
+    3. Verify balance following the Check Balance section below.
+
 
 ---
 
@@ -127,45 +111,38 @@ to avoid reuse, and verify everything through your [full node](../sovereignty/le
 This section details spending Bitcoin via [multisig](../sovereignty/level-7.md) signing. Use this for
 transfers or spends, ensuring all steps are followed to avoid errors. Customize with specific recipient details.
 
-??? info "Create Unsigned Transaction"
+??? info "1. Create Unsigned Transaction"
     1. Open Sparrow on the Transaction-Manager.
     2. Select UTXOs to spend and specify recipient address(es) and amounts.
-    3. Set appropriate fees based on mempool conditions (use your [full node](../sovereignty/level-4.md) for
-       estimates).
-    4. Generate the unsigned transaction (e.g., PSBT file).
+    3. Set appropriate fees based on mempool conditions (use your [full node](../sovereignty/level-4.md) for estimates).
+    4. Generate the unsigned transaction (e.g., PSBT).
     5. Save the unsigned transaction to a sanitized USB or export as QR.
 
-??? warning "Transfer Unsigned Transaction to Airgapped Devices"
-    1. Move the unsigned transaction data to each airgapped Signing-Device via
-       [quarantine](../sovereignty/level-5.md) (e.g., USB or QR).
-    2. Ensure no Internet-connected devices are nearby.
-    3. Verify the transfer media is clean before insertion.
-    4. Load the transaction on the device without signing yet.
+??? warning "2. Transfer Unsigned Transaction to Signing-Device"
+    1. Follow all [Quarantine Rules](../sovereignty/level-5.md)
+    2. Power on Signing-Devices (and Airgap-Conputer if applicable).
+    3. Copy the unsigned transaction from the Transaction-Manager to each Signing-Device via [quarantine](../sovereignty/level-5.md) procedure.
     5. Inspect transaction details on the device screen (e.g., outputs, fees).
 
-??? danger "Sign Transaction on Each Required Signing-Device"
-    1. On the first Signing-Device, review and approve the transaction details.
-    2. Sign the transaction, generating a partial signature.
+??? danger "3. Sign Transaction"
+    1. On the first Signing-Device, review the transaction details. Abort if there's any problem or concern.
+    2. Access the seed and sign the transaction, generating a partial signature.
     3. Export the partially signed transaction (e.g., to USB or QR).
-    4. Repeat for each required key/device in your [multisig](../sovereignty/level-7.md) threshold (e.g., 2
-       out of 3).
-    5. Ensure devices remain airgapped throughout.
+    4. Repeat for each required key/device in your [multisig](../sovereignty/level-7.md).
 
-??? warning "Combine Signatures and Finalize Transaction"
+??? warning "4. Finalize Transaction"
     1. Transfer all partial signatures back to the Transaction-Manager via
        [quarantine](../sovereignty/level-5.md).
-    2. In Sparrow on Tails OS, combine the signatures into a fully signed
-       transaction.
+    2. In Sparrow on Tails OS, combine the signatures into a fully signed transaction.
     3. Verify the final transaction is complete and valid.
     4. Check for any errors in signature combination.
     5. Save the signed transaction.
 
-??? info "Broadcast Signed Transaction"
+??? info "5. Broadcast Transaction"
     1. Connect to your [full node](../sovereignty/level-4.md) or a trusted broadcaster.
     2. Submit the signed transaction to the network.
     3. Monitor for acceptance into the mempool.
     4. Track confirmations on your [full node](../sovereignty/level-4.md).
-    5. Log the TXID and update records.
 
 ---
 
@@ -175,26 +152,24 @@ This section explains how to view balances without exposing keys. Always use
 your own [full node](../sovereignty/level-4.md) for primary verification; external sources are optional and
 for cross-checking only. Never expose your ZPUB publicly.
 
-??? info "Sync Watch-Only Wallet or Full Node"
+??? info "1. Sync Full Node"
     1. Open Sparrow on the Transaction-Manager.
     2. Ensure it's connected to your [full node](../sovereignty/level-4.md).
-    3. Rescan or sync the blockchain if needed.
-    4. Wait for full synchronization.
-    5. Note any unconfirmed transactions.
+    3. Verify latest block hashes with public block explorers.
 
-??? info "Query Balance for Multisig Addresses"
-    1. View the total balance in Sparrow on Tails OS.
-    2. Break down by confirmed and unconfirmed UTXOs.
-    3. List recent transactions for context.
-    4. Calculate available spendable amount (accounting for fees).
-    5. Document the balance in your secure logs.
+??? info "2. Query Balance"
+    1. View the total balance in Sparrow on Tails OS (Transaction-Manager).
+    2. List recent transactions for context.
+    3. Calculate available spendable amount (accounting for fees).
 
-??? info "Optional: Verify Against Separate Full Node"
+??? info "3. Optional: Verify A Separate Full Node"
     1. If using a secondary [full node](../sovereignty/level-4.md), query the same addresses there.
     2. Compare balances and UTXOs for consistency.
     3. Investigate any discrepancies immediately.
-    4. Avoid public block explorers unless absolutely necessary.
-    5. Never input your ZPUB into online tools.
+
+
+
+
 
 ---
 
@@ -203,30 +178,28 @@ for cross-checking only. Never expose your ZPUB publicly.
 This section covers restoring from backups or handling lost keys. Use this in
 case of device failure, loss, or other issues. Test this process periodically. Customize with specific backup locations (e.g., "Contact Aunt Jane for Key 3").
 
-??? info "Identify the Issue"
-    1. Determine what needs recovery (e.g., lost key, damaged device, full
-       wallet rebuild).
+??? info "1. Identify the Issue"
+    1. Determine what needs recovery (e.g., lost key, damaged device, etc).
     2. Gather all available [metal backups](../sovereignty/level-6.md) and protocol documents.
-    3. Assess if the [multisig](../sovereignty/level-7.md) threshold can still be met (e.g., 2-of-3 with one
-       lost).
+    3. Assess if the [multisig](../sovereignty/level-7.md) threshold can still be met (e.g., 2-of-3 with one lost).
     4. If threshold can't be met, proceed to full seed recovery.
     5. Document the recovery attempt.
 
-??? info "Retrieve Metal Backups"
-    1. Access your secure storage locations (customize: "Retrieve Key 1 from Uncle Bob").
+??? info "2. Retrieve Metal Backups"
+    1. Access your metal backups.
     2. Check tamper-evident seals for integrity.
     3. Transcribe seeds from metal to temporary paper if needed.
     4. Verify transcription accuracy.
     5. Handle backups in a private, secure environment.
 
-??? danger "Restore Keys on New Signing-Devices"
+??? danger "3. Restore Keys on New Signing-Devices"
     1. Acquire new airgapped Signing-Devices (e.g., same model as original).
     2. Enter the seed phrase from backup on each device.
-    3. Verify the restored wallet matches the original (e.g., check XPUB/ZPUB).
-    4. Regenerate any necessary data (e.g., export new XPUBs if paths differ).
+    3. Verify the restored wallet matches the original (e.g., check ZPUB).
+    4. Regenerate any necessary data (e.g., export new ZPUBs if paths differ).
     5. Destroy temporary paper notes securely.
 
-??? warning "Rebuild Multisig Wallet Descriptor"
+??? warning "4. Rebuild Multisig Wallet"
     1. Export XPUBs/ZPUBs from restored devices to the Transaction-Manager via
        [quarantine](../sovereignty/level-5.md).
     2. In Sparrow on Tails OS, recreate the [multisig](../sovereignty/level-7.md) descriptor.
@@ -248,21 +221,21 @@ case of device failure, loss, or other issues. Test this process periodically. C
 This section outlines ongoing tasks to keep your protocol secure. Perform these
 periodically (e.g., quarterly) to prevent issues. Customize schedules or tasks as needed.
 
-??? info "Verify Metal Backups"
+??? info "1. Verify Metal Backups"
     1. Access backups in rotation (e.g., one per session).
     2. Check for damage or corrosion.
     3. Transcribe and verify a seed on a test device.
     4. Reseal and return to storage.
     5. Update locations if needed.
 
-??? info "Update Software and Firmware"
+??? info "2. Update Software and Firmware"
     1. Check for updates on official sites.
     2. Verify signatures before installing.
     3. Update Sparrow on Tails OS and [full node](../sovereignty/level-4.md) first.
     4. For Signing-Devices, update firmware airgapped if possible.
     5. Test compatibility post-update.
 
-??? info "Run Full Node Health Checks"
+??? info "3. Run and verify Full Node"
     1. Verify node synchronization with the blockchain.
     2. Check disk space, uptime, and connections.
     3. Prune if needed, but retain necessary data.
