@@ -78,13 +78,11 @@ to avoid reuse, and verify everything through your [full node](../sovereignty/le
     4. Copy the address or create a QR code for easy sharing.
 
 ??? danger "2. Verify Address"
-    *This step is optional if you have already verified the address in the setup above -- if you're unaure, its best to verify the address.*
+    *This step is optional, especially if you have already verified the address in the setup above -- if you're unsure, it's best to verify addresses before use.*
     
-    1. Transfer the address data (e.g., via QR or USB) to each Signing-Device.
+    1. Transfer the address (e.g., via QR code via [quarantine](../sovereignty/level-5.md) procedure) to each Signing-Device.
     2. On each device, confirm the address matches the expected derivation from your ZPUB.
     3. Ensure all required devices agree on the address validity.
-    4. Return confirmation data if needed (e.g., signed message).
-    5. Sanitize transfer media after use.
 
 ??? info "3. Share Address with Sender"
     1. Provide the verified address to the sender via secure channel (e.g., encrypted message) in order to avoid public exposure of the address.
