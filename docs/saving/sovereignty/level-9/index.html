@@ -1407,6 +1407,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 9: Fault Tolerance
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1418,6 +1431,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-fault-tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Fault Tolerance?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Which Devices?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2819,6 +2878,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-fault-tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Fault Tolerance?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Which Devices?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2841,6 +2935,35 @@
   <figcaption>Level 9 -- redundant signing devices</figcaption>
 </figure></p>
 </div>
+<p>Fault tolerance in Bitcoin custody hinges on eliminating single points of compromise. 
+Level 9 builds on our <a href="../level-7/">multisig</a> protocol by adding redundant <a href="../../appendix/airgapped-computer/">Signing-Devices</a>,
+ ensuring funds remain secure even if a device fails or is compromised, such as by malicious firmware.</p>
+<hr />
+<h2 id="why-fault-tolerance">Why Fault Tolerance?<a class="headerlink" href="#why-fault-tolerance" title="Permanent link">&para;</a></h2>
+<p>In a <a href="../level-7/">multisig</a> configuration, using multiple <a href="../../appendix/airgapped-computer/">Signing-Devices</a>
+ (each with its own private key) provides fault tolerance against hardware failure or compromise of any single device. 
+This is because the multisig setup requires signatures from multiple devices to authorize a transaction, preventing any one compromised device from acting alone. 
+For example, malicious firmware with a Dark Skippy attack could compromise a single device (seed exfil), but fault-tolerant redundancy ensures your wealth remains safe.</p>
+<hr />
+<h2 id="which-devices">Which Devices?<a class="headerlink" href="#which-devices" title="Permanent link">&para;</a></h2>
+<p>Any two of the Signing-Devices discussed in <a href="../level-3/">Level 3</a> can be used to ensure fault tolerance.
+For example:</p>
+<ul>
+<li><a href="https://seedsigner.com"><strong>SeedSigner</strong></a>: A DIY, open-source signing device built on affordable hardware (Raspberry Pi Zero). SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable solution.</li>
+<li><a href="https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0"><strong>DIY Raspberry Pi Zero</strong></a>: For advanced users, you can create your own signing device using a Raspberry Pi Zero with open-source software.</li>
+<li><a href="https://github.com/cryptoadvance/specter-diy"><strong>Specter-DIY</strong></a>: This approach requires technical expertise but offers complete control over the hardware and software stack.</li>
+<li><a href="https://coldcard.com/q"><strong>Coldcard Q</strong></a>: Coldcard with QR scanner and display.</li>
+</ul>
+<hr />
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Spread Out</strong>: Keep devices in different physical locations.</li>
+<li><strong>Verify Often</strong>: Check device integrity and update firmware.</li>
+<li><strong>Backup Wisely</strong>: Store seed phrases in <a href="../level-6/">metal</a>, apart from devices.</li>
+</ul>
+<hr />
+<p>Redundant <a href="../../appendix/airgapped-computer/">Signing-Devices</a> in a <a href="../level-7/">multisig</a> setup bolster Bitcoin security against hardware failure and attacks. 
+This method ensures resilience and fault-tolerant control over your funds.</p>
 
 
 
