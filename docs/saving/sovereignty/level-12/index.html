@@ -2973,7 +2973,7 @@ An Airgapped-Computer collects signatures from read-only Transaction-Managers, a
 </ul>
 </li>
 <li>
-<p><strong>Redundant Read-Only Full Nodes</strong>:</p>
+<p><strong>Redundant Receive-Only Full Nodes</strong>:</p>
 <ul>
 <li>Operate one full node via RF and another via satellite, both configured as read-only to prevent tampering.</li>
 <li>Verify data consistency between nodes to ensure blockchain integrity.</li>
@@ -2982,14 +2982,14 @@ An Airgapped-Computer collects signatures from read-only Transaction-Managers, a
 <li>
 <p><strong>Airgapped Signature Collection</strong>:</p>
 <ul>
-<li>Use an airgapped computer within the expanded airgap to collect signatures from read-only Transaction-Managers.</li>
+<li>Use an <a href="../../appendix/airgapped-computer/">Airgapped-Computer</a> within the expanded airgap to collect signatures from read-only Transaction-Managers.</li>
 <li>Transfer unsigned transactions via QR codes or other offline methods, adhering to <a href="../level-5/">quarantine rules</a>.</li>
 </ul>
 </li>
 <li>
 <p><strong>Secure Transaction Broadcasting</strong>:</p>
 <ul>
-<li>Move the signed transaction to an online Transaction-Manager at a designated drop point.</li>
+<li>Move the signed transaction to an online Transaction-Manager at a designated drop point. This is a stateless Transaction-Manager (no persistent storage); it's one and only job is to broadcast signed transactions (over Tor or VPN).</li>
 <li>Broadcast via a full node, using VPN or Tor to anonymize the process.</li>
 </ul>
 </li>
@@ -2998,20 +2998,6 @@ An Airgapped-Computer collects signatures from read-only Transaction-Managers, a
 <ul>
 <li>Apply <a href="../level-11/">Level 11 countermeasures</a>: privacy filters, Faraday cages, white noise generators, and tamper-evident seals.</li>
 <li>Protect against side-channel attacks during QR code transfers or physical device handling.</li>
-</ul>
-</li>
-<li>
-<p><strong>Audits and Maintenance</strong>:</p>
-<ul>
-<li>Perform regular security audits on all components (nodes, Signing-Devices, Transaction-Managers).</li>
-<li>Update software and firmware to patch vulnerabilities.</li>
-</ul>
-</li>
-<li>
-<p><strong>Backup and Recovery</strong>:</p>
-<ul>
-<li>Store <a href="../level-6/">metal backups</a> of seed phrases and keys in multiple secure, distributed locations.</li>
-<li>Test recovery processes periodically to guarantee accessibility.</li>
 </ul>
 </li>
 </ul>
