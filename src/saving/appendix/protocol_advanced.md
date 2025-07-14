@@ -38,7 +38,7 @@ security.
     5. Save as QR (Settings > Seeds > Export Seed QR), and safeguard the QR (see [Seed QR guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md)).
     6. Repeat for the second and third seeds on their dedicated SeedSigners, powering off each between steps to erase memory. Label devices clearly (e.g., "SeedSigner #1 for Seed 1").
 
-??? info "3. Backup to Metal"
+??? danger "3. Backup to Metal"
     1. Stamp each seed onto durable [metal backups](../sovereignty/level-6.md).
     2. Cross-verify against the paper note.
     3. Incinerate the paper note.

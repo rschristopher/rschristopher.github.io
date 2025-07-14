@@ -33,7 +33,7 @@ contamination.
     4. Confirm the seed phrase on the device to ensure accuracy.
     5. Repeat for each required key in your [multisig](../sovereignty/level-7.md) configuration (e.g., 3 devices for a 2-of-3 setup).
 
-??? info "3. Backup to Metal"
+??? danger "3. Backup to Metal"
     1. Stamp each seed phrase onto durable [metal backups](../sovereignty/level-6.md).
     2. Verify the metal seed by comparing it to the temporary paper note.
     3. Destroy the temporary paper note (e.g., burn it).
