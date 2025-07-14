@@ -82,13 +82,16 @@ For the actual stamping, you'll want to follow the [Quarantine Rules](level-5.md
 ## Tamper-Evident Seals
 
 For metal backups that don’t require regular access, tamper-evident seals are recommended to ensure no unauthorized access has occurred.
-A combination of high-tech and low-tech approaches is advisable to confidently verify that the metal backup remains secure. For example, tamper-evident bags are widely available, and an attacker could replace the entire bag, including printed serial numbers, with relative ease.
+
+A combination of high-tech and low-tech approaches is advisable. For example, tamper-evident bags are widely available, and an attacker could replace the entire bag, including printed serial numbers, with relative ease.
 Here are some recommended solutions:
-•  RFID or NFC Tags: Use specialized tamper-evident tags or cables with RFID or NFC capabilities. Any attempt to break or open the seal disables the RFID or NFC functionality. Replacing the tag requires replicating the exact RFID signal, which is possible but demands a technically sophisticated attacker.
-•  Tamper-Evident Tape or Bags: These products reveal opening attempts through clear visual indicators (e.g., a “VOID” message after tampering). However, replacing these widely available items is often straightforward, reducing their standalone effectiveness.
-•  Wax Seals: A classic low-tech solution, wax seals are highly effective but can be replicated by anyone with access to your stamp and wax.
-•  Unique Markings: Simple yet effective, these can include a signature, hand-etched scratches, or other personalized markings known only to you. These are difficult for an attacker to replicate exactly without detailed knowledge of the design.
-In practice, combining multiple techniques—particularly high-tech and low-tech approaches—makes unauthorized replacement extremely challenging. For instance, replacing an RFID tag requires a programmable chip, which is difficult but feasible. However, if the attacker must also replicate a custom wax seal and unique hand-drawn markings, the task becomes highly impractical.
+
+- RFID or NFC Tags: Use specialized tamper-evident tags or cables with RFID or NFC capabilities. Any attempt to break or open the seal disables the RFID or NFC functionality. Replacing the tag requires replicating the exact RFID signal, which is possible but demands a technically sophisticated attacker.
+- Tamper-Evident Tape or Bags: These products reveal opening attempts through clear visual indicators (e.g., a “VOID” message after tampering). However, replacing these widely available items is often straightforward, reducing their standalone effectiveness.
+- Wax Seals: A classic low-tech solution, wax seals are highly effective but can be replicated by anyone with access to your stamp.
+- Unique Markings: Simple yet effective, these can include a signature, hand-etched scratches, or other personalized markings known only to you. These are difficult for an attacker to replicate exactly without detailed knowledge of the design.
+
+In practice, combining multiple techniques -- particularly high-tech and low-tech approaches -- makes unauthorized replacement extremely challenging. For instance, replacing an RFID tag requires a programmable chip, which is difficult but feasible. However, if the attacker must also replicate a custom wax seal and unique hand-drawn markings, the task becomes impractical.
 
 
 ---
@@ -100,7 +103,9 @@ To ensure your metal backup remains reliable:
 - **Inspect Regularly**: Check annually for corrosion, scratches, or tampering.
 - **Multiple Backups**: Create at least two metal backups, stored in separate, secure locations (e.g., home safe and bank vault).
 - **Test Periodically**: Every few years, verify legibility and test with an offline wallet to confirm accuracy.
-- **Secure Locations**: Store backups in fireproof, waterproof containers in locations accessible only to you or trusted individuals.
+- **Secure Locations**: Store backups in fireproof, waterproof containers in locations accessible only to you and your family (trusted loved ones).
+
+
 
 ---
 
