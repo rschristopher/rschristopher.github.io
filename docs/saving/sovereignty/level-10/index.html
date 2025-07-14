@@ -1430,6 +1430,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 10: Fail-safes
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1441,6 +1454,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-redundant-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Redundant Networks?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-redundancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of Redundancy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2819,6 +2878,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-redundant-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Redundant Networks?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-redundancy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of Redundancy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2841,6 +2935,36 @@
   <figcaption>Level 10 -- redundant networks</figcaption>
 </figure></p>
 </div>
+<p>Level 10 achieves ultimate fault tolerance by implementing redundant networks, each with its own <a href="../level-4/">full node</a> and <a href="../../appendix/airgapped-computer/">Transaction-Manager</a>. 
+This setup ensures independent creation of identical unsigned transactions and verification of signatures from <a href="../../appendix/airgapped-computer/">Signing-Devices</a>,
+ safeguarding against network failures, hardware compromises, or attacks like <a href="https://darkskippy.com">Dark Skippy</a>.</p>
+<hr />
+<h2 id="why-redundant-networks">Why Redundant Networks?<a class="headerlink" href="#why-redundant-networks" title="Permanent link">&para;</a></h2>
+<p>Redundant networks eliminate single points of failure in your Bitcoin infrastructure. 
+By operating two separate <a href="../level-4/">full nodes</a> and <a href="../../appendix/airgapped-computer/">Transaction-Managers</a> on isolated networks (e.g., via separate <a href="../level-8/">DMZs</a>),
+ you create parallel systems for transaction creation and signature verification. 
+This ensures that a compromise or failure in one network -- whether due to malware, hardware issues, or network attacks -- does not affect the other, preserving access to your funds.</p>
+<p>Each <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> generates identical unsigned transactions from the same <a href="../level-7/">multisig</a> wallet and UTXOs,
+ while independent signature verification detects anomalies, such as those from malicious firmware like Dark Skippy. 
+This redundancy strengthens the fault tolerance established with multiple <a href="../../appendix/airgapped-computer/">Signing-Devices</a> in Level 9.</p>
+<hr />
+<h2 id="benefits-of-redundancy">Benefits of Redundancy<a class="headerlink" href="#benefits-of-redundancy" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Network Isolation</strong>: Separate networks prevent cross-contamination, ensuring a breach in one does not compromise the other.</li>
+<li><strong>Independent Verification</strong>: Each <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> verifies partial signatures against its own <a href="../level-4/">full node</a>, catching discrepancies or malicious behavior.</li>
+<li><strong>Resilience</strong>: Funds remain accessible even if one network or device fails, as the second system can complete the transaction.</li>
+</ul>
+<hr />
+<h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Isolate Networks</strong>: Configure each <a href="../level-4/">full node</a> and <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> on separate <a href="../level-8/">DMZs</a> or VLANs using distinct routers (e.g., <a href="https://www.ui.com/edgemax/edgerouter-4/">Ubiquiti EdgeRouter 4</a>).</li>
+<li><strong>Synchronize Inputs</strong>: Ensure both Transaction-Managers use identical UTXOs, recipient addresses, and fee rates for unsigned transactions.</li>
+<li><strong>Verify Signatures</strong>: Use tools like Sparrow Wallet to independently validate partial signatures on each <a href="../../appendix/airgapped-computer/">Transaction-Manager</a>.</li>
+<li><strong>Monitor Anomalies</strong>: Employ detection tools (e.g., from <a href="https://darkskippy.com">Dark Skippy</a>) to scan for signature-based attacks or possible seed exfil.</li>
+<li><strong>Test Regularly</strong>: Simulate transaction creation and signing across both networks to confirm consistency.</li>
+</ul>
+<hr />
+<p>Redundant networks with separate <a href="../level-4/">full nodes</a> and <a href="../../appendix/airgapped-computer/">Transaction-Managers</a> provide unmatched Bitcoin security. By generating identical unsigned transactions and independently verifying signatures from <a href="../../appendix/airgapped-computer/">Signing-Devices</a>, Level 10 ensures resilience against any single failure or attack, securing your funds with absolute confidence.</p>
 
 
 
