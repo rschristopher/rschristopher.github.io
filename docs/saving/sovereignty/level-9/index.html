@@ -1466,9 +1466,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
+  <a href="#implementation" class="md-nav__link">
     <span class="md-ellipsis">
-      Best Practices
+      Implementation
     </span>
   </a>
   
@@ -2903,9 +2903,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
+  <a href="#implementation" class="md-nav__link">
     <span class="md-ellipsis">
-      Best Practices
+      Implementation
     </span>
   </a>
   
@@ -2946,8 +2946,8 @@ This is because the multisig setup requires signatures from multiple devices to 
 For example, malicious firmware with a Dark Skippy attack could compromise a single device (seed exfil), but fault-tolerant redundancy ensures your wealth remains safe.</p>
 <hr />
 <h2 id="which-devices">Which Devices?<a class="headerlink" href="#which-devices" title="Permanent link">&para;</a></h2>
-<p>Any two of the Signing-Devices discussed in <a href="../level-3/">Level 3</a> can be used to ensure fault tolerance.
-For example:</p>
+<p>Any two of the Signing-Devices discussed in <a href="../level-3/">Level 3</a> can be used to ensure fault tolerance.</p>
+<p>For example:</p>
 <ul>
 <li><a href="https://seedsigner.com"><strong>SeedSigner</strong></a>: A DIY, open-source signing device built on affordable hardware (Raspberry Pi Zero). SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable solution.</li>
 <li><a href="https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0"><strong>DIY Raspberry Pi Zero</strong></a>: For advanced users, you can create your own signing device using a Raspberry Pi Zero with open-source software.</li>
@@ -2955,14 +2955,20 @@ For example:</p>
 <li><a href="https://coldcard.com/q"><strong>Coldcard Q</strong></a>: Coldcard with QR scanner and display.</li>
 </ul>
 <hr />
-<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
+<h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<p>You will need at least a <em>2-of-3</em> multisig, and at least two different signing devices (ideally different manufacturer and firmware).</p>
 <ul>
-<li><strong>Spread Out</strong>: Keep devices in different physical locations.</li>
-<li><strong>Verify Often</strong>: Check device integrity and update firmware.</li>
-<li><strong>Backup Wisely</strong>: Store seed phrases in <a href="../level-6/">metal</a>, apart from devices.</li>
+<li><strong>Seed-1</strong> -- created by Signing-Device-1</li>
+<li><strong>Seed-2</strong> -- created by Signing-Device-2</li>
+<li><strong>Seed-3</strong> -- created by an <a href="../../appendix/airgapped-computer/">Airgapped-Computer</a> or by <a href="../../appendix/dice/">pencil and paper</a>; this seed will act as a backup for recovery purposes.</li>
 </ul>
+<p>Importantly, each seed is dedicated to a specific Signing-Device, and one should take additional precautions in the <a href="../level-5/">Quarantine Rules</a>
+ to ensure no cross-contamination between seeds and Signing-Devices.</p>
+<p>In practice, your Transaction-Manager will create an unsigned transaction and you will transmit (via <a href="../level-5/">quarantine</a>) to each Signing-Device and collect
+ the needed signatures onto the Transaction-Manager, which will merge the signatures into a finalized transaction.
+An example of Level 9 fault tolerance is included in the appendix, see the <a href="../../appendix/protocol_advanced/">advanced protocol</a>.</p>
 <hr />
-<p>Redundant <a href="../../appendix/airgapped-computer/">Signing-Devices</a> in a <a href="../level-7/">multisig</a> setup bolster Bitcoin security against hardware failure and attacks. 
+<p>Redundant <a href="../../appendix/airgapped-computer/">Signing-Devices</a> in a <a href="../level-7/">multisig</a> setup bolster security against hardware failure and attacks. 
 This method ensures resilience and fault-tolerant control over your funds.</p>
 
 
