@@ -2953,7 +2953,7 @@ security.</p>
 <a href="../../sovereignty/level-4/">full node</a>. No changes needed here, as deposits
 don't involve signing.</p>
 <details class="info">
-<summary>Generate Receive Address</summary>
+<summary>1. Generate Receive Address</summary>
 <ol>
 <li>Start Sparrow on the Transaction-Manager.</li>
 <li>Form a new receive address from the
@@ -2964,7 +2964,7 @@ don't involve signing.</p>
 </ol>
 </details>
 <details class="warning">
-<summary>Verify Address on Airgapped Device</summary>
+<summary>2. Verify Address on Airgapped Device</summary>
 <ol>
 <li>Send address data via QR to the dedicated SeedSigners (verify on at
    least two for redundancy).</li>
@@ -2975,7 +2975,7 @@ don't involve signing.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Share Address with Sender</summary>
+<summary>3. Share Address with Sender</summary>
 <ol>
 <li>Deliver the verified address securely (e.g., encrypted message).</li>
 <li>Advise double-checking pre-send.</li>
@@ -2985,7 +2985,7 @@ don't involve signing.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Monitor Incoming Transaction</summary>
+<summary>4. Monitor Incoming Transaction</summary>
 <ol>
 <li>Scan for the transaction in your <a href="../../sovereignty/level-4/">full node</a>
    or Sparrow on Tails OS.</li>
@@ -2994,7 +2994,7 @@ don't involve signing.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Confirm Finality</summary>
+<summary>5. Confirm Finality</summary>
 <ol>
 <li>Await sufficient confirmations (e.g., 3 blocks).</li>
 <li>Affirm blockchain inclusion on your <a href="../../sovereignty/level-4/">full node</a>.</li>
@@ -3009,7 +3009,7 @@ don't involve signing.</p>
 Adhere closely to avoid mishaps. 
 Use dedicated SeedSigners for each partial signature to prevent cross-seed leakage.</p>
 <details class="info">
-<summary>Create Unsigned Transaction</summary>
+<summary>1. Create Unsigned Transaction</summary>
 <ol>
 <li>Open Sparrow on the Transaction-Manager.</li>
 <li>Choose UTXOs, define recipient and amount (Send tab).</li>
@@ -3019,18 +3019,17 @@ Use dedicated SeedSigners for each partial signature to prevent cross-seed leaka
 </ol>
 </details>
 <details class="warning">
-<summary>Transfer Unsigned Transaction to Airgapped Device</summary>
+<summary>2. Transfer Unsigned Transaction to Airgapped Device</summary>
 <ol>
 <li>Convey PSBT via <a href="../../sovereignty/level-5/">quarantine</a> (QR on
    Transaction-Manager, SeedSigner scan).</li>
-<li>Bar Internet devices from vicinity.</li>
-<li>Confirm media cleanliness.</li>
+<li>Ban Internet devices from vicinity.</li>
 <li>Load PSBT on each dedicated SeedSigner sans signing.</li>
 <li>Scrutinize details on screen (outputs, fees).</li>
 </ol>
 </details>
 <details class="danger">
-<summary>Sign Transaction on Required Signing-Device</summary>
+<summary>3. Sign Transaction</summary>
 <ol>
 <li>On the first dedicated SeedSigner, load its assigned seed (QR scan or
    manual entry).</li>
@@ -3044,7 +3043,7 @@ Use dedicated SeedSigners for each partial signature to prevent cross-seed leaka
 </ol>
 </details>
 <details class="warning">
-<summary>Combine Signatures and Finalize Transaction</summary>
+<summary>4. Combine Signatures and Finalize Transaction</summary>
 <ol>
 <li>Return partial signatures to Transaction-Manager via
    <a href="../../sovereignty/level-5/">quarantine</a> (SeedSigner QR scan).</li>
@@ -3053,42 +3052,37 @@ Use dedicated SeedSigners for each partial signature to prevent cross-seed leaka
 </ol>
 </details>
 <details class="warning">
-<summary>Inspect Transaction</summary>
+<summary>5. Inspect Transaction</summary>
 <ol>
 <li>Before broadcasting, export the signed transaction hex in Sparrow.</li>
-<li>Use installed detection tools (e.g., from <a href="https://darkskippy.com/">Dark Skippy</a>) to scan
-   the transaction for signs of Dark Skippy attacks, such as leaked seed
-   data in signatures.</li>
+<li>Use installed detection tools (e.g., from <a href="https://darkskippy.com/">Dark Skippy</a>) to scan the transaction for signs of Dark Skippy attacks, such as leaked seed data in signatures.</li>
 <li>If anomalies detected, abort, investigate devices, and rebuild firmware.</li>
-<li>Proceed only if clear.</li>
 </ol>
 </details>
-<details class="info" open="open">
-<summary>Broadcast Signed Transaction</summary>
+<details class="info">
+<summary>6. Broadcast Signed Transaction</summary>
 <ol>
 <li>Link to your <a href="../../sovereignty/level-4/">full node</a> or trusted broadcaster in Sparrow.</li>
 <li>Submit to network.</li>
 <li>Watch mempool entry.</li>
 <li>Follow confirmations on <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Record TXID and refresh records.</li>
 </ol>
 </details>
 <hr />
 <h2 id="check-balance">Check Balance<a class="headerlink" href="#check-balance" title="Permanent link">&para;</a></h2>
 <p>View balances key-free. Prioritize your <a href="../../sovereignty/level-4/">full node</a>
-for verification; limit external tools. No changes needed.</p>
+for verification.</p>
 <details class="info">
-<summary>Sync Watch-Only Wallet or Full Node</summary>
+<summary>1. Sync Watch-Only Wallet</summary>
 <ol>
 <li>Start Sparrow on Transaction-Manager.</li>
 <li>Connect to <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Rescan/sync blockchain as required.</li>
 <li>Await complete sync.</li>
 <li>Mark unconfirmed transactions.</li>
 </ol>
 </details>
 <details class="info">
-<summary>Query Balance for Multisig Addresses</summary>
+<summary>2. Query Balance for Multisig Addresses</summary>
 <ol>
 <li>Examine total balance in Sparrow on Tails OS (Balance tab).</li>
 <li>Detail confirmed/unconfirmed UTXOs.</li>
@@ -3098,7 +3092,7 @@ for verification; limit external tools. No changes needed.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Optional: Verify Against Separate Full Node</summary>
+<summary>3. Optional: Verify Against Separate Full Node</summary>
 <ol>
 <li>Query addresses on secondary <a href="../../sovereignty/level-4/">full node</a>.</li>
 <li>Match balances/UTXOs.</li>
@@ -3110,7 +3104,7 @@ for verification; limit external tools. No changes needed.</p>
 <p>Restore from backups for key or device loss. Test routinely. Use new dedicated
 devices if recovering multiple seeds.</p>
 <details class="info">
-<summary>Identify the Issue</summary>
+<summary>1. Identify the Issue</summary>
 <ol>
 <li>Pinpoint recovery type (e.g., lost SeedSigner, device damage, wallet
    data erasure).</li>
@@ -3122,7 +3116,7 @@ devices if recovering multiple seeds.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Retrieve Metal Backups</summary>
+<summary>2. Retrieve Backups</summary>
 <ol>
 <li>Retrieve from secure sites (e.g., Key 1 from home safe).</li>
 <li>Examine tamper seals.</li>
@@ -3132,7 +3126,7 @@ devices if recovering multiple seeds.</p>
 </ol>
 </details>
 <details class="danger">
-<summary>Restore Keys on New Signing-Device</summary>
+<summary>3. Restore Keys on New Signing-Device</summary>
 <ol>
 <li>Procure new airgapped SeedSigner(s) (one per recovered seed if
    multiple).</li>
@@ -3144,7 +3138,7 @@ devices if recovering multiple seeds.</p>
 </ol>
 </details>
 <details class="warning">
-<summary>Rebuild Multisig Wallet Descriptor</summary>
+<summary>4. Rebuild Multisig Wallet Descriptor</summary>
 <ol>
 <li>Export ZPUBs from restored SeedSigner(s) to Transaction-Manager via
    <a href="../../sovereignty/level-5/">quarantine</a>.</li>
@@ -3156,7 +3150,7 @@ devices if recovering multiple seeds.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Test Recovery with Small Amount</summary>
+<summary>5. Test Recovery with Small Amount</summary>
 <ol>
 <li>Deposit test sum if viable.</li>
 <li>Withdraw as above.</li>
@@ -3170,7 +3164,7 @@ devices if recovering multiple seeds.</p>
 <p>Sustain protocol integrity with regular tasks. Execute quarterly. Include
 device-specific checks.</p>
 <details class="info">
-<summary>Verify Metal Backups</summary>
+<summary>1. Verify Metal Backups</summary>
 <ol>
 <li>Rotate access (one per session).</li>
 <li>Inspect damage/corrosion.</li>
@@ -3180,7 +3174,7 @@ device-specific checks.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Update Software and Firmware</summary>
+<summary>2. Update Software and Firmware</summary>
 <ol>
 <li>Monitor SeedSigner GitHub updates, including any anti-exfil
    implementations.</li>
@@ -3192,7 +3186,7 @@ device-specific checks.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Run Full Node Health Checks</summary>
+<summary>3. Run Full Node Health Checks</summary>
 <ol>
 <li>Confirm blockchain sync.</li>
 <li>Evaluate disk, uptime, connections.</li>
@@ -3202,13 +3196,13 @@ device-specific checks.</p>
 </ol>
 </details>
 <details class="info">
-<summary>Simulate Full Protocol Run</summary>
+<summary>4. Simulate Full Protocol Run</summary>
 <ol>
 <li>Test deposit/withdrawal with nominal funds using all dedicated devices.</li>
 <li>Mimic recovery (no loss).</li>
 <li>Time and refine.</li>
 <li>Include heirs in dry run if feasible.</li>
-<li>Amend protocol doc.</li>
+<li>Amend protocol doc, as needed.</li>
 </ol>
 </details>
 
