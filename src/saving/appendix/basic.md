@@ -248,7 +248,7 @@ devices if recovering multiple seeds.
 Sustain protocol integrity with regular tasks. Execute quarterly. Include
 device-specific checks.
 
-??? info "1. Verify Metal Backups"
+??? danger "1. Verify Metal Backups"
     1. Rotate access (one per session).
     2. Inspect damage/corrosion.
     3. Test transcription on dedicated SeedSigner.
