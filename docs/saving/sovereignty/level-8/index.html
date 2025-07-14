@@ -1384,6 +1384,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 8: DMZs
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1395,6 +1408,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-a-dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why a DMZ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-ethernet-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Ethernet Only?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2819,6 +2869,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-a-dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why a DMZ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-ethernet-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Ethernet Only?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2841,6 +2917,24 @@
   <figcaption>Level 8 -- network segmentation and DMZs</figcaption>
 </figure></p>
 </div>
+<p>In Level 8, we introduce the concept of a DMZ (Demilitarized Zone) to elevate the security of your Bitcoin setup. A DMZ is a distinct network segment positioned between your home network and the Internet, acting as a fortified buffer for your non-airgapped components. This approach complements the <a href="../level-5/">airgap quarantine</a> used for offline tasks, focusing here on safeguarding the online elements of your Bitcoin infrastructure.</p>
+<p>Your home network is likely a mix of devices -- laptops, smartphones, smart TVs, and IoT gadgets -- any of which could be a weak link, potentially compromised by malware or an attacker. 
+By isolating your Bitcoin <a href="../level-4/">full node</a> and <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> within a DMZ,
+ you establish a protective barrier, making it far more difficult for threats to reach these vital assets, even if your home network is breached.</p>
+<hr />
+<h2 id="why-a-dmz">Why a DMZ?<a class="headerlink" href="#why-a-dmz" title="Permanent link">&para;</a></h2>
+<p>The DMZ isolates your <a href="../level-4/">full node</a> (running Electrs for wallet functionality) and <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> (booting from Tails OS) from your broader home network. Only the Transaction-Manager is permitted to communicate with the full node, meaning that even if other devices on your network are compromised, they cannot directly target your Bitcoin setup.</p>
+<p>This isolation is typically achieved using a separate router or managed switch—such as the <a href="https://www.ui.com/edgemax/edgerouter-4/">Ubiquiti EdgeRouter 4</a> 
+ -- configured with strict firewall rules to regulate traffic flow. 
+The result is a tightly controlled environment that minimizes exposure to potential threats.</p>
+<hr />
+<h2 id="why-ethernet-only">Why Ethernet Only?<a class="headerlink" href="#why-ethernet-only" title="Permanent link">&para;</a></h2>
+<p>This setup prioritizes wired connections over Wi-Fi to maximize security. 
+Wireless networks, while user-friendly, are susceptible to risks like data interception, unauthorized access, and exploits targeting Wi-Fi protocols. 
+By relying solely on Ethernet, you eliminate these vulnerabilities, ensuring your Bitcoin infrastructure is only accessible through physically secure, wired links.</p>
+<hr />
+<p>Adopting a DMZ with wired connections for your Bitcoin <a href="../level-4/">full node</a> and <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> provides a robust defense against network-based threats. This setup safeguards your assets from risks within your home network and sidesteps the weaknesses of Wi-Fi, offering a professional-grade security solution. 
+While it demands thoughtful configuration, the heightened protection it delivers is invaluable for securing your Bitcoin infrastructure.</p>
 
 
 

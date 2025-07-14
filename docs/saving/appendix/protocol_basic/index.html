@@ -2864,344 +2864,166 @@
 
 
 <h1 id="basic-protocol-with-seedsigner">Basic Protocol with SeedSigner<a class="headerlink" href="#basic-protocol-with-seedsigner" title="Permanent link">&para;</a></h1>
-<p>This protocol delivers a robust 2-of-3 multisig Bitcoin self-custody system
-using <strong>three dedicated SeedSigners</strong> (one per seed). 
-It harnesses an <a href="../soverignty/level-5.md">airgap quarantine</a>,
-a <a href="../../sovereignty/level-4/">full node</a> for verification,
-<a href="../../sovereignty/level-6/">metal seed backups</a>,
- and stringent <a href="../../sovereignty/level-5/">quarantine rules</a> to provide ironclad protection.
-The SeedSigner's stateless nature -- <em>retaining seeds in memory alone</em> -- ensures automatic data clearing upon power-off, enabling secure role shifts. 
-By using dedicated devices per seed, this variant defends
-against advanced firmware attacks like <a href="https://darkskippy.com">Dark Skippy</a>,
- where a compromised device could leak seeds via signatures.</p>
+<p>This protocol outlines a secure single-signature Bitcoin self-custody system using a <a href="https://seedsigner.com">SeedSigner</a>, 
+ enhanced by <a href="../../sovereignty/level-5/">airgap quarantine</a> and a <a href="../../sovereignty/level-4/">full node</a> for verification.</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Establish your 2-of-3 <a href="../../sovereignty/level-7/">multisig</a> wallet with three
-seeds created in sequence on <strong>dedicated SeedSigners</strong> (one device per seed).
-Conduct this in a secluded, secure setting, maintaining airgaps and
-<a href="../../sovereignty/level-5/">quarantine procedures</a>. This separation ensures
-that a compromise of one device affects only one seed, preserving multisig
-security.</p>
+<p>Establish your single-signature wallet with a SeedSigner in a secure, airgapped environment.</p>
 <details class="info">
-<summary>1. Prepare Secure Environments</summary>
+<summary>1. Prepare Secure Environment</summary>
 <ol>
-<li>Configure <strong>three separate SeedSigners</strong> for dual roles as Signing-Device and Airgapped-Computer.</li>
-<li>Assemble a Transaction-Manager (Tails OS with persistent storage) for watch-only functions, linked to your <a href="../../sovereignty/level-4/">full node</a>. If desired, install Sparrow on the Transaction-Manager through Tails with <a href="https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/">persistent storage</a>.</li>
-<li><em>Optional</em>, install <a href="https://darkskippy.com">Dark Skippy</a> detection tools and other related tools to verify transactions (install on Tails OS persistent storage).</li>
-<li>Familiarize yourself with <a href="../../sovereignty/level-5/">quarantine rules</a>.</li>
-<li>Authenticate software and firmware: Pull from official repositories, validate signatures, and update (compile OS from source where feasible; refer to <a href="https://github.com/SeedSigner/seedsigner-os#-building">building guide</a>).</li>
-<li>Prepare tools for <a href="../../sovereignty/level-6/">metal backups</a>.</li>
+<li>Configure a SeedSigner for use as both the signing device and airgapped computer.</li>
+<li>Set up a Transaction-Manager (e.g., Tails OS with persistent storage) connected to your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Familiarize yourself with basic <a href="../../sovereignty/level-5/">quarantine rules</a>.</li>
 </ol>
 </details>
 <details class="danger">
-<summary>2. Generate Seeds</summary>
+<summary>2. Generate Seed</summary>
 <ol>
-<li>Activate each airgapped SeedSigner,  one at a time.</li>
-<li>On the first SeedSigner, access Settings &gt; Seeds &gt; Generate Seed; incorporate <a href="../dice/">dice</a> for entropy (roll D6 as instructed; consult <a href="https://github.com/SeedSigner/seedsigner/blob/dev/docs/dice_verification.md">dice verification guide</a>). Do not generate additional seeds on the same device to avoid potential entropy manipulation.</li>
-<li>Jot the seed phrase on paper temporarily for confirmation.</li>
-<li>Validate the seed on the SeedSigner display.</li>
-<li>Save as QR (Settings &gt; Seeds &gt; Export Seed QR), and safeguard the QR (see <a href="https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md">Seed QR guide</a>).</li>
-<li>Repeat for the second and third seeds on their dedicated SeedSigners, powering off each between steps to erase memory. Label devices clearly (e.g., "SeedSigner #1 for Seed 1").</li>
+<li>Power on the SeedSigner and navigate to Settings &gt; Seeds &gt; Generate Seed.</li>
+<li>Optionally, enhance entropy by using dice (consult the <a href="https://github.com/SeedSigner/seedsigner/blob/dev/docs/dice_verification.md">dice verification guide</a>).</li>
+<li>Temporarily record the seed phrase on paper.</li>
+<li>Verify the seed phrase on the SeedSigner display.</li>
+<li>Export the seed as a QR code (Settings &gt; Seeds &gt; Export Seed QR).</li>
 </ol>
 </details>
-<details class="info">
+<details class="danger">
 <summary>3. Backup to Metal</summary>
 <ol>
-<li>Stamp each seed onto durable <a href="../../sovereignty/level-6/">metal backups</a>.</li>
-<li>Cross-verify against the paper note.</li>
-<li>Incinerate the paper note.</li>
-<li>Store backups to distinct and secure sites (e.g., Seed 1 at residence, Seed 2 with kin, Seed 3 in vault).</li>
-<li>Affix tamper-evident seals.</li>
+<li>Stampe the seed phrase onto a durable <a href="../../sovereignty/level-6/">metal backup</a>.</li>
+<li>Cross-verify the transcription with the paper record.</li>
+<li>Securely destroy the paper record.</li>
+<li>Store the metal backup in a safe and private location.</li>
 </ol>
 </details>
 <details class="warning">
-<summary>4. Export ZPUBs to Transaction-Manager</summary>
+<summary>4. Export ZPUB to Transaction-Manager</summary>
 <ol>
-<li>On each dedicated SeedSigner, load its assigned seed and export ZPUB (Settings &gt; Advanced &gt; Export XPUB &gt; Multisig, native SegWit).</li>
-<li>Convey ZPUBs via <a href="../../sovereignty/level-5/">quarantine</a> (QR display on SeedSigner, camera scan by Transaction-Manager).</li>
-<li>Integrate ZPUBs into Sparrow on Transaction-Manager (Tails OS) for a <a href="../../sovereignty/level-7/">multisig</a> watch-only wallet.</li>
-<li>Confirm Sparrow's descriptor fits 2-of-3.</li>
+<li>On the SeedSigner, export the ZPUB (Settings &gt; Advanced &gt; Export XPUB &gt; Single Sig, native SegWit).</li>
+<li>Display the ZPUB as a QR code on the SeedSigner.</li>
+<li>Scan the QR code with the Transaction-Manager to import the ZPUB.</li>
+<li>In Sparrow on the Transaction-Manager, create a watch-only wallet using the ZPUB.</li>
 </ol>
 </details>
 <details class="warning">
-<summary>5. Validate Addresses for Future Deposits</summary>
+<summary>5. Validate Addresses</summary>
 <ol>
-<li>Produce receive addresses in Sparrow on Tails OS.</li>
-<li>Relay via QR to each dedicated SeedSigner for checks (load assigned
-   seed as required).</li>
-<li>Affirm derivation from ZPUB on SeedSigner (Address Explorer).</li>
-<li>Record paths (e.g., m/84'/0'/0'/0 for native SegWit
-   <a href="../../sovereignty/level-7/">multisig</a>).</li>
-<li>Keep an offline roster of validated addresses.</li>
-</ol>
-</details>
-<details class="info">
-<summary>6. Test Setup with Small Transaction</summary>
-<ol>
-<li>Transfer a small Bitcoin amount folliwing the Deposit procedure below.</li>
-<li>Observe confirmation on your <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Transfer some Bitcoin following the Withdrawal procedure below.</li>
-<li>Validate the full workflow (e.g., seamless signature merging in
-   Sparrow).</li>
-<li>Record issues and update protocol as needed.</li>
+<li>Generate a receive address in Sparrow.</li>
+<li>Transfer the address to the SeedSigner via QR code.</li>
+<li>On the SeedSigner, verify the address derivation (Address Explorer).</li>
 </ol>
 </details>
 <hr />
 <h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
-<p>Receive Bitcoin safely. Use unique addresses each time, confirmed through your
-<a href="../../sovereignty/level-4/">full node</a>. No changes needed here, as deposits
-don't involve signing.</p>
+<p>Receive Bitcoin securely using verified addresses.</p>
 <details class="info">
 <summary>1. Generate Receive Address</summary>
 <ol>
-<li>Start Sparrow on the Transaction-Manager.</li>
-<li>Form a new receive address from the
-   <a href="../../sovereignty/level-7/">multisig</a> descriptor (Receive tab).</li>
-<li>Tag it (e.g., "Deposit from Exchange - Date").</li>
-<li>Copy securely.</li>
-<li>Optionally make a QR in Sparrow.</li>
+<li>Open Sparrow on the Transaction-Manager and create a new receive address.</li>
 </ol>
 </details>
 <details class="warning">
-<summary>2. Verify Address on Airgapped Device</summary>
+<summary>2. Verify Address on SeedSigner</summary>
 <ol>
-<li>Send address data via QR to the dedicated SeedSigners (verify on at
-   least two for redundancy).</li>
-<li>Confirm ZPUB derivation on each SeedSigner (Address Explorer).</li>
-<li>Validate across seeds for multi-seed assurance.</li>
-<li>Provide signed message via QR if necessary.</li>
-<li>Cleanse media after.</li>
+<li>Display the address as a QR code on the Transaction-Manager.</li>
+<li>Scan and confirm the address on the SeedSigner.</li>
 </ol>
 </details>
 <details class="info">
-<summary>3. Share Address with Sender</summary>
+<summary>3. Share and Monitor</summary>
 <ol>
-<li>Deliver the verified address securely (e.g., encrypted message).</li>
-<li>Advise double-checking pre-send.</li>
-<li>Shun public disclosure.</li>
-<li>Note anticipated amount and sender.</li>
-<li>Await appearance in Sparrow.</li>
-</ol>
-</details>
-<details class="info">
-<summary>4. Monitor Incoming Transaction</summary>
-<ol>
-<li>Scan for the transaction in your <a href="../../sovereignty/level-4/">full node</a>
-   or Sparrow on Tails OS.</li>
-<li>Examine details: amount, fees, inputs.</li>
-<li>Await first confirmation (e.g., 1 block).</li>
-</ol>
-</details>
-<details class="info">
-<summary>5. Confirm Finality</summary>
-<ol>
-<li>Await sufficient confirmations (e.g., 3 blocks).</li>
-<li>Affirm blockchain inclusion on your <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Refresh balance in Transaction-Manager (Tails OS).</li>
-<li>Optionally cross-verify with another node.</li>
-<li>Log completed deposit.</li>
+<li>Share the verified address with the sender securely.</li>
+<li>Monitor the transaction in Sparrow via your <a href="../../sovereignty/level-4/">full node</a>.</li>
 </ol>
 </details>
 <hr />
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
-<p>Spend Bitcoin via <a href="../../sovereignty/level-7/">multisig</a> signing. 
-Adhere closely to avoid mishaps. 
-Use dedicated SeedSigners for each partial signature to prevent cross-seed leakage.</p>
+<p>Spend Bitcoin by signing transactions with your SeedSigner.</p>
 <details class="info">
 <summary>1. Create Unsigned Transaction</summary>
 <ol>
 <li>Open Sparrow on the Transaction-Manager.</li>
-<li>Choose UTXOs, define recipient and amount (Send tab).</li>
-<li>Set fees from <a href="../../sovereignty/level-4/">full node</a> mempool data.</li>
-<li>Produce PSBT file.</li>
-<li>Export as QR.</li>
-</ol>
-</details>
-<details class="warning">
-<summary>2. Transfer Unsigned Transaction to Airgapped Device</summary>
-<ol>
-<li>Convey PSBT via <a href="../../sovereignty/level-5/">quarantine</a> (QR on
-   Transaction-Manager, SeedSigner scan).</li>
-<li>Ban Internet devices from vicinity.</li>
-<li>Load PSBT on each dedicated SeedSigner sans signing.</li>
-<li>Scrutinize details on screen (outputs, fees).</li>
+<li>Select UTXOs, specify recipient and amount.</li>
+<li>Set an appropriate fee based on network conditions.</li>
+<li>Generate the PSBT and export it as a QR code.</li>
 </ol>
 </details>
 <details class="danger">
-<summary>3. Sign Transaction</summary>
+<summary>2. Sign Transaction with SeedSigner</summary>
 <ol>
-<li>On the first dedicated SeedSigner, load its assigned seed (QR scan or
-   manual entry).</li>
-<li>Approve transaction.</li>
-<li>Generate partial signature (Sign PSBT; see <a href="https://github.com/SeedSigner/seedsigner/blob/dev/docs/multisig/README.md">multisig
-   guide</a>).</li>
-<li>Export partial PSBT as QR (to Transaction-Manager).</li>
-<li>Power off SeedSigner to clear memory.</li>
-<li>Repeat for the second seed on its dedicated SeedSigner (achieving
-   2-of-3 <a href="../../sovereignty/level-7/">multisig</a> threshold). </li>
+<li>Power on the SeedSigner and load the seed if necessary.</li>
+<li>Scan the PSBT QR code from the Transaction-Manager.</li>
+<li>Review transaction details on the SeedSigner display.</li>
+<li>Sign the transaction and export it as a QR code.</li>
 </ol>
 </details>
 <details class="warning">
-<summary>4. Combine Signatures and Finalize Transaction</summary>
+<summary>3. Broadcast Signed Transaction</summary>
 <ol>
-<li>Return partial signatures to Transaction-Manager via
-   <a href="../../sovereignty/level-5/">quarantine</a> (SeedSigner QR scan).</li>
-<li>Merge in Sparrow on Tails OS for complete signature.</li>
-<li>Validate transaction in Sparrow.</li>
-</ol>
-</details>
-<details class="warning">
-<summary>5. Inspect Transaction</summary>
-<ol>
-<li>Before broadcasting, export the signed transaction hex in Sparrow.</li>
-<li>Use installed detection tools (e.g., from <a href="https://darkskippy.com/">Dark Skippy</a>) to scan the transaction for signs of Dark Skippy attacks, such as leaked seed data in signatures.</li>
-<li>If anomalies detected, abort, investigate devices, and rebuild firmware.</li>
-</ol>
-</details>
-<details class="info">
-<summary>6. Broadcast Signed Transaction</summary>
-<ol>
-<li>Link to your <a href="../../sovereignty/level-4/">full node</a> or trusted broadcaster in Sparrow.</li>
-<li>Submit to network.</li>
-<li>Watch mempool entry.</li>
-<li>Follow confirmations on <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Scan the signed transaction QR code with the Transaction-Manager.</li>
+<li>In Sparrow, finalize and broadcast the transaction.</li>
+<li>Monitor confirmation via your <a href="../../sovereignty/level-4/">full node</a>.</li>
 </ol>
 </details>
 <hr />
 <h2 id="check-balance">Check Balance<a class="headerlink" href="#check-balance" title="Permanent link">&para;</a></h2>
-<p>View balances key-free. Prioritize your <a href="../../sovereignty/level-4/">full node</a>
-for verification.</p>
+<p>View your Bitcoin balance without needing the SeedSigner.</p>
 <details class="info">
 <summary>1. Sync Watch-Only Wallet</summary>
 <ol>
-<li>Start Sparrow on Transaction-Manager.</li>
-<li>Connect to <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Await complete sync.</li>
-<li>Mark unconfirmed transactions.</li>
-</ol>
-</details>
-<details class="info">
-<summary>2. Query Balance for Multisig Addresses</summary>
-<ol>
-<li>Examine total balance in Sparrow on Tails OS (Balance tab).</li>
-<li>Detail confirmed/unconfirmed UTXOs.</li>
-<li>Survey recent transactions.</li>
-<li>Compute spendable sum (fee-deducted).</li>
-<li>Log balance securely.</li>
-</ol>
-</details>
-<details class="info">
-<summary>3. Optional: Verify Against Separate Full Node</summary>
-<ol>
-<li>Query addresses on secondary <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Match balances/UTXOs.</li>
-<li>Address mismatches promptly.</li>
+<li>Open Sparrow on the Transaction-Manager.</li>
+<li>Connect to your <a href="../../sovereignty/level-4/">full node</a> and sync.</li>
+<li>View your balance and transaction history.</li>
 </ol>
 </details>
 <hr />
 <h2 id="recovery">Recovery<a class="headerlink" href="#recovery" title="Permanent link">&para;</a></h2>
-<p>Restore from backups for key or device loss. Test routinely. Use new dedicated
-devices if recovering multiple seeds.</p>
-<details class="info">
-<summary>1. Identify the Issue</summary>
+<p>Restore your wallet in case of loss or damage.</p>
+<details class="danger">
+<summary>1. Retrieve Backup</summary>
 <ol>
-<li>Pinpoint recovery type (e.g., lost SeedSigner, device damage, wallet
-   data erasure).</li>
-<li>Assemble <a href="../../sovereignty/level-6/">metal backups</a> and protocol docs.</li>
-<li>Evaluate <a href="../../sovereignty/level-7/">multisig</a> threshold viability
-   (e.g., 2-of-3 post-loss).</li>
-<li>If untenable, advance to full seed restoration.</li>
-<li>Record attempt.</li>
-</ol>
-</details>
-<details class="info">
-<summary>2. Retrieve Backups</summary>
-<ol>
-<li>Retrieve from secure sites (e.g., Key 1 from home safe).</li>
-<li>Examine tamper seals.</li>
-<li>Copy seeds to temporary paper if necessary.</li>
-<li>Confirm accuracy.</li>
-<li>Manage in seclusion.</li>
+<li>Access your <a href="../../sovereignty/level-6/">metal backup</a> from its secure location.</li>
+<li>Inspect for any signs of tampering or damage.</li>
 </ol>
 </details>
 <details class="danger">
-<summary>3. Restore Keys on New Signing-Device</summary>
+<summary>2. Restore Seed</summary>
 <ol>
-<li>Procure new airgapped SeedSigner(s) (one per recovered seed if
-   multiple).</li>
-<li>Input backup seed (Load Seed; QR scan or manual; see <a href="https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md">Seed QR
-   guide</a>).</li>
-<li>Validate restored wallet (e.g., ZPUB via Export XPUB).</li>
-<li>Reproduce data if paths vary (e.g., new ZPUBs).</li>
-<li>Shred temporary notes.</li>
+<li>If necessary, acquire a new SeedSigner.</li>
+<li>Enter the seed phrase (Load Seed via QR or manual entry).</li>
+<li>Verify by exporting the ZPUB and comparing to records.</li>
 </ol>
 </details>
 <details class="warning">
-<summary>4. Rebuild Multisig Wallet Descriptor</summary>
+<summary>3. Rebuild Watch-Only Wallet</summary>
 <ol>
-<li>Export ZPUBs from restored SeedSigner(s) to Transaction-Manager via
-   <a href="../../sovereignty/level-5/">quarantine</a>.</li>
-<li>Recreate <a href="../../sovereignty/level-7/">multisig</a> descriptor in Sparrow on
-   Tails OS with new ZPUBs.</li>
-<li>Align with original.</li>
-<li>Rescan blockchain on <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Verify UTXOs in Sparrow.</li>
-</ol>
-</details>
-<details class="info">
-<summary>5. Test Recovery with Small Amount</summary>
-<ol>
-<li>Deposit test sum if viable.</li>
-<li>Withdraw as above.</li>
-<li>Affirm full operation.</li>
-<li>Revise docs.</li>
-<li>Add fresh backups.</li>
+<li>Export the ZPUB to the Transaction-Manager via QR code.</li>
+<li>In Sparrow, create a new watch-only wallet with the ZPUB.</li>
+<li>Rescan the blockchain to identify your UTXOs.</li>
 </ol>
 </details>
 <hr />
 <h2 id="maintenance">Maintenance<a class="headerlink" href="#maintenance" title="Permanent link">&para;</a></h2>
-<p>Sustain protocol integrity with regular tasks. Execute quarterly. Include
-device-specific checks.</p>
+<p>Ensure ongoing security and functionality.</p>
 <details class="danger">
-<summary>1. Verify Metal Backups</summary>
+<summary>1. Verify Metal Backup</summary>
 <ol>
-<li>Rotate access (one per session).</li>
-<li>Inspect damage/corrosion.</li>
-<li>Test transcription on dedicated SeedSigner.</li>
-<li>Reseal and stow.</li>
-<li>Refresh sites if required.</li>
+<li>Periodically inspect the metal backup for damage.</li>
+<li>Test the seed by entering it into the SeedSigner and verifying the ZPUB.</li>
 </ol>
 </details>
 <details class="info">
-<summary>2. Update Software and Firmware</summary>
+<summary>2. Update Software</summary>
 <ol>
-<li>Monitor SeedSigner GitHub updates, including any anti-exfil
-   implementations.</li>
-<li>Authenticate signatures.</li>
-<li>Prioritize Sparrow on Tails OS and
-   <a href="../../sovereignty/level-4/">full node</a>.</li>
-<li>Airgap-update each SeedSigner firmware (source rebuild and verify).</li>
-<li>Assess compatibility.</li>
+<li>Check for updates to SeedSigner firmware and Sparrow software.</li>
+<li>Verify the authenticity of updates before installation.</li>
 </ol>
 </details>
 <details class="info">
-<summary>3. Run Full Node Health Checks</summary>
+<summary>3. Full Node Health</summary>
 <ol>
-<li>Confirm blockchain sync.</li>
-<li>Evaluate disk, uptime, connections.</li>
-<li>Prune as necessary.</li>
-<li>Backup config.</li>
-<li>Restart and observe errors.</li>
-</ol>
-</details>
-<details class="info">
-<summary>4. Simulate Full Protocol Run</summary>
-<ol>
-<li>Test deposit/withdrawal with nominal funds using all dedicated devices.</li>
-<li>Mimic recovery (no loss).</li>
-<li>Time and refine.</li>
-<li>Include heirs in dry run if feasible.</li>
-<li>Amend protocol doc, as needed.</li>
+<li>Ensure your <a href="../../sovereignty/level-4/">full node</a> is synchronized.</li>
+<li>Monitor performance and address any issues promptly.</li>
 </ol>
 </details>
 
