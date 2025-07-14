@@ -51,29 +51,22 @@ Building on all prior levels --
     - Deploy [Signing-Devices](../appendix/airgapped-computer.md) in multiple secure, physically separate locations.
     - Use a [multisig](level-7.md) setup requiring signatures from several devices to authorize transactions.
 
-- **Redundant Read-Only Full Nodes**:
+- **Redundant Receive-Only Full Nodes**:
     - Operate one full node via RF and another via satellite, both configured as read-only to prevent tampering.
     - Verify data consistency between nodes to ensure blockchain integrity.
 
 - **Airgapped Signature Collection**:
-    - Use an airgapped computer within the expanded airgap to collect signatures from read-only Transaction-Managers.
+    - Use an [Airgapped-Computer](../appendix/airgapped-computer.md) within the expanded airgap to collect signatures from read-only Transaction-Managers.
     - Transfer unsigned transactions via QR codes or other offline methods, adhering to [quarantine rules](level-5.md).
 
 - **Secure Transaction Broadcasting**:
-    - Move the signed transaction to an online Transaction-Manager at a designated drop point.
+    - Move the signed transaction to an online Transaction-Manager at a designated drop point. This is a stateless Transaction-Manager (no persistent storage); it's one and only job is to broadcast signed transactions (over Tor or VPN).
     - Broadcast via a full node, using VPN or Tor to anonymize the process.
 
 - **Enhanced Countermeasures**:
     - Apply [Level 11 countermeasures](level-11.md): privacy filters, Faraday cages, white noise generators, and tamper-evident seals.
     - Protect against side-channel attacks during QR code transfers or physical device handling.
 
-- **Audits and Maintenance**:
-    - Perform regular security audits on all components (nodes, Signing-Devices, Transaction-Managers).
-    - Update software and firmware to patch vulnerabilities.
-
-- **Backup and Recovery**:
-    - Store [metal backups](level-6.md) of seed phrases and keys in multiple secure, distributed locations.
-    - Test recovery processes periodically to guarantee accessibility.
 
 An example of Level 12 security is included in the appendix, see the [Ludicrous Protocol](../appendix/protocol_ludicrous.md).
 
