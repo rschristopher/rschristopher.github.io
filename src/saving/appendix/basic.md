@@ -77,7 +77,7 @@ Receive Bitcoin safely. Use unique addresses each time, confirmed through your
 [full node](../sovereignty/level-4.md). No changes needed here, as deposits
 don't involve signing.
 
-??? info "Generate Receive Address"
+??? info "1. Generate Receive Address"
     1. Start Sparrow on the Transaction-Manager.
     2. Form a new receive address from the
        [multisig](../sovereignty/level-7.md) descriptor (Receive tab).
@@ -85,7 +85,7 @@ don't involve signing.
     4. Copy securely.
     5. Optionally make a QR in Sparrow.
 
-??? warning "Verify Address on Airgapped Device"
+??? warning "2. Verify Address on Airgapped Device"
     1. Send address data via QR to the dedicated SeedSigners (verify on at
        least two for redundancy).
     2. Confirm ZPUB derivation on each SeedSigner (Address Explorer).
@@ -93,20 +93,20 @@ don't involve signing.
     4. Provide signed message via QR if necessary.
     5. Cleanse media after.
 
-??? info "Share Address with Sender"
+??? info "3. Share Address with Sender"
     1. Deliver the verified address securely (e.g., encrypted message).
     2. Advise double-checking pre-send.
     3. Shun public disclosure.
     4. Note anticipated amount and sender.
     5. Await appearance in Sparrow.
 
-??? info "Monitor Incoming Transaction"
+??? info "4. Monitor Incoming Transaction"
     1. Scan for the transaction in your [full node](../sovereignty/level-4.md)
        or Sparrow on Tails OS.
     2. Examine details: amount, fees, inputs.
     3. Await first confirmation (e.g., 1 block).
 
-??? info "Confirm Finality"
+??? info "5. Confirm Finality"
     1. Await sufficient confirmations (e.g., 3 blocks).
     2. Affirm blockchain inclusion on your [full node](../sovereignty/level-4.md).
     3. Refresh balance in Transaction-Manager (Tails OS).
@@ -125,22 +125,21 @@ Spend Bitcoin via [multisig](../sovereignty/level-7.md) signing.
 Adhere closely to avoid mishaps. 
 Use dedicated SeedSigners for each partial signature to prevent cross-seed leakage.
 
-??? info "Create Unsigned Transaction"
+??? info "1. Create Unsigned Transaction"
     1. Open Sparrow on the Transaction-Manager.
     2. Choose UTXOs, define recipient and amount (Send tab).
     3. Set fees from [full node](../sovereignty/level-4.md) mempool data.
     4. Produce PSBT file.
     5. Export as QR.
 
-??? warning "Transfer Unsigned Transaction to Airgapped Device"
+??? warning "2. Transfer Unsigned Transaction to Airgapped Device"
     1. Convey PSBT via [quarantine](../sovereignty/level-5.md) (QR on
        Transaction-Manager, SeedSigner scan).
-    2. Bar Internet devices from vicinity.
-    3. Confirm media cleanliness.
-    4. Load PSBT on each dedicated SeedSigner sans signing.
-    5. Scrutinize details on screen (outputs, fees).
+    2. Ban Internet devices from vicinity.
+    3. Load PSBT on each dedicated SeedSigner sans signing.
+    4. Scrutinize details on screen (outputs, fees).
 
-??? danger "Sign Transaction on Required Signing-Device"
+??? danger "3. Sign Transaction"
     1. On the first dedicated SeedSigner, load its assigned seed (QR scan or
        manual entry).
     2. Approve transaction.
@@ -151,49 +150,45 @@ Use dedicated SeedSigners for each partial signature to prevent cross-seed leaka
     6. Repeat for the second seed on its dedicated SeedSigner (achieving
        2-of-3 [multisig](../sovereignty/level-7.md) threshold). 
 
-??? warning "Combine Signatures and Finalize Transaction"
+??? warning "4. Combine Signatures and Finalize Transaction"
     1. Return partial signatures to Transaction-Manager via
        [quarantine](../sovereignty/level-5.md) (SeedSigner QR scan).
     2. Merge in Sparrow on Tails OS for complete signature.
     3. Validate transaction in Sparrow.
 
-??? warning "Inspect Transaction"
+??? warning "5. Inspect Transaction"
     1. Before broadcasting, export the signed transaction hex in Sparrow.
-    2. Use installed detection tools (e.g., from [Dark Skippy](https://darkskippy.com/)) to scan
-       the transaction for signs of Dark Skippy attacks, such as leaked seed
-       data in signatures.
+    2. Use installed detection tools (e.g., from [Dark Skippy](https://darkskippy.com/)) to scan the transaction for signs of Dark Skippy attacks, such as leaked seed data in signatures.
     3. If anomalies detected, abort, investigate devices, and rebuild firmware.
-    4. Proceed only if clear.
 
-???+ info "Broadcast Signed Transaction"
+??? info "6. Broadcast Signed Transaction"
     1. Link to your [full node](../sovereignty/level-4.md) or trusted broadcaster in Sparrow.
     2. Submit to network.
     3. Watch mempool entry.
     4. Follow confirmations on [full node](../sovereignty/level-4.md).
-    5. Record TXID and refresh records.
+
 
 ---
 
 ## Check Balance
 
 View balances key-free. Prioritize your [full node](../sovereignty/level-4.md)
-for verification; limit external tools. No changes needed.
+for verification.
 
-??? info "Sync Watch-Only Wallet or Full Node"
+??? info "1. Sync Watch-Only Wallet"
     1. Start Sparrow on Transaction-Manager.
     2. Connect to [full node](../sovereignty/level-4.md).
-    3. Rescan/sync blockchain as required.
     4. Await complete sync.
     5. Mark unconfirmed transactions.
 
-??? info "Query Balance for Multisig Addresses"
+??? info "2. Query Balance for Multisig Addresses"
     1. Examine total balance in Sparrow on Tails OS (Balance tab).
     2. Detail confirmed/unconfirmed UTXOs.
     3. Survey recent transactions.
     4. Compute spendable sum (fee-deducted).
     5. Log balance securely.
 
-??? info "Optional: Verify Against Separate Full Node"
+??? info "3. Optional: Verify Against Separate Full Node"
     1. Query addresses on secondary [full node](../sovereignty/level-4.md).
     2. Match balances/UTXOs.
     3. Address mismatches promptly.
@@ -206,7 +201,7 @@ for verification; limit external tools. No changes needed.
 Restore from backups for key or device loss. Test routinely. Use new dedicated
 devices if recovering multiple seeds.
 
-??? info "Identify the Issue"
+??? info "1. Identify the Issue"
     1. Pinpoint recovery type (e.g., lost SeedSigner, device damage, wallet
        data erasure).
     2. Assemble [metal backups](../sovereignty/level-6.md) and protocol docs.
@@ -215,14 +210,14 @@ devices if recovering multiple seeds.
     4. If untenable, advance to full seed restoration.
     5. Record attempt.
 
-??? info "Retrieve Metal Backups"
+??? info "2. Retrieve Backups"
     1. Retrieve from secure sites (e.g., Key 1 from home safe).
     2. Examine tamper seals.
     3. Copy seeds to temporary paper if necessary.
     4. Confirm accuracy.
     5. Manage in seclusion.
 
-??? danger "Restore Keys on New Signing-Device"
+??? danger "3. Restore Keys on New Signing-Device"
     1. Procure new airgapped SeedSigner(s) (one per recovered seed if
        multiple).
     2. Input backup seed (Load Seed; QR scan or manual; see [Seed QR
@@ -231,7 +226,7 @@ devices if recovering multiple seeds.
     4. Reproduce data if paths vary (e.g., new ZPUBs).
     5. Shred temporary notes.
 
-??? warning "Rebuild Multisig Wallet Descriptor"
+??? warning "4. Rebuild Multisig Wallet Descriptor"
     1. Export ZPUBs from restored SeedSigner(s) to Transaction-Manager via
        [quarantine](../sovereignty/level-5.md).
     2. Recreate [multisig](../sovereignty/level-7.md) descriptor in Sparrow on
@@ -240,7 +235,7 @@ devices if recovering multiple seeds.
     4. Rescan blockchain on [full node](../sovereignty/level-4.md).
     5. Verify UTXOs in Sparrow.
 
-??? info "Test Recovery with Small Amount"
+??? info "5. Test Recovery with Small Amount"
     1. Deposit test sum if viable.
     2. Withdraw as above.
     3. Affirm full operation.
@@ -254,14 +249,14 @@ devices if recovering multiple seeds.
 Sustain protocol integrity with regular tasks. Execute quarterly. Include
 device-specific checks.
 
-??? info "Verify Metal Backups"
+??? info "1. Verify Metal Backups"
     1. Rotate access (one per session).
     2. Inspect damage/corrosion.
     3. Test transcription on dedicated SeedSigner.
     4. Reseal and stow.
     5. Refresh sites if required.
 
-??? info "Update Software and Firmware"
+??? info "2. Update Software and Firmware"
     1. Monitor SeedSigner GitHub updates, including any anti-exfil
        implementations.
     2. Authenticate signatures.
@@ -270,19 +265,19 @@ device-specific checks.
     4. Airgap-update each SeedSigner firmware (source rebuild and verify).
     5. Assess compatibility.
 
-??? info "Run Full Node Health Checks"
+??? info "3. Run Full Node Health Checks"
     1. Confirm blockchain sync.
     2. Evaluate disk, uptime, connections.
     3. Prune as necessary.
     4. Backup config.
     5. Restart and observe errors.
 
-??? info "Simulate Full Protocol Run"
+??? info "4. Simulate Full Protocol Run"
     1. Test deposit/withdrawal with nominal funds using all dedicated devices.
     2. Mimic recovery (no loss).
     3. Time and refine.
     4. Include heirs in dry run if feasible.
-    5. Amend protocol doc.
+    5. Amend protocol doc, as needed.
 
 
 
