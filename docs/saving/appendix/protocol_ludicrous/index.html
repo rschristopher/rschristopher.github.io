@@ -2787,83 +2787,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#seed-creation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Seed Creation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#proof-of-control" class="md-nav__link">
-    <span class="md-ellipsis">
-      Proof of Control
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#address-verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      Address Verification
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deposit" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deposit
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verify-balance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Verify balance
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#withdrawal" class="md-nav__link">
-    <span class="md-ellipsis">
-      Withdrawal
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2879,87 +2802,223 @@
 
 
 <h1 id="appendix-ludicrous-protocol">Appendix: Ludicrous Protocol<a class="headerlink" href="#appendix-ludicrous-protocol" title="Permanent link">&para;</a></h1>
-<details class="info" open="open">
-<summary>Who is this good for?</summary>
-<p>Advanced users looking for the most
-robust self custody solution possible.</p>
+<p>The Ludicrous Protocol is an extreme Bitcoin self-custody system implementing <strong><a href="../../sovereignty/level-12/">Level 12</a> security</strong>. It uses a <em>3-of-5 multisig</em> wallet with five <a href="../airgapped-computer/">Signing-Devices</a>—three SeedSigners and two Coldcard Qs—stored in geographically distributed, secure locations. It leverages receive-only full nodes (RF and satellite), an expanded airgap covering both DMZs, redundant Transaction-Managers, and a secure drop point for transaction broadcasting, ensuring resilience against state-level threats while maintaining fault tolerance and privacy.</p>
+<hr />
+<details class="info">
+<summary>Secure Environment and Countermeasures</summary>
+<p>The Ludicrous Protocol requires a highly secure environment to protect against sophisticated threats. This includes:</p>
+<ul>
+<li><strong>Geographical Distribution</strong>: Store the five <a href="../airgapped-computer/">Signing-Devices</a> in separate, secure locations to eliminate single points of failure.</li>
+<li><strong>Expanded Airgap</strong>: The airgap covers both DMZs, isolating all critical operations from network threats.</li>
+<li><strong>Physical Security</strong>: Each location must be equipped with a Faraday cage, privacy enclosure, and secure room to prevent physical and electromagnetic attacks.</li>
+<li><strong>Electronic Security</strong>: Use privacy filters on all device screens, camera blockers on the <a href="../airgapped-computer/">Transaction-Manager</a>, and tamper-evident seals on <a href="../airgapped-computer/">Signing-Devices</a>.</li>
+<li><strong>Receive-Only Full Nodes</strong>: Operate one RF and one satellite full node, both configured as read-only, to ensure tamper-proof blockchain data.</li>
+<li><strong>Redundant Transaction-Managers</strong>: Use two <a href="../airgapped-computer/">Transaction-Managers</a> on isolated networks for transaction creation and verification.</li>
+<li><strong>Secure Drop Point</strong>: Designate a physically secure, monitored location for broadcasting transactions.</li>
+</ul>
 </details>
-<p>Full node on a protected network.</p>
-<p>Master public keys will never touch an Internet-connected device.</p>
-<p>No persistance of private keys or seed phrases on any electronic device.
- Air-gapped and quarantined seed-signing devices only.</p>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<details class="check" open="open">
-<summary>Prerequisites</summary>
-<p>2+ distinct air-gapped devices</p>
-<p>1 USB card loaded with Tails OS</p>
-<p>1+ full-node, mynode, umbrel</p>
-<p>1+ DMZ computer, no Internet access</p>
-<p>1+ secure Internet computer </p>
-<p>1+ secure Ethernet router</p>
+<details class="info">
+<summary>Setup</summary>
+<p>Create a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> wallet with five seeds, each generated on a dedicated <a href="../airgapped-computer/">Signing-Device</a> in a unique, secure location. Operate within the expanded airgap and adhere to strict <a href="../../sovereignty/level-5/">quarantine rules</a>.</p>
+<ol>
+<li>
+<p><strong>Prepare Secure Environments</strong></p>
+<ol>
+<li>Establish five secure locations for the <a href="../airgapped-computer/">Signing-Devices</a>, each with a Faraday cage, privacy enclosure, and secure room.</li>
+<li>Set up two <a href="../airgapped-computer/">Transaction-Managers</a> on isolated networks, each connected to a receive-only full node (one RF, one satellite).</li>
+<li>Designate a secure drop point for the online Transaction-Manager.</li>
+<li>Equip all devices with privacy filters, camera blockers, and tamper-evident seals.</li>
+<li>Verify and update software and firmware using tools like <a href="https://darkskippy.com">Dark Skippy</a>.</li>
+</ol>
+</li>
+<li>
+<p><strong>Generate Seeds</strong>
+    ??? danger "Critical Step"
+        1. Activate each <a href="../airgapped-computer/">Signing-Device</a> in its secure location.
+        2. Generate a seed (SeedSigner: with <a href="../dice/">dice</a>; Coldcard Q: with dice), using privacy filters.
+        3. Save each seed as a QR code.
+        4. Repeat for all five devices, powering off between steps.</p>
+</li>
+<li>
+<p><strong>Backup to Metal</strong>
+    ??? danger "Critical Step"
+        1. Stamp seeds onto <a href="../../sovereignty/level-6/">metal backups</a>.
+        2. Store backups in distinct, secure sites with tamper-evident seals.</p>
+</li>
+<li>
+<p><strong>Export ZPUBs to Transaction-Managers</strong>
+    ??? warning "Caution"
+        1. Export ZPUBs via QR from each <a href="../airgapped-computer/">Signing-Device</a> in its secure environment.
+        2. Transfer ZPUBs to both <a href="../airgapped-computer/">Transaction-Managers</a> via secure QR.
+        3. Set up a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> wallet in Sparrow on both Transaction-Managers.</p>
+</li>
+<li>
+<p><strong>Validate Addresses for Future Deposits</strong>
+    ??? danger "Critical Step"
+        1. Generate receive addresses on both <a href="../airgapped-computer/">Transaction-Managers</a>.
+        2. Verify addresses on at least three <a href="../airgapped-computer/">Signing-Devices</a> via secure QR.</p>
+</li>
+<li>
+<p><strong>Test Setup with Small Transaction</strong>
+    ??? info "General Info"
+        1. Perform a small deposit and withdrawal, signing with three <a href="../airgapped-computer/">Signing-Devices</a> from different locations.
+        2. Confirm consistency across both <a href="../airgapped-computer/">Transaction-Managers</a> and receive-only nodes.</p>
+</li>
+</ol>
 </details>
-<details class="check" open="open">
-<summary>Installation</summary>
-<p>Signer-1
-Signer-2</p>
-<p>Node-1
-Node-2</p>
-<p>DMZ-1</p>
-<p>PC-1</p>
-<p>Wired Ethernet router with no Internet,
-private network access only.</p>
-<p>DMZ, Node-1 and Node-2 are on this network,
- Node-1 and Node-2 have limited access over Tor</p>
+<details class="info">
+<summary>Deposit</summary>
+<p>Receive Bitcoin using verified addresses confirmed by both receive-only <a href="../../sovereignty/level-4/">full nodes</a>.</p>
+<ol>
+<li>
+<p><strong>Generate Receive Address</strong>
+    ??? info "General Info"
+        1. Create a new receive address on both <a href="../airgapped-computer/">Transaction-Managers</a> and verify they match.</p>
+</li>
+<li>
+<p><strong>Verify Address on Airgapped Devices</strong>
+    ??? danger "Critical Step (Optional)"
+        <em>Optional</em> -- used when no pre-verified address is available.
+        1. Confirm the address on three <a href="../airgapped-computer/">Signing-Devices</a> via secure QR.</p>
+</li>
+<li>
+<p><strong>Share Address with Sender</strong>
+    ??? info "General Info"
+        1. Securely provide the verified address.
+        2. Monitor receipt on both <a href="../airgapped-computer/">Transaction-Managers</a>.</p>
+</li>
+<li>
+<p><strong>Monitor Incoming Transaction</strong>
+    ??? info "General Info"
+        1. Check the transaction on both receive-only <a href="../../sovereignty/level-4/">full nodes</a>.
+        2. Ensure node consistency.</p>
+</li>
+</ol>
 </details>
-<h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
-<details class="danger" open="open">
-<summary>Create Keys</summary>
-<p>Create 5+ high-entropy seed phrases</p>
-<p>Create metal backups</p>
-<p>Transfer master public keys to DMZ-1</p>
-<p>Generate 3/5, etc, multisig
- ... using Signer-1 and Signer-2
- ... verify entropy bits on Signer-1 and Signer-2</p>
-<p>Transfer multisig master public keys to DMZ-1</p>
+<details class="info">
+<summary>Withdrawal</summary>
+<p>Spend Bitcoin using <a href="../../sovereignty/level-7/">multisig</a> signing with three <a href="../airgapped-computer/">Signing-Devices</a> from different locations.</p>
+<ol>
+<li>
+<p><strong>Create Unsigned Transaction</strong>
+    ??? info "General Info"
+        1. Generate identical unsigned transactions on both <a href="../airgapped-computer/">Transaction-Managers</a>.
+        2. Export PSBTs as QR codes.</p>
+</li>
+<li>
+<p><strong>Transfer Unsigned Transaction to Airgapped Devices</strong>
+    ??? warning "Caution"
+        1. Deliver PSBT via secure QR to three <a href="../airgapped-computer/">Signing-Devices</a> in their locations.</p>
+</li>
+<li>
+<p><strong>Sign Transaction</strong>
+    ??? danger "Critical Step"
+        1. Produce partial signatures on three <a href="../airgapped-computer/">Signing-Devices</a>.
+        2. Return partial PSBTs to both <a href="../airgapped-computer/">Transaction-Managers</a> via secure QR.</p>
+</li>
+<li>
+<p><strong>Combine Signatures and Finalize Transaction</strong>
+    ??? warning "Caution"
+        1. Merge signatures on both <a href="../airgapped-computer/">Transaction-Managers</a>.
+        2. Validate the finalized transaction on both.</p>
+</li>
+<li>
+<p><strong>Inspect Transaction</strong>
+    ??? warning "Caution"
+        1. Scan for anomalies using <a href="https://darkskippy.com">Dark Skippy</a> on both <a href="../airgapped-computer/">Transaction-Managers</a>.</p>
+</li>
+<li>
+<p><strong>Broadcast Signed Transaction</strong>
+    ??? info "General Info"
+        1. Transfer the signed transaction to the secure drop point.
+        2. Broadcast via the online Transaction-Manager.
+        3. Monitor confirmations on both receive-only nodes.</p>
+</li>
+</ol>
 </details>
-<h3 id="proof-of-control">Proof of Control<a class="headerlink" href="#proof-of-control" title="Permanent link">&para;</a></h3>
-<details class="danger" open="open">
-<summary>Proof of Control</summary>
-<p>Deposit small amount on each singl-sig.</p>
-<p>Withdraw to multisig, for each single-sig </p>
-<p>Withdraw back to single-sig, for each multi-sig</p>
-<p>All wallets have received and sent.</p>
-<p>Single-sig stores the small amounts, 
- and can be used under duress </p>
-<p>Large deposits will go to multi-sig,
- and can only be accessed by using
- both signing devices and the DMZ</p>
+<details class="info">
+<summary>Check Balance</summary>
+<p>View balances without keys using receive-only <a href="../../sovereignty/level-4/">full nodes</a>.</p>
+<ol>
+<li>
+<p><strong>Sync Watch-Only Wallets</strong>
+    ??? info "General Info"
+        1. Sync Sparrow on both <a href="../airgapped-computer/">Transaction-Managers</a> with their receive-only nodes.</p>
+</li>
+<li>
+<p><strong>Query Balance for Multisig Addresses</strong>
+    ??? info "General Info"
+        1. Check balances on both <a href="../airgapped-computer/">Transaction-Managers</a> and confirm consistency.</p>
+</li>
+</ol>
 </details>
-<h3 id="address-verification">Address Verification<a class="headerlink" href="#address-verification" title="Permanent link">&para;</a></h3>
-<p>Only verified receive addresses should be used.</p>
-<p>Check first, middle, and final characters.
-Compare Signer-1 and Signer-2 addresses, then
- compare to DMZ addresses.</p>
-<p>Transfer batch of verified receive addresses
- to PC.
-Each address can be used only once!</p>
-<h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
-<p>Master Public Key is available on the DMZ,
- where verified receive addresses can be 
- transmitted to the Internet connected device.</p>
-<h2 id="verify-balance">Verify balance<a class="headerlink" href="#verify-balance" title="Permanent link">&para;</a></h2>
-<p>Check the balance on DMZ-1 to Node-1</p>
-<h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
-<p>Use DMZ-1 to generate transaction, 
- copy unsigned transaction to Signer-1</p>
-<p>Sign transaction with relevant wallets,
- then copy partially signed transaction
- to Signer-2 </p>
-<p>Sign transaction with relevant wallets,
- then copy signed transaction back to DMZ-1</p>
+<details class="info">
+<summary>Recovery</summary>
+<p>Restore from backups if keys or devices are lost, using new <a href="../airgapped-computer/">Signing-Devices</a>.</p>
+<ol>
+<li>
+<p><strong>Identify the Issue</strong>
+    ??? info "General Info"
+        1. Assess the recovery need and locate <a href="../../sovereignty/level-6/">metal backups</a>.</p>
+</li>
+<li>
+<p><strong>Retrieve Backups</strong>
+    ??? danger "Critical Step"
+        1. Access backups from secure sites, verifying tamper seals.</p>
+</li>
+<li>
+<p><strong>Restore Keys on New Signing-Devices</strong>
+    ??? danger "Critical Step"
+        1. Restore seeds on new <a href="../airgapped-computer/">Signing-Devices</a> in secure locations with privacy filters.</p>
+</li>
+<li>
+<p><strong>Rebuild Multisig Wallet Descriptor</strong>
+    ??? warning "Caution"
+        1. Export ZPUBs to both <a href="../airgapped-computer/">Transaction-Managers</a> via secure QR.
+        2. Recreate the <a href="../../sovereignty/level-7/">multisig</a> descriptor on both.</p>
+</li>
+<li>
+<p><strong>Test Recovery with Small Amount</strong>
+    ??? info "General Info"
+        1. Conduct a test transaction to verify functionality.</p>
+</li>
+</ol>
+</details>
+<details class="info">
+<summary>Maintenance</summary>
+<p>Ensure protocol integrity with ongoing tasks.</p>
+<ol>
+<li>
+<p><strong>Verify Metal Backups</strong>
+    ??? danger "Critical Step"
+        1. Check tamper seals and metal condition at all locations.</p>
+</li>
+<li>
+<p><strong>Update Software and Firmware</strong>
+    ??? info "General Info"
+        1. Update firmware in an airgapped environment, verifying integrity.</p>
+</li>
+<li>
+<p><strong>Run Full Node Health Checks</strong>
+    ??? info "General Info"
+        1. Confirm both receive-only nodes are synced and consistent.</p>
+</li>
+<li>
+<p><strong>Simulate Full Protocol Run</strong>
+    ??? info "General Info"
+        1. Test the protocol with small amounts, signing from multiple locations.</p>
+</li>
+<li>
+<p><strong>Audit Secure Environments</strong>
+    ??? info "General Info"
+        1. Regularly audit locations, countermeasures, and tamper-evident seals.</p>
+</li>
+</ol>
+</details>
+<hr />
+<p><strong>Notes</strong>:
+- The Ludicrous Protocol achieves <a href="https://isbitcointrue.com/saving/sovereignty/level-12/">Level 12 security</a> with receive-only nodes, geographically distributed key signing, an expanded airgap, and a secure drop point.
+- Strict adherence to <a href="../../sovereignty/level-5/">quarantine rules</a> and <a href="../../sovereignty/level-7/">multisig protocols</a> is essential for maintaining security.</p>
 
 
 

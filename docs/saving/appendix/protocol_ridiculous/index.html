@@ -2794,44 +2794,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#secure-environment-and-countermeasures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secure Environment and Countermeasures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#setup" class="md-nav__link">
     <span class="md-ellipsis">
       Setup
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#seed-creation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Seed Creation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#proof-of-control" class="md-nav__link">
-    <span class="md-ellipsis">
-      Proof of Control
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#address-verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      Address Verification
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -2845,18 +2821,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#verify-balance" class="md-nav__link">
+  <a href="#withdrawal" class="md-nav__link">
     <span class="md-ellipsis">
-      Verify balance
+      Withdrawal
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#withdrawal" class="md-nav__link">
+  <a href="#check-balance" class="md-nav__link">
     <span class="md-ellipsis">
-      Withdrawal
+      Check Balance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maintenance
     </span>
   </a>
   
@@ -2879,69 +2873,259 @@
 
 
 <h1 id="appendix-ridiculous-protocol">Appendix: Ridiculous Protocol<a class="headerlink" href="#appendix-ridiculous-protocol" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
-<details class="info" open="open">
-<summary>Who is this good for?</summary>
-<p>Advanced users looking for a
-robust self custody solution
-without any single-point of compromise.</p>
-</details>
-<p>No single-point to compromise.
-Multi-sig split across different air-gapped devices.</p>
+<p>This protocol delivers an ultra-secure <em>3-of-5</em> <a href="../../sovereignty/level-7/">multisig</a> Bitcoin self-custody system using <strong>five different <a href="../airgapped-computer/">Signing-Devices</a></strong>: three SeedSigners and two Coldcard Qs (one per seed). It leverages an <a href="../../sovereignty/level-5/">airgap quarantine</a>, a <a href="../../sovereignty/level-4/">full node</a> for verification, <a href="../../sovereignty/level-6/">metal seed backups</a>, and stringent <a href="../../sovereignty/level-5/">quarantine rules</a> to provide unparalleled protection. By using distinct devices per seed and implementing advanced countermeasures, this protocol achieves <a href="../../sovereignty/level-11/">Level 11</a> security.</p>
+<hr />
+<h2 id="secure-environment-and-countermeasures">Secure Environment and Countermeasures<a class="headerlink" href="#secure-environment-and-countermeasures" title="Permanent link">&para;</a></h2>
+<p>To safeguard against advanced threats, all QR code transfers must be conducted in a <strong>secure environment</strong> with the following countermeasures:</p>
+<ul>
+<li><strong>Secure Space</strong>: A private, controlled room with no windows or cameras.</li>
+<li><strong>Shielded Environment</strong>: A Faraday cage or shielded room to block electromagnetic emissions.</li>
+<li><strong>Privacy Filters</strong>: Polarized screen protectors on all device screens to prevent optical eavesdropping.</li>
+<li><strong>White Noise Generators</strong>: To mask acoustic signals during device operation.</li>
+<li><strong>Privacy Enclosure</strong>: A lightproof booth for QR scanning to shield from external observation.</li>
+<li><strong>Camera Blockers</strong>: Covers or tape to disable cameras on the <a href="../airgapped-computer/">Transaction-Manager</a> when not in use.</li>
+<li><strong>Tamper-Evident Seals</strong>: Applied to <a href="../airgapped-computer/">Signing-Devices</a> when stored to detect unauthorized access.</li>
+<li><strong>Minimize Exposure</strong>: Use dense QR codes and limit display time to reduce attack windows.</li>
+</ul>
+<p>Regular firmware checks must be performed on all <a href="../airgapped-computer/">Signing-Devices</a> using tools to detect anomalies (e.g., <a href="https://darkskippy.com">Dark Skippy</a>).</p>
+<hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<details class="check" open="open">
-<summary>Prerequisites</summary>
-<p>1+ air-gapped device with micro SD card reader</p>
-<p>1+ air-gapped device with camera</p>
-<p>1 Micro SD card</p>
-<p>1 USB card loaded with Tails OS (Electrum persisted)</p>
-<p>1 laptop with wifi (that can be booted with Tails OS)</p>
+<p>Establish your 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> wallet with five seeds created on dedicated <a href="../airgapped-computer/">Signing-Devices</a> (one device per seed). Conduct this in a secluded, secure setting, maintaining airgaps and <a href="../../sovereignty/level-5/">quarantine procedures</a>.</p>
+<details class="info">
+<summary>1. Prepare Secure Environments</summary>
+<ol>
+<li>Acquire five <a href="../airgapped-computer/">Signing-Devices</a>: three SeedSigners and two Coldcard Qs, each for one seed.</li>
+<li>Set up a <strong>secure space</strong> for QR transfers: a private room with no windows or cameras, equipped with a Faraday cage, white noise generators, and a privacy enclosure.</li>
+<li>Install <strong>privacy filters</strong> on all <a href="../airgapped-computer/">Signing-Device</a> and <a href="../airgapped-computer/">Transaction-Manager</a> screens.</li>
+<li>Prepare <strong>camera blockers</strong> for the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Obtain <strong>tamper-evident seals</strong> for the <a href="../airgapped-computer/">Signing-Devices</a>.</li>
+<li>Assemble the <a href="../airgapped-computer/">Transaction-Manager</a> (Tails OS with persistent storage), linked to your <a href="level-4.md">full node</a>.</li>
+<li>Install Sparrow and <a href="https://darkskippy.com">Dark Skippy</a> detection tools on Tails OS persistent storage.</li>
+<li>Authenticate and update software and firmware for all devices.</li>
+</ol>
 </details>
-<h3 id="seed-creation">Seed Creation<a class="headerlink" href="#seed-creation" title="Permanent link">&para;</a></h3>
-<details class="danger" open="open">
-<summary>Create Keys</summary>
-<p>Create 5+ high-entropy seed phrases</p>
-<p>Create metal backups</p>
-<p>Transfer master public keys to PC</p>
-<p>Generate 2/2, 3/5, etc, multisig
- ... using Signer-1 and Signer-2</p>
-<p>Transfer multisig master public keys to PC</p>
+<details class="danger">
+<summary>2. Generate Seeds</summary>
+<ol>
+<li>Activate each airgapped <a href="../airgapped-computer/">Signing-Device</a>, one at a time.</li>
+<li>Generate a seed on each device (SeedSigner: Settings &gt; Seeds &gt; Generate Seed with <a href="../dice/">dice</a>; Coldcard Q: generate with dice). Ensure <strong>privacy filters</strong> are installed to protect displays.</li>
+<li>Jot the seed phrase on paper temporarily for confirmation.</li>
+<li>Validate the seed on the device display.</li>
+<li>Save as QR (SeedSigner: Export Seed QR; Coldcard Q: Export Seed QR).</li>
+<li>Repeat for all five seeds, powering off devices between steps. Label clearly (e.g., "Signing-Device-1", "Signing-Device-2").</li>
+</ol>
 </details>
-<h3 id="proof-of-control">Proof of Control<a class="headerlink" href="#proof-of-control" title="Permanent link">&para;</a></h3>
-<details class="danger" open="open">
-<summary>Proof of Control</summary>
-<p>Deposit small amount on each single-sig.</p>
-<p>Withdraw to multisig, for each single-sig </p>
-<p>Withdraw back to single-sig, for each multi-sig</p>
-<p>All wallets have received and sent.</p>
-<p>Single-sig stores the small amounts, 
- and can be used under duress </p>
-<p>Large deposits will go to multi-sig,
- and can only be accessed by using
- 2+ signing devices</p>
+<details class="danger">
+<summary>3. Backup to Metal</summary>
+<ol>
+<li>Stamp each seed onto durable <a href="../../sovereignty/level-6/">metal backups</a>.</li>
+<li>Cross-verify against the paper note.</li>
+<li>Incinerate the paper note.</li>
+<li>Store backups in distinct, secure sites with <strong>tamper-evident seals</strong>.</li>
+</ol>
 </details>
-<h3 id="address-verification">Address Verification<a class="headerlink" href="#address-verification" title="Permanent link">&para;</a></h3>
-<p>Only verified receive addresses should be used.</p>
-<p>Check first, middle, and final characters.
-Compare Signer-1 and Signer-2 addresses, then
- compare to Tails addresses.</p>
-<p>Each address can be used only once!</p>
+<details class="warning">
+<summary>4. Export ZPUBs to Transaction-Manager</summary>
+<ol>
+<li>On each <a href="../airgapped-computer/">Signing-Device</a>, load its seed and export ZPUB (SeedSigner: Export XPUB &gt; Multisig; Coldcard Q: Export Wallet &gt; Multisig).</li>
+<li><strong>Following secure QR transfer procedures</strong>, convey ZPUBs via QR to the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Integrate ZPUBs into Sparrow for a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> watch-only wallet.</li>
+</ol>
+</details>
+<details class="danger">
+<summary>5. Validate Addresses for Future Deposits</summary>
+<ol>
+<li>Produce receive addresses in Sparrow.</li>
+<li><strong>Following secure QR transfer procedures</strong>, relay addresses via QR to each <a href="../airgapped-computer/">Signing-Device</a> for verification.</li>
+<li>Confirm derivation from ZPUB on each device.</li>
+</ol>
+</details>
+<details class="info">
+<summary>6. Test Setup with Small Transaction</summary>
+<ol>
+<li>Transfer a small Bitcoin amount following the Deposit procedure.</li>
+<li>Observe confirmation on your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Transfer some Bitcoin following the Withdrawal procedure (sign with three devices).</li>
+<li>Validate the workflow and record issues.</li>
+</ol>
+</details>
+<hr />
 <h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
-<p>Master Public Key is available on Tails,
- where verified receive addresses can be 
- transmitted.</p>
-<h2 id="verify-balance">Verify balance<a class="headerlink" href="#verify-balance" title="Permanent link">&para;</a></h2>
-<p>Boot Tails OS, open Electrum</p>
+<p>Receive Bitcoin using unique, verified addresses confirmed through your <a href="../../sovereignty/level-4/">full node</a>.</p>
+<details class="info">
+<summary>1. Generate Receive Address</summary>
+<ol>
+<li>Start Sparrow on the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Generate a new receive address from the <a href="../../sovereignty/level-7/">multisig</a> descriptor.</li>
+</ol>
+</details>
+<details class="danger">
+<summary>2. Verify Address on Airgapped Device</summary>
+<p><em>Optional</em> -- used when no pre-verified address is available.
+1. <strong>Following secure QR transfer procedures</strong>, send address data via QR to at least three <a href="../airgapped-computer/">Signing-Devices</a>.
+2. Confirm ZPUB derivation on each device.</p>
+</details>
+<details class="info">
+<summary>3. Share Address with Sender</summary>
+<ol>
+<li>Deliver the verified address securely.</li>
+<li>Await the transaction in Sparrow.</li>
+</ol>
+</details>
+<details class="info">
+<summary>4. Monitor Incoming Transaction</summary>
+<ol>
+<li>Check the transaction on your <a href="../../sovereignty/level-4/">full node</a> or Sparrow.</li>
+<li>Await confirmations.</li>
+</ol>
+</details>
+<hr />
 <h2 id="withdrawal">Withdrawal<a class="headerlink" href="#withdrawal" title="Permanent link">&para;</a></h2>
-<p>Use Tails to generate transaction, 
- copy unsigned transaction to Signer-1 (micro SD)</p>
-<p>Sign transaction with relevant wallets,
- then copy partially signed transaction
- to Signer-2 (QR code)</p>
-<p>Sign transaction with relevant wallets,
- then copy signed transaction back to Tails</p>
+<p>Spend Bitcoin via <a href="../../sovereignty/level-7/">multisig</a> signing with three <a href="../airgapped-computer/">Signing-Devices</a>.</p>
+<details class="info">
+<summary>1. Create Unsigned Transaction</summary>
+<ol>
+<li>Open Sparrow on the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Select UTXOs, define recipient and amount.</li>
+<li>Export the PSBT as QR.</li>
+</ol>
+</details>
+<details class="warning">
+<summary>2. Transfer Unsigned Transaction to Airgapped Device</summary>
+<ol>
+<li><strong>Following secure QR transfer procedures</strong>, convey the PSBT via QR to each <a href="../airgapped-computer/">Signing-Device</a>.</li>
+<li>Load the PSBT on each device without signing.</li>
+</ol>
+</details>
+<details class="danger">
+<summary>3. Sign Transaction</summary>
+<ol>
+<li>On three <a href="../airgapped-computer/">Signing-Devices</a>, load the assigned seed and generate a partial signature.</li>
+<li><strong>Following secure QR transfer procedures</strong>, export the partial PSBT as QR to the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Power off devices to clear memory.</li>
+</ol>
+</details>
+<details class="warning">
+<summary>4. Combine Signatures and Finalize Transaction</summary>
+<ol>
+<li>Merge the three partial signatures in Sparrow.</li>
+<li>Validate the finalized transaction.</li>
+</ol>
+</details>
+<details class="warning">
+<summary>5. Inspect Transaction</summary>
+<ol>
+<li>Use <a href="https://darkskippy.com">Dark Skippy</a> tools to scan for anomalies.</li>
+<li>If issues are detected, abort and investigate.</li>
+</ol>
+</details>
+<details class="info">
+<summary>6. Broadcast Signed Transaction</summary>
+<ol>
+<li>Broadcast via your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Monitor confirmations.</li>
+</ol>
+</details>
+<hr />
+<h2 id="check-balance">Check Balance<a class="headerlink" href="#check-balance" title="Permanent link">&para;</a></h2>
+<p>View balances without keys, using your <a href="../../sovereignty/level-4/">full node</a>.</p>
+<details class="info">
+<summary>1. Sync Watch-Only Wallet</summary>
+<ol>
+<li>Start Sparrow on the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Connect to the <a href="../../sovereignty/level-4/">full node</a> and sync.</li>
+</ol>
+</details>
+<details class="info">
+<summary>2. Query Balance for Multisig Addresses</summary>
+<ol>
+<li>Check the balance in Sparrow.</li>
+</ol>
+</details>
+<details class="info">
+<summary>3. Optional: Verify Against Separate Full Node</summary>
+<ol>
+<li>Cross-verify with a secondary <a href="../../sovereignty/level-4/">full node</a>.</li>
+</ol>
+</details>
+<hr />
+<h2 id="recovery">Recovery<a class="headerlink" href="#recovery" title="Permanent link">&para;</a></h2>
+<p>Restore from backups if keys or devices are lost. Use new <a href="../airgapped-computer/">Signing-Devices</a> for multiple recoveries.</p>
+<details class="info">
+<summary>1. Identify the Issue</summary>
+<ol>
+<li>Determine the recovery type (e.g., lost device).</li>
+<li>Retrieve <a href="../../sovereignty/level-6/">metal backups</a>.</li>
+</ol>
+</details>
+<details class="danger">
+<summary>2. Retrieve Backups</summary>
+<ol>
+<li>Access backups from secure sites.</li>
+<li>Check tamper seals.</li>
+</ol>
+</details>
+<details class="danger">
+<summary>3. Restore Keys on New Signing-Device</summary>
+<ol>
+<li>Input the backup seed on a new <a href="../airgapped-computer/">Signing-Device</a> with <strong>privacy filters</strong> installed.</li>
+<li>Validate the restored wallet.</li>
+</ol>
+</details>
+<details class="warning">
+<summary>4. Rebuild Multisig Wallet Descriptor</summary>
+<ol>
+<li><strong>Following secure QR transfer procedures</strong>, export ZPUBs to the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Recreate the <a href="../../sovereignty/level-7/">multisig</a> descriptor in Sparrow.</li>
+</ol>
+</details>
+<details class="info">
+<summary>5. Test Recovery with Small Amount</summary>
+<ol>
+<li>Perform a test transaction to confirm functionality.</li>
+</ol>
+</details>
+<hr />
+<h2 id="maintenance">Maintenance<a class="headerlink" href="#maintenance" title="Permanent link">&para;</a></h2>
+<p>Sustain protocol integrity with regular tasks.</p>
+<details class="danger">
+<summary>1. Verify Metal Backups</summary>
+<ol>
+<li>Inspect tamper seals and metal condition.</li>
+<li>Test seeds on <a href="../airgapped-computer/">Signing-Devices</a>.</li>
+</ol>
+</details>
+<details class="info">
+<summary>2. Update Software and Firmware</summary>
+<ol>
+<li>Check for updates and verify signatures.</li>
+<li>Update firmware in an airgapped environment.</li>
+</ol>
+</details>
+<details class="info">
+<summary>3. Run Full Node Health Checks</summary>
+<ol>
+<li>Ensure blockchain sync and system health.</li>
+</ol>
+</details>
+<details class="info">
+<summary>4. Simulate Full Protocol Run</summary>
+<ol>
+<li>Test the entire protocol with small amounts.</li>
+<li>Verify the secure environment and countermeasures.</li>
+</ol>
+</details>
+<details class="info">
+<summary>5. Check Secure Environment</summary>
+<ol>
+<li>Ensure the shielded room, privacy filters, and white noise generators are functional.</li>
+<li>Inspect tamper-evident seals on <a href="../airgapped-computer/">Signing-Devices</a>.</li>
+</ol>
+</details>
+<hr />
+<p><strong>Notes</strong>:
+- When not in use, store <a href="../airgapped-computer/">Signing-Devices</a> in a secure location with <strong>tamper-evident seals</strong> applied.
+- This protocol achieves <a href="https://isbitcointrue.com/saving/sovereignty/level-11/">Level 11 security</a> by integrating advanced countermeasures into a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> setup, ensuring protection against even the most sophisticated threats.</p>
 
 
 
