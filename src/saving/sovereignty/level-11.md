@@ -19,7 +19,8 @@ QR code transfers between the [Transaction-Manager](../appendix/airgapped-comput
 Countermeasures ensure that only unsigned transactions enter and partially signed transactions exit, while blocking unauthorized exfiltration, even from state-level threats.
 
 Building on Level 10’s redundant networks, countermeasures add a layer of defense by securing the physical and electronic environment,
- complementing the fault tolerance of multiple [Signing-Devices](../appendix/airgapped-computer.md).
+ complementing the [fault tolerance](level-9.md) of multiple [Signing-Devices](../appendix/airgapped-computer.md)
+ and [redundant networks](level-10.md).
 
 
 
@@ -40,17 +41,20 @@ Building on Level 10’s redundant networks, countermeasures add a layer of defe
 ## Implementation
 
 !!! warning "Quarantine Rules"
-    While electronic countermeasures can prevent certain side-channel data exfil attacks,
-    you'll want to carefully incorporate these techniques into your [Quarantine Rules](level-5.md) and your [multisig protocol](level-7.md).
-    Ultimately, you are only as secure as your discipline in preserving the quarantine rules.
+    While electronic and physical countermeasures prevent side-channel and tampering attacks, you must integrate them into your [Quarantine Rules](level-5.md) and [multisig protocol](level-7.md). Your security depends on your disciplined adherence to these rules.
+
+- **Camera Blockers**: Apply webcam covers or tape to disable cameras on the [Transaction-Manager](../appendix/airgapped-computer.md) when not scanning QR codes, blocking unauthorized recording.
+- **Firmware Checks**: Verify Signing-Device firmware regularly, using tools to detect anomalies (e.g., [Dark Skippy](https://darkskippy.com)), safeguarding against malicious software.
+- **Privacy Enclosure**: Use a lightproof scanning booth to shield QR code transfers from external observation, enhancing optical security.
+- **Privacy Filters**: Use polarized screen protectors on [Transaction-Manager](../appendix/airgapped-computer.md) and [Signing-Device](../appendix/airgapped-computer.md) displays to limit viewing angles, preventing hidden cameras or observers from capturing QR codes. 
+- **Secure Space**: Perform transfers in a private, controlled room with no windows or cameras to prevent physical surveillance.
+- **Shielded Environment**: Conduct QR transfers in a Faraday cage or shielded room to block electromagnetic emissions, protecting against signal interception.
+- **Tamper-Evident Seals**: Affix seals on [Signing-Devices](../appendix/airgapped-computer.md) to detect unauthorized physical access, ensuring hardware integrity.
+- **White Noise**: Deploy white noise generators (preferably non-electronic) to mask acoustic signals during device operation, thwarting audio-based attacks.
+
+An example of Level 11 security is included in the appendix, see the [Ridiculous Protocol](../appendix/protocol_ridiculous.md).
 
 
-- **Privacy Filters**: Use polarized screen protectors on [Transaction-Manager](../appendix/airgapped-computer.md) and [Signing-Device](../appendix/airgapped-computer.md) displays to block optical eavesdropping.
-- **Shielded Environment**: Conduct QR transfers in a Faraday cage or shielded room to prevent electromagnetic leakage.
-- **White Noise**: Deploy white noise generators to mask acoustic signals during device operation.
-- **Secure Space**: Perform transfers in a private, controlled room with no windows or cameras.
-- **Firmware Checks**: Verify SeedSigner and Coldcard Q firmware integrity regularly, using tools to detect anomalies (e.g., [Dark Skippy](https://darkskippy.com)).
-- **Minimize Exposure**: Use dense QR codes and limit display time to reduce attack windows.
 
 ---
 
