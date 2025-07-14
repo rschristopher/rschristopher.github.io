@@ -1,4 +1,4 @@
-# Appendix: Using Dice
+# Appendix 2: Using Dice
 
 *You can (and should) generate seed phrases with dice.*
 

@@ -66,7 +66,7 @@ nav:
     - Saving:
         - saving/index.md
         - Understand the Terms: saving/understand-the-terms.md
-        - Sovereignty:
+        - Sovereignty Levels:
             - saving/sovereignty/index.md
             - "Level 1: Getting Started": saving/sovereignty/level-1.md
             - "Level 2: Your Keys": saving/sovereignty/level-2.md
@@ -86,15 +86,15 @@ nav:
             - Inheritance Planning: saving/wealth/inheritance.md
             - Physical Security: saving/wealth/physical-security.md
         - Appendix:
-            - "A: Using Dice": saving/appendix/dice.md
-            - "A: Airgapped Computer": saving/appendix/airgapped-computer.md
-            - "A: Custom Protocols": saving/appendix/custom.md
-            - "A: Keyless Vaults": saving/appendix/keyless-vaults.md
-            - "A: Mnemonic Memorization": saving/appendix/mnemonic.md
+            - "A1: Protocols": saving/appendix/protocols.md
+            - "A2: Using Dice": saving/appendix/dice.md
+            - "A3: Airgapped Computer": saving/appendix/airgapped-computer.md
+            - "A4: Keyless Vaults": saving/appendix/keyless-vaults.md
+            - "A5: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Currency:
         - currency/index.md
         - Understand the Terms: currency/understand-the-terms.md
-        - Sovereignty:
+        - Sovereignty Levels:
             - currency/sovereignty/index.md
             - "Level 1: On-chain Limitations": currency/sovereignty/level-1.md
             - "Level 2: Primitive Tokens": currency/sovereignty/level-2.md
@@ -109,7 +109,7 @@ nav:
     - Proof of Work:
         - pow/index.md
         - Understand the Terms: pow/understand-the-terms.md
-        - Sovereignty:
+        - Sovereignty Levels:
             - pow/sovereignty/index.md
             - "Level 1: Start Hashing": pow/sovereignty/level-1.md
             - "Level 2: Hash Farms": pow/sovereignty/level-2.md

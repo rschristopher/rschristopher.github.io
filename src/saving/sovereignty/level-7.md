@@ -107,11 +107,11 @@ The level of security required for your Bitcoin custody depends on your threat m
 - **Minimal Security**: A mobile app hot wallet (e.g., BlueWallet or Phoenix) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.
 - **Baseline Security**: Using a hardware wallet like a [Coldcard](https://coldcard.com/) or [SeedSigner](https://seedsigner.com/) with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.
 - **Advanced Security**: Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, add redundancy and resilience. A protocol is critical here to coordinate multiple keys, streamline transaction signing, and guide non-technical users or heirs.
-- **Paranoid Security**: For protection against sophisticated threats—like hostile nation-states (e.g., historical cases like [Canada’s trucker protest crackdowns](https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test))—use a high-threshold multisig, geographically distributed keys, air-gapped devices, and self-hosted full nodes. A protocol is indispensable to manage this complexity and ensure flawless execution.
+- **Ridiculous Security**: For protection against sophisticated threats -- like hostile nation-states (such as North Korea or [Canada](https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test)) -- use a high-threshold multisig, geographically distributed keys, air-gapped devices, and self-hosted full nodes. 
+- **Ludicrous Security**: For NSA-level threats and nuclear-launch-code levels of security.
 
-The [Basic+](../appendix/basic.md) protocol offers a starting point with reasonable security, while the [Custom](../appendix/custom.md) template supports advanced configurations.
-
-With a multisig protocol, you’ll protect your wealth better than any bank or custodian ever could.
+Regardless of your needs, a [protocol](../appendix/protocol_ridiculous.md) is indispensable to manage your wealth.
+And with a multisig protocol, you’ll protect your wealth better than any bank or custodian ever could.
 
 
 

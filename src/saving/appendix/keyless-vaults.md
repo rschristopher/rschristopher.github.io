@@ -1,4 +1,4 @@
-# Appendix: Keyless Vaults and Covenants
+# Appendix 4: Keyless Vaults and Covenants
 
 
 

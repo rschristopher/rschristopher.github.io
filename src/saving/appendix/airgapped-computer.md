@@ -1,4 +1,4 @@
-# Appendix: Airgapped Computer
+# Appendix 3: Airgapped Computer
 
 Even with dice and paper to generate a seed phrase, a computer remains
 essential for Bitcoin self-custody. It calculates the checksum (the 12th or
