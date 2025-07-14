@@ -6,8 +6,7 @@ It harnesses an [airgap quarantine](../soverignty/level-5.md),
 a [full node](../sovereignty/level-4.md) for verification,
 [metal seed backups](../sovereignty/level-6.md),
  and stringent [quarantine rules](../sovereignty/level-5.md) to provide ironclad protection.
-The SeedSigner's stateless nature -—*retaining seeds in memory alone* -- ensures
-automatic data clearing upon power-off, enabling secure role shifts. 
+The SeedSigner's stateless nature -- *retaining seeds in memory alone* -- ensures automatic data clearing upon power-off, enabling secure role shifts. 
 By using dedicated devices per seed, this variant defends
 against advanced firmware attacks like [Dark Skippy](https://darkskippy.com),
  where a compromised device could leak seeds via signatures.
