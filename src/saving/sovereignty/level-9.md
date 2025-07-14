@@ -29,6 +29,7 @@ For example, malicious firmware with a Dark Skippy attack could compromise a sin
 ## Which Devices?
 
 Any two of the Signing-Devices discussed in [Level 3](level-3.md) can be used to ensure fault tolerance.
+
 For example:
 
 - [**SeedSigner**](https://seedsigner.com): A DIY, open-source signing device built on affordable hardware (Raspberry Pi Zero). SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable solution.
@@ -42,19 +43,32 @@ For example:
 
 ---
 
-## Best Practices
+## Implementation
 
-- **Spread Out**: Keep devices in different physical locations.
-- **Verify Often**: Check device integrity and update firmware.
-- **Backup Wisely**: Store seed phrases in [metal](level-6.md), apart from devices.
+You will need at least a *2-of-3* multisig, and at least two different signing devices (ideally different manufacturer and firmware).
+
+* **Seed-1** -- created by Signing-Device-1
+* **Seed-2** -- created by Signing-Device-2
+* **Seed-3** -- created by an [Airgapped-Computer](../appendix/airgapped-computer.md) or by [pencil and paper](../appendix/dice.md); this seed will act as a backup for recovery purposes.
+
+Importantly, each seed is dedicated to a specific Signing-Device, and one should take additional precautions in the [Quarantine Rules](level-5.md)
+ to ensure no cross-contamination between seeds and Signing-Devices.
+
+In practice, your Transaction-Manager will create an unsigned transaction and you will transmit (via [quarantine](level-5.md)) to each Signing-Device and collect
+ the needed signatures onto the Transaction-Manager, which will merge the signatures into a finalized transaction.
+An example of Level 9 fault tolerance is included in the appendix, see the [advanced protocol](../appendix/protocol_advanced.md).
 
 
 
 
 ---
 
-Redundant [Signing-Devices](../appendix/airgapped-computer.md) in a [multisig](level-7.md) setup bolster Bitcoin security against hardware failure and attacks. 
+Redundant [Signing-Devices](../appendix/airgapped-computer.md) in a [multisig](level-7.md) setup bolster security against hardware failure and attacks. 
 This method ensures resilience and fault-tolerant control over your funds.
+
+
+
+
 
 
 

@@ -1,7 +1,9 @@
 # Basic Protocol with SeedSigner
 
-This protocol outlines a secure single-signature Bitcoin self-custody system using a [SeedSigner](https://seedsigner.com), 
+This protocol outlines a basic *single-signature* Bitcoin self-custody system using a [SeedSigner](https://seedsigner.com), 
  enhanced by [airgap quarantine](../sovereignty/level-5.md) and a [full node](../sovereignty/level-4.md) for verification.
+This fully implements all required aspects of [Level-6](../sovereignty/level-6.md) security,
+ and can easily be adapted to [Level-7](../sovereignty/level-7.md) multisig.
 
 ---
 
