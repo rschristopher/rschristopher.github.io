@@ -2941,7 +2941,8 @@
 <p>QR code transfers between the <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> and <a href="../../appendix/airgapped-computer/">Signing-Devices</a> are critical, carrying sensitive transaction data across the <a href="../level-5/">airgap quarantine</a>. Advanced adversaries could exploit side channels -- optical, electromagnetic, or acoustic -- to intercept this data. 
 Countermeasures ensure that only unsigned transactions enter and partially signed transactions exit, while blocking unauthorized exfiltration, even from state-level threats.</p>
 <p>Building on Level 10’s redundant networks, countermeasures add a layer of defense by securing the physical and electronic environment,
- complementing the fault tolerance of multiple <a href="../../appendix/airgapped-computer/">Signing-Devices</a>.</p>
+ complementing the <a href="../level-9/">fault tolerance</a> of multiple <a href="../../appendix/airgapped-computer/">Signing-Devices</a>
+ and <a href="../level-10/">redundant networks</a>.</p>
 <hr />
 <h2 id="benefits-of-countermeasures">Benefits of Countermeasures<a class="headerlink" href="#benefits-of-countermeasures" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2953,18 +2954,19 @@ Countermeasures ensure that only unsigned transactions enter and partially signe
 <h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Quarantine Rules</p>
-<p>While electronic countermeasures can prevent certain side-channel data exfil attacks,
-you'll want to carefully incorporate these techniques into your <a href="../level-5/">Quarantine Rules</a> and your <a href="../level-7/">multisig protocol</a>.
-Ultimately, you are only as secure as your discipline in preserving the quarantine rules.</p>
+<p>While electronic and physical countermeasures prevent side-channel and tampering attacks, you must integrate them into your <a href="../level-5/">Quarantine Rules</a> and <a href="../level-7/">multisig protocol</a>. Your security depends on your disciplined adherence to these rules.</p>
 </div>
 <ul>
-<li><strong>Privacy Filters</strong>: Use polarized screen protectors on <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> and <a href="../../appendix/airgapped-computer/">Signing-Device</a> displays to block optical eavesdropping.</li>
-<li><strong>Shielded Environment</strong>: Conduct QR transfers in a Faraday cage or shielded room to prevent electromagnetic leakage.</li>
-<li><strong>White Noise</strong>: Deploy white noise generators to mask acoustic signals during device operation.</li>
-<li><strong>Secure Space</strong>: Perform transfers in a private, controlled room with no windows or cameras.</li>
-<li><strong>Firmware Checks</strong>: Verify SeedSigner and Coldcard Q firmware integrity regularly, using tools to detect anomalies (e.g., <a href="https://darkskippy.com">Dark Skippy</a>).</li>
-<li><strong>Minimize Exposure</strong>: Use dense QR codes and limit display time to reduce attack windows.</li>
+<li><strong>Camera Blockers</strong>: Apply webcam covers or tape to disable cameras on the <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> when not scanning QR codes, blocking unauthorized recording.</li>
+<li><strong>Firmware Checks</strong>: Verify Signing-Device firmware regularly, using tools to detect anomalies (e.g., <a href="https://darkskippy.com">Dark Skippy</a>), safeguarding against malicious software.</li>
+<li><strong>Privacy Enclosure</strong>: Use a lightproof scanning booth to shield QR code transfers from external observation, enhancing optical security.</li>
+<li><strong>Privacy Filters</strong>: Use polarized screen protectors on <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> and <a href="../../appendix/airgapped-computer/">Signing-Device</a> displays to limit viewing angles, preventing hidden cameras or observers from capturing QR codes. </li>
+<li><strong>Secure Space</strong>: Perform transfers in a private, controlled room with no windows or cameras to prevent physical surveillance.</li>
+<li><strong>Shielded Environment</strong>: Conduct QR transfers in a Faraday cage or shielded room to block electromagnetic emissions, protecting against signal interception.</li>
+<li><strong>Tamper-Evident Seals</strong>: Affix seals on <a href="../../appendix/airgapped-computer/">Signing-Devices</a> to detect unauthorized physical access, ensuring hardware integrity.</li>
+<li><strong>White Noise</strong>: Deploy white noise generators (preferably non-electronic) to mask acoustic signals during device operation, thwarting audio-based attacks.</li>
 </ul>
+<p>An example of Level 11 security is included in the appendix, see the <a href="../../appendix/protocol_ridiculous/">Ridiculous Protocol</a>.</p>
 <hr />
 <p>Electronic countermeasures in the <a href="../level-5/">airgap quarantine</a> ensure secure QR code transfers, protecting <a href="../level-7/">multisig</a> transactions from advanced threats. 
 Combined with Level 10’s redundant networks, Level 11 delivers unparalleled resilience for your Bitcoin infrastructure.</p>

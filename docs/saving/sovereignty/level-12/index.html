@@ -1476,6 +1476,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 12: Off-grid
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1487,6 +1500,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-off-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Off-grid?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-off-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of Off-grid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2819,6 +2878,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-off-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Off-grid?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-off-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of Off-grid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2841,6 +2935,89 @@
   <figcaption>Level 12 -- a veritable Hero's Journey into transaction signing</figcaption>
 </figure></p>
 </div>
+<p>Level 12 is the ultimate expression of Bitcoin self-custody, designed to withstand sophisticated physical, electronic, and network-based threats. 
+It employs receive-only nodes (e.g., RF and satellite) and geographically distributed key signing, expanding the airgap to cover both DMZs. 
+An Airgapped-Computer collects signatures from read-only Transaction-Managers, and the signed transaction is then taken to a geographically distant drop point,
+ to broadcast via an online Transaction-Manager connected to a full node.</p>
+<hr />
+<h2 id="why-off-grid">Why Off-grid?<a class="headerlink" href="#why-off-grid" title="Permanent link">&para;</a></h2>
+<p>This setup ensures maximum resilience and security by:</p>
+<ul>
+<li><strong>Redundant Full Nodes</strong>: Read-only full nodes provide uninterrupted access to the blockchain (e.g., via <a href="https://blockstream.com/satellite/">satellite</a>), even under network censorship or failure.</li>
+<li><strong>Airgap Expansion</strong>: Covering both DMZs with an airgap isolates critical operations from network threats.</li>
+<li><strong>Distributed Signing</strong>: Keys are managed across secure, geographically separated locations, eliminating single points of failure or compromise.</li>
+</ul>
+<p>Building on all prior levels --
+ <a href="../level-4/">full nodes</a>, <a href="../level-5/">airgap quarantine</a>, <a href="../level-6/">metal backups</a>, <a href="../level-7/">multisig</a>,
+ <a href="../level-10/">fail-safes</a>, <a href="../level-11/">countermeasures</a>, etc
+ -- Level 12 creates an impenetrable fortress for Bitcoin custody.</p>
+<hr />
+<h2 id="benefits-of-off-grid">Benefits of Off-grid<a class="headerlink" href="#benefits-of-off-grid" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Unmatched Security</strong>: Defends against state-level adversaries, physical tampering, and electronic attacks.</li>
+<li><strong>Fault Tolerance</strong>: Redundant systems ensure functionality even if one component fails.</li>
+<li><strong>Privacy Preservation</strong>: Off-grid operations minimize exposure to online surveillance.</li>
+</ul>
+<hr />
+<h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Discipline is Key</p>
+<p>Strict adherence to <a href="../level-5/">quarantine rules</a> and <a href="../level-7/">multisig protocols</a> is essential. Any lapse compromises the entire system.</p>
+</div>
+<ul>
+<li>
+<p><strong>Geographically Distributed Key Signing</strong>:</p>
+<ul>
+<li>Deploy <a href="../../appendix/airgapped-computer/">Signing-Devices</a> in multiple secure, physically separate locations.</li>
+<li>Use a <a href="../level-7/">multisig</a> setup requiring signatures from several devices to authorize transactions.</li>
+</ul>
+</li>
+<li>
+<p><strong>Redundant Read-Only Full Nodes</strong>:</p>
+<ul>
+<li>Operate one full node via RF and another via satellite, both configured as read-only to prevent tampering.</li>
+<li>Verify data consistency between nodes to ensure blockchain integrity.</li>
+</ul>
+</li>
+<li>
+<p><strong>Airgapped Signature Collection</strong>:</p>
+<ul>
+<li>Use an airgapped computer within the expanded airgap to collect signatures from read-only Transaction-Managers.</li>
+<li>Transfer unsigned transactions via QR codes or other offline methods, adhering to <a href="../level-5/">quarantine rules</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Secure Transaction Broadcasting</strong>:</p>
+<ul>
+<li>Move the signed transaction to an online Transaction-Manager at a designated drop point.</li>
+<li>Broadcast via a full node, using VPN or Tor to anonymize the process.</li>
+</ul>
+</li>
+<li>
+<p><strong>Enhanced Countermeasures</strong>:</p>
+<ul>
+<li>Apply <a href="../level-11/">Level 11 countermeasures</a>: privacy filters, Faraday cages, white noise generators, and tamper-evident seals.</li>
+<li>Protect against side-channel attacks during QR code transfers or physical device handling.</li>
+</ul>
+</li>
+<li>
+<p><strong>Audits and Maintenance</strong>:</p>
+<ul>
+<li>Perform regular security audits on all components (nodes, Signing-Devices, Transaction-Managers).</li>
+<li>Update software and firmware to patch vulnerabilities.</li>
+</ul>
+</li>
+<li>
+<p><strong>Backup and Recovery</strong>:</p>
+<ul>
+<li>Store <a href="../level-6/">metal backups</a> of seed phrases and keys in multiple secure, distributed locations.</li>
+<li>Test recovery processes periodically to guarantee accessibility.</li>
+</ul>
+</li>
+</ul>
+<p>An example of Level 12 security is included in the appendix, see the <a href="../../appendix/protocol_ludicrous/">Ludicrous Protocol</a>.</p>
+<hr />
+<p>Level 12’s off-grid design, with receive-only nodes, geographically distributed key signing, and an airgapped core, offers the most extreme yet practical security for Bitcoin self-custody. It ensures your Bitcoin remains sovereign, even against the most determined threats.</p>
 
 
 
