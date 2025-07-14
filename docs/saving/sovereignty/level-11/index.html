@@ -1453,6 +1453,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 11: Countermeasures
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1464,6 +1477,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-countermeasures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Countermeasures?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-countermeasures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of Countermeasures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2819,6 +2878,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-countermeasures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Countermeasures?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-countermeasures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of Countermeasures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2841,6 +2935,39 @@
   <figcaption>Level 11 -- electronic countermeasures</figcaption>
 </figure></p>
 </div>
+<p>Level 11 fortifies the <a href="../level-5/">airgap quarantine</a> with electronic countermeasures to protect QR code transfers in a <a href="../level-7/">multisig</a> setup. By ensuring only unsigned transactions from the <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> enter the airgap and only partially signed transactions exit, we aim to defend against advanced side-channel attacks, including those from malicious firmware like <a href="https://darkskippy.com">Dark Skippy</a>.</p>
+<hr />
+<h2 id="why-countermeasures">Why Countermeasures?<a class="headerlink" href="#why-countermeasures" title="Permanent link">&para;</a></h2>
+<p>QR code transfers between the <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> and <a href="../../appendix/airgapped-computer/">Signing-Devices</a> are critical, carrying sensitive transaction data across the <a href="../level-5/">airgap quarantine</a>. Advanced adversaries could exploit side channels -- optical, electromagnetic, or acoustic -- to intercept this data. 
+Countermeasures ensure that only unsigned transactions enter and partially signed transactions exit, while blocking unauthorized exfiltration, even from state-level threats.</p>
+<p>Building on Level 10’s redundant networks, countermeasures add a layer of defense by securing the physical and electronic environment,
+ complementing the fault tolerance of multiple <a href="../../appendix/airgapped-computer/">Signing-Devices</a>.</p>
+<hr />
+<h2 id="benefits-of-countermeasures">Benefits of Countermeasures<a class="headerlink" href="#benefits-of-countermeasures" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Data Flow Control</strong>: Strict validation ensures only unsigned PSBTs enter and partially signed PSBTs exit the airgap.</li>
+<li><strong>Side-Channel Protection</strong>: Mitigates optical, electromagnetic, and acoustic attacks on QR code transfers.</li>
+<li><strong>Threat Resistance</strong>: Raises the bar against advanced adversaries, preserving <a href="../level-7/">multisig</a> security.</li>
+</ul>
+<hr />
+<h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Quarantine Rules</p>
+<p>While electronic countermeasures can prevent certain side-channel data exfil attacks,
+you'll want to carefully incorporate these techniques into your <a href="../level-5/">Quarantine Rules</a> and your <a href="../level-7/">multisig protocol</a>.
+Ultimately, you are only as secure as your discipline in preserving the quarantine rules.</p>
+</div>
+<ul>
+<li><strong>Privacy Filters</strong>: Use polarized screen protectors on <a href="../../appendix/airgapped-computer/">Transaction-Manager</a> and <a href="../../appendix/airgapped-computer/">Signing-Device</a> displays to block optical eavesdropping.</li>
+<li><strong>Shielded Environment</strong>: Conduct QR transfers in a Faraday cage or shielded room to prevent electromagnetic leakage.</li>
+<li><strong>White Noise</strong>: Deploy white noise generators to mask acoustic signals during device operation.</li>
+<li><strong>Secure Space</strong>: Perform transfers in a private, controlled room with no windows or cameras.</li>
+<li><strong>Firmware Checks</strong>: Verify SeedSigner and Coldcard Q firmware integrity regularly, using tools to detect anomalies (e.g., <a href="https://darkskippy.com">Dark Skippy</a>).</li>
+<li><strong>Minimize Exposure</strong>: Use dense QR codes and limit display time to reduce attack windows.</li>
+</ul>
+<hr />
+<p>Electronic countermeasures in the <a href="../level-5/">airgap quarantine</a> ensure secure QR code transfers, protecting <a href="../level-7/">multisig</a> transactions from advanced threats. 
+Combined with Level 10’s redundant networks, Level 11 delivers unparalleled resilience for your Bitcoin infrastructure.</p>
 
 
 
