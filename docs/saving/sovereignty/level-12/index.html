@@ -2936,21 +2936,20 @@
 </figure></p>
 </div>
 <p>Level 12 is the ultimate expression of Bitcoin self-custody, completely off-grid and airgapped, designed to withstand sophisticated physical, electronic, and network-based threats. 
-It employs receive-only nodes (e.g., RF or satellite) and geographically distributed key signing, expanding the airgap to cover both DMZs (the receive-only nodes).</p>
+It employs receive-only nodes (e.g., RF or satellite) and geographically distributed key signing, expanding the airgap to cover redundant DMZs (and the receive-only nodes).</p>
 <p>An Airgapped-Computer collects signatures from read-only Transaction-Managers (every step cryptographically verified), and a final signed transaction is then taken to a geographically distinct drop point,
- to broadcast via a stateless computer connected to a full node. Importantly, the only "online" device is the drop point, with zero visibility into how transactions were created or signed.</p>
+ to broadcast via a stateless computer. Importantly, the only "online" device is the drop point, with zero visibility into how transactions were created or signed.</p>
 <hr />
 <h2 id="why-off-grid">Why Off-grid?<a class="headerlink" href="#why-off-grid" title="Permanent link">&para;</a></h2>
-<p>This setup ensures maximum resilience and security by:</p>
 <ul>
 <li><strong>Redundant Full Nodes</strong>: Read-only full nodes provide uninterrupted access to the blockchain (e.g., via <a href="https://blockstream.com/satellite/">satellite</a>), even under network censorship or failure.</li>
-<li><strong>Airgap Expansion</strong>: Covering both DMZs with an airgap isolates critical operations from network threats.</li>
+<li><strong>Airgap Expansion</strong>: Covering redundant DMZs with an airgap isolates critical operations from network threats.</li>
 <li><strong>Distributed Signing</strong>: Keys are managed across secure, geographically separated locations, eliminating single points of failure or compromise.</li>
 </ul>
 <p>Building on all prior levels --
  <a href="../level-4/">full nodes</a>, <a href="../level-5/">airgap quarantine</a>, <a href="../level-6/">metal backups</a>, <a href="../level-7/">multisig</a>,
  <a href="../level-10/">fail-safes</a>, <a href="../level-11/">countermeasures</a>, etc
- -- Level 12 creates an impenetrable fortress for Bitcoin custody.</p>
+ -- Level 12 creates an impenetrable fortress for Bitcoin self-custody.</p>
 <hr />
 <h2 id="benefits-of-off-grid">Benefits of Off-grid<a class="headerlink" href="#benefits-of-off-grid" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2962,7 +2961,7 @@ It employs receive-only nodes (e.g., RF or satellite) and geographically distrib
 <h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Discipline is Key</p>
-<p>Strict adherence to <a href="../level-5/">quarantine rules</a> and <a href="../level-7/">multisig protocols</a> is essential. Any lapse compromises the entire system.</p>
+<p>Strict adherence to <a href="../level-5/">Quarantine Rules</a> and <a href="../level-7/">multisig protocols</a> is essential. Any lapse compromises the entire system.</p>
 </div>
 <ul>
 <li>
