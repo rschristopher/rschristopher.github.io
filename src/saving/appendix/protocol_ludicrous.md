@@ -78,7 +78,7 @@ Establish your 3-of-5 [multisig](../sovereignty/level-7.md) wallet with five see
 
 ??? info "1. Prepare Secure Environments"
     1. Acquire five [Signing-Devices](airgapped-computer.md): three SeedSigners and two Coldcard Qs, each for one seed.
-    2. Set up **three secure spaces** for QR transfers in geographically distributed locations: private rooms with no windows or cameras, each equipped with a physical and electronic countermeasures, such as non-digital white noise generators, and privacy enclosures.
+    2. Set up **three secure spaces** for QR transfers in geographically distributed locations: private rooms with no windows or cameras, each equipped with a physical and electronic countermeasures, such as non-electronic white noise generators, and privacy enclosures.
     3. Install **privacy filters** on all [Signing-Device](airgapped-computer.md) and [Transaction-Manager](airgapped-computer.md) screens.
     4. Prepare **camera blockers** for the [Transaction-Managers](airgapped-computer.md).
     5. Obtain **tamper-evident seals** for the [Signing-Devices](airgapped-computer.md).
@@ -181,13 +181,16 @@ Spend Bitcoin via [multisig](../sovereignty/level-7.md) signing with three [Sign
     2. Validate the finalized transaction on both systems.
 
 ??? warning "5. Inspect Transaction"
-    1. Use [Dark Skippy](https://darkskippy.com) tools on both Transaction-Managers to scan for anomalies.
+    1. Use detection tools (for [Dark Skippy](https://darkskippy.com) style attacks) on both Transaction-Managers to scan for anomalies.
     2. If issues are detected, abort and investigate.
 
 ??? info "6. Broadcast Signed Transaction"
     1. Transfer the signed transaction from the airgap to the **secure drop point**.
     2. Broadcast via the online Transaction-Manager at the drop point.
     3. Monitor confirmations on both receive-only [full nodes](../sovereignty/level-4.md) within the airgap.
+
+
+
 
 ---
 
@@ -202,8 +205,7 @@ View balances without keys, using both receive-only [full nodes](../sovereignty/
 ??? info "2. Query Balance for Multisig Addresses"
     1. Check the balance in Sparrow on both Transaction-Managers and confirm consistency.
 
-??? info "3. Optional: Verify Against Separate Full Node"
-    1. Cross-verify with an additional [full node](../sovereignty/level-4.md) if available.
+
 
 ---
 
@@ -229,6 +231,8 @@ Restore from backups if keys or devices are lost. Use new [Signing-Devices](airg
 
 ??? info "5. Test Recovery with Small Amount"
     1. Perform a test transaction to confirm functionality.
+
+
 
 ---
 
@@ -256,10 +260,11 @@ Sustain protocol integrity with regular tasks across all locations.
     2. Inspect tamper-evident seals on [Signing-Devices](airgapped-computer.md).
     3. Verify the integrity of the receive-only nodes and their connections.
 
+
+
 ---
 
-- When not in use, store [Signing-Devices](airgapped-computer.md) in their respective secure locations with **tamper-evident seals** applied.
-- This protocol achieves [Level 12 security](https://isbitcointrue.com/saving/sovereignty/level-12/) by integrating geographically distributed key signing, an expanded airgap covering both DMZs, receive-only nodes (RF and satellite), redundant Transaction-Managers, and a secure drop point into a 3-of-5 [multisig](../sovereignty/level-7.md) setup, ensuring protection against the most sophisticated threats.
+This protocol achieves [Level 12 security](https://isbitcointrue.com/saving/sovereignty/level-12/) by integrating geographically distributed key signing, an expanded airgap covering redundant DMZs, receive-only nodes (RF and satellite), redundant Transaction-Managers, and a secure drop point, all to protect a 3-of-5 [multisig](../sovereignty/level-7.md) setup, ensuring protection against the most sophisticated threats.
 
 
 
