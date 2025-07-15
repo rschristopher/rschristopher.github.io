@@ -2905,9 +2905,9 @@
 <li><strong>Tamper-Evident Seals</strong>: Applied to <a href="../airgapped-computer/">Signing-Devices</a> when stored to detect unauthorized access.</li>
 </ul>
 <h2 id="quarantine-rules">Quarantine Rules<a class="headerlink" href="#quarantine-rules" title="Permanent link">&para;</a></h2>
-<p>To achieve the highest level of security for your Bitcoin self-custody, follow these rules as a concise, numbered checklist. These rules extend the original <a href="../../sovereignty/level-5/">Level-5</a> quarantine to include advanced countermeasures (suitable for this "Ludicrous" protocol),
- ensuring protection against physical, digital, and human threats. 
-Adhere to them without exception during any session involving seeds or transaction signing.</p>
+<p>To achieve the highest level of security for your Bitcoin self-custody, follow these rules as a concise, numbered checklist. These rules extend the original <a href="../../sovereignty/level-5/">Level-5</a> quarantine to include advanced countermeasures (suitable for the "Ludicrous" protocol),
+ ensuring protection against physical, digital, and human threats.</p>
+<p>Adhere to these rules without exception during any session involving seeds or transaction signing.</p>
 <ol>
 <li>
 <p><strong>Limit data transfers to QR codes only</strong>: No physical media (e.g., USB, MicroSD) is allowed across the quarantine. <em>Rationale</em>: Prevents malware vectors and enforces manual verification.</p>
@@ -2928,22 +2928,16 @@ Adhere to them without exception during any session involving seeds or transacti
 <p><strong>Sanitize and verify all tools pre-session</strong>: Check software/firmware signatures, verify tamper-evident seals on Signing-Devices, and test tool integrity. <em>Rationale</em>: Counters supply-chain attacks and pre-installed malware.</p>
 </li>
 <li>
-<p><strong>Require multi-person verification or time-delayed access for critical steps</strong>: If possible, involve a trusted witness or use remote verification. <em>Rationale</em>: Adds human redundancy and deters coercion.</p>
-</li>
-<li>
-<p><strong>Post-session wipe and audit</strong>: Clear RAM on shutdown, log all actions, and test quarantine integrity for all components. <em>Rationale</em>: Erases residual data and detects subtle violations early.</p>
-</li>
-<li>
 <p><strong>Distribute and redundantly store components geographically with tamper-evident seals</strong>: Store Signing-Devices in separate, secure locations. <em>Rationale</em>: Ensures resilience against localized physical attacks (e.g., theft, fire).</p>
 </li>
 <li>
 <p><strong>Use receive-only full nodes (RF and satellite) for blockchain data</strong>: Utilize RF and satellite-based nodes to receive tamper-proof data without transmitting. <em>Rationale</em>: Maintains privacy and resilience against network censorship.</p>
 </li>
 <li>
-<p><strong>Employ redundant Transaction-Managers on isolated networks</strong>: Use two Transaction-Managers, each linked to a separate receive-only node. <em>Rationale</em>: Provides redundancy and independent verification.</p>
+<p><strong>Employ redundant Transaction-Managers on isolated networks</strong>: Use two Transaction-Managers, each linked to a separate receive-only node. <em>Rationale</em>: Provides redundancy and independent cryptographic verification of all steps.</p>
 </li>
 <li>
-<p><strong>Implement an expanded airgap covering the receive-only full nodes and Transaction-Managers</strong>: Isolate all critical operations from network threats. <em>Rationale</em>: Protects against network-based attacks.</p>
+<p><strong>Implement an expanded airgap covering the receive-only full nodes and Transaction-Managers</strong>: Isolate all critical operations from network threats. <em>Rationale</em>: Protects against all network-based attacks.</p>
 </li>
 <li>
 <p><strong>Utilize a secure drop point for broadcasting signed transactions</strong>: Designate a single physically secure, monitored location, used only for broadcasting signed transactions. <em>Rationale</em>: Ensures secure handling of transaction broadcasting.</p>
@@ -2952,7 +2946,7 @@ Adhere to them without exception during any session involving seeds or transacti
 <p><strong>Coordinate signing sessions securely across geographically distributed locations</strong>: Follow strict procedures for QR transfers and quarantine rules at each site. <em>Rationale</em>: Maintains security in a distributed setup.</p>
 </li>
 </ol>
-<p>These rules, when followed meticulously, create a fortress-like barrier around your Bitcoin custody operations, making unauthorized access or compromise exponentially difficult -- even for advanced adversaries. Test them in dry runs to build familiarity and ensure strict adherence during critical sessions.</p>
+<p>These rules, when followed meticulously, create a fortress-like barrier around your Bitcoin, making unauthorized access or compromise exponentially difficult -- even for advanced adversaries.</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <p>Establish your 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> wallet with five seeds created on dedicated <a href="../airgapped-computer/">Signing-Devices</a> (one device per seed). Conduct this in secluded, secure settings across multiple locations, maintaining airgaps and <a href="../../sovereignty/level-5/">quarantine procedures</a>.</p>
