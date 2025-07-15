@@ -52,31 +52,36 @@ Establish your 3-of-5 [multisig](../sovereignty/level-7.md) wallet with five see
     3. Incinerate the paper note.
     4. Store backups in distinct, secure sites with **tamper-evident seals**.
 
-??? warning "4. Export ZPUBs to Transaction-Manager"
+??? warning "4. Export ZPUBs to Transaction-Managers"
     1. On each [Signing-Device](airgapped-computer.md), load its seed and export ZPUB (SeedSigner: Export XPUB > Multisig; Coldcard Q: Export Wallet > Multisig).
-    2. **Following secure QR transfer procedures**, convey ZPUBs via QR to the [Transaction-Manager](airgapped-computer.md).
+    2. **Following secure QR transfer procedures**, convey ZPUBs via QR to the redundant [Transaction-Managers](airgapped-computer.md).
     3. Integrate ZPUBs into Sparrow for a 3-of-5 [multisig](../sovereignty/level-7.md) watch-only wallet.
+    4. Comfirm wallet fingerprint and addresses match identically between the two Transaction-Managers.
 
 ??? danger "5. Validate Addresses for Future Deposits"
     1. Produce receive addresses in Sparrow.
     2. **Following secure QR transfer procedures**, relay addresses via QR to each [Signing-Device](airgapped-computer.md) for verification.
     3. Confirm derivation from ZPUB on each device.
+    4. Confirm addresses match between the two Transaction-Managers.
 
 ??? info "6. Test Setup with Small Transaction"
     1. Transfer a small Bitcoin amount following the Deposit procedure.
-    2. Observe confirmation on your [full node](../sovereignty/level-4.md).
+    2. Observe confirmation on your [full nodes](../sovereignty/level-4.md).
     3. Transfer some Bitcoin following the Withdrawal procedure (sign with three devices).
-    4. Validate the workflow and record issues.
+    4. Validate the workflow and record issues, update the protocol as necessary.
+
+
 
 ---
 
 ## Deposit
 
-Receive Bitcoin using unique, verified addresses confirmed through your [full node](../sovereignty/level-4.md).
+Receive Bitcoin using unique, verified addresses confirmed through redundant [full nodes](../sovereignty/level-4.md).
 
 ??? info "1. Generate Receive Address"
-    1. Start Sparrow on the [Transaction-Manager](airgapped-computer.md).
+    1. Start Sparrow on each [Transaction-Manager](airgapped-computer.md).
     2. Generate a new receive address from the [multisig](../sovereignty/level-7.md) descriptor.
+    3. Confirm the exact same address and derivation path between the redundant Transaction-Managers.
 
 ??? danger "2. Verify Address on Airgapped Device"
     *Optional* -- used when no pre-verified address is available.
@@ -88,8 +93,11 @@ Receive Bitcoin using unique, verified addresses confirmed through your [full no
     2. Await the transaction in Sparrow.
 
 ??? info "4. Monitor Incoming Transaction"
-    1. Check the transaction on your [full node](../sovereignty/level-4.md) or Sparrow.
+    1. Check the transaction on redundamt [full nodes](../sovereignty/level-4.md) or Sparrow.
     2. Await confirmations.
+
+
+
 
 ---
 
@@ -98,46 +106,50 @@ Receive Bitcoin using unique, verified addresses confirmed through your [full no
 Spend Bitcoin via [multisig](../sovereignty/level-7.md) signing with three [Signing-Devices](airgapped-computer.md).
 
 ??? info "1. Create Unsigned Transaction"
-    1. Open Sparrow on the [Transaction-Manager](airgapped-computer.md).
+    1. Open Sparrow on both [Transaction-Managers](airgapped-computer.md).
     2. Select UTXOs, define recipient and amount.
     3. Export the PSBT as QR.
+    4. Confirm identical PSBTs between the two Transaction-Managers.
 
 ??? warning "2. Transfer Unsigned Transaction to Airgapped Device"
     1. **Following secure QR transfer procedures**, convey the PSBT via QR to each [Signing-Device](airgapped-computer.md).
-    2. Load the PSBT on each device without signing.
+    2. Load the PSBT on each device.
 
 ??? danger "3. Sign Transaction"
     1. On three [Signing-Devices](airgapped-computer.md), load the assigned seed and generate a partial signature.
-    2. **Following secure QR transfer procedures**, export the partial PSBT as QR to the [Transaction-Manager](airgapped-computer.md).
+    2. **Following secure QR transfer procedures**, export the partial PSBT as QR to both [Transaction-Managers](airgapped-computer.md).
     3. Power off devices to clear memory.
 
 ??? warning "4. Combine Signatures and Finalize Transaction"
-    1. Merge the three partial signatures in Sparrow.
+    1. Merge the three partial signatures in Sparrow on both Transaction-Managers.
     2. Validate the finalized transaction.
+    3. Confirm signed transactions are identical in all critical fields between the two redundant Transaction-Managers.
 
 ??? warning "5. Inspect Transaction"
-    1. Use [Dark Skippy](https://darkskippy.com) tools to scan for anomalies.
+    1. Use detection tools (for [Dark Skippy](https://darkskippy.com) type attacks) to scan for anomalies.
     2. If issues are detected, abort and investigate.
 
 ??? info "6. Broadcast Signed Transaction"
-    1. Broadcast via your [full node](../sovereignty/level-4.md).
+    1. Broadcast via your [full nodes](../sovereignty/level-4.md).
     2. Monitor confirmations.
+
+
 
 ---
 
 ## Check Balance
 
-View balances without keys, using your [full node](../sovereignty/level-4.md).
+View balances without keys, using your [full nodes](../sovereignty/level-4.md).
 
 ??? info "1. Sync Watch-Only Wallet"
-    1. Start Sparrow on the [Transaction-Manager](airgapped-computer.md).
-    2. Connect to the [full node](../sovereignty/level-4.md) and sync.
+    1. Start Sparrow on both [Transaction-Managers](airgapped-computer.md).
+    2. Connect each to the respective [full node](../sovereignty/level-4.md) and sync.
 
 ??? info "2. Query Balance for Multisig Addresses"
     1. Check the balance in Sparrow.
+    3. Confirm the exact balance and transaction info between the two redundant nodes and Transaction-Managers.
 
-??? info "3. Optional: Verify Against Separate Full Node"
-    1. Cross-verify with a secondary [full node](../sovereignty/level-4.md).
+
 
 ---
 
@@ -158,20 +170,19 @@ Restore from backups if keys or devices are lost. Use new [Signing-Devices](airg
     2. Validate the restored wallet.
 
 ??? warning "4. Rebuild Multisig Wallet Descriptor"
-    1. **Following secure QR transfer procedures**, export ZPUBs to the [Transaction-Manager](airgapped-computer.md).
-    2. Recreate the [multisig](../sovereignty/level-7.md) descriptor in Sparrow.
+    1. **Following secure QR transfer procedures**, export ZPUBs to the redundant [Transaction-Managers](airgapped-computer.md).
+    2. Recreate the [multisig](../sovereignty/level-7.md) descriptor in Sparrow on both Transaction-Managers.
 
 ??? info "5. Test Recovery with Small Amount"
-    1. Perform a test transaction to confirm functionality.
+    1. Perform test transactions (Deposit and Withdrawal) to confirm functionality.
+
 
 ---
 
 ## Maintenance
 
-Sustain protocol integrity with regular tasks.
-
 ??? danger "1. Verify Metal Backups"
-    1. Inspect tamper seals and metal condition.
+    1. Inspect tamper-evident seals and metal condition.
     2. Test seeds on [Signing-Devices](airgapped-computer.md).
 
 ??? info "2. Update Software and Firmware"
@@ -189,11 +200,11 @@ Sustain protocol integrity with regular tasks.
     1. Ensure the shielded room, privacy filters, and white noise generators are functional.
     2. Inspect tamper-evident seals on [Signing-Devices](airgapped-computer.md).
 
+
+
 ---
 
-**Notes**:
-- When not in use, store [Signing-Devices](airgapped-computer.md) in a secure location with **tamper-evident seals** applied.
-- This protocol achieves [Level 11 security](https://isbitcointrue.com/saving/sovereignty/level-11/) by integrating advanced countermeasures into a 3-of-5 [multisig](../sovereignty/level-7.md) setup, ensuring protection against even the most sophisticated threats.
+This protocol achieves [Level 11 security](https://isbitcointrue.com/saving/sovereignty/level-11/) by integrating advanced countermeasures into a 3-of-5 [multisig](../sovereignty/level-7.md) setup, ensuring protection against even the most sophisticated threats.
 
 
 
