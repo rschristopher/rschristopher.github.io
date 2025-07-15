@@ -2925,11 +2925,12 @@
 </ol>
 </details>
 <details class="warning">
-<summary>4. Export ZPUBs to Transaction-Manager</summary>
+<summary>4. Export ZPUBs to Transaction-Managers</summary>
 <ol>
 <li>On each <a href="../airgapped-computer/">Signing-Device</a>, load its seed and export ZPUB (SeedSigner: Export XPUB &gt; Multisig; Coldcard Q: Export Wallet &gt; Multisig).</li>
-<li><strong>Following secure QR transfer procedures</strong>, convey ZPUBs via QR to the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li><strong>Following secure QR transfer procedures</strong>, convey ZPUBs via QR to the redundant <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
 <li>Integrate ZPUBs into Sparrow for a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> watch-only wallet.</li>
+<li>Comfirm wallet fingerprint and addresses match identically between the two Transaction-Managers.</li>
 </ol>
 </details>
 <details class="danger">
@@ -2938,25 +2939,27 @@
 <li>Produce receive addresses in Sparrow.</li>
 <li><strong>Following secure QR transfer procedures</strong>, relay addresses via QR to each <a href="../airgapped-computer/">Signing-Device</a> for verification.</li>
 <li>Confirm derivation from ZPUB on each device.</li>
+<li>Confirm addresses match between the two Transaction-Managers.</li>
 </ol>
 </details>
 <details class="info">
 <summary>6. Test Setup with Small Transaction</summary>
 <ol>
 <li>Transfer a small Bitcoin amount following the Deposit procedure.</li>
-<li>Observe confirmation on your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Observe confirmation on your <a href="../../sovereignty/level-4/">full nodes</a>.</li>
 <li>Transfer some Bitcoin following the Withdrawal procedure (sign with three devices).</li>
-<li>Validate the workflow and record issues.</li>
+<li>Validate the workflow and record issues, update the protocol as necessary.</li>
 </ol>
 </details>
 <hr />
 <h2 id="deposit">Deposit<a class="headerlink" href="#deposit" title="Permanent link">&para;</a></h2>
-<p>Receive Bitcoin using unique, verified addresses confirmed through your <a href="../../sovereignty/level-4/">full node</a>.</p>
+<p>Receive Bitcoin using unique, verified addresses confirmed through redundant <a href="../../sovereignty/level-4/">full nodes</a>.</p>
 <details class="info">
 <summary>1. Generate Receive Address</summary>
 <ol>
-<li>Start Sparrow on the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Start Sparrow on each <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
 <li>Generate a new receive address from the <a href="../../sovereignty/level-7/">multisig</a> descriptor.</li>
+<li>Confirm the exact same address and derivation path between the redundant Transaction-Managers.</li>
 </ol>
 </details>
 <details class="danger">
@@ -2975,7 +2978,7 @@
 <details class="info">
 <summary>4. Monitor Incoming Transaction</summary>
 <ol>
-<li>Check the transaction on your <a href="../../sovereignty/level-4/">full node</a> or Sparrow.</li>
+<li>Check the transaction on redundamt <a href="../../sovereignty/level-4/">full nodes</a> or Sparrow.</li>
 <li>Await confirmations.</li>
 </ol>
 </details>
@@ -2985,67 +2988,64 @@
 <details class="info">
 <summary>1. Create Unsigned Transaction</summary>
 <ol>
-<li>Open Sparrow on the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li>Open Sparrow on both <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
 <li>Select UTXOs, define recipient and amount.</li>
 <li>Export the PSBT as QR.</li>
+<li>Confirm identical PSBTs between the two Transaction-Managers.</li>
 </ol>
 </details>
 <details class="warning">
 <summary>2. Transfer Unsigned Transaction to Airgapped Device</summary>
 <ol>
 <li><strong>Following secure QR transfer procedures</strong>, convey the PSBT via QR to each <a href="../airgapped-computer/">Signing-Device</a>.</li>
-<li>Load the PSBT on each device without signing.</li>
+<li>Load the PSBT on each device.</li>
 </ol>
 </details>
 <details class="danger">
 <summary>3. Sign Transaction</summary>
 <ol>
 <li>On three <a href="../airgapped-computer/">Signing-Devices</a>, load the assigned seed and generate a partial signature.</li>
-<li><strong>Following secure QR transfer procedures</strong>, export the partial PSBT as QR to the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
+<li><strong>Following secure QR transfer procedures</strong>, export the partial PSBT as QR to both <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
 <li>Power off devices to clear memory.</li>
 </ol>
 </details>
 <details class="warning">
 <summary>4. Combine Signatures and Finalize Transaction</summary>
 <ol>
-<li>Merge the three partial signatures in Sparrow.</li>
+<li>Merge the three partial signatures in Sparrow on both Transaction-Managers.</li>
 <li>Validate the finalized transaction.</li>
+<li>Confirm signed transactions are identical in all critical fields between the two redundant Transaction-Managers.</li>
 </ol>
 </details>
 <details class="warning">
 <summary>5. Inspect Transaction</summary>
 <ol>
-<li>Use <a href="https://darkskippy.com">Dark Skippy</a> tools to scan for anomalies.</li>
+<li>Use detection tools (for <a href="https://darkskippy.com">Dark Skippy</a> type attacks) to scan for anomalies.</li>
 <li>If issues are detected, abort and investigate.</li>
 </ol>
 </details>
 <details class="info">
 <summary>6. Broadcast Signed Transaction</summary>
 <ol>
-<li>Broadcast via your <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Broadcast via your <a href="../../sovereignty/level-4/">full nodes</a>.</li>
 <li>Monitor confirmations.</li>
 </ol>
 </details>
 <hr />
 <h2 id="check-balance">Check Balance<a class="headerlink" href="#check-balance" title="Permanent link">&para;</a></h2>
-<p>View balances without keys, using your <a href="../../sovereignty/level-4/">full node</a>.</p>
+<p>View balances without keys, using your <a href="../../sovereignty/level-4/">full nodes</a>.</p>
 <details class="info">
 <summary>1. Sync Watch-Only Wallet</summary>
 <ol>
-<li>Start Sparrow on the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
-<li>Connect to the <a href="../../sovereignty/level-4/">full node</a> and sync.</li>
+<li>Start Sparrow on both <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
+<li>Connect each to the respective <a href="../../sovereignty/level-4/">full node</a> and sync.</li>
 </ol>
 </details>
 <details class="info">
 <summary>2. Query Balance for Multisig Addresses</summary>
 <ol>
 <li>Check the balance in Sparrow.</li>
-</ol>
-</details>
-<details class="info">
-<summary>3. Optional: Verify Against Separate Full Node</summary>
-<ol>
-<li>Cross-verify with a secondary <a href="../../sovereignty/level-4/">full node</a>.</li>
+<li>Confirm the exact balance and transaction info between the two redundant nodes and Transaction-Managers.</li>
 </ol>
 </details>
 <hr />
@@ -3075,23 +3075,22 @@
 <details class="warning">
 <summary>4. Rebuild Multisig Wallet Descriptor</summary>
 <ol>
-<li><strong>Following secure QR transfer procedures</strong>, export ZPUBs to the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
-<li>Recreate the <a href="../../sovereignty/level-7/">multisig</a> descriptor in Sparrow.</li>
+<li><strong>Following secure QR transfer procedures</strong>, export ZPUBs to the redundant <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
+<li>Recreate the <a href="../../sovereignty/level-7/">multisig</a> descriptor in Sparrow on both Transaction-Managers.</li>
 </ol>
 </details>
 <details class="info">
 <summary>5. Test Recovery with Small Amount</summary>
 <ol>
-<li>Perform a test transaction to confirm functionality.</li>
+<li>Perform test transactions (Deposit and Withdrawal) to confirm functionality.</li>
 </ol>
 </details>
 <hr />
 <h2 id="maintenance">Maintenance<a class="headerlink" href="#maintenance" title="Permanent link">&para;</a></h2>
-<p>Sustain protocol integrity with regular tasks.</p>
 <details class="danger">
 <summary>1. Verify Metal Backups</summary>
 <ol>
-<li>Inspect tamper seals and metal condition.</li>
+<li>Inspect tamper-evident seals and metal condition.</li>
 <li>Test seeds on <a href="../airgapped-computer/">Signing-Devices</a>.</li>
 </ol>
 </details>
@@ -3123,9 +3122,7 @@
 </ol>
 </details>
 <hr />
-<p><strong>Notes</strong>:
-- When not in use, store <a href="../airgapped-computer/">Signing-Devices</a> in a secure location with <strong>tamper-evident seals</strong> applied.
-- This protocol achieves <a href="https://isbitcointrue.com/saving/sovereignty/level-11/">Level 11 security</a> by integrating advanced countermeasures into a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> setup, ensuring protection against even the most sophisticated threats.</p>
+<p>This protocol achieves <a href="https://isbitcointrue.com/saving/sovereignty/level-11/">Level 11 security</a> by integrating advanced countermeasures into a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> setup, ensuring protection against even the most sophisticated threats.</p>
 
 
 
