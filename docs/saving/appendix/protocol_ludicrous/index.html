@@ -2960,7 +2960,7 @@ Adhere to them without exception during any session involving seeds or transacti
 <summary>1. Prepare Secure Environments</summary>
 <ol>
 <li>Acquire five <a href="../airgapped-computer/">Signing-Devices</a>: three SeedSigners and two Coldcard Qs, each for one seed.</li>
-<li>Set up <strong>three secure spaces</strong> for QR transfers in geographically distributed locations: private rooms with no windows or cameras, each equipped with a physical and electronic countermeasures, such as non-digital white noise generators, and privacy enclosures.</li>
+<li>Set up <strong>three secure spaces</strong> for QR transfers in geographically distributed locations: private rooms with no windows or cameras, each equipped with a physical and electronic countermeasures, such as non-electronic white noise generators, and privacy enclosures.</li>
 <li>Install <strong>privacy filters</strong> on all <a href="../airgapped-computer/">Signing-Device</a> and <a href="../airgapped-computer/">Transaction-Manager</a> screens.</li>
 <li>Prepare <strong>camera blockers</strong> for the <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
 <li>Obtain <strong>tamper-evident seals</strong> for the <a href="../airgapped-computer/">Signing-Devices</a>.</li>
@@ -3093,7 +3093,7 @@ Adhere to them without exception during any session involving seeds or transacti
 <details class="warning">
 <summary>5. Inspect Transaction</summary>
 <ol>
-<li>Use <a href="https://darkskippy.com">Dark Skippy</a> tools on both Transaction-Managers to scan for anomalies.</li>
+<li>Use detection tools (for <a href="https://darkskippy.com">Dark Skippy</a> style attacks) on both Transaction-Managers to scan for anomalies.</li>
 <li>If issues are detected, abort and investigate.</li>
 </ol>
 </details>
@@ -3119,12 +3119,6 @@ Adhere to them without exception during any session involving seeds or transacti
 <summary>2. Query Balance for Multisig Addresses</summary>
 <ol>
 <li>Check the balance in Sparrow on both Transaction-Managers and confirm consistency.</li>
-</ol>
-</details>
-<details class="info">
-<summary>3. Optional: Verify Against Separate Full Node</summary>
-<ol>
-<li>Cross-verify with an additional <a href="../../sovereignty/level-4/">full node</a> if available.</li>
 </ol>
 </details>
 <hr />
@@ -3203,10 +3197,7 @@ Adhere to them without exception during any session involving seeds or transacti
 </ol>
 </details>
 <hr />
-<ul>
-<li>When not in use, store <a href="../airgapped-computer/">Signing-Devices</a> in their respective secure locations with <strong>tamper-evident seals</strong> applied.</li>
-<li>This protocol achieves <a href="https://isbitcointrue.com/saving/sovereignty/level-12/">Level 12 security</a> by integrating geographically distributed key signing, an expanded airgap covering both DMZs, receive-only nodes (RF and satellite), redundant Transaction-Managers, and a secure drop point into a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> setup, ensuring protection against the most sophisticated threats.</li>
-</ul>
+<p>This protocol achieves <a href="https://isbitcointrue.com/saving/sovereignty/level-12/">Level 12 security</a> by integrating geographically distributed key signing, an expanded airgap covering redundant DMZs, receive-only nodes (RF and satellite), redundant Transaction-Managers, and a secure drop point, all to protect a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> setup, ensuring protection against the most sophisticated threats.</p>
 
 
 
