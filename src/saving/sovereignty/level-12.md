@@ -6,10 +6,11 @@
       <figcaption>Level 12 -- a veritable Hero's Journey into transaction signing</figcaption>
     </figure>
 
-Level 12 is the ultimate expression of Bitcoin self-custody, designed to withstand sophisticated physical, electronic, and network-based threats. 
-It employs receive-only nodes (e.g., RF and satellite) and geographically distributed key signing, expanding the airgap to cover both DMZs. 
-An Airgapped-Computer collects signatures from read-only Transaction-Managers, and the signed transaction is then taken to a geographically distant drop point,
- to broadcast via an online Transaction-Manager connected to a full node.
+Level 12 is the ultimate expression of Bitcoin self-custody, completely off-grid and airgapped, designed to withstand sophisticated physical, electronic, and network-based threats. 
+It employs receive-only nodes (e.g., RF or satellite) and geographically distributed key signing, expanding the airgap to cover both DMZs (the receive-only nodes).
+
+An Airgapped-Computer collects signatures from read-only Transaction-Managers (every step cryptographically verified), and a final signed transaction is then taken to a geographically distinct drop point,
+ to broadcast via a stateless computer connected to a full node. Importantly, the only "online" device is the drop point, with zero visibility into how transactions were created or signed.
 
 
 
