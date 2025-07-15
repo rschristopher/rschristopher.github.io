@@ -7,10 +7,10 @@
     </figure>
 
 Level 12 is the ultimate expression of Bitcoin self-custody, completely off-grid and airgapped, designed to withstand sophisticated physical, electronic, and network-based threats. 
-It employs receive-only nodes (e.g., RF or satellite) and geographically distributed key signing, expanding the airgap to cover both DMZs (the receive-only nodes).
+It employs receive-only nodes (e.g., RF or satellite) and geographically distributed key signing, expanding the airgap to cover redundant DMZs (and the receive-only nodes).
 
 An Airgapped-Computer collects signatures from read-only Transaction-Managers (every step cryptographically verified), and a final signed transaction is then taken to a geographically distinct drop point,
- to broadcast via a stateless computer connected to a full node. Importantly, the only "online" device is the drop point, with zero visibility into how transactions were created or signed.
+ to broadcast via a stateless computer. Importantly, the only "online" device is the drop point, with zero visibility into how transactions were created or signed.
 
 
 
@@ -19,16 +19,14 @@ An Airgapped-Computer collects signatures from read-only Transaction-Managers (e
 
 ## Why Off-grid?
 
-This setup ensures maximum resilience and security by:
-
 - **Redundant Full Nodes**: Read-only full nodes provide uninterrupted access to the blockchain (e.g., via [satellite](https://blockstream.com/satellite/)), even under network censorship or failure.
-- **Airgap Expansion**: Covering both DMZs with an airgap isolates critical operations from network threats.
+- **Airgap Expansion**: Covering redundant DMZs with an airgap isolates critical operations from network threats.
 - **Distributed Signing**: Keys are managed across secure, geographically separated locations, eliminating single points of failure or compromise.
 
 Building on all prior levels --
  [full nodes](level-4.md), [airgap quarantine](level-5.md), [metal backups](level-6.md), [multisig](level-7.md),
  [fail-safes](level-10.md), [countermeasures](level-11.md), etc
- -- Level 12 creates an impenetrable fortress for Bitcoin custody.
+ -- Level 12 creates an impenetrable fortress for Bitcoin self-custody.
 
 
 
@@ -41,12 +39,15 @@ Building on all prior levels --
 - **Fault Tolerance**: Redundant systems ensure functionality even if one component fails.
 - **Privacy Preservation**: Off-grid operations minimize exposure to online surveillance.
 
+
+
+
 ---
 
 ## Implementation
 
 !!! warning "Discipline is Key"
-    Strict adherence to [quarantine rules](level-5.md) and [multisig protocols](level-7.md) is essential. Any lapse compromises the entire system.
+    Strict adherence to [Quarantine Rules](level-5.md) and [multisig protocols](level-7.md) is essential. Any lapse compromises the entire system.
 
 - **Geographically Distributed Key Signing**:
     - Deploy [Signing-Devices](../appendix/airgapped-computer.md) in multiple secure, physically separate locations.
