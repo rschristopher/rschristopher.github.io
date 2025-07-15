@@ -8,7 +8,7 @@ Example protocols
 + [Ludicrous](protocol_ludicrous.md)
 
 
-In actual practice, you should create your own custom protocol from the [template](protocol_template.md)
+In practice, you should create your own custom protocol using the above (or from the [template](protocol_template.md)).
 
 
 
