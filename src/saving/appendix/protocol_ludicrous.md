@@ -31,9 +31,10 @@ To safeguard against advanced threats, all QR code transfers must be conducted i
 
 ## Quarantine Rules
 
-To achieve the highest level of security for your Bitcoin self-custody, follow these rules as a concise, numbered checklist. These rules extend the original [Level-5](../sovereignty/level-5.md) quarantine to include advanced countermeasures (suitable for this "Ludicrous" protocol),
- ensuring protection against physical, digital, and human threats. 
-Adhere to them without exception during any session involving seeds or transaction signing.
+To achieve the highest level of security for your Bitcoin self-custody, follow these rules as a concise, numbered checklist. These rules extend the original [Level-5](../sovereignty/level-5.md) quarantine to include advanced countermeasures (suitable for the "Ludicrous" protocol),
+ ensuring protection against physical, digital, and human threats.
+
+Adhere to these rules without exception during any session involving seeds or transaction signing.
 
 1. **Limit data transfers to QR codes only**: No physical media (e.g., USB, MicroSD) is allowed across the quarantine. *Rationale*: Prevents malware vectors and enforces manual verification.
 
@@ -47,23 +48,19 @@ Adhere to them without exception during any session involving seeds or transacti
 
 6. **Sanitize and verify all tools pre-session**: Check software/firmware signatures, verify tamper-evident seals on Signing-Devices, and test tool integrity. *Rationale*: Counters supply-chain attacks and pre-installed malware.
 
-7. **Require multi-person verification or time-delayed access for critical steps**: If possible, involve a trusted witness or use remote verification. *Rationale*: Adds human redundancy and deters coercion.
+7. **Distribute and redundantly store components geographically with tamper-evident seals**: Store Signing-Devices in separate, secure locations. *Rationale*: Ensures resilience against localized physical attacks (e.g., theft, fire).
 
-8. **Post-session wipe and audit**: Clear RAM on shutdown, log all actions, and test quarantine integrity for all components. *Rationale*: Erases residual data and detects subtle violations early.
+8. **Use receive-only full nodes (RF and satellite) for blockchain data**: Utilize RF and satellite-based nodes to receive tamper-proof data without transmitting. *Rationale*: Maintains privacy and resilience against network censorship.
 
-9. **Distribute and redundantly store components geographically with tamper-evident seals**: Store Signing-Devices in separate, secure locations. *Rationale*: Ensures resilience against localized physical attacks (e.g., theft, fire).
+9. **Employ redundant Transaction-Managers on isolated networks**: Use two Transaction-Managers, each linked to a separate receive-only node. *Rationale*: Provides redundancy and independent cryptographic verification of all steps.
 
-10. **Use receive-only full nodes (RF and satellite) for blockchain data**: Utilize RF and satellite-based nodes to receive tamper-proof data without transmitting. *Rationale*: Maintains privacy and resilience against network censorship.
+10. **Implement an expanded airgap covering the receive-only full nodes and Transaction-Managers**: Isolate all critical operations from network threats. *Rationale*: Protects against all network-based attacks.
 
-11. **Employ redundant Transaction-Managers on isolated networks**: Use two Transaction-Managers, each linked to a separate receive-only node. *Rationale*: Provides redundancy and independent verification.
+11. **Utilize a secure drop point for broadcasting signed transactions**: Designate a single physically secure, monitored location, used only for broadcasting signed transactions. *Rationale*: Ensures secure handling of transaction broadcasting.
 
-12. **Implement an expanded airgap covering the receive-only full nodes and Transaction-Managers**: Isolate all critical operations from network threats. *Rationale*: Protects against network-based attacks.
+12. **Coordinate signing sessions securely across geographically distributed locations**: Follow strict procedures for QR transfers and quarantine rules at each site. *Rationale*: Maintains security in a distributed setup.
 
-13. **Utilize a secure drop point for broadcasting signed transactions**: Designate a single physically secure, monitored location, used only for broadcasting signed transactions. *Rationale*: Ensures secure handling of transaction broadcasting.
-
-14. **Coordinate signing sessions securely across geographically distributed locations**: Follow strict procedures for QR transfers and quarantine rules at each site. *Rationale*: Maintains security in a distributed setup.
-
-These rules, when followed meticulously, create a fortress-like barrier around your Bitcoin custody operations, making unauthorized access or compromise exponentially difficult -- even for advanced adversaries. Test them in dry runs to build familiarity and ensure strict adherence during critical sessions.
+These rules, when followed meticulously, create a fortress-like barrier around your Bitcoin, making unauthorized access or compromise exponentially difficult -- even for advanced adversaries.
 
 
 
