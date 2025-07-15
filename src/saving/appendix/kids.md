@@ -8,7 +8,7 @@ reveive
 send
 verify addresses
 
-this csn be TailsOS, and we can get equivalent security as a singlesig hww
+this can be TailsOS, and we can get equivalent security as a singlesig hww
 
 
 
