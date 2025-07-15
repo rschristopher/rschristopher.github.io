@@ -1869,9 +1869,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#seedsigner" class="md-nav__link">
+  <a href="#always-stateless" class="md-nav__link">
     <span class="md-ellipsis">
-      SeedSigner
+      Always Stateless
     </span>
   </a>
   
@@ -2921,9 +2921,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#seedsigner" class="md-nav__link">
+  <a href="#always-stateless" class="md-nav__link">
     <span class="md-ellipsis">
-      SeedSigner
+      Always Stateless
     </span>
   </a>
   
@@ -2946,7 +2946,7 @@
 
 
 <h1 id="appendix-5-mnemonic-memorization">Appendix 5: Mnemonic Memorization<a class="headerlink" href="#appendix-5-mnemonic-memorization" title="Permanent link">&para;</a></h1>
-<p>Imagine crossing a volatile border, your wealth secure—not in a wallet or device, but locked in your mind. A memorized Bitcoin seed phrase creates a "brain wallet," immune to theft, seizure, or disaster. Paired with the airgapped, stateless <a href="https://seedsigner.com">SeedSigner</a>, it enables secure transactions for single-signature (singlesig) or <a href="../../sovereignty/level-7/">multi-signature (multisig)</a> wallets, ensuring sovereignty wherever life takes you.</p>
+<p>Imagine crossing a volatile border, your wealth secure -- not in a wallet or device, but locked in your mind. A memorized Bitcoin seed phrase creates a "brain wallet," immune to theft, seizure, or disaster. Paired with the airgapped, stateless <a href="https://seedsigner.com">SeedSigner</a>, it enables secure transactions for single-signature (singlesig) or <a href="../../sovereignty/level-7/">multi-signature (multisig)</a> wallets, ensuring sovereignty wherever life takes you.</p>
 <hr />
 <h2 id="why-mnemonic-memorization">Why Mnemonic Memorization?<a class="headerlink" href="#why-mnemonic-memorization" title="Permanent link">&para;</a></h2>
 <p>A brain wallet eliminates the risks of physical backups like paper or <a href="../../sovereignty/level-6/">metal</a>, which can be lost, stolen, or destroyed. A 12-word BIP-39 seed phrase (128 bits of entropy) plus a passphrase (≥32 bits) delivers at least 160 bits of entropy, surpassing the 128-bit security threshold to protect against brute-force attacks. SeedSigner’s airgapped design signs transactions without storing your seed, making it ideal for secure, stateless operation in any environment.</p>
@@ -2973,29 +2973,32 @@
 <p>To create and use a brain wallet:</p>
 <ol>
 <li><strong>Generate a Secure Mnemonic</strong>: In an <a href="../../sovereignty/level-5/">airgap quarantine</a>, use a <a href="https://seedsigner.com">SeedSigner</a> to create a 12-word BIP-39 seed (e.g., “apple banana cherry dog eagle fox grape hill igloo jump kite lion”) and a strong passphrase (e.g., “Freedom2025!”).</li>
-<li><strong>Memorize with Techniques</strong>:</li>
+<li><strong>Memorize</strong>:<ul>
 <li><strong>Spaced Repetition (Critical)</strong>: Practice recalling the seed and passphrase daily for the first week, then weekly for a month, then monthly, in a secure setting. Test random word order and partial recall (e.g., “What’s the 7th word?”) to ensure deep mastery. This method leverages the spacing effect to embed the mnemonic in long-term memory, making it resilient to stress or time.</li>
 <li><strong>Chunking</strong>: Group the 12 words into four sets of three (e.g., “apple banana cherry,” “dog eagle fox,” “grape hill igloo,” “jump kite lion”) for easier recall.</li>
 <li><strong>Memory Palace</strong>: Visualize a familiar place (e.g., your home). Place each chunk in a distinct location (e.g., “apple banana cherry” in the kitchen) and revisit mentally often.</li>
 <li><strong>Story Method</strong>: Create a vivid narrative, e.g., “An apple-banana-cherry pie lures a dog, eagle, and fox to a grape-draped hill under an igloo, where a lion roars ‘Freedom2025!’.”</li>
 <li><strong>Association</strong>: Link each word to a personal memory (e.g., “apple” to an orchard) for deeper recall.</li>
 <li><strong>Interleaved Practice</strong>: Mix seed recall with unrelated phrases to strengthen retention.</li>
-<li><strong>Optional Backup</strong>: Store the seed on <a href="../../sovereignty/level-6/">metal backups</a> in secure, tamper-evident locations as a precaution.</li>
+</ul>
+</li>
+<li><strong>Optional Backup</strong>: Store the seed on <a href="../../sovereignty/level-6/">metal backups</a>.</li>
 <li><strong>Restore and Use</strong>: On a SeedSigner, input the memorized seed and passphrase (Settings &gt; Seeds &gt; Load Seed) to restore the wallet. Export the ZPUB via QR to a <a href="../airgapped-computer/">Transaction-Manager</a> for a watch-only wallet in Sparrow or Electrum.</li>
 <li><strong>Deposit</strong>: Generate a receive address in Sparrow, verify it on SeedSigner, and monitor deposits via a <a href="../../sovereignty/level-4/">full node</a>.</li>
 <li><strong>Withdraw</strong>: Create an unsigned transaction on the Transaction-Manager, transfer via QR to SeedSigner, sign with the memorized seed and passphrase, and broadcast via your full node.</li>
 <li><strong>Test Regularly</strong>: Verify memory accuracy by inputting the seed into a SeedSigner in a secure environment.</li>
-<li><strong>Avoid Pitfalls</strong>: Never store the mnemonic digitally, use weak passphrases, or skip practice to prevent memory fade.</li>
+<li><strong>Avoid Pitfalls</strong>: Never store the mnemonic digitally, or skip practice. Practice regularly to prevent memory fade. Use only stateless signing devices (like SeedSigner) and stateless Transaction-Manager (Tail OS).</li>
 </ol>
 <hr />
-<h2 id="seedsigner">SeedSigner<a class="headerlink" href="#seedsigner" title="Permanent link">&para;</a></h2>
+<h2 id="always-stateless">Always Stateless<a class="headerlink" href="#always-stateless" title="Permanent link">&para;</a></h2>
 <p>SeedSigner’s airgapped, stateless design ensures secure transactions:</p>
 <ul>
 <li><strong>Restore Wallet</strong>: Input the memorized seed (e.g., “apple banana cherry…”) and passphrase (e.g., “Freedom2025!”) into SeedSigner to access your wallet.</li>
-<li><strong>Sign Transactions</strong>: Create transactions on a <a href="../airgapped-computer/">Transaction-Manager</a>, transfer via QR to SeedSigner, and sign using your memorized seed.</li>
+<li><strong>Sign Transactions</strong>: Create transactions on a stateless <a href="../airgapped-computer/">Transaction-Manager</a> (Tails OS), transfer via QR to SeedSigner, and sign using your memorized seed.</li>
 <li><strong>Support for Multisig</strong>: Use with <a href="../../sovereignty/level-7/">multisig setups</a> for enhanced security, leveraging SeedSigner’s stateless operation.</li>
 </ul>
-<p>A memorized seed, reinforced by spaced repetition, turns your mind into an unassailable vault. Paired with SeedSigner’s precision, your Bitcoin remains secure through any crisis, ready for any storm.</p>
+<p>A memorized seed, reinforced by spaced repetition, turns your mind into an unassailable vault. 
+Paired with SeedSigner, your Bitcoin remains invisibly secure through any crisis, ready for any storm.</p>
 
 
 
