@@ -55,7 +55,7 @@ This ethos brings tangible benefits infused with timeless principles:
 
 At its heart, Bitcoin's low-time-preference rewards biblical patience,
  guiding families to lay up treasures that endure (Matthew 6:19-21), whether seen through a faith lens or as practical wisdom for lasting family harmony.
-The true wealth, afterall, is the family harmonizing with eternal values (with God's will).
+True wealth, afterall, is the family harmonizing with eternal values (with God's will).
 
 
 
