@@ -26,7 +26,7 @@ However, in order to maximize security
 
 
 ???+ success "Generate your own seed"
-    The best way to manage your own keys is by generating a seed phrase (as discussed [previously](../understand-the-terms.md).
+    The best way to manage your own keys is by generating a seed phrase (as discussed [previously](../understand-the-terms.md)).
     You'll want sufficient entropy so as to guarantee security for all of your derived public and private keys.
     While modern *random-number-generators* (RNGs) offer sufficient entropy, it is highly recommended to use
     [dice](../appendix/dice.md) to generate your seeds (even for hot wallets).
