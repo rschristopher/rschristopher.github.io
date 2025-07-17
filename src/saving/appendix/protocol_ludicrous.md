@@ -138,6 +138,7 @@ Receive Bitcoin using unique, verified addresses confirmed through both receive-
 
 ??? danger "2. Verify Address on Airgapped Device"
     *Optional* -- used when no pre-verified address is available.
+    
     1. **Following secure QR transfer procedures**, send address data via QR to at least three [Signing-Devices](airgapped-computer.md).
     2. Confirm ZPUB derivation on each device.
 

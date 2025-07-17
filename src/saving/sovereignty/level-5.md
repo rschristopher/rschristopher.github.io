@@ -92,30 +92,30 @@ In order to maintain the integrity of your airgap quarantine,
  a strict signing ceremony should be followed.
 Airgap quarantine steps are highlighted in red.
 
-???+ note "Step 1: Create Unsigned Transaction"
+??? note "Step 1: Create Unsigned Transaction"
     1. On the Tails OS transaction manager, open Electrum or Sparrow.
     2. Create a transaction in your watch-only wallet (e.g., send Bitcoin to an address).
     3. Verify the transaction details (amount, address, fee).
     4. Export the unsigned transaction as a QR code.
 
-???+ danger "Step 2: Transfer to Air-Gapped Computer"
+??? danger "Step 2: Transfer to Air-Gapped Computer"
     1. Boot the [air-gapped computer](../appendix/airgapped-computer.md) (with Tails OS or Linux install).
     2. Open Sparrow or Electrum and scan the QR code from the transaction manager.
     3. Verify the transaction details (address, amount, fee).
     4. Save the unsigned transaction to a microSD card (for devices without QR input) or export it as a QR code (for QR-capable signing device).
 
-???+ danger "Step 3: Sign Transaction"
+??? danger "Step 3: Sign Transaction"
     1. Power on the signing device using a battery or offline charger.
     2. Load the unsigned transaction.
     3. Verify the transaction details (address, amount, fee).
     4. Approve / Sign the transaction.
 
-???+ danger "Step 4: Transfer Signed Transaction"
+??? danger "Step 4: Transfer Signed Transaction"
     1. On the [air-gapped computer](../appendix/airgapped-computer.md), load the signed transaction.
     2. Verify the signed transaction details in Sparrow or Electrum.
     3. Export the signed transaction as a QR code.
 
-???+ note "Step 5: Broadcast Signed Transaction"
+??? note "Step 5: Broadcast Signed Transaction"
     1. On the transaction manager, scan the signed transaction QR code from the [air-gapped computer](../appendix/airgapped-computer.md).
     2. Verify the transaction details again (address, amount, fee).
     3. Broadcast the transaction to the Bitcoin network via your Bitcoin node.
