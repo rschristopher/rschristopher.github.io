@@ -25,6 +25,9 @@ The truth is there's very little
  beneficial to Bitcoin;
  with Bitcoin providing incentives
  for quantum computing breakthroughs.
+And this is assuming actual breakthroughs
+ in quantum computing, and not the
+ [sleight-of-hand](https://eprint.iacr.org/2025/1237) factorizations, reproducible on an abacus.
 
 Importantly,
  people are concerned
@@ -63,7 +66,7 @@ With most wallet software, and
 
 At present,
  there are indeed vulnerable
- coins to a quantum attack,
+ coins to a theoretical quantum attack,
  especially those that have not
  moved since 2010.
 This is because early transactions
@@ -88,7 +91,7 @@ However, the vast majority
 This double hash provides
  quantum resistance.
 
-How many coins are vulnerable?
+How many coins are (theoretically) vulnerable?
 That is, how many coins used P2PK?
 Most famously,
  the [million or so](https://bitslog.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/)
@@ -100,6 +103,12 @@ If *anyone* had the means
  they would be wealthy
  beyond measure.
 
+
+???+ warning "Quantum Computing Today"
+    We've been discussing theoretical quantum computing attacks on Bitcoin's elliptical curve, which would require disclosing the public key associated with a given UTXO to the quantum computer.
+    
+    However, even disclosing a private key would not help today's "quantum computers" because they lack the computing power to perform what a pocket calculator or [abacus](https://eprint.iacr.org/2025/1237) or even a trained dog is capable of performing.
+    Until there is actual breakthroughs in quantum computing and it can perform as well as Raspberry Pi, all such attacks remain purely theoretical.
 
 
 ## Satoshi's Bounty
