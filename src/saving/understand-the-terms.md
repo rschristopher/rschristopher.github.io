@@ -43,6 +43,7 @@ We will describe these imperfect metaphors
 
 
 
+---
 
 ## Wallets
 
@@ -109,7 +110,7 @@ Rather, a Bitcoin wallet is any device or procedure used
 
 
 
-
+---
 
 ## Keys
 
@@ -189,7 +190,7 @@ A seed phrase can be backed up and is used to generate
 
 
 
-
+---
 
 ## Addresses
 
@@ -314,7 +315,7 @@ And when you spend Bitcoin (from an unspent transaction), any remainder
 
 
 
-
+---
 
 ## Transactions
 
@@ -410,11 +411,83 @@ A transaction is simply inputs and outputs which
 
 
 
+---
+
+## Seed Phrases and Derivation
+
+The best way to understand keys, addresses and transactions is through examples. Start with an
+example seed phrase.
+
+!!! example "Example Seed Phrase"
+    ```
+    primary fetch primary prefer primary fetch primary fiber fish cause adult fee
+    ```
+
+This seed generates a root key for multiple accounts, each with unlimited
+addresses and key pairs, referenced by [derivation
+paths](https://river.com/learn/terms/d/derivation-path/).
+
+???+ example "m/0'/0'"
+    Extended private key:
+    ```
+    xprv9xYcGh8prgvDkcydvSeV6xEZVZ4t47xy46VzdsJGVFN8YvwKPF51u9azfREPrQyLyV8HdjDDAzaMkKcRsdfAGQ2diobuW1ZkBrGXXqze5CQ
+    ```
+
+    Extended public key (Master Public Key):
+    ```
+    xpub6BXxgCfih4UX1BnqD5bhJVMD3nnTUYWwC9kuFgUH11bmqAPhjhxFJWrvBnmh5QexRFkCxqFTS1AHiPhGeEp7HKoW1d85wTyEHSeJdZouJQJ
+    ```
+
+For the next accounts: `m/0'/1'`, `m/0'/2'`.
+
+First address/key pair for account 2:
+
+???+ example "m/0'/2'/0'"
+    Receive Address:
+    ```
+    1N1QRK5Ru3gJ7ue3Xv277cMUMdWePbehsc
+    ```
+
+    Public Key:
+    ```
+    02279dd8f9c77ac86499fc05cebb3c81763e20f46ad3f9731e87992b512fe2e628
+    ```
+
+    Private Key:
+    ```
+    L1yPKTZ6Rw2ge7utKVJrf8fgx7pm6kBAFEJAUmw63hFz1uWPaEeR
+    ```
+
+Native SegWit address example:
+
+???+ example "m/84'/0'/3'/0/0"
+    Receive Address:
+    ```
+    bc1q3ctchdrxdt4ydljcfp4y0s0a3w8ut07j22f8ty
+    ```
+
+### Bitcoin Improvement Proposals
+- [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki): Hierarchical deterministic wallets.
+- [BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki): Derivation paths for P2PKH (e.g., `m/44'/0'/0'/0`).
+- [BIP-49](https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki): Derivation paths for P2SH-P2WPKH (e.g., `m/49'/0'/0'/0`).
+- [BIP-84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki): Derivation paths for P2WPKH (e.g., `m/84'/0'/0'/0`).
+- [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): Standardized word list for seed phrases.
+
+Additional resources
+- [Private Keys](https://learnmeabitcoin.com/beginners/private_keys)
+- [ZPUB Extended Public Key](https://river.com/learn/terms/z/zpub-extended-public-key/)
+- [XPUB Extended Public Key](https://river.com/learn/terms/x/xpub-extended-public-key/)
+- [PSBT Discussion](https://bitcointalk.org/index.php?topic=5213741.0)
 
 
 
 
 
+
+
+
+
+---
 
 ## Blockchain
 
