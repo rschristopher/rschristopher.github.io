@@ -1304,6 +1304,30 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#seed-phrases-and-derivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seed Phrases and Derivation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seed Phrases and Derivation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-improvement-proposals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bitcoin Improvement Proposals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#blockchain" class="md-nav__link">
     <span class="md-ellipsis">
       Blockchain
@@ -3198,6 +3222,30 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#seed-phrases-and-derivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seed Phrases and Derivation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seed Phrases and Derivation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-improvement-proposals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bitcoin Improvement Proposals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#blockchain" class="md-nav__link">
     <span class="md-ellipsis">
       Blockchain
@@ -3293,6 +3341,7 @@ And thus to <em>custody</em> your Bitcoin, means something very different than a
  discuss the more accurate technical concepts
  necessary for understanding the truth of Bitcoin
  and what it really means to <em>custody your Bitcoin</em>.</p>
+<hr />
 <h2 id="wallets">Wallets<a class="headerlink" href="#wallets" title="Permanent link">&para;</a></h2>
 <p>In Bitcoin, the word <em>wallet</em> is a misnomer,
  possibly the most confusing metaphor in Bitcoin.
@@ -3350,6 +3399,7 @@ Instead the key is generated from the seed phrase and used on a signing device o
 Rather, a Bitcoin wallet is any device or procedure used 
  to manage your private keys (necessary to send
  and receive Bitcoin).</p>
+<hr />
 <h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
 <div class="admonition danger">
 <p class="admonition-title">Not your keys, not your Bitcoin.</p>
@@ -3413,6 +3463,7 @@ A seed phrase can be backed up and is used to generate
  public and private keys in a predictable (deterministic) way,
  such that your seed phrase is the most critical piece
  of information to secure.</p>
+<hr />
 <h2 id="addresses">Addresses<a class="headerlink" href="#addresses" title="Permanent link">&para;</a></h2>
 <p>A Bitcoin <em>address</em> is a misnomer,
  and when not understood properly can lead to a great deal of confusion.
@@ -3505,6 +3556,7 @@ An <em>invoice address</em> (aka <em>receive address</em>),
  is what you would use to receive Bitcoin.
 And when you spend Bitcoin (from an unspent transaction), any remainder
  will use a <em>change address</em>.</p>
+<hr />
 <h2 id="transactions">Transactions<a class="headerlink" href="#transactions" title="Permanent link">&para;</a></h2>
 <p>Bitcoin is a protocol managing a cryptographic ledger,
  and this ledger is made up of ordered <em>transactions</em>.
@@ -3582,6 +3634,62 @@ A transaction is simply inputs and outputs which
  move the balance of Bitcoin to different
  cryptographic addresses (accessible only
  by private keys).</p>
+<hr />
+<h2 id="seed-phrases-and-derivation">Seed Phrases and Derivation<a class="headerlink" href="#seed-phrases-and-derivation" title="Permanent link">&para;</a></h2>
+<p>The best way to understand keys, addresses and transactions is through examples. Start with an
+example seed phrase.</p>
+<div class="admonition example">
+<p class="admonition-title">Example Seed Phrase</p>
+<div class="highlight"><pre><span></span><code>primary fetch primary prefer primary fetch primary fiber fish cause adult fee
+</code></pre></div>
+</div>
+<p>This seed generates a root key for multiple accounts, each with unlimited
+addresses and key pairs, referenced by <a href="https://river.com/learn/terms/d/derivation-path/">derivation
+paths</a>.</p>
+<details class="example" open="open">
+<summary>m/0'/0'</summary>
+<p>Extended private key:
+<div class="highlight"><pre><span></span><code>xprv9xYcGh8prgvDkcydvSeV6xEZVZ4t47xy46VzdsJGVFN8YvwKPF51u9azfREPrQyLyV8HdjDDAzaMkKcRsdfAGQ2diobuW1ZkBrGXXqze5CQ
+</code></pre></div></p>
+<p>Extended public key (Master Public Key):
+<div class="highlight"><pre><span></span><code>xpub6BXxgCfih4UX1BnqD5bhJVMD3nnTUYWwC9kuFgUH11bmqAPhjhxFJWrvBnmh5QexRFkCxqFTS1AHiPhGeEp7HKoW1d85wTyEHSeJdZouJQJ
+</code></pre></div></p>
+</details>
+<p>For the next accounts: <code>m/0'/1'</code>, <code>m/0'/2'</code>.</p>
+<p>First address/key pair for account 2:</p>
+<details class="example" open="open">
+<summary>m/0'/2'/0'</summary>
+<p>Receive Address:
+<div class="highlight"><pre><span></span><code>1N1QRK5Ru3gJ7ue3Xv277cMUMdWePbehsc
+</code></pre></div></p>
+<p>Public Key:
+<div class="highlight"><pre><span></span><code>02279dd8f9c77ac86499fc05cebb3c81763e20f46ad3f9731e87992b512fe2e628
+</code></pre></div></p>
+<p>Private Key:
+<div class="highlight"><pre><span></span><code>L1yPKTZ6Rw2ge7utKVJrf8fgx7pm6kBAFEJAUmw63hFz1uWPaEeR
+</code></pre></div></p>
+</details>
+<p>Native SegWit address example:</p>
+<details class="example" open="open">
+<summary>m/84'/0'/3'/0/0</summary>
+<p>Receive Address:
+<div class="highlight"><pre><span></span><code>bc1q3ctchdrxdt4ydljcfp4y0s0a3w8ut07j22f8ty
+</code></pre></div></p>
+</details>
+<h3 id="bitcoin-improvement-proposals">Bitcoin Improvement Proposals<a class="headerlink" href="#bitcoin-improvement-proposals" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">BIP-32</a>: Hierarchical deterministic wallets.</li>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">BIP-44</a>: Derivation paths for P2PKH (e.g., <code>m/44'/0'/0'/0</code>).</li>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki">BIP-49</a>: Derivation paths for P2SH-P2WPKH (e.g., <code>m/49'/0'/0'/0</code>).</li>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki">BIP-84</a>: Derivation paths for P2WPKH (e.g., <code>m/84'/0'/0'/0</code>).</li>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP-39</a>: Standardized word list for seed phrases.</li>
+</ul>
+<p>Additional resources
+- <a href="https://learnmeabitcoin.com/beginners/private_keys">Private Keys</a>
+- <a href="https://river.com/learn/terms/z/zpub-extended-public-key/">ZPUB Extended Public Key</a>
+- <a href="https://river.com/learn/terms/x/xpub-extended-public-key/">XPUB Extended Public Key</a>
+- <a href="https://bitcointalk.org/index.php?topic=5213741.0">PSBT Discussion</a></p>
+<hr />
 <h2 id="blockchain">Blockchain<a class="headerlink" href="#blockchain" title="Permanent link">&para;</a></h2>
 <p>The word <em>"blockchain"</em> is perhaps the most misunderstood and overhyped word related to Bitcoin.
 Next time you read an article on <em>"blockchain technology"</em> replace the word
