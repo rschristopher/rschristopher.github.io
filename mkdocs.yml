@@ -89,7 +89,7 @@ nav:
             - "A1: Protocols": saving/appendix/protocols.md
             - "A2: Using Dice": saving/appendix/dice.md
             - "A3: Airgapped Computers": saving/appendix/airgapped-computer.md
-            - "A4: Keyless Vaults": saving/appendix/keyless-vaults.md
+            - "A4: Covenant Vaults": saving/appendix/vaults.md
             - "A5: Mnemonic Memorization": saving/appendix/mnemonic.md
     - Currency:
         - currency/index.md
