@@ -60,14 +60,31 @@ Now imagine they experience fiat hyperinflation.
 There are countless real-world examples of exactly such communities, and many in our future.
 How could they establish sovereign commerce?
 
+* [Level 1: Custodial Entry](sovereignty/level-1.md) -- Start with custodial apps and exchanges to hold and send Bitcoin, ideal for beginners.
+Relies on third parties, vulnerable to censorship, prompting self-custody shifts.
 
-* [Level 1: On-chain Limitations](sovereignty/level-1.md) -- on-chain transactions for final settlement.
-Poor scalability, gold coins and other tokens become inevitable
-* [Level 2: Primitive Tokens](sovereignty/level-2.md) -- localism, bartering with opendime or similar
-* [Level 3: Private Channels](sovereignty/level-3.md) -- layer-2 payment rails such as lightning over trusted private channels 
-* [Level 4: Public Channels](sovereignty/level-4.md) -- limited layer-2 public channels with select partners
-* *[future]* [Level 5: Point-of-Sale](sovereignty/level-5.md) -- *future inevitability*, point-of-sale systems with cold storage security 
-* *[future]* [Level 6: Sovereign Wallets](sovereignty/level-6.md) -- *future inevitability*, self-custody layer-2+ wallets
+* [Level 2: Physical Tokens](sovereignty/level-2.md) -- Use devices like OpenDime for physical "digital cash" trades without internet.
+Simple for local swaps, but limited to in-person, leading to digital tools.
+
+* [Level 3: On-Chain Wallets](sovereignty/level-3.md) -- Control keys in non-custodial wallets for direct peer-to-peer sends.
+Achieves personal sovereignty, but high fees limit scalability, needing layers.
+
+* [Level 4: Basic Lightning](sovereignty/level-4.md) -- Open Lightning channels for fast, cheap micro-payments.
+Scales daily commerce, requires liquidity management, evolving to networks.
+
+* [Level 5: Merchant Networks](sovereignty/level-5.md) -- Integrate Point-of-Sale and full nodes, accepting payments via Lightning Network, and eventually into cold storage.
+Builds business ecosystems with shared liquidity, expanding to global reach.
+
+* [Level 6: International Lightning](sovereignty/level-6.md) -- Use full Lightning with LSPs for cross-border trades.
+Enables global commerce, but onboarding barriers hint at future ease.
+
+* [Level 7: Ubiquitous Future](sovereignty/level-7.md) -- Advanced L2+ solves global liquidity for billions in self-custody.
+Realizes global sovereign commerce, inevitable under Bitcoin Standard.
+
+
+
+
+---
 
 Before diving in and learning about  sovereign commerce, let's
  [understand the terms](understand-the-terms.md).
