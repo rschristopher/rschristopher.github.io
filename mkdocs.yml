@@ -96,12 +96,13 @@ nav:
         - Understand the Terms: currency/understand-the-terms.md
         - Sovereignty Levels:
             - currency/sovereignty/index.md
-            - "Level 1: On-chain Limitations": currency/sovereignty/level-1.md
-            - "Level 2: Primitive Tokens": currency/sovereignty/level-2.md
-            - "Level 3: Private Channels": currency/sovereignty/level-3.md
-            - "Level 4: Public Channels": currency/sovereignty/level-4.md
-            - "Level 5: Point-of-Sale": currency/sovereignty/level-5.md
-            - "Level 6: Sovereign Wallets": currency/sovereignty/level-6.md
+            - "Level 1: Custodial": currency/sovereignty/level-1.md
+            - "Level 2: Physical Tokens": currency/sovereignty/level-2.md
+            - "Level 3: On-chain Wallets": currency/sovereignty/level-3.md
+            - "Level 4: Non-custodial": currency/sovereignty/level-4.md
+            - "Level 5: Merchant Networks": currency/sovereignty/level-5.md
+            - "Level 6: International": currency/sovereignty/level-6.md
+            - "Level 7: Ubiquitous Future": currency/sovereignty/level-7.md
         - Appendix: 
           - "A: Bitcoin Script": currency/appendix/bitcoin-script.md
           - "A: Coinjoin": currency/appendix/coinjoin.md
@@ -111,13 +112,13 @@ nav:
         - Understand the Terms: pow/understand-the-terms.md
         - Sovereignty Levels:
             - pow/sovereignty/index.md
-            - "Level 1: Start Hashing": pow/sovereignty/level-1.md
-            - "Level 2: Hash Farms": pow/sovereignty/level-2.md
-            - "Level 3: Demand Response Curtailment": pow/sovereignty/level-3.md
-            - "Level 4: Solo Mining": pow/sovereignty/level-4.md
-            - "Level 5: Block Broadcasting": pow/sovereignty/level-5.md
-            - "Level 6: Opensource Firmware": pow/sovereignty/level-6.md
-            - "Level 7: Commodity Hardware": pow/sovereignty/level-7.md
+            - "Level 1: Network Reliance": pow/sovereignty/level-1.md
+            - "Level 2: Lottery Mining": pow/sovereignty/level-2.md
+            - "Level 3: Small Farm": pow/sovereignty/level-3.md
+            - "Level 4: Soveriegn Pool": pow/sovereignty/level-4.md
+            - "Level 5: Enterprise": pow/sovereignty/level-5.md
+            - "Level 6: Industrial": pow/sovereignty/level-6.md
+            - "Level 7: Ubiquitous Future": pow/sovereignty/level-7.md
         - Appendix: 
           - "A: Energy Money": pow/appendix/energy-money.md
           - "A: ASICBoost": pow/appendix/asicboost.md
