@@ -48,26 +48,20 @@ In fact, to truly gain your own financial sovereignty, then mining your own bloc
 
 ## Sovereignty Levels
 
-* [Level 1: Network Reliance](sovereignty/level-1.md) -- Run a node to validate blocks without mining, verifying security.
-Easy start, but reliant on others, prompting personal hashing attempts.
+* [Level 1: Network Reliance](sovereignty/level-1.md) -- Run a full node and independently validate blocks, securing your own setup without mining. 
+Simple for individuals or communities in shaky economies, but transaction settlement depends on others.
 
-* [Level 2: Lottery Mining](sovereignty/level-2.md) -- Use CPU/GPU for solo mining "lottery" with basic hardware.
-Educational entry, low odds, building toward dedicated setups.
+* [Level 2: Lottery Mining](sovereignty/level-2.md) -- Use a low-power ASIC like BitAxe connected to a solo pool (e.g., solo.ckpool.org or public-pool.io). Affordable and low-energy for self-sufficient hashing.
 
-* [Level 3: Home ASIC Mining](sovereignty/level-3.md) -- Deploy entry ASICs at home for self-settlement of transactions.
-Achieves personal control, but costly, leading to collaborative pools.
+* [Level 3: Small Farm](sovereignty/level-3.md) -- Run a snall farm of ASICs aimed at a solo pool to boost your block-finding odds and build community strength. Good for families mining independently.
 
-* [Level 4: Pooled Mining](sovereignty/level-4.md) -- Join pools for shared hashrate and steady rewards.
-Balances competition, requires some trust, evolving to business scale.
+* [Level 4: Sovereign Pool](sovereignty/level-4.md) -- Host your own stratum server linked to your own node for a fully private solo pool. Can also filter transaction spam from your node's block templates.
 
-* [Level 5: Enterprise Mining](sovereignty/level-5.md) -- Operate mid-scale facilities, optimizing energy for profitability.
-Fosters dynasties, capital-heavy, expanding to industrial impact.
+* [Level 5: Enterprise Mining](sovereignty/level-5.md) -- Set up mid-sized mining farm with sufficient hashrate to see a block every few months.
 
-* [Level 6: Industrial Sovereignty](sovereignty/level-6.md) -- Run large farms for global hashrate and settlement.
-Enables adversarial wins, intense work, hinting at decentralized futures.
+* [Level 6: Industrial Sovereignty](sovereignty/level-6.md) -- Manage massive minng farms with sufficient hashrate to see blocks every week or even daily.
 
-* [Level 7: Ubiquitous Future](sovereignty/level-7.md) -- Advanced tech allows universal mining without barriers.
-Realizes inclusive sovereignty, inevitable for Bitcoin's security.
+* [Level 7: Ubiquitous Future](sovereignty/level-7.md) -- Emerging tech makes hashrate seamless from any device, barrier-free for everyone. Delivers true sovereignty worldwide.
 
 
 
