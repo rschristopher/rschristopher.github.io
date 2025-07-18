@@ -23,9 +23,7 @@ While most people will be
  very few will be involved
  in mining, and far fewer will be successful.
 Ultimately, the mechanism that guarantees
- final international settlement is a
- highly competitive (and adversarial)
- zero sum game.
+ final international settlement (mining) is a highly competitive (and adversarial) zero sum game.
 
 For those foolish enough to play this game
  -- *and for some it's more a matter of fate than want* --
@@ -34,7 +32,8 @@ For those foolish enough to play this game
  by far the most important: a ridiculous 
  work ethic.
 
-> “Always poor is he who works with an indolent hand, but the hand of the diligent brings wealth” (Proverbs 10:4)
+!!! quote "Proverbs 10:4"
+    Always poor is he who works with an indolent hand, but the hand of the diligent brings wealth
 
 If you're looking for passive income or an exciting investment opportunity,
  Bitcoin mining is most certainly not
@@ -49,13 +48,33 @@ In fact, to truly gain your own financial sovereignty, then mining your own bloc
 
 ## Sovereignty Levels
 
-* [Level 1: Start Hashing](sovereignty/level-1) -- run a miner pointed to a mining pool
-* [Level 2: Hash Farms](sovereignty/level-2) -- run a farm of Bitcoin miners
-* [Level 3: Demand Response Curtailment](sovereignty/level-3) -- run miners only when doing so is profitable, maximizing hashrate within available (i.e., profitable) power
-* [Level 4: Solo Mining](sovereignty/level-4) -- run a full node and a stratum server
-* [Level 5: Block Broadcasting](sovereignty/level-5) -- run a well-peered network of nodes
-* *[future]* [Level 6: Opensource Firmware](sovereignty/level-6) -- *future inevitability*, opensource firmware, maximizing efficiency 
-* *[future]* [Level 7: Commodity Hardware](sovereignty/level-7) -- *future inevitability*, custom hardware and novel machine configuration 
+* [Level 1: Network Reliance](sovereignty/level-1.md) -- Run a node to validate blocks without mining, verifying security.
+Easy start, but reliant on others, prompting personal hashing attempts.
+
+* [Level 2: Lottery Mining](sovereignty/level-2.md) -- Use CPU/GPU for solo mining "lottery" with basic hardware.
+Educational entry, low odds, building toward dedicated setups.
+
+* [Level 3: Home ASIC Mining](sovereignty/level-3.md) -- Deploy entry ASICs at home for self-settlement of transactions.
+Achieves personal control, but costly, leading to collaborative pools.
+
+* [Level 4: Pooled Mining](sovereignty/level-4.md) -- Join pools for shared hashrate and steady rewards.
+Balances competition, requires some trust, evolving to business scale.
+
+* [Level 5: Enterprise Mining](sovereignty/level-5.md) -- Operate mid-scale facilities, optimizing energy for profitability.
+Fosters dynasties, capital-heavy, expanding to industrial impact.
+
+* [Level 6: Industrial Sovereignty](sovereignty/level-6.md) -- Run large farms for global hashrate and settlement.
+Enables adversarial wins, intense work, hinting at decentralized futures.
+
+* [Level 7: Ubiquitous Future](sovereignty/level-7.md) -- Advanced tech allows universal mining without barriers.
+Realizes inclusive sovereignty, inevitable for Bitcoin's security.
+
+
+
+
+
+
+---
 
 Before diving in and daring to test your fate in the Bitcoin mining arena, you may want to first
  [understand the terms](understand-the-terms.md).
