@@ -70,7 +70,7 @@ Simple for individuals or communities in shaky economies, but transaction settle
 
 ---
 
-Before diving in and daring to test your fate in the Bitcoin mining arena, you may want to first
+Before diving-in and daring to test your fate in the Bitcoin mining arena, you may want to first
  [understand the terms](understand-the-terms.md).
 
 
