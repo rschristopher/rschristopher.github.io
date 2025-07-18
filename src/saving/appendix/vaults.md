@@ -89,7 +89,7 @@ While not yet mainnet-activated, testnet demos show viability. For users, integr
 
 ---
 
-Vaults and covenants represent a leap in Bitcoin's programmability, offering secure storage that bolsters wealth preservation. 
+Vaults represent a potential leap in Bitcoin's programmability, offering secure storage that bolsters wealth preservation. 
 By enforcing low-time-preference through delays and conditions, they empower families to build enduring legacies, free from fiat's vulnerabilities. 
 As proposals like `OP_VAULT` progress, you may want to integrate them into your sovereignty journey -- starting with basic self-custody and evolving to vaulted setups. 
 
