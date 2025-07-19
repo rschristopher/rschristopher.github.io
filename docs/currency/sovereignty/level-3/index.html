@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#level-3-private-channels" class="md-skip">
+        <a href="#level-3-on-chain-payments" class="md-skip">
           Skip to content
         </a>
       
@@ -2038,6 +2038,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 3: On-chain Wallets
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2049,6 +2062,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weaknesses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reputable-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reputable Software
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-wallets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Wallets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2841,6 +2918,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weaknesses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reputable-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reputable Software
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-wallets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Wallets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2855,11 +2985,49 @@
 
 
 
-<h1 id="level-3-private-channels">Level 3: Private Channels<a class="headerlink" href="#level-3-private-channels" title="Permanent link">&para;</a></h1>
-<p>layer-2 payment rails such as lightning over private channels</p>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
+<h1 id="level-3-on-chain-payments">Level 3: On-Chain Payments<a class="headerlink" href="#level-3-on-chain-payments" title="Permanent link">&para;</a></h1>
+<p>Non-custodial on-chain payments enable direct peer-to-peer transactions without intermediaries, exactly as Bitcoin was intended to be used. This is a critical step towards personal sovereignty, sending and receiving Bitcoin securely. For example, a local merchant might pay a supplier directly with BTC for monthly inventory, or a freelancer could receive client payments, all recorded immutably on-chain. This mirrors traditional commerce under a gold standard but with digital precision.</p>
+<p>This level is about true control over payments, free from custodial risks, but it comes with trade-offs: on-chain fees and confirmation delays make it less practical for small and frequent payments. It’s a critical step toward financial independence, ideal for significant transactions.</p>
+<hr />
+<h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Setup</strong>: Install a non-custodial wallet (e.g., Electrum or Sparrow). Generate a seed phrase to secure and back up your keys, ideally with <a href="../../savings/sovereignty/level-6.md">metal backups</a> for durability. Store it offline safely. See <a href="../../savings/">Savings</a> for details.</li>
+<li><strong>Payments</strong>: Send Bitcoin to any address or receive payments to your wallet’s unique addresses, managed via hierarchical deterministic (HD) setups for privacy. Transactions are broadcast to the Bitcoin network for confirmation.</li>
+<li><strong>Settlement</strong>: On-chain transactions confirm in ~10 minutes per block, providing final international settlement but with fees that can be costly for small amounts.</li>
+<li><strong>Examples</strong>: A local merchant sends BTC to a supplier for goods, or a family receives remittances directly, avoiding custodial freezes.</li>
+</ul>
+<hr />
+<h2 id="strengths">Strengths<a class="headerlink" href="#strengths" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Full Control</strong>: You manage your own transactions; no third party can censor, freeze, or interfere with your payments — true sovereignty.</li>
+<li><strong>Security</strong>: Cold storage protects against hacks, unlike custodial services.</li>
+<li><strong>Privacy</strong>: HD wallets generate new addresses per transaction, enhancing anonymity compared to custodial KYC.</li>
+</ul>
+<hr />
+<h2 id="weaknesses">Weaknesses<a class="headerlink" href="#weaknesses" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Responsibility</strong>: Losing your seed phrase means losing access to your Bitcoin — no recovery without backups.</li>
+<li><strong>High Fees</strong>: On-chain fees make small payments (e.g., coffee) impractical.</li>
+<li><strong>Confirmation Delays</strong>: Waiting ~10 minutes per block isn’t ideal for instant commerce, unlike Lightning.</li>
+<li><strong>Learning Curve</strong>: Managing transactions and software requires more effort than custodial apps.</li>
+</ul>
+<hr />
+<h2 id="reputable-software">Reputable Software<a class="headerlink" href="#reputable-software" title="Permanent link">&para;</a></h2>
+<p>Focus on Bitcoin-only, secure software from trusted providers. Avoid multi-asset wallets with added risks. Key criteria:</p>
+<ul>
+<li><strong>Non-Custodial</strong>: You must manage your own private keys and transactions.</li>
+<li><strong>Open-Source</strong>: Code transparency ensures security (e.g., Electrum’s audited codebase).</li>
+<li><strong>Bitcoin-Only</strong>: Avoid complexity and vulnerabilities of “crypto” wallets.</li>
+<li><strong>Backup Support</strong>: Seed phrase compatibility for recovery across devices.</li>
+</ul>
+<hr />
+<h2 id="recommended-wallets">Recommended Wallets<a class="headerlink" href="#recommended-wallets" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://electrum.org/">Electrum</a>: Open-source software wallet, lightweight, with HD support and strong security for desktops or mobiles.</li>
+<li><a href="https://sparrowwallet.com/">Sparrow</a>: User-friendly desktop wallet with advanced features and transaction controls, ideal for commerce transactions.</li>
+</ul>
+<hr />
+<p>On-chain payments grant true control for Bitcoin as a currency, but high fees and delays limit daily use. Next, advance to <a href="/currency/sovereignty/level-4/">Level 4</a> for fast, low-cost micropayments via non-custodial Lightning wallets, scaling your capabilities.</p>
 
 
 
