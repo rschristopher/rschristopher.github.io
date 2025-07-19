@@ -38,7 +38,8 @@ We'll start with ease over sovereignty. You're relying on intermediaries, mirror
 
 ## Choosing a Reputable Service
 
-Many services are unreliable or outright scams. Experienced Bitcoiners know "crypto" platforms often fail. Look for:
+Many services are unreliable or outright scams. Experienced Bitcoiners know "crypto" platforms often fail. Always check the following:
+
 - **Withdrawal Support**: Must allow transfers to self-custody; otherwise, you hold an IOU, not Bitcoin. Selling for fiat is taxable in the US.
 - **Bitcoin-Only**: Avoid platforms offering other cryptocurrencies — security risks increase with complexity.
 - **Future-Focused**: Seek services with Lightning integration or Bitcoin-centric features for reliability.
