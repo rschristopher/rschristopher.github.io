@@ -9,6 +9,7 @@ Have mercy on us, and save us
 
 
 ## The Fiat Trap
+
 In a world dominated by global fiat, true sovereignty has vanished. Even the wealthiest and most productive are reduced to debt slaves within a system where wealth flows not from value creation but from proximity to the money printer. Central banks, propped up by government alliances and their organs—including the military—create money from nothing, fueling a bureaucracy riddled with bad actors. Parasitic networks of NGOs and so-called aid organizations exploit this, siphoning resources from society into a maze of inefficiency and ideology, blind to their harm. These are modern courtiers serving an empty throne, as destructive as ancient idols. This is the grim reality of fiat: a world where we’re pawns to dehumanizing systems.
 
 ---
