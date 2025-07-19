@@ -37,6 +37,7 @@ We'll start with ease over sovereignty. You're relying on intermediaries, mirror
 ---
 
 ## Choosing a Reputable Service
+
 Many services are unreliable or outright scams. Experienced Bitcoiners know "crypto" platforms often fail. Look for:
 - **Withdrawal Support**: Must allow transfers to self-custody; otherwise, you hold an IOU, not Bitcoin. Selling for fiat is taxable in the US.
 - **Bitcoin-Only**: Avoid platforms offering other cryptocurrencies — security risks increase with complexity.
@@ -49,9 +50,9 @@ Many services are unreliable or outright scams. Experienced Bitcoiners know "cry
 
 ## Recommended Services
 
-- **River Financial**: Bitcoin-only exchange with a robust tech stack, reliable through market cycles, and easy for buying/sending Bitcoin.
-- **Swan Bitcoin**: Bitcoin-focused, encourages self-custody, with recurring buys transferable to your wallet, ideal for commerce beginners.
-- **Wallet of Satoshi**: Simple mobile app for custodial Lightning payments, perfect for instant transactions.
+- [River Financial](https://river.com): Bitcoin-only exchange with an amazing tech stack, reliable through market cycles, and easy for buying/sending Bitcoin.
+- [Swan Bitcoin](https://swanbitcoin.com): Bitcoin-focused, encourages self-custody, with recurring buys transferable to your wallet, ideal for commerce beginners.
+- [Wallet of Satoshi](https://walletofsatoshi.com): Simple mobile app for custodial Lightning payments, perfect for instant transactions.
 
 
 
