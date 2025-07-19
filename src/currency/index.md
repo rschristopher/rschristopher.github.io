@@ -66,10 +66,10 @@ Relies on third parties, vulnerable to censorship, prompting self-custody shifts
 * [Level 2: Physical Tokens](sovereignty/level-2.md) -- Use devices like OpenDime for physical "digital cash" trades without internet.
 Simple for local swaps, but limited to in-person, leading to digital tools.
 
-* [Level 3: On-Chain Wallets](sovereignty/level-3.md) -- Control keys in non-custodial wallets for direct peer-to-peer sends.
+* [Level 3: On-Chain Payments](sovereignty/level-3.md) -- Control keys in non-custodial wallets for direct peer-to-peer sends.
 Achieves personal sovereignty, but high fees limit scalability, needing layers.
 
-* [Level 4: Non-custodial](sovereignty/level-4.md) -- Open Lightning channels for fast, cheap micro-payments.
+* [Level 4: Lightning Payments](sovereignty/level-4.md) -- Open Lightning channels for fast, cheap micro-payments.
 Scales daily commerce, requires liquidity management, evolving to networks.
 
 * [Level 5: Merchant Networks](sovereignty/level-5.md) -- Integrate Point-of-Sale and full nodes, accepting payments via Lightning Network, and eventually into cold storage.
@@ -88,6 +88,9 @@ Realizes global sovereign commerce, inevitable under Bitcoin Standard.
 
 Before diving in and learning about  sovereign commerce, let's
  [understand the terms](understand-the-terms.md).
+
+
+
 
 
 
