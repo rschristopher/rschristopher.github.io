@@ -11,7 +11,7 @@ This level is about true control over payments, free from custodial risks, but i
 
 ## How It Works
 
-- **Setup**: Install a non-custodial wallet (e.g., Electrum or Sparrow). Generate a seed phrase to secure and back up your keys, ideally with [metal backups](../../savings/sovereignty/level-6.md) for durability. Store it offline safely. See [Savings](../../savings/) for details.
+- **Setup**: Install a non-custodial wallet (e.g., Electrum or Sparrow). Generate a seed phrase to secure and back up your keys, ideally with [metal backups](../../../savings/sovereignty/level-6.md) for durability. Store it offline safely. See [Savings](../../../savings/index.md) for details.
 - **Payments**: Send Bitcoin to any address or receive payments to your wallet’s unique addresses, managed via hierarchical deterministic (HD) setups for privacy. Transactions are broadcast to the Bitcoin network for confirmation.
 - **Settlement**: On-chain transactions confirm in ~10 minutes per block, providing final international settlement but with fees that can be costly for small amounts.
 - **Examples**: A local merchant sends BTC to a supplier for goods, or a family receives remittances directly, avoiding custodial freezes.
