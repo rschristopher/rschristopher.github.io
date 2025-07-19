@@ -5,7 +5,7 @@ Son of the living God
 Have mercy on us, and save us
 
 -->
-# Sovereignty
+# Sovereignty Levels
 
 
 !!! warning "work in progress"
