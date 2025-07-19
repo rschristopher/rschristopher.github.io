@@ -185,55 +185,5 @@ Should one of the nodes
 
 
 
-!!! warning "work in progress"
-
-
-
-
-### Invoices
-
-...
-
-
-
-
-
-### LNURL
-
-...
-
-
-
-
-### Lightning Address
-
-...
-
-
-
-
-
-### Routing
-
-...
-
-<!--
-polar
-https://lightningpolar.com/
--->
-
-
-
-
-
-
-## Point of Sale
-
-...
-
-
-
-
-
 
 
