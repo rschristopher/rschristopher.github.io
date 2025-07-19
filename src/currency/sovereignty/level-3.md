@@ -2,7 +2,7 @@
 
 Non-custodial on-chain payments enable direct peer-to-peer transactions without intermediaries, exactly as Bitcoin was intended to be used. This is a critical step towards personal sovereignty, sending and receiving Bitcoin securely. For example, a local merchant might pay a supplier directly with BTC for monthly inventory, or a freelancer could receive client payments, all recorded immutably on-chain. This mirrors traditional commerce under a gold standard but with digital precision.
 
-This level is about true control over payments, free from custodial risks, but it comes with trade-offs: on-chain fees and confirmation delays make it less practical for small and frequent payments. It’s a critical step toward financial independence, ideal for significant transactions.
+This level is about true control over payments, free from custodial risks, but it comes with trade-offs: on-chain fees and confirmation delays make it less practical for small and frequent payments. It’s a critical step toward financial independence.
 
 
 
