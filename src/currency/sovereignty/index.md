@@ -1,3 +1,4 @@
+# Sovereignty Levels
 <!--
 
 Lord Jesus Christ
@@ -5,7 +6,7 @@ Son of the living God
 Have mercy on us, and save us
 
 -->
-# Sovereignty Levels
+
 
 
 !!! warning "work in progress"
