@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#level-6-sovereign-wallets" class="md-skip">
+        <a href="#level-6-international-lightning" class="md-skip">
           Skip to content
         </a>
       
@@ -2107,6 +2107,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 6: International
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2118,6 +2131,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weaknesses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-a-reputable-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing a Reputable Solution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Solutions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2841,6 +2918,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weaknesses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-a-reputable-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing a Reputable Solution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Solutions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2855,12 +2985,49 @@
 
 
 
-<h1 id="level-6-sovereign-wallets">Level 6: Sovereign Wallets<a class="headerlink" href="#level-6-sovereign-wallets" title="Permanent link">&para;</a></h1>
-<p>future inevitable</p>
-<p>self-custody layer-2 wallets for employees of financial sovereigns</p>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
+<h1 id="level-6-international-lightning">Level 6: International Lightning<a class="headerlink" href="#level-6-international-lightning" title="Permanent link">&para;</a></h1>
+<p>Scaling beyond local merchant networks, international Lightning involves operating a distributed Lightning hub across multiple geographic regions, effectively acting as a sovereign Lightning Service Provider (LSP). Using node software like LND or CLN on geographically distributed full nodes, you manage a network of channels, providing liquidity and onboarding tools for international partners, employees, and/or contractors. For example, a global business might run nodes in Europe, Asia, and the Americas, acting as a sovereign international payment system.</p>
+<p>This assumes an international business with multiple locations, focusing on distributed node management, liquidity provisioning, and simple onboarding for non-custodial wallets. It demands expertise in multi-region setup and integration.</p>
+<hr />
+<h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Setup</strong>: Deploy Lightning node software (e.g., LND or CLN) on multiple Bitcoin full nodes across multiple geographic regions (e.g., one in the US, one in Europe, one in Asia) for redundancy and low-latency routing.</li>
+<li><strong>Channels</strong>: Establish and fund a network of Lightning channels across your nodes, peering strategically with international hubs. Integrate with external LSPs (e.g., ACINQ or Lightning Labs Pool) for supplemental liquidity, ensuring non-custodial access where you provide funds and partners control keys.</li>
+<li><strong>Payments</strong>: Facilitate global sends/receives, and onboard employees/contractors with simple non-custodial wallets (e.g., provide seed setup guidance and initial channel liquidity), enabling instant Lightning transfers.</li>
+<li><strong>Examples</strong>: A multinational firm runs distributed nodes to pay contractors in Asia via integrated LSP channels, or a dynasty offers staff non-custodial wallets for seamless international remittances.</li>
+</ul>
+<hr />
+<h2 id="strengths">Strengths<a class="headerlink" href="#strengths" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Distributed Resilience</strong>: Multiple nodes across regions ensure uptime and efficient global routing, reducing single-point failures.</li>
+<li><strong>Sovereign Scaling</strong>: Act as an LSP for your network while integrating external ones, maintaining non-custodial control for all participants.</li>
+<li><strong>Onboarding Ease</strong>: Provides simple tools for employees/contractors to join with their own wallets, fostering a sovereign payment ecosystem.</li>
+</ul>
+<hr />
+<h2 id="weaknesses">Weaknesses<a class="headerlink" href="#weaknesses" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>High Complexity</strong>: Managing multi-region nodes, peering, and LSP integrations requires advanced technical skills and infrastructure.</li>
+<li><strong>Capital and Costs</strong>: Funding channels across nodes ties up Bitcoin, plus potential hardware expenses.</li>
+<li><strong>Maintenance Overhead</strong>: Constant rebalancing, monitoring, and updates for distributed nodes; geographic diversity adds coordination challenges.</li>
+<li><strong>Regulatory Considerations</strong>: International operations may face varying laws, though Bitcoin's decentralization helps mitigate risks.</li>
+</ul>
+<hr />
+<h2 id="choosing-a-reputable-solution">Choosing a Reputable Solution<a class="headerlink" href="#choosing-a-reputable-solution" title="Permanent link">&para;</a></h2>
+<p>Focus on Bitcoin-only, open-source Lightning implementations for distributed operations. Avoid proprietary or multi-asset tools. Key criteria:</p>
+<ul>
+<li><strong>Non-Custodial</strong>: Supports key control for all network participants, including onboarded users.</li>
+<li><strong>Open-Source</strong>: Transparent code for security and customizability (e.g., LND’s audited codebase).</li>
+<li><strong>Bitcoin-Only</strong>: Avoid complexity and vulnerabilities of “crypto” platforms.</li>
+<li><strong>Multi-Node Support</strong>: Tools for distributed management, LSP integration, and easy onboarding.</li>
+</ul>
+<hr />
+<h2 id="recommended-solutions">Recommended Solutions<a class="headerlink" href="#recommended-solutions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://lightning.network/">LND (Lightning Network Daemon)</a>: Go-based implementation for robust multi-node operations, ideal for international liquidity and peering.</li>
+<li><a href="https://blockstream.com/lightning/">CLN (Core Lightning)</a>: Flexible, modular Lightning node software, supporting advanced LSP integrations for global merchant networks.</li>
+</ul>
+<hr />
+<p>International Lightning lets you operate a distributed, sovereign LSP for global commerce, but its demands foreshadow simpler innovations. Next, advance to <a href="../level-7/">Level 7</a> for barrier-free, universal Bitcoin payments.</p>
 
 
 
