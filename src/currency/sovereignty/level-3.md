@@ -65,7 +65,7 @@ Focus on Bitcoin-only, secure software from trusted providers. Avoid multi-asset
 
 ---
 
-On-chain payments grant true control for Bitcoin as a currency, but high fees and delays limit daily use. Next, advance to [Level 4](/currency/sovereignty/level-4/) for fast, low-cost micropayments via non-custodial Lightning wallets, scaling your capabilities.
+On-chain payments grant true control for Bitcoin as a currency, but high fees and delays limit daily use. Next, advance to [Level 4](level-4.md) for fast, low-cost micropayments via non-custodial Lightning wallets, scaling your capabilities.
 
 
 
