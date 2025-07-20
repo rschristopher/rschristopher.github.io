@@ -65,7 +65,7 @@ Focus on Bitcoin-only, secure devices from trusted makers. Avoid "crypto" gadget
 
 ---
 
-Physical tokens offer a private, offline way to use Bitcoin as currency, but their limits push toward digital control. Next, let's explore [Level 3](/currency/sovereignty/level-3/) for non-custodial, direct peer-to-peer sends with full key ownership.
+Physical tokens offer a private, offline way to use Bitcoin as currency, but their limits push toward digital control. Next, let's explore [Level 3](level-3.md) for non-custodial, direct peer-to-peer sends with full key ownership.
 
 
 
