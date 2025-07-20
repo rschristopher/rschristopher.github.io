@@ -78,7 +78,7 @@ Builds business ecosystems with shared liquidity, expanding to global reach.
 * [Level 6: International](sovereignty/level-6.md) -- Use full Lightning with LSPs for cross-border trades.
 Enables global commerce, but onboarding barriers hint at future ease.
 
-* [Level 7: Ubiquitous Future](sovereignty/level-7.md) -- Advanced L2+ solves global liquidity for billions in self-custody.
+* [Level 7: Inevitable Future](sovereignty/level-7.md) -- Advanced L2+ solves global liquidity for billions in self-custody.
 Realizes global sovereign commerce, inevitable under Bitcoin Standard.
 
 
