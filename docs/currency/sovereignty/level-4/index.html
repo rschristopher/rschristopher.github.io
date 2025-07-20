@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#level-4-public-channels" class="md-skip">
+        <a href="#level-4-lightning-payments" class="md-skip">
           Skip to content
         </a>
       
@@ -2061,6 +2061,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 4: Non-custodial
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2072,6 +2085,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weaknesses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-a-reputable-wallet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing a Reputable Wallet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-wallets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Wallets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2841,6 +2918,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strengths" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strengths
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaknesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weaknesses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-a-reputable-wallet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing a Reputable Wallet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommended-wallets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Wallets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2855,11 +2985,49 @@
 
 
 
-<h1 id="level-4-public-channels">Level 4: Public Channels<a class="headerlink" href="#level-4-public-channels" title="Permanent link">&para;</a></h1>
-<p>limited layer-2 public channels with select partners</p>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
+<h1 id="level-4-lightning-payments">Level 4: Lightning Payments<a class="headerlink" href="#level-4-lightning-payments" title="Permanent link">&para;</a></h1>
+<p>Non-custodial Lightning payments allow for fast, low-cost Bitcoin transactions for everyday commerce, completely aligned with your on-chain sovereignty. Using wallets like Phoenix or Blue Wallet, you open payment channels on the Lightning Network -- a second-layer network atop Bitcoin -- to send and receive sats instantly with minimal fees. For example, a local merchant might accept BTC for daily sales at a market, or a freelancer could pay suppliers globally, all without waiting for blockchain confirmations. This mirrors the speed of cash but with Bitcoin’s security and global reach.</p>
+<p>This level scales your ability to use Bitcoin as a currency, ideal for frequent, small payments. However, managing channels requires some setup and liquidity knowledge. For key management details, see the <a href="../../saving/">saving section</a>.</p>
+<hr />
+<h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Setup</strong>: Install a non-custodial Lightning wallet (e.g., Phoenix or Blue Wallet). Generate a seed phrase to secure and back up your keys, ideally with metal backups for durability. Store it offline safely. See <a href="../../saving/">saving section</a> for details on seed words, metal backups, and protocols.</li>
+<li><strong>Channels</strong>: Fund a channel by sending an on-chain transaction to create a shared balance with a counterparty. Update the channel as needed by agreeing on new balances off-chain.</li>
+<li><strong>Payments</strong>: Send or receive sats by entering an amount or scanning a QR code/invoice in your wallet. Payments route through the network and settle instantly.</li>
+<li><strong>Examples</strong>: A merchant accepts BTC for goods via Phoenix, or a freelancer pays international invoices instantly through Blue Wallet.</li>
+</ul>
+<hr />
+<h2 id="strengths">Strengths<a class="headerlink" href="#strengths" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Speed and Cost</strong>: Near-instant transactions with negligible fees, perfect for micropayments like buying coffee or streaming sats.</li>
+<li><strong>Sovereignty</strong>: Non-custodial wallets ensure you control your keys and funds, avoiding third-party risks.</li>
+<li><strong>Scalability</strong>: Lightning supports high transaction volumes off-chain, all while preserving Bitcoin’s base-layer security.</li>
+</ul>
+<hr />
+<h2 id="weaknesses">Weaknesses<a class="headerlink" href="#weaknesses" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Setup Complexity</strong>: Opening channels requires on-chain transactions, which incur fees and delays, plus basic understanding of liquidity.</li>
+<li><strong>Liquidity Management</strong>: You need inbound/outbound liquidity to send/receive, which can be tricky without Lightning Service Providers (LSPs).</li>
+<li><strong>Online Requirement</strong>: Wallets must be online to route payments, though watchtowers can monitor for fraud when offline.</li>
+<li><strong>Early Stage</strong>: Lightning is still developing, with occasional routing failures or software bugs.</li>
+</ul>
+<hr />
+<h2 id="choosing-a-reputable-wallet">Choosing a Reputable Wallet<a class="headerlink" href="#choosing-a-reputable-wallet" title="Permanent link">&para;</a></h2>
+<p>Focus on Bitcoin-only, non-custodial Lightning wallets from trusted providers. Avoid multi-asset wallets with added risks. Key criteria:</p>
+<ul>
+<li><strong>Non-Custodial</strong>: You must manage your own keys and transactions.</li>
+<li><strong>Open-Source</strong>: Transparent code ensures security (e.g., Phoenix’s audited codebase).</li>
+<li><strong>Bitcoin-Only</strong>: Avoid complexity and vulnerabilities of “crypto” wallets.</li>
+<li><strong>Lightning Support</strong>: Must integrate seamlessly with the Lightning Network, ideally with LSP compatibility.</li>
+</ul>
+<hr />
+<h2 id="recommended-wallets">Recommended Wallets<a class="headerlink" href="#recommended-wallets" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://phoenix.acinq.co/">Phoenix</a>: Open-source mobile wallet with built-in LSP for easy channel setup, ideal for quick payments.</li>
+<li><a href="https://bluewallet.io/">Blue Wallet</a>: User-friendly wallet blending on-chain and Lightning, with HD support for seamless commerce.</li>
+</ul>
+<hr />
+<p>Lightning payments scale Bitcoin as currency for daily use. Next, advance to <a href="/currency/sovereignty/level-5/">Level 5</a> to build business ecosystems with point-of-sale systems and shared liquidity.</p>
 
 
 
