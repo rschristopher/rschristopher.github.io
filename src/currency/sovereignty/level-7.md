@@ -1,4 +1,4 @@
-# Level 7: Ubiquitous Future
+# Level 7: Inevitable Future
 
 In the future, Bitcoin as a universal currency will enable billions of people to buy and sell non-custodially without managing liquidity or channels -- a seamless, privacy-preserving system where everyday users transact like cash, backed by Bitcoin's security. Imagine an employee working for a sovereign business getting paid sats directly into a non-custodial Lightning wallet like Zeus or Phoenix -- the wallet handles everything, surviving channel closures through off-chain notes or automatic swaps, without the user ever needing on-chain transactions. This realizes Bitcoin's promise of sound money for all, where most people save and spend in non-custodial Lightning wallets, without running nodes or balancing channels, instead just working and stacking sats.
 
@@ -32,7 +32,7 @@ Bitcoin's existing adoption demands inevitable advancements as a currency, solvi
 
 ---
 
-## Currrnt Gaps
+## Current Gaps
 
 - **Inbound Liquidity**: New users can't receive without channels; LSPs help but often semi-custodial — needs better non-custodial LSP standards.
 - **Channel Closures**: Force-closing a channdl in high-fee environments risk funds becoming inaccessible to normal users; splicing and justice transactions mitigate, but not seamless for all.
@@ -47,6 +47,7 @@ Bitcoin's existing adoption demands inevitable advancements as a currency, solvi
 ## Proposed Solutions
 
 Future protocols will enable simple, resilient non-custodial wallets:
+
 - [Channel Splicing](https://bitcoinops.org/en/topics/splicing/): Add/remove funds without closing channels, reducing on-chain needs and surviving closures gracefully. 
 - Ecash ([Fedimint](https://fedimint.org/)/ [Cashu](https://cashu.space/)): Mints issue blinded notes backed by BTC; users hold ecash in wallets, spendable off-chain, independent of closures — federated for trust minimization.
 - [Ark](https://arkdev.info/)/[Statechains](https://bitcoinops.org/en/topics/statechains/): Off-chain scaling with shared UTXOs or transferable ownership; no user channels, funds survive via unilateral exits or off-chain transfers.
@@ -56,7 +57,7 @@ Future protocols will enable simple, resilient non-custodial wallets:
 
 ---
 
-The ubiquitous future makes Bitcoin the inevitable universal currency, where billions transact non-custodially without complexity, leaving the complexity to the true financial sovereigns.
+Bitcoin is best understood as the inevitable universal currency, where billions transact non-custodially without complexity, leaving the complexity to the true financial sovereigns.
 
 
 
