@@ -65,7 +65,7 @@ Focus on Bitcoin-only, non-custodial Lightning wallets from trusted providers. A
 
 ---
 
-Lightning payments scale Bitcoin as currency for daily use. Next, advance to [Level 5](/currency/sovereignty/level-5/) to build business ecosystems with point-of-sale systems and shared liquidity.
+Lightning payments scale Bitcoin as currency for daily use. Next, advance to [Level 5](level-5.md) to build business ecosystems with point-of-sale systems and shared liquidity.
 
 
 
