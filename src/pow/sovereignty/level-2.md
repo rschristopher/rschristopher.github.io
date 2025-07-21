@@ -12,10 +12,10 @@ Run a small ASIC miner pointed at a public solo stratum server, competing for en
 Choose a low-power, affordable ASIC miner suitable for home solo mining. The Bitaxe Gamma is a popular option; visit the official site at [bitaxe.org](https://bitaxe.org/) or buy from [bitaxeshop.com](https://www.bitaxeshop.com/en/).
 
 Alternatives include:
-- FutureBit Apollo (~3 TH/s, full node included): [futurebit.co](https://www.futurebit.co/products/apollo-ii-full-node-miner)
-- Avalon Nano 3S (~6 TH/s): Available from Canaan or resellers like [mineshop.eu](https://mineshop.eu/)
-- NerdQaxe++ (~4.8 TH/s): Check [solosatoshi.com](https://solosatoshi.com/) or similar hobby mining shops
-- GekkoScience USB miners (up to 100 GH/s): Search for resellers on Amazon or mining forums
+
+- [FutureBit Apollo](https://www.futurebit.co/products/apollo-ii-full-node-miner) (~3 TH/s, full node included)
+- [Avalon Nano 3S](https://mineshop.eu/) (~6 TH/s): Available from Canaan or resellers
+- [NerdQaxe++](https://solosatoshi.com/) (~4.8 TH/s): Check solosatoshi.com or similar hobby mining shops
 
 These devices draw minimal electricity and are plug-and-play.
 
@@ -84,6 +84,8 @@ Embrace solo: it affirms Bitcoin's permissionless ethos, combats centralization,
 ---
 
 Advance to [Level 3](level-3.md): scale to a small farm, maintaining solo operations for steadier variance while upholding independence.
+
+
 
 
 
