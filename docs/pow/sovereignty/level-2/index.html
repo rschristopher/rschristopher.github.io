@@ -2949,33 +2949,32 @@
 <p>Choose a low-power, affordable ASIC miner suitable for home solo mining. The Bitaxe Gamma is a popular option; visit the official site at <a href="https://bitaxe.org/">bitaxe.org</a> or buy from <a href="https://www.bitaxeshop.com/en/">bitaxeshop.com</a>.</p>
 <p>Alternatives include:</p>
 <ul>
-<li><a href="https://www.futurebit.co/products/apollo-ii-full-node-miner">FutureBit Apollo</a> (~3 TH/s, full node included)</li>
-<li><a href="https://mineshop.eu/">Avalon Nano 3S</a> (~6 TH/s): Available from Canaan or resellers</li>
-<li><a href="https://solosatoshi.com/">NerdQaxe++</a> (~4.8 TH/s): Check solosatoshi.com or similar hobby mining shops</li>
+<li><a href="https://mineshop.eu/">Avalon Nano 3S</a> (~6 TH/s)</li>
+<li><a href="https://solosatoshi.com/">NerdQaxe++</a> (~4.8 TH/s)</li>
 </ul>
 <p>These devices draw minimal electricity and are plug-and-play.</p>
 <div class="admonition info">
 <p class="admonition-title">Setup Instructions</p>
 <ol>
-<li>Power on the ASIC miner and connect to its initial interface (often via WiFi hotspot or USB, check device manual for IP).</li>
+<li>Power on the ASIC miner and connect to its initial interface (often via WiFi hotspot or USB).</li>
 <li>Configure network settings to join your home WiFi (or Ethernet).</li>
 <li>Enter solo pool details in the mining software/interface,<ol>
-<li>URL (e.g., stratum+tcp://solo.ckpool.org:3333 or public-pool.io:3333)</li>
-<li>username (your Bitcoin address)</li>
+<li>URL: <code>stratum+tcp://solo.ckpool.org:3333</code></li>
+<li>username: your Bitcoin address</li>
 </ol>
 </li>
 <li>Save changes, reboot the device, and monitor hashing performance via the built-in dashboard or pool stats.</li>
 </ol>
 </div>
-<p>No full node required; the stratum server manages work and submissions.</p>
+<p>No full node required; the stratum server manages work and submissions. Consider alternative solo pools such as <code>public-pool.io</code>.</p>
 <hr />
 <h2 id="stratum-protocol">Stratum Protocol<a class="headerlink" href="#stratum-protocol" title="Permanent link">&para;</a></h2>
-<p>ASIC miners communicate block templates via the Stratum protocol, an overlay designed for pooled mining that replaced the outdated getwork in 2012. It uses a client-server model where your miner (client) connects to a stratum server to receive jobs and submit proof-of-work shares, all via JSON-RPC calls over TCP for low-latency efficiency.</p>
+<p>ASIC miners communicate block templates via the Stratum protocol, which replaced the outdated getwork in 2012. It uses a client-server model where your miner (client) connects to a stratum server to receive jobs and submit proof-of-work shares, all via JSON-RPC calls over TCP for low-latency efficiency.</p>
 <p>The disadvantages of Stratum are numerous. It's an ASCII protocol sending binary data in hex, and with inconsistent byte ordering. There's no encryption and it's vulnerable to man-in-the-middle atracks.</p>
 <p>While Stratum is criticized for closed development and displacing more open standards like <code>getblocktemplate</code>, it's a functional protocol -- all miners rely on it for its simplicity and efficiency, with no widespread shift in sight despite its flaws. Ultimately, it is how the ASIC chips themselves operate.</p>
 <div class="admonition warning">
-<p class="admonition-title">The Failures of Stratum V2</p>
-<p>Despite promises of decentralization and miner empowerment, Stratum V2 adoption remains near-zero years after launch. Miners prioritize reliability over untested and unnecessarily complicated features, exposing core devs' tendency to bikeshed on ideals while ignoring the adversarial grind of actual proof-of-work hashing. Sovereignty thrives on proven tools -- stick to V1 and push for real improvements through participation.</p>
+<p class="admonition-title">Failures of Stratum V2</p>
+<p>Despite promises of decentralization and miner empowerment, Stratum V2 adoption remains near-zero years after launch. Miners prioritize reliability over untested and unnecessarily complicated features, exposing core devs' tendency to bikeshed while ignoring the grind of actual proof-of-work hashing. Sovereignty thrives on proven tools -- stick to V1 and push for real improvements through participation.</p>
 </div>
 <hr />
 <h2 id="probabilities-and-poisson">Probabilities and Poisson<a class="headerlink" href="#probabilities-and-poisson" title="Permanent link">&para;</a></h2>
@@ -2985,11 +2984,11 @@
 <p>Meanwhile, session shares at easier difficulties (say, 4 million) give mini-wins to track your grind, and the luck metric (found shares vs. expected) reveals the variance rollercoaster -- under 100% means you're hot, over means keep hashing and start praying. It's Bitcoin's chaotic heart: frustrating, exhilarating, and a reminder why those "impossible" odds keep sovereign miners plugged in, chasing that one-in-a-trillion glory.</p>
 <hr />
 <h2 id="why-solo-mining">Why Solo Mining?<a class="headerlink" href="#why-solo-mining" title="Permanent link">&para;</a></h2>
-<p>Solo mining is the path to true sovereignty in proof-of-work hashing -- it keeps you independent, directly contributing to Bitcoin's decentralization without intermediaries. By hashing alone, you avoid the pitfalls of centralized pools, enforcing rules and transaction validity on your terms, free from external control. </p>
+<p>Solo mining is the path to true sovereignty in proof-of-work hashing -- it keeps you independent, directly contributing to Bitcoin's decentralization without intermediaries. By hashing alone, you avoid the pitfalls of centralized pools, enforcing rules and transaction validity on your (sovereign) terms, free from external control. </p>
 <p>Solo hashing decentralizes hashrate, combating pool dominance and enhancing network resilience. Even unrewarded, it affirms Bitcoin's permissionless truth -- bureaucrats can't fake the work, securing your sovereignty through participation.</p>
 <p>Mining pools undermine this: they centralize hashrate, creating single points of failure vulnerable to censorship, regulations, and collapse. Block withholding attacks exemplify the risk -- malicious miners submit shares for payouts but withhold valid blocks, sabotaging the pool's revenue while profiting. This erodes trust and highlights pools' fragility in an adversarial system.</p>
-<p>Ultimately, mining pools are not viable long-term businesses in a sound money economy. They thrive on fiat's easy money, subsidizing inefficiencies through cheap credit and inflation. In Bitcoin's hard money world, pools' overhead (fees, operations) can't compete with solo efficiency; they'll dissolve as subsidies vanish, forcing hashrate back to sovereign individuals.</p>
-<p>Embrace solo: it affirms Bitcoin's permissionless ethos, combats centralization, and secures your wealth through uncompromised work. Outsourcing to pools exchanges sovereignty for illusory stability -- a fiat trap Bitcoin rejects.</p>
+<p>Ultimately, mining pools are not viable long-term businesses in a sound money economy. They thrive on fiat's easy money, subsidizing inefficiencies through cheap credit and inflation. In Bitcoin's hard money world, pool overhead (fees, operations) can't compete with solo efficiency; they'll dissolve as subsidies vanish, forcing hashrate back to sovereign individuals.</p>
+<p>Embrace solo mining: it affirms Bitcoin's permissionless ethos, combats centralization, and secures your wealth through real work. Outsourcing to pools exchanges sovereignty for illusory stability -- a fiat trap that Bitcoin rejects.</p>
 <div class="admonition warning">
 <p class="admonition-title">Avoid FPPS and Mining Pools</p>
 <p>Full Pay Per Share (FPPS) pools promise steady payouts, but they trade sovereignty for scraps -- centralizing hashrate and exposing you to operator risks like withholding or censorship. Never join; True sovereignty means embracing variance, not outsourcing your hashes.</p>
