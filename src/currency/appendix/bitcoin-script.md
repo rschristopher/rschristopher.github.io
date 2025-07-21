@@ -81,7 +81,8 @@ Script's limitations (no loops) ensure security but restrict flexibility. Soft f
 
 For hands-on, test on regtest or signet networks.
 
-The ubiquitous future builds on these, making Bitcoin Script the foundation for global, sovereign commerce.
+
+
 
 
 
