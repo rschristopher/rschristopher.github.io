@@ -106,7 +106,6 @@ nav:
         - Appendix: 
           - "A1: Bitcoin Script": currency/appendix/bitcoin-script.md
           - "A2: Coinjoin": currency/appendix/coinjoin.md
-          - "A3: Network Security": currency/appendix/network-security.md
     - Proof of Work:
         - pow/index.md
         - Understand the Terms: pow/understand-the-terms.md
