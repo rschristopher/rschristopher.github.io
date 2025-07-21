@@ -98,8 +98,8 @@ nav:
             - currency/sovereignty/index.md
             - "Level 1: Custodial": currency/sovereignty/level-1.md
             - "Level 2: Physical Tokens": currency/sovereignty/level-2.md
-            - "Level 3: On-chain Wallets": currency/sovereignty/level-3.md
-            - "Level 4: Non-custodial": currency/sovereignty/level-4.md
+            - "Level 3: On-chain Payments": currency/sovereignty/level-3.md
+            - "Level 4: Lightning Payments": currency/sovereignty/level-4.md
             - "Level 5: Merchant Networks": currency/sovereignty/level-5.md
             - "Level 6: International": currency/sovereignty/level-6.md
             - "Level 7: Inevitable Future": currency/sovereignty/level-7.md
