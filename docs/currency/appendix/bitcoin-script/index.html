@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#appendix-bitcoin-script" class="md-skip">
+        <a href="#appendix-1-bitcoin-script" class="md-skip">
           Skip to content
         </a>
       
@@ -2215,6 +2215,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    A: Bitcoin Script
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2226,6 +2239,61 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Concepts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-transaction-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard Transaction Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-and-future" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenges and Future
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2841,6 +2909,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Concepts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-transaction-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard Transaction Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-and-future" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenges and Future
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2855,10 +2967,76 @@
 
 
 
-<h1 id="appendix-bitcoin-script">Appendix: Bitcoin Script<a class="headerlink" href="#appendix-bitcoin-script" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
+<h1 id="appendix-1-bitcoin-script">Appendix 1: Bitcoin Script<a class="headerlink" href="#appendix-1-bitcoin-script" title="Permanent link">&para;</a></h1>
+<p>Bitcoin Script is a stack-based scripting language used in Bitcoin transactions to define the conditions under which outputs (UTXOs) can be spent. It's not Turing-complete (to prevent loops and ensure predictability), making it secure for a decentralized network. Scripts are executed by Bitcoin nodes to validate spends, with the stack processing operations (opcodes) from left to right. Beginners can think of it as a simple lock-and-key system: the scriptPubKey (locking script) in an output sets the puzzle, and the scriptSig (unlocking script) in the input solves it.</p>
+<p>This appendix progresses from basics to advanced concepts, with examples demonstrating key features.</p>
+<hr />
+<h2 id="basic-concepts">Basic Concepts<a class="headerlink" href="#basic-concepts" title="Permanent link">&para;</a></h2>
+<p>Bitcoin Script operates on a stack (last-in, first-out data structure). Opcodes manipulate the stack: pushing data, performing arithmetic, or verifying conditions. A script succeeds if the final stack top is non-zero (true) and no errors occur.</p>
+<ul>
+<li><strong>Data Types</strong>: Numbers (integers), booleans (true/false), byte arrays.</li>
+<li><strong>Common Opcodes</strong>:</li>
+<li>Data Push: <code>OP_PUSHBYTES_&lt;n&gt;</code> or shortcuts like <code>OP_1</code> (pushes 1).</li>
+<li>Arithmetic: <code>OP_ADD</code>, <code>OP_SUB</code>, <code>OP_MUL</code>.</li>
+<li>Crypto: <code>OP_HASH160</code> (RIPEMD-160 of SHA-256), <code>OP_CHECKSIG</code> (verifies signature).</li>
+<li>Control: <code>OP_IF</code>/<code>OP_ELSE</code>/<code>OP_ENDIF</code>, <code>OP_EQUALVERIFY</code>.</li>
+</ul>
+<p>Scripts are limited to prevent abuse (e.g., max 10,000 bytes pre-Taproot).</p>
+<details class="example" open="open">
+<summary>Simple Equality Check</summary>
+<p>This script checks if two numbers on the stack are equal.
+<div class="highlight"><pre><span></span><code>OP_2 OP_3 OP_EQUAL  // Pushes 2 and 3, checks if equal (false, script fails)
+</code></pre></div>
+If executed with <code>OP_2 OP_2 OP_EQUAL</code>, it succeeds.</p>
+</details>
+<hr />
+<h2 id="standard-transaction-types">Standard Transaction Types<a class="headerlink" href="#standard-transaction-types" title="Permanent link">&para;</a></h2>
+<p>Bitcoin uses templates for common scripts, evolving for efficiency and privacy.</p>
+<ul>
+<li><strong>Pay-to-PubKey-Hash (P2PKH)</strong>: Legacy standard; spend by providing pubkey and signature matching the hash.</li>
+<li><strong>Pay-to-Script-Hash (P2SH)</strong>: Hides complex scripts behind a hash; redeem by revealing the script and satisfying it (e.g., for multisig).</li>
+<li><strong>SegWit (P2WPKH/P2WSH)</strong>: Improves scalability; witnesses (sigs) separated, reducing fees.</li>
+<li><strong>Taproot (P2TR)</strong>: Combines key/spend paths; Schnorr sigs for efficiency/privacy.</li>
+</ul>
+<details class="example" open="open">
+<summary>P2PKH Locking Script</summary>
+<p>Locks to a pubkey hash; spender must provide matching pubkey and sig.
+<div class="highlight"><pre><span></span><code>OP_DUP OP_HASH160 &lt;pubkeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG
+</code></pre></div></p>
+</details>
+<details class="example" open="open">
+<summary>P2SH Redeem Script (2-of-3 Multisig)</summary>
+<p>Redeem script for 2-of-3 multisig, hashed in P2SH output.
+<div class="highlight"><pre><span></span><code>OP_2 &lt;pubkey1&gt; &lt;pubkey2&gt; &lt;pubkey3&gt; OP_3 OP_CHECKMULTISIG
+</code></pre></div></p>
+</details>
+<hr />
+<h2 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h2>
+<p>As Bitcoin evolves, Script gains sophistication for complex conditions.</p>
+<ul>
+<li><strong>Multisig</strong>: Requires m-of-n signatures (e.g., <code>OP_CHECKMULTISIG</code>).</li>
+<li><strong>Timelocks</strong>: <code>OP_CHECKLOCKTIMEVERIFY</code> (CLTV, absolute, e.g., after block height) or <code>OP_CHECKSEQUENCEVERIFY</code> (CSV, relative, e.g., after confirmation).</li>
+<li><strong>Hashlocks</strong>: Locks to a hash preimage (secret); used in Lightning HTLCs.</li>
+<li><strong>Covenants</strong>: Proposed (e.g., <code>OP_CHECKTEMPLATEVERIFY</code>); restrict spends to specific templates.</li>
+<li><strong>Taproot Enhancements</strong>: Key aggregation with Schnorr, script trees for hidden conditions.</li>
+</ul>
+<details class="example" open="open">
+<summary>Hashlock + Timelock (HTLC)</summary>
+<p>For atomic swaps or Lightning: spend with secret or refund after timeout.
+<div class="highlight"><pre><span></span><code>OP_IF OP_HASH160 &lt;hash&gt; OP_EQUALVERIFY OP_CHECKSIG OP_ELSE &lt;time&gt; OP_CHECKLOCKTIMEVERIFY OP_DROP OP_CHECKSIG OP_ENDIF
+</code></pre></div></p>
+</details>
+<details class="example" open="open">
+<summary>Taproot Key Spend</summary>
+<p>Simple Taproot output; spend with Schnorr sig.
+<div class="highlight"><pre><span></span><code>OP_1 &lt;32-byte tweaked pubkey&gt;
+</code></pre></div></p>
+</details>
+<hr />
+<h2 id="challenges-and-future">Challenges and Future<a class="headerlink" href="#challenges-and-future" title="Permanent link">&para;</a></h2>
+<p>Script's limitations (no loops) ensure security but restrict flexibility. Soft forks add opcodes (e.g., Taproot in 2021). Future proposals like <code>OP_CAT</code> or covenants could enable advanced L2s, scaling to billions while keeping non-custodial.</p>
+<p>For hands-on, test on regtest or signet networks.</p>
+<p>The ubiquitous future builds on these, making Bitcoin Script the foundation for global, sovereign commerce.</p>
 
 
 
