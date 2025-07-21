@@ -104,9 +104,9 @@ nav:
             - "Level 6: International": currency/sovereignty/level-6.md
             - "Level 7: Inevitable Future": currency/sovereignty/level-7.md
         - Appendix: 
-          - "A: Bitcoin Script": currency/appendix/bitcoin-script.md
-          - "A: Coinjoin": currency/appendix/coinjoin.md
-          - "A: Network Security": currency/appendix/network-security.md
+          - "A1: Bitcoin Script": currency/appendix/bitcoin-script.md
+          - "A2: Coinjoin": currency/appendix/coinjoin.md
+          - "A3: Network Security": currency/appendix/network-security.md
     - Proof of Work:
         - pow/index.md
         - Understand the Terms: pow/understand-the-terms.md
