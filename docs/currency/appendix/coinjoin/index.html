@@ -2950,7 +2950,7 @@
 
 
 <h1 id="appendix-2-coinjoin">Appendix 2: CoinJoin<a class="headerlink" href="#appendix-2-coinjoin" title="Permanent link">&para;</a></h1>
-<p>CoinJoin is a privacy-enhancing technique for Bitcoin transactions, allowing multiple users to combine their payments into a single collaborative transaction. Proposed by Gregory Maxwell in 2013, it breaks the heuristic link between inputs and outputs by mixing funds, making it harder for chain analysis to trace ownership. It's non-custodial — users retain control of their keys and sign only their parts — and relies on a coordinator to facilitate without holding funds. This fosters fungibility, countering surveillance in Bitcoin's transparent ledger.</p>
+<p>CoinJoin is a privacy-enhancing technique for Bitcoin transactions, allowing multiple users to combine their payments into a single collaborative transaction. Proposed by Gregory Maxwell in 2013, it breaks the heuristic link between inputs and outputs by mixing funds, making it harder for chain analysis to trace ownership. It's non-custodial -- users retain control of their keys and sign only their parts -- and relies on a coordinator to facilitate without holding funds. This fosters fungibility, countering surveillance in Bitcoin's transparent ledger.</p>
 <p>This appendix explains CoinJoin technically, from basics to advanced, with examples of transaction structures and processes.</p>
 <hr />
 <h2 id="basic-concepts">Basic Concepts<a class="headerlink" href="#basic-concepts" title="Permanent link">&para;</a></h2>
@@ -2971,7 +2971,7 @@
 <li><strong>Transaction Construction</strong>: Coordinator builds the joint transaction with mixed inputs/outputs.</li>
 <li><strong>Blame Round</strong>: If invalid, identify and exclude faulty participants.</li>
 <li><strong>Signing</strong>: Users receive the tx, unblind, verify (no changes, their outputs present), and sign their inputs.</li>
-<li><strong>Broadcast</strong>: Coordinator or users broadcast the fully signed tx.</li>
+<li><strong>Broadcast</strong>: Coordinator or users broadcast the fully signed transaction.</li>
 </ol>
 <p>Success requires all signatures; failure reverts without loss.</p>
 <hr />
@@ -2979,14 +2979,13 @@
 <p>Implementations enhance CoinJoin for usability and security:</p>
 <ul>
 <li><strong>Whirlpool (Samourai)</strong>: Zero-link mixes with fixed denominations; post-mix spending tools to avoid re-linking.</li>
-<li><strong>JoinMarket</strong>: Decentralized market for makers/takers; makers provide liquidity for fees, no central coordinator.</li>
 <li><strong>Taproot Integration</strong>: Schnorr signatures enable larger, more efficient mixes with better privacy.</li>
 <li><strong>Defenses</strong>: Against sybil attacks (fees, proofs), DoS (blame mechanisms), and analysis (equal outputs, multiple rounds).</li>
 </ul>
 <p>Future: CISA for cross-input aggregation, reducing fees.</p>
 <div class="admonition warning">
 <p class="admonition-title">Samourai Whirlpool</p>
-<p>Samourai Wallet's developers were arrested in 2024. They are mounting a legal defense, arguing that the case raises constitutional issues regarding software development. Use at your own risk. <a href="https://blog.samouraiwallet.com/post/samourai-defense-fund">Legal Defense Info</a></p>
+<p>Samourai Wallet's developers were arrested in 2024. They are mounting a  <a href="https://blog.ronindojo.io/samourai-defense-fund/">legal defense</a>.</p>
 </div>
 <details class="example" open="open">
 <summary>Simple CoinJoin Transaction Structure</summary>
