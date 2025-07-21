@@ -75,8 +75,6 @@ As Bitcoin evolves, Script gains sophistication for complex conditions.
 
 ---
 
-## Challenges and Future
-
 Script's limitations (no loops) ensure security but restrict flexibility. Soft forks add opcodes (e.g., Taproot in 2021). Future proposals like `OP_CAT` or covenants could enable advanced L2s, scaling to billions while keeping non-custodial.
 
 For hands-on, test on regtest or signet networks.
