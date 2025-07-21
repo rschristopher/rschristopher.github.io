@@ -1,8 +1,10 @@
 # Appendix 2: CoinJoin
 
-CoinJoin is a privacy-enhancing technique for Bitcoin transactions, allowing multiple users to combine their payments into a single collaborative transaction. Proposed by Gregory Maxwell in 2013, it breaks the heuristic link between inputs and outputs by mixing funds, making it harder for chain analysis to trace ownership. It's non-custodial — users retain control of their keys and sign only their parts — and relies on a coordinator to facilitate without holding funds. This fosters fungibility, countering surveillance in Bitcoin's transparent ledger.
+CoinJoin is a privacy-enhancing technique for Bitcoin transactions, allowing multiple users to combine their payments into a single collaborative transaction. Proposed by Gregory Maxwell in 2013, it breaks the heuristic link between inputs and outputs by mixing funds, making it harder for chain analysis to trace ownership. It's non-custodial -- users retain control of their keys and sign only their parts -- and relies on a coordinator to facilitate without holding funds. This fosters fungibility, countering surveillance in Bitcoin's transparent ledger.
 
 This appendix explains CoinJoin technically, from basics to advanced, with examples of transaction structures and processes.
+
+
 
 ---
 
@@ -17,6 +19,9 @@ CoinJoin operates by aggregating inputs from multiple participants into one tran
 
 CoinJoin doesn't create new coins but reshuffles existing ones for privacy.
 
+
+
+
 ---
 
 ## How It Works
@@ -28,9 +33,11 @@ The process involves several steps to ensure trustlessness:
 3. **Transaction Construction**: Coordinator builds the joint transaction with mixed inputs/outputs.
 4. **Blame Round**: If invalid, identify and exclude faulty participants.
 5. **Signing**: Users receive the tx, unblind, verify (no changes, their outputs present), and sign their inputs.
-6. **Broadcast**: Coordinator or users broadcast the fully signed tx.
+6. **Broadcast**: Coordinator or users broadcast the fully signed transaction.
 
 Success requires all signatures; failure reverts without loss.
+
+
 
 ---
 
@@ -39,14 +46,13 @@ Success requires all signatures; failure reverts without loss.
 Implementations enhance CoinJoin for usability and security:
 
 - **Whirlpool (Samourai)**: Zero-link mixes with fixed denominations; post-mix spending tools to avoid re-linking.
-- **JoinMarket**: Decentralized market for makers/takers; makers provide liquidity for fees, no central coordinator.
 - **Taproot Integration**: Schnorr signatures enable larger, more efficient mixes with better privacy.
 - **Defenses**: Against sybil attacks (fees, proofs), DoS (blame mechanisms), and analysis (equal outputs, multiple rounds).
 
 Future: CISA for cross-input aggregation, reducing fees.
 
 !!! warning "Samourai Whirlpool"
-    Samourai Wallet's developers were arrested in 2024. They are mounting a legal defense, arguing that the case raises constitutional issues regarding software development. Use at your own risk. [Legal Defense Info](https://blog.samouraiwallet.com/post/samourai-defense-fund)
+    Samourai Wallet's developers were arrested in 2024. They are mounting a  [legal defense](https://blog.ronindojo.io/samourai-defense-fund/).
 
 ???+ example "Simple CoinJoin Transaction Structure"
     Three users (A, B, C) each contribute 0.1 BTC inputs, mixing into three 0.1 BTC outputs (plus change if uneven).
