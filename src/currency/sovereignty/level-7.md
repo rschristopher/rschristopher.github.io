@@ -51,7 +51,7 @@ Bitcoin's existing adoption demands inevitable advancements as a currency, solvi
 Future protocols will enable simple, resilient non-custodial wallets:
 
 - [Channel Splicing](https://bitcoinops.org/en/topics/splicing/): Add/remove funds without closing channels, reducing on-chain needs and surviving closures gracefully. 
-- Ecash ([Fedimint](https://fedimint.org/)/ [Cashu](https://cashu.space/)): Mints issue blinded notes backed by BTC; users hold ecash in wallets, spendable off-chain, independent of closures — federated for trust minimization.
+- [Fedimint](https://fedimint.org/)/[Cashu](https://cashu.space/): Mints issue blinded notes backed by BTC; users hold ecash in wallets, spendable off-chain, independent of closures — federated for trust minimization.
 - [Ark](https://arkdev.info/)/[Statechains](https://bitcoinops.org/en/topics/statechains/): Off-chain scaling with shared UTXOs or transferable ownership; no user channels, funds survive via unilateral exits or off-chain transfers.
 - Advanced LSPs: Non-custodial LSPs (e.g., [ACINQ](https://acinq.co/)) provide liquidity swaps; ensuring payments flow with minimal user intervention.
 
