@@ -61,7 +61,7 @@ Simple for individuals or communities in shaky economies, but transaction settle
 
 * [Level 6: Industrial Sovereignty](sovereignty/level-6.md) -- Manage massive minng farms with sufficient hashrate to see blocks every week or even daily.
 
-* [Level 7: Ubiquitous Future](sovereignty/level-7.md) -- Emerging tech makes hashrate seamless from any device, barrier-free for everyone. Delivers true sovereignty worldwide.
+* [Level 7: Inevitable Future](sovereignty/level-7.md) -- Emerging tech makes hashrate seamless from any device, barrier-free for everyone. Delivers true sovereignty worldwide.
 
 
 
