@@ -22,7 +22,7 @@
     
     
       
-        <title>Appendix 3: Network Security - Is Bitcoin True?</title>
+        <title>Network security - Is Bitcoin True?</title>
       
     
     
@@ -75,11 +75,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#appendix-3-network-security" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -109,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Appendix 3: Network Security
+              Network security
             
           </span>
         </div>
@@ -2784,61 +2779,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#basic-concepts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Basic Concepts
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
-    <span class="md-ellipsis">
-      How It Works
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#advanced-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Advanced Features
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strengths" class="md-nav__link">
-    <span class="md-ellipsis">
-      Strengths
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#weaknesses" class="md-nav__link">
-    <span class="md-ellipsis">
-      Weaknesses
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -2854,77 +2794,9 @@
 
 
 
-<h1 id="appendix-3-network-security">Appendix 3: Network Security<a class="headerlink" href="#appendix-3-network-security" title="Permanent link">&para;</a></h1>
-<p>Bitcoin's network security is foundational to its sovereignty, ensuring transactions are immutable and resistant to censorship or attacks. At higher sovereignty levels, like merchant networks (Level 5+), security shifts from basic wallet protection to safeguarding distributed systems, full nodes, and Lightning infrastructure. Merchants running POS systems or Lightning nodes must defend against threats like DDoS, eclipse attacks, or chain reorganizations, while leveraging Bitcoin's Proof-of-Work (PoW) for global consensus. This appendix covers basics to advanced, focusing on practical defenses for commerce networks.</p>
-<hr />
-<h2 id="basic-concepts">Basic Concepts<a class="headerlink" href="#basic-concepts" title="Permanent link">&para;</a></h2>
-<p>Bitcoin security relies on decentralized consensus via PoW, where miners compete to solve cryptographic puzzles, adding blocks to the chain. Nodes validate rules independently, rejecting invalid blocks. Key elements:</p>
-<ul>
-<li><strong>Hashrate</strong>: Total computational power securing the network; high hashrate deters 51% attacks (rewriting history).</li>
-<li><strong>Full Nodes</strong>: Validate all transactions/block rules; essential for merchants to avoid trusting explorers or services.</li>
-<li><strong>Threats</strong>: 51% attacks (majority hashrate rewrites chain), Sybil (fake nodes flood network), eclipse (isolate node from honest peers), DDoS (overwhelm with traffic).</li>
-<li><strong>Defenses</strong>: Multi-peer connections, firewalls, VPNs/Tor for anonymity, watchtowers for Lightning offline protection.</li>
-</ul>
-<p>For merchant networks, security means protecting payment inflows (e.g., Lightning channels) and ensuring uptime for commerce.</p>
-<hr />
-<h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p>Network security involves layered protections:</p>
-<ol>
-<li><strong>Node Hardening</strong>: Run full nodes behind firewalls, limit inbound connections, use Tor for obfuscation.</li>
-<li><strong>Lightning-Specific</strong>: Channels secured by HTLCs and justice transactions; watchtowers monitor for breaches during offline periods.</li>
-<li><strong>Merchant Integration</strong>: POS systems like BTCPay connect to private nodes; use multi-sig for cold storage, monitor mempool for attacks.</li>
-<li><strong>Monitoring</strong>: Tools like Electrs or custom scripts alert to anomalies (e.g., unusual hashrate drops).</li>
-</ol>
-<p>Success requires proactive setup to maintain sovereignty amid threats.</p>
-<hr />
-<h2 id="advanced-features">Advanced Features<a class="headerlink" href="#advanced-features" title="Permanent link">&para;</a></h2>
-<p>Higher levels demand sophisticated defenses:</p>
-<ul>
-<li><strong>Watchtowers</strong>: Third-party (non-custodial) services monitoring Lightning channels for fraud, broadcasting justice txs if needed.</li>
-<li><strong>Multi-Sig &amp; Timelocks</strong>: Combine for secure merchant vaults, e.g., 2-of-3 with delays to prevent theft.</li>
-<li><strong>Routing Hardening</strong>: In Lightning, use trampoline routing or private channels to avoid surveillance.</li>
-<li><strong>Hashrate Monitoring</strong>: Tools track global hashrate; merchants hedge with diversified LSPs.</li>
-<li><strong>Future</strong>: Drivechains or covenants for enhanced L2 security without trusting coordinators.</li>
-</ul>
-<details class="example" open="open">
-<summary>Full Node Firewall Config (iptables)</summary>
-<p>Basic rules to limit connections and protect a Bitcoin node.
-<div class="highlight"><pre><span></span><code># Allow Bitcoin P2P port (8333) from trusted IPs only
-iptables -A INPUT -p tcp --dport 8333 -s 192.168.1.0/24 -j ACCEPT
-iptables -A INPUT -p tcp --dport 8333 -j DROP
+  <h1>Network security</h1>
 
-# Allow Lightning port (9735) with rate limiting
-iptables -A INPUT -p tcp --dport 9735 -m limit --limit 5/min -j ACCEPT
-iptables -A INPUT -p tcp --dport 9735 -j DROP
-</code></pre></div></p>
-</details>
-<details class="example" open="open">
-<summary>Lightning Watchtower Integration (LND)</summary>
-<p>Config snippet for enabling watchtowers in LND.
-<div class="highlight"><pre><span></span><code>[watchtower]
-watchtower.active=true
-watchtower.listen=0.0.0.0:9911  # Port for watchtower server
-watchtower.read-only=false     # Allow writing backups
-</code></pre></div></p>
-</details>
-<hr />
-<h2 id="strengths">Strengths<a class="headerlink" href="#strengths" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Decentralized Resilience</strong>: PoW and full nodes make the network hard to attack; merchants verify independently.</li>
-<li><strong>Layered Protection</strong>: Lightning's HTLCs + watchtowers secure off-chain commerce without base-layer risks.</li>
-<li><strong>Sovereign Control</strong>: Custom configs let merchants tailor security, e.g., private nodes for international trade.</li>
-</ul>
-<hr />
-<h2 id="weaknesses">Weaknesses<a class="headerlink" href="#weaknesses" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Resource Intensity</strong>: Full nodes require bandwidth/storage (500GB+ in 2025), vulnerable to DDoS without protections.</li>
-<li><strong>Eclipse Attacks</strong>: Isolated nodes can be fed fake chains; mitigated by diverse peers but needs vigilance.</li>
-<li><strong>51% Risks</strong>: Rare but catastrophic for rewrites; merchants in networks must monitor hashrate drops.</li>
-<li><strong>Lightning Offline Vulnerabilities</strong>: Channel theft if offline during breach; watchtowers help but add minor trust.</li>
-</ul>
-<hr />
-<p>Challenges include scaling node security for merchants (e.g., hardware costs) and evolving threats like quantum attacks (mitigated by post-quantum sigs). Regulatory pressures on privacy tools persist, but non-custodial designs endure.</p>
-<p>Future: Ark/Statechains for secure L2s, better covenants for restricted spends, enhancing network security for sovereign commerce.</p>
+
 
 
 
