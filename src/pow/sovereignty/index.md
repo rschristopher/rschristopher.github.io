@@ -7,5 +7,8 @@ You broadcast transactions via wallets or block explorers, depending on miners t
 !!! quote "The Man in the Arena, Teddy Roosevelt"
     It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
 
+Sovereignty in [saving](../../saving/index.md) and [currency](../../currency/index.md) falters without proof-of-work involvement, as miners hold the reins of transaction processing, network security, and signaling readiness for soft forks -- and if you're not in the game, what will you do, complain to the manager? In this adversarial zero-sum game, passivity invites exploitation.
+
+
 
 
