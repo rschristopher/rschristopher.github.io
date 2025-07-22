@@ -1,8 +1,8 @@
 # Level 1: Network Reliance
 
-# Doing Nothing 
-
-
+What if one does nothing?
+In practice, the game theory behind Bitcoin should help avoid the specific risks for an existing sovereign.
+It is definitely superior to fiat, yet if we're being honest about true financial sovereignty, there are numerous disadvantages to this passive approach, for example,
 
 - **Transaction Censorship**: Miners, incentivized by fee markets or coerced by regulations, can orphan blocks or deprioritize your UTXOs -- leaving you powerless amid rising RBF (Replace-by-Fee) dynamics or MEV (Miner Extractable Value) strategies.
 
@@ -10,12 +10,18 @@
 
 - **Base-Layer Fragility**: Self-custodial vaults and Lightning channels depend on miners for anchoring and dispute resolution. Pool centralization -- as demonstrated by China's 2021 mining ban dispersing >50% of hash rate -- amplifies systemic risks, potentially enabling reorgs and 51% attacks.
 
-Such third-party trust replicates fiat's pitfalls. True escape lies in wielding hash power yourself.
+Ultimately, such third-party trust replicates fiat's pitfalls. 
+True sovereignty lies in wielding hash power yourself.
 
-!!! success "Proof-of-Work Hashing is Why Bitcoin is Superior to Gold"
-    There are many disadvantages to gold, evidenced by the fact that gold inevitably produced central banks and fiat money. And thus it remains to be seen if "digital gold" can escape that same fate. But there is a critical and underlooked difference between Bitcoin and gold -- it is not because Bitcoin is digital that it is superior, it is because Bitcoin requires *proof-of-work* for both issuance **and** transaction settlement.
+!!! success "Hashing is Why Bitcoin is Superior to Gold"
+    There are many disadvantages to gold, evidenced by the fact that gold inevitably produced central banks and fiat money. And thus it remains to be seen if "digital gold" can escape that same fate. But there is a critical and underlooked difference between Bitcoin and gold -- Bitcoin requires *proof-of-work* for both issuance **and** transaction settlement, gold only for issuance.
     
-    Think about it. Transacting in gold requires no work and is the weak point that led to gold's downfall. Try that same strategy with Bitcoin, proof-of-work hashing, despite the ugliness of the game, prevents an equivalent Nixon Shock with Bitcoin. Bureaucrats and politicians have no power over Bitcoin, only proof-of-work hashing has power (actual measurable power). And it turns out that the one thing even the smartest bureaucrats can never do, is real work. They will not only fail to stop Bitcoin, they won't and can't understand it -- because it requires real work.
+    Think about it. Transacting in gold requires no work and is the weak point that led to gold's downfall. Try that same strategy with Bitcoin, proof-of-work hashing, despite the ugliness of the game, prevents an equivalent Nixon Shock with Bitcoin. Bureaucrats and politicians have no power over Bitcoin, only proof-of-work hashing has any power (actual measurable power).
+
+Because no other sound money required proof-of-work to transact, we tend to assume  conventional wisdom that mining is best avoided, exactly as it would be with gold.
+And if that were true it would be nice, that is, leave mining to the risk seekers.
+Truth is, mining -- *proof-of-work hashing* -- is **required** for any sense of sovereignty.
+
 
 
 
@@ -31,6 +37,6 @@ Take your first steps into the arena. [Level 2](level-2.md) deploys an entry-lev
 
 ---
 
-Don't expect any early wins. Even without any statistical hope of mining a block, you'll be in the dirt and grime of the game: real-time hash rate, hash-price indexes, modeling difficulty adjustments, and sourcing affordable rigs. Proof-of-work hashing is not for everybody, but neither is sovereignty.
+Don't expect any early wins (mined blocks). Even without any statistical hope of finding a block, you'll be in the dirt and grime of the game: real-time hash rate, hash-price indexes, modeling difficulty adjustments, and sourcing affordable ASICs. Proof-of-work hashing is not for everybody, but neither is sovereignty.
 
 
