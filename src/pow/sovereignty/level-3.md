@@ -14,8 +14,7 @@ Build a small farm with 5-20 large ASIC miners, targeting 1-5 PH/s total hashrat
 Potential models (as of July 2025)
 
 - [Bitmain Antminer S21](https://shop.bitmain.com/) (200 TH/s, 3500W)
-- [MicroBT Whatsminer M60](https://whatsminer.com/) (170 TH/s, 3400W)
-- [Canaan Avalon A1466](https://canaan.io/) (150 TH/s, 3200W)
+- [Canaan Avalon A15](https://canaan.io/) (194 TH/s, 3600W)
 - [Auradine AD250](https://auradine.com/) (250 TH/s, 3800W)
 - [Teraflux AH3880](https://terawulf.com/) (380 TH/s, 4500W hydro-cooled)
 
