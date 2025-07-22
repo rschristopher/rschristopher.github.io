@@ -1,6 +1,7 @@
-# Level 5: Enterprise
+# Level 5: Enterprise Scaling
 
-Scale your mining farm to enterprise levels, pushing hashrate to 50-100 PH/s to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy inputs into consistent sovereign Bitcoin while maintaining full control over proof-of-work.
+Scale your mining farm to enterprise levels, pushing hashrate to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy inputs into consistent sovereign Bitcoin while maintaining full control over your proof-of-work hashrate.
+
 
 
 
@@ -8,24 +9,33 @@ Scale your mining farm to enterprise levels, pushing hashrate to 50-100 PH/s to 
 
 ## Setup
 
-Expand your [Level 4](level-4.md) farm with 50-100 large ASIC miners in an industrial facility. Use the same efficient models as before, but deploy at volume for 50-100 PH/s total.
+Expand your [Level 4](level-4.md) farm with 50-100 large ASIC miners in an industrial facility. Use the same efficient models as before, but deploy at volume.
 
 Requirements:
-- Industrial site: data center or custom build with 1-2 MW power draw
-- Low-cost electricity (<$0.03/kWh in regions like Quebec or Texas)
-- Dedicated full node: [Bitcoin Knots](https://bitcoinknots.org/) with high peering and `dbcache`
-- Stratum server: [CKPool](https://bitbucket.org/ckpool/src/master/) or [public-pool](https://github.com/benjamin-wilson/public-pool)
-- Cooling systems: immersion or hydro to handle 100-200 kW heat
 
-Link your scaled farm to the stratum server, leveraging your sovereign pool for seamless integration.
+- Industrial site: data center or custom build with 1-2 MW power draw
+- Low-cost electricity
+- Dedicated full node: [Bitcoin Knots](https://bitcoinknots.org/)
+- Stratum server: [CKPool](https://bitbucket.org/ckpool/src/master/) or [public-pool](https://github.com/benjamin-wilson/public-pool)
+- Container with cooling system with space for 50-100 mines, e.g., [Avalon Box](https://shop.canaan.io/products/products-avalon-air-cooling-mining-boxvariantsid10191), or check options from [power-mining](https://www.powermining.io/)
+
+
+
+
 
 ---
 
-## Scaling for Block Frequency
+## Scaling
+
+With only 100 ASIC miners a single server running a dedicated full node and stratum should be more than sufficient, although you may want to consider a backup server for fault tolerance. Each miner can support 3 stratum URLs, and it's recommended to configure them with a primary, backup, and a tertiary backup at one of the hosted solo pools from [Level 2](level-2.md).
 
 At 50 PH/s against ~935 EH/s network hashrate and 126.27T difficulty (July 2025), expect λ ≈ 2.81 blocks/year (~ one every 4.3 months). Double to 100 PH/s for λ ≈ 5.62 (~ every 2.2 months). Poisson variance adds unpredictability, averaging 2-3 months per block.
 
-Maximize uptime with automated maintenance, power redundancy, and custom scripts (e.g., Python for API monitoring) to oversee rigs and detect issues swiftly.
+Maximize uptime with automated maintenance, power redundancy, and custom scripts (e.g., Python for API monitoring) to oversee miners and detect issues swiftly.
+
+!!! info "Repair Bench"
+    At this scale, you'll want a separate repair bench, along with a few miners ready to be deployed to replace any bad miners. There may be fan issues, power supply issues, control board issues, or the more costly hashboard issues..
+
 
 ---
 
@@ -37,6 +47,9 @@ Activate logging in your stratum config; record shares, times, and difficulties.
 
 Low rates highlight problems like failures or throttling. Use dashboards for alerts; this turns scale into sovereign strength.
 
+
+
+
 ---
 
 ## Why Enterprise?
@@ -47,14 +60,15 @@ Finding blocks every 2-3 months creates a steady sovereign supply, shielding aga
 
 Embrace it: enterprise delivers consistent sovereign blocks, anchoring your Bitcoin stance.
 
-!!! warning "Avoid FPPS and Mining Pools"
-    FPPS pools tempt with steady flows, but centralize hashrate and enable fraud like withholding. Stay solo; pools trade freedom for fiat mirage.
+
+
+
 
 ---
 
-Advance to [Level 6](level-6.md): integrate renewables and custom ASICs for optimal efficiency and reach.
+Advance to [Level 6](level-6.md) for industrial scale, finding blocks weekly and even daily.
 
-Dive in: Expand your farm, enhance your stratum server, log shares, monitor metrics. Claim the domain -- your enterprise asserts sovereignty, one block at a time.
+
 
 
 
