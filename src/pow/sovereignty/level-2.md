@@ -63,18 +63,18 @@ Meanwhile, session shares at easier difficulties (say, 4 million) give mini-wins
 
 ## Why Solo Mining?
 
-Solo mining is the path to true sovereignty in proof-of-work hashing -- it keeps you independent, directly contributing to Bitcoin's decentralization without intermediaries. By hashing alone, you avoid the pitfalls of centralized pools, enforcing rules and transaction validity on your (sovereign) terms, free from external control. 
+Solo mining is the path to true sovereignty in proof-of-work hashing -- it keeps you independent, directly contributing to Bitcoin's decentralization without intermediaries. With solo mining, you avoid the pitfalls of centralized pools, enforcing rules and transaction validity on your (sovereign) terms, free from external control. 
 
 Solo hashing decentralizes hashrate, combating pool dominance and enhancing network resilience. Even unrewarded, it affirms Bitcoin's permissionless truth -- bureaucrats can't fake the work, securing your sovereignty through participation.
 
-Mining pools undermine this: they centralize hashrate, creating single points of failure vulnerable to censorship, regulations, and collapse. Block withholding attacks exemplify the risk -- malicious miners submit shares for payouts but withhold valid blocks, sabotaging the pool's revenue while profiting. This erodes trust and highlights pools' fragility in an adversarial system.
+Mining pools undermine sovereignty: they centralize hashrate, creating single points of failure vulnerable to censorship, regulations, and collapse. Block withholding attacks exemplify the risk -- malicious miners submit shares for payouts but withhold valid blocks, sabotaging the pool's revenue while profiting. This erodes trust and highlights pools' fragility in an adversarial system.
 
 Ultimately, mining pools are not viable long-term businesses in a sound money economy. They thrive on fiat's easy money, subsidizing inefficiencies through cheap credit and inflation. In Bitcoin's hard money world, pool overhead (fees, operations) can't compete with solo efficiency; they'll dissolve as subsidies vanish, forcing hashrate back to sovereign individuals.
 
 Embrace solo mining: it affirms Bitcoin's permissionless ethos, combats centralization, and secures your wealth through real work. Outsourcing to pools exchanges sovereignty for illusory stability -- a fiat trap that Bitcoin rejects.
 
 !!! warning "Avoid FPPS and Mining Pools"
-    Full Pay Per Share (FPPS) pools promise steady payouts, but they trade sovereignty for scraps -- centralizing hashrate and exposing you to operator risks like withholding or censorship. Never join; True sovereignty means embracing variance, not outsourcing your hashes.
+    Full Pay Per Share (FPPS) pools promise steady payouts, but they trade sovereignty for scraps -- centralizing hashrate and exposing you to operator risks like withholding or censorship. Never join; True sovereignty means embracing variance, not selling your hashrate.
 
 
 
