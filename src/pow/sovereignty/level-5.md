@@ -1,6 +1,6 @@
 # Level 5: Enterprise Scaling
 
-Scale your mining farm to enterprise levels, pushing hashrate to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy inputs into consistent sovereign Bitcoin while maintaining full control over your proof-of-work hashrate.
+Scale your mining farm to enterprise levels, pushing hashrate to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy into consistent hashrate, earning Bitcoin while maintaining full sovereignty over your proof-of-work hashrate.
 
 
 
@@ -9,7 +9,7 @@ Scale your mining farm to enterprise levels, pushing hashrate to find blocks eve
 
 ## Setup
 
-Expand your [Level 4](level-4.md) farm with 50-100 large ASIC miners in an industrial facility. Use the same efficient models as before, but deploy at volume.
+Expand your [Level 4](level-4.md) farm with 50-100 large ASIC miners in an industrial container. Use the same efficient models as before, but deploy at volume.
 
 Requirements:
 
@@ -17,7 +17,7 @@ Requirements:
 - Low-cost electricity
 - Dedicated full node: [Bitcoin Knots](https://bitcoinknots.org/)
 - Stratum server: [CKPool](https://bitbucket.org/ckpool/src/master/) or [public-pool](https://github.com/benjamin-wilson/public-pool)
-- Container with cooling system with space for 50-100 mines, e.g., [Avalon Box](https://shop.canaan.io/products/products-avalon-air-cooling-mining-boxvariantsid10191), or check options from [power-mining](https://www.powermining.io/)
+- Container with cooling system with space for 50-100 ASIC miners, e.g., [Avalon Box](https://shop.canaan.io/products/products-avalon-air-cooling-mining-boxvariantsid10191), or check options from [power-mining](https://www.powermining.io/)
 
 
 
@@ -27,14 +27,16 @@ Requirements:
 
 ## Scaling
 
-With only 100 ASIC miners a single server running a dedicated full node and stratum should be more than sufficient, although you may want to consider a backup server for fault tolerance. Each miner can support 3 stratum URLs, and it's recommended to configure them with a primary, backup, and a tertiary backup at one of the hosted solo pools from [Level 2](level-2.md).
+With only 100 ASIC miners a single physical server (NUC) running a dedicated full node and stratum server should be more than sufficient, however, you may want to consider a backup server for fault tolerance. Each miner can support 3 stratum URLs, and it's recommended to configure them with a primary, backup, and a tertiary backup, such as one of the hosted solo pools from [Level 2](level-2.md).
 
 At 50 PH/s against ~935 EH/s network hashrate and 126.27T difficulty (July 2025), expect λ ≈ 2.81 blocks/year (~ one every 4.3 months). Double to 100 PH/s for λ ≈ 5.62 (~ every 2.2 months). Poisson variance adds unpredictability, averaging 2-3 months per block.
 
-Maximize uptime with automated maintenance, power redundancy, and custom scripts (e.g., Python for API monitoring) to oversee miners and detect issues swiftly.
+Maximize uptime with automated maintenance, power redundancy, and custom scripts (e.g., Python script for API monitoring) to oversee miners and detect issues swiftly.
 
 !!! info "Repair Bench"
-    At this scale, you'll want a separate repair bench, along with a few miners ready to be deployed to replace any bad miners. There may be fan issues, power supply issues, control board issues, or the more costly hashboard issues..
+    At this scale, you'll want a separate repair bench, along with a few miners ready to be deployed to replace any bad miners. There may be fan issues, power supply issues, control board issues, or the more costly hashboard issues.
+
+
 
 
 ---
