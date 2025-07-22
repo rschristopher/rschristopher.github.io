@@ -1,8 +1,8 @@
 # Level 1: Network Reliance
 
-Sovereignty in [saving](../../saving/index.md) and [currency](../../currency/index.md) falters without proof-of-work involvement, as miners hold the reins on processing and integrity, signaling readiness for soft forks -- and if you're not in the game, what will you do, complain to the manager? In this adversarial zero-sum game, passivity invites exploitation.
+# Doing Nothing 
 
-Critical vulnerabilities:
+
 
 - **Transaction Censorship**: Miners, incentivized by fee markets or coerced by regulations, can orphan blocks or deprioritize your UTXOs -- leaving you powerless amid rising RBF (Replace-by-Fee) dynamics or MEV (Miner Extractable Value) strategies.
 
