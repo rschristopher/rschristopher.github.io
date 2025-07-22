@@ -2952,7 +2952,6 @@
 <li><a href="https://mineshop.eu/">Avalon Nano 3S</a> (~6 TH/s)</li>
 <li><a href="https://solosatoshi.com/">NerdQaxe++</a> (~4.8 TH/s)</li>
 </ul>
-<p>These devices draw minimal electricity and are plug-and-play.</p>
 <div class="admonition info">
 <p class="admonition-title">Setup Instructions</p>
 <ol>
@@ -2966,7 +2965,7 @@
 <li>Save changes, reboot the device, and monitor hashing performance via the built-in dashboard or pool stats.</li>
 </ol>
 </div>
-<p>No full node required; the stratum server manages work and submissions. Consider alternative solo pools such as <code>public-pool.io</code>.</p>
+<p>No full node required; the stratum server manages work templates and block submissions. Consider alternative solo pools such as <code>public-pool.io</code>.</p>
 <hr />
 <h2 id="stratum-protocol">Stratum Protocol<a class="headerlink" href="#stratum-protocol" title="Permanent link">&para;</a></h2>
 <p>ASIC miners communicate block templates via the Stratum protocol, which replaced the outdated getwork in 2012. It uses a client-server model where your miner (client) connects to a stratum server to receive jobs and submit proof-of-work shares, all via JSON-RPC calls over TCP for low-latency efficiency.</p>
