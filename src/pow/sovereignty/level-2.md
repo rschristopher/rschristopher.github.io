@@ -16,8 +16,6 @@ Alternatives include:
 - [Avalon Nano 3S](https://mineshop.eu/) (~6 TH/s)
 - [NerdQaxe++](https://solosatoshi.com/) (~4.8 TH/s)
 
-These devices draw minimal electricity and are plug-and-play.
-
 !!! info "Setup Instructions"
     1. Power on the ASIC miner and connect to its initial interface (often via WiFi hotspot or USB).
     2. Configure network settings to join your home WiFi (or Ethernet).
@@ -26,7 +24,7 @@ These devices draw minimal electricity and are plug-and-play.
         2. username: your Bitcoin address
     4. Save changes, reboot the device, and monitor hashing performance via the built-in dashboard or pool stats.
 
-No full node required; the stratum server manages work and submissions. Consider alternative solo pools such as `public-pool.io`.
+No full node required; the stratum server manages work templates and block submissions. Consider alternative solo pools such as `public-pool.io`.
 
 
 
