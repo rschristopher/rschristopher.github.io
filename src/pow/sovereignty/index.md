@@ -1,86 +1,11 @@
 # Sovereignty
 
+If you're sovereign in [saving](../../saving/index.md) and [currency](../../currency/index.md) -- controlling your keys and transacting peer-to-peer with no intermediaries -- but you do not participate in mining (proof-of-work hashing), then you are still trusting third parties to secure your wealth and process your transactions. Bitcoin's proof-of-work hashing is a ruthless, zero-sum competition where miners vie to validate blocks, enforce the supply cap (securing your wealth from inflationary theft), prevent abuse like double-spends, all through sheer computational power. Yet, without joining this fray, your sovereignty remains incomplete -- reliant on anonymous miners for finality and security. Recognize this gap to claim full sovereignty.
 
+You broadcast transactions via wallets or block explorers, depending on miners to incorporate them into the blockchain. Absent your own hardware, the network's aggregate hash rate performs the work -- proving work at escalating difficulties, adjusting every 2016 blocks to maintain ~10-minute intervals, all while you stand outside the arena.
 
-
-<!--
-
-Lord Jesus Christ
-Son of the living God
-Have mercy on me, a sinner
-
-
-
-
-
-In the year 2140,
- is there still mining pools?
-
-!!! question "Will there be mining pools in 2140?"
-
-~50 million sovereigns
-12 billion subjects
-
-The subjects work and save and spend,
- working with one sovereign or another.
-If their sovereign is strong, they can
- save and retire and live a comfortable
- life.
-Otherwise, they either find a better sovereign,
- or become a sovereign.
-No one is denied the opportunity.
-
-There is no more block subsidy.
-Miners are on-chain settlement exchanges,
- turning lightning wallets into sovereign
- wealth allocations, final international
- settlement.
-Miners, by necessity, are sovereign.
-Do you need a pool?
-Only if your time preference is small.
-Or, if the long tail of hashrate can compete.
-But does it need to? It'd be a game only
- available to existing sovereigns.
-Do existing sovereigns need a pool?
-No.
-Sovereigns compete, and if they pool, they
- are better off merging, creating a
- sovereign dynasty that hashes with their
- combined hashrate.
-
-The only reason to pool is to get paid
- earlier than your hashrate would
- reasonably allow.
-What kind of sovereign needs money that
- quickly, and is still a sovereign.
-A pool is a sign of a weak sovereign.
-
-Hashing is a game amongst sovereigns,
- making or breaking the sovereign while
- subjects quietly raise to their own sovereignty.
-The smart money avoids it.
-Only the strong survive in hashing.
-Pools are a farce, and can only sustain
- temporarily under fiat.
-The real game is and will always be
- solo mining.
-
-
--->
-
-
-
-
-!!! warning "work in progress"
-
-!!! quote "be a Sovereign of your own Work"
-
-Transaction processing and settlement. That is, process and settle your own transactions.
-
-
-
-
-
+!!! quote "The Man in the Arena, Teddy Roosevelt"
+    It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
 
 
 
