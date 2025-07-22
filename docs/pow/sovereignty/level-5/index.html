@@ -2966,14 +2966,14 @@
 </div>
 <hr />
 <h2 id="monitoring-shares">Monitoring Shares<a class="headerlink" href="#monitoring-shares" title="Permanent link">&para;</a></h2>
-<p>Log high-difficulty shares to track farm health -- shares prove your 50-100 PH/s delivery, independent of outsiders.</p>
-<p>Activate logging in your stratum config; record shares, times, and difficulties. Analyze with Python scripts for effective hashrate (actual vs. expected).</p>
-<p>Low rates highlight problems like failures or throttling. Use dashboards for alerts; this turns scale into sovereign strength.</p>
+<p>Continue logging high-difficulty shares to track farm health -- this will independently prove your 50-100 PH/s hashrate.</p>
+<p>Activate logging in your stratum config and set an appropriately high session difficulty (high enough to avoid massive amounts of data, and low enough to reliably monitor miner hashrate; record shares, times, and difficulties. Analyze with Python scripts for effective hashrate (actual vs. expected).</p>
+<p>Most miner APIs can also ptovide temperature, fan speed, estimated power usage, and other useful metrics worth tracking. You may want to leverage a time-series database (Prometheus or InfluxDB), and integrate with dashboarding tools (like Grafana).</p>
 <hr />
 <h2 id="why-enterprise">Why Enterprise?<a class="headerlink" href="#why-enterprise" title="Permanent link">&para;</a></h2>
-<p>Enterprise scaling yields reliable sovereign blocks -- producing Bitcoin straight from your farm, free from KYC taint or exchange risks. These blocks are pure, enabling custom inscriptions or transaction priority under your command.</p>
+<p>Enterprise scaling yields a handful of blocks per-year -- producing Bitcoin straight from your farm, free from KYC taint or exchange risks. These blocks are pure sovereign blocks.</p>
 <p>Finding blocks every 2-3 months creates a steady sovereign supply, shielding against volatility and affirming independence in centralized finance's shadow. It's proof-of-work's zenith, forging energy into untouchable wealth.</p>
-<p>Embrace it: enterprise delivers consistent sovereign blocks, anchoring your Bitcoin stance.</p>
+<p>Embrace it: enterprise scaling delivers consistent sovereign blocks, where you control what goes in to the block (and what doesn't).</p>
 <hr />
 <p>Advance to <a href="../level-6/">Level 6</a> for industrial scale, finding blocks weekly and even daily.</p>
 
