@@ -2943,26 +2943,26 @@
 
 
 <h1 id="level-5-enterprise-scaling">Level 5: Enterprise Scaling<a class="headerlink" href="#level-5-enterprise-scaling" title="Permanent link">&para;</a></h1>
-<p>Scale your mining farm to enterprise levels, pushing hashrate to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy inputs into consistent sovereign Bitcoin while maintaining full control over your proof-of-work hashrate.</p>
+<p>Scale your mining farm to enterprise levels, pushing hashrate to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy into consistent hashrate, earning Bitcoin while maintaining full sovereignty over your proof-of-work hashrate.</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Expand your <a href="../level-4/">Level 4</a> farm with 50-100 large ASIC miners in an industrial facility. Use the same efficient models as before, but deploy at volume.</p>
+<p>Expand your <a href="../level-4/">Level 4</a> farm with 50-100 large ASIC miners in an industrial container. Use the same efficient models as before, but deploy at volume.</p>
 <p>Requirements:</p>
 <ul>
 <li>Industrial site: data center or custom build with 1-2 MW power draw</li>
 <li>Low-cost electricity</li>
 <li>Dedicated full node: <a href="https://bitcoinknots.org/">Bitcoin Knots</a></li>
 <li>Stratum server: <a href="https://bitbucket.org/ckpool/src/master/">CKPool</a> or <a href="https://github.com/benjamin-wilson/public-pool">public-pool</a></li>
-<li>Container with cooling system with space for 50-100 mines, e.g., <a href="https://shop.canaan.io/products/products-avalon-air-cooling-mining-boxvariantsid10191">Avalon Box</a>, or check options from <a href="https://www.powermining.io/">power-mining</a></li>
+<li>Container with cooling system with space for 50-100 ASIC miners, e.g., <a href="https://shop.canaan.io/products/products-avalon-air-cooling-mining-boxvariantsid10191">Avalon Box</a>, or check options from <a href="https://www.powermining.io/">power-mining</a></li>
 </ul>
 <hr />
 <h2 id="scaling">Scaling<a class="headerlink" href="#scaling" title="Permanent link">&para;</a></h2>
-<p>With only 100 ASIC miners a single server running a dedicated full node and stratum should be more than sufficient, although you may want to consider a backup server for fault tolerance. Each miner can support 3 stratum URLs, and it's recommended to configure them with a primary, backup, and a tertiary backup at one of the hosted solo pools from <a href="../level-2/">Level 2</a>.</p>
+<p>With only 100 ASIC miners a single physical server (NUC) running a dedicated full node and stratum server should be more than sufficient, however, you may want to consider a backup server for fault tolerance. Each miner can support 3 stratum URLs, and it's recommended to configure them with a primary, backup, and a tertiary backup, such as one of the hosted solo pools from <a href="../level-2/">Level 2</a>.</p>
 <p>At 50 PH/s against ~935 EH/s network hashrate and 126.27T difficulty (July 2025), expect λ ≈ 2.81 blocks/year (~ one every 4.3 months). Double to 100 PH/s for λ ≈ 5.62 (~ every 2.2 months). Poisson variance adds unpredictability, averaging 2-3 months per block.</p>
-<p>Maximize uptime with automated maintenance, power redundancy, and custom scripts (e.g., Python for API monitoring) to oversee miners and detect issues swiftly.</p>
+<p>Maximize uptime with automated maintenance, power redundancy, and custom scripts (e.g., Python script for API monitoring) to oversee miners and detect issues swiftly.</p>
 <div class="admonition info">
 <p class="admonition-title">Repair Bench</p>
-<p>At this scale, you'll want a separate repair bench, along with a few miners ready to be deployed to replace any bad miners. There may be fan issues, power supply issues, control board issues, or the more costly hashboard issues..</p>
+<p>At this scale, you'll want a separate repair bench, along with a few miners ready to be deployed to replace any bad miners. There may be fan issues, power supply issues, control board issues, or the more costly hashboard issues.</p>
 </div>
 <hr />
 <h2 id="monitoring-shares">Monitoring Shares<a class="headerlink" href="#monitoring-shares" title="Permanent link">&para;</a></h2>
