@@ -2950,25 +2950,22 @@
 <p>Host your sovereign pool on a dedicated server running open-source stratum software, paired with a dedicated full node exclusively for this purpose.</p>
 <p>Requirements:</p>
 <ul>
-<li>Dedicated server -- a NUC (or equivalent) with 16+ GB of memory and at least 2 TB of storage (if needed you can run a pruned node).</li>
+<li>Dedicated server -- a NUC (or equivalent) with 16+ GB of memory and at least 2 TB of storage (if needed, you can run a pruned node).</li>
 <li>Fast Internet connection.</li>
 <li><a href="https://bitcoinknots.org/">Bitcoin Knots</a></li>
 <li>Stratum server -- <a href="https://bitbucket.org/ckolivas/ckpool/src/master/">CKPool</a> or <a href="https://github.com/benjamin-wilson/public-pool">public-pool</a> or any trusted stratum server.</li>
 </ul>
-<p>There are bundled options such as 
-<a href="https://umbrel.com/">Umbrel</a> or
-<a href="https://marketplace.start9.com/public-pool">Start9</a>, either way you'll want to configure your node to be well-peered with lots of memory for <code>dbcache</code> to ensure fast block propagation.</p>
+<p>There are bundled options such as <a href="https://umbrel.com/">Umbrel</a> or <a href="https://marketplace.start9.com/public-pool">Start9</a>, either way you'll want to configure your node to be well-peered with lots of memory for <code>dbcache</code> to ensure fast block propagation.</p>
 <p>Once everything is running, you'll want to direct your miners to the server's stratum URL (e.g., <code>stratum+tcp://server-ip:3333</code>), either using your Bitcoin address as username, or configure that address in the stratum server config.</p>
 <hr />
 <h2 id="monitoring-shares">Monitoring Shares<a class="headerlink" href="#monitoring-shares" title="Permanent link">&para;</a></h2>
 <p>Log high-difficulty shares to independently verify your farm's hashrate -- each share is a mini proof-of-work, proving miners are performing as expected without pool reliance.</p>
-<p>Enable share logging in your server's config (e.g., CKPool's sharelog option or public-pool.io's logging features); it records accepted/rejected shares, timestamps, and difficulties to files. You can parse these with custom scripts in Python to calculate effective hashrate, as well as actual shares vs. expected based on difficulty.</p>
+<p>Enable share logging in your server's config (e.g., CKPool's sharelog option or public-pool's logging features); it records accepted/rejected shares, timestamps, and difficulties to files. You can parse these with custom scripts in Python to calculate effective hashrate, as well as actual shares vs. expected based on difficulty.</p>
 <p>This metric spots underperformers -- low share rates signal hardware issues, overheating, or config errors. Cross-reference with miner dashboards for diagnostics; consistent logging ensures your farm's health. Your share data is a gold mine of insights into your sovereign mining farm.</p>
 <hr />
 <h2 id="testnet">Testnet<a class="headerlink" href="#testnet" title="Permanent link">&para;</a></h2>
 <p>Occasionally, and definitely prior to mainnet deployment, test your sovereign farm on Bitcoin testnet -- the sandbox chain to confirm block finding and broadcasting without stakes. It's vital for validating end-to-end farm integrity.</p>
-<p>Process: Spin up a testnet node (Bitcoin Knots -testnet mode), tie your stratum server to its RPC for templates/submissions. Route part of your farm to the server using a testnet address (a single ASIC will likely dominate testnet, and even a small farm will induce a 
-<a href="https://blog.lopp.net/the-block-storms-of-bitcoins-testnet/">testnet storm</a>). Find lots of testnet blocks -- lower difficulty yields quicker results, testing template creation, share flow, block detection, and relay.</p>
+<p>Process: Spin up a testnet node (Bitcoin Knots -testnet mode), tie your stratum server to its RPC for templates/submissions. Route part of your farm to the server using a testnet address (a single ASIC will likely dominate testnet, and even a small farm will induce a <a href="https://blog.lopp.net/the-block-storms-of-bitcoins-testnet/">testnet storm</a>). Find lots of testnet blocks -- lower difficulty yields quicker results, testing template creation, share flow, block detection, and relay.</p>
 <p>Scan node logs for <code>submitblock</code> success and confirm on <a href="https://mempool.space/testnet">explorers</a>. Mine a few blocks to iron out kinks. This proves reliability, safeguarding your sovereign chain.</p>
 <hr />
 <h2 id="why-sovereign-pool">Why Sovereign Pool?<a class="headerlink" href="#why-sovereign-pool" title="Permanent link">&para;</a></h2>
@@ -2976,7 +2973,7 @@
 <p>FPPS pools defeat sovereignty; your pool keeps everything in-house, resisting attacks and centralization. In Bitcoin's ecosystem, this self-reliance scales sovereignty.</p>
 <p>Embrace it: full-stack hashing secures your wealth and the network through unyielding independence.</p>
 <hr />
-<p>At this scale, you will only have enough hashrate to find a block every 3-5 years. No easy task, but advance to <a href="../level-5/">Level 5</a> for enterprise scale.</p>
+<p>At this scale, you</p>
 
 
 
