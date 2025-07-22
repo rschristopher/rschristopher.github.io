@@ -53,4 +53,8 @@ Embrace it: full-stack hashing secures your wealth and the network through unyie
 
 ---
 
-At this scale, you
+At this scale, you will only have enough hashrate to find a block every 3-5 years. No easy task, but advance to [Level 5](level-5.md) for enterprise scale.
+
+
+
+
