@@ -43,11 +43,11 @@ Maximize uptime with automated maintenance, power redundancy, and custom scripts
 
 ## Monitoring Shares
 
-Log high-difficulty shares to track farm health -- shares prove your 50-100 PH/s delivery, independent of outsiders.
+Continue logging high-difficulty shares to track farm health -- this will independently prove your 50-100 PH/s hashrate.
 
-Activate logging in your stratum config; record shares, times, and difficulties. Analyze with Python scripts for effective hashrate (actual vs. expected).
+Activate logging in your stratum config and set an appropriately high session difficulty (high enough to avoid massive amounts of data, and low enough to reliably monitor miner hashrate; record shares, times, and difficulties. Analyze with Python scripts for effective hashrate (actual vs. expected).
 
-Low rates highlight problems like failures or throttling. Use dashboards for alerts; this turns scale into sovereign strength.
+Most miner APIs can also ptovide temperature, fan speed, estimated power usage, and other useful metrics worth tracking. You may want to leverage a time-series database (Prometheus or InfluxDB), and integrate with dashboarding tools (like Grafana).
 
 
 
@@ -56,11 +56,11 @@ Low rates highlight problems like failures or throttling. Use dashboards for ale
 
 ## Why Enterprise?
 
-Enterprise scaling yields reliable sovereign blocks -- producing Bitcoin straight from your farm, free from KYC taint or exchange risks. These blocks are pure, enabling custom inscriptions or transaction priority under your command.
+Enterprise scaling yields a handful of blocks per-year -- producing Bitcoin straight from your farm, free from KYC taint or exchange risks. These blocks are pure sovereign blocks.
 
 Finding blocks every 2-3 months creates a steady sovereign supply, shielding against volatility and affirming independence in centralized finance's shadow. It's proof-of-work's zenith, forging energy into untouchable wealth.
 
-Embrace it: enterprise delivers consistent sovereign blocks, anchoring your Bitcoin stance.
+Embrace it: enterprise scaling delivers consistent sovereign blocks, where you control what goes in to the block (and what doesn't).
 
 
 
