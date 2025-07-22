@@ -1,6 +1,6 @@
 # Level 3: Small Farms
 
-A mining farm is a dedicated operation to produce and harvest hashrate -- transforming raw electricity into computational power that secures Bitcoin's network. With a mining farm, you convert energy into hashrate, enforcing the protocol's rules, and claim a larger stake in the zero-sum game of proof-of-work hashing.
+A mining farm is a dedicated operation to produce and harvest hashrate -- transforming raw electricity into computational power that secures Bitcoin's network. With a mining farm, you convert energy into hashrate, enforcing the Bitcoin's rules, and claim a larger stake in the zero-sum game of proof-of-work hashing.
 
 
 
