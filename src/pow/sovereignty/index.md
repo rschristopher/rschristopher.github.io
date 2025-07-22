@@ -1,4 +1,4 @@
-# Sovereignty
+# Sovereignty Levels
 
 If you're sovereign in [saving](../../saving/index.md) and [currency](../../currency/index.md) -- controlling your keys and transacting peer-to-peer with no intermediaries -- but you do not participate in mining (proof-of-work hashing), then you are still trusting third parties to secure your wealth and process your transactions. Bitcoin's proof-of-work hashing is a ruthless, zero-sum competition where miners vie to validate blocks, enforce the supply cap (securing your wealth from inflationary theft), prevent abuse like double-spends, all through sheer computational power. Yet, without joining this fray, your sovereignty remains incomplete -- reliant on anonymous miners for finality and security. Recognize this gap to claim full sovereignty.
 
