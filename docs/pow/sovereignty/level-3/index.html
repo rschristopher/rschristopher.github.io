@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#level-3-demand-response-curtailment" class="md-skip">
+        <a href="#level-3-small-farms" class="md-skip">
           Skip to content
         </a>
       
@@ -2476,6 +2476,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Level 3: Small Farm
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2487,6 +2500,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-and-site-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power and Site Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-small-farms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Small Farms?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2816,6 +2875,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-and-site-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power and Site Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-small-farms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Small Farms?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2830,11 +2924,46 @@
 
 
 
-<h1 id="level-3-demand-response-curtailment">Level 3: Demand Response Curtailment<a class="headerlink" href="#level-3-demand-response-curtailment" title="Permanent link">&para;</a></h1>
-<p>run miners only when doing so is profitable, maximizing hashrate within available (i.e., profitable) power</p>
+<h1 id="level-3-small-farms">Level 3: Small Farms<a class="headerlink" href="#level-3-small-farms" title="Permanent link">&para;</a></h1>
+<p>A mining farm is a dedicated operation to produce and harvest hashrate -- transforming raw electricity into computational power that secures Bitcoin's network. With a mining farm, you convert energy into hashrate, enforcing the protocol's rules, and claim a larger stake in the zero-sum game of proof-of-work hashing.</p>
+<hr />
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<p>Build a small farm with 5-20 large ASIC miners, targeting 1-5 PH/s total hashrate. Focus on high-efficiency models for a setup in a dedicated space with affordable power.</p>
+<p>Potential models (as of July 2025)</p>
+<ul>
+<li><a href="https://shop.bitmain.com/">Bitmain Antminer S21</a> (200 TH/s, 3500W)</li>
+<li><a href="https://whatsminer.com/">MicroBT Whatsminer M60</a> (170 TH/s, 3400W)</li>
+<li><a href="https://canaan.io/">Canaan Avalon A1466</a> (150 TH/s, 3200W)</li>
+<li><a href="https://auradine.com/">Auradine AD250</a> (250 TH/s, 3800W)</li>
+<li><a href="https://terawulf.com/">Teraflux AH3880</a> (380 TH/s, 4500W hydro-cooled)</li>
+</ul>
+<p>These units require industrial-grade infrastructure; prioritize ventilation, noise mitigation, and stable power.</p>
 <div class="admonition warning">
-<p class="admonition-title">work in progress</p>
+<p class="admonition-title">Software for Farm Management</p>
+<p>Managing a small farm of ASICs demands custom software for monitoring and control -- avoid proprietary tools in favor of open-source scripts. Without it, handling multiple rigs becomes chaotic. Comsider the following features:</p>
+<ul>
+<li>miner config -- automatically set the stratum URL and user on each miner. Additionally set network information if needed.</li>
+<li>health checks -- track miner health, hashrate, and logs (calling each miner's API).</li>
+<li>curtailment -- control the power mode. All miners can be put to sleep, and many support a low power mode in addition to the default.</li>
+</ul>
 </div>
+<hr />
+<h2 id="power-and-site-requirements">Power and Site Requirements<a class="headerlink" href="#power-and-site-requirements" title="Permanent link">&para;</a></h2>
+<p>Small farms move beyond toys -- large ASICs consume lots of power and produce extreme heat and noise, rendering garages or desktops unsuitable. Secure a dedicated site like a warehouse or a shed with commercial power and cooling.</p>
+<p>Key requirements:</p>
+<ul>
+<li><strong>Power</strong>: Lock in low-cost electricity (under $0.05/kWh; seek regions like Texas or Iceland). Use high-efficiency PSUs and PDUs; monitor consumption to prevent overloads or skyrocketing bills.</li>
+<li><strong>Cooling</strong>: Implement AC, exhaust systems, or immersion to maintain &lt;40°C; heat buildup kills efficiency and hardware.</li>
+<li><strong>Site</strong>: Wire for 220V+ circuits, surge protection, and rack space. Noise (70-90 dB) needs isolation; comply with local regs for energy or emissions, possibly requiring permits.</li>
+<li><strong>Maintenance</strong>: Equip with dust filters, firmware tools, and safety measures like fire suppression; farms run hot, so plan for regular upkeep.</li>
+</ul>
+<p>Affordable power is the farm's lifeblood -- source it wisely to turn electricity into sustainable hashrate.</p>
+<hr />
+<h2 id="why-small-farms">Why Small Farms?<a class="headerlink" href="#why-small-farms" title="Permanent link">&para;</a></h2>
+<p>Small farms solidify solo sovereignty -- scaled hashrate decentralizes Bitcoin. You can control block templates, prioritize transactions, and bolster resilience against attacks.</p>
+<p>Commit to your farm: it empowers the protocol, protects your assets through amplified work, and defies a fiat mindset (of debt slavery). A small mining farm is your path to sovereignty.</p>
+<hr />
+<p>Advance to <a href="../level-4/">Level 4</a> with your own atratum server (your own private pool).</p>
 
 
 
