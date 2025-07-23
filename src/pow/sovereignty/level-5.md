@@ -1,4 +1,4 @@
-# Level 5: Enterprise Scaling
+# Level 5: Enterprise Scale
 
 Scale your mining farm to enterprise levels, pushing hashrate to find blocks every 2-3 months. This expansion turns your operation into a dominant force, converting massive energy into consistent hashrate, earning Bitcoin while maintaining full sovereignty over your proof-of-work hashrate.
 
