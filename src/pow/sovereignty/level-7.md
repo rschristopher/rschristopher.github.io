@@ -107,8 +107,7 @@ Sophisticated demand response will balance grids, with miners adjusting for peak
 
 Next-gen nuclear will synergize with Bitcoin mining for grid stability -- reactors deliver constant output, while ASICs absorb demand fluctuations as adjustable loads, curtailing during peaks to keep balance. This pairing will enable reliable baseload power, with mining as the flexible buffer for nuclear's steady flow.
 
-- [The Duke Study, Bitcoin Mining, & the Future of Grid Stability](https://www.mara.com/posts/the-duke-study-bitcoin-mining-and-the-future-of-grid-stability)
-- [Nuclear Power and Cryptocurrency Mining 
+- [The Duke Study, Bitcoin Mining, & the Future of Grid Stability](https://www.mara.com/posts/the-duke-study-bitcoin-mining-and-the-future-of-grid-stability) 
 
 
 
