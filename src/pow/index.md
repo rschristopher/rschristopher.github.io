@@ -57,9 +57,9 @@ Simple for individuals or communities in shaky economies, but transaction settle
 
 * [Level 4: Sovereign Pool](sovereignty/level-4.md) -- Host your own stratum server linked to your own node for a fully private solo pool. Can also filter transaction spam from your node's block templates.
 
-* [Level 5: Enterprise Mining](sovereignty/level-5.md) -- Set up mid-sized mining farm with sufficient hashrate to see a block every few months.
+* [Level 5: Enterprise Scale](sovereignty/level-5.md) -- Set up mid-sized mining farm with sufficient hashrate to see a block every few months.
 
-* [Level 6: Industrial Sovereignty](sovereignty/level-6.md) -- Manage massive minng farms with sufficient hashrate to see blocks every week or even daily.
+* [Level 6: Industrial Scale](sovereignty/level-6.md) -- Manage massive minng farms with sufficient hashrate to see blocks every week or even daily.
 
 * [Level 7: Inevitable Future](sovereignty/level-7.md) -- Emerging tech makes hashrate seamless from any device, barrier-free for everyone. Delivers true sovereignty worldwide.
 
