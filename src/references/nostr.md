@@ -31,6 +31,7 @@ npub1w4w9apn7yjd3atqzu3f4umctxpx2u3tcq3uadj2zgxndwavpd49smxj8ar
 
 
 
+---
 
 ## What is Nostr?
 
@@ -61,7 +62,7 @@ Regardless of which Nostr client you use,
 
 
 
-
+---
 
 ## Why is Nostr?
 
@@ -114,7 +115,7 @@ Everything you do and say, both online
  uses that prior generations would have
  only imagined in a sci-fi novel.
 
-!!! example "e.g."
+!!! example "Are you being tracked?"
     Even reading this blog has likely triggered
     dozens of surveillance trackers,
     each adding data to your digital profile
@@ -195,31 +196,69 @@ If you don't think this
 
 
 
-!!! warning "work in progress"
+---
 
 ## Creating Keys
 
-...
+To get started on Nostr, you'll need to generate a public/private key pair. Most Nostr clients can do this for you, or you can use tools like [Nostr Key Generator](https://nostr-keyx.vercel.app/).
+
+Your private key (nsec) is your password -- keep it secret and secure. The public key (npub) is your identity, share it freely.
 
 
 
+
+---
 
 ## Creating a verified username
 
-
+To create a verified username like `user@domain.com`, set up a 
 [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md)
+identifier. This links your public key to a domain you control, proving ownership without central authority.
 
-...
+Steps:
+
+- Add a JSON file to your domain's `.well-known/nostr.json` path with your npub.
+- Update your Nostr profile with the identifier.
+
+This adds credibility, like a blue checkmark but decentralized.
 
 
-[nostr-resources](https://nostr-resources.com/)
-
-
-
-
-
+---
 
 ## Linking to a Lightning Address
 
-...
+Link a Lightning Address to your Nostr profile for seamless zaps (tips) via Bitcoin's Lightning Network. Use services like [walletofsatoshi.com](https://walletofsatoshi.com/) or self-host with [Alby](https://getalby.com/).
+
+In your Nostr client, add the address to your profile. Receivers see it as a zap button -- instant, low-fee payments without intermediaries.
+
+
+
+---
+
+## Nostr Resources
+
+Clients:
+
+- [Damus](https://damus.io/) (iOS)
+- [Amethyst](https://amethyst.social/) (Android)
+- [Primal](https://primal.net/) (Web/Android/iOS)
+- [Iris](https://iris.to/) (Web)
+- [Nostrudel](https://nostrudel.ninja/) (Web)
+
+Relays:
+
+- [Nostr.watch](https://nostr.watch/) (Relay list and status)
+- [wss://relay.damus.io](wss://relay.damus.io)
+- [wss://nos.lol](wss://nos.lol)
+- [wss://nostr-pub.wellorder.net](wss://nostr-pub.wellorder.net)
+
+Other:
+
+- [Nostr Protocol](https://nostr.com/) (Official site)
+- [Nostr NIPs](https://github.com/nostr-protocol/nips) (Improvement proposals)
+- [Nostr Resources](https://nostr-resources.com/) (Guides and tools)
+- [Nostr Band](https://nostr.band/) (Search and stats)
+
+
+
 
