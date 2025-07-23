@@ -119,8 +119,8 @@ nav:
             - "Level 6: Industrial Scale": pow/sovereignty/level-6.md
             - "Level 7: Inevitable Future": pow/sovereignty/level-7.md
         - Appendix: 
-          - "A: Energy Money": pow/appendix/energy-money.md
-          - "A: ASICBoost": pow/appendix/asicboost.md
+          - "A1: Energy Money": pow/appendix/energy-money.md
+          - "A2: ASICBoost": pow/appendix/asicboost.md
     - References: 
         - references/index.md
         - Nostr: references/nostr.md
