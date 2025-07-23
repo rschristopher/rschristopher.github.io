@@ -1,4 +1,4 @@
-# ASICBoost
+# Appendix 2: ASICBoost
 
 Are there any unrealized ASICBoost-like optimizations one could find in existing miners (perhaps in a solo-mining configuration not bound by stratum, such as with custom firmware)?
 
