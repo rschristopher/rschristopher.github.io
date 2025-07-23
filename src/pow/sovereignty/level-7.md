@@ -27,10 +27,8 @@ Open-source stratum servers will advance exactly as open source web servers beca
 
 Open-source custom firmware will become essential, boosting efficiency through adaptive tuning as well as environment specific tuning on future ASICs. This should be as ubiquitous as Linux.
 
-- [Braiins OS+](https://braiins.com/os/plus)
-- [VNish Firmware](https://www.vnish.com/)
-
-
+- [The Miners Guide to Firmware - OBM, Inc](https://obm.io/blog/miners-guide-to-firmware/)
+- [How would you get started on create a custom firmware for a ...](https://bitcointalk.org/index.php?topic=5455747.0)
 
 ---
 
@@ -38,10 +36,8 @@ Open-source custom firmware will become essential, boosting efficiency through a
 
 ASICs will commoditize as manufacturing spreads, with open designs driving costs down. Supply chain tangles will unwind through shared specs and local fabs. This trend will saturate the market with hashrate, breaking monopolies and enabling rapid sovereign scaling.
 
-- [ASIC Miner Value](https://www.asicminervalue.com/)
-- [Hashrate Index](https://hashrateindex.com/asic-index)
-
-
+- [Block's Mining Development Kit](https://block.xyz/blog/mining-development-kit)
+- [Block's Bitcoin Mining System](https://block.xyz/blog/bitcoin-mining-system)
 
 ---
 
@@ -49,21 +45,17 @@ ASICs will commoditize as manufacturing spreads, with open designs driving costs
 
 Open-source hardware like Bitaxe will scale to efficient ASIC designs, moving from prototypes to deployable blueprints. Community repos will solve production hurdles, creating adaptable rigs for any setup. This will dismantle proprietary barriers, sparking a surge in sovereign innovation.
 
-- [Bitaxe](https://bitaxe.org/)
-- [Open Source ASIC Miner Project](https://github.com/open-source-asic-miner)
-
-
+- [skot/bitaxe: Open source ASIC Bitcoin miner hardware - GitHub](https://github.com/skot/bitaxe)
+- [Open Source ASIC Miners: A Blessing For Home BTC Mining?](https://blog.bitfinex.com/education/open-source-asic-miners-a-blessing-for-home-btc-mining/)
 
 ---
 
-## Highly Efficient Custom Miners
+## Custom Miners
 
 Highly efficient custom miners for large deployments will reach 10 J/TH, blending open firmware and hardware with dense cooling. The ecosystem will overcome integration challenges, halving energy use. As designs circulate, these will define industrial sovereignty, rewarding those who refine them.
 
-- [Bitmain Antminer S21 Hydro](https://shop.bitmain.com/product/detail?pid=00020231228102230116d8l8X0T406D8)
-- [MicroBT Whatsminer M63S](https://whatsminer.com/product/m63s/)
-
-
+- [Auradine](https://auradine.com/)
+- [Block's Bitcoin Mining System](https://block.xyz/blog/bitcoin-mining-system)
 
 ---
 
@@ -71,10 +63,8 @@ Highly efficient custom miners for large deployments will reach 10 J/TH, blendin
 
 ASICs will embed in devices like heaters or EVs, hashing idle time in novel ways. Integration delays will end with open hardware, making mining pervasive. This will turn infrastructure into sovereign nodes, bolstering Bitcoin's distributed strength.
 
-- [ASIC-Integrated Heaters](https://heatbit.com/)
-- [Mining in EVs](https://www.teslarati.com/tesla-cybertruck-bitcoin-mining/)
-
-
+- [Creator Of The Bitcoin ASIC Says Next Wave Of Mining Efficiency Is ... - Bitcoin Magazine](https://bitcoinmagazine.com/business/creator-of-the-bitcoin-asic-says-next-wave-of-mining-efficiency-is-coming)
+- [The Rise of ASICs: A Step-by-Step History of Bitcoin Mining](https://www.coindesk.com/tech/2020/04/26/the-rise-of-asics-a-step-by-step-history-of-bitcoin-mining)
 
 ---
 
@@ -82,11 +72,8 @@ ASICs will embed in devices like heaters or EVs, hashing idle time in novel ways
 
 Off-grid mining will tap stranded energy, converting waste gas to hashrate without grid ties. Logistics will be conquered by open-source controls for remote ops. This will profit from untapped resources, proving sovereignty's adaptability in harsh environments.
 
-- [Upstream Data](https://upstreamdata.ca/)
-- [Giga Energy](https://gigaenergy.com/)
-
-
-
+- [Bitcoin Mining – The Answer to Monetizing Stranded Energy?](https://energy-news-network.com/industry-news/bitcoin-mining-the-answer-to-monetizing-stranded-energy/)
+- [From Flare to Fortune: Mining Bitcoin Off-Grid with Stranded Gas](https://braiins.com/blog/from-flare-to-fortune-mining-bitcoin-off-grid-with-stranded-gas)
 
 ---
 
@@ -94,10 +81,8 @@ Off-grid mining will tap stranded energy, converting waste gas to hashrate witho
 
 Sophisticated demand response will balance grids, with miners adjusting for peak payments. Contracts on Lightning will automate this, syncing with stratum for real-time shifts. As refined, mining will become a market stabilizer, adding revenue streams to sovereign operations.
 
-- [ERCOT Demand Response](https://www.ercot.com/services/comm/mktnotices/archives/5483)
-- [Lancium Smart Response](https://lancium.com/technology/)
-
-
+- [VPPs and Flexible Demand Response: Bitcoin Mining Flexes its Capabilities](https://cpowerenergy.com/vpps-and-flexible-demand-response-bitcoin-mining-flexes-its-capabilities/)
+- [Bitcoin mining as a grid resource? 'It's complicated.' - Utility Dive](https://www.utilitydive.com/news/bitcoin-mining-as-a-grid-resource-its-complicated/617896/)
 
 ---
 
@@ -105,10 +90,8 @@ Sophisticated demand response will balance grids, with miners adjusting for peak
 
 Next-gen nuclear will synergize with Bitcoin mining for grid stability -- reactors deliver constant output, while ASICs absorb demand fluctuations as adjustable loads, curtailing during peaks to keep balance. This pairing will enable reliable baseload power, with mining as the flexible buffer for nuclear's steady flow.
 
-- [Oklo and Atomic Alchemy](https://oklo.com/)
-- [NuScale Power](https://www.nuscalepower.com/)
-
-
+- [The Duke Study, Bitcoin Mining, & the Future of Grid Stability](https://www.mara.com/posts/the-duke-study-bitcoin-mining-and-the-future-of-grid-stability)
+- [Nuclear Power and Cryptocurrency Mining - ScottMadden, Inc.](https://www.scottmadden.com/insight/nuclear-power-and-cryptocurrency-mining/)
 
 ---
 
