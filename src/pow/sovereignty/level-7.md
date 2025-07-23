@@ -1,8 +1,16 @@
 # Level 7: Inevitable Future
 
-Picture Bitcoin's hashrate landscape as a brutal arena where only the most innovative survive. With 144 blocks per day, Bitcoin could support up to 50-thousand sovereign miners finding only one block per year, or 4-thousand finding a block a month, or only 144 finding a block daily. In a Pareto distribution, it becomes even more harsh: only 13-thousand miners find at least one block per year, only 1-thousand find a block monthly, and a hyper elite 36 are finding blocks daily (industrial miners).
+Bitcoin's hashrate landscape is a brutal arena where only the most innovative survive. With 144 blocks per day, there could only be 50-thousand small farm sovereign miners each finding one block per year, or 4-thousand enterprise farms finding a block a month, or only 144 industrial farms finding a block daily. 
 
-And the competition is savage. This zero-sum grind demands innovation; the developments below are inevitable, waiting for pioneers to unlock them and claim their edge in the hashrate wars.
+In the expected Pareto distribution, it becomes even more harsh: 
+
+- only 13-thousand small farms find at least one block per year
+- only 1-thousand enterprise farms find a block monthly
+- hyper elite 30-40 industrial farms find blocks approximately daily
+
+The long-tail, potentially millions, would be reduced to lottery miners, yet in aggregate finding blocks daily, millions of hobbyists equal to only one of the industrial farns.
+
+The competition is savage. Staying still will inevitably result in decline from that steep distribution; even an industrial farm will go from finding blocks dauly, to monthly adter a year or so of stagnation. This zero-sum grind demands constant innovation; the developments below are inevitable, waiting for pioneers to claim their edge in this never-ending race.
 
 
 
