@@ -2847,6 +2847,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#nostr-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nostr Resources
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2934,6 +2943,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#nostr-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nostr Resources
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2973,6 +2991,7 @@ For we wrestle not against flesh and blood,
 Or use the following public key,</p>
 <div class="highlight"><pre><span></span><code>npub1w4w9apn7yjd3atqzu3f4umctxpx2u3tcq3uadj2zgxndwavpd49smxj8ar
 </code></pre></div>
+<hr />
 <h2 id="what-is-nostr">What is Nostr?<a class="headerlink" href="#what-is-nostr" title="Permanent link">&para;</a></h2>
 <p>Nostr is a <em>protocol</em> for decentralized social networking.
 In other words, you can use <em>any</em> Nostr client and you'll be
@@ -2996,6 +3015,7 @@ Regardless of which web browser you use,
  you will be looking at the same website.
 Regardless of which Nostr client you use,
  you will be looking at the same Nostr feed.</p>
+<hr />
 <h2 id="why-is-nostr">Why is Nostr?<a class="headerlink" href="#why-is-nostr" title="Permanent link">&para;</a></h2>
 <p>The early Internet was decentralized:
  emails, websites, usenet groups, gopher,
@@ -3044,7 +3064,7 @@ Everything you do and say, both online
  uses that prior generations would have
  only imagined in a sci-fi novel.</p>
 <div class="admonition example">
-<p class="admonition-title">e.g.</p>
+<p class="admonition-title">Are you being tracked?</p>
 <p>Even reading this blog has likely triggered
 dozens of surveillance trackers,
 each adding data to your digital profile
@@ -3116,17 +3136,49 @@ If you don't think this
  all building on top of
  Internet protocols like HTTP.</p>
 <p><img alt="nostrich" src="/images/nostrich.jpeg" /></p>
-<div class="admonition warning">
-<p class="admonition-title">work in progress</p>
-</div>
+<hr />
 <h2 id="creating-keys">Creating Keys<a class="headerlink" href="#creating-keys" title="Permanent link">&para;</a></h2>
-<p>...</p>
+<p>To get started on Nostr, you'll need to generate a public/private key pair. Most Nostr clients can do this for you, or you can use tools like <a href="https://nostr-keyx.vercel.app/">Nostr Key Generator</a>.</p>
+<p>Your private key (nsec) is your password -- keep it secret and secure. The public key (npub) is your identity, share it freely.</p>
+<hr />
 <h2 id="creating-a-verified-username">Creating a verified username<a class="headerlink" href="#creating-a-verified-username" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/nostr-protocol/nips/blob/master/05.md">NIP-05</a></p>
-<p>...</p>
-<p><a href="https://nostr-resources.com/">nostr-resources</a></p>
+<p>To create a verified username like <code>user@domain.com</code>, set up a 
+<a href="https://github.com/nostr-protocol/nips/blob/master/05.md">NIP-05</a>
+identifier. This links your public key to a domain you control, proving ownership without central authority.</p>
+<p>Steps:</p>
+<ul>
+<li>Add a JSON file to your domain's <code>.well-known/nostr.json</code> path with your npub.</li>
+<li>Update your Nostr profile with the identifier.</li>
+</ul>
+<p>This adds credibility, like a blue checkmark but decentralized.</p>
+<hr />
 <h2 id="linking-to-a-lightning-address">Linking to a Lightning Address<a class="headerlink" href="#linking-to-a-lightning-address" title="Permanent link">&para;</a></h2>
-<p>...</p>
+<p>Link a Lightning Address to your Nostr profile for seamless zaps (tips) via Bitcoin's Lightning Network. Use services like <a href="https://walletofsatoshi.com/">walletofsatoshi.com</a> or self-host with <a href="https://getalby.com/">Alby</a>.</p>
+<p>In your Nostr client, add the address to your profile. Receivers see it as a zap button -- instant, low-fee payments without intermediaries.</p>
+<hr />
+<h2 id="nostr-resources">Nostr Resources<a class="headerlink" href="#nostr-resources" title="Permanent link">&para;</a></h2>
+<p>Clients:</p>
+<ul>
+<li><a href="https://damus.io/">Damus</a> (iOS)</li>
+<li><a href="https://amethyst.social/">Amethyst</a> (Android)</li>
+<li><a href="https://primal.net/">Primal</a> (Web/Android/iOS)</li>
+<li><a href="https://iris.to/">Iris</a> (Web)</li>
+<li><a href="https://nostrudel.ninja/">Nostrudel</a> (Web)</li>
+</ul>
+<p>Relays:</p>
+<ul>
+<li><a href="https://nostr.watch/">Nostr.watch</a> (Relay list and status)</li>
+<li><a href="wss://relay.damus.io">wss://relay.damus.io</a></li>
+<li><a href="wss://nos.lol">wss://nos.lol</a></li>
+<li><a href="wss://nostr-pub.wellorder.net">wss://nostr-pub.wellorder.net</a></li>
+</ul>
+<p>Other:</p>
+<ul>
+<li><a href="https://nostr.com/">Nostr Protocol</a> (Official site)</li>
+<li><a href="https://github.com/nostr-protocol/nips">Nostr NIPs</a> (Improvement proposals)</li>
+<li><a href="https://nostr-resources.com/">Nostr Resources</a> (Guides and tools)</li>
+<li><a href="https://nostr.band/">Nostr Band</a> (Search and stats)</li>
+</ul>
 
 
 
