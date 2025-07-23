@@ -2944,7 +2944,7 @@
 
 <h1 id="level-6-industrial-scale">Level 6: Industrial Scale<a class="headerlink" href="#level-6-industrial-scale" title="Permanent link">&para;</a></h1>
 <p>Industrial scale is any mining site with over 10 MW of power, deploying thousands of ASIC miners to achieve high hashrate for frequent blocks. These are typically organized in custom built containers housing hundreds of miners each, allowing modular growth, and requiring intensive power, cooling, and maintenance.</p>
-<p>At this stage, a mining site will directly impact Bitcoin's network difficulty, which will adjust to maintain ~10 minute per block, no matter how much hashrate you bring online.</p>
+<p>At this stage, a mining site will directly impact Bitcoin's network difficulty, which will adjust to maintain ~10 minutes per block, no matter how much hashrate you bring online.</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <p>Deploy multiple mining containers at a 10+ MW site, each with hundreds of ASIC miners (see <a href="../level-3/">Level 3</a>). If we assume these miners are averaging 200 TH/s and 3500 W per unit, this yields ~2,857 miners with at least ~571 PH/s.</p>
@@ -2971,19 +2971,20 @@
 <li>50 MW site (~14,286 miners, ~2.86 EH/s) yields λ ≈ 160 (~3 weekly)</li>
 <li>100 MW site (~28,571 miners, ~5.71 EH/s) yields λ ≈ 320 (~6 weekly)</li>
 </ul>
+<p>Poisson variance means clusters or gaps; scale tightens it somewhat.</p>
 <div class="admonition info">
 <p class="admonition-title">Repair and Redundancy</p>
 <p>On-site repair centers with spares (up to 10% fleet) for hot swaps. Train teams for fan, PSU, control board, or hashboard fixes; downtime loses blocks.</p>
 </div>
 <hr />
 <h2 id="monitoring-shares">Monitoring Shares<a class="headerlink" href="#monitoring-shares" title="Permanent link">&para;</a></h2>
-<p>Log high-difficulty shares to verify farm health -- however at industrial scale we have industrial data demands, share volume is large and you may consider sampling or investing in large data solutions. Consider time-series databases such as Prometheus or InfluxDB, and Grafana for visualization.</p>
+<p>Log high-difficulty shares to verify farm health -- however at industrial scale we have industrial data demands, share volume is large and you may consider sampling or investing in large scale data solutions. Consider time-series databases such as Prometheus or InfluxDB, and Grafana for visualization.</p>
 <p>At this scale, large data solutions will be invaluable to troubleshoot and diagnose issues as they arise.</p>
 <hr />
 <h2 id="why-industrial-scale">Why Industrial Scale?<a class="headerlink" href="#why-industrial-scale" title="Permanent link">&para;</a></h2>
 <p>Industrial scale guarantees blocks -- weekly/daily sovereign blocks from your site(s), untainted. You are effectively the sovereign of your own transactions, making it impossible for anyone to censor your financial transactions (as you can define block templates in a guaranteed block).</p>
-<p>This builds a sovereign reserve, defying volatility and all central planners.
-Embrace it: industrial hashing forges wealth through dominance.</p>
+<p>This builds a sovereign reserve, defying volatility and all central planners. As your hashrate raises network difficulty, it hardens Bitcoin while rewarding efficiency.</p>
+<p>Embrace it: industrial hashing forges wealth through dominance.</p>
 <hr />
 <p>Advance to <a href="../level-7/">Level 7</a> as a pioneer into the inevitable future of proof-of-work hashing.</p>
 
