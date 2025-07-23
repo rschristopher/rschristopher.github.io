@@ -2943,23 +2943,24 @@
 
 
 <h1 id="level-6-industrial-scale">Level 6: Industrial Scale<a class="headerlink" href="#level-6-industrial-scale" title="Permanent link">&para;</a></h1>
-<p>Industrial scale is any mining site over 10 MW, deploying thousands of ASIC miners to achieve high hashrate for frequent blocks. These are typically organized in custom built containers housing hundreds of miners each, allowing modular growth, and requiring intensive power, cooling, and maintenance.</p>
-<p>At this stage, a mining site will directly inpact the network difficulty, which will adjust to maintain ~10 minute per block, no matter how much hashrate you bring online.</p>
+<p>Industrial scale is any mining site with over 10 MW of power, deploying thousands of ASIC miners to achieve high hashrate for frequent blocks. These are typically organized in custom built containers housing hundreds of miners each, allowing modular growth, and requiring intensive power, cooling, and maintenance.</p>
+<p>At this stage, a mining site will directly impact Bitcoin's network difficulty, which will adjust to maintain ~10 minute per block, no matter how much hashrate you bring online.</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Deploy multiple mining containers at a 10+ MW site, each with hundreds of ASIC miners (see <a href="../level-3/">Level 3</a>). If we assume these miners are averaging 200 TH/s and 3500 Watts per unit, this yields ~2,857 miners total with at least ~571 PH/s.</p>
+<p>Deploy multiple mining containers at a 10+ MW site, each with hundreds of ASIC miners (see <a href="../level-3/">Level 3</a>). If we assume these miners are averaging 200 TH/s and 3500 W per unit, this yields ~2,857 miners with at least ~571 PH/s.</p>
 <p>Custom containers:</p>
 <ul>
 <li><a href="https://mineshop.eu/mining-containers/">Mineshop Mining Container</a> (up to 168 S21 miners, advanced airflow)</li>
+<li><a href="https://www.quotecolo.com/bitcoin-miner-container/">20 ft Mining Container</a> (up to 240 miners)</li>
+<li><a href="https://www.quotecolo.com/bitcoin-miner-container/">40 ft Mining Container</a> (up to 300 miners)</li>
 <li><a href="https://www.quotecolo.com/bitcoin-miner-container/">QuoteColo Custom Builds</a> (700-miner units, 1.9MW load)</li>
-<li>... please and more</li>
 </ul>
-<p>Requirements:</p>
+<p>Additional Requirements:</p>
 <ul>
 <li>Facilities: data centers or custom plants with 10+ MW capacity</li>
-<li>Multiple full nodes: <a href="https://bitcoinknots.org/">Bitcoin Knots</a>, at least 2 nodes, well-peered, with large <code>dbcache</code> for fast block propagation.</li>
-<li>Stratum server cluster: <a href="https://bitbucket.org/ckolivas/ckpool/src/master/">CKPool</a> or <a href="https://github.com/benjamin-wilson/public-pool">public-pool</a>, 3-5 servers for load balancing</li>
-<li>Staff... for maintenance, electrical work, security</li>
+<li>Multiple full nodes: <a href="https://bitcoinknots.org/">Bitcoin Knots</a>, at least 2 nodes, well-peered, with large <code>dbcache</code> for fast block propagation. You may also want to consider hosted multi-region nodes in strategic geo-locations for more efficient block propagation.</li>
+<li>Stratum server cluster: <a href="https://bitbucket.org/ckolivas/ckpool/src/master/">CKPool</a> or <a href="https://github.com/benjamin-wilson/public-pool">public-pool</a>, 3-5 servers for load balancing and fault tolerance.</li>
+<li>Staff: at this scale you will need full-time staff for maintenance, IT, electrical work, and security.</li>
 </ul>
 <hr />
 <h2 id="power-and-scaling">Power and Scaling<a class="headerlink" href="#power-and-scaling" title="Permanent link">&para;</a></h2>
@@ -2967,25 +2968,24 @@
 <p>This will scale linearly:</p>
 <ul>
 <li>10 MW site (~2,857 miners, ~571 PH/s) yields λ ≈ 32 blocks/year (~1 every 11 days)</li>
-<li>50 MW site (~14,286 miners, ~2.86 EH/s) yields λ ≈ 160 (~3 weekly).</li>
-<li>100 MW site ...</li>
+<li>50 MW site (~14,286 miners, ~2.86 EH/s) yields λ ≈ 160 (~3 weekly)</li>
+<li>100 MW site (~28,571 miners, ~5.71 EH/s) yields λ ≈ 320 (~6 weekly)</li>
 </ul>
-<p>Poisson variance means clusters or gaps; scale tightens it sonewhat.</p>
 <div class="admonition info">
 <p class="admonition-title">Repair and Redundancy</p>
-<p>On-site repair centers with spares (up to 10% fleet) for hot swaps. Train teams for fan/PSU/control board/hashboard fixes; downtime loses blocks.</p>
+<p>On-site repair centers with spares (up to 10% fleet) for hot swaps. Train teams for fan, PSU, control board, or hashboard fixes; downtime loses blocks.</p>
 </div>
 <hr />
 <h2 id="monitoring-shares">Monitoring Shares<a class="headerlink" href="#monitoring-shares" title="Permanent link">&para;</a></h2>
-<p>Log high-difficulty shares to verify farm health -- however at industrial scale we have industrial data demands, share volume is large and you may consider sampling or investing in large scale data solutions. Consider time-series database such as Prometheus or InfluxDB, and Grafana for visualization.</p>
-<p>At this scale, large data will be invaluable to troubleshoot and diagnose issues as they artive.</p>
+<p>Log high-difficulty shares to verify farm health -- however at industrial scale we have industrial data demands, share volume is large and you may consider sampling or investing in large data solutions. Consider time-series databases such as Prometheus or InfluxDB, and Grafana for visualization.</p>
+<p>At this scale, large data solutions will be invaluable to troubleshoot and diagnose issues as they arise.</p>
 <hr />
 <h2 id="why-industrial-scale">Why Industrial Scale?<a class="headerlink" href="#why-industrial-scale" title="Permanent link">&para;</a></h2>
-<p>Industrial scale guarantees blocks -- weekly/daily sovereign blocks from your site(s), untainted. You are effectively the sovereign of your own transactions, making it impossible for anyone to censor your transactions (as you can define block templates for a guaranteed block).</p>
-<p>This builds a sovereign reserve, defying volatility and all central planners. As your hashrate raises network difficulty, it hardens Bitcoin while rewarding efficiency.</p>
-<p>Embrace it: industrial hashing forges wealth through dominance.</p>
+<p>Industrial scale guarantees blocks -- weekly/daily sovereign blocks from your site(s), untainted. You are effectively the sovereign of your own transactions, making it impossible for anyone to censor your financial transactions (as you can define block templates in a guaranteed block).</p>
+<p>This builds a sovereign reserve, defying volatility and all central planners.
+Embrace it: industrial hashing forges wealth through dominance.</p>
 <hr />
-<p>Advance to <a href="../level-7/">Level 7</a> to lead the way into the inevitable future of proof-of-work hashing.</p>
+<p>Advance to <a href="../level-7/">Level 7</a> as a pioneer into the inevitable future of proof-of-work hashing.</p>
 
 
 
