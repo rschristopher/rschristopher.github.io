@@ -32,8 +32,7 @@ Open-source stratum servers will advance exactly as open source web servers beca
 
 Open-source custom firmware will become essential, boosting efficiency through adaptive tuning as well as environment specific tuning on future ASICs. This will be as ubiquitous as Linux.
 
-- [The Miners Guide to Firmware - OBM, Inc](https://obm.io/blog/miners-guide-to-firmware/)
-- [How would you get started on create a custom firmware for a ...](https://bitcointalk.org/index.php?topic=5455747.0)
+- [ESP-miner](https://github.com/bitaxeorg/ESP-Miner)
 
 
 
@@ -44,8 +43,6 @@ Open-source custom firmware will become essential, boosting efficiency through a
 
 ASICs will commoditize as manufacturing spreads, with open designs driving costs down. Supply chain tangles will unwind through shared specs and local fabs. This trend will saturate the market with hashrate, breaking monopolies and enabling rapid sovereign scaling.
 
-- [Block's Mining Development Kit](https://block.xyz/blog/mining-development-kit)
-- [Block's Bitcoin Mining System](https://block.xyz/blog/bitcoin-mining-system)
 
 
 
@@ -67,7 +64,6 @@ Open-source hardware like Bitaxe will scale to efficient ASIC designs, moving fr
 
 Highly efficient custom miners for large deployments will reach 10 J/TH, blending open firmware and hardware with dense cooling. The ecosystem will overcome integration challenges, halving energy use. As designs circulate, these will define industrial sovereignty, rewarding those who refine them.
 
-- [Block's Bitcoin Mining System](https://block.xyz/blog/bitcoin-mining-system)
 
 
 
@@ -77,7 +73,7 @@ Highly efficient custom miners for large deployments will reach 10 J/TH, blendin
 
 ASICs will embed in devices like heaters or EVs, hashing during idle time. Integration delays will end with open hardware, making mining pervasive. This will turn infrastructure into sovereign nodes, bolstering Bitcoin's distributed strength.
 
-- [Creator Of The Bitcoin ASIC Says Next Wave Of Mining Efficiency Is ... - Bitcoin Magazine](https://bitcoinmagazine.com/business/creator-of-the-bitcoin-asic-says-next-wave-of-mining-efficiency-is-coming)
+- [Next Wave Of Mining Efficiency](https://bitcoinmagazine.com/business/creator-of-the-bitcoin-asic-says-next-wave-of-mining-efficiency-is-coming)
 
 
 
@@ -89,8 +85,7 @@ ASICs will embed in devices like heaters or EVs, hashing during idle time. Integ
 
 Off-grid mining will tap stranded energy, converting waste gas to hashrate without grid ties. Logistics will be conquered by open-source controls for remote ops. This will profit from untapped resources, proving adaptability in harsh environments.
 
-- [Bitcoin Mining – The Answer to Monetizing Stranded Energy?](https://energy-news-network.com/industry-news/bitcoin-mining-the-answer-to-monetizing-stranded-energy/)
-- [From Flare to Fortune: Mining Bitcoin Off-Grid with Stranded Gas](https://braiins.com/blog/from-flare-to-fortune-mining-bitcoin-off-grid-with-stranded-gas)
+- [NYDIG - Digital Flare Mitigation](https://www.nydig.com/research/nydig-expands-technology-capabilities-with-acquisition-of-crusoes-bitcoin-mining-business)
 
 
 
@@ -101,8 +96,7 @@ Off-grid mining will tap stranded energy, converting waste gas to hashrate witho
 
 Sophisticated demand response will balance grids, with miners adjusting for peak payments. Contracts on Lightning will automate this, syncing with stratum for real-time shifts. Mining will become a market stabilizer, adding revenue streams to power grids and related operations.
 
-- [VPPs and Flexible Demand Response: Bitcoin Mining Flexes its Capabilities](https://cpowerenergy.com/vpps-and-flexible-demand-response-bitcoin-mining-flexes-its-capabilities/)
-- [Bitcoin mining as a grid resource? 'It's complicated.' - Utility Dive](https://www.utilitydive.com/news/bitcoin-mining-as-a-grid-resource-its-complicated/617896/)
+- [ERCOT Demamd Response](https://thetexan.news/issues/energy/bitcoin-miner-industrial-users-participated-in-ercot-demand-response-program-during-heat-wave/article_f78f9984-516e-11ee-b1e8-e7d8f44c06d4.html)
 
 
 
@@ -114,11 +108,16 @@ Sophisticated demand response will balance grids, with miners adjusting for peak
 Next-gen nuclear will synergize with Bitcoin mining for grid stability -- reactors deliver constant output, while ASICs absorb demand fluctuations as adjustable loads, curtailing during peaks to keep balance. This pairing will enable reliable baseload power, with mining as the flexible buffer for nuclear's steady flow.
 
 - [The Duke Study, Bitcoin Mining, & the Future of Grid Stability](https://www.mara.com/posts/the-duke-study-bitcoin-mining-and-the-future-of-grid-stability)
-- [Nuclear Power and Cryptocurrency Mining - ScottMadden, Inc.](https://www.scottmadden.com/insight/nuclear-power-and-cryptocurrency-mining/)
+- [Nuclear Power and Cryptocurrency Mining 
+
+
 
 ---
 
-These developments are inevitable -- the problems will be solved, reshaping Bitcoin's zero-sum battlefield. In a world of dense energy progress, sovereignty belongs to those who adapt and innovate.
+These developments are inevitable -- the problems will be solved, reshaping Bitcoin's proof-of-work zero-sum arena. In a world of dense energy progress, sovereignty belongs to those who adapt and innovate.
+
+
+
 
 
 
