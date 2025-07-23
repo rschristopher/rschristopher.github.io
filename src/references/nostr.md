@@ -201,7 +201,7 @@ If you don't think this
 
 ## Creating Keys
 
-To get started on Nostr, you'll need to generate a public/private key pair. Most Nostr clients can do this for you, or you can use tools like [Nostr Key Generator](https://nostr-keyx.vercel.app/).
+To get started on Nostr, you'll need to generate a public/private key pair. Most Nostr clients can do this for you.
 
 Your private key (nsec) is your password -- keep it secret and secure. The public key (npub) is your identity, share it freely.
 
@@ -228,7 +228,7 @@ This adds credibility, like a blue checkmark but decentralized.
 
 ## Linking to a Lightning Address
 
-Link a Lightning Address to your Nostr profile for seamless zaps (tips) via Bitcoin's Lightning Network. Use services like [walletofsatoshi.com](https://walletofsatoshi.com/) or self-host with [Alby](https://getalby.com/).
+Link a Lightning Address to your Nostr profile for seamless zaps (tips) via Bitcoin's Lightning Network. Use services like [Wallet of Satoshi](https://walletofsatoshi.com/) or self-host with [Alby](https://getalby.com/).
 
 In your Nostr client, add the address to your profile. Receivers see it as a zap button -- instant, low-fee payments without intermediaries.
 
