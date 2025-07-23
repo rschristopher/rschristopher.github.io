@@ -19,6 +19,7 @@ Follow me on
  [`isbitcointrue.com`](https://iris.to/isbitcointrue.com)
  identifier,
  using your preferred Nostr client.
+
 Or use the following public key,
 
 ```
