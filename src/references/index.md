@@ -35,10 +35,10 @@ Finding pure signal amid the noise is challenging, but sticking to time-tested, 
 
 + [The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720)
 + [The Creature from Jekyll Island](https://www.amazon.com/Creature-Jekyll-Island-Federal-Reserve/dp/091298645X)
-+ [The Ethics of Money Production](https://www.amazon.com/Ethics-Money-Production-Jörg-Guido-Hülsmann/dp/1610164520)
-+ [De Moneta of Nicholas Oresme](https://www.amazon.com/Treatise-Origin-Nature-Legal-Money/dp/B0006D3E9A)
-+ [The History of the Decline and Fall of the Roman Empire](https://www.amazon.com/History-Decline-Fall-Roman-Empire/dp/0140437649)
-+ [Wealth of Nations](https://www.amazon.com/Wealth-Nations-Adam-Smith/dp/0553585975)
++ [The Ethics of Money Production](https://a.co/d/cV7mIVz)
++ [De Moneta of Nicholas Oresme](https://a.co/d/bPzoKQa)
++ [The History of the Decline and Fall of the Roman Empire](https://en.m.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire)
++ [Wealth of Nations](https://a.co/d/5xk2PfQ)
 + [What Has Government Done to Our Money?](https://www.amazon.com/What-Has-Government-Done-Money/dp/1610166450)
 + [Denationalisation of Money](https://www.amazon.com/Denationalisation-Money-Argument-F-Hayek/dp/B002697AZG)
 + [The Theory of Money and Credit](https://www.amazon.com/Theory-Money-Credit-Ludwig-Mises/dp/1620871610)
@@ -56,10 +56,10 @@ Finding pure signal amid the noise is challenging, but sticking to time-tested, 
 *that are actually worth reading*
 
 + [The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861)
-+ [Bitcoin is Venice](https://www.amazon.com/Bitcoin-Venice-Essays-Future-Money/dp/B09W5F3YNP)
-+ [Bullish Case for Bitcoin](https://www.amazon.com/Bullish-Case-Bitcoin-Vijay-Boyapati/dp/B0948LPS85)
-+ [Bitcoin Clarity](https://www.amazon.com/Bitcoin-Clarity-Kiwi-Spatz/dp/1093761423)
-+ [Inventing Bitcoin](https://www.amazon.com/Inventing-Bitcoin-Technology-Decentralized-Explained/dp/1794327487)
++ [Bitcoin is Venice](https://a.co/d/3q180xM)
++ [Bullish Case for Bitcoin](https://a.co/d/1qAkcdb)
++ [Bitcoin Clarity](https://a.co/d/icAvqPJ)
++ [Inventing Bitcoin](https://a.co/d/4rLGZ05)
 + [Programming Bitcoin](https://www.amazon.com/Programming-Bitcoin-Learn-Program-Scratch/dp/1492031496)
 
 
