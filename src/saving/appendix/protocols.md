@@ -1,7 +1,5 @@
 # Appendix 1: Protocols
 
-Example protocols
-
 + [Basic](protocol_basic.md) -- an airgap quarantine using a singlesig seedsigner, achieves [Level 6](../sovereignty/level-6.md).
 + [Advanced](protocol_advanced.md) -- an airgap quarantine with redundant 2-of-3 multisig, achieves [Level 9](../sovereignty/level-9.md).
 + [Ridiculous](protocol_ridiculous.md) -- physical and electronic countermeasures in a 3-of-5 multisig, achieves [Level 11](../sovereignty/level-11.md).
