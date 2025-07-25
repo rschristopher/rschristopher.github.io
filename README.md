@@ -4,6 +4,8 @@ by R.S. Christopher
 ## TODO
 + https://github.com/3rdIteration/btcrecover
 + Hashrate Sovereignty Calculator
++ Channel caoecity planner
++ Custody planner
 
 
 
