@@ -3,11 +3,7 @@ by R.S. Christopher
 
 ## TODO
 + https://github.com/3rdIteration/btcrecover
-+ protocols
-+ simplify!
-  + savings
-  + spending
-  + pow
++ Hashrate Sovereignty Calculator
 
 
 
