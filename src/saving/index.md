@@ -68,6 +68,11 @@ Below is an overview of the levels along with
  how much a reasonable person should
  feel comfortable with at each level).
 
+
+
+
+---
+
 ## Sovereignty Levels
 
 * [Level 1: Getting Started](sovereignty/level-1.md) -- Save Bitcoin on a reputable exchange (a small amount that you can risk losing).
@@ -76,6 +81,11 @@ Below is an overview of the levels along with
 * [Level 4: Full Node Plus](sovereignty/level-4.md) -- Save Bitcoin and run your own node (as much as you'd be comfortable hiding under your mattress).
 * [Level 5: Airgap Quarantine](sovereignty/level-5.md) -- Save Bitcoin with greater security than any bank ever could (as much as you'd be comfortable hiding under your mattress).
 * [Level 6: Metal Backup](sovereignty/level-6.md) -- Save Bitcoin with metal backups that can survive a house fire and/or natural disaster (as much as your house is worth).
+
+
+
+
+---
 
 ## Wealth Preservation
 
@@ -86,7 +96,7 @@ Before advancing to higher levels of
  strategies,
  because at this level you should also
  be thinking about
- *privacy, inheritance planning,
+ *your children, inheritance planning,
  and physical security*.
 
 Level 7 and above are use-case specific
@@ -98,6 +108,10 @@ At this point you can already store any
  with more security than any bank or
  institutional custody system could ever offer.
 
+
+
+---
+
 ## Advanced Sovereignty Levels
 * [Level 7: Multisig Protocols](sovereignty/level-7.md) -- Protocols to manage the complexity of multi-signature keys.
 * [Level 8: DMZs](sovereignty/level-8.md) -- Keep your full-node and transaction-manager completely safe from untrusted devices on your network.
@@ -106,6 +120,9 @@ At this point you can already store any
 * [Level 11: Countermeasures](sovereignty/level-11.md) -- Electronic countermeasures to safeguard against "NSA-level" threats.
 * [Level 12: Off-grid](sovereignty/level-12.md) -- Receive-only (e.g., satellite) nodes with offline transaction management requiring remote and geographically distributed key signing and redundant online drop-points (points to transmit).
 
+
+
+---
 
 Before you begin this journey and question everything you thought you knew about money,
  you may want to first
