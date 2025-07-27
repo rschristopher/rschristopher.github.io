@@ -77,6 +77,11 @@ As teens mature, deepen their understanding of Bitcoin sovereignty by exploring 
 
 These activities empower teens as stewards, preparing them for sovereign saving and linking to the site's levels for lifelong learning.
 
+
+
+
+---
+
 Teaching Bitcoin equips kids for a sound money future, strengthening family bonds through shared learning. Start small, adapt to your child's interest, and model how to save for the future. 
 For advanced custody, explore sovereignty levels. 
 In the end, you're not just saving money -- you're building legacies of wisdom and faith.
