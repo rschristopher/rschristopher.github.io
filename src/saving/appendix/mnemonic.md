@@ -58,6 +58,10 @@ SeedSigner’s airgapped, stateless design ensures secure transactions:
 - **Sign Transactions**: Create transactions on a stateless [Transaction-Manager](airgapped-computer.md) (Tails OS), transfer via QR to SeedSigner, and sign using your memorized seed.
 - **Support for Multisig**: Use with [multisig setups](../sovereignty/level-7.md) for enhanced security, leveraging SeedSigner’s stateless operation.
 
+
+
+---
+
 A memorized seed, reinforced by spaced repetition, turns your mind into an unassailable vault. 
 Paired with SeedSigner, your Bitcoin remains invisibly secure through any crisis, ready for any storm.
 
