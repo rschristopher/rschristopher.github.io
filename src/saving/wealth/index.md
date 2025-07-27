@@ -34,7 +34,7 @@ Imagine a world where each generation adds to the family stack rather than deple
 
 - **Compounding Scarcity**: As technology drives abundance in goods and services, Bitcoin's fixed supply captures that value. Holders don't need to sell; they can collateralize (e.g., borrow against BTC without triggering taxes) to fund life while preserving the principal. This "buy, borrow, die" strategy minimizes erosion, allowing wealth to grow exponentially.
 - **Immunity to Fiat Flaws**: No inflation tax, no debasement -- Bitcoin is "forever money" for family offices seeking decades-long stability. It's portable, divisible, and disaster-proof, unlike real estate vulnerable to fires or taxes.
-- **Cultural Shift**: Bitcoin fosters responsibility and education. Families discuss seed phrases and multisig setups as rites of passage, not just wills. Heirs learn to HODL, building on inheritance rather than spend it. Tools like smart contract wills ensure seamless transfers without lawyers or lost keys.
+- **Cultural Shift**: Bitcoin fosters responsibility and education. Families discuss seed phrases and multisig setups as rites of passage, not just wills. Heirs learn to HODL, building on inheritance rather than spend it. Custom tooling can enable seamless transfers without lawyers or lost keys.
 
 
 
