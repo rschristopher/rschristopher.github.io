@@ -2,9 +2,9 @@
 by R.S. Christopher
 
 ## TODO
-+ Hashrate Sovereignty Calculator
-+ Channel capacity planner
-+ Custody planner
++ Sovereign Hashrate Calculator
++ Sovereign Channel Calculator
++ Sovereign Custody Calculator
 
 
 
