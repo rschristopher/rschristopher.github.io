@@ -7,7 +7,8 @@ by R.S. Christopher
 + Sovereign Channel Calculator
 + Sovereign Custody Calculator
 + Re-hashers: stratum, Merkle, block
-+ Dice to Seed Phrase (with entropy check)
++ Dice to Seed Phrase (with entropy)
++ gun analogy, signing device and ceremony requires practice
 
 <!--
 Lord Jesus Christ
