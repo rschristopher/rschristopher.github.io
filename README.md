@@ -1,4 +1,4 @@
-# First Key TX
+# Covenant Key
 True Bitcoin Sovereignty 
 by R.S. Christopher
 
@@ -9,6 +9,10 @@ by R.S. Christopher
 + Re-hashers: stratum, Merkle, block
 + Dice to Seed Phrase (with entropy)
 + gun analogy, signing device and ceremony requires practice
+
+
+
+
 
 <!--
 Lord Jesus Christ
