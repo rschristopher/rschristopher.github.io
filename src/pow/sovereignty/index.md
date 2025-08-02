@@ -15,7 +15,7 @@ You broadcast transactions via wallet software or block explorers, trusting mine
 
 ---
 
-# Dangers of Passivity
+## Dangers of Passivity
 
 !!! quote "The Man in the Arena, Teddy Roosevelt"
     It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. 
