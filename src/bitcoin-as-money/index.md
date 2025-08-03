@@ -21,6 +21,10 @@ It must be so superior that it's ascent is
 
 
 
+
+
+---
+
 ## Global Money
 
 Money is the technology that makes known the
@@ -57,6 +61,10 @@ This means attempts to ban it must fail,
  its monetary policy.
 
 
+
+
+
+---
 
 ## Gold and Silver
 
@@ -99,6 +107,12 @@ This limitation gives rise to an inevitable
 
 
 
+
+
+
+
+
+---
 
 ## Petrodollar
 
@@ -165,6 +179,7 @@ Unlike gold and silver, the petrodollar
 
 
 
+---
 
 ## Fiat Interregnum 
 
