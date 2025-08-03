@@ -41,6 +41,11 @@ The problems of fiat money run deep,
  Science and Innovation --
 and yes, even *modern art*.
 
+
+
+
+---
+
 ## Even modern art?
 
 ???+ warning "modern art under fiat"
@@ -77,6 +82,11 @@ and yes, even *modern art*.
     And most importantly, 
     find out where that money came from.
     
+
+
+
+
+---
 
 ## Where does money come from?
 
@@ -180,6 +190,11 @@ The real question becomes,
 
 
 
+
+
+
+---
+
 ## The terrifying truth
 
 *If* Bitcoin is true, it is almost too terrifying to contemplate.
@@ -279,6 +294,7 @@ One cannot control money without controlling the
 
 
 
+---
 
 ## "Bitcoin fixes this"
 
@@ -325,6 +341,11 @@ For Bitcoin to be true, *everything* must be verifiable.
 
 
 
+
+
+
+---
+
 ## Why not other Cryptocurrencies?
 
 Altcoins are not attempting to solve 
@@ -361,6 +382,10 @@ Anything less than that would prove
  Bitcoin false.
 
 
+
+
+
+---
 
 ## What if Bitcoin is false?
 
