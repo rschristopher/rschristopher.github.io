@@ -1,8 +1,8 @@
 # -*- mode: yaml -*-
 # vim: set filetype=yaml tabstop=4 shiftwidth=4 autoindent smartindent:
-site_name: "Is Bitcoin True?"
+site_name: "Bitcoin is True"
 site_url: https://rschristopher.github.io/
-site_description: "Is Bitcoin True?"
+site_description: "Bitcoin is True"
 site_author: RS Christopher
 docs_dir: src
 site_dir: docs
