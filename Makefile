@@ -3,7 +3,7 @@
 build: clean
 	mkdir -p docs/.well-known
 	poetry run mkdocs build
-	echo -n 'isbitcointrue.com' > docs/CNAME
+	echo -n 'bitcoinistrue.com' > docs/CNAME
 	cp _config.yml docs/_config.yml
 	cp nostr.json docs/.well-known/nostr.json
 
