@@ -11,6 +11,11 @@ Bitcoin
  fixes all of the problems of fiat money,
  *even modern art*.
 
+
+
+
+---
+
 ## The problem of fiat money
 
 Bitcoin was designed to
