@@ -14,9 +14,9 @@ For we wrestle not against flesh and blood,
 # Nostr
 
 Follow me on 
- [Nostr](https://iris.to/isbitcointrue.com)
+ [Nostr](https://iris.to/bitcoinistrue.com)
  with the self-verified
- [`isbitcointrue.com`](https://iris.to/isbitcointrue.com)
+ [`bitcoinistrue.com`](https://iris.to/bitcoinistrue.com)
  identifier,
  using your preferred Nostr client.
 
