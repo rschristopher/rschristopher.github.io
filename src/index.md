@@ -33,6 +33,11 @@ And we will go as deep as
 
 
 
+
+
+
+---
+
 ## Who is R.S. Christopher?
 
 *Reprobus Saint Christopher*, the dog-headed
@@ -61,6 +66,11 @@ And even now St. Christopher helps travelers and
 ![St Christopher](/images/st-christopher.jpg)
 
 
+
+
+
+
+---
 
 ## Who are you, really?
 
