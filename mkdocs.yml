@@ -38,31 +38,10 @@ theme:
     favicon: images/favicon.png
 
 nav:
-    - Money: 
+    - Home: 
         - index.md
-        - Is Bitcoin True?: is-bitcoin-true.md
-        - Bitcoin as Money: 
-          - bitcoin-as-money/index.md
-          - Unit of Account: bitcoin-as-money/unit-of-account.md
-          - Medium of Exchange: bitcoin-as-money/medium-of-exchange.md
-          - Store of Value: bitcoin-as-money/store-of-value.md
-          - Fixed Supply: bitcoin-as-money/fixed-supply.md
-          - Monetary Policy: bitcoin-as-money/monetary-policy.md
-          - Money and State: bitcoin-as-money/money-and-state.md
-          - In the Year 2140: bitcoin-as-money/in-the-year-2140.md
-        - Criticisms:
-          - criticisms/index.md
-          - Bitcoin is not Perfect: criticisms/bitcoin-not-perfect.md
-          - Cantillon Bubbles: criticisms/cantillon.md
-          - Deflation: criticisms/deflation.md
-          - Environment: criticisms/environment.md
-          - Inequality: criticisms/inequality.md
-          - Mining is Negative Sum: criticisms/mining-zero-sum.md
-          - Quantum Computing: criticisms/quantum-computing.md
-          - Scalability: criticisms/scalability.md
-          - Surveillance: criticisms/surveillance.md
-          - Toxic Maximalists: criticisms/toxic-maxis.md
-          - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
+        - Services: services.md
+        - Prices: prices.md
     - Saving:
         - saving/index.md
         - Understand the Terms: saving/understand-the-terms.md
@@ -121,9 +100,36 @@ nav:
         - Appendix: 
           - "A1: Energy Money": pow/appendix/energy-money.md
           - "A2: ASICBoost": pow/appendix/asicboost.md
-    - References: 
-        - references/index.md
-        - Nostr: references/nostr.md
+    - Articles:
+        - articles/index.md
+        - Is Bitcoin True?: articles/is-bitcoin-true.md
+        - Bitcoin as Money: 
+          - bitcoin-as-money/index.md
+          - Unit of Account: bitcoin-as-money/unit-of-account.md
+          - Medium of Exchange: bitcoin-as-money/medium-of-exchange.md
+          - Store of Value: bitcoin-as-money/store-of-value.md
+          - Fixed Supply: bitcoin-as-money/fixed-supply.md
+          - Monetary Policy: bitcoin-as-money/monetary-policy.md
+          - Money and State: bitcoin-as-money/money-and-state.md
+          - In the Year 2140: bitcoin-as-money/in-the-year-2140.md
+        - Criticisms:
+          - criticisms/index.md
+          - Bitcoin is not Perfect: criticisms/bitcoin-not-perfect.md
+          - Cantillon Bubbles: criticisms/cantillon.md
+          - Deflation: criticisms/deflation.md
+          - Environment: criticisms/environment.md
+          - Inequality: criticisms/inequality.md
+          - Mining is Negative Sum: criticisms/mining-zero-sum.md
+          - Quantum Computing: criticisms/quantum-computing.md
+          - Scalability: criticisms/scalability.md
+          - Surveillance: criticisms/surveillance.md
+          - Toxic Maximalists: criticisms/toxic-maxis.md
+          - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
+    - About: 
+        - about/index.md
+        - Contact: about/contact.md
+        - Nostr: about/nostr.md
+        - References: about/references.md
 
 markdown_extensions:
   - admonition

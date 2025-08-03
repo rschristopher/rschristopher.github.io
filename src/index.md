@@ -1,4 +1,4 @@
-# Is Bitcoin True?
+# Bitcoin Is True
 
 *by* ***R.S. Christopher***
 
