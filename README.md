@@ -1,4 +1,4 @@
-# Bitcoin Is True
+# Bitcoin is True
 True Bitcoin Sovereignty 
 by R.S. Christopher
 
@@ -7,7 +7,7 @@ by R.S. Christopher
 + Sovereign Channel Calculator
 + Sovereign Custody Calculator
 + Re-hashers: stratum, Merkle, block
-+ Dice to Seed Phrase (with entropy) -- covenantkey
++ Dice to Seed (with entropy) -- covenantkey
 + gun analogy, signing device and ceremony requires practice
 
 
