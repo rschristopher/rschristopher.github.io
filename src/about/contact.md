@@ -29,10 +29,15 @@ We help people get there — or build it themselves with confidence.
 Want to ask a question or propose a project?
 
 <div style="text-align: center; margin: 2em 0;">
-  <a href="mailto:hello@bitcoinistrue.com" class="md-button md-button--primary">
-    Email Us
-  </a>
+  <a href="#" id="email-link" class="md-button md-button--primary">Email Us</a>
+  <script>
+    const user = "hello";
+    const domain = "bitcoinistrue.com";
+    const link = document.getElementById("email-link");
+    link.setAttribute("href", "mailto:" + user + "@" + domain);
+  </script>
 </div>
+
 
 
 
