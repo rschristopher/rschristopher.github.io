@@ -19,6 +19,7 @@ Want to ask a question or propose a project?
      class="md-button md-button--primary" rel="noopener noreferrer" target="_blank">
     Signal
   </a>
+  <a href="/about/nostr/" class="md-button md-button--primary">Nostr</a>
   <script>
     const user = "hello";
     const domain = "bitcoinistrue.com";
@@ -37,6 +38,8 @@ Want to ask a question or propose a project?
 ## PGP (optional)
 
 For sensitive communication, reach out by email and request our public PGP key.
+
+
 
 
 
