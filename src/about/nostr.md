@@ -13,7 +13,7 @@ For we wrestle not against flesh and blood,
 
 # Nostr
 
-Follow me on 
+Follow us on 
  [Nostr](https://iris.to/bitcoinistrue.com)
  with the self-verified
  [`bitcoinistrue.com`](https://iris.to/bitcoinistrue.com)
