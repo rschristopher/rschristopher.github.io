@@ -28,7 +28,7 @@ Custom vault design (single-sig or multisig), signing device setup, airgap quara
 **Inheritance Planning** – *from $2500*  
 Walkthrough of key handoff, survivorship design, protocol docs, and family onboarding.
 
-**Ongoing Support Retainer** – *$1,000/month*  
+**Ongoing Support Retainer** – *from $1,000/month*  
 Ongoing access, quarterly check-ins, and emergency coordination help.
 
 
