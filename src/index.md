@@ -27,12 +27,11 @@ If your Bitcoin is on an exchange or with a custodian, it isn't truly yours.
 Bitcoin enables complete sovereignty.
 We're here to help you:
 
-- Design a secure multisig vault
 - Set up cold storage the right way
 - Understand inheritance planning
 - Gain confidence handling your keys
 
-You will learn to do it yourself. We make sure you do it right.
+You will learn to do it yourself, from simple to the most advanced multisig protocols imaginable. We make sure you do it right.
 
 
 
@@ -45,11 +44,10 @@ Accepting Bitcoin should be seamless and sovereign.
 We help you integrate:
 
 - Lightning Network payments
-- BTCPay Server setups
 - Self-hosted infrastructure
 - Full ownership of your payment stack
 
-Whether you're a merchant, freelancer, or enterprise, we help you eliminate middlemen -- permanently.
+Whether you're a merchant, freelancer, or supplier, we help you eliminate middlemen -- permanently.
 
 
 
@@ -60,12 +58,11 @@ Whether you're a merchant, freelancer, or enterprise, we help you eliminate midd
 
 We offer mining solutions ranging from residential setups to industrial deployments:
 
-- Understanding ASICs
-- Managing a mining farm
-- Remote monitoring dashboards
 - True solo mining
+- Remote monitoring dashboards
+- Demand-response curtailment
 
-Gain complete sovereignty by processing your own transactions, generating your own block templates without fear of censorship, and directing sufficient hashrate to your own solo mining pool.
+Gain complete sovereignty by settling your own transactions, generating your own block templates without fear of censorship, and directing sufficient hashrate to your own solo mining pool.
 
 
 
@@ -94,12 +91,15 @@ You'll never be dependent on us -- we're here only when you need us.
 
 ## Ready to Take the First Step?
 
-We’ll walk you through it.
+<div style="text-align: center; margin: 2em 0;">
+  <a href="about/contact/" class="md-button md-button--primary">
+    Request a Consultation
+  </a>
+</div>
 
-[Request a Consultation](about/contact.md){ .md-button .md-button--primary }
 
 > “They helped me move millions off-exchange securely, with confidence. I sleep better now.”  
-> — Private client, pseudonymous
+> — Private client
 
 
 
@@ -108,12 +108,12 @@ We’ll walk you through it.
 
 ## Learn on Your Own
 
-We provide complete details covering all sovereignty levels -- helpful for beginners to even the most advanced users looking to strengthen their existing setup.
+We provide complete details covering all sovereignty levels -- helpful for beginners to even the most advanced users looking to strengthen their setup.
 
-If you're new to Bitcoin and willing to learn more, there's plenty of [articles](/articles/index.md) and references to help you understand the deeper and often terrifying truth of our broken monetary system, and how to leverage Bitcoin to gain true sovereignty over your wealth.
+If you're new to Bitcoin and willing to learn more, there's plenty of [articles](/articles/index.md) and references to help you understand the deeper and often terrifying truth of our broken banking system, and how to leverage Bitcoin to gain true sovereignty over your wealth.
 
 > Your Bitcoin. Your keys. Your responsibility.  
-> And you don’t have to figure it all out alone.
+
 
 
 
