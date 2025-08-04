@@ -6,72 +6,131 @@ Have mercy on me
 a sinner
 -->
 
+
+**Straightforward. Transparent. Optional.**
+
+You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing. No hidden fees. No “call for quote.”
+
+We charge based on time and scope, not complexity. Pricing below gives examples of what typical engagements look like.
+
+
+
+
 ---
-title: Bitcoin is True - Secure Your Wealth with Expert Bitcoin Consulting
-description: Empower your financial future with bespoke Bitcoin self-custody, payment integration, and mining solutions for high net worth individuals. Discover white-glove consulting from Bitcoin is True.
+
+## 💼 Individual & Family Clients
+
+For clients who want help with secure storage, inheritance planning, or mining at home.
+
+**Starter Vault Session** – *$500*  
+One-hour 1:1 call to review your setup or walk you through a new one.  
+Includes follow-up notes and resources.
+
+**Cold Storage Setup** – *from $1,500*  
+Custom vault design (single-sig or multisig), hardware wallet configuration, and backup strategies.
+
+**Inheritance Planning Add-on** – *+ $750*  
+Walkthrough of key handoff, survivorship design, and family onboarding.
+
+**Ongoing Support Retainer** – *$1,000/month*  
+Ongoing access, quarterly check-ins, and emergency coordination help.
+
+
+
+
 ---
 
-# Bitcoin is True {: .hero-title }
+## 🏢 Business & Enterprise Clients
 
-!!! hero "Take Control of Your Wealth in the Bitcoin Era"
-    As a high net worth individual, you understand the stakes: inflation erodes fiat, centralized systems falter, and true financial sovereignty demands action. **Bitcoin is True** delivers tailored consulting—self-custody, payment integration, and mining—crafted for HNWI who demand security, efficiency, and growth. Our white-glove service ensures your Bitcoin journey is seamless, private, and profitable.
+For businesses accepting Bitcoin, holding it on balance sheet, or integrating it into operations.
 
-    [:material-phone: Schedule Your Confidential Consultation](#contact-us){ .md-button .md-button--primary }
+**BTCPay Server Setup** – *$2,000–$4,000*  
+Self-hosted deployment, payment flows, staff walkthrough.
 
-## Why Bitcoin? Why Now? {: .section-title }
+**Lightning Node & Channel Strategy** – *from $3,000*  
+Node setup, routing design, and liquidity support.
 
-Bitcoin isn't just a currency—it's a revolution. With adoption soaring (over 50% of Fortune 500 companies now hold crypto) and regulatory clarity emerging, high net worth individuals are securing their wealth against uncertainty. But true sovereignty requires more than a wallet; it demands expertise to navigate risks and maximize opportunities.
+**Infrastructure Review / Audit** – *$1,500 flat*  
+Review existing setup, identify risks, and propose improvements.
 
-Bitcoin can empower you to:
+**Team Training & SOPs** – *Custom pricing*  
+Workshops or documentation tailored to your operational needs.
 
-- **Own Your Wealth:** Achieve ironclad self-custody with custom setups that protect against hacks, seizures, or custodial failures.
-- **Transact with Ease:** Integrate Bitcoin payments for your business or lifestyle, leveraging Lightning Network for near-zero fees.
-- **Grow Your Portfolio:** Unlock passive income through optimized mining operations, tailored to your scale and goals.
 
-Our clients -- CEOs, family offices, and ultra-HNWI -- trust us to deliver bespoke solutions backed by years of Bitcoin expertise. Don’t settle for generic tools when you can have a partner who understands your unique needs.
 
-[:material-book-open: Explore Our Self-Custody Guides](articles/self-custody-basics.md){ .md-button }
 
-## Why Choose Bitcoin is True? {: .section-title }
+---
 
-!!! feature-grid
-    === "Unmatched Security"
-        [:material-lock:](#){ .md-icon }
-        Custom multi-signature wallets and hardware solutions (e.g., Coldcard, Trezor) with end-to-end encryption. We exceed industry standards to safeguard your wealth.
+## ⛏️ Mining Setup Support
 
-    === "Bespoke Solutions"
-        [:material-code-braces:](#){ .md-icon }
-        Tailored software development for your specific needs—whether it’s a private wallet app or automated mining dashboards.
+For individuals or teams looking to run miners independently.
 
-    === "White-Glove Service"
-        [:material-handshake:](#){ .md-icon }
-        Dedicated account managers, on-site support, and 24/7 monitoring ensure a seamless experience, from setup to optimization.
+**ASIC Acquisition & Setup Guidance** – *$500/hour*  
+We help you choose hardware, firmware, pool, and layout strategy.
 
-    === "Proven Expertise"
-        [:material-star:](#){ .md-icon }
-        Our team contributes to Bitcoin’s open-source ecosystem and partners with top miners, bringing you cutting-edge insights.
+**Residential Mining Walkthrough** – *from $1,500*  
+Includes electrical, physical, and monitoring setup overview.
 
-## What Our Clients Say {: .section-title }
+**Colocation Planning Session** – *$750/hour*  
+Cover contracts, hosting risks, remote monitoring, and ROI modeling.
 
-> “Bitcoin is True transformed our family office’s approach to digital assets. Their self-custody setup is bulletproof, and their mining guidance delivers consistent returns.”  
-> — *Anonymous HNWI, Tech Founder*
+We don’t sell miners. We help you use them well.
 
-> “Integrating Bitcoin payments for our global e-commerce platform was effortless with their bespoke APIs. Fees dropped by 85%, and we’re now hedged against fiat volatility.”  
-> — *Family Office CFO*
 
-[:material-file-document: Read Our Case Studies](articles/case-studies.md){ .md-button }
 
-## Sovereignty is Within Reach {: .section-title }
 
-You *can* master Bitcoin yourself—our [technical articles](articles/index.md) provide the tools for free. But for HNWI seeking speed, precision, and exclusivity, our one-on-one consulting delivers unmatched value. From custom self-custody to turnkey mining operations, we handle the complexity so you can focus on your legacy.
+---
 
-!!! cta "Ready to Secure Your Bitcoin Future?"
-    Join the elite who trust **Bitcoin is True** for sovereignty and success. Schedule a no-obligation consultation today and discover how we can tailor Bitcoin to your life.
+## 🧰 Custom Projects
 
-    [:material-email: Request a Quote](#contact-us){ .md-button .md-button--primary } [:material-book: Dive into Our Mining Guides](articles/mining-101.md){ .md-button }
+Bespoke software, dashboards, scripting, or integration work is available in limited capacity.
 
-## Contact Us {: #contact-us .section-title }
+**Custom Development** – *$350/hour or project-based*  
+All code is client-owned, documented, and open-source friendly.
 
-Fill out our secure form for a personalized audit, or reach us directly at [consulting@bitcoinistrue.com](mailto:consulting@bitcoinistrue.com). Prefer Bitcoin payments? We offer a 5% incentive.
 
-[:material-form: Get Started Now](contact.md){ .md-button .md-button--primary }
+
+
+---
+
+## 🧭 Not Sure What You Need?
+
+Start with a consultation. We’ll help you scope it.
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="about/contact/" class="md-button md-button--primary">
+    Request a Consultation
+  </a>
+</div>
+
+
+
+---
+
+## FAQ
+
+**Do you offer flat-fee packages?**  
+Yes — for custody setups, BTCPay deployments, and small engagements.
+
+**Can you work with multisig I already started?**  
+Absolutely. We’re happy to review or refine an existing setup.
+
+**Do you ever take custody or hold client keys?**  
+No. Never.
+
+**Do you charge more if the amount held is high?**  
+No. Pricing is based on scope, not assets. In fact, do not ever disclose your exact assets, that's between you and your loved ones, nrver with us.
+
+**Is your pricing negotiable?**  
+If you’re working on something aligned with our mission, reach out. We care more about helping the right people than maxing out invoices.
+
+
+
+
+---
+
+> Bitcoin is free to use. But getting it right takes time.  
+> We're here if you want help.
+
+
+
