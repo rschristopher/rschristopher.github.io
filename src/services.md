@@ -25,8 +25,6 @@ As a sovereign, you will never be dependent on us. We are here to help you gain 
 
 ## Saving
 
-**Self-custody for real ownership and long-term security.**
-
 Bitcoin isn’t savings unless you hold your own keys. We help clients take control of their custody setups — with careful attention to privacy, durability, and independence from custodians or custodial hardware/software platforms.
 
 We offer guidance on:
@@ -66,15 +64,13 @@ This isn’t about gimmicks — it’s about making Bitcoin useful, fast, and so
 
 ## Proof of Work
 
-**Run miners, support the network, build hashrate — on your terms.**
+**Run miners, support the network, build hashrate — as a true sovereign.**
 
 Bitcoin mining is for everyone, not just institutions. But the incentives only work if your setup is intentional. We help clients approach mining from first principles, reflecting the same values that guide custody and payments: decentralization, privacy, and independence.
 
-Depending on your context, we offer:
-
 - Guidance on acquiring and setting up ASICs
 - Introduction to firmware and pool selection
-- Layout advice for home or colocated deployment
+- Tooling for demand-response curtailment
 - Monitoring and planning based on your actual goals
 
 We do not run hosted miners. We help you run your own.
