@@ -13,7 +13,9 @@ a sinner
 We work with individuals and businesses who want to take real ownership of their wealth -- no custodians, no compromises. From secure self-custody to sovereign payments and mining infrastructure, we provide personalized guidance, bespoke tools, and complete setups designed around your goals.
 
 <div style="text-align: center; margin: 2em 0;">
+    
 [Request a Consultation :fontawesome-solid-paper-plane:](about/contact.md){ .md-button .md-button--primary }
+
 </div>
 
 
