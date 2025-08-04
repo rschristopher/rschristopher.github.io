@@ -6,11 +6,11 @@ Have mercy on me
 a sinner
 -->
 
+Want to ask a question or propose a project?
+
 - One-on-one consulting
 - Custom software and automation tools
 - Private support for those who need it
-
-Want to ask a question or propose a project?
 
 <div style="text-align: center; margin: 2em 0;">
   <a href="#" id="email-link" class="md-button md-button--primary">Email</a>
