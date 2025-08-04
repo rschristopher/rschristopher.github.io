@@ -7,7 +7,6 @@ a sinner
 -->
 
 - One-on-one consulting
-- Bespoke infrastructure guidance
 - Custom software and automation tools
 - Private support for those who need it
 
