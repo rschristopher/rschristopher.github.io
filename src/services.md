@@ -13,7 +13,7 @@ We help individuals, families, and businesses take real ownership of their Bitco
 As a sovereign, you will never be dependent on us. We are here to help you gain true sovereignty.
 
 <div style="text-align: center; margin: 2em 0;">
-  <a href="about/contact/" class="md-button md-button--primary">
+  <a href="/about/contact/" class="md-button md-button--primary">
     Request a Consultation
   </a>
 </div>
@@ -23,7 +23,7 @@ As a sovereign, you will never be dependent on us. We are here to help you gain 
 
 ---
 
-## 🏦 Saving
+## Saving
 
 **Self-custody for real ownership and long-term security.**
 
@@ -37,7 +37,7 @@ We offer guidance on:
 - Secure key storage and recovery practices
 - Minimizing reliance on any single vendor or company
 
-The goal is not just "not your keys, not your coins" — it’s knowing that your setup will still work ten years from now, and that your heirs can access it when needed.
+The goal is not just "not your keys, not your coins" — it’s knowing that your setup will still work decades from now, and that your loved ones can access it when needed.
 
 
 
@@ -46,11 +46,9 @@ The goal is not just "not your keys, not your coins" — it’s knowing that you
 
 ## ⚡ Currency
 
-**Use Bitcoin in your business or life — without giving up control.**
+**Use Bitcoin as a payment layer -- without giving up control.**
 
 Most payment integrations are custodial at some level — hosted wallets, fiat ramps, cloud servers. We help you move toward self-hosted, sovereign systems that reflect Bitcoin’s design.
-
-We help clients:
 
 - Deploy BTCPay Server on your own infrastructure
 - Set up Lightning nodes and connect to relevant peers
@@ -66,7 +64,7 @@ This isn’t about gimmicks — it’s about making Bitcoin useful, fast, and so
 
 ---
 
-## ⛏️ Proof of Work
+## Proof of Work
 
 **Run miners, support the network, build hashrate — on your terms.**
 
@@ -85,7 +83,7 @@ We do not run hosted miners. We help you run your own.
 
 ---
 
-## 🧰 Custom Projects
+## Custom Projects
 
 Some clients need more. We occasionally take on bespoke work — custom dashboards, scripting, or integrations — where we can offer clear value and stay aligned with our principles.
 
@@ -100,25 +98,25 @@ If you’re building something serious and sovereign, we may be able to help.
 
 ---
 
-## 🤝 Consultation & Ongoing Support { #consultation }
+## Consultation
 
 We offer flexible, one-on-one consulting for clients who want to skip the rabbit hole but still get it right:
 
-- Vault design sessions
+- Custody design sessions
 - Payment infrastructure walkthroughs
 - Mining setup strategy calls
-- Retainer-style engagements for teams or family offices
+- Retainer-style engagements
 
 Our [pricing](prices.md) is simple and predictable. Start by telling us what you’re trying to accomplish.
 
 <div style="text-align: center; margin: 2em 0;">
-  <a href="about/contact/" class="md-button md-button--primary">
+  <a href="/about/contact/" class="md-button md-button--primary">
     Request a Consultation
   </a>
 </div>
 
 
-Not ready to engage? No problem. We have provided sufficient articles and references for you to do this yourself. We are passionate about the full stack of Bitcoin (from ethos to code).
+Planning to do it yourself? No problem. We have provided sufficient articles and references for you to do all of this yourself. We are passionate about the full stack of Bitcoin (from ethos to code), and are available to help should you need expert guidance.
 
 
 
