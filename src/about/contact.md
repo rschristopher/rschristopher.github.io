@@ -30,6 +30,10 @@ Want to ask a question or propose a project?
 
 <div style="text-align: center; margin: 2em 0;">
   <a href="#" id="email-link" class="md-button md-button--primary">Email Us</a>
+    <a href="https://signal.me/#eu/qS1E69S_iE0mbK1xtevXnIblf74i7ClvUJcDod5mquCB2Qni8rFCaZbh5WxOdOV9" 
+     class="md-button md-button--primary" rel="noopener noreferrer" target="_blank">
+    Signal
+  </a>
   <script>
     const user = "hello";
     const domain = "bitcoinistrue.com";
