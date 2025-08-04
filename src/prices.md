@@ -7,9 +7,9 @@ a sinner
 -->
 
 
-**Straightforward. Transparent.**
+**Straightforward. Transparent. No bullshit**
 
-You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing. No hidden fees. No “call for quote.” No bullshit.
+You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing.
 
 We charge based on time and scope, not complexity. Pricing below gives examples of what typical engagements look like.
 
