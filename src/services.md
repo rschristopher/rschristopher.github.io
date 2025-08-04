@@ -6,107 +6,119 @@ Have mercy on me
 a sinner
 -->
 
+**Bitcoin is simple. Doing it right isn't.**
 
-# Bitcoin is True
+We help individuals, families, and businesses take real ownership of their Bitcoin -- without custodians, centralized dependencies, or unnecessary third parties. Everything we do is rooted in helping clients understand and execute their own sovereignty path, one piece at a time.
 
-**Sovereignty is a skill. We help you master it.**
+As a sovereign, you will never be dependent on us. We are here to help you gain true sovereignty.
 
-We work with individuals and businesses who want to take real ownership of their Bitcoin -- no custodians, no compromises. From secure self-custody to sovereign payments and mining infrastructure, we provide personalized guidance, battle-tested tools, and complete setups designed around your goals.
-
-[Request a Consultation](../services/#request-a-consultation){ .md-button .md-button--primary }
-
----
-
-## Why Self-Custody Matters
-
-If your Bitcoin is on an exchange or with a custodian, it isn't truly yours.  
-We're here to help you:
-
-- Design a secure multisig vault
-- Set up cold storage the right way
-- Understand inheritance planning
-- Gain confidence handling your keys
-
-You'll leatn to do it yourself. We make sure you do it right.
+<div style="text-align: center; margin: 2em 0;">
+  <a href="about/contact/" class="md-button md-button--primary">
+    Request a Consultation
+  </a>
+</div>
 
 
 
 
 ---
 
-## Bitcoin Payments, Done Right
+## 🏦 Saving
 
-Accepting Bitcoin should be seamless and sovereign.  
-We help you integrate:
+**Self-custody for real ownership and long-term security.**
 
-- Lightning Network payments
-- BTCPay Server setups
-- Self-hosted infrastructure
-- Full ownership of your payment stack
+Bitcoin isn’t savings unless you hold your own keys. We help clients take control of their custody setups — with careful attention to privacy, durability, and independence from custodians or custodial hardware/software platforms.
 
-Whether you're a merchant, freelancer, or enterprise, we help you eliminate middlemen—permanently.
+We offer guidance on:
 
+- Wallet selection and cold storage workflows
+- Multisig setups with coordinator independence
+- Inheritance strategies that don’t rely on third parties
+- Secure key storage and recovery practices
+- Minimizing reliance on any single vendor or company
 
-
----
-
-## Private Bitcoin Mining
-
-Run your own miner. Generate your own Bitcoin.  
-We offer mining solutions ranging from residential setups to colocated deployments:
-
-- ASIC sourcing and optimization
-- Immersion and noise-reduction strategies
-- Remote monitoring dashboards
-- Profitability modeling and custom tuning
-
-Build your own citadel -- one hash at a time.
+The goal is not just "not your keys, not your coins" — it’s knowing that your setup will still work ten years from now, and that your heirs can access it when needed.
 
 
 
 
 ---
 
-## One-on-One Guidance
+## ⚡ Currency
 
-Bitcoin is for everyone. So is sovereignty.
+**Use Bitcoin in your business or life — without giving up control.**
 
-We work with clients who want:
+Most payment integrations are custodial at some level — hosted wallets, fiat ramps, cloud servers. We help you move toward self-hosted, sovereign systems that reflect Bitcoin’s design.
 
-- A secure self-custody setup with no guesswork
-- Custom infrastructure and automation tools
-- Peace of mind in an increasingly uncertain world
+We help clients:
 
-You're not dependent on us—but we're here when you need us.
+- Deploy BTCPay Server on your own infrastructure
+- Set up Lightning nodes and connect to relevant peers
+- Design payment flows that avoid SaaS reliance
+- Understand privacy tradeoffs in receiving and spending
+- Integrate Bitcoin payments into real businesses, cleanly
 
-[Explore Services](../services/index.md){ .md-button }
-[See Pricing](../pricing/index.md){ .md-button }
+This isn’t about gimmicks — it’s about making Bitcoin useful, fast, and sovereign at the same time.
+
+
+
+
+
+---
+
+## ⛏️ Proof of Work
+
+**Run miners, support the network, build hashrate — on your terms.**
+
+Bitcoin mining is for everyone, not just institutions. But the incentives only work if your setup is intentional. We help clients approach mining from first principles, reflecting the same values that guide custody and payments: decentralization, privacy, and independence.
+
+Depending on your context, we offer:
+
+- Guidance on acquiring and setting up ASICs
+- Introduction to firmware and pool selection
+- Layout advice for home or colocated deployment
+- Monitoring and planning based on your actual goals
+
+We do not run hosted miners. We help you run your own.
+
+
+
+---
+
+## 🧰 Custom Projects
+
+Some clients need more. We occasionally take on bespoke work — custom dashboards, scripting, or integrations — where we can offer clear value and stay aligned with our principles.
+
+- Open-source–oriented, maintainable code
+- Built for long-term independence, not support lock-in
+- Always with full source control and client ownership
+
+If you’re building something serious and sovereign, we may be able to help.
 
 
 
 
 ---
 
-## Ready to Take the First Step?
+## 🤝 Consultation & Ongoing Support { #consultation }
 
-We’ll walk you through it—or walk you through doing it yourself.
+We offer flexible, one-on-one consulting for clients who want to skip the rabbit hole but still get it right:
 
-[Request a Consultation](../services/#request-a-consultation){ .md-button .md-button--primary }
+- Vault design sessions
+- Payment infrastructure walkthroughs
+- Mining setup strategy calls
+- Retainer-style engagements for teams or family offices
 
-> “They helped me move millions off-exchange securely, with confidence. I sleep better now.”  
-> — Private client, pseudonymous
+Our [pricing](prices.md) is simple and predictable. Start by telling us what you’re trying to accomplish.
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="about/contact/" class="md-button md-button--primary">
+    Request a Consultation
+  </a>
+</div>
 
 
+Not ready to engage? No problem. We have provided sufficient articles and references for you to do this yourself. We are passionate about the full stack of Bitcoin (from ethos to code).
 
----
-
-## Learn on Your Own
-
-Not ready to engage? We publish **free, technical guides** on Bitcoin custody, mining, payments, and infrastructure.
-
-Start learning today in the [Articles](/articles/) section.
-
-> Your Bitcoin. Your keys. Your responsibility.  
-> But you don’t have to figure it all out alone.
 
 
