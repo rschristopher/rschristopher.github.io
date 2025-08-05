@@ -8,61 +8,25 @@ a sinner
 -->
 
 
+
+We work with individuals and businesses who want to take real ownership of their wealth -- no custodians, no compromises. 
+If your Bitcoin is on an exchange or with a custodian, it isn't truly yours. 
+We provide personalized guidance, bespoke tools, and complete setups designed around your sovereignty goals.
+
 **Sovereignty is a skill. We help you master it.**
 
-We work with individuals and businesses who want to take real ownership of their wealth -- no custodians, no compromises. From secure self-custody to sovereign payments and mining infrastructure, we provide personalized guidance, bespoke tools, and complete setups designed around your goals.
+
+> “They helped me move millions off-exchange securely, with confidence. I sleep better now.”  
+> -- Private client
+
 
 <div style="text-align: center; margin: 2em 0;">
-  <a href="about/contact/" class="md-button md-button--primary">
+  <a href="/about/contact/" class="md-button md-button--primary">
     Request a Consultation
   </a>
 </div>
 
 
----
-
-## Why Self-Custody Matters
-
-If your Bitcoin is on an exchange or with a custodian, it isn't truly yours. 
-Bitcoin enables complete sovereignty.
-We're here to help you:
-
-- Set up cold storage the right way
-- Understand inheritance planning
-- Gain confidence handling your keys
-
-You will learn to do it yourself, from simple to the most advanced multisig protocols imaginable. We make sure you do it right.
-
-
-
-
----
-
-## Bitcoin Payments, Done Right
-
-Accepting Bitcoin should be seamless and sovereign.  
-We help you integrate:
-
-- Lightning Network payments
-- Self-hosted infrastructure
-- Full ownership of your payment stack
-
-Whether you're a merchant, freelancer, or supplier, we help you eliminate middlemen -- permanently.
-
-
-
-
----
-
-## Private Bitcoin Mining
-
-We offer mining solutions ranging from residential setups to industrial deployments:
-
-- True solo mining
-- Remote monitoring dashboards
-- Demand-response curtailment
-
-Gain complete sovereignty by settling your own transactions, generating your own block templates without fear of censorship, and directing sufficient hashrate to your own solo mining pool.
 
 
 
@@ -72,7 +36,13 @@ Gain complete sovereignty by settling your own transactions, generating your own
 ## One-on-One Guidance
 
 Bitcoin is for everyone. So is sovereignty.
+Bitcoin enables complete sovereignty.
+From secure self-custody to payments and mining infrastructure -- we provide complete details covering all sovereignty levels.
 
+For those wanting expert guidance, we offer [services](services.md) at competitive [prices](prices.md)
+ -- helpful for beginners to even the most advanced users looking to strengthen their setup.
+
+Whether you're a merchant, supplier, high-net worth individual or business, we can help you eliminate middlemen -- permanently.
 We work with clients who want:
 
 - A secure self-custody setup with no guesswork
@@ -81,38 +51,34 @@ We work with clients who want:
 
 You'll never be dependent on us -- we're here only when you need us.
 
-[Explore Services](services.md){ .md-button }
-[See Pricing](prices.md){ .md-button }
-
-
-
-
----
-
-## Ready to Take the First Step?
-
 <div style="text-align: center; margin: 2em 0;">
-  <a href="about/contact/" class="md-button md-button--primary">
-    Request a Consultation
+  <a href="/services/" class="md-button">
+    Services
+  </a>
+  <a href="/prices/" class="md-button">
+    Pricing
   </a>
 </div>
 
 
-> “They helped me move millions off-exchange securely, with confidence. I sleep better now.”  
-> — Private client
-
-
 
 
 ---
 
-## Learn on Your Own
+## Ready to Learn More?
 
-We provide complete details covering all sovereignty levels -- helpful for beginners to even the most advanced users looking to strengthen their setup.
-
-If you're new to Bitcoin and willing to learn more, there's plenty of [articles](/articles/index.md) and references to help you understand the deeper and often terrifying truth of our broken banking system, and how to leverage Bitcoin to gain true sovereignty over your wealth.
+If you're new to Bitcoin and willing to learn more, there's plenty of [articles](articles/index.md) and references to help you understand the deeper and often terrifying truth of our broken banking system,
+ and how to leverage Bitcoin to gain true sovereignty over your wealth.
 
 > Your Bitcoin. Your keys. Your responsibility.  
+
+
+
+
+
+
+
+
 
 
 

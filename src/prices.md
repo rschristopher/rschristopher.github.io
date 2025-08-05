@@ -10,8 +10,8 @@ a sinner
 **Straightforward. Transparent. No bullshit**
 
 You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing.
-
-We charge based on time and scope, not complexity. Pricing below gives examples of what typical engagements look like.
+We charge based on time and scope, not complexity. 
+Pricing below gives examples of what typical engagements look like.
 
 
 
@@ -112,7 +112,7 @@ If you’re working on something aligned with our mission, reach out. We care mo
 
 ---
 
-## Not Sure What You Need?
+*Not Sure What You Need?*
 
 Start with a consultation. We’ll help you scope it.
 
