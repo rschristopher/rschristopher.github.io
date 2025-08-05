@@ -86,7 +86,7 @@ We often take on bespoke work
  -- custom dashboards, custom integrations 
  -- if you’re building something serious and sovereign, we may be able to help.
 
-- Open-source–oriented, maintainable code
+- Open-source friendly, maintainable code
 - Built for long-term independence, not support lock-in
 - Always with full source control and client ownership
 
@@ -112,8 +112,7 @@ Our [pricing](prices.md) is simple and predictable. Start by telling us what you
 
 No problem. 
 We provide articles and references for you to do all of this yourself. 
-We are passionate about the full stack of Bitcoin sovereignty (from ethos to code).
-And we are available to help should you need it.
+We are passionate about the full stack of Bitcoin sovereignty (from ethos to code) and are available to help.
 
 
 
