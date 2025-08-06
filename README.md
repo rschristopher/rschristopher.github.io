@@ -10,46 +10,11 @@ by R.S. Christopher
 + Dice to Seed (with entropy) -- covenantkey
 + gun analogy, signing device and ceremony requires practice
 
-
-
-
-
 <!--
 Lord Jesus Christ
 Son of God
 Have mercy on me, a sinner
-
-create call-to-action, create business,
- IFF God wills it to be
-
 -->
-
-```
-[Home]
-Services, pricing
-Footer with PGP/contact/social
-
-[Saving]
-
-[Currency]
-
-[Proof-of-Work]
-
-[Articles]
-Bitcoin as Money
-Criticisms
-
-[About]
-Background, Ethos, Approach
-Contact
-References
-Nostr
-```
-
-"We work discreetly with select clients — schedule a no-obligation discovery call."
-
-“Want help implementing this level? [Schedule a call]”
-
 
 
 
