@@ -38,7 +38,7 @@ Self-hosted deployment, payment flows, staff walkthrough.
 **Lightning Node & Channel Strategy** – *from $3,000 <span id="lightningSats"></span>*  
 Node setup, routing design, and liquidity support.
 
-**Infrastructure Review / Audit** – *$1,500 flat <span id="auditSats"></span>*  
+**Infrastructure Review / Audit** – *$1,500 <span id="auditSats"></span>*  
 Review existing setup, identify risks, and propose improvements.
 
 **Team Training & SOPs** – *$300 <span id="trainingSats"></span>/hour*  
