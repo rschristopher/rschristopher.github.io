@@ -3148,8 +3148,8 @@ a sinner
 <p><strong>Straightforward. Transparent. No bullshit</strong></p>
 <p>You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing. We charge based on time and scope, not complexity. Pricing below gives examples of what typical engagements look like.</p>
 <div class="admonition warning">
-<p class="admonition-title">Fiat Volatility: 1 BTC = 100M sats = <span id="btcPrice"></span></p>
-<p>Fiat currencies are extremely volatile and unstable, distorting price discovery in every market; and until Bitcoin becomes a global <a href="../bitcoin-as-money/unit-of-account/">unit of account</a> we will do our best to provide fair prices for services (payable in Bitcoin).</p>
+<p class="admonition-title">Fiat Volatility: 1 BTC = 100M sats = <span id="btcPrice">???</span></p>
+<p>Fiat currencies are extremely volatile and unstable, distorting price discovery in every market; and until Bitcoin becomes a global <a href="../bitcoin-as-money/unit-of-account/">unit of account</a>, we will do our best to provide fair prices for services (payable in Bitcoin).</p>
 </div>
 <hr />
 <h2 id="self-custody">Self Custody<a class="headerlink" href="#self-custody" title="Permanent link">&para;</a></h2>
@@ -3157,7 +3157,7 @@ a sinner
 <p><strong>Cold Storage Setup</strong> – <em>from $1,500 <span id="coldStorageSats"></span></em><br />
 Custom vault design (single-sig or multisig), signing device setup, airgap quarantine, and backup strategies.</p>
 <p><strong>Inheritance Planning</strong> – <em>from $2,500 <span id="inheritanceSats"></span></em><br />
-Walkthrough of key handoff, survivorship design, protocol docs, and family onboarding.</p>
+Cold storage setup, survivorship design, protocol docs, and family onboarding.</p>
 <p><strong>Ongoing Support Retainer</strong> – <em>from $1,000 <span id="retainerSats"></span>/month</em><br />
 Ongoing access, quarterly check-ins, and emergency coordination help.</p>
 <hr />
@@ -3168,22 +3168,22 @@ Self-hosted deployment, payment flows, staff walkthrough.</p>
 Node setup, routing design, and liquidity support.</p>
 <p><strong>Infrastructure Review / Audit</strong> – <em>$1,500 flat <span id="auditSats"></span></em><br />
 Review existing setup, identify risks, and propose improvements.</p>
-<p><strong>Team Training &amp; SOPs</strong> – <em>$500 <span id="trainingSats"></span> per hour or project based</em><br />
+<p><strong>Team Training &amp; SOPs</strong> – <em>$300 <span id="trainingSats"></span>/hour</em><br />
 Workshops and documentation tailored to your operational needs.</p>
 <hr />
 <h2 id="mining">Mining<a class="headerlink" href="#mining" title="Permanent link">&para;</a></h2>
-<p><strong>ASIC Acquisition &amp; Setup Guidance</strong> – <em>$500 <span id="asicSats"></span> per hour</em><br />
+<p><strong>ASIC Acquisition &amp; Setup Guidance</strong> – <em>$300 <span id="asicSats"></span>/hour</em><br />
 We help you choose hardware, firmware, pool, and layout strategy.</p>
 <p><strong>Residential Mining Walkthrough</strong> – <em>from $1,500 <span id="miningWalkthroughSats"></span></em><br />
 Includes electrical, physical, and monitoring setup overview.</p>
-<p><strong>Colocation Planning Session</strong> – <em>$500 <span id="colocationSats"></span> per hour</em><br />
+<p><strong>Colocation Planning Session</strong> – <em>$300 <span id="colocationSats"></span>/hour</em><br />
 Cover contracts, hosting risks, remote monitoring, and ROI modeling.</p>
 <p>We don’t sell miners. We help you use them well and become a true <a href="../pow/sovereignty/">sovereign</a>.</p>
 <hr />
 <h2 id="custom-projects">Custom Projects<a class="headerlink" href="#custom-projects" title="Permanent link">&para;</a></h2>
-<p>Bespoke software, dashboards, scripting, or integration work is available in limited capacity.</p>
-<p><strong>Custom Development</strong> – <em>$500 <span id="customDevSats"></span> per hour or project-based</em><br />
+<p>Bespoke software, dashboards, scripting, or integration work is available in limited capacity.
 All code is client-owned, documented, and open-source friendly.</p>
+<p><strong>Custom Development</strong> – <em>$300 <span id="customDevSats"></span>/hour</em>  </p>
 <hr />
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
 <p><strong>Do you offer flat-fee packages?</strong><br />
@@ -3197,7 +3197,7 @@ No. Pricing is based on scope, not assets. In fact, do not ever disclose your ex
 <p><strong>Is your pricing negotiable?</strong><br />
 If you’re working on something aligned with our mission, reach out. We care more about helping the right people than maxing out invoices.</p>
 <p><strong>Can I pay in Bitcoin or sats?</strong><br />
-Yes! We accept payments in Bitcoin (via on-chain or Lightning). Sats prices are shown for convenience and updated dynamically based on market rates. Contact us for payment details.</p>
+Yes! We accept payments in Bitcoin (via on-chain or Lightning).</p>
 <hr />
 <p><em>Not Sure What You Need?</em><br />
 Start with a consultation. We’ll help you scope it.</p>
@@ -3276,11 +3276,11 @@ async function updatePrices() {
         document.getElementById('btcPaySats').textContent = formatSats(2000 * satsPerUsd);
         document.getElementById('lightningSats').textContent = formatSats(3000 * satsPerUsd);
         document.getElementById('auditSats').textContent = formatSats(1500 * satsPerUsd);
-        document.getElementById('trainingSats').textContent = formatSats(500 * satsPerUsd);
-        document.getElementById('asicSats').textContent = formatSats(500 * satsPerUsd);
+        document.getElementById('trainingSats').textContent = formatSats(300 * satsPerUsd);
+        document.getElementById('asicSats').textContent = formatSats(300 * satsPerUsd);
         document.getElementById('miningWalkthroughSats').textContent = formatSats(1500 * satsPerUsd);
-        document.getElementById('colocationSats').textContent = formatSats(500 * satsPerUsd);
-        document.getElementById('customDevSats').textContent = formatSats(500 * satsPerUsd);
+        document.getElementById('colocationSats').textContent = formatSats(300 * satsPerUsd);
+        document.getElementById('customDevSats').textContent = formatSats(300 * satsPerUsd);
     } catch (error) {
         console.error('Error fetching Bitcoin price:', error);
         // Leave spans empty on error for graceful degradation
@@ -3289,7 +3289,7 @@ async function updatePrices() {
     }
 }
 
-document.getElementById('btcPrice').textContent = '???';
+document.getElementById('btcPrice').textContent = '...';
 
 // Call on page load
 updatePrices();
