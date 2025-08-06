@@ -12,7 +12,6 @@ We offer services to help individuals, families, and businesses take real owners
 Everything we do is rooted in helping clients understand and execute their own sovereignty path, one piece at a time.
 
 As a sovereign, you will never be dependent on us. We are here to help you gain true sovereignty.
-**Bitcoin is simple. Doing it right isn't.**
 
 
 
