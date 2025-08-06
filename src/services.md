@@ -20,7 +20,7 @@ As a sovereign, you will never be dependent on us. We are here to help you gain 
 ## [🔐 Saving](saving/index.md)
 
 Bitcoin isn’t yours unless you hold your own keys. 
-We help clients take control of their custody setups — with careful attention to privacy, durability, and independence from custodians or custodial hardware/software platforms.
+We help clients take control of their custody setups — with careful attention to privacy, durability, and independence from custodial hardware/software platforms.
 
 - Wallet selection and cold storage workflows
 - Multisig setups with coordinator independence
@@ -69,7 +69,7 @@ We help clients approach mining from first principles, reflecting the same value
 - Tooling for demand-response curtailment
 - Monitoring and planning based on your actual goals
 
-We do not run hosted miners. We help you run your own.
+We do not run hosted miners. We help you run your own, and reach true sovereignty.
 
 [Sovereign of your own Work](pow/index.md){ .md-button }
 
