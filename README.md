@@ -3,11 +3,9 @@ True Bitcoin Sovereignty
 by R.S. Christopher
 
 ## TODO
-+ Sovereign Hashrate Calculator
-+ Sovereign Channel Calculator
++ Sovereign Channel Planner
 + Sovereign Custody Calculator
 + Re-hashers: stratum, Merkle, block
-+ Dice to Seed (with entropy) -- covenantkey
 + gun analogy, signing device and ceremony requires practice
 
 <!--
