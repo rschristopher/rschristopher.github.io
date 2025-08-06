@@ -3145,43 +3145,44 @@ Lord Jesus Christ, Son of the Living God
 Have mercy on me
 a sinner
 -->
-
 <p><strong>Straightforward. Transparent. No bullshit</strong></p>
-<p>You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing.
-We charge based on time and scope, not complexity. 
-Pricing below gives examples of what typical engagements look like.</p>
+<p>You don’t need us to use Bitcoin well -- but if you want one-on-one support, we offer it at competitive, transparent pricing. We charge based on time and scope, not complexity. Pricing below gives examples of what typical engagements look like.</p>
+<div class="admonition warning">
+<p class="admonition-title">Fiat Volatility: 1 BTC = 100M sats = <span id="btcPrice"></span></p>
+<p>Fiat currencies are extremely volatile and unstable, distorting price discovery in every market; and until Bitcoin becomes a global <a href="../bitcoin-as-money/unit-of-account/">unit of account</a> we will do our best to provide fair prices for services (payable in Bitcoin).</p>
+</div>
 <hr />
 <h2 id="self-custody">Self Custody<a class="headerlink" href="#self-custody" title="Permanent link">&para;</a></h2>
 <p>For clients who want help with self custody, inheritance planning, and securing their keys.</p>
-<p><strong>Cold Storage Setup</strong> – <em>from $1,500</em><br />
+<p><strong>Cold Storage Setup</strong> – <em>from $1,500 <span id="coldStorageSats"></span></em><br />
 Custom vault design (single-sig or multisig), signing device setup, airgap quarantine, and backup strategies.</p>
-<p><strong>Inheritance Planning</strong> – <em>from $2500</em><br />
+<p><strong>Inheritance Planning</strong> – <em>from $2,500 <span id="inheritanceSats"></span></em><br />
 Walkthrough of key handoff, survivorship design, protocol docs, and family onboarding.</p>
-<p><strong>Ongoing Support Retainer</strong> – <em>from $1,000/month</em><br />
+<p><strong>Ongoing Support Retainer</strong> – <em>from $1,000 <span id="retainerSats"></span>/month</em><br />
 Ongoing access, quarterly check-ins, and emergency coordination help.</p>
 <hr />
 <h2 id="payments">Payments<a class="headerlink" href="#payments" title="Permanent link">&para;</a></h2>
-<p><strong>BTCPay Server Setup</strong> – <em>from $2,000</em><br />
+<p><strong>BTCPay Server Setup</strong> – <em>from $2,000 <span id="btcPaySats"></span></em><br />
 Self-hosted deployment, payment flows, staff walkthrough.</p>
-<p><strong>Lightning Node &amp; Channel Strategy</strong> – <em>from $3,000</em><br />
+<p><strong>Lightning Node &amp; Channel Strategy</strong> – <em>from $3,000 <span id="lightningSats"></span></em><br />
 Node setup, routing design, and liquidity support.</p>
-<p><strong>Infrastructure Review / Audit</strong> – <em>$1,500 flat</em><br />
+<p><strong>Infrastructure Review / Audit</strong> – <em>$1,500 flat <span id="auditSats"></span></em><br />
 Review existing setup, identify risks, and propose improvements.</p>
-<p><strong>Team Training &amp; SOPs</strong> – <em>$500/hour or project based</em><br />
+<p><strong>Team Training &amp; SOPs</strong> – <em>$500 <span id="trainingSats"></span> per hour or project based</em><br />
 Workshops and documentation tailored to your operational needs.</p>
 <hr />
 <h2 id="mining">Mining<a class="headerlink" href="#mining" title="Permanent link">&para;</a></h2>
-<p><strong>ASIC Acquisition &amp; Setup Guidance</strong> – <em>$500/hour</em><br />
+<p><strong>ASIC Acquisition &amp; Setup Guidance</strong> – <em>$500 <span id="asicSats"></span> per hour</em><br />
 We help you choose hardware, firmware, pool, and layout strategy.</p>
-<p><strong>Residential Mining Walkthrough</strong> – <em>from $1,500</em><br />
+<p><strong>Residential Mining Walkthrough</strong> – <em>from $1,500 <span id="miningWalkthroughSats"></span></em><br />
 Includes electrical, physical, and monitoring setup overview.</p>
-<p><strong>Colocation Planning Session</strong> – <em>$500/hour</em><br />
+<p><strong>Colocation Planning Session</strong> – <em>$500 <span id="colocationSats"></span> per hour</em><br />
 Cover contracts, hosting risks, remote monitoring, and ROI modeling.</p>
 <p>We don’t sell miners. We help you use them well and become a true <a href="../pow/sovereignty/">sovereign</a>.</p>
 <hr />
 <h2 id="custom-projects">Custom Projects<a class="headerlink" href="#custom-projects" title="Permanent link">&para;</a></h2>
 <p>Bespoke software, dashboards, scripting, or integration work is available in limited capacity.</p>
-<p><strong>Custom Development</strong> – <em>$500/hour or project-based</em><br />
+<p><strong>Custom Development</strong> – <em>$500 <span id="customDevSats"></span> per hour or project-based</em><br />
 All code is client-owned, documented, and open-source friendly.</p>
 <hr />
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
@@ -3195,14 +3196,105 @@ No. Never.</p>
 No. Pricing is based on scope, not assets. In fact, do not ever disclose your exact assets, that's between you and your loved ones, never with us.</p>
 <p><strong>Is your pricing negotiable?</strong><br />
 If you’re working on something aligned with our mission, reach out. We care more about helping the right people than maxing out invoices.</p>
+<p><strong>Can I pay in Bitcoin or sats?</strong><br />
+Yes! We accept payments in Bitcoin (via on-chain or Lightning). Sats prices are shown for convenience and updated dynamically based on market rates. Contact us for payment details.</p>
 <hr />
-<p><em>Not Sure What You Need?</em></p>
-<p>Start with a consultation. We’ll help you scope it.</p>
+<p><em>Not Sure What You Need?</em><br />
+Start with a consultation. We’ll help you scope it.</p>
 <div style="text-align: center; margin: 2em 0;">
   <a href="/about/contact/" class="md-button md-button--primary">
     Request a Consultation
   </a>
 </div>
+
+<script>
+async function fetchBitcoinPrice() {
+    const apiFetchers = [
+        { name: 'CoinGecko', fetcher: () => fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
+            .then(res => res.json())
+            .then(data => data.bitcoin.usd) },
+        { name: 'Blockchain.info', fetcher: () => fetch('https://blockchain.info/ticker')
+            .then(res => res.json())
+            .then(data => data.USD.last) },
+        { name: 'Kraken', fetcher: () => fetch('https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD')
+            .then(res => res.json())
+            .then(data => parseFloat(data.result.XXBTZUSD.c[0])) },
+        { name: 'Coinpaprika', fetcher: () => fetch('https://api.coinpaprika.com/v1/tickers/btc-bitcoin')
+            .then(res => res.json())
+            .then(data => data.quotes.USD.price) },
+        { name: 'Gemini', fetcher: () => fetch('https://api.gemini.com/v1/pubticker/btcusd')
+            .then(res => res.json())
+            .then(data => parseFloat(data.last)) }
+    ];
+
+    const results = await Promise.allSettled(apiFetchers.map(api => api.fetcher()));
+
+    const successfulPrices = [];
+    results.forEach((result, index) => {
+        if (result.status === 'fulfilled' && !isNaN(result.value) && result.value > 0) {
+            console.log(`${apiFetchers[index].name} price: $${result.value.toFixed(2)}`);
+            successfulPrices.push(result.value);
+        } else {
+            console.log(`${apiFetchers[index].name} failed: ${result.status === 'rejected' ? result.reason : 'Invalid price or zero'}`);
+        }
+    });
+
+    console.log(`Number of successful API responses: ${successfulPrices.length}`);
+    if (successfulPrices.length === 0) {
+        throw new Error('All API fetches failed');
+    }
+
+    // Average the successful prices
+    const averagePrice = successfulPrices.reduce((sum, price) => sum + price, 0) / successfulPrices.length;
+    console.log(`Final averaged price: $${averagePrice.toFixed(2)}`);
+    return averagePrice;
+}
+
+function formatSats(sats) {
+    // Round to nearest 10,000
+    const roundedSats = Math.round(sats / 10000) * 10000;
+    if (roundedSats < 1000000) {
+        // Display in thousands (e.g., 892,000 sats -> "892K")
+        return `(${Math.round(roundedSats / 1000)}K sats)`;
+    }
+    // Display in millions (e.g., 2,680,000 sats -> "2.68M")
+    return `(${(roundedSats / 1000000).toFixed(2)}M sats)`;
+}
+
+async function updatePrices() {
+    try {
+        const btcPrice = await fetchBitcoinPrice();
+        const satsPerUsd = 100_000_000 / btcPrice; // 1 BTC = 100M sats
+
+        // Update Bitcoin price in the admonition title
+        document.getElementById('btcPrice').textContent = `$${btcPrice.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+
+        // Update prices for each service with full text including parentheses
+        document.getElementById('coldStorageSats').textContent = formatSats(1500 * satsPerUsd);
+        document.getElementById('inheritanceSats').textContent = formatSats(2500 * satsPerUsd);
+        document.getElementById('retainerSats').textContent = formatSats(1000 * satsPerUsd);
+        document.getElementById('btcPaySats').textContent = formatSats(2000 * satsPerUsd);
+        document.getElementById('lightningSats').textContent = formatSats(3000 * satsPerUsd);
+        document.getElementById('auditSats').textContent = formatSats(1500 * satsPerUsd);
+        document.getElementById('trainingSats').textContent = formatSats(500 * satsPerUsd);
+        document.getElementById('asicSats').textContent = formatSats(500 * satsPerUsd);
+        document.getElementById('miningWalkthroughSats').textContent = formatSats(1500 * satsPerUsd);
+        document.getElementById('colocationSats').textContent = formatSats(500 * satsPerUsd);
+        document.getElementById('customDevSats').textContent = formatSats(500 * satsPerUsd);
+    } catch (error) {
+        console.error('Error fetching Bitcoin price:', error);
+        // Leave spans empty on error for graceful degradation
+        document.querySelectorAll('span[id$="Sats"]').forEach(span => span.textContent = '');
+        document.getElementById('btcPrice').textContent = 'unavailable';
+    }
+}
+
+document.getElementById('btcPrice').textContent = '???';
+
+// Call on page load
+updatePrices();
+// setInterval(updatePrices, 300_000); // Commented out to disable periodic refresh
+</script>
 
 
 
