@@ -133,7 +133,7 @@ nav:
     - Tools: 
         - tools/index.md
         - Dice-to-Seed: tools/dice-to-seed.md
-        - Hashrate Calculator: tools/hashrate.md
+        - Hashrate Planner: tools/hashrate.md
 
 markdown_extensions:
   - admonition

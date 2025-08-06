@@ -1,4 +1,4 @@
-# Sovereign Hashrate Calculator
+# Sovereign Hashrate Planner
 
 This tool calculates the hashrate, power, and estimated number of miners needed to achieve a target number of Bitcoin blocks mined over a specified time period. 
 Enter the target blocks, select the time interval, provide the expected network hashrate, your miner's hashrate, and efficiency to see the results update automatically.
