@@ -1,6 +1,6 @@
 # Articles
 
-*by* ***R.S. Christopher***
+*by* ***RS Christopher***
 
 <!--
 Lord Jesus Christ, Son of the Living God

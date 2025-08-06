@@ -6,7 +6,7 @@ site_description: "Bitcoin is True"
 site_author: RS Christopher
 docs_dir: src
 site_dir: docs
-copyright: Uncopyright &copy; 2022-2025 ~ R.St. Christopher
+copyright: Uncopyright &copy; 2022-2025 ~ RS Christopher
 extra:
     generator: false
 extra_css:
@@ -42,6 +42,11 @@ nav:
         - index.md
         - Services: services.md
         - Prices: prices.md
+        - About: 
+            - about/index.md
+            - Contact: about/contact.md
+            - Nostr: about/nostr.md
+            - References: about/references.md
     - Saving:
         - saving/index.md
         - Understand the Terms: saving/understand-the-terms.md
@@ -125,11 +130,10 @@ nav:
           - Surveillance: criticisms/surveillance.md
           - Toxic Maximalists: criticisms/toxic-maxis.md
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
-    - About: 
-        - about/index.md
-        - Contact: about/contact.md
-        - Nostr: about/nostr.md
-        - References: about/references.md
+    - Tools: 
+        - tools/index.md
+        - Dice-to-Seed: tools/dice-to-seed.md
+        - Hashrate Calculator: tools/hashrate.md
 
 markdown_extensions:
   - admonition
