@@ -10,8 +10,7 @@ a sinner
 
 We're not a company built on buzzwords or marketing funnels. We're a consulting and development practice rooted in real-world Bitcoin use. We've worked with clients ranging from family offices securing generational wealth to solo entrepreneurs integrating Lightning payments.
 
-We believe Bitcoin should be simple, private, and durable.  
-We help people get there — or build it themselves with confidence.
+We believe Bitcoin should be simple, private, and durable. We help people get there — or build it themselves with confidence.
 
 
 
