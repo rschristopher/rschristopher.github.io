@@ -28,7 +28,7 @@ by R.S. Christopher
 + Re-hashers: stratum, Merkle, block
 
 + gun analogy, signing device and ceremony requires practice
-+ graphene OS
++ GrapheneOS
 
 
 <!--
