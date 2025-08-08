@@ -9,7 +9,7 @@ by R.S. Christopher
 + metal backup durability sim
 + Multisig Risk Analyzer (risk scenarios)
 + Multisig Recovery Tester (simulated key loss)
-+ Sovereign Custody Planner
++ Sovereign vs Custodial
 
 + Rent vs Mortgage -- Bitcoin Edition
 + New Car vs Used
