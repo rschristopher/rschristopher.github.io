@@ -98,6 +98,12 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
     #results strong {
         color: var(--md-default-fg-color--dark);
     }
+    #chart {
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+        margin: 20px 0;
+    }
 </style>
 
 <form id="calcForm" class="input-container">
@@ -137,6 +143,7 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
 <div id="error" aria-live="polite"></div>
 <div id="results"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     // Format number as currency or percent
     function formatValue(value, type, isDCA = false, isFee = false, isWholeDollar = false) {
@@ -215,14 +222,14 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
         
         // Sovereign (0% fee):
         const sovereignLumpSum = initial * Math.pow(1 + cagr, years);
-        const sovereignDCA = cagr > 0 ? annualDCA * (Math.pow(1 + cagr, years) - 1) / cagr : annualDCA * years;
-        const sovereignTotal = sovereignLumpSum + sovereignDCA;
+        const sovereignDCAValue = cagr > 0 ? annualDCA * (Math.pow(1 + cagr, years) - 1) / cagr : annualDCA * years;
+        const sovereignTotal = sovereignLumpSum + sovereignDCAValue;
         
         // Custody (effective growth = cagr - fee):
         const effectiveCAGR = cagr - fee;
         const custodyLumpSum = initial * Math.pow(1 + effectiveCAGR, years);
-        const custodyDCA = effectiveCAGR > 0 ? annualDCA * (Math.pow(1 + effectiveCAGR, years) - 1) / effectiveCAGR : annualDCA * years;
-        const custodyTotal = custodyLumpSum + custodyDCA;
+        const custodyDCAValue = effectiveCAGR > 0 ? annualDCA * (Math.pow(1 + effectiveCAGR, years) - 1) / effectiveCAGR : annualDCA * years;
+        const custodyTotal = custodyLumpSum + custodyDCAValue;
         
         // Lost value
         const lost = sovereignTotal - custodyTotal;
@@ -235,6 +242,7 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
                 <p>Sovereign Value: ${formatValue(sovereignTotal, 'currency', false, false, true)}</p>
                 <p>Custodial Cost: <span class="custodial-cost">${formatValue(lost, 'currency', false, false, true)}</span> (${percentLost.toFixed(1)}%)</p>
             </div>
+            <div id="chart-container"></div>
             <div class="text">
                 <p>Starting with ${formatValue(initial, 'currency', false, false, true)} and a daily DCA of ${formatValue(dailyDCA, 'currency', true)} over ${formatValue(years, 'number')} years at a ${formatValue(cagr * 100, 'percent', false)} Bitcoin CAGR, a sovereign would amass a formidable ${formatValue(sovereignTotal, 'currency', false, false, true)}. This is the power of self-custody: complete control, zero compromise, and every satoshi working for you in a world returning to sound money.</p>
                 <p>But choosing a custodian with a ${formatValue(fee * 100, 'percent', false, true)} annual fee?</p>
@@ -242,6 +250,79 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
                 <p>Bitcoin is freedom. Choose sovereignty, or lose everything.</p>
             </div>
         `;
+        
+        // Graceful degradation: Check if Chart.js is loaded
+        if (window.Chart) {
+            // Add canvas to chart container
+            const chartContainer = document.getElementById('chart-container');
+            const canvas = document.createElement('canvas');
+            canvas.id = 'chart';
+            chartContainer.appendChild(canvas);
+            
+            // Get chart data
+            const labels = [];
+            const sovereignData = [];
+            const custodialCostData = [];
+            for (let year = 0; year <= years; year++) {
+                // Sovereign
+                const sovereignLumpSum = initial * Math.pow(1 + cagr, year);
+                const sovereignDCAValue = cagr > 0 ? annualDCA * (Math.pow(1 + cagr, year) - 1) / cagr : annualDCA * year;
+                const sovereignValue = sovereignLumpSum + sovereignDCAValue;
+                sovereignData.push(sovereignValue);
+
+                // Custodial
+                const effectiveCAGR = cagr - fee;
+                const custodyLumpSum = initial * Math.pow(1 + effectiveCAGR, year);
+                const custodyDCAValue = effectiveCAGR > 0 ? annualDCA * (Math.pow(1 + effectiveCAGR, year) - 1) / effectiveCAGR : annualDCA * year;
+                const custodyValue = custodyLumpSum + custodyDCAValue;
+
+                // Custodial Cost
+                custodialCostData.push(sovereignValue - custodyValue);
+
+                labels.push(year);
+            }
+
+            // Draw chart if Chart.js is available
+            new Chart(document.getElementById('chart'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Sovereign Value', data: sovereignData, borderColor: '#28a745', fill: false },
+                        { label: 'Custodial Cost', data: custodialCostData, borderColor: '#dc3545', fill: false }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { 
+                            title: { display: true, text: 'Value ($)' }, 
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + (value / 1000).toLocaleString('en-US', {maximumFractionDigits: 0}) + 'K';
+                                }
+                            }
+                        },
+                        x: { title: { display: true, text: 'Years' } }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    label += '$' + context.parsed.y.toLocaleString('en-US', {maximumFractionDigits: 0});
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
         
         // Update formatted values
         updateFormattedValues();
@@ -255,7 +336,4 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
     // Initial calculation and formatting on page load
     calculate();
 </script>
-
-
-
 
