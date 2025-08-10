@@ -25,7 +25,6 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
         border-radius: 4px;
         font-size: 1em;
         margin-right: 15px;
-        background-color: var(--md-default-bg-color);
         color: var(--md-default-fg-color);
         transition: border-color 0.2s, box-shadow 0.2s;
     }
