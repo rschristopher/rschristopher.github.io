@@ -3168,45 +3168,50 @@
         align-items: center;
         margin-bottom: 15px;
     }
-    input[type="number"] {
-        width: 120px;
-        padding: 8px;
+    .input-wrapper {
+        display: flex;
+        align-items: stretch;
         border: 1px solid var(--md-default-fg-color--light);
         border-radius: 4px;
-        font-size: 1em;
-        margin-right: 15px;
-        color: var(--md-default-fg-color);
+        background: var(--md-default-bg-color);
         transition: border-color 0.2s, box-shadow 0.2s;
     }
-    input[type="number"]:hover {
+    .input-wrapper:hover {
         border-color: var(--md-primary-fg-color--light);
     }
-    input[type="number"]:focus {
-        outline: none;
+    .input-wrapper:focus-within {
         border-color: var(--md-primary-fg-color);
         box-shadow: 0 0 5px rgba(var(--md-primary-fg-color--rgb), 0.3);
+    }
+    input[type="number"] {
+        width: 100px;
+        padding: 8px;
+        border: none;
+        font-size: 1em;
+        color: var(--md-default-fg-color);
+        outline: none;
+        border-radius: 4px 0 0 4px;
+    }
+    .unit {
+        padding: 0 8px;
+        font-size: 1em;
+        color: var(--md-default-fg-color);
+        pointer-events: none;
+        border-left: 1px solid var(--md-default-fg-color--light);
+        background: rgba(var(--md-default-bg-color--rgb), 0.7);
+        display: flex;
+        align-items: center;
+        border-radius: 0 4px 4px 0;
     }
     label {
         font-size: 1em;
         color: var(--md-default-fg-color);
+        margin-left: 10px;
         margin-right: 10px;
     }
     .formatted-value {
         font-weight: bold;
         color: var(--md-primary-fg-color);
-    }
-    button {
-        padding: 8px 16px;
-        border: none;
-        border-radius: 4px;
-        background: var(--md-primary-fg-color);
-        color: var(--md-primary-bg-color);
-        font-size: 1em;
-        cursor: pointer;
-        transition: background 0.2s;
-    }
-    button:hover {
-        background: var(--md-primary-fg-color--dark);
     }
     #error {
         margin-top: 10px;
@@ -3257,36 +3262,49 @@
 
 <form id="calcForm" class="input-container">
     <div class="input-group">
-        <input type="number" id="initial" value="10000" step="1000" required aria-label="Initial Investment in dollars">
-        <label for="initial">Initial Investment ($):</label>
+        <div class="input-wrapper">
+            <input type="number" id="initial" value="10000" step="1000" required aria-label="Initial">
+            <span class="unit">$</span>
+        </div>
+        <label for="initial">Initial:</label>
         <span class="formatted-value" id="initialFormatted">$10,000</span>
     </div>
 
     <div class="input-group">
-        <input type="number" id="dca" value="10" step="10" min="0" required aria-label="Daily DCA Amount in dollars">
-        <label for="dca">Daily DCA Amount ($):</label>
+        <div class="input-wrapper">
+            <input type="number" id="dca" value="10" step="10" min="0" required aria-label="DCA Amount">
+            <span class="unit">$</span>
+        </div>
+        <label for="dca">DCA Amount:</label>
         <span class="formatted-value" id="dcaFormatted">$10</span>
     </div>
 
     <div class="input-group">
-        <input type="number" id="cagr" value="20" step="0.1" min="1" required aria-label="Estimated BTCUSD CAGR in percent">
-        <label for="cagr">Estimated BTCUSD CAGR (%):</label>
+        <div class="input-wrapper">
+            <input type="number" id="cagr" value="20" step="0.1" min="1" required aria-label="Estimated CAGR">
+            <span class="unit">%</span>
+        </div>
+        <label for="cagr">Estimated CAGR:</label>
         <span class="formatted-value" id="cagrFormatted">20%</span>
     </div>
 
     <div class="input-group">
-        <input type="number" id="fee" value="1" step="0.1" min="0.1" required aria-label="Custodial Fee in percent per year">
-        <label for="fee">Custodial Fee (%):</label>
+        <div class="input-wrapper">
+            <input type="number" id="fee" value="1" step="0.1" min="0.1" required aria-label="Custodial Fee">
+            <span class="unit">%</span>
+        </div>
+        <label for="fee">Custodial Fee:</label>
         <span class="formatted-value" id="feeFormatted">1.0%</span>
     </div>
 
     <div class="input-group">
-        <input type="number" id="duration" value="30" step="1" min="1" required aria-label="Duration in years">
-        <label for="duration">Duration (years):</label>
+        <div class="input-wrapper">
+            <input type="number" id="duration" value="30" step="1" min="1" required aria-label="Duration">
+            <span class="unit">yr</span>
+        </div>
+        <label for="duration">Duration:</label>
         <span class="formatted-value" id="durationFormatted">30</span>
     </div>
-
-    <button type="button" onclick="resetForm()">Reset</button>
 </form>
 
 <div id="error" aria-live="polite"></div>
@@ -3327,9 +3345,9 @@
         const years = parseInt(document.getElementById('duration').value) || 0;
 
         const errors = [];
-        if (initial <= 0) errors.push("Initial Investment must be greater than 0");
-        if (dca < 0) errors.push("Daily DCA Amount must be greater than or equal to 0");
-        if (cagr < 1) errors.push("Estimated BTCUSD CAGR must be greater than or equal to 1%");
+        if (initial <= 0) errors.push("Initial must be greater than 0");
+        if (dca < 0) errors.push("DCA Amount must be greater than or equal to 0");
+        if (cagr < 1) errors.push("Estimated CAGR must be greater than or equal to 1%");
         if (fee < 0.1) errors.push("Custodial Fee must be greater than or equal to 0.1%");
         if (years < 1) errors.push("Duration must be greater than or equal to 1 year");
 
@@ -3341,16 +3359,6 @@
             errorDiv.innerHTML = '';
             return true;
         }
-    }
-
-    // Reset form to default values
-    function resetForm() {
-        document.getElementById('initial').value = 10000;
-        document.getElementById('dca').value = 10;
-        document.getElementById('cagr').value = 20;
-        document.getElementById('fee').value = 1;
-        document.getElementById('duration').value = 30;
-        calculate();
     }
 
     function calculate() {
