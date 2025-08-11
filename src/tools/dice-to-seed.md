@@ -10,17 +10,15 @@ This tool converts dice rolls into a BIP-39 seed phrase, which can be used to ge
 <div class="dice-to-seed-container">
     <div class="dropdown-container">
         <div class="dropdown-pair">
-            <label for="dice_type">Dice Type</label>
-            <select id="dice_type" onchange="updateConfig()">
-                <option value="6">d6 (1-6)</option>
-                <option value="8">d8 (1-8)</option>
-            </select>
-        </div>
-        <div class="dropdown-pair">
-            <label for="word_count">Word Count</label>
             <select id="word_count" onchange="updateConfig()">
                 <option value="12">12 words (128 bits)</option>
                 <option value="24">24 words (256 bits)</option>
+            </select>
+        </div>
+        <div class="dropdown-pair">
+            <select id="dice_type" onchange="updateConfig()">
+                <option value="6">d6 (1-6)</option>
+                <option value="8">d8 (1-8)</option>
             </select>
         </div>
     </div>
