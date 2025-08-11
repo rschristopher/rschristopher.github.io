@@ -2,7 +2,7 @@
 
 Rent vs Buy calculators are very misleading (filled with fiat-minded assumptions), and are especially useless as we return to sound money. For example, most online "Rent vs Buy" calculators don't allow a high "savings" rate. Bitcoin's historic (and likely future) CAGR is disruptive to these fiat models.
 
-We live in chaotic times, and fortunately Bitcoin can help us make sensible decisions with respect to home ownership.
+Fortunately, Bitcoin can help us make sensible decisions with respect to home ownership.
 This tool compares rent versus mortgage, with a simple goal of maximizing wealth thru Bitcoin. You'll find that with assumptions like 2% inflation, it's rarely better to buy than rent. But you'll find many scenarios where a mortgage can help you to stack more sats (such as high inflation, low interest rates, high rents, etc).
 
 <style>
