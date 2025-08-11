@@ -134,6 +134,7 @@ nav:
         - tools/index.md
         - Dice-to-Seed: tools/dice-to-seed.md
         - Hashrate Planner: tools/hashrate.md
+        - Retirement Calculator: tools/retirement.md
         - Savings Forecaster: tools/savings-forecast.md
 
 markdown_extensions:
