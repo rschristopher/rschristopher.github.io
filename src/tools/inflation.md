@@ -17,7 +17,6 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
     }
     .input-container {
         padding: 20px;
-        border: 1px solid var(--md-default-fg-color--light);
         border-radius: 8px;
         background: var(--md-default-bg-color);
         margin-bottom: 20px;
@@ -103,7 +102,6 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
     }
     #chart-container, #debasement-chart-container {
         margin: 20px 0;
-        max-width: 600px;
     }
     .noUi-connect {
         background: #F7931A !important;
@@ -252,7 +250,7 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
                     }
                 },
                 plugins: {
-                    legend: { position: 'top' }
+                    legend: { display: window.innerWidth > 767, position: 'top' }
                 }
             }
         });
