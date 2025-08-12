@@ -135,6 +135,7 @@ nav:
         - Dice-to-Seed: tools/dice-to-seed.md
         - Fee Forecaster: tools/fee.md
         - Hashrate Planner: tools/hashrate.md
+        - Inflation Calculator: tools/inflation.md
         - Rent vs Mortgage: tools/rent-vs-mortgage.md
         - Retirement Calculator: tools/retirement.md
 
