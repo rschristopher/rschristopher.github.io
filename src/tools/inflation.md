@@ -137,10 +137,10 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
         <div class="input-group-horizontal">
             <div class="input-wrapper">
                 <select id="asset-select">
+                    <option value="cash">$100 Bill</option>
                     <option value="gold">1oz Gold</option>
                     <option value="sfh">Single Family Home</option>
                     <option value="sp500">S&P 500 Share</option>
-                    <option value="cash">$100 Bill</option>
                 </select>
             </div>
             <div class="input-wrapper">
@@ -329,7 +329,7 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
         // Validate parameters
         const validStart = (!isNaN(start) && start >= 1960 && start <= 2025) ? start : 1960;
         const validEnd = (!isNaN(end) && end >= validStart && end <= 2025) ? end : (validStart < 2025 ? 2025 : validStart + 1);
-        const validRef = ['gold', 'sfh', 'sp500', 'cash'].includes(ref) ? ref : 'gold';
+        const validRef = ['gold', 'sfh', 'sp500', 'cash'].includes(ref) ? ref : 'cash';
         const validRefPrice = (!isNaN(refprice) && refprice >= 0) ? refprice : (validRef === 'cash' ? 100 : (data[validRef][validStart] || 0));
 
         console.log('Parsed params:', { start, end, ref, refprice });
