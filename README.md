@@ -10,7 +10,6 @@ by R.S. Christopher
 + Multisig Risk Analyzer (risk scenarios)
 + Multisig Recovery Tester (simulated key loss)
 
-+ New Car vs Used
 + Fiat Savings Simulator (debasement)
 + Time Preference Simulator
 + Student Debt vs Save in Sats
