@@ -10,13 +10,11 @@ by R.S. Christopher
 + Multisig Risk Analyzer (risk scenarios)
 + Multisig Recovery Tester (simulated key loss)
 
-+ Rent vs Mortgage -- Bitcoin Edition
 + New Car vs Used
 + Fiat Savings Simulator (debasement)
 + Time Preference Simulator
 + Student Debt vs Save in Sats
 + Sats Purchasing Power Tracker
-+ Bitcoin vs 401(k) Simulator
 + Actual Inflation Calculator (gold, silver)
 
 + Merchant Fee Analyzer
