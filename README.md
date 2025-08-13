@@ -1,30 +1,44 @@
+<!--
+Lord Jesus Christ
+Son of God
+Have mercy on me, a sinner
+-->
 # Bitcoin is True
 True Bitcoin Sovereignty 
 by R.S. Christopher
 
-
 ## possible tools
 
-+ xpub derivation path tool
-+ metal backup durability sim
-+ Multisig Risk Analyzer (risk scenarios)
-+ Multisig Recovery Tester (simulated key loss)
+### Fiat Tools 
+- [X] Fee Forecaster
+- [X] Inflation Calculator
+- [X] Rent vs Mortgage
+- [X] Retirement Calculator
+- [ ] Sats Purchasing Power Tracker
 
-+ Fiat Savings Simulator (debasement)
-+ Time Preference Simulator
-+ Student Debt vs Save in Sats
-+ Sats Purchasing Power Tracker
-+ Actual Inflation Calculator (gold, silver)
+### Savings Tools
+- [X] Dice to Seed
+- [ ] xpub derivation path tool
+- [ ] metal backup durability sim
+- [ ] Multisig Risk Analyzer (risk scenarios)
+- [ ] Multisig Recovery Tester (simulated key loss)
 
-+ Merchant Fee Analyzer
-+ Sovereign Channel Planner
+### Currency Tools
+- [ ] Merchant Fee Analyzer
+- [ ] Sovereign Channel Planner
 
-+ Farm ROI Projector
-+ Solo Mining Probability Calculator
-+ Re-hashers: stratum, Merkle, block
+### Mining Tools
+- [X] Hashrate Planner
+- [ ] Farm ROI Projector
+- [ ] Solo Mining Probability Calculator
+- [ ] Re-hashers: stratum, Merkle, block
 
+## maybe?
 + gun analogy, signing device and ceremony requires practice
 + GrapheneOS
+
+
+
 
 
 <!--
@@ -32,10 +46,3 @@ Lord Jesus Christ
 Son of God
 Have mercy on me, a sinner
 -->
-
-
-
-
-
-
-
