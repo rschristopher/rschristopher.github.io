@@ -1,3 +1,7 @@
+<!-- 
+Lord Jesus Christ, Son of God
+Have mercy on me, a sinner
+-->
 # Sovereign Hashrate Planner
 
 This tool calculates the hashrate, power, and estimated number of miners needed to achieve a target number of Bitcoin blocks mined over a specified time period.

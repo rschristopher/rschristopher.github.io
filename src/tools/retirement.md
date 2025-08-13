@@ -1,4 +1,4 @@
-# Retirement Calculator -- Bitcoin Edition
+# Retirement Calculator: Bitcoin Edition
 
 This tool helps you plan your retirement using Bitcoin, showing when you can retire based on your savings, DCA, and growth estimates. 
 Bitcoin offers a path to financial independence, free from inflationary fiat systems. Hold your keys, secure your future.

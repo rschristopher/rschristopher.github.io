@@ -15,8 +15,8 @@ theme:
     name: material
     features:
         - navigation.indexes
+        - navigation.expand
         - navigation.footer
-        - navigation.sections
         - navigation.tabs
         - navigation.top
     palette:
@@ -132,12 +132,15 @@ nav:
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
     - Tools: 
         - tools/index.md
-        - Dice-to-Seed: tools/dice-to-seed.md
-        - Fee Forecaster: tools/fee.md
-        - Hashrate Planner: tools/hashrate.md
-        - Inflation Calculator: tools/inflation.md
-        - Rent vs Mortgage: tools/rent-vs-mortgage.md
-        - Retirement Calculator: tools/retirement.md
+        - Fiat Tools:
+          - Fee Forecaster: tools/fee.md
+          - Inflation Calculator: tools/inflation.md
+          - Rent vs Mortgage: tools/rent-vs-mortgage.md
+          - Retirement Calculator: tools/retirement.md
+        - Savings Tools:
+          - Dice to Seed: tools/dice-to-seed.md
+        - Mining Tools:
+          - Hashrate Planner: tools/hashrate.md
 
 markdown_extensions:
   - admonition

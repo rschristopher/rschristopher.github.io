@@ -1,4 +1,4 @@
-# Rent vs Mortgage -- Bitcoin Edition
+# Rent vs Mortgage: Bitcoin Edition
 
 Rent vs Buy calculators are very misleading (filled with fiat-minded assumptions), and are especially useless as we return to sound money. For example, most online "Rent vs Buy" calculators don't allow a high "savings" rate. Bitcoin's historic (and likely future) CAGR is disruptive to these fiat models.
 
