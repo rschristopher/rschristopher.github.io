@@ -8,6 +8,7 @@ True Bitcoin Sovereignty
 by R.S. Christopher
 
 ## possible tools
+- [ ] Tools page content (auto index? services?)
 
 ### Fiat Tools 
 - [X] Fee Forecaster
