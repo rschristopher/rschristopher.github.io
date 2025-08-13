@@ -14,6 +14,7 @@ extra_css:
 theme:
     name: material
     features:
+        - navigation.instant
         - navigation.indexes
         - navigation.expand
         - navigation.footer

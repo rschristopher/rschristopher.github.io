@@ -4,9 +4,6 @@ This tool helps you plan your retirement using Bitcoin, showing when you can ret
 Bitcoin offers a path to financial independence, free from inflationary fiat systems. Hold your keys, secure your future.
 
 <style>
-    .md-content {
-        padding: 20px;
-    }
     .input-container {
         padding: 20px;
         border: 1px solid var(--md-default-fg-color--light);
@@ -54,7 +51,7 @@ Bitcoin offers a path to financial independence, free from inflationary fiat sys
         align-items: center;
         border-radius: 0 4px 4px 0;
     }
-    label {
+    .input-container label {
         font-size: 1em;
         color: var(--md-default-fg-color);
         margin-left: 10px;

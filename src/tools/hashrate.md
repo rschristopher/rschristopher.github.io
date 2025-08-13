@@ -8,9 +8,6 @@ This tool calculates the hashrate, power, and estimated number of miners needed 
 Secure your sovereignty -- break free from centralized pools and mine blocks on your own terms.
 
 <style>
-    .md-content {
-        padding: 20px;
-    }
     .input-container {
         padding: 20px;
         border: 1px solid var(--md-default-fg-color--light);
@@ -74,7 +71,7 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
         flex: none;
         width: 50px;
     }
-    label {
+    .input-container label {
         font-size: 1em;
         color: var(--md-default-fg-color);
         margin-left: 10px;

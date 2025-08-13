@@ -4,9 +4,6 @@ This tool reveals the crippling cost of custodial fees on your Bitcoin wealth co
 Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self-custody isn’t just empowering -- it’s financially essential.
 
 <style>
-    .md-content {
-        padding: 20px;
-    }
     .input-container {
         padding: 20px;
         border: 1px solid var(--md-default-fg-color--light);
@@ -54,7 +51,7 @@ Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self
         align-items: center;
         border-radius: 0 4px 4px 0;
     }
-    label {
+    .input-container label {
         font-size: 1em;
         color: var(--md-default-fg-color);
         margin-left: 10px;

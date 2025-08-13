@@ -6,9 +6,6 @@ Fortunately, Bitcoin can help us make sensible decisions with respect to home ow
 This tool compares rent versus mortgage, with a simple goal of maximizing wealth thru Bitcoin. You'll find that with assumptions like 2% inflation, it's rarely better to buy than rent. But there other scenarios where a mortgage can help you to stack more sats (such as high inflation, low interest rates, high rents, etc).
 
 <style>
-    .md-content {
-        padding: 20px;
-    }
     .input-container {
         padding: 20px;
         border: 1px solid var(--md-default-fg-color--light);
@@ -56,7 +53,7 @@ This tool compares rent versus mortgage, with a simple goal of maximizing wealth
         align-items: center;
         border-radius: 0 4px 4px 0;
     }
-    label {
+    .input-container label {
         font-size: 1em;
         color: var(--md-default-fg-color);
         margin-left: 10px;

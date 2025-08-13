@@ -12,9 +12,6 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
  under fiat, wealth transferred from gold to equities and real-estate, and is now finding it's way back to gold, and inevitably to Bitcoin.
 
 <style>
-    .md-content {
-        padding: 20px;
-    }
     .input-container {
         padding: 20px;
         border-radius: 8px;
@@ -72,7 +69,7 @@ And you can see how, in the last quarter-century, [gold has outperformed the S&P
         align-items: center;
         border-radius: 0 4px 4px 0;
     }
-    label {
+    .input-cointainer label {
         font-size: 1em;
         color: var(--md-default-fg-color);
         margin-bottom: 10px;
