@@ -52,8 +52,6 @@
       
     
     
-      <link rel="stylesheet" href="../../css/extra.css">
-    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3402,9 +3400,6 @@ You can visualize how purchasing power erodes under fiat currency (most signific
 And you can see how, in the last quarter-century, <a href="?start=1999&amp;end=2025&amp;ref=gold">gold has outperformed the S&amp;P500</a> -- 
  under fiat, wealth transferred from gold to equities and real-estate, and is now finding it's way back to gold, and inevitably to Bitcoin.</p>
 <style>
-    .md-content {
-        padding: 20px;
-    }
     .input-container {
         padding: 20px;
         border-radius: 8px;
@@ -3462,7 +3457,7 @@ And you can see how, in the last quarter-century, <a href="?start=1999&amp;end=2
         align-items: center;
         border-radius: 0 4px 4px 0;
     }
-    label {
+    .input-cointainer label {
         font-size: 1em;
         color: var(--md-default-fg-color);
         margin-bottom: 10px;
@@ -3547,6 +3542,13 @@ And you can see how, in the last quarter-century, <a href="?start=1999&amp;end=2
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js"></script>
 <script>
+
+    // hack -- this tool cannot be run via instant loading (navigation.instant)
+    if (window.document$ && !new URLSearchParams(window.location.search).has('reloaded')) {
+        console.log('XHR load detected, reloading');
+        window.location.href = window.location.href + (window.location.search ? '&' : '?') + 'reloaded=1';
+    };
+
     // Data
     const data = {
         cpi: {1960:29.6,1961:29.9,1962:30.2,1963:30.6,1964:31.0,1965:31.5,1966:32.4,1967:33.4,1968:34.8,1969:36.7,1970:38.8,1971:40.5,1972:41.8,1973:44.4,1974:49.3,1975:53.8,1976:56.9,1977:60.6,1978:65.2,1979:72.6,1980:82.4,1981:90.9,1982:96.5,1983:99.6,1984:103.9,1985:107.6,1986:109.6,1987:113.6,1988:118.3,1989:124.0,1990:130.7,1991:136.2,1992:140.3,1993:144.5,1994:148.2,1995:152.4,1996:156.9,1997:160.5,1998:163.0,1999:166.6,2000:172.2,2001:177.1,2002:179.9,2003:184.0,2004:188.9,2005:195.3,2006:201.6,2007:207.3,2008:215.303,2009:214.537,2010:218.056,2011:224.939,2012:229.594,2013:232.957,2014:236.736,2015:237.017,2016:240.007,2017:245.120,2018:251.107,2019:255.657,2020:258.811,2021:270.970,2022:292.655,2023:304.702,2024:313.689,2025:323.05},
@@ -3902,7 +3904,7 @@ And you can see how, in the last quarter-century, <a href="?start=1999&amp;end=2
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.expand", "navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.expand", "navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>

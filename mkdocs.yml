@@ -9,12 +9,10 @@ site_dir: docs
 copyright: Uncopyright &copy; 2022-2025 ~ RS Christopher
 extra:
     generator: false
-extra_css:
-    - css/extra.css
 theme:
     name: material
     features:
-        - navigation.instant
+        #- navigation.instant
         - navigation.indexes
         - navigation.expand
         - navigation.footer
