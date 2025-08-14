@@ -3628,13 +3628,6 @@ This tool compares rent versus mortgage, with a simple goal of maximizing wealth
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-
-    // hack -- this tool cannot be run via instant loading (navigation.instant)
-    if (window.document$ && !new URLSearchParams(window.location.search).has('reloaded')) {
-        console.log('XHR load detected, reloading');
-        window.location.href = window.location.href + (window.location.search ? '&' : '?') + 'reloaded=1';
-    } else { console.log('No XHR detected'); };
-
     async function fetchBitcoinPrice() {
         const apiFetchers = [
             { name: 'CoinGecko', fetcher: () => fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
@@ -4047,7 +4040,7 @@ This tool compares rent versus mortgage, with a simple goal of maximizing wealth
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.expand", "navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.expand", "navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>

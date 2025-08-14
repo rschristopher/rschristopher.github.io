@@ -3548,13 +3548,6 @@ Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-
-    // hack -- this tool cannot be run via instant loading (navigation.instant)
-    if (window.document$ && !new URLSearchParams(window.location.search).has('reloaded')) {
-        console.log('XHR load detected, reloading');
-        window.location.href = window.location.href + (window.location.search ? '&' : '?') + 'reloaded=1';
-    };
-
     // Format number as currency or percent
     function formatValue(value, type, isDCA = false, isFee = false, isWholeDollar = false) {
         const num = parseFloat(value);
@@ -3829,7 +3822,7 @@ Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.indexes", "navigation.expand", "navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.expand", "navigation.footer", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
