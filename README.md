@@ -9,6 +9,7 @@ by R.S. Christopher
 
 ## possible tools
 - [ ] Tools page content (auto index? services?)
+- [ ] navigation.instant (need to modularize shared javascript)
 
 ### Fiat Tools 
 - [X] Fee Forecaster
