@@ -7,9 +7,10 @@ Have mercy on me, a sinner
 True Bitcoin Sovereignty 
 by R.S. Christopher
 
-## possible tools
-- [ ] Tools page content (auto index? services?)
-- [ ] navigation.instant (need to modularize shared javascript)
+## todo
+- [ ] Tools page content (auto index? cta?)
+- [ ] modularize BTCUSD with sessionStorage, for multiple pages and navigation.instant compatibility
+- [ ] navigation.instant (modularize all shared javascript and libraries)
 
 ### Fiat Tools 
 - [X] Fee Forecaster
