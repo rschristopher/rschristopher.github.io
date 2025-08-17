@@ -9,6 +9,8 @@ site_dir: docs
 copyright: Uncopyright &copy; 2022-2025 ~ RS Christopher
 extra:
     generator: false
+extra_javascript:
+    - js/btcusd.js
 theme:
     name: material
     features:
