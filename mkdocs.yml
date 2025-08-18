@@ -9,12 +9,20 @@ site_dir: docs
 copyright: Uncopyright &copy; 2022-2025 ~ RS Christopher
 extra:
     generator: false
+extra_css:
+    - https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css
 extra_javascript:
-    - js/btcusd.js
+    - js/btcusd.mjs
+    - js/page/inflation.mjs
+    - js/page/prices.mjs
+    - js/page/rent-vs-mortgage.mjs
+    - js/page/retirement.mjs
+    - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js
+    - https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js
 theme:
     name: material
     features:
-        #- navigation.instant
+        - navigation.instant
         - navigation.indexes
         - navigation.expand
         - navigation.footer

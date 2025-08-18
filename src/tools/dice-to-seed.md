@@ -381,7 +381,7 @@ async function updateSeed() {
     }
     document.getElementById('seed_words').innerText = words_out.join('\n');
 }
-window.onload = updateConfig;
+updateConfig();
 </script>
 
 

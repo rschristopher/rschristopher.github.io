@@ -106,42 +106,8 @@ Start with a consultation. We’ll help you scope it.
   </a>
 </div>
 
-<script type="module">
-  import { fetchBitcoinPrice, formatSats } from "/js/btcusd.js";
-  document.getElementById('btcPrice').textContent = '...';
 
-  async function updatePrices() {
-      try {
-          const btcPrice = await fetchBitcoinPrice();
-          const satsPerUsd = 100_000_000 / btcPrice; // 1 BTC = 100M sats
-          // Update Bitcoin price in the admonition title
-          document.getElementById('btcPrice').textContent = `$${btcPrice.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
-          // Update prices for each service with full text including parentheses
-          document.getElementById('coldStorageSats').textContent = formatSats(1500 * satsPerUsd);
-          document.getElementById('inheritanceSats').textContent = formatSats(2500 * satsPerUsd);
-          document.getElementById('retainerSats').textContent = formatSats(1000 * satsPerUsd);
-          document.getElementById('btcPaySats').textContent = formatSats(2000 * satsPerUsd);
-          document.getElementById('lightningSats').textContent = formatSats(3000 * satsPerUsd);
-          document.getElementById('auditSats').textContent = formatSats(1500 * satsPerUsd);
-          document.getElementById('trainingSats').textContent = formatSats(500 * satsPerUsd);
-          document.getElementById('asicSats').textContent = formatSats(500 * satsPerUsd);
-          document.getElementById('miningWalkthroughSats').textContent = formatSats(1500 * satsPerUsd);
-          document.getElementById('colocationSats').textContent = formatSats(500 * satsPerUsd);
-          document.getElementById('customDevSats').textContent = formatSats(500 * satsPerUsd);
-      } catch (error) {
-          console.error('Error fetching Bitcoin price:', error);
-          // Leave spans empty on error for graceful degradation
-          document.querySelectorAll('span[id$="Sats"]').forEach(span => span.textContent = '');
-          document.getElementById('btcPrice').textContent = 'unavailable';
-      }
-  }
-
-  // Call on page load
-  updatePrices();
-  // setInterval(updatePrices, 300_000); // Commented out to disable periodic refresh
-</script>
-
-
+<div id="prices_page" style="display:none;"></div>
 
 
 

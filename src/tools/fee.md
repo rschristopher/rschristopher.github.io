@@ -158,7 +158,6 @@ Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self
 <div id="error" aria-live="polite"></div>
 <div id="results"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     // Format number as currency or percent
     function formatValue(value, type, isDCA = false, isFee = false, isWholeDollar = false) {
