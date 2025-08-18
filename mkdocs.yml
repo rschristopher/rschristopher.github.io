@@ -17,6 +17,7 @@ extra_javascript:
     - js/page/prices.mjs
     - js/page/rent-vs-mortgage.mjs
     - js/page/retirement.mjs
+    - js/page/satspp.mjs
     - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js
     - https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js
 theme:
@@ -146,6 +147,7 @@ nav:
           - Inflation Calculator: tools/inflation.md
           - Rent vs Mortgage: tools/rent-vs-mortgage.md
           - Retirement Calculator: tools/retirement.md
+          - Sats Purchasing Power: tools/satspp.md
         - Savings Tools:
           - Dice to Seed: tools/dice-to-seed.md
         - Mining Tools:
