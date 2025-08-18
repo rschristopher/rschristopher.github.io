@@ -8,16 +8,15 @@ True Bitcoin Sovereignty
 by R.S. Christopher
 
 ## todo
-- [ ] Tools page content (auto index? cta?)
-- [ ] modularize BTCUSD with sessionStorage, for multiple pages and navigation.instant compatibility
-- [ ] navigation.instant (modularize all shared javascript and libraries)
++ Tools page content (auto index? cta?)
+
 
 ### Fiat Tools 
 - [X] Fee Forecaster
 - [X] Inflation Calculator
 - [X] Rent vs Mortgage
 - [X] Retirement Calculator
-- [ ] Sats Purchasing Power Tracker
+- [ ] Sats Purchasing Power
 
 ### Savings Tools
 - [X] Dice to Seed
