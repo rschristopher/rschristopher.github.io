@@ -190,15 +190,9 @@ function initializeInflationPage() {
                     'max': 2025
                 },
                 behaviour: 'drag',
-                tooltips: [{
-                    to: value => Math.round(value).toString(),
-                    from: value => parseInt(value)
-                }, {
-                    to: value => Math.round(value).toString(),
-                    from: value => parseInt(value)
-                }],
+                tooltips: true,
                 format: {
-                    to: value => Math.round(value),
+                    to: value => Math.round(value).toString(),
                     from: value => parseInt(value)
                 }
             });
@@ -256,13 +250,19 @@ function initializeInflationPage() {
     loadFromQueryParams();
 }
 
-// Run on initial load and every instant navigation change
-document$.subscribe(() => {
+// Handle page navigation and query parameter changes
+function handlePageChange() {
     if (document.getElementById('inflation_page')) {
         if (chart) chart.destroy();
         if (debasementChart) debasementChart.destroy();
-        if (yearRangeSlider && yearRangeSlider.destroy) yearRangeSlider.destroy();
+        if (yearRangeSlider) yearRangeSlider.destroy();
         initializeInflationPage();
     }
-});
+}
+
+// Run on initial load and every instant navigation change
+document$.subscribe(handlePageChange);
+
+// Handle same-page query parameter changes
+window.addEventListener('popstate', handlePageChange);
 
