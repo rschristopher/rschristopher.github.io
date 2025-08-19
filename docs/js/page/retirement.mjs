@@ -179,7 +179,7 @@ async function calculate() {
             data: {
                 labels: ages,
                 datasets: [
-                    { label: 'Bitcoin Holdings', data: btcOverTime, borderColor: '#f7931a', fill: false }
+                    { label: 'Bitcoin Holdings', data: btcOverTime, borderColor: '#f7931a', backgroundColor: 'rgb(247, 147, 26, .2)', fill: true }
                 ]
             },
             options: {

@@ -3517,8 +3517,6 @@ Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self
     }
     #chart {
         width: 100%;
-        max-width: 600px;
-        height: 300px;
         margin: 20px 0;
     }
 </style>
@@ -3707,8 +3705,8 @@ Small fees compound into theft, undermining Bitcoin’s promise of freedom. Self
                 data: {
                     labels: labels,
                     datasets: [
-                        { label: 'Sovereign Value', data: sovereignData, borderColor: '#28a745', fill: false },
-                        { label: 'Custodial Cost', data: custodialCostData, borderColor: '#dc3545', fill: false }
+                        { label: 'Sovereign Value', data: sovereignData, borderColor: '#28a745', backgroundColor: 'rgba(40, 167, 69, 0.2)', fill: true },
+                        { label: 'Custodial Cost', data: custodialCostData, borderColor: '#b01010', backgroundColor: 'rgba(167, 10, 10, 0.2)', fill: true }
                     ]
                 },
                 options: {
