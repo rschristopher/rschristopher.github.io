@@ -16,7 +16,7 @@ by R.S. Christopher
 - [X] Inflation Calculator
 - [X] Rent vs Mortgage
 - [X] Retirement Calculator
-- [ ] Sats Purchasing Power
+- [X] Sats Purchasing Power
 
 ### Savings Tools
 - [X] Dice to Seed
