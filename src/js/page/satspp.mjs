@@ -81,7 +81,9 @@ const satUnits = [
     { singular: 'femtosat', plural: 'femtosats', factor: 1e15 },
     { singular: 'attosat', plural: 'attosats', factor: 1e18 },
     { singular: 'zeptosat', plural: 'zeptosats', factor: 1e21 },
-    { singular: 'yoctosat', plural: 'yoctosats', factor: 1e24 }
+    { singular: 'yoctosat', plural: 'yoctosats', factor: 1e24 },
+    { singular: 'rontosat', plural: 'rontosats', factor: 1e27 },
+    { singular: 'quectosat', plural: 'quectosats', factor: 1e30 }
 ];
 
 function formatSats(satsFloat) {
