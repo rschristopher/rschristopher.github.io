@@ -30,10 +30,9 @@ function validateInputs() {
     const cagr = parseFloat(document.getElementById('cagr').value) || 0;
     const years = parseInt(document.getElementById('years').value) || 0;
     const errors = [];
-    if (inflation < 0) errors.push("Fiat Inflation must be greater than or equal to 0%");
-    if (cagr < 1) errors.push("BTCUSD CAGR must be greater than or equal to 1%");
-    if (cagr > 100) errors.push("BTCUSD CAGR must be less than or equal to 100%");
-    if (years < 0 || years > 100) errors.push("Years Ahead must be between 0 and 100");
+    if (inflation < 0 || inflation > 100) errors.push("Fiat Inflation must be between 0% and 100%");
+    if (cagr < 0 || cagr > 100) errors.push("BTCUSD CAGR must be between 0% and 100%");
+    if (years < 1 || years > 100) errors.push("Years Ahead must be between 1 and 100");
     const errorDiv = document.getElementById('error');
     if (errors.length > 0) {
         errorDiv.innerHTML = `<p>${errors.join('<br>')}</p>`;
