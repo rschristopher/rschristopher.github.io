@@ -151,6 +151,7 @@ nav:
         - Savings Tools:
           - Dice to Seed: tools/dice-to-seed.md
         - Mining Tools:
+          - Block Rehasher: tools/block-rehasher.md
           - Hashrate Planner: tools/hashrate.md
 
 markdown_extensions:
