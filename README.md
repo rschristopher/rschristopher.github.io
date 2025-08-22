@@ -8,7 +8,7 @@ True Bitcoin Sovereignty
 by R.S. Christopher
 
 ## todo
-+ Tools page content (auto index? cta?)
++ 
 
 
 ### Fiat Tools 
@@ -33,13 +33,11 @@ by R.S. Christopher
 - [X] Hashrate Planner
 - [ ] Farm ROI Projector
 - [ ] Solo Mining Probability Calculator
-- [ ] Re-hashers: stratum, Merkle, block
+- [X] Re-hashers: stratum, Merkle, block
 
 ## maybe?
 + gun analogy, signing device and ceremony requires practice
 + GrapheneOS
-
-
 
 
 
