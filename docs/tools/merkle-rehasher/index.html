@@ -3491,21 +3491,19 @@
 
 
 <h1 id="merkle-rehasher">Merkle Rehasher<a class="headerlink" href="#merkle-rehasher" title="Permanent link">&para;</a></h1>
-<p>This tool computes the Merkle root from a list of transaction IDs (TXIDs). Enter TXIDs as hex strings, one per line, to reconstruct the Merkle root used in Bitcoin block headers.</p>
+<p>This tool computes the Merkle root from a list of transaction IDs (TXIDs). Enter TXIDs in any format (JSON, comma-separated, copy-pasted from a website, etc.), just make sure they're in network byte order (big-endian), as they would appear in block explorers, and the tool will parse them automatically.</p>
 <style>
-    .input-container {
+    .merkle-rehasher-input .input-container {
         padding: 20px;
-        border: 1px solid var(--md-default-fg-color--light);
-        border-radius: 8px;
         background: var(--md-default-bg-color);
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
-    .input-group {
+    .merkle-rehasher-input .input-group {
         display: flex;
         align-items: center;
         margin-bottom: 15px;
     }
-    .input-wrapper {
+    .merkle-rehasher-input .input-wrapper {
         display: flex;
         align-items: stretch;
         border: 1px solid var(--md-default-fg-color--light);
@@ -3514,14 +3512,14 @@
         transition: border-color 0.2s, box-shadow 0.2s;
         flex-grow: 1;
     }
-    .input-wrapper:hover {
+    .merkle-rehasher-input .input-wrapper:hover {
         border-color: var(--md-primary-fg-color--light);
     }
-    .input-wrapper:focus-within {
+    .merkle-rehasher-input .input-wrapper:focus-within {
         border-color: var(--md-primary-fg-color);
         box-shadow: 0 0 5px rgba(var(--md-primary-fg-color--rgb), 0.3);
     }
-    textarea {
+    .merkle-rehasher-input textarea {
         width: 100%;
         padding: 8px;
         border: none;
@@ -3529,18 +3527,11 @@
         color: var(--md-default-fg-color);
         outline: none;
         font-family: monospace;
+        border-radius: 4px;
         resize: vertical;
         min-height: 200px;
     }
-    .input-container label {
-        font-size: 1em;
-        color: var(--md-default-fg-color);
-        margin-right: 10px;
-        white-space: nowrap;
-        width: 150px;
-        text-align: right;
-    }
-    #error {
+    .merkle-rehasher-input #error {
         margin-top: 10px;
         padding: 10px;
         border: 1px solid var(--md-typeset-color-error);
@@ -3549,30 +3540,108 @@
         color: var(--md-typeset-color-error);
         font-size: 0.9em;
     }
-    #results {
-        margin-top: 20px;
-        padding: 10px;
-        background: var(--md-default-bg-color--light);
-        border-radius: 4px;
-        font-family: monospace;
-        word-break: break-all;
+    .merkle-rehasher-assumptions .assumptions {
+        font-weight: bold;
+        margin-top: 15px;
     }
-    #results strong {
-        color: var(--md-primary-fg-color);
+    .merkle-rehasher-assumptions .assumptions-line {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .merkle-rehasher-assumptions .efficiency-group, .merkle-rehasher-assumptions .blocktime-group {
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    .merkle-rehasher-assumptions .efficiency-group .input-wrapper, .merkle-rehasher-assumptions .blocktime-group .input-wrapper {
+        display: flex;
+        align-items: stretch;
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 4px;
+        background: var(--md-default-bg-color);
+        transition: border-color 0.2s, box-shadow 0.2s;
+        width: auto;
+        flex-grow: 0;
+    }
+    .merkle-rehasher-assumptions .efficiency-group input[type="number"], .merkle-rehasher-assumptions .blocktime-group input[type="number"] {
+        width: 80px;
+        padding: 8px;
+        border: none;
+        font-size: 1em;
+        color: var(--md-default-fg-color);
+        outline: none;
+        border-radius: 4px 0 0 4px;
+        font-family: monospace;
+    }
+    .merkle-rehasher-assumptions .efficiency-group .unit, .merkle-rehasher-assumptions .blocktime-group .unit {
+        padding: 0 8px;
+        font-size: 1em;
+        color: var(--md-default-fg-color);
+        pointer-events: none;
+        border-left: 1px solid var(--md-default-fg-color--light);
+        background: rgba(var(--md-default-bg-color--rgb), 0.7);
+        display: flex;
+        align-items: center;
+        border-radius: 0 4px 4px 0;
+    }
+    .merkle-rehasher-assumptions .hash-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .merkle-rehasher-assumptions .hash-section .hash-input {
+        display: flex;
+        width: 100%;
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 4px;
+        background: var(--md-default-bg-color);
+    }
+    .merkle-rehasher-assumptions .hash-section input {
+        flex-grow: 1;
+        border: none;
+        padding: 8px;
+        font-family: monospace;
+        background: transparent;
+        color: var(--md-default-fg-color);
+    }
+    .merkle-rehasher-assumptions .hash-section .link-unit {
+        padding: 0 8px;
+        font-size: 1em;
+        color: var(--md-default-fg-color);
+        pointer-events: auto;
+        border-left: 1px solid var(--md-default-fg-color--light);
+        background: rgba(var(--md-default-bg-color--rgb), 0.7);
+        display: flex;
+        align-items: center;
+        border-radius: 0 4px 4px 0;
+    }
+    .merkle-rehasher-assumptions .hash-section .link-unit a {
+        color: var(--md-default-fg-color);
+        text-decoration: none;
+        font-weight: bold;
     }
 </style>
 
-<form id="merkleForm" class="input-container">
+<div class="merkle-rehasher-input">
+
+<div class="input-container">
     <div class="input-group">
-        <label for="txids">TXIDs (one per line):</label>
-        <div class="input-wrapper">
+        <div class="input-wrapper full-width">
             <textarea id="txids"></textarea>
         </div>
     </div>
-</form>
+</div>
 
 <div id="error" aria-live="polite"></div>
-<div id="results"></div>
+
+</div>
+
+<div class="admonition success">
+<p class="admonition-title">Found <span id="txidsCount">0</span> txids</p>
+<p><div id="txidsList" style="overflow: auto; max-height: 200px; font-family: monospace;"></div></p>
+</div>
+<div id="merkleRootSection" style="margin-top: 20px; font-family: monospace;">Merkle Root (network byte order): <strong id="merkleRoot">???</strong></div>
 
 <script>
     function splitEveryN(input, n) {
@@ -3599,10 +3668,6 @@
 
     function fromHexString(input) {
         return new Uint8Array(splitEveryN(input, 2).map(byte => parseInt(byte, 16)));
-    }
-
-    function cleanHex(input) {
-        return input.toLowerCase().replace(/[^0-9a-f]/g, "");
     }
 
     async function calculateMerkleRoot(txids) {
@@ -3634,13 +3699,22 @@
 
     async function calculate() {
         if (!validateInputs()) {
-            document.getElementById('results').innerHTML = '';
+            document.getElementById('txidsCount').innerHTML = '0';
+            document.getElementById('txidsList').innerHTML = '';
+            document.getElementById('merkleRoot').innerHTML = '???';
             return;
         }
-        const txidsRaw = document.getElementById('txids').value.split('\n').map(line => cleanHex(line.trim())).filter(Boolean);
-        const merkleRoot = await calculateMerkleRoot(txidsRaw);
-        const resultsDiv = document.getElementById('results');
-        resultsDiv.innerHTML = `Merkle Root: <strong>${merkleRoot}</strong>`;
+        const inputText = document.getElementById('txids').value.toLowerCase();
+        const txids = [];
+        const regex = /[0-9a-f]{64}/g;
+        let match;
+        while ((match = regex.exec(inputText)) !== null) {
+            txids.push(match[0]);
+        }
+        const merkleRoot = await calculateMerkleRoot(txids);
+        document.getElementById('txidsCount').innerHTML = txids.length.toLocaleString();
+        document.getElementById('txidsList').innerHTML = txids.map(txid => `<div>${txid}</div>`).join('');
+        document.getElementById('merkleRoot').innerHTML = merkleRoot;
     }
 
     document.getElementById('txids').addEventListener('input', calculate);
