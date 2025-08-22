@@ -141,7 +141,6 @@ nav:
           - Toxic Maximalists: criticisms/toxic-maxis.md
           - Why is it not Worth More?: criticisms/why-is-it-not-worth-more.md
     - Tools: 
-        - tools/index.md
         - Fiat Tools:
           - Fee Forecaster: tools/fee.md
           - Inflation Calculator: tools/inflation.md
