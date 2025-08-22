@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://rschristopher.github.io/tools/hashrate/">
       
       
-        <link rel="prev" href="../block-rehasher/">
+        <link rel="prev" href="../stratum-rehasher/">
       
       
       
@@ -3299,6 +3299,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -3346,6 +3350,52 @@
   
   <span class="md-ellipsis">
     Block Rehasher
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../merkle-rehasher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Merkle Rehasher
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stratum-rehasher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stratum Rehasher
     
   </span>
   
@@ -3559,6 +3609,8 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
         <span class="formatted-value" id="blocksFormatted">1 day</span>
     </div>
 
+    <hr />
+
     <div class="input-group">
         <div class="input-wrapper">
             <input type="number" id="networkHashrate" value="1000" step="10" min="10" required aria-label="Network Hashrate">
@@ -3600,7 +3652,8 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
     function updateFormattedValues() {
         const blocks = document.getElementById('blocks').value;
         const interval = document.getElementById('interval').options[document.getElementById('interval').selectedIndex].text.toLowerCase();
-        document.getElementById('blocksFormatted').textContent = `${blocks} per ${interval}`;
+        const blockWord = blocks == 1 ? "block" : "blocks";
+        document.getElementById('blocksFormatted').textContent = `${blocks} ${blockWord} per ${interval}`;
 
         const networkHashrate = document.getElementById('networkHashrate').value;
         document.getElementById('networkHashrateFormatted').textContent = formatValue(networkHashrate, 'EH/s');
@@ -3699,7 +3752,7 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../block-rehasher/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Block Rehasher">
+          <a href="../stratum-rehasher/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Stratum Rehasher">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -3709,7 +3762,7 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
                 Previous
               </span>
               <div class="md-ellipsis">
-                Block Rehasher
+                Stratum Rehasher
               </div>
             </div>
           </a>
