@@ -3691,6 +3691,16 @@ function formatPower(value) {
     return value.toFixed(2) + ' ' + units[unitIndex];
 }
 
+function formatEnergy(value) {
+    const units = ['Wh', 'kWh', 'MWh', 'GWh', 'TWh', 'PWh'];
+    let unitIndex = 0;
+    while (value >= 1000 && unitIndex < units.length - 1) {
+        value /= 1000;
+        unitIndex++;
+    }
+    return value.toFixed(2) + ' ' + units[unitIndex];
+}
+
 function formatTime(minutes) {
     return Number.isInteger(minutes) ? minutes.toString() : minutes.toFixed(1);
 }
@@ -3751,7 +3761,7 @@ async function calculate() {
     const energy_wh = power_w * (blockTime / 60);
 
     const formattedPower = formatPower(power_w);
-    const formattedEnergy = formatPower(energy_wh);
+    const formattedEnergy = formatEnergy(energy_wh);
     const formattedBlockTime = formatTime(blockTime);
 
     const consumptionText = (energy_wh < 1 || power_w < 1)
