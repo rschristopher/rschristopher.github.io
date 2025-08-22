@@ -152,6 +152,8 @@ nav:
           - Dice to Seed: tools/dice-to-seed.md
         - Mining Tools:
           - Block Rehasher: tools/block-rehasher.md
+          - Merkle Rehasher: tools/merkle-rehasher.md
+          - Stratum Rehasher: tools/stratum-rehasher.md
           - Hashrate Planner: tools/hashrate.md
 
 markdown_extensions:

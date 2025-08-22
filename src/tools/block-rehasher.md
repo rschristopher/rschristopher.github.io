@@ -130,7 +130,7 @@ This tool re-hashes an 80-byte Bitcoin block header in hex format. You can test 
         <div class="section-title">Block Header Hex (Little-Endian)</div>
         <div class="input-group">
             <div class="input-wrapper full-width">
-                <textarea id="block_header"></textarea>
+                <textarea id="block_header">00601727aaf94cd662ee542a36c9057f4911e04abe1f13fd51fc00000000000000000000f3674e33b908d6725c160e1d670651b2829e7543b2a7399bd127911feb11387aa4059d68b32c021736431e4a</textarea>
             </div>
         </div>
 
@@ -180,7 +180,7 @@ This tool re-hashes an 80-byte Bitcoin block header in hex format. You can test 
     <span id="reHashResults" class="block-rehasher-assumptions">...</span>
 
 <script>
-let updating = false;
+updating = false;
 
 function cleanHex(input = '') {
     return input.toLowerCase().replace(/[^0-9a-f]/g, "");
@@ -205,7 +205,7 @@ function fromHexString(input) {
     return new Uint8Array(splitEveryN(input, 2).map(byte => parseInt(byte, 16)));
 }
 
-const MAX_TARGET = 0x00000000FFFFn * (2n ** (8n * (0x1Dn - 3n)));
+MAX_TARGET = 0x00000000FFFFn * (2n ** (8n * (0x1Dn - 3n)));
 
 function getTargetFromBits(bits_le) {
     const bits_be = hexReverseByteOrder(bits_le);
@@ -292,6 +292,7 @@ function validateInputs() {
 }
 
 async function calculate() {
+    console.log("calculate()");
     const reHash = document.getElementById('reHash');
     const mempoolLink = document.getElementById('mempoolLink');
     const results = document.getElementById('reHashResults');
@@ -299,6 +300,7 @@ async function calculate() {
 
     const inputs = validateInputs();
     if (!inputs) {
+        console.log("invalid inputs");
         reHash.innerHTML = '???';
         mempoolLink.href = 'https://mempool.space/block/???';
         results.innerHTML = '...';
@@ -418,9 +420,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const params = new URLSearchParams(window.location.search);
     const blockheader = params.get('blockheader');
-    blockHeader.value = (blockheader && cleanHex(blockheader).length === 160)
-        ? blockheader
-        : '00601727aaf94cd662ee542a36c9057f4911e04abe1f13fd51fc00000000000000000000f3674e33b908d6725c160e1d670651b2829e7543b2a7399bd127911feb11387aa4059d68b32c021736431e4a';
+    if (blockheader && cleanHex(blockheader).length === 160) {
+        blockHeader.value = blockheader;
+    }
 
     ['version', 'prev_hash', 'merkle_root', 'timestamp', 'bits', 'nonce'].forEach(id => {
         const element = document.getElementById(id);
@@ -430,5 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateFromHeader();
 });
-</script>
 
+console.log("block re-hasher initialized");
+updateFromHeader();
+</script>

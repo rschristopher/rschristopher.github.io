@@ -120,6 +120,8 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
         <label for="blocks">:</label>
         <span class="formatted-value" id="blocksFormatted">1 day</span>
     </div>
+
+    <hr />
     
     <div class="input-group">
         <div class="input-wrapper">
@@ -162,7 +164,8 @@ Secure your sovereignty -- break free from centralized pools and mine blocks on 
     function updateFormattedValues() {
         const blocks = document.getElementById('blocks').value;
         const interval = document.getElementById('interval').options[document.getElementById('interval').selectedIndex].text.toLowerCase();
-        document.getElementById('blocksFormatted').textContent = `${blocks} per ${interval}`;
+        const blockWord = blocks == 1 ? "block" : "blocks";
+        document.getElementById('blocksFormatted').textContent = `${blocks} ${blockWord} per ${interval}`;
         
         const networkHashrate = document.getElementById('networkHashrate').value;
         document.getElementById('networkHashrateFormatted').textContent = formatValue(networkHashrate, 'EH/s');
