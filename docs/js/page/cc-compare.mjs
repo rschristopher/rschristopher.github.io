@@ -8,17 +8,15 @@ const CATEGORIES = [
     { key: 'portal', label: 'Portal travel' }
 ];
 
-const DEFAULT_GLOBAL_CPP = 1.8;
-
 let state = {
     spending: {
-        everyday: 25000,
-        dining: 6000,
-        flights_direct: 4000,
-        hotels_direct: 5000,
-        portal: 8000
+        everyday: 50000,
+        dining: 23000,
+        flights_direct: 8000,
+        hotels_direct: 2000,
+        portal: 2000
     },
-    globalCpp: DEFAULT_GLOBAL_CPP,
+    globalCpp: 1.8,
     cards: []
 };
 
@@ -32,7 +30,6 @@ function loadState() {
         if (saved) {
             const parsed = JSON.parse(saved);
             if (parsed.spending) state.spending = { ...state.spending, ...parsed.spending };
-            if (parsed.globalCpp) state.globalCpp = parsed.globalCpp;
             if (parsed.cards && parsed.cards.length > 0) {
                 state.cards = parsed.cards;
                 // Re-assign ids to avoid collisions
@@ -49,7 +46,7 @@ function saveState() {
     } catch (e) {}
 }
 
-// Ensure the three default cards exist (adds missing ones like Fold even if you have saved data)
+// Ensure the four default cards exist (adds missing ones like Amex Plat or Fold even if you have saved data)
 function ensureDefaultCards() {
     const defaultDefs = [
         {
@@ -65,8 +62,11 @@ function ensureDefaultCards() {
             id: 'vx',
             name: 'Capital One Venture X',
             cost: 395,
+            cppOverride: 1.85,
             multipliers: { everyday: 2, dining: 2, flights_direct: 2, hotels_direct: 2, portal: 7 },
-            girlMath: []
+            girlMath: [
+                { desc: "Premier Collection", value: 200, prob: 50 }
+            ]
         },
         {
             id: 'fold',
@@ -75,6 +75,17 @@ function ensureDefaultCards() {
             multipliers: { everyday: 1.5, dining: 1.5, flights_direct: 1.5, hotels_direct: 1.5, portal: 1.5 },
             girlMath: [
                 { desc: "Behavior bonus (DCA + pay w/ BTC) on first $24k/yr equiv", value: 600, prob: 50 }
+            ]
+        },
+        {
+            id: 'plat',
+            name: 'American Express Platinum',
+            cost: 895,
+            multipliers: { everyday: 1, dining: 1, flights_direct: 5, hotels_direct: 5, portal: 5 },
+            girlMath: [
+                { desc: "Airline fee credit", value: 200, prob: 80 },
+                { desc: "Hotel credit", value: 100, prob: 70 },
+                { desc: "Uber credits", value: 200, prob: 60 }
             ]
         }
     ];
@@ -167,18 +178,6 @@ function renderSpending() {
 }
 
 // Render global cpp
-function renderGlobalCpp() {
-    const input = document.getElementById('globalCpp');
-    if (!input) return;
-
-    input.value = state.globalCpp;
-    input.oninput = () => {
-        state.globalCpp = parseFloat(input.value) || DEFAULT_GLOBAL_CPP;
-        saveState();
-        renderAll();
-    };
-}
-
 // Render one card panel (including its girl math)
 function renderCard(card, container) {
     const div = document.createElement('div');
@@ -198,7 +197,7 @@ function renderCard(card, container) {
         </div>
 
         <div>
-            <span class="small-grey" data-toggle-cpp>[ ¢ per point/mile ]</span>
+            <span class="small-grey" data-toggle-cpp>[ ¢ per point/mile (${ (card.cppOverride != null ? card.cppOverride : state.globalCpp).toFixed(2) }) ]</span>
             <div class="cpp-override" style="display:none; margin-top:4px;">
                 <div class="input-wrapper">
                     <input type="number" class="card-cpp" value="${card.cppOverride != null ? card.cppOverride : state.globalCpp}" step="0.1" min="0.5" style="width:80px;">
@@ -233,6 +232,8 @@ function renderCard(card, container) {
 
     // CPP override (per-card)
     const cppInput = div.querySelector('.card-cpp');
+    const toggleSpan = div.querySelector('[data-toggle-cpp]');
+
     cppInput.oninput = () => {
         const v = parseFloat(cppInput.value);
         if (isNaN(v) || Math.abs(v - state.globalCpp) < 0.001) {
@@ -242,7 +243,19 @@ function renderCard(card, container) {
         }
         saveState();
         renderResults();
+
+        // Live update the toggle label value immediately
+        if (toggleSpan) {
+            const currentVal = card.cppOverride != null ? card.cppOverride : state.globalCpp;
+            toggleSpan.textContent = `[ ¢ per point/mile (${currentVal.toFixed(2)}) ]`;
+        }
     };
+
+    // For Venture X, default to a higher value reflecting transfer potential (e.g. 1.85)
+    // This is only for new cards; existing saved data uses what user set or global
+    if (card.id === 'vx' && card.cppOverride === null) {
+        // Do not auto-set here to avoid overriding user choice; user sets via the toggle
+    }
 
     // Multipliers (compact)
     const multContainer = div.querySelector('.multipliers');
@@ -273,6 +286,16 @@ function renderCard(card, container) {
         noteDiv.style.color = '#666';
         noteDiv.style.marginTop = '6px';
         noteDiv.innerHTML = 'Base 1.5% back in BTC flat on all spend (no cap). Up to ~4% total on first $2k/mo via Auto-Stack!/DCA or Direct-to-Bitcoin (+ up to 0.5% pay statement w/ BTC from Fold). Model extra bonuses in Girl Math.';
+        multContainer.after(noteDiv);
+    }
+
+    // Explanatory note for Amex Platinum
+    if (card.id === 'plat') {
+        const noteDiv = document.createElement('div');
+        noteDiv.style.fontSize = '0.75em';
+        noteDiv.style.color = '#666';
+        noteDiv.style.marginTop = '6px';
+        noteDiv.innerHTML = '5x on flights (direct or Amex Travel, up to $500k/yr) and prepaid hotels via Amex Travel. 1x elsewhere. Many statement credits (airline $200, hotel, Uber, etc.) — model in Girl Math. Strong lounge access.';
         multContainer.after(noteDiv);
     }
 
@@ -362,7 +385,7 @@ function renderCards() {
 function renderResults() {
     const container = document.getElementById('resultsContainer');
     if (!container) return;
-    container.innerHTML = '<div class="section-header">Comparison — net dollar value</div>';
+    container.innerHTML = '';
 
     const grid = document.createElement('div');
     grid.className = 'results-grid';
@@ -377,7 +400,7 @@ function renderResults() {
 
     calcs.forEach(({ card, calc }, index) => {
         const rank = index + 1;
-        const rankLabel = `${rank}${rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th'} place`;
+        const rankLabel = `${rank}${rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th'}`;
         const isFirst = rank === 1;
         const rankColor = isFirst ? '#2e7d32' : '#555';
 
@@ -403,7 +426,6 @@ function renderResults() {
 
 function renderAll() {
     renderSpending();
-    renderGlobalCpp();
     renderCards();
     renderResults();
 }
@@ -459,9 +481,29 @@ function init() {
             card.name = 'Fold Bitcoin Credit Card';
             cleaned = true;
         }
+        if (card.id === 'plat' && card.name && card.name.includes('(')) {
+            card.name = 'American Express Platinum';
+            cleaned = true;
+        }
     });
     if (cleaned) {
         saveState();
+    }
+
+    // Ensure Premier Collection girl math line for Venture X (even with existing saved data)
+    // and set a sensible per-card cpp override (1.85¢) reflecting transfer value if not already set by user
+    const vxCard = state.cards.find(c => c.id === 'vx');
+    if (vxCard) {
+        if (!vxCard.girlMath) vxCard.girlMath = [];
+        const hasPremier = vxCard.girlMath.some(line => line.desc && line.desc.includes('Premier'));
+        if (!hasPremier) {
+            vxCard.girlMath.push({ desc: "Premier Collection", value: 200, prob: 50 });
+            saveState();
+        }
+        if (vxCard.cppOverride === null || vxCard.cppOverride === undefined) {
+            vxCard.cppOverride = 1.85;
+            saveState();
+        }
     }
 
     // Initial render
