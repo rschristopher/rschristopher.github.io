@@ -198,7 +198,7 @@ function renderCard(card, container) {
         </div>
 
         <div>
-            <span class="small-grey" data-toggle-cpp>[ change ¢ per point/mile ]</span>
+            <span class="small-grey" data-toggle-cpp>[ ¢ per point/mile ]</span>
             <div class="cpp-override" style="display:none; margin-top:4px;">
                 <div class="input-wrapper">
                     <input type="number" class="card-cpp" value="${card.cppOverride != null ? card.cppOverride : state.globalCpp}" step="0.1" min="0.5" style="width:80px;">

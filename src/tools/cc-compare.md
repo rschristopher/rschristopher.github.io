@@ -1,12 +1,8 @@
 # Credit Card Comparator
 
-This tool helps you fairly compare premium travel cards (or any others you add) based on your actual expected spending, real earning rates, annual costs, and an honest assessment of the "extra" benefits.
+This tool helps you fairly compare premium rewards cards based on your actual expected spending, real earning rates, annual costs, and an honest assessment of the "extra" benefits.
 
-**All figures on this page are annual (per year).**
-
-Spending is entered once (shared across all cards). Each card then has its own annual cost, points/miles value assumption, and its own "girl math" section where you can add subjective or uncertain benefits with a probability of using them in a typical year.
-
-Everything updates live. The results focus on net annual dollar value.
+!!! warning "All figures on this page are annual (per year)."
 
 <div id="cc_compare_page" style="display:none;"></div>
 
@@ -23,6 +19,9 @@ Everything updates live. The results focus on net annual dollar value.
         align-items: center;
         margin-bottom: 12px;
         flex-wrap: wrap;
+    }
+    .input-group label {
+        margin-left: 8px;
     }
     .input-wrapper {
         display: flex;
@@ -165,9 +164,6 @@ Everything updates live. The results focus on net annual dollar value.
         font-weight: 600;
         color: var(--md-primary-fg-color);
     }
-    .global-cpp {
-        max-width: 220px;
-    }
     .small-grey {
         color: #888;
         font-size: 0.82em;
@@ -176,6 +172,11 @@ Everything updates live. The results focus on net annual dollar value.
     }
     .small-grey:hover {
         text-decoration: underline;
+    }
+
+    .cpp-override .input-wrapper {
+        width: fit-content;
+        max-width: 120px;
     }
 
     .card-name {
@@ -197,80 +198,68 @@ Everything updates live. The results focus on net annual dollar value.
 </style>
 
 ### 1. Expected Spending (shared)
-All numbers on this page are **annual** (per year).
 
 <form id="spendingForm" class="input-container">
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="everyday" value="25000" step="100" min="0">
+            <input type="number" id="everyday" value="50000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <label for="everyday">Everyday / General purchases</label>
-        <span class="formatted-value" id="everydayFormatted">$25,000</span>
+        <span class="formatted-value" id="everydayFormatted">$50,000</span>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="dining" value="6000" step="100" min="0">
+            <input type="number" id="dining" value="23000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <label for="dining">Dining (restaurants, delivery, etc.)</label>
-        <span class="formatted-value" id="diningFormatted">$6,000</span>
+        <span class="formatted-value" id="diningFormatted">$23,000</span>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="flights_direct" value="4000" step="100" min="0">
+            <input type="number" id="flights_direct" value="8000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <label for="flights_direct">Flights booked directly</label>
-        <span class="formatted-value" id="flights_directFormatted">$4,000</span>
+        <span class="formatted-value" id="flights_directFormatted">$8,000</span>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="hotels_direct" value="5000" step="100" min="0">
+            <input type="number" id="hotels_direct" value="2000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <label for="hotels_direct">Hotels &amp; car rentals booked directly</label>
-        <span class="formatted-value" id="hotels_directFormatted">$5,000</span>
+        <span class="formatted-value" id="hotels_directFormatted">$2,000</span>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="portal" value="8000" step="100" min="0">
+            <input type="number" id="portal" value="2000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <label for="portal">Travel booked through issuer portal</label>
-        <span class="formatted-value" id="portalFormatted">$8,000</span>
+        <span class="formatted-value" id="portalFormatted">$2,000</span>
     </div>
 </form>
 
-### 2. Average Value Per Point/Mile
-<div class="input-container">
-    <div class="input-group global-cpp">
-        <div class="input-wrapper">
-            <input type="number" id="globalCpp" value="1.8" step="0.1" min="0.5" max="3">
-            <span class="unit">¢</span>
-        </div>
-    </div>
-    <div style="font-size:0.85em; color:#666; margin-top:8px;">
-        1.5¢ = mostly easy portal use. 1.7–1.9¢ = realistic blended for most people. 2.0¢+ = optimistic with good transfers.
-    </div>
-</div>
 
-### 3. Cards
+
+### 2. Cards
+
+Use the probabilities in Girl Math honestly -- they turn optimistic claims into expected value.
+
 <div id="cardsContainer"></div>
 
 <button id="addCardBtn" style="padding:8px 16px; border-radius:4px; border:1px solid var(--md-primary-fg-color); background:transparent; color:var(--md-primary-fg-color); cursor:pointer; margin-bottom:20px;">
     + Add another card
 </button>
 
-### 4. Comparison (live results)
-All results below are **annual**.
+---
+
+Comparison
 
 <div id="resultsContainer"></div>
-
-<p style="font-size:0.8em; color:var(--md-default-fg-color); margin-top:20px;">
-    All calculations happen in your browser. Nothing is sent anywhere. Use the probabilities in Girl Math honestly — they turn optimistic claims into expected value.
-</p>
