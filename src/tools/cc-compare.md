@@ -1,0 +1,276 @@
+# Credit Card Comparator
+
+This tool helps you fairly compare premium travel cards (or any others you add) based on your actual expected spending, real earning rates, annual costs, and an honest assessment of the "extra" benefits.
+
+**All figures on this page are annual (per year).**
+
+Spending is entered once (shared across all cards). Each card then has its own annual cost, points/miles value assumption, and its own "girl math" section where you can add subjective or uncertain benefits with a probability of using them in a typical year.
+
+Everything updates live. The results focus on net annual dollar value.
+
+<div id="cc_compare_page" style="display:none;"></div>
+
+<style>
+    .input-container {
+        padding: 20px;
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 8px;
+        background: var(--md-default-bg-color);
+        margin-bottom: 20px;
+    }
+    .input-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
+    }
+    .input-wrapper {
+        display: flex;
+        align-items: stretch;
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 4px;
+        background: var(--md-default-bg-color);
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .input-wrapper:hover {
+        border-color: var(--md-primary-fg-color--light);
+    }
+    .input-wrapper:focus-within {
+        border-color: var(--md-primary-fg-color);
+        box-shadow: 0 0 5px rgba(var(--md-primary-fg-color--rgb), 0.3);
+    }
+    input[type="number"], input[type="text"] {
+        padding: 8px;
+        border: none;
+        font-size: 1em;
+        color: var(--md-default-fg-color);
+        outline: none;
+        background: transparent;
+    }
+    .unit {
+        padding: 0 8px;
+        font-size: 0.95em;
+        color: var(--md-default-fg-color);
+        pointer-events: none;
+        border-left: 1px solid var(--md-default-fg-color--light);
+        background: rgba(var(--md-default-bg-color--rgb), 0.7);
+        display: flex;
+        align-items: center;
+        border-radius: 0 4px 4px 0;
+    }
+    .input-container label {
+        font-size: 0.95em;
+        color: var(--md-default-fg-color);
+        margin-left: 10px;
+        margin-right: 10px;
+        min-width: 140px;
+    }
+    .formatted-value {
+        font-weight: bold;
+        color: var(--md-primary-fg-color);
+    }
+    .section-header {
+        font-size: 1.05em;
+        font-weight: 600;
+        color: var(--md-default-fg-color--dark);
+        margin: 18px 0 8px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid var(--md-default-fg-color--light);
+    }
+    .card {
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 16px;
+        background: var(--md-default-bg-color);
+    }
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .card-name {
+        font-weight: 600;
+        font-size: 1.05em;
+    }
+    .remove-card {
+        background: none;
+        border: none;
+        color: var(--md-typeset-color-error);
+        cursor: pointer;
+        font-size: 0.9em;
+    }
+    .girl-math-row {
+        display: grid;
+        grid-template-columns: 1fr 90px 82px 28px;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    @media (max-width: 480px) {
+        .girl-math-row {
+            grid-template-columns: 1fr 70px 70px 24px;
+            gap: 6px;
+        }
+    }
+    .girl-math-row input {
+        width: 100%;
+        padding: 6px;
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 4px;
+        font-size: 0.95em;
+    }
+    .add-girl-math {
+        margin-top: 8px;
+        padding: 6px 12px;
+        background: var(--md-primary-fg-color);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9em;
+    }
+    .results-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-top: 12px;
+    }
+    @media (min-width: 700px) {
+        .results-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    .result-card {
+        border: 1px solid var(--md-default-fg-color--light);
+        border-radius: 8px;
+        padding: 16px;
+        background: var(--md-default-bg-color);
+    }
+    .result-card.winner {
+        border-color: var(--md-primary-fg-color);
+        box-shadow: 0 0 0 2px rgba(var(--md-primary-fg-color--rgb), 0.15);
+    }
+    .result-card .likely {
+        font-size: 1.35em;
+        font-weight: 700;
+        margin: 6px 0;
+    }
+    .result-card .range {
+        font-size: 0.9em;
+        color: var(--md-default-fg-color);
+    }
+    .delta {
+        font-weight: 600;
+        color: var(--md-primary-fg-color);
+    }
+    .global-cpp {
+        max-width: 220px;
+    }
+    .small-grey {
+        color: #888;
+        font-size: 0.82em;
+        cursor: pointer;
+        user-select: none;
+    }
+    .small-grey:hover {
+        text-decoration: underline;
+    }
+
+    .card-name {
+        border: none;
+        background: transparent;
+        padding: 2px 0;
+        margin: 0;
+        font: inherit;
+        border-bottom: 1px dotted #888;
+        transition: border-color 0.1s;
+    }
+    .card-name:hover {
+        border-bottom: 1px solid #666;
+    }
+    .card-name:focus {
+        border-bottom: 1px solid var(--md-primary-fg-color);
+        outline: none;
+    }
+</style>
+
+### 1. Expected Spending (shared)
+All numbers on this page are **annual** (per year).
+
+<form id="spendingForm" class="input-container">
+    <div class="input-group">
+        <div class="input-wrapper">
+            <input type="number" id="everyday" value="25000" step="100" min="0">
+            <span class="unit">$ / yr</span>
+        </div>
+        <label for="everyday">Everyday / General purchases</label>
+        <span class="formatted-value" id="everydayFormatted">$25,000</span>
+    </div>
+
+    <div class="input-group">
+        <div class="input-wrapper">
+            <input type="number" id="dining" value="6000" step="100" min="0">
+            <span class="unit">$ / yr</span>
+        </div>
+        <label for="dining">Dining (restaurants, delivery, etc.)</label>
+        <span class="formatted-value" id="diningFormatted">$6,000</span>
+    </div>
+
+    <div class="input-group">
+        <div class="input-wrapper">
+            <input type="number" id="flights_direct" value="4000" step="100" min="0">
+            <span class="unit">$ / yr</span>
+        </div>
+        <label for="flights_direct">Flights booked directly</label>
+        <span class="formatted-value" id="flights_directFormatted">$4,000</span>
+    </div>
+
+    <div class="input-group">
+        <div class="input-wrapper">
+            <input type="number" id="hotels_direct" value="5000" step="100" min="0">
+            <span class="unit">$ / yr</span>
+        </div>
+        <label for="hotels_direct">Hotels &amp; car rentals booked directly</label>
+        <span class="formatted-value" id="hotels_directFormatted">$5,000</span>
+    </div>
+
+    <div class="input-group">
+        <div class="input-wrapper">
+            <input type="number" id="portal" value="8000" step="100" min="0">
+            <span class="unit">$ / yr</span>
+        </div>
+        <label for="portal">Travel booked through issuer portal</label>
+        <span class="formatted-value" id="portalFormatted">$8,000</span>
+    </div>
+</form>
+
+### 2. Average Value Per Point/Mile
+<div class="input-container">
+    <div class="input-group global-cpp">
+        <div class="input-wrapper">
+            <input type="number" id="globalCpp" value="1.8" step="0.1" min="0.5" max="3">
+            <span class="unit">¢</span>
+        </div>
+    </div>
+    <div style="font-size:0.85em; color:#666; margin-top:8px;">
+        1.5¢ = mostly easy portal use. 1.7–1.9¢ = realistic blended for most people. 2.0¢+ = optimistic with good transfers.
+    </div>
+</div>
+
+### 3. Cards
+<div id="cardsContainer"></div>
+
+<button id="addCardBtn" style="padding:8px 16px; border-radius:4px; border:1px solid var(--md-primary-fg-color); background:transparent; color:var(--md-primary-fg-color); cursor:pointer; margin-bottom:20px;">
+    + Add another card
+</button>
+
+### 4. Comparison (live results)
+All results below are **annual**.
+
+<div id="resultsContainer"></div>
+
+<p style="font-size:0.8em; color:var(--md-default-fg-color); margin-top:20px;">
+    All calculations happen in your browser. Nothing is sent anywhere. Use the probabilities in Girl Math honestly — they turn optimistic claims into expected value.
+</p>

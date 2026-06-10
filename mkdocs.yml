@@ -6,7 +6,7 @@ site_description: "Bitcoin is True"
 site_author: RS Christopher
 docs_dir: src
 site_dir: docs
-copyright: Uncopyright &copy; 2022-2025 ~ RS Christopher
+copyright: Uncopyright &copy; 2022-2026 ~ RS Christopher
 extra:
     generator: false
 extra_css:
@@ -18,6 +18,7 @@ extra_javascript:
     - js/page/rent-vs-mortgage.mjs
     - js/page/retirement.mjs
     - js/page/satspp.mjs
+    - js/page/cc-compare.mjs
     - https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js
     - https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js
 theme:
