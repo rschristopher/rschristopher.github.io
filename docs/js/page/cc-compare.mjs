@@ -10,8 +10,8 @@ const CATEGORIES = [
 
 let state = {
     spending: {
-        everyday: 50000,
-        dining: 23000,
+        everyday: 79900,
+        dining: 12450,
         flights_direct: 8000,
         hotels_direct: 2000,
         portal: 2000
@@ -23,10 +23,10 @@ let state = {
 let nextCardId = 1;
 let nextGirlId = 1;
 
-// Load from localStorage if available
+// Load from sessionStorage if available
 function loadState() {
     try {
-        const saved = localStorage.getItem('ccCompareState');
+        const saved = sessionStorage.getItem('ccCompareState');
         if (saved) {
             const parsed = JSON.parse(saved);
             if (parsed.spending) state.spending = { ...state.spending, ...parsed.spending };
@@ -39,14 +39,26 @@ function loadState() {
     } catch (e) {}
 }
 
-// Save to localStorage
+// Save to sessionStorage
 function saveState() {
     try {
-        localStorage.setItem('ccCompareState', JSON.stringify(state));
+        sessionStorage.setItem('ccCompareState', JSON.stringify(state));
     } catch (e) {}
 }
 
-// Ensure the four default cards exist (adds missing ones like Amex Plat or Fold even if you have saved data)
+function createCardFromDef(def) {
+    return {
+        id: def.id,
+        name: def.name,
+        cost: def.cost,
+        cppOverride: def.cppOverride !== undefined ? def.cppOverride : null,
+        multipliers: { ...def.multipliers },
+        girlMath: def.girlMath.map(l => ({ ...l }))
+    };
+}
+
+// Ensure the four default cards exist (adds missing ones like Amex Plat or Fold even if you have saved data).
+// All defaults live in this one array; no per-feature migration code.
 function ensureDefaultCards() {
     const defaultDefs = [
         {
@@ -55,14 +67,15 @@ function ensureDefaultCards() {
             cost: 990,
             multipliers: { everyday: 1, dining: 3, flights_direct: 4, hotels_direct: 4, portal: 8 },
             girlMath: [
-                { desc: "Priority Pass Guests", value: 120, prob: 80 }
+                { desc: "Priority Pass Guests", value: 120, prob: 80 },
+                { desc: "Chase nonsense", value: 500, prob: 50 }
             ]
         },
         {
             id: 'vx',
             name: 'Capital One Venture X',
             cost: 395,
-            cppOverride: 1.85,
+            cppOverride: 1.8,
             multipliers: { everyday: 2, dining: 2, flights_direct: 2, hotels_direct: 2, portal: 7 },
             girlMath: [
                 { desc: "Premier Collection", value: 200, prob: 50 }
@@ -71,7 +84,8 @@ function ensureDefaultCards() {
         {
             id: 'fold',
             name: 'Fold Bitcoin Credit Card',
-            cost: 0,
+            cost: 100,
+            cppOverride: 1.0,
             multipliers: { everyday: 1.5, dining: 1.5, flights_direct: 1.5, hotels_direct: 1.5, portal: 1.5 },
             girlMath: [
                 { desc: "Behavior bonus (DCA + pay w/ BTC) on first $24k/yr equiv", value: 600, prob: 50 }
@@ -95,14 +109,7 @@ function ensureDefaultCards() {
 
     for (const def of defaultDefs) {
         if (!existingById.has(def.id)) {
-            state.cards.push({
-                id: def.id,
-                name: def.name,
-                cost: def.cost,
-                cppOverride: null,
-                multipliers: { ...def.multipliers },
-                girlMath: def.girlMath.map(l => ({ ...l }))
-            });
+            state.cards.push(createCardFromDef(def));
             added = true;
         }
     }
@@ -196,22 +203,23 @@ function renderCard(card, container) {
             <label>Total annual cost</label>
         </div>
 
-        <div>
-            <span class="small-grey" data-toggle-cpp>[ ¢ per point/mile (${ (card.cppOverride != null ? card.cppOverride : state.globalCpp).toFixed(2) }) ]</span>
+        <div style="margin: 12px 0 6px; font-size:0.9em; font-weight:600;">Earning Rates</div>
+        <div class="multipliers" style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.85em;"></div>
+
+        <div style="margin: 8px 0 6px; font-size:0.85em;">
+            <span class="small-grey" data-toggle-cpp>[ ¢ per pt/mi (${ (card.cppOverride != null ? card.cppOverride : state.globalCpp).toFixed(2) }) ]</span>
+            <span class="points-summary" style="margin-left: 8px; color: #666;"></span>
             <div class="cpp-override" style="display:none; margin-top:4px;">
-                <div class="input-wrapper">
+                <div class="input-wrapper" style="width: fit-content;">
                     <input type="number" class="card-cpp" value="${card.cppOverride != null ? card.cppOverride : state.globalCpp}" step="0.1" min="0.5" style="width:80px;">
                     <span class="unit">¢</span>
                 </div>
             </div>
         </div>
 
-        <div style="margin: 12px 0 6px; font-size:0.9em; font-weight:600;">Earning rates (multipliers per year)</div>
-        <div class="multipliers" style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.85em;"></div>
-
-        <div style="margin-top:14px; font-weight:600; font-size:0.95em;">Girl Math — annual claimed value + probability you'll actually use it in a typical year</div>
+        <div style="margin-top:14px; font-weight:600; font-size:0.95em;">Girl Math (claimed value + probability you'll actually use)</div>
         <div class="girl-math-list"></div>
-        <button class="add-girl-math" data-id="${card.id}">+ Add benefit line</button>
+        <button class="add-girl-math" data-id="${card.id}">+ Girl Math</button>
     `;
 
     // Name
@@ -230,9 +238,32 @@ function renderCard(card, container) {
         renderResults();
     };
 
-    // CPP override (per-card)
+    // CPP override (per-card) + live points summary
     const cppInput = div.querySelector('.card-cpp');
     const toggleSpan = div.querySelector('[data-toggle-cpp]');
+    const pointsSummary = div.querySelector('.points-summary');
+
+    function computePoints() {
+        let totalPoints = 0;
+        for (const cat of CATEGORIES) {
+            const spend = state.spending[cat.key] || 0;
+            const mult = card.multipliers[cat.key] || 1;
+            totalPoints += spend * mult;
+        }
+        const cpp = (card.cppOverride != null) ? card.cppOverride : state.globalCpp;
+        const value = totalPoints * (cpp / 100);
+        return {
+            totalPoints: Math.round(totalPoints),
+            value: Math.round(value)
+        };
+    }
+
+    function updatePointsSummary() {
+        if (!pointsSummary) return;
+        const { totalPoints, value } = computePoints();
+        pointsSummary.textContent = `x ${totalPoints.toLocaleString()} pts => ${fmt(value)}`;
+    }
+    updatePointsSummary();
 
     cppInput.oninput = () => {
         const v = parseFloat(cppInput.value);
@@ -247,15 +278,10 @@ function renderCard(card, container) {
         // Live update the toggle label value immediately
         if (toggleSpan) {
             const currentVal = card.cppOverride != null ? card.cppOverride : state.globalCpp;
-            toggleSpan.textContent = `[ ¢ per point/mile (${currentVal.toFixed(2)}) ]`;
+            toggleSpan.textContent = `[ ¢ per pt/mi (${currentVal.toFixed(2)}) ]`;
         }
+        updatePointsSummary();
     };
-
-    // For Venture X, default to a higher value reflecting transfer potential (e.g. 1.85)
-    // This is only for new cards; existing saved data uses what user set or global
-    if (card.id === 'vx' && card.cppOverride === null) {
-        // Do not auto-set here to avoid overriding user choice; user sets via the toggle
-    }
 
     // Multipliers (compact)
     const multContainer = div.querySelector('.multipliers');
@@ -265,8 +291,8 @@ function renderCard(card, container) {
         wrap.style.alignItems = 'center';
         wrap.innerHTML = `
             <span style="width:68px; font-size:0.8em;">${cat.label}</span>
-            <div class="input-wrapper" style="width:62px;">
-                <input type="number" step="0.5" min="0" value="${card.multipliers[cat.key]}" style="width:100%; padding:4px 6px; font-size:0.9em;">
+            <div class="input-wrapper" style="width:72px;">
+                <input type="number" step="0.1" min="0" value="${card.multipliers[cat.key]}" style="width:100%; padding:4px 6px; font-size:0.9em;">
                 <span class="unit" style="font-size:0.75em;">x</span>
             </div>
         `;
@@ -275,29 +301,10 @@ function renderCard(card, container) {
             card.multipliers[cat.key] = parseFloat(inp.value) || 1;
             saveState();
             renderResults();
+            updatePointsSummary();
         };
         multContainer.appendChild(wrap);
     });
-
-    // Explanatory note for Fold (self-contained info on rewards structure)
-    if (card.id === 'fold') {
-        const noteDiv = document.createElement('div');
-        noteDiv.style.fontSize = '0.75em';
-        noteDiv.style.color = '#666';
-        noteDiv.style.marginTop = '6px';
-        noteDiv.innerHTML = 'Base 1.5% back in BTC flat on all spend (no cap). Up to ~4% total on first $2k/mo via Auto-Stack!/DCA or Direct-to-Bitcoin (+ up to 0.5% pay statement w/ BTC from Fold). Model extra bonuses in Girl Math.';
-        multContainer.after(noteDiv);
-    }
-
-    // Explanatory note for Amex Platinum
-    if (card.id === 'plat') {
-        const noteDiv = document.createElement('div');
-        noteDiv.style.fontSize = '0.75em';
-        noteDiv.style.color = '#666';
-        noteDiv.style.marginTop = '6px';
-        noteDiv.innerHTML = '5x on flights (direct or Amex Travel, up to $500k/yr) and prepaid hotels via Amex Travel. 1x elsewhere. Many statement credits (airline $200, hotel, Uber, etc.) — model in Girl Math. Strong lounge access.';
-        multContainer.after(noteDiv);
-    }
 
     // Girl math rows
     const girlList = div.querySelector('.girl-math-list');
@@ -398,11 +405,16 @@ function renderResults() {
     // Sort by likely net descending for stack ranking
     calcs.sort((a, b) => b.calc.likelyNet - a.calc.likelyNet);
 
+    const totalSpend = Object.values(state.spending).reduce((sum, val) => sum + (val || 0), 0);
+
     calcs.forEach(({ card, calc }, index) => {
         const rank = index + 1;
         const rankLabel = `${rank}${rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th'}`;
         const isFirst = rank === 1;
         const rankColor = isFirst ? '#2e7d32' : '#555';
+
+        const effective = totalSpend > 0 ? (calc.likelyNet / totalSpend * 100) : 0;
+        const effText = effective.toFixed(1) + '% effective return';
 
         const el = document.createElement('div');
         el.className = `result-card${isFirst ? ' winner' : ''}`;
@@ -411,12 +423,12 @@ function renderResults() {
                 <span style="background:${rankColor}; color:white; padding:2px 8px; border-radius:12px; font-size:0.75em; font-weight:700; white-space:nowrap;">${rankLabel}</span>
                 ${card.name || 'Untitled Card'}
             </div>
-            <div><strong>Rewards value:</strong> ${fmt(calc.rewardsValue)}</div>
+            <div><strong>Total Rewards:</strong> ${fmt(calc.rewardsValue)}</div>
             <div>Annual cost: <strong>-${fmt(card.cost)}</strong></div>
             <div>Girl math (expected): <strong>+${fmt(calc.girlExpected)}</strong></div>
-            <div class="likely">Likely Value: <strong>${fmt(calc.likelyNet)}</strong></div>
-            <div class="range">Range (girl math 0% → 100%): ${fmt(calc.minNet)} — ${fmt(calc.maxNet)}</div>
-            ${isFirst ? '<div style="margin-top:6px; font-size:0.85em; color:#2e7d32; font-weight:600;">🏆 Winner</div>' : ''}
+            <div class="likely">Likely Rewards: <strong>${fmt(calc.likelyNet)}</strong></div>
+            <div class="range">Girl Math Range: ${fmt(calc.minNet)} to ${fmt(calc.maxNet)}</div>
+            <div style="margin-top:6px; font-size:0.85em; ${isFirst ? 'color:#2e7d32; font-weight:600;' : 'color:#666;'}">${isFirst ? '🏆 Winner: ' : ''}${effText}</div>
         `;
         grid.appendChild(el);
     });
@@ -466,44 +478,25 @@ function init() {
     loadState();
     ensureDefaultCards();
 
-    // Force-clean old default card names that had parentheticals (from previous saved state)
+    // Legacy name cleanup for very old saved data (parentheticals like "(you + wife)").
+    // Can be removed later.
     let cleaned = false;
     state.cards.forEach(card => {
-        if (card.id === 'csr' && card.name && card.name.includes('(')) {
-            card.name = 'Chase Sapphire Reserve';
-            cleaned = true;
-        }
-        if (card.id === 'vx' && card.name && card.name.includes('(')) {
-            card.name = 'Capital One Venture X';
-            cleaned = true;
-        }
-        if (card.id === 'fold' && card.name && card.name.includes('(')) {
-            card.name = 'Fold Bitcoin Credit Card';
-            cleaned = true;
-        }
-        if (card.id === 'plat' && card.name && card.name.includes('(')) {
-            card.name = 'American Express Platinum';
-            cleaned = true;
+        if (card.name && card.name.includes('(')) {
+            const map = {
+                csr: 'Chase Sapphire Reserve',
+                vx: 'Capital One Venture X',
+                fold: 'Fold Bitcoin Credit Card',
+                plat: 'American Express Platinum'
+            };
+            if (map[card.id]) {
+                card.name = map[card.id];
+                cleaned = true;
+            }
         }
     });
     if (cleaned) {
         saveState();
-    }
-
-    // Ensure Premier Collection girl math line for Venture X (even with existing saved data)
-    // and set a sensible per-card cpp override (1.85¢) reflecting transfer value if not already set by user
-    const vxCard = state.cards.find(c => c.id === 'vx');
-    if (vxCard) {
-        if (!vxCard.girlMath) vxCard.girlMath = [];
-        const hasPremier = vxCard.girlMath.some(line => line.desc && line.desc.includes('Premier'));
-        if (!hasPremier) {
-            vxCard.girlMath.push({ desc: "Premier Collection", value: 200, prob: 50 });
-            saveState();
-        }
-        if (vxCard.cppOverride === null || vxCard.cppOverride === undefined) {
-            vxCard.cppOverride = 1.85;
-            saveState();
-        }
     }
 
     // Initial render
