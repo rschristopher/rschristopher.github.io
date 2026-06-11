@@ -20,8 +20,9 @@ This tool helps you fairly compare premium rewards cards based on your actual ex
         margin-bottom: 12px;
         flex-wrap: wrap;
     }
-    .input-group label {
+    .formatted-and-label {
         margin-left: 8px;
+        white-space: nowrap;
     }
     .input-wrapper {
         display: flex;
@@ -60,9 +61,6 @@ This tool helps you fairly compare premium rewards cards based on your actual ex
     .input-container label {
         font-size: 0.95em;
         color: var(--md-default-fg-color);
-        margin-left: 10px;
-        margin-right: 10px;
-        min-width: 140px;
     }
     .formatted-value {
         font-weight: bold;
@@ -202,20 +200,24 @@ This tool helps you fairly compare premium rewards cards based on your actual ex
 <form id="spendingForm" class="input-container">
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="everyday" value="50000" step="100" min="0">
+            <input type="number" id="everyday" value="79900" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
-        <label for="everyday">Everyday / General purchases</label>
-        <span class="formatted-value" id="everydayFormatted">$50,000</span>
+        <div class="formatted-and-label">
+            <span class="formatted-value" id="everydayFormatted">$79,900</span>
+            <label for="everyday">Everyday / General purchases</label>
+        </div>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="dining" value="23000" step="100" min="0">
+            <input type="number" id="dining" value="12450" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
-        <label for="dining">Dining (restaurants, delivery, etc.)</label>
-        <span class="formatted-value" id="diningFormatted">$23,000</span>
+        <div class="formatted-and-label">
+            <span class="formatted-value" id="diningFormatted">$12,450</span>
+            <label for="dining">Dining (restaurants, delivery, etc.)</label>
+        </div>
     </div>
 
     <div class="input-group">
@@ -223,8 +225,10 @@ This tool helps you fairly compare premium rewards cards based on your actual ex
             <input type="number" id="flights_direct" value="8000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
-        <label for="flights_direct">Flights booked directly</label>
-        <span class="formatted-value" id="flights_directFormatted">$8,000</span>
+        <div class="formatted-and-label">
+            <span class="formatted-value" id="flights_directFormatted">$8,000</span>
+            <label for="flights_direct">Flights booked directly</label>
+        </div>
     </div>
 
     <div class="input-group">
@@ -232,8 +236,10 @@ This tool helps you fairly compare premium rewards cards based on your actual ex
             <input type="number" id="hotels_direct" value="2000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
-        <label for="hotels_direct">Hotels &amp; car rentals booked directly</label>
-        <span class="formatted-value" id="hotels_directFormatted">$2,000</span>
+        <div class="formatted-and-label">
+            <span class="formatted-value" id="hotels_directFormatted">$2,000</span>
+            <label for="hotels_direct">Hotels &amp; car rentals booked directly</label>
+        </div>
     </div>
 
     <div class="input-group">
@@ -241,8 +247,10 @@ This tool helps you fairly compare premium rewards cards based on your actual ex
             <input type="number" id="portal" value="2000" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
-        <label for="portal">Travel booked through issuer portal</label>
-        <span class="formatted-value" id="portalFormatted">$2,000</span>
+        <div class="formatted-and-label">
+            <span class="formatted-value" id="portalFormatted">$2,000</span>
+            <label for="portal">Travel booked through issuer portal</label>
+        </div>
     </div>
 </form>
 
