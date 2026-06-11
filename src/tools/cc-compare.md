@@ -1,6 +1,6 @@
 # Credit Card Comparator
 
-This tool helps you fairly compare premium rewards cards based on your actual expected spending, real earning rates, annual costs, and an honest assessment of the "extra" benefits.
+This tool helps you fairly compare premium rewards cards based on your expected spending, real earning rates, annual costs, and an honest assessment of the "extra" benefits.
 
 !!! warning "All figures on this page are annual (per year)."
 
