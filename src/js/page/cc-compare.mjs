@@ -189,7 +189,7 @@ function ensureDefaultCards() {
 
 // Render formatted currency
 function fmt(val) {
-    return '$' + Math.abs(val).toLocaleString();
+    return '$' + Math.abs(Math.round(val)).toLocaleString();
 }
 
 function computeSingleCardNet(card) {
@@ -323,7 +323,7 @@ function computeBestSubset() {
             totalFees += card.cost || 0;
         }
 
-        const net = totalRewards - totalFees;
+        const net = Math.round(totalRewards) - totalFees;
         if (net > best.net) {
             best = { net, subsetIndices: S.slice(), alloc, totalRewards, totalFees };
         }
@@ -681,9 +681,9 @@ function renderResults() {
         totalDiv.textContent = fmt(result.net);
         wrapper.appendChild(totalDiv);
 
-        // Small grey breakdown: total spend + effective reward rate (incl. qualified girl math)
+        // Small grey breakdown under the net total: total spend volume + effective net reward rate (after fees, incl. qualified perks)
         const totalSpend = CATEGORIES.reduce((sum, c) => sum + (state.spending[c.key] || 0), 0);
-        const effRate = totalSpend > 0 ? (result.totalRewards / totalSpend * 100) : 0;
+        const effRate = totalSpend > 0 ? (result.net / totalSpend * 100) : 0;
         const spendText = totalSpend >= 1000 ? '$' + Math.round(totalSpend / 1000) + 'k' : fmt(totalSpend);
         const breakdown = document.createElement('div');
         breakdown.style.cssText = 'font-size:0.82em; color:#666; margin-bottom:12px;';
