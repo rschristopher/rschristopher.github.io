@@ -94,6 +94,7 @@ function ensureDefaultCards() {
             id: 'csr',
             name: 'Chase Sapphire Reserve',
             cost: BASE_FEES.csr + (AU_FEES.csr || 0),
+            cppOverride: 1.5,
             multipliers: { everyday: 1, dining: 3, flights_direct: 4, hotels_direct: 4, portal: 8, amazon: 1 },
             girlMath: [
                 { desc: "$300 annual travel credit", value: 300, prob: 95, minSpend: 0 },
@@ -177,11 +178,14 @@ function ensureDefaultCards() {
         saveState();
     }
 
-    // Sync girlMath for demo cards to current defs (so updates show without removing card)
+    // Sync girlMath (and csr cpp default) for demo cards to current defs (so updates show without removing card)
     state.cards.forEach(card => {
         const def = defaultDefs.find(d => d.id === card.id);
         if (def && def.girlMath) {
             card.girlMath = def.girlMath.map(l => ({ ...l, minSpend: l.minSpend || 0 }));
+        }
+        if (def && def.cppOverride !== undefined && card.cppOverride == null) {
+            card.cppOverride = def.cppOverride;
         }
     });
 }
