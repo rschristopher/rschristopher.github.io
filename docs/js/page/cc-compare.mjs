@@ -5,23 +5,51 @@ const CATEGORIES = [
     { key: 'dining', label: 'Dining' },
     { key: 'flights_direct', label: 'Flights (direct)' },
     { key: 'hotels_direct', label: 'Hotels & Cars (direct)' },
-    { key: 'portal', label: 'Portal travel' }
+    { key: 'portal', label: 'Portal travel' },
+    { key: 'amazon', label: 'Amazon purchases' }
 ];
 
+const DEFAULT_SPENDING = {
+    everyday: 64900,
+    dining: 12450,
+    flights_direct: 8000,
+    hotels_direct: 2000,
+    portal: 2000,
+    amazon: 15000
+};
+
+const BASE_FEES = {
+    csr: 795,
+    vx: 395,
+    fold: 100,
+    plat: 895,
+    amazon: 0,
+    apple: 0,
+    ihg: 99
+};
+
+const AU_FEES = {
+    csr: 195,
+    vx: 125,
+    plat: 195
+};
+
+const NEW_CARD_DEFAULT_MULTIPLIERS = {
+    everyday: 2,
+    dining: 2,
+    flights_direct: 2,
+    hotels_direct: 2,
+    portal: 5,
+    amazon: 2
+};
+
 let state = {
-    spending: {
-        everyday: 79900,
-        dining: 12450,
-        flights_direct: 8000,
-        hotels_direct: 2000,
-        portal: 2000
-    },
-    globalCpp: 1.8,
+    spending: { ...DEFAULT_SPENDING },
+    globalCpp: 1.0,
     cards: []
 };
 
 let nextCardId = 1;
-let nextGirlId = 1;
 
 // Load from sessionStorage if available
 function loadState() {
@@ -29,10 +57,11 @@ function loadState() {
         const saved = sessionStorage.getItem('ccCompareState');
         if (saved) {
             const parsed = JSON.parse(saved);
-            if (parsed.spending) state.spending = { ...state.spending, ...parsed.spending };
+            if (parsed.spending) {
+                state.spending = { ...DEFAULT_SPENDING, ...parsed.spending };
+            }
             if (parsed.cards && parsed.cards.length > 0) {
                 state.cards = parsed.cards;
-                // Re-assign ids to avoid collisions
                 nextCardId = Math.max(...state.cards.map(c => parseInt(c.id) || 0)) + 1;
             }
         }
@@ -53,53 +82,83 @@ function createCardFromDef(def) {
         cost: def.cost,
         cppOverride: def.cppOverride !== undefined ? def.cppOverride : null,
         multipliers: { ...def.multipliers },
-        girlMath: def.girlMath.map(l => ({ ...l }))
+        girlMath: (def.girlMath || []).map(l => ({ ...l, minSpend: l.minSpend || 0 }))
     };
 }
 
-// Ensure the four default cards exist (adds missing ones like Amex Plat or Fold even if you have saved data).
+// Ensure the default cards exist (adds missing ones even if you have saved data).
 // All defaults live in this one array; no per-feature migration code.
 function ensureDefaultCards() {
     const defaultDefs = [
         {
             id: 'csr',
             name: 'Chase Sapphire Reserve',
-            cost: 990,
-            multipliers: { everyday: 1, dining: 3, flights_direct: 4, hotels_direct: 4, portal: 8 },
+            cost: BASE_FEES.csr + (AU_FEES.csr || 0),
+            multipliers: { everyday: 1, dining: 3, flights_direct: 4, hotels_direct: 4, portal: 8, amazon: 1 },
             girlMath: [
-                { desc: "Priority Pass Guests", value: 120, prob: 80 },
-                { desc: "Chase nonsense", value: 500, prob: 50 }
+                { desc: "$300 annual travel credit", value: 300, prob: 95, minSpend: 0 },
+                { desc: "Priority Pass + guests", value: 300, prob: 60, minSpend: 0 },
+                { desc: "$300 Sapphire dining credits (OpenTable)", value: 300, prob: 50, minSpend: 0 },
+                { desc: "$500 Southwest Airlines credit (requires $75k spend)", value: 500, prob: 40, minSpend: 75000 },
+                { desc: "$250 Shops at Chase credit (requires $75k spend)", value: 250, prob: 35, minSpend: 75000 },
+                { desc: "$250 select Chase Travel hotels credit", value: 250, prob: 70, minSpend: 0 }
             ]
         },
         {
             id: 'vx',
             name: 'Capital One Venture X',
-            cost: 395,
-            cppOverride: 1.8,
-            multipliers: { everyday: 2, dining: 2, flights_direct: 2, hotels_direct: 2, portal: 7 },
+            cost: BASE_FEES.vx + (AU_FEES.vx || 0),
+            multipliers: { everyday: 2, dining: 2, flights_direct: 2, hotels_direct: 2, portal: 10, amazon: 2 },
             girlMath: [
-                { desc: "Premier Collection", value: 200, prob: 50 }
+                { desc: "$300 annual travel credit", value: 300, prob: 95, minSpend: 0 },
+                { desc: "10k anniversary miles", value: 100, prob: 100, minSpend: 0 },
+                { desc: "$200 Premier Collection hotel credit", value: 200, prob: 65, minSpend: 0 },
+                { desc: "Lounge access value (Capital One + Priority Pass)", value: 150, prob: 55, minSpend: 0 }
             ]
         },
         {
             id: 'fold',
             name: 'Fold Bitcoin Credit Card',
-            cost: 100,
-            cppOverride: 1.0,
-            multipliers: { everyday: 1.5, dining: 1.5, flights_direct: 1.5, hotels_direct: 1.5, portal: 1.5 },
+            cost: BASE_FEES.fold,
+            multipliers: { everyday: 1.5, dining: 1.5, flights_direct: 1.5, hotels_direct: 1.5, portal: 1.5, amazon: 1.5 },
             girlMath: [
-                { desc: "Behavior bonus (DCA + pay w/ BTC) on first $24k/yr equiv", value: 600, prob: 50 }
+                { desc: "Behavior bonus (DCA + pay w/ BTC)", value: 600, prob: 50, minSpend: 10000 }
             ]
         },
         {
             id: 'plat',
             name: 'American Express Platinum',
-            cost: 895,
-            multipliers: { everyday: 1, dining: 1, flights_direct: 5, hotels_direct: 5, portal: 5 },
+            cost: BASE_FEES.plat + (AU_FEES.plat || 0),
+            multipliers: { everyday: 1, dining: 1, flights_direct: 5, hotels_direct: 1, portal: 5, amazon: 1 },
             girlMath: [
-                { desc: "Airline fee credit", value: 200, prob: 80 },
-                { desc: "Hotel credit", value: 100, prob: 70 },
-                { desc: "Uber credits", value: 200, prob: 60 }
+                { desc: "$200 airline fee credit", value: 200, prob: 80, minSpend: 0 },
+                { desc: "Hotel + Uber + other credits", value: 300, prob: 55, minSpend: 0 }
+            ]
+        },
+        {
+            id: 'amazon',
+            name: 'Amazon Prime Visa',
+            cost: BASE_FEES.amazon,
+            multipliers: { everyday: 1, dining: 2, flights_direct: 1, hotels_direct: 1, portal: 5, amazon: 5 },
+            girlMath: [
+                { desc: "Rotating Amazon promos", value: 150, prob: 40, minSpend: 3000 }
+            ]
+        },
+        {
+            id: 'apple',
+            name: 'Apple Card',
+            cost: BASE_FEES.apple,
+            multipliers: { everyday: 2, dining: 2, flights_direct: 2, hotels_direct: 2, portal: 2, amazon: 2 },
+            girlMath: []
+        },
+        {
+            id: 'ihg',
+            name: 'IHG One Rewards Premier',
+            cost: BASE_FEES.ihg,
+            multipliers: { everyday: 3, dining: 5, flights_direct: 5, hotels_direct: 10, portal: 5, amazon: 3 },
+            girlMath: [
+                { desc: "Annual free night / status perks", value: 400, prob: 70, minSpend: 15000 },
+                { desc: "Hotel credit / dining", value: 120, prob: 60, minSpend: 5000 }
             ]
         }
     ];
@@ -117,50 +176,159 @@ function ensureDefaultCards() {
     if (added) {
         saveState();
     }
+
+    // Sync girlMath for demo cards to current defs (so updates show without removing card)
+    state.cards.forEach(card => {
+        const def = defaultDefs.find(d => d.id === card.id);
+        if (def && def.girlMath) {
+            card.girlMath = def.girlMath.map(l => ({ ...l, minSpend: l.minSpend || 0 }));
+        }
+    });
 }
 
-// Calculate rewards value + net for one card
-function calculateCard(card) {
-    const globalCpp = state.globalCpp;
-    const cpp = (card.cppOverride != null) ? card.cppOverride : globalCpp;
-
-    let totalPoints = 0;
-    for (const cat of CATEGORIES) {
-        const spend = state.spending[cat.key] || 0;
-        const mult = card.multipliers[cat.key] || 1;
-        totalPoints += spend * mult;
-    }
-
-    const rewardsValue = totalPoints * (cpp / 100);
-    const baseNet = rewardsValue - card.cost;
-
-    // Girl math
-    let girlExpected = 0;
-    let girlMax = 0;
-    for (const line of (card.girlMath || [])) {
-        const v = parseFloat(line.value) || 0;
-        const p = Math.max(0, Math.min(100, parseFloat(line.prob) || 0));
-        girlExpected += v * (p / 100);
-        girlMax += v;
-    }
-
-    const likelyNet = baseNet + girlExpected;
-    const minNet = baseNet;
-    const maxNet = baseNet + girlMax;
-
-    return {
-        rewardsValue: Math.round(rewardsValue),
-        baseNet: Math.round(baseNet),
-        girlExpected: Math.round(girlExpected),
-        likelyNet: Math.round(likelyNet),
-        minNet: Math.round(minNet),
-        maxNet: Math.round(maxNet)
-    };
-}
 
 // Render formatted currency
 function fmt(val) {
     return '$' + Math.abs(val).toLocaleString();
+}
+
+function computeSingleCardNet(card) {
+    const cpp = (card.cppOverride != null) ? card.cppOverride : state.globalCpp;
+    let totalPoints = 0;
+    let totalSpend = 0;
+    for (const cat of CATEGORIES) {
+        const spend = state.spending[cat.key] || 0;
+        const mult = card.multipliers[cat.key] || 1;
+        totalPoints += spend * mult;
+        totalSpend += spend;
+    }
+    const base = totalPoints * (cpp / 100);
+    let girl = 0;
+    for (const line of (card.girlMath || [])) {
+        const ms = safeNum(line.minSpend);
+        if (totalSpend >= ms) {
+            const p = Math.max(0, Math.min(100, safeNum(line.prob)));
+            girl += safeNum(line.value) * (p / 100);
+        }
+    }
+    return Math.round(base + girl) - safeNum(card.cost);
+}
+
+function appendRateInput(container, cat, currentValue, onChange) {
+    const wrap = document.createElement('div');
+    wrap.style.display = 'flex';
+    wrap.style.alignItems = 'center';
+
+    const label = document.createElement('span');
+    label.style.width = '68px';
+    label.style.fontSize = '0.8em';
+    label.textContent = cat.label;
+
+    const inputWrap = document.createElement('div');
+    inputWrap.className = 'input-wrapper';
+    inputWrap.style.width = '72px';
+
+    const inp = document.createElement('input');
+    inp.type = 'number';
+    inp.step = '0.1';
+    inp.min = '0';
+    inp.value = currentValue;
+    inp.style.width = '100%';
+    inp.style.padding = '4px 6px';
+    inp.style.fontSize = '0.9em';
+
+    const unit = document.createElement('span');
+    unit.className = 'unit';
+    unit.style.fontSize = '0.75em';
+    unit.textContent = 'x';
+
+    inputWrap.append(inp, unit);
+    wrap.append(label, inputWrap);
+
+    inp.oninput = () => onChange(safeNum(inp.value, 1));
+    container.appendChild(wrap);
+}
+
+function getEffectiveRate(card, catKey) {
+    const mult = card.multipliers[catKey] || 1;
+    const cpp = (card.cppOverride != null) ? card.cppOverride : state.globalCpp;
+    return mult * (cpp / 100);
+}
+
+function scoreCard(card, ci, alloc, assignedSpend) {
+    const cpp = (card.cppOverride != null) ? card.cppOverride : state.globalCpp;
+    let base = 0;
+    for (const cat of CATEGORIES) {
+        if (alloc[cat.key] === ci) {
+            const mult = card.multipliers[cat.key] || 1;
+            base += (state.spending[cat.key] || 0) * mult * (cpp / 100);
+        }
+    }
+    let girl = 0;
+    for (const line of (card.girlMath || [])) {
+        const ms = safeNum(line.minSpend);
+        if (assignedSpend[ci] >= ms) {
+            const p = Math.max(0, Math.min(100, safeNum(line.prob)));
+            girl += safeNum(line.value) * (p / 100);
+        }
+    }
+    return base + girl;
+}
+
+function safeNum(val, def = 0) {
+    const n = parseFloat(val);
+    return isNaN(n) ? def : n;
+}
+
+// New multi-card solver
+function computeBestSubset() {
+    const n = state.cards.length;
+    let best = { net: -Infinity, subsetIndices: [], alloc: {}, totalRewards: 0, totalFees: 0 };
+
+    for (let mask = 0; mask < (1 << n); mask++) {
+        const S = [];
+        for (let i = 0; i < n; i++) if (mask & (1 << i)) S.push(i);
+        if (S.length === 0) {
+            if (0 > best.net) {
+                best = { net: 0, subsetIndices: [], alloc: {}, totalRewards: 0, totalFees: 0 };
+            }
+            continue;
+        }
+
+        // Assign each category to best card in S by effective rate (earlier cards win on ties)
+        const alloc = {};
+        const assignedSpend = new Array(n).fill(0);
+        for (const cat of CATEGORIES) {
+            let bestIdx = -1;
+            let bestRate = -1;
+            for (const ci of S) {
+                const rate = getEffectiveRate(state.cards[ci], cat.key);
+                if (rate > bestRate || bestIdx === -1) {
+                    bestRate = rate;
+                    bestIdx = ci;
+                }
+            }
+            if (bestIdx >= 0) {
+                alloc[cat.key] = bestIdx;
+                assignedSpend[bestIdx] += state.spending[cat.key] || 0;
+            }
+        }
+
+        // Compute rewards and fees for the subset
+        let totalRewards = 0;
+        let totalFees = 0;
+        for (const ci of S) {
+            const card = state.cards[ci];
+            totalRewards += scoreCard(card, ci, alloc, assignedSpend);
+            totalFees += card.cost || 0;
+        }
+
+        const net = totalRewards - totalFees;
+        if (net > best.net) {
+            best = { net, subsetIndices: S.slice(), alloc, totalRewards, totalFees };
+        }
+    }
+    return best;
 }
 
 // Render spending inputs + formatted values
@@ -174,7 +342,7 @@ function renderSpending() {
         if (input) {
             input.value = state.spending[key];
             input.oninput = () => {
-                state.spending[key] = parseFloat(input.value) || 0;
+                state.spending[key] = safeNum(input.value);
                 if (fmtEl) fmtEl.textContent = fmt(state.spending[key]);
                 saveState();
                 renderAll();
@@ -233,7 +401,7 @@ function renderCard(card, container) {
     // Cost
     const costInput = div.querySelector('.card-cost');
     costInput.oninput = () => {
-        card.cost = parseFloat(costInput.value) || 0;
+        card.cost = safeNum(costInput.value);
         saveState();
         renderResults();
     };
@@ -246,8 +414,8 @@ function renderCard(card, container) {
     function computePoints() {
         let totalPoints = 0;
         for (const cat of CATEGORIES) {
-            const spend = state.spending[cat.key] || 0;
-            const mult = card.multipliers[cat.key] || 1;
+            const spend = safeNum(state.spending[cat.key]);
+            const mult = safeNum(card.multipliers[cat.key], 1);
             totalPoints += spend * mult;
         }
         const cpp = (card.cppOverride != null) ? card.cppOverride : state.globalCpp;
@@ -266,14 +434,13 @@ function renderCard(card, container) {
     updatePointsSummary();
 
     cppInput.oninput = () => {
-        const v = parseFloat(cppInput.value);
-        if (isNaN(v) || Math.abs(v - state.globalCpp) < 0.001) {
+        const v = safeNum(cppInput.value, state.globalCpp);
+        if (Math.abs(v - state.globalCpp) < 0.001) {
             card.cppOverride = null;
         } else {
             card.cppOverride = v;
         }
         saveState();
-        renderResults();
 
         // Live update the toggle label value immediately
         if (toggleSpan) {
@@ -281,29 +448,19 @@ function renderCard(card, container) {
             toggleSpan.textContent = `[ ¢ per pt/mi (${currentVal.toFixed(2)}) ]`;
         }
         updatePointsSummary();
+        renderResults();
     };
 
     // Multipliers (compact)
     const multContainer = div.querySelector('.multipliers');
     CATEGORIES.forEach(cat => {
-        const wrap = document.createElement('div');
-        wrap.style.display = 'flex';
-        wrap.style.alignItems = 'center';
-        wrap.innerHTML = `
-            <span style="width:68px; font-size:0.8em;">${cat.label}</span>
-            <div class="input-wrapper" style="width:72px;">
-                <input type="number" step="0.1" min="0" value="${card.multipliers[cat.key]}" style="width:100%; padding:4px 6px; font-size:0.9em;">
-                <span class="unit" style="font-size:0.75em;">x</span>
-            </div>
-        `;
-        const inp = wrap.querySelector('input');
-        inp.oninput = () => {
-            card.multipliers[cat.key] = parseFloat(inp.value) || 1;
+        const current = card.multipliers[cat.key] || 1;
+        appendRateInput(multContainer, cat, current, (newVal) => {
+            card.multipliers[cat.key] = newVal;
             saveState();
             renderResults();
             updatePointsSummary();
-        };
-        multContainer.appendChild(wrap);
+        });
     });
 
     // Girl math rows
@@ -314,29 +471,91 @@ function renderCard(card, container) {
         (card.girlMath || []).forEach((line, idx) => {
             const row = document.createElement('div');
             row.className = 'girl-math-row';
-            row.innerHTML = `
-                <input type="text" placeholder="Description (e.g. Priority Pass guests)" value="${line.desc || ''}">
-                <div class="input-wrapper" style="width:100%;">
-                    <input type="number" placeholder="120" value="${line.value || ''}" step="10" style="padding:4px 2px; font-size:0.9em;">
-                    <span class="unit" style="font-size:0.7em; padding:0 2px;">$</span>
-                </div>
-                <div class="input-wrapper" style="width:100%;">
-                    <input type="number" placeholder="80" value="${line.prob || ''}" min="0" max="100" step="5" style="padding:4px 2px; font-size:0.9em;">
-                    <span class="unit" style="font-size:0.7em; padding:0 3px;">%</span>
-                </div>
-                <button style="background:none; border:none; color:#c00; font-size:1.1em; cursor:pointer;" title="Remove">×</button>
+
+            const descIn = document.createElement('input');
+            descIn.type = 'text';
+            descIn.placeholder = 'Description (e.g. Priority Pass guests)';
+            descIn.value = line.desc || '';
+
+            const valWrap = document.createElement('div');
+            valWrap.className = 'input-wrapper';
+            valWrap.style.width = '100%';
+            valWrap.innerHTML = `<input type="number" placeholder="120" value="${line.value || ''}" step="10" style="padding:4px 2px; font-size:0.9em;"><span class="unit" style="font-size:0.7em; padding:0 2px;">$</span>`;
+
+            const probWrap = document.createElement('div');
+            probWrap.className = 'input-wrapper';
+            probWrap.style.width = '100%';
+            probWrap.innerHTML = `<input type="number" placeholder="80" value="${line.prob || ''}" min="0" max="100" step="5" style="padding:4px 2px; font-size:0.9em;"><span class="unit" style="font-size:0.7em; padding:0 3px;">%</span>`;
+
+            const delBtn = document.createElement('button');
+            delBtn.style.cssText = 'background:none; border:none; color:#c00; font-size:1.1em; cursor:pointer;';
+            delBtn.title = 'Remove';
+            delBtn.textContent = '×';
+
+            const valIn = valWrap.querySelector('input');
+            const probIn = probWrap.querySelector('input');
+
+            // Min spend: click label to reveal inline input on the *same row*.
+            // Blur (or Enter) saves + reverts to "$Xk min" text. Esc cancels.
+            const minContainer = document.createElement('div');
+            minContainer.style.cssText = 'width:100%; min-width:0;';
+
+            const minToggle = document.createElement('span');
+            minToggle.className = 'small-grey';
+            minToggle.style.cursor = 'pointer';
+            minToggle.style.whiteSpace = 'nowrap';
+            minToggle.style.display = 'inline-block';
+            const ms = safeNum(line.minSpend);
+            minToggle.textContent = ms >= 1000 ? `$${(ms/1000)}k min` : `$${ms} min`;
+
+            const minEdit = document.createElement('span');
+            minEdit.style.cssText = 'display:none; white-space:nowrap; width:100%;';
+            minEdit.innerHTML = `
+                <span class="input-wrapper" style="display:flex; width:100%;">
+                    <input type="number" placeholder="0" value="${safeNum(line.minSpend)}" step="1000" style="width:100%; padding:1px 2px; font-size:0.72em; box-sizing:border-box;">
+                    <span class="unit" style="font-size:0.6em; padding:0 1px;">$</span>
+                </span>
             `;
 
-            const descIn = row.children[0];
-            const valWrapper = row.children[1];
-            const valIn = valWrapper.querySelector('input');
-            const probWrapper = row.children[2];
-            const probIn = probWrapper.querySelector('input');
-            const delBtn = row.children[3];
+            minContainer.append(minToggle, minEdit);
+
+            const minIn = minEdit.querySelector('input');
+
+            minToggle.onclick = () => {
+                minToggle.style.display = 'none';
+                minEdit.style.display = 'inline-block';
+                setTimeout(() => {
+                    minIn.focus();
+                    minIn.select();
+                }, 0);
+            };
+
+            minIn.onblur = () => {
+                line.minSpend = safeNum(minIn.value);
+                const ms = safeNum(line.minSpend);
+                minToggle.textContent = ms >= 1000 ? `$${(ms/1000)}k min` : `$${ms} min`;
+                minToggle.style.display = 'inline-block';
+                minEdit.style.display = 'none';
+                saveState();
+                renderResults();
+            };
+
+            minIn.onkeydown = (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    minIn.blur();
+                } else if (e.key === 'Escape') {
+                    e.preventDefault();
+                    // cancel: restore input value and exit without saving
+                    minIn.value = safeNum(line.minSpend);
+                    minToggle.style.display = 'inline-block';
+                    minEdit.style.display = 'none';
+                }
+            };
 
             descIn.oninput = () => { line.desc = descIn.value; saveState(); renderResults(); };
-            valIn.oninput = () => { line.value = parseFloat(valIn.value) || 0; saveState(); renderResults(); };
-            probIn.oninput = () => { line.prob = parseFloat(probIn.value) || 0; saveState(); renderResults(); };
+            valIn.oninput = () => { line.value = safeNum(valIn.value); saveState(); renderResults(); };
+            probIn.oninput = () => { line.prob = safeNum(probIn.value); saveState(); renderResults(); };
             delBtn.onclick = () => {
                 card.girlMath.splice(idx, 1);
                 saveState();
@@ -344,6 +563,7 @@ function renderCard(card, container) {
                 renderResults();
             };
 
+            row.append(descIn, valWrap, probWrap, minContainer, delBtn);
             girlList.appendChild(row);
         });
     }
@@ -353,7 +573,7 @@ function renderCard(card, container) {
     // Add girl math line
     div.querySelector('.add-girl-math').onclick = () => {
         if (!card.girlMath) card.girlMath = [];
-        card.girlMath.push({ desc: '', value: 300, prob: 40 });
+        card.girlMath.push({ desc: '', value: 300, prob: 40, minSpend: 0 });
         saveState();
         renderGirlMathRows();
         renderResults();
@@ -391,49 +611,129 @@ function renderCards() {
 
 function renderResults() {
     const container = document.getElementById('resultsContainer');
+    const otherContainer = document.getElementById('otherCardsContainer');
     if (!container) return;
     container.innerHTML = '';
+    if (otherContainer) otherContainer.innerHTML = '';
 
-    const grid = document.createElement('div');
-    grid.className = 'results-grid';
+    const result = computeBestSubset();
 
-    const calcs = state.cards.map(card => ({
-        card,
-        calc: calculateCard(card)
-    }));
+    const wrapper = document.createElement('div');
 
-    // Sort by likely net descending for stack ranking
-    calcs.sort((a, b) => b.calc.likelyNet - a.calc.likelyNet);
+    // Compute details for subset
+    const catSpend = {};
+    CATEGORIES.forEach(c => { catSpend[c.key] = state.spending[c.key] || 0; });
+    const assignedSpend = new Array(state.cards.length).fill(0);
+    for (const cat of CATEGORIES) {
+        const ci = result.alloc[cat.key];
+        if (ci != null) assignedSpend[ci] += catSpend[cat.key];
+    }
 
-    const totalSpend = Object.values(state.spending).reduce((sum, val) => sum + (val || 0), 0);
-
-    calcs.forEach(({ card, calc }, index) => {
-        const rank = index + 1;
-        const rankLabel = `${rank}${rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th'}`;
-        const isFirst = rank === 1;
-        const rankColor = isFirst ? '#2e7d32' : '#555';
-
-        const effective = totalSpend > 0 ? (calc.likelyNet / totalSpend * 100) : 0;
-        const effText = effective.toFixed(1) + '% effective return';
-
-        const el = document.createElement('div');
-        el.className = `result-card${isFirst ? ' winner' : ''}`;
-        el.innerHTML = `
-            <div style="font-weight:600; margin-bottom:4px; display:flex; align-items:center; gap:8px;">
-                <span style="background:${rankColor}; color:white; padding:2px 8px; border-radius:12px; font-size:0.75em; font-weight:700; white-space:nowrap;">${rankLabel}</span>
-                ${card.name || 'Untitled Card'}
-            </div>
-            <div><strong>Total Rewards:</strong> ${fmt(calc.rewardsValue)}</div>
-            <div>Annual cost: <strong>-${fmt(card.cost)}</strong></div>
-            <div>Girl math (expected): <strong>+${fmt(calc.girlExpected)}</strong></div>
-            <div class="likely">Likely Rewards: <strong>${fmt(calc.likelyNet)}</strong></div>
-            <div class="range">Girl Math Range: ${fmt(calc.minNet)} to ${fmt(calc.maxNet)}</div>
-            <div style="margin-top:6px; font-size:0.85em; ${isFirst ? 'color:#2e7d32; font-weight:600;' : 'color:#666;'}">${isFirst ? '🏆 Winner: ' : ''}${effText}</div>
-        `;
-        grid.appendChild(el);
+    const used = [];
+    result.subsetIndices.forEach((ci) => {
+        const card = state.cards[ci];
+        let allocated = 0;
+        const catsForThis = [];
+        for (const cat of CATEGORIES) {
+            if (result.alloc[cat.key] === ci) {
+                allocated += catSpend[cat.key];
+                catsForThis.push(cat.label);
+            }
+        }
+        const rewards = Math.round( scoreCard(card, ci, result.alloc, assignedSpend) );
+        const fee = card.cost || 0;
+        const netContrib = rewards - fee;
+        const detail = { card, allocated, catsForThis, rewards, fee, netContrib, ci };
+        if (allocated > 0) {
+            used.push(detail);
+        }
+        // 0-alloc cards from best subset go to Other Cards (not main list)
     });
 
-    container.appendChild(grid);
+    if (result.net <= 0 && result.subsetIndices.length === 0) {
+        const msg = document.createElement('div');
+        msg.style.cssText = 'padding:16px; border:1px solid #ccc; border-radius:8px; background:#fff3cd; color:#664d03;';
+        msg.textContent = 'No cards justified—fees exceed benefits.';
+        wrapper.appendChild(msg);
+    } else {
+        const recGrid = document.createElement('div');
+        recGrid.className = 'results-grid';
+
+        used.forEach((d) => {
+            const el = document.createElement('div');
+            el.className = 'result-card winner';
+            el.innerHTML = `
+                <div style="font-weight:600; margin-bottom:4px;">${d.card.name || 'Untitled Card'}</div>
+                <div><strong>Allocated:</strong> ${fmt(d.allocated)}</div>
+                <div><strong>Expected rewards:</strong> ${fmt(d.rewards)}</div>
+                <div>Fee: <strong>-${fmt(d.fee)}</strong></div>
+                <div class="likely">Net contribution: <strong>${fmt(d.netContrib)}</strong></div>
+                <div style="margin-top:4px; font-size:0.85em; color:#666;">Categories: ${d.catsForThis.join(', ') || 'none'}</div>
+            `;
+            recGrid.appendChild(el);
+        });
+
+        wrapper.appendChild(recGrid);
+
+        // Total value big and green
+        const totalDiv = document.createElement('div');
+        totalDiv.style.cssText = 'font-size:1.5em; color:#2e7d32; font-weight:700; margin:12px 0 2px;';
+        totalDiv.textContent = fmt(result.net);
+        wrapper.appendChild(totalDiv);
+
+        // Small grey breakdown: total spend + effective reward rate (incl. qualified girl math)
+        const totalSpend = CATEGORIES.reduce((sum, c) => sum + (state.spending[c.key] || 0), 0);
+        const effRate = totalSpend > 0 ? (result.totalRewards / totalSpend * 100) : 0;
+        const spendText = totalSpend >= 1000 ? '$' + Math.round(totalSpend / 1000) + 'k' : fmt(totalSpend);
+        const breakdown = document.createElement('div');
+        breakdown.style.cssText = 'font-size:0.82em; color:#666; margin-bottom:12px;';
+        breakdown.textContent = `${spendText} of spending, ${effRate.toFixed(1)}% reward`;
+        wrapper.appendChild(breakdown);
+    }
+
+    container.appendChild(wrapper);
+
+    // Other Cards content (### header comes from page markdown for clean two sections)
+    const usedCis = new Set(used.map(d => d.ci));
+    const notUsed = state.cards.filter((c, i) => !usedCis.has(i));
+    if (otherContainer && notUsed.length > 0) {
+        notUsed.forEach(card => {
+            const el = document.createElement('div');
+            el.className = 'result-card';
+            const maxVal = computeSingleCardNet(card);
+            let html = `
+                <div style="font-weight:600; margin-bottom:2px;">${card.name || 'Untitled Card'}</div>
+                <div style="font-size:0.9em; color:#666;">Maximum possible value: ${fmt(maxVal)}</div>
+            `;
+            // Possible net positive benefits from girl math (full spend) if > fee
+            let totalSpend = 0;
+            for (const cat of CATEGORIES) {
+                totalSpend += state.spending[cat.key] || 0;
+            }
+            let girl = 0;
+            for (const line of (card.girlMath || [])) {
+                const ms = safeNum(line.minSpend);
+                if (totalSpend >= ms) {
+                    const p = Math.max(0, Math.min(100, safeNum(line.prob)));
+                    girl += safeNum(line.value) * (p / 100);
+                }
+            }
+            const perkNet = Math.round(girl) - safeNum(card.cost);
+            if (perkNet > 0) {
+                html += `<div style="font-size:0.9em; color:#666;">Possible net positive benefits: ${fmt(perkNet)}</div>`;
+            }
+            el.innerHTML = html;
+            otherContainer.appendChild(el);
+        });
+    }
+
+    // Hide the Other Cards heading when there is nothing to list (keeps only relevant sections)
+    if (otherContainer) {
+        const heading = otherContainer.previousElementSibling;
+        if (heading && /^H[1-6]$/.test(heading.tagName) && /other/i.test(heading.textContent || '')) {
+            heading.style.display = notUsed.length > 0 ? '' : 'none';
+        }
+    }
 }
 
 function renderAll() {
@@ -452,7 +752,7 @@ function initAddCard() {
             name: '',
             cost: 0,
             cppOverride: null,
-            multipliers: { everyday: 2, dining: 2, flights_direct: 2, hotels_direct: 2, portal: 5 },
+            multipliers: { ...NEW_CARD_DEFAULT_MULTIPLIERS },
             girlMath: []
         };
         state.cards.push(newCard);
@@ -477,27 +777,6 @@ function initAddCard() {
 function init() {
     loadState();
     ensureDefaultCards();
-
-    // Legacy name cleanup for very old saved data (parentheticals like "(you + wife)").
-    // Can be removed later.
-    let cleaned = false;
-    state.cards.forEach(card => {
-        if (card.name && card.name.includes('(')) {
-            const map = {
-                csr: 'Chase Sapphire Reserve',
-                vx: 'Capital One Venture X',
-                fold: 'Fold Bitcoin Credit Card',
-                plat: 'American Express Platinum'
-            };
-            if (map[card.id]) {
-                card.name = map[card.id];
-                cleaned = true;
-            }
-        }
-    });
-    if (cleaned) {
-        saveState();
-    }
 
     // Initial render
     renderAll();

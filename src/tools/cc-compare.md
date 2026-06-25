@@ -100,16 +100,22 @@ This tool helps you fairly compare premium rewards cards based on your expected 
     }
     .girl-math-row {
         display: grid;
-        grid-template-columns: 1fr 90px 82px 28px;
+        grid-template-columns: 1fr 90px 82px 80px 28px;
         gap: 8px;
         align-items: center;
         margin-bottom: 8px;
     }
     @media (max-width: 480px) {
         .girl-math-row {
-            grid-template-columns: 1fr 70px 70px 24px;
+            grid-template-columns: 1fr 70px 70px 60px 24px;
             gap: 6px;
         }
+    }
+    .girl-math-row .small-grey {
+        font-size: 0.75em;
+        padding: 2px 4px;
+        display: inline-block;
+        min-width: 60px;
     }
     .girl-math-row input {
         width: 100%;
@@ -195,60 +201,71 @@ This tool helps you fairly compare premium rewards cards based on your expected 
     }
 </style>
 
-### 1. Expected Spending (shared)
+### 1. Expected Spending
 
 <form id="spendingForm" class="input-container">
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="everyday" value="79900" step="100" min="0">
+            <input type="number" id="everyday" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <div class="formatted-and-label">
-            <span class="formatted-value" id="everydayFormatted">$79,900</span>
+            <span class="formatted-value" id="everydayFormatted"></span>
             <label for="everyday">Everyday / General purchases</label>
         </div>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="dining" value="12450" step="100" min="0">
+            <input type="number" id="amazon" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <div class="formatted-and-label">
-            <span class="formatted-value" id="diningFormatted">$12,450</span>
+            <span class="formatted-value" id="amazonFormatted"></span>
+            <label for="amazon">Amazon purchases</label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <div class="input-wrapper">
+            <input type="number" id="dining" step="100" min="0">
+            <span class="unit">$ / yr</span>
+        </div>
+        <div class="formatted-and-label">
+            <span class="formatted-value" id="diningFormatted"></span>
             <label for="dining">Dining (restaurants, delivery, etc.)</label>
         </div>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="flights_direct" value="8000" step="100" min="0">
+            <input type="number" id="flights_direct" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <div class="formatted-and-label">
-            <span class="formatted-value" id="flights_directFormatted">$8,000</span>
+            <span class="formatted-value" id="flights_directFormatted"></span>
             <label for="flights_direct">Flights booked directly</label>
         </div>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="hotels_direct" value="2000" step="100" min="0">
+            <input type="number" id="hotels_direct" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <div class="formatted-and-label">
-            <span class="formatted-value" id="hotels_directFormatted">$2,000</span>
+            <span class="formatted-value" id="hotels_directFormatted"></span>
             <label for="hotels_direct">Hotels &amp; car rentals booked directly</label>
         </div>
     </div>
 
     <div class="input-group">
         <div class="input-wrapper">
-            <input type="number" id="portal" value="2000" step="100" min="0">
+            <input type="number" id="portal" step="100" min="0">
             <span class="unit">$ / yr</span>
         </div>
         <div class="formatted-and-label">
-            <span class="formatted-value" id="portalFormatted">$2,000</span>
+            <span class="formatted-value" id="portalFormatted"></span>
             <label for="portal">Travel booked through issuer portal</label>
         </div>
     </div>
@@ -268,6 +285,10 @@ Use the probabilities in Girl Math honestly -- they turn optimistic claims into 
 
 ---
 
-Comparison
+### Maximum Benefit
 
 <div id="resultsContainer"></div>
+
+### Other Cards
+
+<div id="otherCardsContainer"></div>
