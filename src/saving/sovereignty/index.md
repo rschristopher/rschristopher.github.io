@@ -275,7 +275,7 @@ Managing your keys is *easier* than
 
     That's online banking you're thinking about.
 
-    A redneck with a gun and a coldcard can protect *their* Bitcoin
+    A redneck with a gun and Tails OS can protect *their* Bitcoin
     with more security than any bank in the history of the world.
     And besides, if you're competent enough to have wealth, 
     you should be competent enough to preserve wealth.

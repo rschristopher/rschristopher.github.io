@@ -19,15 +19,32 @@ Private keys will be managed in an offline signing device
  (used only for spending Bitcoin).
 
 While there are many alternatives-- we will use
- [coldcard](https://coldcard.com/)
+ [SeedSigner](https://seedsigner.com/)
  as an example, but any offline signing device can be used.
 
 
-!!! warning "no paid nor *influenced* content -- all views are from personal experience"
+!!! warning "Beware of Hardware Wallets"
+    A hardware wallet runs firmware written by someone else,
+     on hardware built by someone else.
+    You are trusting that stack with your keys.
 
+    Coldcard (Coinkite) shipped firmware with a broken random number generator.
+    Seeds created on affected devices were weak enough that attackers
+     could recreate them offline and empty wallets
+     without physical access to any device.
+    See [Block's analysis](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware).
+    If the device that generated your seed was broken,
+     a metal backup of that same seed does not save you.
+    We do not recommend Coldcard.
 
+    Ledger's [2020 data breach](https://www.ledger.com/addressing-the-july-2020-e-commerce-and-marketing-data-breach)
+     leaked customer emails, names, phone numbers, and physical addresses.
+    That kind of leak can and does lead to home invasions.
 
-
+    Prefer open-source, air-gapped, Bitcoin-only tools
+     (SeedSigner is the example we use here).
+    Generate entropy you can verify yourself
+     (see [dice](../appendix/dice.md)).
 
 
 ---
@@ -37,7 +54,6 @@ While there are many alternatives-- we will use
 A transaction manager can be any device,
  although it's recommended to use a dedicated laptop that you can install a Linux flavor such as [Ubuntu](https://ubuntu.com/). 
 However, it is recommended to use [Tails OS](https://tails.boum.org/) on a USB drive for the added privacy and security.
-
 
 
 ### Honeypot
@@ -51,22 +67,22 @@ If someone comes looking for Bitcoin, a honeypot can act as an effective decoy.
 
 
 
-
 ### Tails OS (xPub only)
 
 Similar to [level-2](../level-2), 
  we will use a bootable [Tails OS](https://tails.boum.org/) USB drive for the actual **transaction manager**.
-To set up your transaction manager with a watch-only wallet, follow the steps outlined in the [Coldcard documentation](https://coldcard.com/docs/paths#dump-summary-file)
- to export your xPub from the Coldcard. 
+To set up your transaction manager with a watch-only wallet,
+ export the xPub (ZPUB) from your SeedSigner
+ (Settings > Advanced > Export XPUB > Single Sig, native SegWit)
+ and display it as a QR code.
+A full walkthrough is in the [basic protocol](../appendix/protocol_basic.md).
 
 ???+ note "Tails OS with xPub"
-    1. On your Tails OS, open Electrum.
-    2. Create a new wallet, select `Standard wallet`, and then `Use a master key`.
-    3. Paste or scan the QR code of the xPub obtained from your Coldcard.
+    1. On your Tails OS, open Electrum or Sparrow.
+    2. Create a new wallet, select `Standard wallet`, and then `Use a master key` (or import xPub/ZPUB).
+    3. Paste or scan the QR code of the xPub obtained from your SeedSigner.
     4. When you open this wallet, you'll see a warning indicating it is watch-only.
-    5. When you attempt to *send* from this wallet, it will create an *unsigned transaction* file, which will need to be signed by the signing device (see below).
-
-
+    5. When you attempt to *send* from this wallet, it will create an *unsigned transaction* (PSBT), which will need to be signed by the SeedSigner (see below).
 
 
 
@@ -75,29 +91,24 @@ To set up your transaction manager with a watch-only wallet, follow the steps ou
 
 ## Signing Device
 
-*Adapted from the [Coldcard docs](https://coldcard.com/docs/send-receive-btc#sending-bitcoin-airgapped)*
+SeedSigner signs over QR codes -- no USB cable between the signer and the networked world.
+For the full protocol, see [basic protocol with SeedSigner](../appendix/protocol_basic.md).
 
 ???+ note "Sign Transaction"
-    1. Connect your Coldcard to power and enter your PIN if you haven't already done so.
-    2. Select `Ready to Sign` from the main menu.
-    3. Insert the microSD card containing the unsigned transaction file from your transaction manager.
-    4. The Coldcard briefly shows *Reading...* and *Validating...* before displaying transaction details. Take every opportunity to check and double-check transaction information. Ensure the address you are sending funds to is absolutely correct.
-    5. If the transaction information is correct and the fee acceptable, press OK (✓). Otherwise, abort the transaction by pressing X.
-    6. Your Coldcard signs the transaction and saves two files to the microSD card: one ending in `-signed.psbt` and another `-final.txn`.
-    7. Press OK (✓) to return to the Main Menu.
-
-You can now power off the Coldcard and transfer the microSD card back to the **transaction manager** running Tails OS.
-
-
-
+    1. On the transaction manager, create a send transaction in the watch-only wallet and export the unsigned PSBT as a QR code.
+    2. Power on the SeedSigner and load the seed if necessary (QR scan or manual entry).
+    3. Scan the unsigned PSBT QR from the transaction manager.
+    4. Review transaction details carefully on the SeedSigner display (destination address, amount, fee). Ensure the address you are sending funds to is absolutely correct.
+    5. If the transaction information is correct and the fee acceptable, approve and sign. Otherwise abort.
+    6. Display the signed PSBT as a QR code for the transaction manager to scan.
+    7. Power off the SeedSigner when finished.
 
 ???+ note "Broadcasting (signed) Transaction"
-    1. Insert the microSD card with the signed transaction files.
-    2. Open Electrum or Sparrow and load the `-signed.psbt` or `-final.txn` file.
+    1. On the transaction manager, scan the signed PSBT QR from the SeedSigner.
+    2. Open Electrum or Sparrow and load the signed transaction.
     3. Verify the transaction details again, ensuring the destination address and amount are correct.
     4. Broadcast the transaction to the Bitcoin network.
-    5. Once broadcasted, you can safely remove the microSD card and store it securely.
-
+    5. Once broadcasted, confirm the transaction appears as expected.
 
 
 
@@ -106,16 +117,11 @@ You can now power off the Coldcard and transfer the microSD card back to the **t
 
 ## Alternative Signing Devices
 
-While Coldcard is a robust, Bitcoin-only, [air-gapped](../appendix/airgapped-computer.md) solution, other dedicated hardware options exist for self-custody. 
-Here are some recommended alternatives:
-
-- [**SeedSigner**](https://seedsigner.com): A DIY, open-source signing device built on affordable hardware (Raspberry Pi Zero). SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable solution.
+- [**SeedSigner**](https://seedsigner.com/): A DIY, open-source signing device built on affordable hardware (Raspberry Pi Zero). SeedSigner is air-gapped, supports QR code scanning for transaction signing, and is ideal for those who prefer a fully verifiable solution. See also the [econoalchemist setup guide](https://econoalchemist.github.io/SeedSigner/).
 - [**DIY Raspberry Pi Zero**](https://armantheparman.medium.com/how-to-set-up-a-raspberry-pi-zero-air-gapped-running-latest-version-of-electrum-desktop-wallet-85e59ecaddc0): For advanced users, you can create your own signing device using a Raspberry Pi Zero with open-source software.
 - [**Specter-DIY**](https://github.com/cryptoadvance/specter-diy): This approach requires technical expertise but offers complete control over the hardware and software stack.
 
 These alternatives prioritize open-source principles and Bitcoin-only functionality, aligning with the ethos of self-custody.
-However, they may require more setup effort compared to a Coldcard.
-
 
 
 
@@ -124,26 +130,21 @@ However, they may require more setup effort compared to a Coldcard.
 
 ## Hardware Wallets: Considerations
 
-Hardware wallets can be an excellent self-custody solution, but not all are created equal. 
-Devices like the Coldcard and SeedSigner are Bitcoin-only, air-gapped, and prioritize open-source software,
- allowing users to verify entropy and maintain full control over their keys. 
+Hardware wallets can be part of a self-custody setup, but not all are created equal.
+See the warning above for Coldcard and Ledger specifically.
+
+Prefer devices that are:
+
+- Bitcoin-only (smaller attack surface).
+- Air-gapped (QR preferred over USB).
+- Open-source enough that firmware and seed generation can be audited.
+- Able to use independent entropy ([dice](../appendix/dice.md)), not only the vendor RNG.
+
 Other hardware wallets may:
 
 - Support multiple cryptocurrencies, increasing complexity and attack surfaces.
 - Rely on proprietary software or hardware, limiting transparency.
-- Require online connections, reducing security compared to air-gapped solutions.
+- Require online connections or companion apps, reducing security compared to air-gapped solutions.
+- Collect your name and shipping address as part of the purchase.
 
-When choosing a hardware wallet, prioritize devices that are Bitcoin-focused, air-gapped, and open-source to ensure maximum security and sovereignty.
-
-
-
-
-
-
-
-
-
-
-
-
-
+When choosing a signing device, prioritize devices that are Bitcoin-focused, air-gapped, and open-source -- and always verify seeds and addresses yourself.
