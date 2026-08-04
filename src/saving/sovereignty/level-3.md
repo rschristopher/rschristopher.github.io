@@ -28,11 +28,11 @@ While there are many alternatives-- we will use
      on hardware built by someone else.
     You are trusting that stack with your keys.
 
-    Coldcard (Coinkite) shipped firmware with a broken random number generator.
+    From 2021 to 2026 Coldcard (Coinkite) contained firmware with a broken random number generator.
     Seeds created on affected devices were weak enough that attackers
-     could recreate them offline and empty wallets
-     without physical access to any device.
-    See [Block's analysis](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware).
+     could recreate them offline and drain wallets
+     without physical access to any device
+     (see [Block's analysis](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware)).
     If the device that generated your seed was broken,
      a metal backup of that same seed does not save you.
     We do not recommend Coldcard.
@@ -41,7 +41,7 @@ While there are many alternatives-- we will use
      leaked customer emails, names, phone numbers, and physical addresses.
     That kind of leak can and does lead to home invasions.
 
-    Prefer open-source, air-gapped, Bitcoin-only tools
+    Use open-source, air-gapped, Bitcoin-only tools
      (SeedSigner is the example we use here).
     Generate entropy you can verify yourself
      (see [dice](../appendix/dice.md)).

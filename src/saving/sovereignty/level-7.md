@@ -55,7 +55,7 @@ One excellent example is the [Glacier Protocol](https://glacierprotocol.org/), w
 
 Multisig setups are inherently more demanding than single-signature wallets. Here are the key challenges and how a protocol mitigates them:
 
-1. **Technical Complexity**: Configuring multisig requires coordinating multiple hardware wallets (e.g., [Coldcard](https://coldcard.com/), [SeedSigner](https://seedsigner.com/)) and compatible software (e.g., [Electrum](https://electrum.org/), [Sparrow Wallet](https://sparrowwallet.com/)). A protocol provides step-by-step guidance, making the process accessible to non-technical users.
+1. **Technical Complexity**: Configuring multisig requires coordinating multiple hardware wallets (e.g., [SeedSigner](https://seedsigner.com/)) and compatible software (e.g., [Electrum](https://electrum.org/), [Sparrow Wallet](https://sparrowwallet.com/)). A protocol provides step-by-step guidance, making the process accessible to non-technical users.
 2. **Key Management**: Storing multiple keys securely in separate locations (e.g., safes, safety deposit boxes) while ensuring accessibility is daunting. A protocol outlines best practices for storage, backup, and tamper-evident measures.
 3. **Transaction Coordination**: Signing transactions with multiple keys, especially across air-gapped devices, is time-consuming and error-prone. A protocol streamlines the process with clear instructions for signing and broadcasting.
 4. **Recovery and Inheritance**: Without documentation, recovering funds or passing them to heirs is nearly impossible. A protocol includes recovery steps and instructions for trusted parties, reducing reliance on the primary user’s expertise.
@@ -75,7 +75,7 @@ A multisig protocol is a written guide that you and your trusted contacts can fo
 
 1. **Choose Your Multisig Setup**:
     - Decide on the key configuration (e.g., *2-of-3*, *3-of-5*) based on your security needs.
-    - Use reputable signing devices like Coldcard or SeedSigner, which support multisig.
+    - Use reputable signing devices like SeedSigner, which support multisig.
     - Choose software that supports multisig, such as [Electrum](https://electrum.org/), [Sparrow Wallet](https://sparrowwallet.com/), or [Specter](https://specter.solutions/). These tools coordinate key setup and transaction signing.
 
 2. **Distribute Keys Securely**:
@@ -105,7 +105,7 @@ A multisig protocol is a written guide that you and your trusted contacts can fo
 The level of security required for your Bitcoin custody depends on your threat model. A protocol benefits all levels of security, but at the higher levels involving multisig, it is essential to manage complexity and ensure reliability.
 
 - **Minimal Security**: A mobile app hot wallet (e.g., BlueWallet or Phoenix) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.
-- **Baseline Security**: Using a hardware wallet like a [Coldcard](https://coldcard.com/) or [SeedSigner](https://seedsigner.com/) with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.
+- **Baseline Security**: Using a hardware wallet like a [SeedSigner](https://seedsigner.com/) with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.
 - **Advanced Security**: Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, add redundancy and resilience. A protocol is critical here to coordinate multiple keys, streamline transaction signing, and guide non-technical users or heirs.
 - **Ridiculous Security**: For protection against sophisticated threats -- like hostile nation-states (such as North Korea or [Canada](https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test)) -- use a high-threshold multisig, geographically distributed keys, air-gapped devices, and self-hosted full nodes. 
 - **Ludicrous Security**: For NSA-level threats and nuclear-launch-code levels of security.

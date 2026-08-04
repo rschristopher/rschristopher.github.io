@@ -1,46 +1,46 @@
 # Advanced Protocol with Multisig Signing Devices
 
-This protocol delivers a robust *2-of-3* [multisig](../sovereignty/level-7.md) Bitcoin self-custody system using **three different [Signing-Devices](airgapped-computer.md)**: two SeedSigners and one Coldcard Q (one per seed). It harnesses an [airgap quarantine](../sovereignty/level-5.md), a [full node](../sovereignty/level-4.md) for verification, [metal seed backups](../sovereignty/level-6.md), and stringent [quarantine rules](../sovereignty/level-5.md) to provide ironclad protection. By using distinct devices per seed, this protocol achieves [Level 9](../sovereignty/level-9.md) fault tolerance, defending against advanced firmware attacks like [Dark Skippy](https://darkskippy.com), where a compromised device could leak seeds via signatures.
+This protocol delivers a robust *2-of-3* [multisig](../sovereignty/level-7.md) Bitcoin self-custody system using **three [SeedSigners](https://seedsigner.com/)** (one per seed). It harnesses an [airgap quarantine](../sovereignty/level-5.md), a [full node](../sovereignty/level-4.md) for verification, [metal seed backups](../sovereignty/level-6.md), and stringent [quarantine rules](../sovereignty/level-5.md). By dedicating one device per seed, this protocol achieves [Level 9](../sovereignty/level-9.md) fault tolerance: a compromise of one device affects only one seed.
 
 ---
 
 ## Setup
 
-Establish your 2-of-3 [multisig](../sovereignty/level-7.md) wallet with three seeds created in sequence on your Signing-Devices (one device per seed). Conduct this in a secluded, secure setting, maintaining airgaps and [quarantine procedures](../sovereignty/level-5.md). This separation ensures that a compromise of one device affects only one seed, preserving multisig security.
+Establish your 2-of-3 [multisig](../sovereignty/level-7.md) wallet with three seeds, each created on its own SeedSigner. Conduct this in a secluded, secure setting, maintaining airgaps and [quarantine procedures](../sovereignty/level-5.md).
 
 ??? info "1. Prepare Secure Environments"
-    1. Acquire SeedSigners and one Coldcard Q for dual roles as [Signing-Device](airgapped-computer.md) and Airgapped-Computers. *Label as necessary*.
-    2. Assemble a Transaction-Manager (Tails OS with persistent storage) for watch-only functions, linked to your [full node](level-4.md). If desired, install Sparrow on the Transaction-Manager through Tails with [persistent storage](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/).
+    1. Acquire three SeedSigners. Label them clearly (e.g., Signing-Device-1, Signing-Device-2, Signing-Device-3).
+    2. Assemble a Transaction-Manager (Tails OS with persistent storage) for watch-only functions, linked to your [full node](../sovereignty/level-4.md). If desired, install Sparrow on the Transaction-Manager through Tails with [persistent storage](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/).
     3. *Optional*, install [Dark Skippy](https://darkskippy.com) detection tools and other related tools to verify transactions (install on Tails OS persistent storage).
     4. Familiarize yourself with [quarantine rules](../sovereignty/level-5.md).
-    5. Authenticate software and firmware: Pull from official repositories, validate signatures, and update (compile OS from source where feasible; refer to [SeedSigner building guide](https://github.com/SeedSigner/seedsigner-os#-building) or [Coldcard documentation](https://coldcard.com/docs/)).
+    5. Authenticate software and firmware: pull from official repositories, validate signatures, and update (see [SeedSigner building guide](https://github.com/SeedSigner/seedsigner-os#-building)).
     6. Prepare tools for [metal backups](../sovereignty/level-6.md).
 
 ??? danger "2. Generate Seeds"
-    1. Activate each airgapped [Signing-Device](airgapped-computer.md) (two SeedSigners and one Coldcard Q), one at a time.
-    2. On the first SeedSigner, access Settings > Seeds > Generate Seed; incorporate [dice](dice.md) for entropy (roll D6 as instructed; consult [dice verification guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/dice_verification.md)). For the Coldcard Q, generate a seed using dice (see [Coldcard seed creation](https://coldcard.com/docs/)). Do not generate additional seeds on the same device to avoid potential entropy manipulation.
+    1. Activate each SeedSigner one at a time.
+    2. On Settings > Seeds > Generate Seed; incorporate [dice](dice.md) for entropy (roll D6 as instructed; consult the [dice verification guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/dice_verification.md)). Do not generate additional seeds on the same device.
     3. Jot the seed phrase on paper temporarily for confirmation.
-    4. Validate the seed on the device display (SeedSigner or Coldcard Q).
-    5. Save as QR (SeedSigner: Settings > Seeds > Export Seed QR; Coldcard Q: Export Seed QR). Safeguard the QR (see [Seed QR guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md) or [Coldcard QR export](https://coldcard.com/docs/)).
-    6. Repeat for the second and third seeds on their respective devices (second SeedSigner and Coldcard Q), powering off each between steps to erase memory. Label devices clearly (e.g., "Signing-Device-1", "Signing-Device-2").
+    4. Validate the seed on the SeedSigner display.
+    5. Save as QR (Settings > Seeds > Export Seed QR). Safeguard the QR (see [Seed QR guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md)).
+    6. Repeat for the second and third seeds on their devices, powering off each between steps to erase memory.
 
 ??? danger "3. Backup to Metal"
     1. Stamp each seed onto durable [metal backups](../sovereignty/level-6.md).
     2. Cross-verify against the paper note.
     3. Incinerate the paper note.
-    4. Store backups to distinct and secure sites (e.g., Seed 1 at residence, Seed 2 with kin, Seed 3 in vault).
+    4. Store backups at distinct and secure sites (e.g., Seed 1 at residence, Seed 2 with kin, Seed 3 in vault).
     5. Affix tamper-evident seals.
 
 ??? warning "4. Export ZPUBs to Transaction-Manager"
-    1. On each [Signing-Device](airgapped-computer.md), load its assigned seed and export ZPUB (SeedSigner: Settings > Advanced > Export XPUB > Multisig, native SegWit; Coldcard Q: Export Wallet > Multisig, native SegWit).
+    1. On each SeedSigner, load its assigned seed and export ZPUB (Settings > Advanced > Export XPUB > Multisig, native SegWit).
     2. Convey ZPUBs via [quarantine](../sovereignty/level-5.md) (QR display on device, camera scan by Transaction-Manager).
     3. Integrate ZPUBs into Sparrow on Transaction-Manager (Tails OS) for a [multisig](../sovereignty/level-7.md) watch-only wallet.
-    4. Confirm Sparrow's descriptor fits 2-of-3.
+    4. Confirm Sparrow's descriptor is 2-of-3.
 
 ??? danger "5. Validate Addresses for Future Deposits"
     1. Produce receive addresses in Sparrow on Tails OS.
-    2. Relay via QR to each [Signing-Device](airgapped-computer.md) for checks (load assigned seed as required).
-    3. Affirm derivation from ZPUB on each device (SeedSigner: Address Explorer; Coldcard Q: Address Explorer).
+    2. Relay via QR to each SeedSigner for checks (load assigned seed as required).
+    3. Affirm derivation from ZPUB on each device (Address Explorer).
     4. Record paths (e.g., m/84'/0'/0'/0 for native SegWit [multisig](../sovereignty/level-7.md)).
     5. Keep an offline roster of validated addresses.
 
@@ -66,9 +66,9 @@ Receive Bitcoin safely. Use unique addresses each time, confirmed through your [
 
 ??? danger "2. Verify Address on Airgapped Device"
     This step is *optional* -- used only when you do not have a pre-verified receive address available.
-    
-    1. Send address data via QR to the [Signing-Devices](airgapped-computer.md) (verify on at least two for redundancy).
-    2. Confirm ZPUB derivation on each device (SeedSigner: Address Explorer; Coldcard Q: Address Explorer).
+
+    1. Send address data via QR to the SeedSigners (verify on at least two for redundancy).
+    2. Confirm ZPUB derivation on each device (Address Explorer).
     3. Validate across seeds for multi-seed assurance.
 
 ??? info "3. Share Address with Sender"
@@ -93,8 +93,8 @@ Receive Bitcoin safely. Use unique addresses each time, confirmed through your [
 
 ## Withdrawal
 
-Spend Bitcoin via [multisig](../sovereignty/level-7.md) signing. Adhere closely to avoid mishaps. 
-Use Signing-Device-1 and Signing-Device-2 for each partial signature to prevent cross-seed leakage.
+Spend Bitcoin via [multisig](../sovereignty/level-7.md) signing. Adhere closely to avoid mishaps.
+Use two of the three SeedSigners for each spend (any 2-of-3), and keep seeds on their assigned devices to prevent cross-seed leakage.
 
 ??? info "1. Create Unsigned Transaction"
     1. Open Sparrow on the Transaction-Manager.
@@ -104,18 +104,18 @@ Use Signing-Device-1 and Signing-Device-2 for each partial signature to prevent 
     5. Export as QR.
 
 ??? warning "2. Transfer Unsigned Transaction to Airgapped Device"
-    1. Convey PSBT via [quarantine](../sovereignty/level-5.md) (QR on Transaction-Manager, scan by SeedSigner or Coldcard Q).
+    1. Convey PSBT via [quarantine](../sovereignty/level-5.md) (QR on Transaction-Manager, scan by SeedSigner).
     2. Ban Internet devices from vicinity.
-    3. Load PSBT on each [Signing-Device](airgapped-computer.md) sans signing.
+    3. Load PSBT on each signing SeedSigner without signing yet.
     4. Scrutinize details on screen (outputs, fees).
 
 ??? danger "3. Sign Transaction"
-    1. On the first [Signing-Device](airgapped-computer.md) (e.g., SeedSigner #1), load its assigned seed (QR scan or manual entry).
-    2. Approve transaction.
-    3. Generate partial signature (SeedSigner: Sign PSBT; Coldcard Q: Sign PSBT; see [multisig guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/multisig/README.md) or [Coldcard multisig](https://coldcard.com/docs/multisig)).
+    1. On the first SeedSigner, load its assigned seed (QR scan or manual entry).
+    2. Approve the transaction.
+    3. Generate partial signature (Sign PSBT; see [multisig guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/multisig/README.md)).
     4. Export partial PSBT as QR (to Transaction-Manager).
     5. Power off the device to clear memory.
-    6. Repeat for the second seed on its [Signing-Device](airgapped-computer.md) (e.g., Coldcard Q or SeedSigner, achieving 2-of-3 [multisig](../sovereignty/level-7.md) threshold).
+    6. Repeat for the second SeedSigner (achieving the 2-of-3 [multisig](../sovereignty/level-7.md) threshold).
 
 ??? warning "4. Combine Signatures and Finalize Transaction"
     1. Return partial signatures to Transaction-Manager via [quarantine](../sovereignty/level-5.md) (device QR scan).
@@ -158,10 +158,10 @@ View balances key-free. Prioritize your [full node](../sovereignty/level-4.md) f
 
 ## Recovery
 
-Restore from backups for key or device loss. Test routinely. Use new [Signing-Devices](airgapped-computer.md) if recovering multiple seeds.
+Restore from backups for key or device loss. Test routinely. Use a new SeedSigner if recovering a seed onto replacement hardware.
 
 ??? info "1. Identify the Issue"
-    1. Pinpoint recovery type (e.g., lost SeedSigner or Coldcard Q, device damage, wallet data erasure).
+    1. Pinpoint recovery type (e.g., lost SeedSigner, device damage, wallet data erasure).
     2. Assemble [metal backups](../sovereignty/level-6.md) and protocol docs.
     3. Evaluate [multisig](../sovereignty/level-7.md) threshold viability (e.g., 2-of-3 post-loss).
     4. If untenable, advance to full seed restoration.
@@ -174,16 +174,16 @@ Restore from backups for key or device loss. Test routinely. Use new [Signing-De
     4. Confirm accuracy.
     5. Manage in seclusion.
 
-??? danger "3. Restore Keys on New Signing-Device"
-    1. Procure new airgapped [Signing-Device](airgapped-computer.md) (SeedSigner or Coldcard Q, one per recovered seed if multiple).
-    2. Input backup seed (SeedSigner: Load Seed; QR scan or manual; Coldcard Q: Import Seed; see [Seed QR guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md) or [Coldcard seed import](https://coldcard.com/docs/)).
+??? danger "3. Restore Keys on New SeedSigner"
+    1. Procure a new airgapped SeedSigner (one per recovered seed if multiple).
+    2. Input backup seed (Load Seed; QR scan or manual; see [Seed QR guide](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/README.md)).
     3. Validate restored wallet (e.g., ZPUB via Export XPUB).
     4. Reproduce data if paths vary (e.g., new ZPUBs).
     5. Shred temporary notes.
 
 ??? warning "4. Rebuild Multisig Wallet Descriptor"
-    1. Export ZPUBs from restored [Signing-Device](airgapped-computer.md) to Transaction-Manager via [quarantine](../sovereignty/level-5.md).
-    2. Recreate [multisig](../sovereignty/level-7.md) descriptor in Sparrow on Tails OS with new ZPUBs.
+    1. Export ZPUBs from restored SeedSigner(s) to Transaction-Manager via [quarantine](../sovereignty/level-5.md).
+    2. Recreate [multisig](../sovereignty/level-7.md) descriptor in Sparrow on Tails OS with the ZPUBs.
     3. Rescan blockchain on [full node](../sovereignty/level-4.md).
     4. Verify UTXOs in Sparrow.
 
@@ -197,20 +197,20 @@ Restore from backups for key or device loss. Test routinely. Use new [Signing-De
 
 ## Maintenance
 
-Sustain protocol integrity with regular tasks. Include device-specific checks.
+Sustain protocol integrity with regular tasks.
 
 ??? danger "1. Verify Metal Backups"
     At least monthly you should inspect the tamper-evident seals, and every few years inspect the metal and reseal.
 
     1. Inspect damage/corrosion.
-    2. Test seed on dedicated [Signing-Device](airgapped-computer.md).
+    2. Test seed on its dedicated SeedSigner.
     3. Reseal and stow.
 
 ??? info "2. Update Software and Firmware"
-    1. Monitor SeedSigner and Coldcard GitHub updates, including any anti-exfil implementations.
+    1. Monitor SeedSigner updates, including any anti-exfil implementations.
     2. Authenticate signatures.
     3. Prioritize Sparrow on Tails OS and [full node](../sovereignty/level-4.md).
-    4. Airgap-update each [Signing-Device](airgapped-computer.md) firmware (source rebuild and verify).
+    4. Airgap-update each SeedSigner firmware (source rebuild and verify).
     5. Assess compatibility.
 
 ??? info "3. Run Full Node Health Checks"
@@ -226,45 +226,3 @@ Sustain protocol integrity with regular tasks. Include device-specific checks.
     3. Time and refine.
     4. Include heirs in dry run if feasible.
     5. Amend protocol doc, as needed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

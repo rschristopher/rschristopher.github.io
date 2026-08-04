@@ -142,8 +142,6 @@ Airgap quarantine steps are highlighted in red.
 
 Choose a device based on your preference for cost, ease of use, or open-source transparency, ensuring it supports air-gapped operation.
 
-- [**Coldcard**](https://coldcard.com): Bitcoin-only, air-gapped, with robust security (secure element, PIN protection). Requires an [air-gapped computer](../appendix/airgapped-computer.md) for QR workflows, using microSD for transaction input.
-- [**Coldcard Mk4**](https://coldcard.com/docs/qr-codes): Adds native QR code support for xPub export and transaction signing. Simplifies airgap workflows but is slightly more expensive.
 - [**SeedSigner**](https://seedsigner.com): DIY, open-source device built on Raspberry Pi Zero. Fully transparent, and QR-native, but requires assembly and technical expertise.
 - [**Specter-DIY**](https://github.com/cryptoadvance/specter-diy): Open-source, DIY device using affordable hardware. Supports QR codes and air-gapped workflows but requires significant setup. Best for advanced users.
 

@@ -1,6 +1,6 @@
 # Appendix: Ludicrous Protocol
 
-This protocol delivers an ultra-secure *3-of-5* [multisig](../sovereignty/level-7.md) Bitcoin self-custody system using **five different [Signing-Devices](airgapped-computer.md)**: three SeedSigners and two Coldcard Qs (one per seed). It leverages an expanded [airgap quarantine](../sovereignty/level-5.md) covering both DMZs, redundant receive-only [full nodes](../sovereignty/level-4.md) (RF and satellite), [metal seed backups](../sovereignty/level-6.md), geographically distributed key signing, and stringent [quarantine rules](../sovereignty/level-5.md) to provide unparalleled protection. By using distinct devices per seed, redundant systems, and advanced countermeasures, this protocol achieves [Level 12](../sovereignty/level-12.md) security, ensuring resilience against state-level threats.
+This protocol delivers an ultra-secure *3-of-5* [multisig](../sovereignty/level-7.md) Bitcoin self-custody system using **five [SeedSigners](https://seedsigner.com/)** (one per seed). It leverages an expanded [airgap quarantine](../sovereignty/level-5.md) covering both DMZs, redundant receive-only [full nodes](../sovereignty/level-4.md) (RF and satellite), [metal seed backups](../sovereignty/level-6.md), geographically distributed key signing, and stringent [quarantine rules](../sovereignty/level-5.md). By dedicating one device per seed, redundant systems, and advanced countermeasures, this protocol achieves [Level 12](../sovereignty/level-12.md) security, ensuring resilience against state-level threats.
 
 !!! info "Receive-only (e.g., satellite) nodes with geographically distributed key signing."
     <figure markdown>
@@ -74,15 +74,15 @@ These rules, when followed meticulously, create a fortress-like barrier around y
 Establish your 3-of-5 [multisig](../sovereignty/level-7.md) wallet with five seeds created on dedicated [Signing-Devices](airgapped-computer.md) (one device per seed). Conduct this in secluded, secure settings across multiple locations, maintaining airgaps and [quarantine procedures](../sovereignty/level-5.md).
 
 ??? info "1. Prepare Secure Environments"
-    1. Acquire five [Signing-Devices](airgapped-computer.md): three SeedSigners and two Coldcard Qs, each for one seed.
-    2. Set up **three secure spaces** for QR transfers in geographically distributed locations: private rooms with no windows or cameras, each equipped with a physical and electronic countermeasures, such as non-electronic white noise generators, and privacy enclosures.
-    3. Install **privacy filters** on all [Signing-Device](airgapped-computer.md) and [Transaction-Manager](airgapped-computer.md) screens.
+    1. Acquire five SeedSigners, each for one seed. Label clearly (e.g., Signing-Device-1 through Signing-Device-5).
+    2. Set up **three secure spaces** for QR transfers in geographically distributed locations: private rooms with no windows or cameras, each equipped with physical and electronic countermeasures, such as non-electronic white noise generators, and privacy enclosures.
+    3. Install **privacy filters** on all SeedSigner and [Transaction-Manager](airgapped-computer.md) screens.
     4. Prepare **camera blockers** for the [Transaction-Managers](airgapped-computer.md).
-    5. Obtain **tamper-evident seals** for the [Signing-Devices](airgapped-computer.md).
-    6. Assemble **two [Transaction-Managers](airgapped-computer.md)** (Tails OS with persistent storage) within the airgap, each linked to a receive-only [full node](level-4.md): e.g., one RF and one satellite.
+    5. Obtain **tamper-evident seals** for the SeedSigners.
+    6. Assemble **two [Transaction-Managers](airgapped-computer.md)** (Tails OS with persistent storage) within the airgap, each linked to a receive-only [full node](../sovereignty/level-4.md): e.g., one RF and one satellite.
     7. Install Sparrow and detection tools (for data exfil attacks like [Dark Skippy](https://darkskippy.com)) on both Transaction-Managers' persistent storage.
-    8. Authenticate and update software and firmware for all devices.
-    9. Designate a **secure drop point** for broadcasting signed transactions, with a [full node](../sovereignty/level-4.md) and a Transaction-Manager running Tail OS and *no persistent storage*. This drop point will be used only for broadcasting signed transactions (everything else will happen within the quarantined airgap).
+    8. Authenticate and update software and firmware for all devices (see [SeedSigner building guide](https://github.com/SeedSigner/seedsigner-os#-building)).
+    9. Designate a **secure drop point** for broadcasting signed transactions, with a [full node](../sovereignty/level-4.md) and a Transaction-Manager running Tails OS and *no persistent storage*. This drop point will be used only for broadcasting signed transactions (everything else will happen within the quarantined airgap).
 
 ??? info "2. Set Up Receive-Only Full Nodes"
     1. **Satellite-Based Full Node**:  
@@ -94,12 +94,12 @@ Establish your 3-of-5 [multisig](../sovereignty/level-7.md) wallet with five see
        - Ensure both nodes are configured as receive-only to maintain the airgap and prevent any outbound data transmission.
 
 ??? danger "3. Generate Seeds"
-    1. Activate each airgapped [Signing-Device](airgapped-computer.md) in its respective secure location, one at a time.
-    2. Generate a seed on each device (SeedSigner: Settings > Seeds > Generate Seed with [dice](dice.md); Coldcard Q: generate with dice). Ensure **privacy filters** are installed to protect displays.
+    1. Activate each SeedSigner in its respective secure location, one at a time.
+    2. Generate a seed (Settings > Seeds > Generate Seed with [dice](dice.md)). Ensure **privacy filters** are installed to protect displays.
     3. Jot the seed phrase on paper temporarily for confirmation.
     4. Validate the seed on the device display.
-    5. Save as QR (SeedSigner: Export Seed QR; Coldcard Q: Export Seed QR).
-    6. Repeat for all five seeds, powering off devices between steps. Label clearly (e.g., "Signing-Device-1", "Signing-Device-2").
+    5. Save as QR (Export Seed QR).
+    6. Repeat for all five seeds, powering off devices between steps.
 
 ??? danger "4. Backup to Metal"
     1. Stamp each seed onto durable [metal backups](../sovereignty/level-6.md).
@@ -108,7 +108,7 @@ Establish your 3-of-5 [multisig](../sovereignty/level-7.md) wallet with five see
     4. Store backups in distinct, secure sites with **tamper-evident seals**.
 
 ??? warning "5. Export ZPUBs to Transaction-Managers"
-    1. On each [Signing-Device](airgapped-computer.md), load its seed and export ZPUB (SeedSigner: Export XPUB > Multisig; Coldcard Q: Export Wallet > Multisig).
+    1. On each SeedSigner, load its seed and export ZPUB (Export XPUB > Multisig).
     2. **Following secure QR transfer procedures**, convey ZPUBs via QR to both [Transaction-Managers](airgapped-computer.md) within the airgap.
     3. Integrate ZPUBs into Sparrow on both Transaction-Managers for a 3-of-5 [multisig](../sovereignty/level-7.md) watch-only wallet.
 

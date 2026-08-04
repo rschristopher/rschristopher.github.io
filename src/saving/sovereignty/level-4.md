@@ -6,7 +6,7 @@
       <figcaption>Level 4 -- introducing a Full Bitcoin Node</figcaption>
     </figure>
 
-Running a Bitcoin full node enhances your self-custody by allowing your **transaction manager** to verify transactions and balances against your own copy of the Bitcoin blockchain. This eliminates reliance on third-party nodes, boosting privacy and security. In Level 4, you’ll integrate a full node into the setup from [Level 3](../level-3), using it to support your transaction manager while keeping private keys offline on a dedicated signing device like a [Coldcard](https://coldcard.com/).
+Running a Bitcoin full node enhances your self-custody by allowing your **transaction manager** to verify transactions and balances against your own copy of the Bitcoin blockchain. This eliminates reliance on third-party nodes, boosting privacy and security. In Level 4, you’ll integrate a full node into the setup from [Level 3](../level-3), using it to support your transaction manager while keeping private keys offline on a dedicated signing device like a [SeedSigner](https://seedsigner.com/).
 
 !!! warning "No paid nor *influenced* content -- all views are from personal experience"
 
