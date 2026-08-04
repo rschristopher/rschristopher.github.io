@@ -3673,18 +3673,18 @@ Private keys will be managed in an offline signing device
 <p>A hardware wallet runs firmware written by someone else,
  on hardware built by someone else.
 You are trusting that stack with your keys.</p>
-<p>Coldcard (Coinkite) shipped firmware with a broken random number generator.
+<p>From 2021 to 2026 Coldcard (Coinkite) contained firmware with a broken random number generator.
 Seeds created on affected devices were weak enough that attackers
- could recreate them offline and empty wallets
- without physical access to any device.
-See <a href="https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware">Block's analysis</a>.
+ could recreate them offline and drain wallets
+ without physical access to any device
+ (see <a href="https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware">Block's analysis</a>).
 If the device that generated your seed was broken,
  a metal backup of that same seed does not save you.
 We do not recommend Coldcard.</p>
 <p>Ledger's <a href="https://www.ledger.com/addressing-the-july-2020-e-commerce-and-marketing-data-breach">2020 data breach</a>
  leaked customer emails, names, phone numbers, and physical addresses.
 That kind of leak can and does lead to home invasions.</p>
-<p>Prefer open-source, air-gapped, Bitcoin-only tools
+<p>Use open-source, air-gapped, Bitcoin-only tools
  (SeedSigner is the example we use here).
 Generate entropy you can verify yourself
  (see <a href="../../appendix/dice/">dice</a>).</p>

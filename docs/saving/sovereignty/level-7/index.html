@@ -3639,7 +3639,7 @@ A well-defined <em>protocol</em>—a set of step-by-step instructions—is essen
 <h2 id="challenges-of-multisig">Challenges of Multisig<a class="headerlink" href="#challenges-of-multisig" title="Permanent link">&para;</a></h2>
 <p>Multisig setups are inherently more demanding than single-signature wallets. Here are the key challenges and how a protocol mitigates them:</p>
 <ol>
-<li><strong>Technical Complexity</strong>: Configuring multisig requires coordinating multiple hardware wallets (e.g., <a href="https://coldcard.com/">Coldcard</a>, <a href="https://seedsigner.com/">SeedSigner</a>) and compatible software (e.g., <a href="https://electrum.org/">Electrum</a>, <a href="https://sparrowwallet.com/">Sparrow Wallet</a>). A protocol provides step-by-step guidance, making the process accessible to non-technical users.</li>
+<li><strong>Technical Complexity</strong>: Configuring multisig requires coordinating multiple hardware wallets (e.g., <a href="https://seedsigner.com/">SeedSigner</a>) and compatible software (e.g., <a href="https://electrum.org/">Electrum</a>, <a href="https://sparrowwallet.com/">Sparrow Wallet</a>). A protocol provides step-by-step guidance, making the process accessible to non-technical users.</li>
 <li><strong>Key Management</strong>: Storing multiple keys securely in separate locations (e.g., safes, safety deposit boxes) while ensuring accessibility is daunting. A protocol outlines best practices for storage, backup, and tamper-evident measures.</li>
 <li><strong>Transaction Coordination</strong>: Signing transactions with multiple keys, especially across air-gapped devices, is time-consuming and error-prone. A protocol streamlines the process with clear instructions for signing and broadcasting.</li>
 <li><strong>Recovery and Inheritance</strong>: Without documentation, recovering funds or passing them to heirs is nearly impossible. A protocol includes recovery steps and instructions for trusted parties, reducing reliance on the primary user’s expertise.</li>
@@ -3653,7 +3653,7 @@ A well-defined <em>protocol</em>—a set of step-by-step instructions—is essen
 <p><strong>Choose Your Multisig Setup</strong>:</p>
 <ul>
 <li>Decide on the key configuration (e.g., <em>2-of-3</em>, <em>3-of-5</em>) based on your security needs.</li>
-<li>Use reputable signing devices like Coldcard or SeedSigner, which support multisig.</li>
+<li>Use reputable signing devices like SeedSigner, which support multisig.</li>
 <li>Choose software that supports multisig, such as <a href="https://electrum.org/">Electrum</a>, <a href="https://sparrowwallet.com/">Sparrow Wallet</a>, or <a href="https://specter.solutions/">Specter</a>. These tools coordinate key setup and transaction signing.</li>
 </ul>
 </li>
@@ -3684,7 +3684,7 @@ A well-defined <em>protocol</em>—a set of step-by-step instructions—is essen
 <p>The level of security required for your Bitcoin custody depends on your threat model. A protocol benefits all levels of security, but at the higher levels involving multisig, it is essential to manage complexity and ensure reliability.</p>
 <ul>
 <li><strong>Minimal Security</strong>: A mobile app hot wallet (e.g., BlueWallet or Phoenix) may suffice for small amounts or users unconcerned about potential loss. A simple protocol can still help by documenting backup and recovery steps, reducing the risk of errors.</li>
-<li><strong>Baseline Security</strong>: Using a hardware wallet like a <a href="https://coldcard.com/">Coldcard</a> or <a href="https://seedsigner.com/">SeedSigner</a> with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.</li>
+<li><strong>Baseline Security</strong>: Using a hardware wallet like a <a href="https://seedsigner.com/">SeedSigner</a> with a single-signature setup and proper seed phrase backup provides robust protection. A protocol ensures consistent key management and inheritance planning.</li>
 <li><strong>Advanced Security</strong>: Multisig setups, such as a 2-of-3 or 3-of-5 key arrangement, add redundancy and resilience. A protocol is critical here to coordinate multiple keys, streamline transaction signing, and guide non-technical users or heirs.</li>
 <li><strong>Ridiculous Security</strong>: For protection against sophisticated threats -- like hostile nation-states (such as North Korea or <a href="https://bitcoinmagazine.com/culture/bitcoin-passes-canada-trucker-protest-test">Canada</a>) -- use a high-threshold multisig, geographically distributed keys, air-gapped devices, and self-hosted full nodes. </li>
 <li><strong>Ludicrous Security</strong>: For NSA-level threats and nuclear-launch-code levels of security.</li>

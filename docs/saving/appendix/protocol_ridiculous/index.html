@@ -3540,7 +3540,7 @@
 
 
 <h1 id="appendix-ridiculous-protocol">Appendix: Ridiculous Protocol<a class="headerlink" href="#appendix-ridiculous-protocol" title="Permanent link">&para;</a></h1>
-<p>This protocol delivers an ultra-secure <em>3-of-5</em> <a href="../../sovereignty/level-7/">multisig</a> Bitcoin self-custody system using <strong>five different <a href="../airgapped-computer/">Signing-Devices</a></strong>: three SeedSigners and two Coldcard Qs (one per seed). It leverages an <a href="../../sovereignty/level-5/">airgap quarantine</a>, a <a href="../../sovereignty/level-4/">full node</a> for verification, <a href="../../sovereignty/level-6/">metal seed backups</a>, and stringent <a href="../../sovereignty/level-5/">quarantine rules</a> to provide unparalleled protection. By using distinct devices per seed and implementing advanced countermeasures, this protocol achieves <a href="../../sovereignty/level-11/">Level 11</a> security.</p>
+<p>This protocol delivers an ultra-secure <em>3-of-5</em> <a href="../../sovereignty/level-7/">multisig</a> Bitcoin self-custody system using <strong>five <a href="https://seedsigner.com/">SeedSigners</a></strong> (one per seed). It leverages an <a href="../../sovereignty/level-5/">airgap quarantine</a>, a <a href="../../sovereignty/level-4/">full node</a> for verification, <a href="../../sovereignty/level-6/">metal seed backups</a>, and stringent <a href="../../sovereignty/level-5/">quarantine rules</a>. By dedicating one device per seed and implementing advanced countermeasures, this protocol achieves <a href="../../sovereignty/level-11/">Level 11</a> security.</p>
 <hr />
 <h2 id="secure-environment-and-countermeasures">Secure Environment and Countermeasures<a class="headerlink" href="#secure-environment-and-countermeasures" title="Permanent link">&para;</a></h2>
 <p>To safeguard against advanced threats, all QR code transfers must be conducted in a <strong>secure environment</strong> with the following countermeasures:</p>
@@ -3557,29 +3557,29 @@
 <p>Regular firmware checks must be performed on all <a href="../airgapped-computer/">Signing-Devices</a> using tools to detect anomalies (e.g., <a href="https://darkskippy.com">Dark Skippy</a>).</p>
 <hr />
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Establish your 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> wallet with five seeds created on dedicated <a href="../airgapped-computer/">Signing-Devices</a> (one device per seed). Conduct this in a secluded, secure setting, maintaining airgaps and <a href="../../sovereignty/level-5/">quarantine procedures</a>.</p>
+<p>Establish your 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> wallet with five seeds created on dedicated SeedSigners (one device per seed). Conduct this in a secluded, secure setting, maintaining airgaps and <a href="../../sovereignty/level-5/">quarantine procedures</a>.</p>
 <details class="info">
 <summary>1. Prepare Secure Environments</summary>
 <ol>
-<li>Acquire five <a href="../airgapped-computer/">Signing-Devices</a>: three SeedSigners and two Coldcard Qs, each for one seed.</li>
+<li>Acquire five SeedSigners, each for one seed. Label clearly (e.g., Signing-Device-1 through Signing-Device-5).</li>
 <li>Set up a <strong>secure space</strong> for QR transfers: a private room with no windows or cameras, equipped with a Faraday cage, white noise generators, and a privacy enclosure.</li>
-<li>Install <strong>privacy filters</strong> on all <a href="../airgapped-computer/">Signing-Device</a> and <a href="../airgapped-computer/">Transaction-Manager</a> screens.</li>
+<li>Install <strong>privacy filters</strong> on all SeedSigner and <a href="../airgapped-computer/">Transaction-Manager</a> screens.</li>
 <li>Prepare <strong>camera blockers</strong> for the <a href="../airgapped-computer/">Transaction-Manager</a>.</li>
-<li>Obtain <strong>tamper-evident seals</strong> for the <a href="../airgapped-computer/">Signing-Devices</a>.</li>
-<li>Assemble the <a href="../airgapped-computer/">Transaction-Manager</a> (Tails OS with persistent storage), linked to your <a href="level-4.md">full node</a>.</li>
+<li>Obtain <strong>tamper-evident seals</strong> for the SeedSigners.</li>
+<li>Assemble the <a href="../airgapped-computer/">Transaction-Manager</a> (Tails OS with persistent storage), linked to your <a href="../../sovereignty/level-4/">full node</a>.</li>
 <li>Install Sparrow and <a href="https://darkskippy.com">Dark Skippy</a> detection tools on Tails OS persistent storage.</li>
-<li>Authenticate and update software and firmware for all devices.</li>
+<li>Authenticate and update software and firmware for all devices (see <a href="https://github.com/SeedSigner/seedsigner-os#-building">SeedSigner building guide</a>).</li>
 </ol>
 </details>
 <details class="danger">
 <summary>2. Generate Seeds</summary>
 <ol>
-<li>Activate each airgapped <a href="../airgapped-computer/">Signing-Device</a>, one at a time.</li>
-<li>Generate a seed on each device (SeedSigner: Settings &gt; Seeds &gt; Generate Seed with <a href="../dice/">dice</a>; Coldcard Q: generate with dice). Ensure <strong>privacy filters</strong> are installed to protect displays.</li>
+<li>Activate each SeedSigner one at a time.</li>
+<li>Generate a seed (Settings &gt; Seeds &gt; Generate Seed with <a href="../dice/">dice</a>). Ensure <strong>privacy filters</strong> are installed to protect displays.</li>
 <li>Jot the seed phrase on paper temporarily for confirmation.</li>
 <li>Validate the seed on the device display.</li>
-<li>Save as QR (SeedSigner: Export Seed QR; Coldcard Q: Export Seed QR).</li>
-<li>Repeat for all five seeds, powering off devices between steps. Label clearly (e.g., "Signing-Device-1", "Signing-Device-2").</li>
+<li>Save as QR (Export Seed QR).</li>
+<li>Repeat for all five seeds, powering off devices between steps.</li>
 </ol>
 </details>
 <details class="danger">
@@ -3594,10 +3594,10 @@
 <details class="warning">
 <summary>4. Export ZPUBs to Transaction-Managers</summary>
 <ol>
-<li>On each <a href="../airgapped-computer/">Signing-Device</a>, load its seed and export ZPUB (SeedSigner: Export XPUB &gt; Multisig; Coldcard Q: Export Wallet &gt; Multisig).</li>
+<li>On each SeedSigner, load its seed and export ZPUB (Export XPUB &gt; Multisig).</li>
 <li><strong>Following secure QR transfer procedures</strong>, convey ZPUBs via QR to the redundant <a href="../airgapped-computer/">Transaction-Managers</a>.</li>
 <li>Integrate ZPUBs into Sparrow for a 3-of-5 <a href="../../sovereignty/level-7/">multisig</a> watch-only wallet.</li>
-<li>Comfirm wallet fingerprint and addresses match identically between the two Transaction-Managers.</li>
+<li>Confirm wallet fingerprint and addresses match identically between the two Transaction-Managers.</li>
 </ol>
 </details>
 <details class="danger">
