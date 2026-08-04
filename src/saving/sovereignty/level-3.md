@@ -18,15 +18,15 @@ Public keys will be managed in a **transaction manager**
 Private keys will be managed in an offline signing device
  (used only for spending Bitcoin).
 
-While there are many alternatives-- we will use
+While there are many alternatives -- we will use
  [SeedSigner](https://seedsigner.com/)
  as an example, but any offline signing device can be used.
 
 
-!!! warning "Beware of Hardware Wallets"
+!!! danger "Beware of Hardware Wallets"
     A hardware wallet runs firmware written by someone else,
      on hardware built by someone else.
-    You are trusting that stack with your keys.
+    You are trusting both the intentions and the competence of everyone involved in building and marketing (and even shipping) the device to you.
 
     From 2021 to 2026 Coldcard (Coinkite) contained firmware with a broken random number generator.
     Seeds created on affected devices were weak enough that attackers
